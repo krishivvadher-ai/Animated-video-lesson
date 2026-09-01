@@ -143,5 +143,14 @@
   "theyearafter",
   "thisyear",
   "\u00a3"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "too_small": [
+  {
+   "t": 21.67,
+   "text": "\u00a3",
+   "per_line": 0.103
+  }
  ]
 }

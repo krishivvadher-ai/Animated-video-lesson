@@ -68,7 +68,9 @@ class MasterScale(VGroup):
         # never let a label run off the frame
         over = lab.get_right()[0] - 6.85
         if over > 0:
-            lab.scale(max(0.55, 1 - over / max(lab.width, 0.01)))
+            # shrink only a little; past that, move it instead of making it
+            # too small to read
+            lab.scale(max(0.82, 1 - over / max(lab.width, 0.01)))
             lab.next_to(ln, RIGHT, buff=0.28)
             if lab.get_right()[0] > 6.85:
                 lab.shift(LEFT * (lab.get_right()[0] - 6.85))

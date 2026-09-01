@@ -66,7 +66,7 @@ class Chapter06(Chapter):
         self.beat()
 
         note = cards.note("Build now → the chance is gone.", color=WAIT, size=T_BODY, width=30)
-        note.move_to(RIGHT * 3.9 + UP * 2.2)
+        note.move_to(RIGHT * 4.0 + UP * 2.9)
         with self.narrate("Build now, and the chance to wait is gone for ever. She has "
                           "to be paid for that, and the gap is the price."):
             self.play(FadeIn(note), run_time=0.8)
@@ -76,7 +76,7 @@ class Chapter06(Chapter):
         # --------------------------------------------------- the mirror
         mirror = cards.body("And there is a mirror image on the way down.",
                             size=T_SUB, color=CHALK, width=26)
-        mirror.move_to(RIGHT * 3.9 + UP * 1.6)
+        mirror.move_to(RIGHT * 4.0 + UP * 2.9)
         with self.narrate("There is a mirror image of this on the way down, and "
                           "chapter ten builds it properly."):
             self.play(FadeIn(mirror), run_time=0.8)

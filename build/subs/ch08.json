@@ -244,5 +244,8 @@
   "twodials\u2192onemultiplier",
   "verycertain\u2192multiplier1\u2192Marshallright",
   "\u00a3"
- ]
+ ],
+ "collisions": [],
+ "low_content": [],
+ "too_small": []
 }

@@ -171,5 +171,27 @@
   "risknowvsrisklater",
   "startexactlyonthetextbook'sline",
   "\u00a3"
- ]
+ ],
+ "collisions": [
+  {
+   "t": 39.97,
+   "a": "",
+   "b": "abovetheline\u2192build.Else,never.",
+   "overlap": 0.65
+  },
+  {
+   "t": 48.57,
+   "a": "",
+   "b": "abovetheline\u2192build.Else,never.",
+   "overlap": 0.65
+  },
+  {
+   "t": 49.37,
+   "a": "",
+   "b": "abovetheline\u2192build.Else,never.",
+   "overlap": 0.65
+  }
+ ],
+ "low_content": [],
+ "too_small": []
 }

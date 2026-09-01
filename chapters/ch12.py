@@ -79,7 +79,7 @@ class Chapter12(Chapter):
             "near the trigger → worth building",
         ], color=WAIT, width=20, dotc=WAIT, size=T_SMALL)
         cards.fit(shape, 5.0, 3.2)
-        shape.move_to(LEFT * 4.3 + UP * 0.9)
+        shape.move_to(LEFT * 4.4 + DOWN * 1.7)
         says = ["When revenue is very low, the chance is nearly worthless — things would "
                 "have to improve enormously, and that is a long way off.",
                 "As revenue rises the chance is worth more, and worth more faster. That "
@@ -110,7 +110,7 @@ class Chapter12(Chapter):
             "touching → exactly right",
         ], color=CHALK, width=20, dotc=TRIGGER, size=T_SMALL)
         cards.fit(why, 5.0, 3.2)
-        why.move_to(LEFT * 4.3 + UP * 0.9)
+        why.move_to(LEFT * 4.4 + DOWN * 1.7)
         says2 = ["And that touching is doing real work. If the two lines crossed, "
                  "waiting would still be worth more just past the meeting point — so "
                  "she would not build there after all.",
@@ -138,7 +138,7 @@ class Chapter12(Chapter):
 
         note = cards.note("The paper works the touching point out with calculus. We are "
                           "about to get the same answer with a square root.", width=60)
-        note.to_edge(UP, buff=0.4)
+        note.to_edge(DOWN, buff=0.62)
         with self.narrate("The paper finds that touching point with calculus. We are "
                           "about to get exactly the same answer with a square root."):
             self.play(FadeIn(note), run_time=1.0)

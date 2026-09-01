@@ -61,13 +61,13 @@ class Chapter02(Chapter):
             self.play(FadeIn(sc.title), run_time=0.7)
         self.beat()
 
-        build = sc.add_level("M", 1.10, "BUILD above here", COST, number=None)
+        build = sc.add_level("M", 1.10, "BUILD above", COST, number=None)
         with self.narrate("Marshall's first half. If the money coming in clears the "
                           "long-run average cost — everything, including the building "
                           "— then build. Expand. Enter the trade."):
             self.play(Create(build[0]), FadeIn(build[1]), run_time=1.2)
 
-        quit_ = sc.add_level("C", 1.00, "SHUT DOWN below here", SUNK)
+        quit_ = sc.add_level("C", 1.00, "SHUT DOWN below", SUNK)
         with self.narrate("Marshall's second half. If the money coming in drops below "
                           "the average variable cost — if a chair no longer covers even "
                           "the wood and the wages — then stop. Shut down, or leave."):

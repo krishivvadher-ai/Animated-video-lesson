@@ -162,7 +162,7 @@ class Chapter(ThreeDScene):
                 self.low_content.append({"t": t, "text": (label or "")[:60],
                                          "bottom": round(b[1], 2)})
         for label, b, is_text in items:
-            if not is_text or not label:
+            if not is_text or not label or len(label.strip()) < 3:
                 continue
             lines = max(1, label.count("\n") + 1)
             per_line = (b[3] - b[1]) / lines
@@ -171,7 +171,8 @@ class Chapter(ThreeDScene):
             if per_line < 0.20:
                 self.too_small.append({"t": t, "text": label[:52],
                                        "per_line": round(per_line, 3)})
-        texts = [(l, b) for l, b, is_text in items if is_text]
+        texts = [(l, b) for l, b, is_text in items
+                 if is_text and l and len(l.strip()) >= 3]
         for i, (l1, b1) in enumerate(texts):
             for l2, b2 in texts[i + 1:]:
                 ox = min(b1[2], b2[2]) - max(b1[0], b2[0])

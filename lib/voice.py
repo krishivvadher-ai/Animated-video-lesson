@@ -89,7 +89,12 @@ def speak(text, voice="n"):
         s = s / peak * 0.89                      # normalise every line alike
         tail = np.zeros(int(audio.sample_rate * 0.18), dtype=np.float32)
         s = np.concatenate([s, tail])
-        wavfile.write(str(path), audio.sample_rate, (s * 32767).astype(np.int16))
+        # written aside then renamed, so several chapters can render at once
+        # without ever seeing a half-written file
+        import os
+        tmp = path.with_suffix(f".{os.getpid()}.tmp")
+        wavfile.write(str(tmp), audio.sample_rate, (s * 32767).astype(np.int16))
+        os.replace(tmp, path)
     with wave.open(str(path)) as w:
         dur = w.getnframes() / float(w.getframerate())
     return str(path), dur

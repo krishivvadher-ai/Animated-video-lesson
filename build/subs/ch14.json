@@ -150,5 +150,24 @@
   "totalchance:mattersshapeofthegoodones:doesnot",
   "waitingimpossible\u2192textbookvalid",
   "\u201cofpossiblefutureoutcomes,onlytheunfavorableoneshaveabearingonthecurrentpropensitytoundertakeagivenproject\u201d"
- ]
+ ],
+ "collisions": [],
+ "low_content": [
+  {
+   "t": 143.4,
+   "text": "goodfutureskeep\u00b7waitingguardsthebadones",
+   "bottom": -3.63
+  },
+  {
+   "t": 152.23,
+   "text": "goodfutureskeep\u00b7waitingguardsthebadones",
+   "bottom": -3.63
+  },
+  {
+   "t": 153.03,
+   "text": "goodfutureskeep\u00b7waitingguardsthebadones",
+   "bottom": -3.63
+  }
+ ],
+ "too_small": []
 }

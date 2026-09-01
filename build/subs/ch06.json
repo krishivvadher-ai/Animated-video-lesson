@@ -116,5 +116,51 @@
   "thetrigger",
   "triggerabovethetextbookline",
   "waitingcostsforgoneprofit"
- ]
+ ],
+ "collisions": [
+  {
+   "t": 77.33,
+   "a": "therealbuild-line",
+   "b": "Andthereisamirrorimageonthewaydown.",
+   "overlap": 1.0
+  },
+  {
+   "t": 83.13,
+   "a": "therealbuild-line",
+   "b": "Andthereisamirrorimageonthewaydown.",
+   "overlap": 1.0
+  },
+  {
+   "t": 84.03,
+   "a": "therealbuild-line",
+   "b": "Andthereisamirrorimageonthewaydown.",
+   "overlap": 1.0
+  },
+  {
+   "t": 89.4,
+   "a": "therealbuild-line",
+   "b": "Andthereisamirrorimageonthewaydown.",
+   "overlap": 1.0
+  },
+  {
+   "t": 90.6,
+   "a": "therealbuild-line",
+   "b": "Andthereisamirrorimageonthewaydown.",
+   "overlap": 1.0
+  },
+  {
+   "t": 100.37,
+   "a": "therealbuild-line",
+   "b": "Andthereisamirrorimageonthewaydown.",
+   "overlap": 1.0
+  },
+  {
+   "t": 101.17,
+   "a": "therealbuild-line",
+   "b": "Andthereisamirrorimageonthewaydown.",
+   "overlap": 1.0
+  }
+ ],
+ "low_content": [],
+ "too_small": []
 }
