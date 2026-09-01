@@ -38,7 +38,7 @@ CARD_HOLD = 4.0    # a definition card stays up at least this long
 SAFE_W = 12.4      # usable width in manim units (screen is 14.22)
 SAFE_H = 6.8
 
-TOTAL_CHAPTERS = 39   # 0..38
+TOTAL_CHAPTERS = 44   # 0..43
 
 
 def apply():

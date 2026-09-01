@@ -5,134 +5,110 @@ from lib.base import Chapter
 from lib import stick, cards, widgets as W
 from lib.theme import *
 
-
 class Chapter22(Chapter):
     CH = 22
-    TITLE = "Channels two and three: saying so, and oiling the wheels"
+    TITLE = "Money, and who is in charge of it"
     PART = "PART TWO — THE POLICY"
-    RECAP_ICONS = ["signal", "clock", "risk", "people"]
+    RECAP_ICONS = ['bank', 'money', 'lever', 'clock']
 
     def body(self):
-        # ---------------------------------------------------- signalling
-        head = Text("Channel two — signalling", font=FONT, font_size=T_SUB,
-                    color=WAIT).to_edge(UP, buff=0.7)
+        kit = stick.kit(scale=1.0).shift(LEFT * 4.8 + DOWN * 0.7)
+        kl = kit.label()
+        with self.narrate("Part Two starts from nothing again. Nothing here assumes you "
+                          "know what a central bank is, or an interest rate, or a bond. "
+                          "We build all of them from scratch, exactly as we built cost "
+                          "and revenue."):
+            self.play(FadeIn(kit), FadeIn(kl), run_time=0.8)
+
+        with self.narrate("And there is one new person. This is Kit. He is a student, "
+                          "and the argument in this half of the film is his. He notices "
+                          "things, gets excited about them, and then talks himself down "
+                          "when the evidence will not carry him. That last part is the "
+                          "whole point of Part Two."):
+            self.play(kit.mood("thinking"), run_time=0.5)
+            self.play(kit.nod(), run_time=0.8)
+
+        self.define("central bank", "The public body that looks after a country's "
+                    "money. The Bank of England is ours.", "bank", SRC_BR,
+                    at=RIGHT * 1.6, hold=4.4)
+        self.define("interest", "The extra a borrower pays a lender for the use of the "
+                    "money.", "money", MONEY, at=RIGHT * 1.6, hold=4.0)
+
+        # ------------------------------------------------- interest rate, worked
+        lender = stick.StickFigure("a lender", CHALK, scale=0.8).shift(RIGHT * 0.6 + UP * 0.9)
+        borrower = stick.StickFigure("a borrower", CHALK, scale=0.8).shift(RIGHT * 5.2 + UP * 0.9)
+        a1 = W.flow_arrow(lender.get_right() + RIGHT * 0.3, borrower.get_left() + LEFT * 0.3, MONEY)
+        t1 = Text("£100 now", font=FONT, font_size=T_SMALL, color=MONEY).next_to(a1, UP, buff=0.14)
+        a2 = W.flow_arrow(borrower.get_left() + LEFT * 0.3 + DOWN * 1.2,
+                          lender.get_right() + RIGHT * 0.3 + DOWN * 1.2, MONEY)
+        t2 = Text("£105 in a year", font=FONT, font_size=T_SMALL, color=MONEY).next_to(a2, DOWN, buff=0.14)
+        with self.narrate("Here is what an interest rate means, with numbers. Borrow a "
+                          "hundred pounds at five per cent, and you pay back a hundred "
+                          "and five after a year."):
+            self.play(FadeIn(lender), FadeIn(borrower), run_time=0.7)
+            self.play(Create(a1), FadeIn(t1), run_time=0.9)
+            self.play(Create(a2), FadeIn(t2), run_time=0.9)
+        self.beat()
+        self.define("interest rate", "How much extra, as a percentage per year.",
+                    "money", MONEY, at=DOWN * 2.0, hold=3.6)
+        self.play(FadeOut(VGroup(lender, borrower, a1, a2, t1, t2)), run_time=0.5)
+
+        self.define("monetary policy", "The things a central bank does to make "
+                    "borrowing easier or harder across the whole country.",
+                    "lever", SRC_BR, at=RIGHT * 1.6, hold=4.6)
+
+        # ------------------------------------------------- 2008
+        self.clear_stage()
+        head = Text("2008, in ninety seconds", font=FONT, font_size=T_SUB,
+                    color=CHALK).to_edge(UP, buff=0.7)
         self.play(FadeIn(head), run_time=0.5)
 
-        gov = stick.governor(scale=0.95).move_to(LEFT * 4.4 + DOWN * 0.6)
-        self.play(FadeIn(gov), run_time=0.6)
-        with self.narrate("The second channel does not need the money to go anywhere at "
-                          "all. It works purely through what the action tells everybody."):
-            pass
+        gov = stick.governor(scale=1.1).shift(LEFT * 4.0 + DOWN * 0.3)
+        gl = gov.label()
+        with self.narrate("Meet the Governor. He runs the central bank. He is "
+                          "well-meaning, he holds the levers, and he is genuinely "
+                          "trying to help. He is not the villain of this film. There "
+                          "isn't one."):
+            self.play(FadeIn(gov), FadeIn(gl), run_time=0.9)
 
-        waves = VGroup(*[Arc(radius=r, start_angle=-PI / 2.6, angle=PI * 0.75,
-                             color=WAIT, stroke_width=4)
-                         .move_to(gov.get_right() + RIGHT * r * 0.5)
-                         for r in (0.9, 1.5, 2.1)])
-        msgs = cards.bullet_list([
-            "“We expect to keep rates low for a long time yet.”",
-            "“Here is our reading of how bad things are.”",
-            "“And we are committed to hitting our target, even down here.”",
-        ], color=WAIT, width=30, dotc=WAIT)
-        msgs.move_to(RIGHT * 2.2 + UP * 0.5)
-        says = ["By loosening policy this much, the Bank is saying it expects to keep "
-                "rates low for a long time yet.",
-                "It is revealing its own reading of how bad things are.",
-                "And by acting at all, it is showing that it is still committed to its "
-                "target, and still confident it can hit it — even down at the floor."]
-        for i in range(3):
-            with self.narrate(says[i]):
-                self.play(FadeIn(waves[i]), FadeIn(msgs[i], shift=RIGHT * 0.2),
-                          run_time=0.9)
+        track = Line(RIGHT * 1.4 + UP * 2.0, RIGHT * 1.4 + DOWN * 2.0,
+                     color=MUTED, stroke_width=4)
+        floor = Line(RIGHT * 0.7 + DOWN * 2.0, RIGHT * 2.1 + DOWN * 2.0,
+                     color=COST, stroke_width=6)
+        fl = Text("zero", font=FONT, font_size=T_SMALL, color=COST).next_to(floor, RIGHT, buff=0.25)
+        handle = ValueTracker(1.7)
+        knob = always_redraw(lambda: VGroup(
+            Line(RIGHT * 0.9 + UP * handle.get_value(), RIGHT * 1.9 + UP * handle.get_value(),
+                 color=SRC_BR, stroke_width=8),
+            Text("the interest rate", font=FONT, font_size=T_SMALL, color=SRC_BR)
+            .move_to(RIGHT * 3.6 + UP * handle.get_value())))
+        self.play(Create(track), Create(floor), FadeIn(fl), FadeIn(knob), run_time=1.0)
+
+        with self.narrate("After the crash of two thousand and eight, the Bank wanted "
+                          "people and businesses to spend and build. So it did the "
+                          "usual thing. It cut the rate."):
+            self.play(handle.animate.set_value(0.6), run_time=1.6)
+            self.play(gov.point_at(track), run_time=0.6)
+        with self.narrate("And it cut it again. And again."):
+            self.play(handle.animate.set_value(-1.1), run_time=1.4)
+            self.play(handle.animate.set_value(-1.85), run_time=1.2)
+        with self.narrate("And by two thousand and nine the rate was almost at zero. "
+                          "The lever had hit the floor. You cannot cut much below "
+                          "nothing."):
+            self.play(handle.animate.set_value(-1.96), run_time=1.0)
+            self.play(gov.mood("worried"), run_time=0.5)
         self.beat()
-        anchor = cards.body("expectations stay anchored",
-                            size=T_BODY, color=WAIT, width=44)
-        anchor.to_edge(DOWN, buff=0.7)
-        with self.narrate("Which helps keep people's expectations of future inflation "
-                          "anchored. And expectations, as chapter twenty-five will "
-                          "show, are themselves a lever."):
-            self.play(FadeIn(anchor), run_time=1.0)
-        self.beat()
-        self.clear_stage()
-
-        # ---------------------------------------------------- liquidity
-        head2 = Text("Channel three — liquidity", font=FONT, font_size=T_SUB,
-                     color=MONEY).to_edge(UP, buff=0.7)
-        self.play(FadeIn(head2), run_time=0.5)
-
-        self.define("liquidity", "How easily you can sell it.", "flow", MONEY, hold=4.2)
-
-        seller = stick.StickFigure("", CHALK, scale=0.8).move_to(LEFT * 4.0 + DOWN * 0.4)
-        asset = W.ticket(MUTED, "something\nto sell", 0.7).move_to(LEFT * 1.4 + DOWN * 0.4)
-        empty = cards.body("no buyers", size=T_SUB, color=COST, width=16)
-        empty.move_to(RIGHT * 2.4 + DOWN * 0.4)
-        with self.narrate("When markets seize up, you may not be able to find a buyer "
-                          "at all. So investors demand a higher return to compensate "
-                          "them for that risk."):
-            self.play(FadeIn(seller), FadeIn(asset), run_time=0.8)
-            self.play(FadeIn(empty), seller.mood("worried"), run_time=0.8)
-        self.define("liquidity premium", "The extra return for maybe not being able to sell.", "risk", COST,
-                    at=UP * 1.8, hold=4.4)
-
-        buyers = VGroup(*[stick.StickFigure("", CHALK, scale=0.5) for _ in range(4)])
-        buyers.arrange(RIGHT, buff=0.7).move_to(RIGHT * 2.6 + DOWN * 0.4)
-        with self.narrate("A central bank buying on a very large scale is, among other "
-                          "things, a buyer. It puts trading back into the market, and "
-                          "that premium comes down."):
-            self.play(FadeOut(empty), FadeIn(buyers), seller.mood("pleased"),
-                      run_time=1.0)
-        self.beat()
-        small = cards.body("probably only while the buying lasts", size=T_BODY, color=SRC_BR, width=46)
-        small.to_edge(DOWN, buff=0.7)
-        with self.narrate("But the authors are careful about this one. The effect "
-                          "probably lasts only while the purchases are going on. And in "
-                          "gilt markets, which are normally very liquid anyway, it may "
-                          "be small."):
-            self.play(FadeIn(small), run_time=1.2)
-        self.beat()
-        self.clear_stage()
-
-        # ---------------------------------------------------- what we can see
-        head3 = Text("So which of the three actually did the work?",
-                     font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
-        self.play(FadeIn(head3), run_time=0.5)
-
-        three = VGroup(
-            VGroup(cards.icon("people", TRIGGER, 1.8),
-                   cards.body("portfolio rebalancing", size=T_SMALL, color=TRIGGER, width=14)),
-            VGroup(cards.icon("signal", WAIT, 1.8),
-                   cards.body("signalling", size=T_SMALL, color=WAIT, width=14)),
-            VGroup(cards.icon("flow", MONEY, 1.8),
-                   cards.body("liquidity", size=T_SMALL, color=MONEY, width=14)),
-        )
-        for g in three:
-            g.arrange(DOWN, buff=0.35)
-        three.arrange(RIGHT, buff=1.8).move_to(UP * 1.0)
-        self.play(FadeIn(three), run_time=1.0)
-
-        seen = cards.bullet_list([
-            "seen: yields fell, share prices rose",
-            "unseen: which channel did it",
-        ], color=CHALK, width=44)
-        seen.move_to(DOWN * 1.4)
-        says = ["Here is what the research can see. Government bond yields fell after "
-                "the purchases. Company bond yields fell. Share prices rose.",
-                "And here is what it cannot see. Which of those three channels did it. "
-                "They are very hard to tell apart, and the authors say so."]
-        for i in range(2):
-            with self.narrate(says[i]):
-                self.play(FadeIn(seen[i], shift=RIGHT * 0.2), run_time=0.8)
-        self.beat()
-        dis = cards.note("size and persistence: disputed", width=58)
-        dis.to_edge(DOWN, buff=0.4)
-        with self.narrate("There is also disagreement about how big those effects were "
-                          "and how long they lasted. And the effects on wider classes "
-                          "of assets are less marked than on company bonds."):
-            self.play(FadeIn(dis), run_time=1.0)
+        need = cards.body("So they needed something else.", size=T_SUB, color=CHALK,
+                          width=22)
+        need.move_to(RIGHT * 4.6 + UP * 1.4)
+        with self.narrate("So they needed something else. That something else is the "
+                          "subject of the next chapter."):
+            self.play(FadeIn(need), run_time=0.8)
         self.beat()
 
         self.close_chapter([
-            "signalling: the act is the message",
-            "liquidity: a very large buyer",
-            "yields fell · share prices rose",
-            "which channel? hard to tell",
+            "central bank: looks after the money",
+            "interest · and the rate, per year",
+            "monetary policy: the lever",
+            "by 2009: the lever hit the floor",
         ])

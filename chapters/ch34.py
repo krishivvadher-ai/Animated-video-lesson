@@ -8,156 +8,143 @@ from lib.theme import *
 
 class Chapter34(Chapter):
     CH = 34
-    TITLE = "The evidence, read twice"
+    TITLE = "The exception on page 613"
     PART = "PART THREE — THE ARGUMENT"
-    RECAP_ICONS = ["ticket", "scale", "risk", "clock"]
+    RECAP_ICONS = ["bank", "clock", "people", "fog"]
 
     def body(self):
-        pair = VGroup(
-            stick.StickFigure("", CHALK, prop="printout", scale=0.75),
-            stick.StickFigure("", CHALK, hat="specs", prop="book", scale=0.75),
-        ).arrange(RIGHT, buff=0.6)
-        plabel = Text("Martin & Milas (2012)", font=FONT, font_size=T_SMALL, color=SRC_MM)
-        plabel.next_to(pair, DOWN, buff=0.25)
-        grp = VGroup(pair, plabel).move_to(LEFT * 4.4 + UP * 1.4)
-        with self.narrate("A third article, and a third pair of authors. Christopher "
-                          "Martin and Costas Milas. Their job was to gather up the "
-                          "studies of what the policy actually achieved. Their colour "
-                          "is green."):
-            self.play(FadeIn(grp), run_time=1.0)
-        self.beat()
-
-        lines = [
-            ("increased GDP growth by around 1–3 per cent with a similar effect on "
-             "inflation", MONEY),
-            ("has proved effective in limiting the scale of the downturn", MONEY),
-            ("QE, by itself, is not strong enough to spark an economic recovery", COST),
-            ("Of course, this conclusion is tentative.", MUTED),
-        ]
-        says = ["It increased the country's rate of growth by around one to three per "
-                "cent, with a similar effect on prices.",
-                "It has proved effective in limiting the scale of the downturn.",
-                "But, by itself, it is not strong enough to spark an economic recovery.",
-                "And carry this last word, because it is theirs. Of course, this "
-                "conclusion is tentative."]
-        block = VGroup()
-        for (t, c), s in zip(lines, says):
-            card = cards.body("“" + t + "”", size=T_BODY, color=c, width=40)
-            block.add(card)
-        block.arrange(DOWN, buff=0.5, aligned_edge=LEFT).move_to(RIGHT * 2.0 + UP * 0.2)
-        bar = Line(block.get_top(), block.get_bottom(), color=SRC_MM, stroke_width=6)
-        bar.next_to(block, LEFT, buff=0.35)
-        self.play(Create(bar), run_time=0.5)
-        for i, s in enumerate(says):
-            with self.narrate(s):
-                self.play(FadeIn(block[i], shift=RIGHT * 0.2), run_time=0.7)
-        src = cards.note("Martin & Milas (2012), p. 762", width=40)
-        src.next_to(block, DOWN, buff=0.4).align_to(block, LEFT)
-        self.play(FadeIn(src), run_time=0.4)
-        self.beat()
-        self.clear_stage()
-
-        # ------------------------------------------------- the first reading
-        kit = stick.kit(scale=0.95).move_to(LEFT * 4.4 + DOWN * 0.6)
+        kit = stick.kit(scale=0.85).move_to(LEFT * 5.2 + DOWN * 1.6)
         self.play(FadeIn(kit), run_time=0.5)
-        first = cards.body("first reading: a result. Move on.",
-                           size=T_SUB, color=MUTED, width=30)
-        first.move_to(RIGHT * 1.8 + UP * 1.4)
-        with self.narrate("The first time Kit read that, he treated it as a result. "
-                          "Here is what the numbers say. Write it down, move on."):
-            self.play(FadeIn(first), kit.mood("neutral"), run_time=0.9)
+
+        with self.narrate("A page later, the authors ask a question about somebody "
+                          "else. What does the government do when its own borrowing "
+                          "gets cheaper?"):
+            pass
+
+        gov_fig = stick.StickFigure("the government", CHALK, hat="collar", scale=0.85)
+        gov_fig.move_to(RIGHT * 3.4 + UP * 0.4)
+        gl = gov_fig.label()
+        first = cards.body("and its borrowing IS cheaper — gilts are what was bought",
+                           size=T_BODY, color=SRC_BR, width=26)
+        first.move_to(LEFT * 1.6 + UP * 1.6)
+        with self.narrate("And notice what they open with. The government's borrowing "
+                          "cost is now lower. Gilts are exactly what the Bank had been "
+                          "buying. So if anyone got the cheaper price, the government "
+                          "did."):
+            self.play(FadeIn(gov_fig), FadeIn(gl), run_time=0.7)
+            self.play(FadeIn(first), run_time=0.9)
+
+        bag = W.money_bag(MONEY, 0.8).move_to(RIGHT * 0.2 + DOWN * 1.2)
+        arr = W.flow_arrow(bag.get_right() + RIGHT * 0.2,
+                           gov_fig.get_left() + LEFT * 0.3 + DOWN * 0.6, MONEY)
+        with self.narrate("The money definitely arrives."):
+            self.play(FadeIn(bag), run_time=0.5)
+            self.play(Create(arr), run_time=0.9)
+        self.beat()
+        nothing = Text("and nothing happens", font=FONT, font_size=T_SUB, color=MUTED)
+        nothing.next_to(gov_fig, DOWN, buff=1.1)
+        with self.narrate("And nothing happens."):
+            self.play(FadeIn(nothing), run_time=0.9)
+            self.play(gov_fig.mood("neutral"), run_time=0.4)
         self.beat()
 
-        second = cards.body("second reading: he cannot let it alone",
-                            size=T_SUB, color=SRC_KIT, width=30)
-        second.move_to(RIGHT * 1.8 + DOWN * 0.2)
-        with self.narrate("Reading it again, after Dixit, he cannot let it alone."):
-            self.play(FadeIn(second), kit.mood("thinking"), run_time=0.9)
+        self.play(FadeOut(first), FadeOut(nothing), FadeOut(bag), FadeOut(arr),
+                  FadeOut(gov_fig), FadeOut(gl), run_time=0.6)
 
-        qn = cards.body("Good at stopping a fall. Bad at starting a rise. Why?",
-                        size=T_BODY, color=CHALK, width=30)
-        qn.move_to(RIGHT * 1.8 + DOWN * 1.9)
-        with self.narrate("Why would one policy be good at stopping a fall and bad at "
-                          "starting a rise? Those are not obviously different jobs.",
-                          v="c"):
-            self.play(FadeIn(qn), run_time=1.0)
+        q = cards.quote_card(
+            "Their spending plans should therefore be unaffected by cyclical movements "
+            "in interest rates.", "Bowdler & Radia (2012), p. 613", SRC_BR, width=40)
+        q.move_to(UP * 1.4)
+        if q.width > 11.4:
+            q.scale(11.4 / q.width)
+        with self.narrate("Here is what the authors say, in their own words. Their "
+                          "spending plans should therefore be unaffected by cyclical "
+                          "movements in interest rates."):
+            self.play(FadeIn(q), run_time=1.2)
+        self.beat()
+        reason = cards.body("not access — the HORIZON of the decision", size=T_SUB, color=SRC_KIT, width=40)
+        reason.move_to(DOWN * 1.2)
+        with self.narrate("And look at the reason. It has nothing to do with access. "
+                          "The money arrives. The reason is about the horizon the "
+                          "decision is taken over. Governments plan a long way ahead."):
+            self.play(FadeIn(reason), run_time=1.1)
         self.beat()
 
-        unc = cards.body("uncomfortable with himself",
-                         size=T_BODY, color=SRC_KIT, width=40)
-        unc.to_edge(DOWN, buff=0.5)
-        with self.narrate("And he is uncomfortable. Not with the article — with "
-                          "himself, for having read that sentence once already and "
-                          "never asked whether there was a reason behind it."):
-            self.play(FadeOut(first), FadeOut(second), FadeOut(qn), run_time=0.4)
-            self.play(kit.mood("worried"), FadeIn(unc), run_time=1.0)
+        # ---------------------------------------------------- Kit gets excited
+        with self.narrate("Kit gets excited. Animate the excitement, because there is "
+                          "about to be a correction and you need to have seen the "
+                          "before."):
+            self.play(kit.mood("surprised"), run_time=0.4)
+            b = kit.say("A feature of the DECISION\nbreaks the link!", direction=UP,
+                        width=3.8, color=SRC_KIT)
+            self.play(FadeIn(b), run_time=0.6)
+            self.play(kit.pace(2, run_time=2.0))
         self.beat()
+        self.play(FadeOut(b), FadeOut(q), FadeOut(reason), run_time=0.6)
+
+        # ---------------------------------------------------- and talks himself down
+        head = Text("And then he reads it again", font=FONT, font_size=T_SUB,
+                    color=CHALK).to_edge(UP, buff=0.7)
+        self.play(FadeIn(head), kit.mood("thinking"), run_time=0.6)
+
+        steps = cards.bullet_list([
+            "“Cyclical” means short-term and temporary.",
+            "long planners ignore passing changes",
+            "an ordinary point about budgeting",
+        ], color=CHALK, width=40, dotc=COST)
+        steps.move_to(RIGHT * 1.2 + UP * 0.4)
+        says = ["Cyclical means short-term and temporary.",
+                "And economists have a standard idea that a long-term planner responds "
+                "to lasting changes and ignores passing ones.",
+                "So this is very likely an ordinary technical point about how "
+                "governments budget. Not a claim about how organisations behave at all."]
+        for i in range(3):
+            with self.narrate(says[i]):
+                self.play(FadeIn(steps[i], shift=RIGHT * 0.2), run_time=0.6)
+        self.beat()
+
+        cross = Line(steps.get_left() + LEFT * 0.2, steps.get_right() + RIGHT * 0.2,
+                     color=COST, stroke_width=5)
+        with self.narrate("So Kit crosses his own conclusion out. That is the first of "
+                          "several times he will do that, and they are the best moments "
+                          "in this half of the film."):
+            self.play(Create(cross), kit.mood("worried"), run_time=1.2)
+        self.beat()
+
+        # ---------------------------------------------------- what survives
         self.clear_stage()
+        head2 = Text("What survives is thinner", font=FONT, font_size=T_SUB,
+                     color=SRC_KIT).to_edge(UP, buff=0.8)
+        self.play(FadeIn(head2), run_time=0.5)
 
-        # ------------------------------------------------- the two-row table
-        head = Text("Two jobs, pulling on the same thing in opposite directions",
-                    font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.6)
-        self.play(FadeIn(head), run_time=0.5)
-
-        r1a = cards.body("PREVENTING A COLLAPSE", size=T_BODY, color=MONEY, width=20)
-        r1b = cards.body("the UPSIDE held up\n(good news principle)\nstrongest when frightening", size=T_SMALL, color=CHALK, width=40)
-        r2a = cards.body("STARTING A RECOVERY", size=T_BODY, color=COST, width=20)
-        r2b = cards.body("the DOWNSIDE faced\n(bad news principle)\nstrongest when calm", size=T_SMALL, color=CHALK, width=40)
-        col_a = VGroup(r1a, r2a).arrange(DOWN, buff=2.0, aligned_edge=LEFT)
-        col_b = VGroup(r1b, r2b).arrange(DOWN, buff=0.8, aligned_edge=LEFT)
-        table = VGroup(col_a, col_b).arrange(RIGHT, buff=0.9, aligned_edge=UP)
-        table.move_to(DOWN * 0.3)
-        if table.height > 4.6:
-            table.scale(4.6 / table.height)
-        rule = Line(table.get_left(), table.get_right(), color=MUTED, stroke_width=2)
-        rule.move_to(table.get_center())
-
-        with self.narrate("Preventing a collapse needs markets that keep working and "
-                          "the upside held up. And by the good news principle, that is "
-                          "exactly what stops a struggling firm closing. It is "
-                          "strongest when things are frightening, because there is most "
-                          "to repair and most upside to restore."):
-            self.play(FadeIn(r1a), run_time=0.6)
-            self.play(FadeIn(r1b), run_time=1.0)
-        self.play(Create(rule), run_time=0.5)
-        with self.narrate("Starting a recovery needs firms to commit money they cannot "
-                          "get back. By the bad news principle, that turns on the "
-                          "downside — which is exactly what fear makes them least "
-                          "willing to face. It is strongest when things are calm."):
-            self.play(FadeIn(r2a), run_time=0.6)
-            self.play(FadeIn(r2b), run_time=1.0)
+        surv = cards.body("the decision itself breaks the link — once",
+                          size=T_BODY, color=CHALK, width=44)
+        surv.move_to(UP * 0.9)
+        with self.narrate("What survives is this, and it is thinner than he first "
+                          "thought. A feature of the decision itself is allowed, once, "
+                          "to break the link between a cheaper price and more spending. "
+                          "And nobody then asks whether anything else about how a "
+                          "decision gets made could do the same."):
+            self.play(FadeIn(surv), run_time=1.4)
         self.beat()
 
-        self.clear_stage()
-        land = cards.body("used where job one is easiest and job two hardest",
-                          size=T_SUB, color=CHALK, width=34)
-        land.move_to(UP * 0.9)
-        with self.narrate("So the policy is used in exactly the state where the first "
-                          "job is easiest and the second is hardest."):
-            self.play(FadeIn(land), run_time=1.0)
+        std = cards.body("A reason to look. Not evidence.", size=T_HEAD, color=SRC_KIT, width=30)
+        std.move_to(DOWN * 1.6)
+        with self.narrate("That is a reason to go and look. It is not evidence about "
+                          "what you find."):
+            self.play(Write(std), run_time=2.2)
         self.beat()
-        steady = cards.body("It steadies without starting.", size=T_HEAD,
-                            color=SRC_KIT, width=26)
-        steady.move_to(DOWN * 0.9)
-        with self.narrate("It steadies without starting."):
-            self.play(Write(steady), run_time=1.8)
-        self.beat()
-
-        # ------------------------------------------------- whose is whose
-        self.clear_stage()
-        flag = cards.body("KIT'S, not Dixit's:\n\n· “best when frightening”\n\n· “the jobs pull apart”",
-                          size=T_BODY, color=SRC_KIT, width=44)
-        with self.narrate("And flag clearly which parts of that are Kit's and not "
-                          "Dixit's. That propping up the upside works best when things "
-                          "are frightening, and that the two jobs therefore pull apart, "
-                          "are steps Kit has added. Dixit's own text does not contain "
-                          "them."):
-            self.play(FadeIn(flag), run_time=1.6)
+        note = cards.note("the standard for everything that follows",
+                          width=56)
+        note.to_edge(DOWN, buff=0.5)
+        with self.narrate("That sentence is the intellectual standard the rest of the "
+                          "film is held to. Everything Kit says from here has to meet it."):
+            self.play(FadeIn(note), run_time=0.9)
         self.beat()
 
         self.close_chapter([
-            "1–3% growth · downturn limited",
-            "not enough to spark a recovery — tentative",
-            "the two jobs pull opposite ways",
-            "it steadies without starting",
+            "the government DOES get the cheaper price",
+            "and its plans should not change",
+            "the reason is the horizon, not access",
+            "“cyclical” ⇒ a reason to look, not evidence",
         ])

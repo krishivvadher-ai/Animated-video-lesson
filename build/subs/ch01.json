@@ -117,5 +117,37 @@
    "text": "investment = spend now, earn later",
    "voice": "n"
   }
+ ],
+ "screen_text": [
+  "1/43",
+  "?",
+  "Acostthatdoesnotchangewithhowmuchyoumake.",
+  "Acostthatrisesandfallswithhowmuchyoumake.",
+  "Allthemoneycomingin,beforeanythingistakenout.",
+  "Allthemoneygoingouttokeeptheplacerunning.",
+  "CHAPTER1",
+  "Investment?Isn'tthatbuyingshares?",
+  "Nell'sfactory",
+  "PARTONE\u2014THEPAPER",
+  "Revenueminuscost.Whatisleftover.",
+  "Spendingnowtoearnlater.",
+  "Twokindsofcost",
+  "Whatwejustestablished",
+  "What\u201cinvestment\u201dactuallymeans",
+  "cost",
+  "fixedcost",
+  "fixedstaysput\u00b7variablemoves",
+  "investment",
+  "investment=spendnow,earnlater",
+  "moneycomingin",
+  "moneygoingout",
+  "profit",
+  "revenue",
+  "revenue,later",
+  "revenue\u2212cost=profit",
+  "thematerials",
+  "therent",
+  "variablecost",
+  "\u00a3"
  ]
 }

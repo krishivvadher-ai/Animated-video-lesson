@@ -1,139 +1,205 @@
 {
  "chapter": 13,
- "title": "Two countries",
- "duration": 221.3999999999993,
+ "title": "The one formula in the film",
+ "duration": 301.79999999999893,
  "cues": [
   {
-   "start": 3.0000000000000018,
-   "end": 13.980680272108845,
-   "text": "This is a detective story, so let us tell it as one. Here is Nell, in America. And here is Kenji, running a similar factory in Japan.",
+   "start": 3.5333333333333368,
+   "end": 16.17632653061225,
+   "text": "Here is the formula that finds the touching point. It looks worse than it is. There is a square root, a division, and nothing else \u2014 and we are going to work it out together.",
    "voice": "n"
   },
   {
-   "start": 14.933333333333334,
-   "end": 30.927301587301585,
-   "text": "American firms of the period demanded very high returns before they would build \u2014 and then abandoned whole fields after short stretches of losses. Colour televisions. Video recorders. Semiconductors.",
+   "start": 16.6,
+   "end": 24.822040816326535,
+   "text": "Start inside. Eight, times the cost of capital, divided by the choppiness multiplied by itself.",
    "voice": "n"
   },
   {
-   "start": 31.33333333333333,
-   "end": 38.871972789115645,
-   "text": "Japanese firms did the opposite on both counts. They invested aggressively, and they hung on.",
+   "start": 26.066666666666663,
+   "end": 27.80240362811791,
+   "text": "Add one to it.",
    "voice": "n"
   },
   {
-   "start": 42.733333333333476,
-   "end": 53.67043083900241,
-   "text": "Remember what uncertainty does to the two lines. It raises the build-line and lowers the quit-line. Together. It cannot do one without the other.",
+   "start": 28.199999999999992,
+   "end": 29.98217687074829,
+   "text": "Take the square root.",
    "voice": "n"
   },
   {
-   "start": 54.86666666666689,
-   "end": 68.06897959183695,
-   "text": "So a firm too hesitant to invest should be more willing to ride out bad periods, not less. The American firms were the opposite on both counts. The story does not fit.",
+   "start": 30.399999999999988,
+   "end": 44.995963718820846,
+   "text": "Add one again, and halve it. That is the whole formula. The paper calls the answer beta; this film will call it the steepness, because that is what it measures \u2014 how steeply the value of waiting curves upward.",
    "voice": "n"
   },
   {
-   "start": 70.33333333333354,
-   "end": 78.93056689342424,
-   "text": "The usual explanation is lifetime employment, which makes labour a cost you carry whether you use it or not.",
+   "start": 48.33333333333342,
+   "end": 54.77687074829941,
+   "text": "The choppiness is nought point two. Times itself, that is nought point nought four.",
    "voice": "n"
   },
   {
-   "start": 79.33333333333351,
-   "end": 87.57065759637206,
-   "text": "Lower day-to-day costs do mean revenue has to fall further before quitting makes sense. So far so good.",
+   "start": 55.60000000000012,
+   "end": 64.93156462585046,
+   "text": "Eight times nought point nought five is nought point four. And nought point four divided by nought point nought four is ten.",
    "voice": "n"
   },
   {
-   "start": 88.00000000000014,
-   "end": 95.01959183673483,
-   "text": "But larger fixed and sunk commitments should make those same firms reluctant investors.",
+   "start": 65.73333333333349,
+   "end": 71.74390022675753,
+   "text": "One plus ten is eleven. The square root of eleven is three point three one seven.",
    "voice": "n"
   },
   {
-   "start": 95.46666666666677,
-   "end": 102.92775510204092,
-   "text": "And they were the opposite. Particularly aggressive ones. So that explanation does not work either.",
+   "start": 72.53333333333346,
+   "end": 79.40068027210897,
+   "text": "One plus that is four point three one seven. Halve it. Two point one five eight.",
    "voice": "n"
   },
   {
-   "start": 106.59999999999992,
-   "end": 113.93551020408155,
-   "text": "Here is the spread of possible futures for a firm. Bad ones to the left, good ones to the right.",
+   "start": 80.20000000000009,
+   "end": 86.53424036281189,
+   "text": "The paper prints two point one five. That is your answer, with the paper's own rounding.",
    "voice": "n"
   },
   {
-   "start": 114.33333333333326,
-   "end": 125.00185941043077,
-   "text": "For the Japanese firms, the bad half was cushioned. Government support, and cartels tolerated in recessions, cut off the worst outcomes.",
+   "start": 88.79999999999993,
+   "end": 92.33528344671194,
+   "text": "Divide the steepness by itself-minus-one.",
    "voice": "n"
   },
   {
-   "start": 126.19999999999982,
-   "end": 135.374013605442,
-   "text": "Now use the bad news principle. Waiting is worth less when there is less bad news to wait out. So they entered early.",
+   "start": 92.73333333333322,
+   "end": 105.5586394557822,
+   "text": "Two point one five eight, divided by one point one five eight. One point eight six. There is the multiplier you met in chapter eight \u2014 and you have just derived it.",
    "voice": "n"
   },
   {
-   "start": 137.19999999999973,
-   "end": 149.87092970521516,
-   "text": "And its mirror image, which the paper names. The good news principle. The decision to stay is governed by the good possible outcomes \u2014 because staying is what preserves them.",
+   "start": 106.7999999999998,
+   "end": 111.72571428571409,
+   "text": "Multiply the textbook's line by it, and you have the real trigger.",
    "voice": "n"
   },
   {
-   "start": 153.13333333333304,
-   "end": 163.33238095238067,
-   "text": "And because the upside mattered relatively more for them, they stayed late as well. One lopsided distribution, both puzzles solved.",
+   "start": 112.13333333333308,
+   "end": 123.0943764172333,
+   "text": "Or multiply the cost of capital by it, and you have the corrected hurdle rate. One point eight six times five per cent is nine point three.",
    "voice": "n"
   },
   {
-   "start": 165.0666666666663,
-   "end": 172.86281179138285,
-   "text": "Which gives two rules, and they are probably the most practically useful sentences in the whole article.",
+   "start": 125.39999999999964,
+   "end": 148.35365079365044,
+   "text": "Turn the choppiness up to forty per cent. Nought point four times itself is nought point one six. Eight times nought point nought five, over that, is two and a half. One plus that is three and a half, and its square root is one point eight seven. Halve one plus that: one point four three five.",
    "voice": "n"
   },
   {
-   "start": 173.26666666666628,
-   "end": 178.1835374149656,
-   "text": "To get firms to invest sooner, reduce the downside risk.",
+   "start": 149.1999999999996,
+   "end": 158.80938775510162,
+   "text": "Divide by itself-minus-one: three point three. The paper prints three point three two, because it rounds the steepness first.",
    "voice": "n"
   },
   {
-   "start": 179.39999999999958,
-   "end": 183.14426303854833,
-   "text": "To stop firms leaving, improve the upside.",
+   "start": 159.59999999999954,
+   "end": 180.91795918367302,
+   "text": "Now put the choppiness back to twenty and drop the cost of capital to two per cent. Eight times nought point nought two, over nought point nought four, is four. One plus four is five. The square root of five is two point two three six. Halve one plus that: one point six one eight.",
    "voice": "n"
   },
   {
-   "start": 184.3333333333329,
-   "end": 191.1407256235823,
-   "text": "Different instruments, for different jobs. Remember that. Part Two is built on it.",
+   "start": 181.73333333333284,
+   "end": 187.46344671201766,
+   "text": "And divide: two point six two. The paper prints two point six one.",
    "voice": "n"
   },
   {
-   "start": 193.39999999999947,
-   "end": 200.23437641723302,
-   "text": "American firms invested late and quit early; Japanese firms did the opposite.",
+   "start": 188.26666666666614,
+   "end": 207.079682539682,
+   "text": "And now you can see why both dials push the same way. More choppiness, or cheaper money, both make the number inside the square root smaller. That makes the steepness smaller. And a smaller steepness, divided by itself-minus-one, gives a bigger multiplier.",
    "voice": "n"
   },
   {
-   "start": 200.33333333333277,
-   "end": 206.32907029478403,
-   "text": "The waiting story alone cannot explain that \u2014 it moves both lines together.",
+   "start": 209.3333333333327,
+   "end": 224.81859410430775,
+   "text": "Let the choppiness shrink to nothing. The number inside the square root grows without limit, the steepness grows with it, and the multiplier settles on one. The textbook is exactly right in a certain world.",
    "voice": "n"
   },
   {
-   "start": 206.46666666666607,
-   "end": 212.84639455782252,
-   "text": "Their downside was cushioned, so waiting was worth less and staying was worth more.",
+   "start": 225.73333333333264,
+   "end": 243.0307029478451,
+   "text": "Let the cost of capital fall to nothing instead. The number inside goes to one, the steepness goes to one, and the multiplier goes off to infinity. Which is the paper's own line: the textbook analysis becomes totally misleading.",
    "voice": "n"
   },
   {
-   "start": 212.9333333333327,
-   "end": 219.02399092970458,
-   "text": "Reduce the downside to get investment; improve the upside to prevent exit.",
+   "start": 243.9333333333326,
+   "end": 271.3352834467113,
+   "text": "One honest note to finish on. Everything you have just done works because the project, once built, always makes money. Once you let it make losses and allow her to give up, the two lines have to be found together, and there is no formula \u2014 it needs four equations and a computer. The paper does that, and prints the answers. Nought point seven two, and one point six two.",
+   "voice": "n"
+  },
+  {
+   "start": 273.5999999999991,
+   "end": 278.60975056689256,
+   "text": "one square root gives the steepness: 2.158",
+   "voice": "n"
+  },
+  {
+   "start": 278.73333333333244,
+   "end": 285.35687074829843,
+   "text": "steepness \u00f7 (steepness \u2212 1) is the multiplier: 1.86",
+   "voice": "n"
+  },
+  {
+   "start": 285.46666666666573,
+   "end": 294.7721088435365,
+   "text": "40% choppiness \u2192 3.30;  2% cost of capital \u2192 2.62",
+   "voice": "n"
+  },
+  {
+   "start": 294.8666666666657,
+   "end": 299.4468480725614,
+   "text": "both dials shrink the steepness, so both raise the bar",
    "voice": "n"
   }
+ ],
+ "screen_text": [
+  "0.2\u00d70.2=0.04",
+  "1+(that)",
+  "1+10=11\u221a11=3.317",
+  "1+3.317=4.317\u00f72=2.158",
+  "1.435\u00f70.435=3.30thepaperprints3.32",
+  "1.618\u00f70.618=2.62thepaperprints2.61",
+  "13/43",
+  "2.158\u00f71.158=1.86",
+  "40%choppiness\u21923.30;2%costofcapital\u21922.62",
+  "8",
+  "8\u00d70.05=0.40.4\u00f70.04=10",
+  "?",
+  "Andnowturnthesteepnessintothemultiplier",
+  "Basecase:costofcapital5%,choppiness20%",
+  "CHAPTER13",
+  "H=1.86\u00d7M",
+  "Nowdotheothertwo,yourself",
+  "PARTONE\u2014THEPAPER",
+  "Theoneformulainthefilm",
+  "Thequit-lineLneedsfourequationssolvedtogether,andacomputer.Thepapergivestheanswers:0.72and1.62.",
+  "Twothingstheformulatellsyouforfree",
+  "Whatwejustestablished",
+  "bothdialsshrinkthesteepness,sobothraisethebar",
+  "choppiness40%:8\u00d70.05\u00f70.16=2.5\u221a3.5=1.87\u21921.435",
+  "choppiness\u21920\u21d2steepness\u2192huge\u21d2multiplier\u21921",
+  "costofcapital2%:8\u00d70.02\u00f70.04=4\u221a5=2.236\u21921.618",
+  "costofcapital\u21920\u21d2steepness\u21921\u21d2multiplier\u2192\u221e",
+  "onesquarerootgivesthesteepness:2.158",
+  "smallersteepness\u21d2biggermultiplier",
+  "steepness\u00f7(steepness\u22121)",
+  "steepness\u00f7(steepness\u22121)isthemultiplier:1.86",
+  "thechoppiness\u00b2",
+  "thecostofcapital",
+  "thepaperprints2.15",
+  "\u00a3",
+  "\u00bd\u00d7(1+\u221a(1+that))",
+  "\u00d7",
+  "\u00f7",
+  "\u03c1\u2032=1.86\u00d75%=9.3%",
+  "\u221a(1+that)"
  ]
 }

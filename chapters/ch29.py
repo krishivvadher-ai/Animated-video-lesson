@@ -8,143 +8,157 @@ from lib.theme import *
 
 class Chapter29(Chapter):
     CH = 29
-    TITLE = "The exception on page 613"
-    PART = "PART THREE — THE ARGUMENT"
-    RECAP_ICONS = ["bank", "clock", "people", "fog"]
+    TITLE = "Money, and what banks can’t do with reserves"
+    PART = "PART TWO — THE POLICY"
+    RECAP_ICONS = ["money", "bank", "flow", "people"]
 
     def body(self):
-        kit = stick.kit(scale=0.85).move_to(LEFT * 5.2 + DOWN * 1.6)
-        self.play(FadeIn(kit), run_time=0.5)
-
-        with self.narrate("A page later, the authors ask a question about somebody "
-                          "else. What does the government do when its own borrowing "
-                          "gets cheaper?"):
+        with self.narrate("There is a second way of telling the same story, and it "
+                          "clears up the thing almost everybody gets wrong about this "
+                          "policy. So it is worth four minutes."):
             pass
 
-        gov_fig = stick.StickFigure("the government", CHALK, hat="collar", scale=0.85)
-        gov_fig.move_to(RIGHT * 3.4 + UP * 0.4)
-        gl = gov_fig.label()
-        first = cards.body("and its borrowing IS cheaper — gilts are what was bought",
-                           size=T_BODY, color=SRC_BR, width=26)
-        first.move_to(LEFT * 1.6 + UP * 1.6)
-        with self.narrate("And notice what they open with. The government's borrowing "
-                          "cost is now lower. Gilts are exactly what the Bank had been "
-                          "buying. So if anyone got the cheaper price, the government "
-                          "did."):
-            self.play(FadeIn(gov_fig), FadeIn(gl), run_time=0.7)
-            self.play(FadeIn(first), run_time=0.9)
+        # ---------------------------------------------------- two kinds of money
+        head = Text("Two kinds of money, and they are not the same",
+                    font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
+        self.play(FadeIn(head), run_time=0.5)
 
-        bag = W.money_bag(MONEY, 0.8).move_to(RIGHT * 0.2 + DOWN * 1.2)
-        arr = W.flow_arrow(bag.get_right() + RIGHT * 0.2,
-                           gov_fig.get_left() + LEFT * 0.3 + DOWN * 0.6, MONEY)
-        with self.narrate("The money definitely arrives."):
-            self.play(FadeIn(bag), run_time=0.5)
-            self.play(Create(arr), run_time=0.9)
-        self.beat()
-        nothing = Text("and nothing happens", font=FONT, font_size=T_SUB, color=MUTED)
-        nothing.next_to(gov_fig, DOWN, buff=1.1)
-        with self.narrate("And nothing happens."):
-            self.play(FadeIn(nothing), run_time=0.9)
-            self.play(gov_fig.mood("neutral"), run_time=0.4)
-        self.beat()
-
-        self.play(FadeOut(first), FadeOut(nothing), FadeOut(bag), FadeOut(arr),
-                  FadeOut(gov_fig), FadeOut(gl), run_time=0.6)
-
-        q = cards.quote_card(
-            "Their spending plans should therefore be unaffected by cyclical movements "
-            "in interest rates.", "Bowdler & Radia (2012), p. 613", SRC_BR, width=40)
-        q.move_to(UP * 1.4)
-        if q.width > 11.4:
-            q.scale(11.4 / q.width)
-        with self.narrate("Here is what the authors say, in their own words. Their "
-                          "spending plans should therefore be unaffected by cyclical "
-                          "movements in interest rates."):
-            self.play(FadeIn(q), run_time=1.2)
-        self.beat()
-        reason = cards.body("not access — the HORIZON of the decision", size=T_SUB, color=SRC_KIT, width=40)
-        reason.move_to(DOWN * 1.2)
-        with self.narrate("And look at the reason. It has nothing to do with access. "
-                          "The money arrives. The reason is about the horizon the "
-                          "decision is taken over. Governments plan a long way ahead."):
-            self.play(FadeIn(reason), run_time=1.1)
+        narrow = VGroup(
+            RoundedRectangle(width=3.6, height=2.0, corner_radius=0.14, color=SRC_BR,
+                             stroke_width=3),
+            cards.body("NARROW MONEY\nreserves banks hold at the central bank",
+                       size=T_SMALL, color=SRC_BR, width=20))
+        narrow[1].move_to(narrow[0].get_center())
+        broad = VGroup(
+            RoundedRectangle(width=3.6, height=2.0, corner_radius=0.14, color=MONEY,
+                             stroke_width=3),
+            cards.body("BROAD MONEY\ndeposits held by everybody else",
+                       size=T_SMALL, color=MONEY, width=20))
+        broad[1].move_to(broad[0].get_center())
+        pair = VGroup(narrow, broad).arrange(RIGHT, buff=1.6).move_to(UP * 0.8)
+        with self.narrate("Narrow money is reserves — the money banks hold at the "
+                          "central bank. Nobody else can touch it."):
+            self.play(FadeIn(narrow), run_time=0.9)
+        with self.narrate("Broad money is deposits — the money in everybody else's bank "
+                          "account. That is the one that gets spent."):
+            self.play(FadeIn(broad), run_time=0.9)
         self.beat()
 
-        # ---------------------------------------------------- Kit gets excited
-        with self.narrate("Kit gets excited. Animate the excitement, because there is "
-                          "about to be a correction and you need to have seen the "
-                          "before."):
-            self.play(kit.mood("surprised"), run_time=0.4)
-            b = kit.say("A feature of the DECISION\nbreaks the link!", direction=UP,
-                        width=3.8, color=SRC_KIT)
-            self.play(FadeIn(b), run_time=0.6)
-            self.play(kit.pace(2, run_time=2.0))
+        which = cards.body("broad money, not narrow",
+                           size=T_SUB, color=MONEY, width=40)
+        which.move_to(DOWN * 1.5)
+        with self.narrate("And the transmission of this policy runs through broad "
+                          "money. Not narrow money. The Bank of England has said so "
+                          "explicitly."):
+            self.play(FadeIn(which), run_time=1.0)
         self.beat()
-        self.play(FadeOut(b), FadeOut(q), FadeOut(reason), run_time=0.6)
-
-        # ---------------------------------------------------- and talks himself down
-        head = Text("And then he reads it again", font=FONT, font_size=T_SUB,
-                    color=CHALK).to_edge(UP, buff=0.7)
-        self.play(FadeIn(head), kit.mood("thinking"), run_time=0.6)
-
-        steps = cards.bullet_list([
-            "“Cyclical” means short-term and temporary.",
-            "long planners ignore passing changes",
-            "an ordinary point about budgeting",
-        ], color=CHALK, width=40, dotc=COST)
-        steps.move_to(RIGHT * 1.2 + UP * 0.4)
-        says = ["Cyclical means short-term and temporary.",
-                "And economists have a standard idea that a long-term planner responds "
-                "to lasting changes and ignores passing ones.",
-                "So this is very likely an ordinary technical point about how "
-                "governments budget. Not a claim about how organisations behave at all."]
-        for i in range(3):
-            with self.narrate(says[i]):
-                self.play(FadeIn(steps[i], shift=RIGHT * 0.2), run_time=0.6)
-        self.beat()
-
-        cross = Line(steps.get_left() + LEFT * 0.2, steps.get_right() + RIGHT * 0.2,
-                     color=COST, stroke_width=5)
-        with self.narrate("So Kit crosses his own conclusion out. That is the first of "
-                          "several times he will do that, and they are the best moments "
-                          "in this half of the film."):
-            self.play(Create(cross), kit.mood("worried"), run_time=1.2)
-        self.beat()
-
-        # ---------------------------------------------------- what survives
         self.clear_stage()
-        head2 = Text("What survives is thinner", font=FONT, font_size=T_SUB,
-                     color=SRC_KIT).to_edge(UP, buff=0.8)
+
+        # ---------------------------------------------------- the money multiplier
+        head2 = Text("The textbook picture, and why it does not apply",
+                     font=FONT, font_size=T_SUB, color=COST).to_edge(UP, buff=0.7)
         self.play(FadeIn(head2), run_time=0.5)
 
-        surv = cards.body("the decision itself breaks the link — once",
-                          size=T_BODY, color=CHALK, width=44)
-        surv.move_to(UP * 0.9)
-        with self.narrate("What survives is this, and it is thinner than he first "
-                          "thought. A feature of the decision itself is allowed, once, "
-                          "to break the link between a cheaper price and more spending. "
-                          "And nobody then asks whether anything else about how a "
-                          "decision gets made could do the same."):
-            self.play(FadeIn(surv), run_time=1.4)
+        small = Rectangle(width=1.0, height=0.7, color=SRC_BR, stroke_width=3,
+                          fill_color=SRC_BR, fill_opacity=0.25).move_to(LEFT * 4.0)
+        sl = Text("reserves", font=FONT, font_size=T_SMALL, color=SRC_BR)
+        sl.next_to(small, DOWN, buff=0.2)
+        big = Rectangle(width=1.0, height=5.0, color=MONEY, stroke_width=3,
+                        fill_color=MONEY, fill_opacity=0.25)
+        big.move_to(LEFT * 1.2).align_to(small, DOWN)
+        bl = Text("broad money", font=FONT, font_size=T_SMALL, color=MONEY)
+        bl.next_to(big, DOWN, buff=0.2)
+        mult = Text("× 10 to 15", font=FONT, font_size=T_SUB, color=COST)
+        mult.next_to(big, RIGHT, buff=0.5)
+        with self.narrate("The textbook says that reserves multiply. Put a pound of "
+                          "reserves into the system and broad money rises by ten or "
+                          "fifteen times as much."):
+            self.play(FadeIn(small), FadeIn(sl), run_time=0.7)
+            self.play(GrowFromEdge(big, DOWN), FadeIn(bl), FadeIn(mult), run_time=1.6)
         self.beat()
 
-        std = cards.body("A reason to look. Not evidence.", size=T_HEAD, color=SRC_KIT, width=30)
-        std.move_to(DOWN * 1.6)
-        with self.narrate("That is a reason to go and look. It is not evidence about "
-                          "what you find."):
-            self.play(Write(std), run_time=2.2)
+        real = Rectangle(width=1.0, height=0.6, color=MONEY, stroke_width=3,
+                         fill_color=MONEY, fill_opacity=0.25)
+        real.move_to(RIGHT * 3.0).align_to(small, DOWN)
+        rl = cards.body("actually: less than one",
+                        size=T_SMALL, color=MONEY, width=16)
+        rl.next_to(real, DOWN, buff=0.2)
+        with self.narrate("In Britain, it was less than one."):
+            self.play(FadeIn(real), FadeIn(rl), run_time=1.0)
         self.beat()
-        note = cards.note("the standard for everything that follows",
-                          width=56)
-        note.to_edge(DOWN, buff=0.5)
-        with self.narrate("That sentence is the intellectual standard the rest of the "
-                          "film is held to. Everything Kit says from here has to meet it."):
-            self.play(FadeIn(note), run_time=0.9)
+        notfail = cards.body("under one is what the theory predicts",
+                             size=T_BODY, color=SRC_BR, width=44)
+        notfail.to_edge(DOWN, buff=0.6)
+        with self.narrate("And the authors say plainly that this is not evidence the "
+                          "policy failed. On their own account, the right thing to "
+                          "expect was about one, not fifteen. The failure of broad "
+                          "money to explode is exactly what their theory predicts."):
+            self.play(FadeIn(notfail), run_time=1.2)
+        self.beat()
+        leak = cards.body("broad money grew < £200bn — the leaks",
+                          size=T_BODY, color=CHALK, width=46)
+        leak.to_edge(DOWN, buff=0.5)
+        with self.narrate("They also explain where it leaked away. Broad money grew by "
+                          "less than two hundred billion pounds during the first round. "
+                          "Banks swapped short-term deposits for long-term debt. And "
+                          "large companies raised money by issuing bonds instead of "
+                          "borrowing from banks. Both of those reduce broad money."):
+            self.play(FadeOut(notfail), FadeIn(leak), run_time=1.4)
+        self.beat()
+        self.clear_stage()
+
+        # ---------------------------------------------------- reserves cannot be lent out
+        head3 = Text("And the thing everybody says, which is simply wrong",
+                     font=FONT, font_size=T_SUB, color=COST).to_edge(UP, buff=0.7)
+        self.play(FadeIn(head3), run_time=0.5)
+
+        claim = cards.body("“The banks are sitting on all that money instead of lending "
+                           "it out.”", size=T_SUB, color=COST, width=34)
+        claim.move_to(UP * 1.5)
+        with self.narrate("You will hear it said that the banks are sitting on all that "
+                          "money instead of lending it out."):
+            self.play(FadeIn(claim), run_time=0.9)
+        self.beat()
+
+        pot = VGroup(
+            Circle(radius=1.3, color=SRC_BR, stroke_width=4, fill_color=SRC_BR,
+                   fill_opacity=0.18),
+            Text("reserves", font=FONT, font_size=T_SMALL, color=SRC_BR))
+        pot[1].move_to(pot[0].get_center())
+        pot.move_to(LEFT * 3.0 + DOWN * 0.5)
+        out = Arrow(pot.get_right() + RIGHT * 0.2, RIGHT * 1.4 + DOWN * 0.5,
+                    color=COST, buff=0, stroke_width=6)
+        cross = VGroup(
+            Line(LEFT * 0.4 + UP * 0.4, RIGHT * 0.4 + DOWN * 0.4, color=COST, stroke_width=7),
+            Line(LEFT * 0.4 + DOWN * 0.4, RIGHT * 0.4 + UP * 0.4, color=COST, stroke_width=7),
+        ).move_to(RIGHT * 0.2 + DOWN * 0.5)
+        with self.narrate("The banking system cannot do that. The amount of reserves in "
+                          "the system is decided by how the central bank chose to fund "
+                          "its purchases — not by any bank's own decision."):
+            self.play(FadeIn(pot), run_time=0.8)
+            self.play(Create(out), run_time=0.8)
+            self.play(FadeIn(cross), run_time=0.6)
+        self.beat()
+        arith = cards.body("arithmetic, not a choice",
+                           size=T_SUB, color=CHALK, width=30)
+        arith.move_to(RIGHT * 3.4 + UP * 0.4)
+        with self.narrate("Reserves went up a lot because of how the purchases were "
+                          "paid for. That is arithmetic, not a choice."):
+            self.play(FadeIn(arith), run_time=1.0)
+        self.beat()
+        only = cards.body("only via the incentive to lend",
+                          size=T_BODY, color=MONEY, width=46)
+        only.to_edge(DOWN, buff=0.6)
+        with self.narrate("The only way more reserves can lead to more lending is if "
+                          "they change a bank's incentive to lend — for instance by "
+                          "making the bank's own funding cheaper. Which is a completely "
+                          "different mechanism."):
+            self.play(FadeIn(only), run_time=1.2)
         self.beat()
 
         self.close_chapter([
-            "the government DOES get the cheaper price",
-            "and its plans should not change",
-            "the reason is the horizon, not access",
-            "“cyclical” ⇒ a reason to look, not evidence",
+            "narrow = reserves · broad = deposits",
+            "multiplier: under one",
+            "predicted — not a failure",
+            "reserves cannot be lent out",
         ])

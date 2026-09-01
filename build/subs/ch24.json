@@ -1,103 +1,202 @@
 {
  "chapter": 24,
- "title": "Money, and what banks can\u2019t do with reserves",
- "duration": 174.6666666666663,
+ "title": "What quantitative easing actually is",
+ "duration": 223.33333333333206,
  "cues": [
   {
    "start": 3.0000000000000018,
-   "end": 14.426984126984129,
-   "text": "There is a second way of telling the same story, and it clears up the thing almost everybody gets wrong about this policy. So it is worth four minutes.",
+   "end": 10.898049886621317,
+   "text": "This is the chapter where it would be easiest to lose you, so we go slowly, and we do the key sum three times.",
    "voice": "n"
   },
   {
-   "start": 15.4,
-   "end": 22.95342403628118,
-   "text": "Narrow money is reserves \u2014 the money banks hold at the central bank. Nobody else can touch it.",
+   "start": 11.866666666666667,
+   "end": 19.00104308390023,
+   "text": "A government wants to spend more this year than it collects in tax. So it needs to borrow.",
    "voice": "n"
   },
   {
-   "start": 23.4,
-   "end": 31.456961451247164,
-   "text": "Broad money is deposits \u2014 the money in everybody else's bank account. That is the one that gets spent.",
+   "start": 19.399999999999995,
+   "end": 27.324399092970516,
+   "text": "And here is somebody with money they would like to put somewhere safe \u2014 a pension fund, an insurer, a saver.",
    "voice": "n"
   },
   {
-   "start": 32.66666666666666,
-   "end": 41.75709750566892,
-   "text": "And the transmission of this policy runs through broad money. Not narrow money. The Bank of England has said so explicitly.",
+   "start": 27.733333333333327,
+   "end": 31.055011337868475,
+   "text": "The saver hands over a hundred pounds.",
    "voice": "n"
   },
   {
-   "start": 44.066666666666755,
-   "end": 55.36902494331075,
-   "text": "The textbook says that reserves multiply. Put a pound of reserves into the system and broad money rises by ten or fifteen times as much.",
+   "start": 31.466666666666654,
+   "end": 40.778095238095226,
+   "text": "And gets back a piece of paper. A promise. Five pounds every year, and then the hundred pounds back on a fixed date.",
    "voice": "n"
   },
   {
-   "start": 56.6000000000002,
-   "end": 59.21238095238115,
-   "text": "In Britain, it was less than one.",
+   "start": 41.200000000000074,
+   "end": 48.41972789115653,
+   "text": "Year after year, the five pounds arrives. It never changes. That is the whole point of it.",
    "voice": "n"
   },
   {
-   "start": 60.40000000000025,
-   "end": 77.52548752834491,
-   "text": "And the authors say plainly that this is not evidence the policy failed. On their own account, the right thing to expect was about one, not fifteen. The failure of broad money to explode is exactly what their theory predicts.",
+   "start": 49.66666666666683,
+   "end": 54.48857142857159,
+   "text": "And on the date printed on it, the hundred pounds comes back.",
    "voice": "n"
   },
   {
-   "start": 78.73333333333363,
-   "end": 100.8805895691613,
-   "text": "They also explain where it leaked away. Broad money grew by less than two hundred billion pounds during the first round. Banks swapped short-term deposits for long-term debt. And large companies raised money by issuing bonds instead of borrowing from banks. Both of those reduce broad money.",
+   "start": 56.33333333333356,
+   "end": 64.42054421768731,
+   "text": "government bond, or gilt. A promise the government has already sold, to pay fixed amounts on fixed dates.",
    "voice": "n"
   },
   {
-   "start": 103.13333333333348,
-   "end": 109.52467120181421,
-   "text": "You will hear it said that the banks are sitting on all that money instead of lending it out.",
+   "start": 69.73333333333342,
+   "end": 80.69900226757377,
+   "text": "The saver does not have to keep it until then. There is a market, and the gilt can be sold on to somebody else, at whatever price the two of them agree.",
    "voice": "n"
   },
   {
-   "start": 110.73333333333342,
-   "end": 123.72371882086176,
-   "text": "The banking system cannot do that. The amount of reserves in the system is decided by how the central bank chose to fund its purchases \u2014 not by any bank's own decision.",
+   "start": 81.1333333333333,
+   "end": 91.34290249433103,
+   "text": "But whatever price it changes hands at, the five pounds a year printed on it never changes. That one fact is the whole of the next section.",
    "voice": "n"
   },
   {
-   "start": 124.9333333333333,
-   "end": 132.87922902494327,
-   "text": "Reserves went up a lot because of how the purchases were paid for. That is arithmetic, not a choice.",
+   "start": 94.39999999999972,
+   "end": 103.01265306122421,
+   "text": "The payments printed on the ticket never change. Whatever happens, it pays five pounds a year. Hold on to that.",
    "voice": "n"
   },
   {
-   "start": 134.06666666666658,
-   "end": 148.38761904761895,
-   "text": "The only way more reserves can lead to more lending is if they change a bank's incentive to lend \u2014 for instance by making the bank's own funding cheaper. Which is a completely different mechanism.",
+   "start": 103.39999999999966,
+   "end": 109.94580498866179,
+   "text": "Pay a hundred pounds for it, and you get five pounds a year. That is five per cent.",
    "voice": "n"
   },
   {
-   "start": 150.66666666666646,
-   "end": 156.18253968253947,
-   "text": "Narrow money is bank reserves; broad money is everybody's deposits.",
+   "start": 110.79999999999961,
+   "end": 122.99065759637149,
+   "text": "Now suppose lots of buyers appear and the price goes up to a hundred and twenty-five. You are paying more for exactly the same five pounds. Four per cent.",
    "voice": "n"
   },
   {
-   "start": 156.26666666666642,
-   "end": 161.07895691609954,
-   "text": "The policy works through broad money, and the multiplier was under one.",
+   "start": 123.86666666666623,
+   "end": 133.05047619047576,
+   "text": "Push the price to two hundred, and it is two and a half per cent. Same ticket. Same five pounds. Half the return.",
    "voice": "n"
   },
   {
-   "start": 161.19999999999973,
-   "end": 165.8846712018138,
-   "text": "That is what the theory predicts \u2014 not evidence of failure.",
+   "start": 133.93333333333285,
+   "end": 142.10426303854828,
+   "text": "Price up, return down. Always. There is no way round it, because the payments on the ticket are fixed.",
    "voice": "n"
   },
   {
-   "start": 165.9999999999997,
-   "end": 172.2590476190473,
-   "text": "And the banking system cannot \u201clend out\u201d reserves; the quantity is not its choice.",
+   "start": 143.93333333333277,
+   "end": 151.69609977324205,
+   "text": "That return has a name. The yield. The return on a bond, as a percentage of what you paid for it.",
+   "voice": "n"
+  },
+  {
+   "start": 156.26666666666597,
+   "end": 159.40721088435305,
+   "text": "The central bank creates new money.",
+   "voice": "n"
+  },
+  {
+   "start": 159.79999999999927,
+   "end": 164.80662131519202,
+   "text": "And uses it to buy these tickets. In enormous quantities.",
+   "voice": "n"
+  },
+  {
+   "start": 165.19999999999916,
+   "end": 174.8012244897951,
+   "text": "So many buyers appear that the price of gilts rises. And therefore, by the sum we just did three times, the yield falls.",
+   "voice": "n"
+  },
+  {
+   "start": 176.59999999999908,
+   "end": 181.99351473922812,
+   "text": "quantitative easing. New money, buying government bonds in bulk.",
+   "voice": "n"
+  },
+  {
+   "start": 185.79999999999905,
+   "end": 206.37678004535053,
+   "text": "One careful sentence about creating money, because it is the thing everyone misunderstands. The Bank credits the seller's account with money that did not exist before, and takes the bond in exchange. Nothing is printed, and nothing is given away. An asset is swapped for money.",
+   "voice": "n"
+  },
+  {
+   "start": 208.66666666666558,
+   "end": 212.34126984126874,
+   "text": "a gilt: fixed payments, fixed dates",
+   "voice": "n"
+  },
+  {
+   "start": 212.46666666666553,
+   "end": 215.84294784580385,
+   "text": "payments fixed \u21d2 price up, return down",
+   "voice": "n"
+  },
+  {
+   "start": 215.93333333333217,
+   "end": 218.3308390022664,
+   "text": "That return is the yield.",
+   "voice": "n"
+  },
+  {
+   "start": 218.46666666666547,
+   "end": 220.98027210884234,
+   "text": "QE: new money buys gilts",
    "voice": "n"
   }
+ ],
+ "screen_text": [
+  "2026",
+  "2027",
+  "2028",
+  "2029",
+  "2030",
+  "24/43",
+  "Anditcanbesoldon",
+  "Apromisethegovernmenthasalreadysold,topayfixedamountsonfixeddates.",
+  "CHAPTER24",
+  "Newmoney,buyinggovernmentbondsinbulk.",
+  "Oneidea.Everythingdownstreamdependsonit.",
+  "PARTTWO\u2014THEPOLICY",
+  "Priceup,returndown.Always.",
+  "QE:newmoneybuysgilts",
+  "Sohereisthepolicy",
+  "Thatreturnistheyield.",
+  "Thereturn,asashareofwhatyoupaid.",
+  "Whatquantitativeeasingactuallyis",
+  "Whatwejustestablished",
+  "Whereagiltcomesfrom",
+  "agilt:fixedpayments,fixeddates",
+  "anassetisswappedformoney\u2014nothingisprinted,nothinggivenaway",
+  "asaver",
+  "butthe\u00a35ayearneverchanges",
+  "gilt",
+  "governmentbond,orgilt",
+  "paymentsfixed\u21d2priceup,returndown",
+  "pays\u00a35ayear",
+  "priceup\u21d2yielddown",
+  "quantitativeeasing",
+  "thegovernment",
+  "thisneverchanges",
+  "yield",
+  "youpay\u00a3100",
+  "youpay\u00a3125",
+  "youpay\u00a3200",
+  "\u00a3",
+  "\u00a3100",
+  "\u00a35ayear",
+  "\u00a35ayearthen\u00a3100in2030",
+  "\u00a35\u00f7\u00a3100=5%",
+  "\u00a35\u00f7\u00a3125=4%",
+  "\u00a35\u00f7\u00a3200=2.5%"
  ]
 }

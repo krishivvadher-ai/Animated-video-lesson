@@ -8,217 +8,128 @@ from lib.theme import *
 
 class Chapter37(Chapter):
     CH = 37
-    TITLE = "The management half: a queue, not a calculation"
+    TITLE = "Two different kinds of fear"
     PART = "PART THREE — THE ARGUMENT"
-    RECAP_ICONS = ["queue", "people", "clock", "scale"]
+    RECAP_ICONS = ["risk", "fog", "shield", "signal"]
 
     def body(self):
-        # ---------------------------------------------------- grow the firm
-        small = W.factory(CHALK, 0.6).move_to(LEFT * 4.6 + UP * 0.4)
-        with self.narrate("Grow Nell's factory into a large company, with several "
-                          "separately run parts."):
-            self.play(FadeIn(small), run_time=0.7)
-        big = VGroup(*[W.factory(CHALK, 0.42) for _ in range(4)])
-        big.arrange_in_grid(2, 2, buff=0.7).move_to(LEFT * 4.0 + UP * 0.4)
-        self.play(ReplacementTransform(small, big), run_time=1.4)
-
-        self.define("division", "A separately run part of a company.", "people", CHALK,
-                    at=RIGHT * 2.4, hold=4.0)
-        self.define("capital budget", "The pot a board shares out.", "money", MONEY, at=RIGHT * 2.4, hold=4.0)
-        self.define("hurdle rate, as an object", "A minimum return, written down.", "scale", SRC_KIT, at=RIGHT * 2.0, hold=5.4)
-
-        # ---------------------------------------------------- concede Dixit
+        q = cards.quote_card(
+            "of possible future outcomes, only the unfavorable ones have a bearing on "
+            "the current propensity to undertake a given project",
+            "Dixit (1992), p. 118, quoting Bernanke (1983)", SRC_DX, width=42)
+        q.move_to(UP * 1.6)
+        if q.width > 11.4:
+            q.scale(11.4 / q.width)
+        with self.narrate("Replay the bad news principle from chapter nine. When you "
+                          "can wait, it is mainly the bad possible outcomes that decide "
+                          "whether you build now."):
+            self.play(FadeIn(q), run_time=1.2)
+        self.beat()
+        ask = cards.body("So ask what this policy actually compresses.",
+                         size=T_SUB, color=SRC_KIT, width=36)
+        ask.move_to(DOWN * 1.2)
+        with self.narrate("So the question to ask is: what does this policy actually "
+                          "compress?"):
+            self.play(FadeIn(ask), run_time=0.9)
+        self.beat()
         self.clear_stage()
-        head = Text("First, concede Dixit — entirely", font=FONT, font_size=T_SUB,
-                    color=SRC_DX).to_edge(UP, buff=0.7)
+
+        self.define("the price of risk", "Extra return, for the worry.", "risk", SRC_BR,
+                    at=UP * 0.4, hold=5.0)
+
+        # ------------------------------------------------- the spring
+        head = Text("What QE pushes down", font=FONT, font_size=T_SUB,
+                    color=SRC_BR).to_edge(UP, buff=0.7)
         self.play(FadeIn(head), run_time=0.5)
-        conc = cards.bullet_list([
-            "he explains why it is high",
-            "worked out from OUTSIDE things",
-            "an outside price in disguise",
-        ], color=CHALK, width=42, dotc=SRC_DX)
-        conc.move_to(UP * 0.6)
-        says = ["Dixit already explains why that number is high, and he does it well.",
-                "In his model it is worked out from things outside the company. The "
-                "cost of its money, how choppy its market is, how fast that market is "
-                "growing.",
-                "It is an outside price wearing a disguise. And if the outside price "
-                "moves, the number moves."]
-        for i in range(3):
-            with self.narrate(says[i]):
-                self.play(FadeIn(conc[i], shift=RIGHT * 0.2), run_time=0.7)
-        self.beat()
-        disp = cards.body("not HOW HIGH — what KIND",
-                          size=T_SUB, color=SRC_KIT, width=40)
-        disp.to_edge(DOWN, buff=0.8)
-        with self.narrate("So say this explicitly, because it is easy to miss. Kit's "
-                          "dispute is not about how high the number is. It is about "
-                          "what kind of number it is."):
-            self.play(FadeIn(disp), run_time=1.0)
+        sp = W.spring(SRC_BR, turns=7, width=5.0, height=1.0).move_to(UP * 0.6)
+        wall = Line(LEFT * 3.0 + UP * 1.6, LEFT * 3.0 + DOWN * 0.4, color=MUTED,
+                    stroke_width=5)
+        lab = Text("the price of risk in financial markets", font=FONT,
+                   font_size=T_SMALL, color=SRC_BR)
+        lab.next_to(sp, DOWN, buff=0.6)
+        with self.narrate("In financial markets, quantitative easing pushes that price "
+                          "down. Squeeze the spring."):
+            self.play(Create(wall), Create(sp), FadeIn(lab), run_time=1.2)
+            sp2 = W.spring(SRC_BR, turns=7, width=5.0, height=1.0, compressed=0.85)
+            sp2.move_to(sp.get_center() + LEFT * 0.6)
+            self.play(Transform(sp, sp2), run_time=1.8)
         self.beat()
         self.clear_stage()
 
-        # ---------------------------------------------------- the queue
-        boardroom = W.door(CHALK, 1.4, 2.8, "the boardroom").move_to(RIGHT * 4.6 + UP * 0.1)
-        self.play(Create(boardroom), run_time=0.8)
-        projects = VGroup(*[
-            VGroup(RoundedRectangle(width=1.5, height=0.8, corner_radius=0.1,
-                                    color=WAIT, stroke_width=3),
-                   Text(f"project {i+1}", font=FONT, font_size=T_TINY, color=WAIT))
-            for i in range(5)])
-        for p in projects:
-            p[1].move_to(p[0].get_center())
-        projects.arrange(LEFT, buff=0.45).next_to(boardroom, LEFT, buff=0.7)
-        with self.narrate("And here is the mechanism, as an actual queue of projects at "
-                          "the boardroom door."):
-            self.play(LaggedStart(*[FadeIn(p, shift=LEFT * 0.3) for p in projects],
-                                  lag_ratio=0.25), run_time=2.0)
-
-        assum = cards.body("what runs out first is MANAGEMENT, not money",
-                           size=T_BODY, color=SRC_KIT, width=44)
-        assum.to_edge(DOWN, buff=0.7)
-        with self.narrate("State the assumption openly, because it is doing a lot of "
-                          "work and it might be wrong. In a large company the thing "
-                          "that runs out first is not money. It is management."):
-            self.play(FadeIn(assum), run_time=1.2)
-        self.beat()
-        self.play(FadeOut(assum), run_time=0.4)
-
-        chain = cards.bullet_list([
-            "more ideas than capable people",
-            "managers argue for their own",
-            "the board cannot check",
-            "the problem is CHOOSING",
-        ], color=CHALK, width=34, dotc=SRC_KIT)
-        chain.move_to(LEFT * 2.0 + DOWN * 1.6)
-        if chain.height > 3.0:
-            chain.scale(3.0 / chain.height)
-            chain.move_to(LEFT * 2.0 + DOWN * 1.6)
-        says = ["There are always more ideas than there are people capable of running "
-                "them properly.",
-                "Divisional managers push their own projects, and present them "
-                "optimistically, because that is what advocating for your division "
-                "looks like.",
-                "And the board cannot verify what it is told.",
-                "So the board's real problem is not working out what each project is "
-                "worth. It is choosing between them."]
-        for i in range(4):
-            with self.narrate(says[i]):
-                self.play(FadeIn(chain[i], shift=RIGHT * 0.2), run_time=0.6)
-        self.beat()
-        self.clear_stage()
-
-        # ---------------------------------------------------- the yield falls
-        head2 = Text("A minimum return set to solve THAT problem",
-                     font=FONT, font_size=T_SUB, color=SRC_KIT).to_edge(UP, buff=0.7)
+        # ------------------------------------------------- the other fear
+        nell = stick.nell(scale=1.0).move_to(LEFT * 4.0 + DOWN * 0.8)
+        self.play(FadeIn(nell), nell.mood("worried"), run_time=0.6)
+        head2 = Text("And now the other fear, inside Nell's head",
+                     font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
         self.play(FadeIn(head2), run_time=0.5)
-        tied = cards.body("tied to the NEXT project in the queue",
-                          size=T_BODY, color=CHALK, width=42)
-        tied.move_to(UP * 1.2)
-        with self.narrate("A minimum return set to solve that problem is tied to the "
-                          "next project in the queue — the best thing the company would "
-                          "have to drop in order to take this one on. And that is an "
-                          "internal quantity. It depends on how many good ideas the "
-                          "business is generating, and how many capable people it has "
-                          "spare."):
-            self.play(FadeIn(tied), run_time=1.4)
+
+        fears = ["Will there still be customers in three years?",
+                 "Will the euro survive, or will countries start leaving it?",
+                 "Will this whole industry still exist?"]
+        bubbles = VGroup()
+        for i, f in enumerate(fears):
+            th = nell.think(f, direction=UP, width=3.4, color=WAIT)
+            th.move_to(RIGHT * 1.4 + UP * (1.7 - i * 1.6))
+            bubbles.add(th)
+            with self.narrate(f, v="c"):
+                self.play(FadeIn(th), run_time=0.8)
+        self.beat()
+        diff = cards.body("Different worries entirely.", size=T_SUB, color=WAIT, width=24)
+        diff.move_to(LEFT * 4.0 + DOWN * 2.6)
+        with self.narrate("Those are different worries entirely. A central bank buying "
+                          "government bonds reaches them only indirectly, if at all."):
+            self.play(FadeIn(diff), run_time=0.9)
         self.beat()
 
-        yld = VGroup(
-            Text("the return on government debt", font=FONT, font_size=T_SMALL, color=SRC_BR),
-            Arrow(UP * 0.6, DOWN * 0.6, color=SRC_BR, buff=0, stroke_width=6))
-        yld.arrange(DOWN, buff=0.3).move_to(LEFT * 3.4 + DOWN * 1.6)
-        queue = VGroup(*[RoundedRectangle(width=0.9, height=0.5, corner_radius=0.08,
-                                          color=WAIT, stroke_width=3)
-                         for _ in range(4)]).arrange(RIGHT, buff=0.3)
-        queue.move_to(RIGHT * 2.6 + DOWN * 1.6)
-        ql = Text("the queue", font=FONT, font_size=T_SMALL, color=WAIT)
-        ql.next_to(queue, DOWN, buff=0.25)
-        with self.narrate("A fall in the return on government debt does not lengthen "
-                          "anybody's working week."):
-            self.play(FadeIn(yld), FadeIn(queue), FadeIn(ql), run_time=1.0)
-            self.play(Indicate(yld[1], color=SRC_BR), run_time=1.0)
-        still = Text("the queue does not move", font=FONT, font_size=T_BODY, color=MUTED)
-        still.next_to(ql, DOWN, buff=0.3)
-        with self.narrate("The yield falls. And the queue does not move."):
-            self.play(FadeIn(still), run_time=1.0)
-        self.beat()
-
-        # ---------------------------------------------------- the three holes
+        # ------------------------------------------------- the concession
         self.clear_stage()
-        kit = stick.kit(scale=0.75).to_corner(DOWN + LEFT, buff=0.5)
-        self.play(FadeIn(kit), kit.mood("thinking"), run_time=0.5)
-        head3 = Text("And now the holes — Kit points at them himself",
-                     font=FONT, font_size=T_SUB, color=SRC_KIT).to_edge(UP, buff=0.6)
+        kit = stick.kit(scale=0.8).move_to(LEFT * 5.4 + DOWN * 1.8)
+        self.play(FadeIn(kit), run_time=0.5)
+        head3 = Text("And here Kit narrows his own claim, in writing",
+                     font=FONT, font_size=T_SUB, color=SRC_KIT).to_edge(UP, buff=0.7)
         self.play(FadeIn(head3), run_time=0.5)
 
-        holes = [
-            ("scarce: TIME.  rationed by: MONEY.",
-             "Here is the first hole. What is actually scarce, on his own account, is "
-             "his managers' time. But the tool the company uses to ration it is a "
-             "percentage return on money. Those are not the same thing at all. A large "
-             "simple purchase can swallow a lot of money and very little management. A "
-             "small fiddly reorganisation can do the reverse."),
-            ("crude on purpose — or the wrong scarce thing?",
-             "He thinks the crudeness is telling rather than damning. A rule a board "
-             "can apply to proposals it cannot verify has to be simple, uniform and "
-             "hard to argue with. But a critic could read exactly the same fact the "
-             "other way, and conclude he has named the wrong scarce thing."),
-            ("no observation tells it apart from “rules are slow”",
-             "Second hole, and it is worse. He cannot name a single observation that "
-             "would tell his version apart from a much simpler story. That any "
-             "published rule is slow to change, whatever it was based on, because a "
-             "number that moves every month stops being a rule and becomes something to "
-             "argue about. On that story the threshold could be exactly what Dixit says "
-             "it is, and still sit still for years."),
-            ("cheaper money reshuffles the queue",
-             "And a third. If the queue is ranked by how valuable each project is, then "
-             "a fall in the cost of money lifts every project a bit, and reshuffles the "
-             "order. So the next project in the queue is not quite independent of "
-             "interest rates after all."),
-        ]
-        for text, say in holes:
-            card = cards.body(text, size=T_BODY, color=CHALK, width=48)
-            card.move_to(UP * 0.2)
-            if card.height > 4.0:
-                card.scale(4.0 / card.height)
-            with self.narrate(say):
-                self.play(FadeIn(card), run_time=1.0)
-            self.beat(0.6)
-            self.play(FadeOut(card), run_time=0.5)
-
-        # ---------------------------------------------------- what he can defend
-        self.clear_stage()
-        defend = cards.body("It moves on the COMPANY's clock, not the BANK's.",
-                            size=T_HEAD, color=SRC_KIT, width=34)
-        defend.move_to(UP * 0.8)
-        with self.narrate("So here is the version he can defend. Not that the number "
-                          "never moves. But that it moves on the company's clock rather "
-                          "than the central bank's."):
-            self.play(Write(defend), run_time=2.8)
-        self.beat()
-        clock = cards.body("years, not months",
-                           size=T_BODY, color=CHALK, width=44)
-        clock.move_to(DOWN * 1.5)
-        with self.narrate("Changing as the pipeline of ideas and the stock of managers "
-                          "change, over years. For a policy meant to work inside a "
-                          "downturn, that is close enough to failure to matter. But it "
-                          "is not the same as never, and he will not say never."):
-            self.play(FadeIn(clock), run_time=1.4)
+        conc = cards.bullet_list([
+            "it does touch that fear",
+            "richer owners spend more",
+            "one firm's customers are others' spending",
+            "and gilts aim at doubts about governments",
+        ], color=CHALK, width=42, dotc=SRC_KIT)
+        conc.move_to(RIGHT * 0.8 + UP * 0.5)
+        says = ["He cannot say the policy fails to touch that fear.",
+                "Higher share and property prices do make some owners spend more.",
+                "And one company's customers are other people's spending. So the fear "
+                "is thinned a little.",
+                "And buying government bonds is obviously aimed at doubts about "
+                "governments in the first place."]
+        for i in range(4):
+            with self.narrate(says[i]):
+                self.play(FadeIn(conc[i], shift=RIGHT * 0.2), run_time=0.6)
         self.beat()
 
-        self.clear_stage()
-        attr = cards.body("the IDEA is not Kit's. The USE is.", size=T_SUB, color=SRC_KIT, width=40)
-        with self.narrate("And the attribution, stated plainly. Treating a hurdle rate "
-                          "as a rationing device rather than a calculation is not an "
-                          "idea Kit invented. What he would claim is the use he has put "
-                          "it to."):
-            self.play(FadeIn(attr), run_time=1.4)
+        self.play(FadeOut(conc), run_time=0.5)
+        honest = cards.body("So the honest version is about how DIRECTLY, not about "
+                            "whether.", size=T_HEAD, color=SRC_KIT, width=30)
+        honest.move_to(UP * 0.8)
+        with self.narrate("So the honest version of his claim is about how directly, "
+                          "not about whether."):
+            self.play(Write(honest), run_time=2.2)
+        self.beat()
+        split = VGroup(
+            cards.body("DIRECTLY:\nthe price of risk", size=T_BODY, color=SRC_BR, width=24),
+            cards.body("AT ONE REMOVE:\nthe doubt itself",
+                       size=T_BODY, color=WAIT, width=24),
+        ).arrange(RIGHT, buff=1.6).move_to(DOWN * 1.5)
+        with self.narrate("What a central bank reaches directly is the price at which "
+                          "risk trades. What it reaches at one or two removes is the "
+                          "doubt itself."):
+            self.play(FadeIn(split[0]), run_time=0.8)
+            self.play(FadeIn(split[1]), run_time=0.8)
         self.beat()
 
         self.close_chapter([
-            "Dixit's account: conceded",
-            "what KIND of number, not how high",
-            "it rations management, not money",
-            "three holes, pointed at by him",
+            "bad news principle",
+            "QE squeezes the price of risk",
+            "a different fear: will there be customers?",
+            "how DIRECTLY — not whether",
         ])

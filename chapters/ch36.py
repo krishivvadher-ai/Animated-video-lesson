@@ -3,170 +3,143 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from manim import *
 from lib.base import Chapter
 from lib import stick, cards, widgets as W
+from lib.scale import MasterScale
 from lib.theme import *
 
 
 class Chapter36(Chapter):
     CH = 36
-    TITLE = "The rivals Kit cannot beat"
+    TITLE = "The instrument that fights itself"
     PART = "PART THREE — THE ARGUMENT"
-    RECAP_ICONS = ["door", "clock", "people", "fog"]
-
-    def door_scene(self, n, title, colour, points, spoken, kit):
-        d = W.door(colour, 1.5, 3.0, None).move_to(LEFT * 5.0 + UP * 0.2)
-        num = Text(f"Door {n}", font=FONT, font_size=T_SMALL, color=colour)
-        num.next_to(d, DOWN, buff=0.3)
-        head = cards.body(title, size=T_SUB, color=colour, width=34)
-        head.to_edge(UP, buff=0.6)
-        self.play(Create(d), FadeIn(num), FadeIn(head), run_time=0.9)
-        rows = cards.bullet_list(points, color=CHALK, width=40, dotc=colour)
-        rows.move_to(RIGHT * 1.4 + DOWN * 0.2)
-        if rows.height > 4.2:
-            rows.scale(4.2 / rows.height)
-            rows.move_to(RIGHT * 1.4 + DOWN * 0.2)
-        for i, s in enumerate(spoken):
-            with self.narrate(s):
-                self.play(FadeIn(rows[i], shift=RIGHT * 0.2), run_time=0.6)
-        self.beat()
-        left_open = Text("still open", font=FONT, font_size=T_SMALL, color=colour)
-        left_open.next_to(num, DOWN, buff=0.3)
-        self.play(FadeIn(left_open), run_time=0.5)
-        self.wait(0.6)
-        self.play(FadeOut(VGroup(d, num, head, rows, left_open)), run_time=0.6)
+    RECAP_ICONS = ["money", "clock", "scale", "risk"]
 
     def body(self):
-        kit = stick.kit(scale=0.7).to_corner(DOWN + RIGHT, buff=0.5)
+        nell = stick.nell(scale=0.85).move_to(LEFT * 5.2 + DOWN * 1.6)
+        self.play(FadeIn(nell), run_time=0.5)
+
+        a = cards.body("Cheap money is meant to make BUILDING attractive.",
+                       size=T_SUB, color=MONEY, width=26)
+        a.move_to(LEFT * 2.4 + UP * 1.9)
+        b = cards.body("But cheap money also makes WAITING cheaper.",
+                       size=T_SUB, color=WAIT, width=26)
+        b.move_to(RIGHT * 3.0 + UP * 1.9)
+        with self.narrate("Cheap money is meant to make building attractive."):
+            self.play(FadeIn(a), run_time=0.8)
+        with self.narrate("But cheap money also makes waiting cheaper."):
+            self.play(FadeIn(b), run_time=0.8)
+        self.beat()
+
+        why = cards.body("holding off costs the forgone return",
+                         size=T_BODY, color=CHALK, width=44)
+        why.move_to(RIGHT * 0.4 + UP * 0.2)
+        with self.narrate("Because the cost of holding off for a year is the return the "
+                          "money would have earned meanwhile. Make that return small, "
+                          "and holding off hurts less."):
+            self.play(FadeIn(why), nell.mood("thinking"), run_time=1.1)
+        self.beat()
+        self.play(FadeOut(why), run_time=0.4)
+
+        # ------------------------------------------------- the two figures again
+        sc = MasterScale(x=-1.4, y=-1.0, height=3.4, lo=0.0, hi=3.2)
+        self.play(Create(sc.axis), FadeIn(sc.arrow_head), run_time=0.7)
+        base = sc.add_level("M", 1.0, "break-even", COST, width=2.2)
+        h1 = sc.add_level("H1", 1.86, "1.86 × at a 5% cost of capital", TRIGGER,
+                          width=2.2, sw=5)
+        self.play(Create(base[0]), FadeIn(base[1]), run_time=0.6)
+        with self.narrate("Dixit's own figures, on one scale. At a five per cent cost "
+                          "of capital, the multiplier is one point eight six."):
+            self.play(Create(h1[0]), FadeIn(h1[1]), run_time=0.9)
+        h2 = sc.add_level("H2", 2.61, "2.61 × at 2%", TRIGGER, width=2.2, sw=5)
+        with self.narrate("At two per cent, it is two point six one."):
+            self.play(Create(h2[0]), FadeIn(h2[1]), run_time=0.9)
+        self.beat()
+
+        # ------------------------------------------------- two arrows at once
+        bar = Rectangle(width=1.0, height=1.6, color=COST, stroke_width=3,
+                        fill_color=COST, fill_opacity=0.22)
+        bar.move_to(RIGHT * 4.6 + DOWN * 1.0)
+        cap = Rectangle(width=1.0, height=1.1, color=TRIGGER, stroke_width=3,
+                        fill_color=TRIGGER, fill_opacity=0.22)
+        cap.next_to(bar, UP, buff=0)
+        bl = Text("break-even", font=FONT, font_size=T_SMALL, color=COST)
+        bl.next_to(bar, DOWN, buff=0.2)
+        cl = Text("the mark-up\nwaiting adds", font=FONT, font_size=T_SMALL,
+                  color=TRIGGER, line_spacing=0.9)
+        cl.next_to(cap, RIGHT, buff=0.25)
+        with self.narrate("Think of a firm's bar as two pieces. The break-even level, "
+                          "and the mark-up that waiting adds on top of it."):
+            self.play(FadeIn(bar), FadeIn(bl), run_time=0.7)
+            self.play(FadeIn(cap), FadeIn(cl), run_time=0.7)
+
+        down = Arrow(bar.get_left() + LEFT * 1.4 + UP * 0.9,
+                     bar.get_left() + LEFT * 0.15, color=MONEY, buff=0, stroke_width=6)
+        up = Arrow(cap.get_right() + RIGHT * 1.4 + DOWN * 0.4,
+                   cap.get_right() + RIGHT * 0.15, color=TRIGGER, buff=0, stroke_width=6)
+        with self.narrate("The policy pushes the bottom piece down."):
+            self.play(Create(down), bar.animate.stretch_to_fit_height(1.15).move_to(
+                bar.get_center() + DOWN * 0.22), run_time=1.4)
+        with self.narrate("And at the same time it fattens the piece on top."):
+            self.play(Create(up), cap.animate.stretch_to_fit_height(1.7).next_to(bar, UP, buff=0),
+                      run_time=1.4)
+        self.beat()
+
+        # ------------------------------------------------- the honest size
+        self.clear_stage()
+        kit = stick.kit(scale=0.8).move_to(LEFT * 5.4 + DOWN * 1.8)
         self.play(FadeIn(kit), run_time=0.5)
-        with self.narrate("Four doors. Kit opens each one, and cannot close it again. "
-                          "This is the chapter where the film earns its credibility, so "
-                          "none of these gets knocked down."):
-            pass
-
-        self.door_scene(
-            1, "It is just a small dose.", SRC_MM,
-            ["200–300 basis points, first round",
-             "Later programmes did little.",
-             "enough to cushion, not to reverse",
-             "differs in principle · untestable in practice"],
-            ["Martin and Milas have their own explanation. The very large initial "
-             "programmes had effects comparable to a cut in the policy rate of two to "
-             "three hundred basis points — that is, two to three percentage points.",
-             "And later programmes did very little.",
-             "A dose that size might well be enough to cushion a fall and not enough to "
-             "reverse one. That is a complete answer, and it needs nothing at all from "
-             "Dixit.",
-             "Kit's account does differ in principle. His says the same dose would work "
-             "better in calm conditions. But he cannot test that difference, because "
-             "the policy is only ever used in a crisis. So the two are rivals in "
-             "principle, and cannot be told apart in practice."],
-            kit)
-
-        self.door_scene(
-            2, "Firms thought it was temporary.", SRC_BR,
-            ["from Kit's own hinge quotation",
-             "firms read it as temporary",
-             "nobody rebuilds around a rate they think will go",
-             "inside the authors' own framework"],
-            ["Door two is the strongest objection against him, and it comes straight "
-             "out of his own hinge quotation.",
-             "If a long-horizon planner ignores a change because the change is "
-             "temporary, then the simplest explanation of why firms did not respond is "
-             "that they read the policy as temporary too.",
-             "Rates were pushed down. Everybody expected them to be pushed back up. And "
-             "nobody rebuilds a factory around a rate they do not expect to last.",
-             "It needs nothing from Dixit and nothing from management. It sits entirely "
-             "inside the original article's own framework."],
-            kit)
-
-        # Kit's three replies, and none of them is a refutation
-        head = Text("Kit has three things to say, and none is a refutation",
+        head = Text("Now be honest about the size of this",
                     font=FONT, font_size=T_SUB, color=SRC_KIT).to_edge(UP, buff=0.7)
         self.play(FadeIn(head), run_time=0.5)
-        rep = cards.bullet_list([
-            "not exclusive",
-            "different predictions",
-            "Dixit STRENGTHENS the rival",
-        ], color=CHALK, width=42, dotc=SRC_KIT)
-        rep.move_to(DOWN * 0.2)
-        says = ["The two stories are not exclusive. A change that looked permanent "
-                "would still meet a gate inside the firm.",
-                "They predict different things. The temporary story says firms would "
-                "respond fully to a change they believed would last.",
-                "And Dixit's reasoning actually strengthens the temporary story rather "
-                "than competing with it — because a change you think might not last is "
-                "precisely what makes waiting attractive."]
-        for i in range(3):
-            with self.narrate(says[i]):
-                self.play(FadeIn(rep[i], shift=RIGHT * 0.2), run_time=0.7)
+
+        dirn = cards.body("The direction is not in doubt. The bar does come down.",
+                          size=T_SUB, color=CHALK, width=40)
+        dirn.move_to(UP * 1.7)
+        with self.narrate("The direction is not in doubt. The bar does come down. The "
+                          "first effect wins."):
+            self.play(FadeIn(dirn), run_time=0.9)
         self.beat()
-        unsettled = cards.body("unsettled",
-                               size=T_SUB, color=SRC_KIT, width=40)
-        unsettled.to_edge(DOWN, buff=0.6)
-        with self.narrate("Which of the two does more of the work is a question this "
-                          "argument does not settle."):
-            self.play(FadeIn(unsettled), run_time=0.9)
+
+        want = cards.body("“it comes down by LESS than you expect”", size=T_BODY, color=SRC_KIT, width=42)
+        want.move_to(UP * 0.4)
+        with self.narrate("What Kit originally wanted to say was sharper. That it comes "
+                          "down by less than you would expect."):
+            self.play(FadeIn(want), kit.mood("pleased"), run_time=0.9)
+
+        col1 = cards.body("percentage points:\nfalls by MORE", size=T_BODY, color=MONEY, width=22)
+        col2 = cards.body("As proportions:\nit falls by LESS.",
+                          size=T_BODY, color=COST, width=22)
+        cols = VGroup(col1, col2).arrange(RIGHT, buff=1.8).move_to(DOWN * 1.2)
+        with self.narrate("He has withdrawn it. Because whether that is true depends "
+                          "entirely on how you measure it. Compare the two figures as "
+                          "percentage points, and the bar falls by more than the cost "
+                          "of money does."):
+            self.play(FadeIn(col1), run_time=0.9)
+        with self.narrate("Compare them as proportions, and it falls by less."):
+            self.play(FadeIn(col2), kit.mood("worried"), run_time=0.9)
+        both = cards.body("Both sums are correct. Neither is the true one.",
+                          size=T_SUB, color=CHALK, width=40)
+        both.next_to(cols, DOWN, buff=0.6)
+        with self.narrate("Both sums are correct. Neither of them is the true one. So "
+                          "he declines to pick."):
+            self.play(FadeIn(both), run_time=0.9)
         self.beat()
-        self.play(FadeOut(head), FadeOut(rep), FadeOut(unsettled), run_time=0.6)
 
-        self.door_scene(
-            3, "Most of this does not apply.", SRC_MM,
-            ["no effect on SME and household rates",
-             "unsecured rates ROSE in 2008–9",
-             "the money never arrived",
-             "scope: large firms only"],
-            ["Door three shrinks him. Martin and Milas report that the policy does not "
-             "appear to have affected the rates facing small and medium-sized companies "
-             "and households at all.",
-             "For borrowing with nothing pledged against it — no property, no equipment "
-             "a lender can take — rates actually rose in two thousand and eight and "
-             "two thousand and nine. Lenders raised their charge for risky borrowers "
-             "faster than the policy rate came down.",
-             "For those borrowers the money never arrived, and the original article's "
-             "own qualification covers them completely. There is nothing left for Kit "
-             "to explain.",
-             "So his argument is scoped, honestly, to large firms that did see the "
-             "cheaper price — which is, as it happens, where the rest of it is "
-             "strongest anyway."],
-            kit)
+        cross = Line(want.get_left() + LEFT * 0.2, want.get_right() + RIGHT * 0.2,
+                     color=COST, stroke_width=5)
+        self.play(Create(cross), run_time=0.9)
+        self.beat()
 
-        self.door_scene(
-            4, "How good is the evidence?", SRC_MM,
-            ["limited · similar methods · mostly central banks",
-             "the 1–3% he is explaining comes from it",
-             "and they call it tentative",
-             "softer ground than he assumed"],
-            ["Door four is about the floor under all of it. Martin and Milas warn, in "
-             "their own abstract, that the literature is limited, relies on similar "
-             "methods, and largely originates in central banks — which are not neutral "
-             "parties.",
-             "The one to three per cent figure that Kit is treating as a fact to be "
-             "explained comes largely from that research.",
-             "And the authors call their own conclusion tentative.",
-             "So the ground he is standing on is softer than he assumed it was."],
-            kit)
-
-        # ---------------------------------------------------- Dixit's own limit
-        head2 = Text("And one more limit — this one is Dixit's own",
-                     font=FONT, font_size=T_SUB, color=SRC_DX).to_edge(UP, buff=0.7)
-        self.play(FadeIn(head2), run_time=0.5)
-        nell = stick.nell(scale=0.85).move_to(LEFT * 3.4 + DOWN * 0.6)
-        d = W.door(MONEY, 1.2, 2.4, "one site, one licence").move_to(RIGHT * 1.0 + DOWN * 0.2)
-        rival = stick.StickFigure("a rival", CHALK, scale=0.85).move_to(RIGHT * 5.4 + DOWN * 0.6)
-        with self.narrate("If several firms are racing for the same opportunity, "
-                          "waiting is not possible, and the textbook is right after all."):
-            self.play(FadeIn(nell), Create(d), FadeIn(rival), run_time=0.9)
-            self.play(rival.walk_to(RIGHT * 1.0 + DOWN * 0.6, run_time=1.8))
-        scope = cards.body("not a race",
-                           size=T_SUB, color=CHALK, width=40)
-        scope.to_edge(DOWN, buff=0.6)
-        with self.narrate("The argument applies to investment a company can take its "
-                          "time over. Not to a race."):
-            self.play(FadeIn(scope), run_time=0.9)
+        self.clear_stage()
+        claim = cards.body("Part of the policy is spent making patience attractive.",
+                           size=T_HEAD, color=CHALK, width=32)
+        with self.narrate("The claim he is entitled to is the plain one. Part of the "
+                          "policy is spent making patience more attractive."):
+            self.play(Write(claim), run_time=2.6)
         self.beat()
 
         self.close_chapter([
-            "a small dose explains it too",
-            "“they thought it temporary” — unrefuted",
-            "small firms never got the price",
-            "and the evidence itself is thin",
+            "cheap money: builds AND waits",
+            "1.86 at 5%  ·  2.61 at 2%",
+            "withdrawn: “by less than you expect”",
+            "surviving claim: patience gets cheaper",
         ])

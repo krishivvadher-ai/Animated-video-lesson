@@ -1,127 +1,162 @@
 {
  "chapter": 9,
- "title": "When this is wrong",
- "duration": 191.33333333333263,
+ "title": "Money later is worth less than money now",
+ "duration": 183.0666666666656,
  "cues": [
   {
-   "start": 3.0000000000000018,
-   "end": 15.502857142857145,
-   "text": "Being honest about the limits is part of the teaching, and it also stops you over-applying the idea. The paper sets out four qualifications, and every one of them matters.",
+   "start": 3.5333333333333368,
+   "end": 14.491156462585037,
+   "text": "The next five chapters do the mathematics. Properly, and from the beginning. Nothing beyond square roots, fractions and percentages is used, and everything is built in front of you.",
+   "voice": "c"
+  },
+  {
+   "start": 14.933333333333337,
+   "end": 20.935056689342407,
+   "text": "A hundred pounds today, and a hundred pounds in a year. Which would you rather have?",
    "voice": "n"
   },
   {
-   "start": 16.46666666666667,
-   "end": 28.627437641723358,
-   "text": "Everything so far assumed the chance was Nell's alone. Suppose it is not. Suppose there is one site, or one licence, and several firms want it.",
+   "start": 21.333333333333336,
+   "end": 28.727755102040817,
+   "text": "Today, obviously. Because you could put today's hundred to work, and have more than a hundred by next year.",
    "voice": "n"
   },
   {
-   "start": 29.066666666666663,
-   "end": 33.73646258503401,
-   "text": "Nell hesitates, sensibly, to see how things develop.",
+   "start": 29.933333333333334,
+   "end": 36.52639455782313,
+   "text": "Put a hundred pounds somewhere paying five per cent, and in a year you have a hundred and five.",
    "voice": "n"
   },
   {
-   "start": 34.13333333333332,
-   "end": 37.16938775510203,
-   "text": "And somebody else walks through the door.",
+   "start": 36.93333333333333,
+   "end": 45.37537414965986,
+   "text": "Run that backwards. A hundred and five pounds a year from now is worth exactly a hundred pounds today.",
    "voice": "n"
   },
   {
-   "start": 37.60000000000014,
-   "end": 52.54662131519289,
-   "text": "When the chance can be snatched, waiting is no longer possible. And when waiting is not possible, the textbook's trigger is valid again. This is a real limit, and we will come back to it in Part Two.",
+   "start": 45.80000000000004,
+   "end": 53.76126984126988,
+   "text": "And that is a division. Divide by one point nought five, and you have turned money later into money now.",
    "voice": "n"
   },
   {
-   "start": 54.80000000000024,
-   "end": 65.26321995464876,
-   "text": "Sometimes moving first has a value of its own \u2014 you take the best position, and everyone else has to work around you. That pulls the other way.",
+   "start": 55.60000000000011,
+   "end": 60.97138321995476,
+   "text": "discounting. Turning money you get later into what it is worth today.",
    "voice": "n"
   },
   {
-   "start": 65.66666666666697,
-   "end": 69.54934240362842,
-   "text": "The right answer balances the two against each other.",
+   "start": 65.93333333333335,
+   "end": 74.15886621315195,
+   "text": "A factory that earns five pounds a year, for ever. Here is the five pounds, arriving year after year.",
    "voice": "n"
   },
   {
-   "start": 71.8000000000002,
-   "end": 79.73777777777798,
-   "text": "Six firms, each looking at the same opportunity, each with slightly different information about it.",
+   "start": 74.59999999999988,
+   "end": 89.36417233560078,
+   "text": "But each one has to be discounted back. The five pounds in year one is divided once. Year two, twice. Year three, three times. So the far-off ones shrink almost to nothing.",
    "voice": "n"
   },
   {
-   "start": 80.13333333333348,
-   "end": 93.04303854875299,
-   "text": "Each one looks around, sees that nobody else has moved, and concludes that the others must have found something discouraging. So each one revises its own view downwards.",
+   "start": 90.59999999999974,
+   "end": 99.16240362811766,
+   "text": "Add up every one of them, all the way out to for ever, and the total is not infinite. It settles on one number.",
    "voice": "n"
   },
   {
-   "start": 93.46666666666673,
-   "end": 103.3044444444445,
-   "text": "And so everybody waits. Not because the opportunity is bad, but because everybody is reading everybody else's silence.",
+   "start": 99.5999999999997,
+   "end": 108.55514739228994,
+   "text": "And the sum is astonishingly simple. Five pounds, divided by nought point nought five. A hundred pounds.",
    "voice": "n"
   },
   {
-   "start": 104.53333333333335,
-   "end": 106.70625850340137,
-   "text": "Then one of them moves.",
+   "start": 109.79999999999957,
+   "end": 119.84376417233517,
+   "text": "That is the only piece of machinery you need. The value of a stream that goes on for ever is the yearly amount divided by the rate.",
    "voice": "n"
   },
   {
-   "start": 107.1333333333333,
-   "end": 116.59115646258499,
-   "text": "And now everybody revises upwards \u2014 because that firm must have seen something good. Investment arrives in a sudden bunch.",
+   "start": 121.06666666666614,
+   "end": 129.80965986394506,
+   "text": "And the rate we divide by is the one from chapter two. The cost of capital. What the money has to earn to be worth using.",
    "voice": "n"
   },
   {
-   "start": 119.59999999999975,
-   "end": 129.52553287981834,
-   "text": "This one comes with a quotation, because it is the single idea Part Two leans on hardest. Dixit is quoting Bernanke.",
+   "start": 131.5333333333327,
+   "end": 136.02063492063428,
+   "text": "Five pounds a year at five per cent is worth a hundred.",
    "voice": "n"
   },
   {
-   "start": 130.73333333333304,
-   "end": 139.5047165532877,
-   "text": "In plain words. When you can wait, it is mainly the bad possible futures that decide whether you build now.",
+   "start": 136.93333333333266,
+   "end": 147.31469387755035,
+   "text": "The same five pounds, when the rate is only two per cent, is worth two hundred and fifty. Cheaper money makes future income worth more.",
    "voice": "n"
   },
   {
-   "start": 140.733333333333,
-   "end": 150.0467573696142,
-   "text": "Because the good futures will still be there next year. You have not missed them. Waiting only ever protects you from the bad ones.",
+   "start": 148.19999999999928,
+   "end": 155.57437641723283,
+   "text": "And at ten per cent it is worth only fifty. Expensive money makes future income worth less.",
    "voice": "n"
   },
   {
-   "start": 151.86666666666628,
-   "end": 173.70380952380913,
-   "text": "And carry the qualification the paper adds in the very next sentence, because dropping it changes the meaning. The total chance of ending up above the trigger does still matter. What does not matter is the shape of the good outcomes beyond it. Those are not the same thing, and Part Two needs the difference.",
+   "start": 156.4666666666659,
+   "end": 162.5445351473915,
+   "text": "Hold on to the middle one. It is going to matter enormously in chapter thirteen.",
    "voice": "n"
   },
   {
-   "start": 175.9999999999995,
-   "end": 179.39596371882035,
-   "text": "a race \u2192 the textbook is right",
+   "start": 164.7999999999991,
+   "end": 168.12462585033924,
+   "text": "money later is worth less than money now",
    "voice": "n"
   },
   {
-   "start": 179.5333333333328,
-   "end": 182.60421768707428,
-   "text": "first-mover value pulls the other way",
+   "start": 168.26666666666574,
+   "end": 172.1618594104299,
+   "text": "discounting turns later money into today's money",
    "voice": "n"
   },
   {
-   "start": 182.73333333333275,
-   "end": 186.9768253968248,
-   "text": "inaction reads as bad news \u2192 bunching",
+   "start": 172.2666666666657,
+   "end": 177.14870748299225,
+   "text": "a stream for ever = yearly amount \u00f7 the rate",
    "voice": "n"
   },
   {
-   "start": 187.06666666666604,
-   "end": 188.9533333333327,
-   "text": "bad news principle",
+   "start": 177.26666666666569,
+   "end": 180.7090702947836,
+   "text": "cheaper money makes future income worth MORE",
    "voice": "n"
   }
+ ],
+ "screen_text": [
+  "9/43",
+  ">",
+  "?",
+  "CHAPTER9",
+  "Moneylaterisworthlessthanmoneynow",
+  "Nowdoitforastreamthatneverstops",
+  "PARTONE\u2014THEPAPER",
+  "Turningmoneyyougetlaterintowhatitisworthtoday.",
+  "Whatwejustestablished",
+  "astreamforever=yearlyamount\u00f7therate",
+  "cheapermoneymakesfutureincomeworthMORE",
+  "discounting",
+  "discountingturnslatermoneyintotoday'smoney",
+  "fivepoundsayear,forever,at5%",
+  "moneylaterisworthlessthanmoneynow",
+  "so\u00a3105inayear=\u00a3100today",
+  "value=yearlyamount\u00f7therate",
+  "year1234567\u2026",
+  "\u00a3",
+  "\u00a3100inayear",
+  "\u00a3100today",
+  "\u00a3100\u00d71.05=\u00a3105",
+  "\u00a3105\u00f71.05=\u00a3100",
+  "\u00a35ayearat10%\u2192\u00a35\u00f70.10=\u00a350",
+  "\u00a35ayearat2%\u2192\u00a35\u00f70.02=\u00a3250",
+  "\u00a35ayearat5%\u2192\u00a35\u00f70.05=\u00a3100",
+  "\u00a35\u00f70.05=\u00a3100"
  ]
 }

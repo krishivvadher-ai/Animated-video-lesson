@@ -1,103 +1,121 @@
 {
  "chapter": 11,
- "title": "The zone of inaction",
- "duration": 153.13333333333298,
+ "title": "How the future is modelled",
+ "duration": 148.66666666666646,
  "cues": [
   {
-   "start": 4.000000000000004,
-   "end": 16.336417233560095,
-   "text": "Take away the uncertainty for a moment, and leave only the sunk cost. The textbook still has a small band where doing nothing is right \u2014 from one, to one point one.",
+   "start": 3.0000000000000018,
+   "end": 14.1746485260771,
+   "text": "Every number in the next two chapters rests on one assumption about how revenue moves. So we build that first, and we build it with coins.",
    "voice": "n"
   },
   {
-   "start": 16.733333333333334,
-   "end": 21.08185941043084,
-   "text": "That is the whole of it. A band nought point one wide.",
+   "start": 15.133333333333333,
+   "end": 22.70122448979592,
+   "text": "Each year, revenue does one of two things. It goes up by a fixed percentage, or down by one.",
    "voice": "n"
   },
   {
-   "start": 22.266666666666666,
-   "end": 25.302721088435373,
-   "text": "Now put the uncertainty back in.",
+   "start": 23.933333333333326,
+   "end": 35.03034013605441,
+   "text": "Percentages rather than pounds, because a big firm swings by big amounts and a small one by small amounts. That is the only realistic way to do it.",
    "voice": "n"
   },
   {
-   "start": 25.733333333333327,
-   "end": 31.92730158730158,
-   "text": "Nought point seven two, to one point six two. Nought point nine wide.",
+   "start": 37.33333333333337,
+   "end": 45.203990929705256,
+   "text": "Do that again the next year, and the next. Every point splits in two, and the possibilities fan out.",
    "voice": "n"
   },
   {
-   "start": 33.13333333333332,
-   "end": 46.42548752834466,
-   "text": "About nine times wider. That comparison is ours, not the paper's \u2014 the paper prints the four levels and calls the difference quite a dramatic difference. We did the division.",
+   "start": 46.400000000000205,
+   "end": 52.66362811791404,
+   "text": "Watch one possible path through it. That is one future \u2014 one thing that might happen.",
    "voice": "n"
   },
   {
-   "start": 47.66666666666673,
-   "end": 54.85482993197285,
-   "text": "This band has a name. The zone of inaction. The stretch where the right thing to do is nothing at all.",
+   "start": 53.86666666666698,
+   "end": 62.237823129252014,
+   "text": "And here are a dozen more. Nobody knows which one happens. All anybody knows is the shape of the fan.",
    "voice": "n"
   },
   {
-   "start": 57.13333333333349,
-   "end": 71.05741496598655,
-   "text": "First. Small frictions can produce much larger rigidities than models which ignore gradually-arriving information would ever suggest. A little stickiness goes a very long way.",
+   "start": 64.06666666666715,
+   "end": 71.26249433106624,
+   "text": "a random walk. Each step is up or down by a fixed percentage, and you cannot tell which.",
    "voice": "n"
   },
   {
-   "start": 72.66666666666684,
-   "end": 83.44149659863963,
-   "text": "Second, and this one reaches outside the firm altogether. Hiring and firing cost money. So exactly the same logic applies to jobs.",
+   "start": 76.266666666667,
+   "end": 85.08009070294818,
+   "text": "Take a typical year and ask: how far did revenue move? In a calm trade, not far. The outcomes bunch up.",
    "voice": "n"
   },
   {
-   "start": 83.86666666666679,
-   "end": 87.26825396825409,
-   "text": "Employers hoard labour in downturns.",
+   "start": 85.46666666666692,
+   "end": 90.4349206349209,
+   "text": "In a rough trade \u2014 oil, metals \u2014 they spread right out.",
    "voice": "n"
   },
   {
-   "start": 87.66666666666673,
-   "end": 90.79378684807263,
-   "text": "And they are slow to hire in upturns.",
+   "start": 91.66666666666684,
+   "end": 113.7412244897961,
+   "text": "The width of that spread is the number the paper calls the choppiness. It is the size of a typical yearly swing, written as a percentage. Ten per cent for revenue that moves with exchange rates. Twenty-five to forty for an oil well or a copper mine. And the paper's base case sits between, at twenty.",
    "voice": "n"
   },
   {
-   "start": 91.20000000000003,
-   "end": 101.37886621315195,
-   "text": "So what a worker adds to the business can sit well above the wage without anybody being hired \u2014 and well below it without anybody being let go.",
+   "start": 114.93333333333344,
+   "end": 123.13655328798197,
+   "text": "The paper writes it as a Greek letter. This film never will. It is the choppiness, and it is a percentage.",
    "voice": "n"
   },
   {
-   "start": 103.1333333333333,
-   "end": 117.76149659863943,
-   "text": "And the paper draws a conclusion from that which is worth hearing. The popular worry about loss of jobs \u2014 the one economists usually wave away \u2014 may have more justification than the textbook allows.",
+   "start": 125.39999999999999,
+   "end": 130.29365079365078,
+   "text": "each year revenue goes up or down by a fixed percentage",
    "voice": "n"
   },
   {
-   "start": 120.0666666666665,
-   "end": 129.1979591836733,
-   "text": "Sunk costs alone give a band 0.10 wide: from 1.00 to 1.10.",
+   "start": 130.39999999999995,
+   "end": 134.2139229024943,
+   "text": "run that forward and the possibilities fan out",
    "voice": "n"
   },
   {
-   "start": 129.33333333333314,
-   "end": 137.50099773242613,
-   "text": "Adding uncertainty widens it to 0.72\u20131.62 \u2014 about nine times wider.",
+   "start": 134.33333333333326,
+   "end": 138.463492063492,
+   "text": "nobody knows the path \u2014 only the shape of the fan",
    "voice": "n"
   },
   {
-   "start": 137.59999999999977,
-   "end": 143.79011337868457,
-   "text": "Small frictions can produce far larger rigidities than the textbook expects.",
-   "voice": "n"
-  },
-  {
-   "start": 143.93333333333305,
-   "end": 150.7308390022673,
-   "text": "The same logic applies to jobs: hoarding in downturns, slow hiring in upturns.",
+   "start": 138.59999999999988,
+   "end": 146.31487528344658,
+   "text": "the width of the fan is the choppiness: 10% calm, 40% rough, 20% base case",
    "voice": "n"
   }
+ ],
+ "screen_text": [
+  "+20%",
+  "11/43",
+  "Andonenumberdescribesthewholefan",
+  "CHAPTER11",
+  "Eachstepisupordownbyafixedpercentage,andyoucannottellwhich.",
+  "Howthefutureismodelled",
+  "Nowletitrun",
+  "Onestepatatime",
+  "PARTONE\u2014THEPAPER",
+  "Percentages,notpounds\u2014becauseabigfirmswingsbybigamountsandasmallonebysmallones.",
+  "ThepaperwritesitasaGreekletter.Thisfilmneverdoes\u2014itisjust\u201cthechoppiness\u201d,anditisapercentage.",
+  "Whatwejustestablished",
+  "acalmtrade\u201410%ayear",
+  "arandomwalk",
+  "aroughtrade\u201440%ayear",
+  "eachyearrevenuegoesupordownbyafixedpercentage",
+  "nobodyknowsthepath\u2014onlytheshapeofthefan",
+  "runthatforwardandthepossibilitiesfanout",
+  "thechoppiness",
+  "thewidthofthefanisthechoppiness:10%calm,40%rough,20%basecase",
+  "thisyear\u2019srevenue",
+  "\u221220%"
  ]
 }

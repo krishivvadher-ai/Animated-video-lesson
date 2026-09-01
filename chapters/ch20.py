@@ -3,147 +3,124 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from manim import *
 from lib.base import Chapter
 from lib import stick, cards, widgets as W
-from lib.balance import TAccount
 from lib.theme import *
 
 
 class Chapter20(Chapter):
     CH = 20
-    TITLE = "Three balance sheets"
-    PART = "PART TWO — THE POLICY"
-    RECAP_ICONS = ["people", "bank", "money", "ticket"]
+    TITLE = "Outside business"
+    PART = "PART ONE — THE PAPER"
+    RECAP_ICONS = ['slab', 'door', 'signal']
 
     def body(self):
-        with self.narrate("The policy is easy to describe and easy to get wrong. So we "
-                          "are going to follow the money through three sets of books, "
-                          "one at a time."):
+        three = VGroup(
+            VGroup(cards.icon("slab", SUNK, 1.5),
+                   cards.body("costly to reverse", size=T_SMALL, color=SUNK, width=16)),
+            VGroup(cards.icon("fog", WAIT, 1.5),
+                   cards.body("made under uncertainty", size=T_SMALL, color=WAIT, width=16)),
+            VGroup(cards.icon("clock", MONEY, 1.5),
+                   cards.body("the timing is a choice", size=T_SMALL, color=MONEY, width=16)),
+        )
+        for g in three:
+            g.arrange(DOWN, buff=0.35)
+        three.arrange(RIGHT, buff=1.6).shift(UP * 1.4)
+
+        with self.narrate("The paper closes with an observation that reaches well "
+                          "outside business. Many personal, social and political "
+                          "decisions have exactly the same three features."):
+            self.play(FadeIn(three), run_time=1.2)
+        with self.narrate("Costly to reverse. Made under uncertainty. And the timing is "
+                          "yours to choose. So the same inertia applies to them too."):
             pass
-
-        self.define("balance sheet", "What you own, and what you owe.", "scale", CHALK, hold=4.2)
-        self.define("portfolio", "Everything somebody holds.", "queue", CHALK, hold=3.4)
-
-        # ---------------------------------------------------- who sells
-        seller = VGroup(
-            stick.StickFigure("", CHALK, hat="specs", scale=0.7),
-            stick.StickFigure("", CHALK, scale=0.7)).arrange(RIGHT, buff=0.5)
-        slab = cards.body("pension funds and insurance companies", size=T_SMALL,
-                          color=MUTED, width=20)
-        slab.next_to(seller, DOWN, buff=0.25)
-        grp = VGroup(seller, slab).move_to(LEFT * 4.0 + UP * 1.2)
-        with self.narrate("The people who actually sell the gilts are usually not "
-                          "banks. They are pension funds and insurance companies — the "
-                          "non-bank private sector."):
-            self.play(FadeIn(grp), run_time=1.0)
-        self.define("the non-bank private sector", "Pension funds, insurers — not banks.",
-                    "people", CHALK, at=RIGHT * 2.0 + UP * 0.6, hold=4.4)
-
-        # ---------------------------------------------------- three T accounts
-        self.clear_stage()
-        t1 = TAccount("the seller", 3.7, 2.2, CHALK).move_to(LEFT * 4.3 + UP * 0.4)
-        t2 = TAccount("the central bank", 3.7, 2.2, SRC_BR).move_to(UP * 0.4)
-        t3 = TAccount("a private bank", 3.7, 2.2, MONEY).move_to(RIGHT * 4.3 + UP * 0.4)
-        self.play(FadeIn(t1), run_time=0.7)
-        self.play(FadeIn(t2), run_time=0.7)
-        self.play(FadeIn(t3), run_time=0.7)
-
-        e1 = t1.entry("gilts", "L", "−")
-        with self.narrate("The seller hands over its gilts. So its holdings of gilts "
-                          "go down."):
-            self.play(FadeIn(e1), run_time=0.8)
-        e2 = t1.entry("deposits", "L", "+")
-        with self.narrate("And it gets money instead — not printed notes, but a number "
-                          "credited to its bank account. So its deposits go up."):
-            self.play(FadeIn(e2), run_time=0.8)
         self.beat()
+        self.play(FadeOut(three), run_time=0.5)
 
-        e3 = t2.entry("gilts", "L", "+")
-        e4 = t2.entry("reserves", "R", "+")
-        with self.narrate("The central bank now owns the gilts. And it pays for them by "
-                          "creating reserves — money that only banks hold, at the "
-                          "central bank."):
-            self.play(FadeIn(e3), run_time=0.7)
-            self.play(FadeIn(e4), run_time=0.7)
-        self.beat()
-
-        e5 = t3.entry("reserves", "L", "+")
-        e6 = t3.entry("deposits", "R", "+")
-        with self.narrate("And the bank in the middle sits between them. It has more "
-                          "reserves on one side, and it owes the seller more deposits "
-                          "on the other. Both sides of its books grow together."):
-            self.play(FadeIn(e5), run_time=0.7)
-            self.play(FadeIn(e6), run_time=0.7)
-        self.beat()
-
-        key = cards.body("every entry is matched", size=T_SUB, color=CHALK, width=44)
-        key.to_edge(DOWN, buff=0.8)
-        with self.narrate("Look at that and notice what has not happened. Nobody has "
-                          "been given anything. Every single one of those entries is "
-                          "matched by another one."):
-            self.play(FadeIn(key), run_time=1.0)
-        self.beat()
-
-        start = cards.body("the seller's portfolio is disturbed",
-                           size=T_SUB, color=TRIGGER, width=44)
-        start.to_edge(DOWN, buff=0.8)
-        with self.narrate("What has happened is that the seller's portfolio has been "
-                          "disturbed. It wanted gilts, and now it is holding money. And "
-                          "that disturbance is where the whole mechanism starts."):
-            self.play(FadeOut(key), FadeIn(start), run_time=1.0)
-            self.play(Circumscribe(t1.box, color=TRIGGER, buff=0.15, stroke_width=4),
-                      run_time=1.4)
-        self.beat()
-        self.clear_stage()
-
-        # ---------------------------------------------------- how it differs
-        head = Text("So how is this different from ordinary monetary policy?",
+        # ------------------------------------------------------- the two flats
+        head = Text("An example the paper tells against economists",
                     font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
         self.play(FadeIn(head), run_time=0.5)
 
-        left = VGroup(
-            cards.body("ORDINARY", size=T_SUB, color=MONEY, width=18),
-            cards.body("the PRICE of money",
-                       size=T_BODY, color=CHALK, width=22),
-        ).arrange(DOWN, buff=0.5)
-        right = VGroup(
-            cards.body("QUANTITATIVE EASING", size=T_SUB, color=TRIGGER, width=18),
-            cards.body("the QUANTITY of money", size=T_BODY, color=CHALK, width=22),
-        ).arrange(DOWN, buff=0.5)
-        cols = VGroup(left, right).arrange(RIGHT, buff=2.0).move_to(UP * 0.6)
-        with self.narrate("Ordinary monetary policy sets the price of money. One "
-                          "short-term interest rate, and everything else follows from "
-                          "what people expect that rate to do."):
-            self.play(FadeIn(left), run_time=1.0)
-        with self.narrate("Quantitative easing sets the quantity instead. And it aims "
-                          "directly at longer-term rates, rather than reaching them "
-                          "through expectations."):
-            self.play(FadeIn(right), run_time=1.0)
+        man = stick.StickFigure("an economist", CHALK, hat="specs", prop="book", scale=0.95)
+        man.shift(LEFT * 3.6 + DOWN * 0.8)
+        her = stick.StickFigure("his partner", CHALK, hair=True, scale=0.95)
+        her.shift(RIGHT * 3.6 + DOWN * 0.8)
+        f1 = W.factory(MUTED, 0.4).move_to(LEFT * 5.6 + UP * 1.6)
+        f2 = W.factory(MUTED, 0.4).move_to(RIGHT * 5.6 + UP * 1.6)
+        fl = Text("two rent-controlled flats", font=FONT, font_size=T_SMALL, color=MUTED)
+        fl.move_to(UP * 1.6)
+
+        with self.narrate("A man and his partner, in New York, each with a "
+                          "rent-controlled flat. Their relationship reaches the point "
+                          "where she suggests they give one of them up."):
+            self.play(FadeIn(man), FadeIn(her), run_time=0.8)
+            self.play(FadeIn(f1), FadeIn(f2), FadeIn(fl), run_time=0.8)
+
+        b1 = her.say("Let's give one up.", direction=UP, width=3.0)
+        with self.narrate("Let us give one of them up.", v="c"):
+            self.play(FadeIn(b1), run_time=0.6)
+        self.play(FadeOut(b1), run_time=0.3)
+
+        b2 = man.say("It's unlikely we'd split up.\nBut given a positive\nprobability…",
+                     direction=UP, width=3.6)
+        with self.narrate("And he explains to her, at length, the importance of keeping "
+                          "options alive. It is unlikely they would split up, he says, "
+                          "but given a positive probability, and so on."):
+            self.play(FadeIn(b2), man.mood("pleased"), run_time=0.8)
+        self.beat()
+        with self.narrate("She took it very badly, and ended the relationship."):
+            self.play(FadeOut(b2), her.mood("worried"), run_time=0.6)
+            self.play(her.walk_to(RIGHT * 6.4 + DOWN * 0.8, run_time=1.8))
+            self.play(FadeOut(her), man.mood("surprised"), run_time=0.6)
         self.beat()
 
-        fair = cards.body("what is unusual is the scale, not the act", size=T_BODY, color=SRC_BR, width=48)
-        fair.to_edge(DOWN, buff=0.7)
-        with self.narrate("And the authors are careful here. There is nothing unusual "
-                          "about a central bank buying assets at all. What distinguishes "
-                          "these operations is the circumstances they took place in, "
-                          "and their scale."):
-            self.play(FadeIn(fair), run_time=1.2)
-        self.beat()
-        self.play(FadeOut(fair), run_time=0.4)
+        # ------------------------------------------------------- the resolution
+        self.clear_stage()
+        head2 = Text("And the paper's resolution is the instructive part",
+                     font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
+        self.play(FadeIn(head2), run_time=0.5)
 
-        what = cards.body("short debt ≈ money   ·   long gilts ≠ money",
-                          size=T_BODY, color=CHALK, width=48)
-        what.to_edge(DOWN, buff=0.6)
-        with self.narrate("And one more difference, which matters enormously in the "
-                          "next chapter. What is bought. Short-dated government debt is "
-                          "very nearly the same thing as money. Long-dated gilts, "
-                          "company debt and mortgage-backed securities are not. The "
-                          "effectiveness of the policy may depend on what is bought, "
-                          "as well as how much."):
-            self.play(FadeIn(what), run_time=1.4)
+        wrong = cards.body("not a decision problem — a signalling game", size=T_SUB, color=COST, width=40)
+        wrong.move_to(UP * 1.4)
+        with self.narrate("Financial economists who hear that story say it proves how "
+                          "right he was. The paper says something better. He had misread "
+                          "the situation entirely. It was not a decision problem under "
+                          "uncertainty at all."):
+            self.play(FadeIn(wrong), run_time=1.0)
+        self.beat()
+
+        self.define("signalling", "Costly, and that is what makes it believable.", "signal", MONEY,
+                    narration="It was a signalling game. And signalling is a genuinely "
+                              "useful idea, so here is the definition. Doing something "
+                              "costly, because the cost is what makes it believable.",
+                    at=DOWN * 0.6, hold=5.0)
+
+        expl = cards.body("the costly, irreversible step WAS the message",
+                          size=T_BODY, color=CHALK, width=42)
+        expl.move_to(DOWN * 0.4)
+        with self.narrate("She was unsure how much he valued her. And it was precisely "
+                          "his willingness to take the costly, irreversible step of "
+                          "giving up the flat that would have carried the message. "
+                          "Anyone can say it. Only someone who means it will pay for it."):
+            self.play(FadeIn(expl), run_time=1.2)
+        self.beat()
+        fence = cards.body("He sat on the fence, and fell off.",
+                           size=T_SUB, color=CHALK, width=34)
+        fence.next_to(expl, DOWN, buff=0.7)
+        with self.narrate("He tried to sit on the fence, and fell off it."):
+            self.play(FadeIn(fence), run_time=0.8)
+        self.beat()
+
+        self.clear_stage()
+        point = cards.body("sometimes the irreversibility IS the message", size=T_SUB, color=CHALK, width=34)
+        with self.narrate("And that gives the chapter a real point rather than a joke. "
+                          "It shows a limit of the whole framework. Option value is not "
+                          "always the right lens. Sometimes the irreversibility is the "
+                          "message."):
+            self.play(FadeIn(point), run_time=1.2)
         self.beat()
 
         self.close_chapter([
-            "sellers: pension funds and insurers",
-            "gilts ⇄ deposits ⇄ reserves",
-            "every entry is matched",
-            "the seller holds money it did not want",
+            "the same three features appear elsewhere",
+            "keeping the option open can be the wrong move",
+            "signalling: the cost is the message",
         ])

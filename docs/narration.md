@@ -82,7 +82,7 @@
 
 **N** Nell needs a large sum to build. It comes from one of two places, and usually both.
 
-**N** She borrows it, and then she owes interest on it.
+**N** She borrows it, and then she has to pay extra for the use of it.
 
 **N** Or it is her own money, and by putting it into this factory she gives up whatever else she could have done with it.
 
@@ -280,11 +280,119 @@
 
 **N** And cheaper money — further along the other way.
 
-**N** Hold that picture. In chapter twenty-two we come back to this exact sheet, and we watch a central bank walk a firm across it — in the wrong direction.
+**N** Hold that picture. In chapter twenty-two we come back to this exact sheet, and we watch a firm walked across it — in the wrong direction.
 
 **N** And that resolves the first of our three puzzles out loud. Firms demanding fifteen per cent when their money costs them five are not being short-sighted. They are being correct.
 
-## Chapter 9 — When this is wrong
+## Chapter 9 — Money later is worth less than money now
+
+**C** The next five chapters do the mathematics. Properly, and from the beginning. Nothing beyond square roots, fractions and percentages is used, and everything is built in front of you.
+
+**N** A hundred pounds today, and a hundred pounds in a year. Which would you rather have?
+
+**N** Today, obviously. Because you could put today's hundred to work, and have more than a hundred by next year.
+
+**N** Put a hundred pounds somewhere paying five per cent, and in a year you have a hundred and five.
+
+**N** Run that backwards. A hundred and five pounds a year from now is worth exactly a hundred pounds today.
+
+**N** And that is a division. Divide by one point nought five, and you have turned money later into money now.
+
+**N** A factory that earns five pounds a year, for ever. Here is the five pounds, arriving year after year.
+
+**N** But each one has to be discounted back. The five pounds in year one is divided once. Year two, twice. Year twenty, twenty times. So the far-off ones shrink away almost to nothing — and that is why the total does not run off to infinity.
+
+**N** Add up every one of them, all the way out to for ever, and the total is not infinite. It settles on one number.
+
+**N** And the sum is astonishingly simple. Five pounds, divided by nought point nought five. A hundred pounds.
+
+**N** That is the only piece of machinery you need. The value of a stream that goes on for ever is the yearly amount divided by the rate.
+
+**N** And the rate we divide by is the one from chapter two. The cost of capital. What the money has to earn to be worth using.
+
+**N** Hold on to the middle one. It is going to matter enormously in chapter thirteen.
+
+## Chapter 10 — The textbook’s line, as a sum
+
+**N** Nell is deciding whether to build. There are exactly two amounts, and we can write both of them down.
+
+**N** What she gets: the money coming in each month, for ever, discounted back. From the last chapter, that is the yearly amount divided by the rate. Call the yearly amount R, and the rate the Greek letter that we will only ever call the cost of capital.
+
+**N** What she pays: the sunk cost of building it. Call that K.
+
+**N** Subtract one from the other and you have what the project is worth. Economists call it net worth.
+
+**N** That is Marshall's line, and now you know exactly where it comes from. It is the interest on the money she sank into the building — the normal return on capital, and nothing more.
+
+## Chapter 11 — How the future is modelled
+
+**N** Every number in the next two chapters rests on one assumption about how revenue moves. So we build that first, and we build it with coins.
+
+**N** Each year, revenue does one of two things. It goes up by a fixed percentage, or down by one.
+
+**N** Percentages rather than pounds, because a big firm swings by big amounts and a small one by small amounts. That is the only realistic way to do it.
+
+**N** Do that again the next year, and the next. Every point splits in two, and the possibilities fan out.
+
+**N** Watch one possible path through it. That is one future — one thing that might happen.
+
+**N** And here are a dozen more. Nobody knows which one happens. All anybody knows is the shape of the fan.
+
+**N** Take a typical year and ask: how far did revenue move? In a calm trade, not far. The outcomes bunch up.
+
+**N** In a rough trade — oil, metals — they spread right out.
+
+**N** The width of that spread is the number the paper calls the choppiness. It is the size of a typical yearly swing, written as a percentage. Ten per cent for revenue that moves with exchange rates. Twenty-five to forty for an oil well or a copper mine. And the paper's base case sits between, at twenty.
+
+**N** The paper writes it as a Greek letter. This film never will. It is the choppiness, and it is a percentage.
+
+## Chapter 12 — The picture the paper draws
+
+**N** The paper has two diagrams, and they are the heart of it. We are going to draw both, one line at a time.
+
+**N** Across the bottom, the revenue coming in each year. Up the side, what the whole opportunity is worth to Nell.
+
+**N** First, the straight line. If she builds today, she gets the revenue for ever, divided by the rate, minus the sunk cost. That is the sum from two chapters ago, and drawn against revenue it is a straight line.
+
+**N** Notice where it starts. At zero revenue she would simply lose the sunk cost, so the line begins below the axis.
+
+**N** And it crosses zero exactly at Marshall's line. Everything to the right of that point looks, to the textbook, like a project worth doing.
+
+**N** Now the second line, and this one is a curve. It is what the chance to build is worth if she does not use it yet.
+
+**N** They meet here. And they do not cross — they touch, and run off in the same direction.
+
+**N** And there, between where the textbook says build and where she actually should, is the gap this whole film is about. You have now seen exactly where it comes from.
+
+**N** The paper finds that touching point with calculus. We are about to get exactly the same answer with a square root.
+
+## Chapter 13 — The one formula in the film
+
+**N** Here is the formula that finds the touching point. It looks worse than it is. There is a square root, a division, and nothing else — and we are going to work it out together.
+
+**N** Start inside. Eight, times the cost of capital, divided by the choppiness multiplied by itself.
+
+**N** Add one to it.
+
+**N** Take the square root.
+
+**N** Add one again, and halve it. That is the whole formula. The paper calls the answer beta; this film will call it the steepness, because that is what it measures — how steeply the value of waiting curves upward.
+
+**N** The paper prints two point one five. That is your answer, with the paper's own rounding.
+
+**N** Divide the steepness by itself-minus-one.
+
+**N** Two point one five eight, divided by one point one five eight. One point eight six. There is the multiplier you met in chapter eight — and you have just derived it.
+
+**N** Multiply the textbook's line by it, and you have the real trigger.
+
+**N** Or multiply the cost of capital by it, and you have the corrected hurdle rate. One point eight six times five per cent is nine point three.
+
+**N** And now you can see why both dials push the same way. More choppiness, or cheaper money, both make the number inside the square root smaller. That makes the steepness smaller. And a smaller steepness, divided by itself-minus-one, gives a bigger multiplier.
+
+**N** One honest note to finish on. Everything you have just done works because the project, once built, always makes money. Once you let it make losses and allow her to give up, the two lines have to be found together, and there is no formula — it needs four equations and a computer. The paper does that, and prints the answers. Nought point seven two, and one point six two.
+
+## Chapter 14 — When this is wrong
 
 **N** Being honest about the limits is part of the teaching, and it also stops you over-applying the idea. The paper sets out four qualifications, and every one of them matters.
 
@@ -318,7 +426,7 @@
 
 **N** And carry the qualification the paper adds in the very next sentence, because dropping it changes the meaning. The total chance of ending up above the trigger does still matter. What does not matter is the shape of the good outcomes beyond it. Those are not the same thing, and Part Two needs the difference.
 
-## Chapter 10 — When to give up
+## Chapter 15 — When to give up
 
 **N** To make the point sharp, the paper assumes that idle machinery rusts. Totally, and immediately. So pausing and quitting become the same thing, and starting again means paying the whole sunk cost over again.
 
@@ -338,7 +446,7 @@
 
 **N** One more. If leaving is itself expensive — redundancy payments, restoring the site of a mine — then the build-line rises further still. She is more cautious about entering something she may have to pay to escape.
 
-## Chapter 11 — The zone of inaction
+## Chapter 16 — The zone of inaction
 
 **N** Take away the uncertainty for a moment, and leave only the sunk cost. The textbook still has a small band where doing nothing is right — from one, to one point one.
 
@@ -348,7 +456,7 @@
 
 **N** Nought point seven two, to one point six two. Nought point nine wide.
 
-**N** About nine times wider. That comparison is ours, not the paper's — the paper prints the four levels and calls the difference quite a dramatic difference. We did the division.
+**N** About nine times wider. That comparison is ours, not the paper's — the paper prints the four levels and calls the difference quite a dramatic difference. We did the sum.
 
 **N** This band has a name. The zone of inaction. The stretch where the right thing to do is nothing at all.
 
@@ -358,7 +466,7 @@
 
 **N** And the paper draws a conclusion from that which is worth hearing. The popular worry about loss of jobs — the one economists usually wave away — may have more justification than the textbook allows.
 
-## Chapter 12 — Hysteresis
+## Chapter 17 — Hysteresis
 
 **N** This is the chapter the paper is named after. Watch one path, and watch what it leaves behind.
 
@@ -390,7 +498,7 @@
 
 **N** The cause reversed. The effect stayed. That is all hysteresis is — and now you have watched it happen twice.
 
-## Chapter 13 — Two countries
+## Chapter 18 — Two countries
 
 **N** This is a detective story, so let us tell it as one. Here is Nell, in America. And here is Kenji, running a similar factory in Japan.
 
@@ -418,7 +526,7 @@
 
 **N** Different instruments, for different jobs. Remember that. Part Two is built on it.
 
-## Chapter 14 — What a whole industry looks like
+## Chapter 19 — What a whole industry looks like
 
 **N** Everything so far has been about one firm. Now put a lot of them in one market and see what the market does.
 
@@ -438,7 +546,7 @@
 
 **N** An industry sitting perfectly still. Profitable firms not expanding. Loss-making firms not closing. And nothing wrong anywhere.
 
-## Chapter 15 — Outside business
+## Chapter 20 — Outside business
 
 **N** The paper closes with an observation that reaches well outside business. Many personal, social and political decisions have exactly the same three features.
 
@@ -460,7 +568,7 @@
 
 **N** And that gives the chapter a real point rather than a joke. It shows a limit of the whole framework. Option value is not always the right lens. Sometimes the irreversibility is the message.
 
-## Chapter 16 — Everything, in order
+## Chapter 21 — Everything, in order
 
 **N** One rung at a time, from the bottom. Everything Part One has built.
 
@@ -477,7 +585,7 @@
 
 # PART TWO — THE POLICY
 
-## Chapter 17 — Money, and who is in charge of it
+## Chapter 22 — Money, and who is in charge of it
 
 **N** Part Two starts from nothing again. Nothing here assumes you know what a central bank is, or an interest rate, or a bond. We build all of them from scratch, exactly as we built cost and revenue.
 
@@ -495,7 +603,7 @@
 
 **N** So they needed something else. That something else is the subject of the next chapter.
 
-## Chapter 18 — Why cutting the rate was not enough
+## Chapter 23 — Why cutting the rate was not enough
 
 **N** Before the new policy, you need to see exactly what went wrong with the old one. And it is one picture.
 
@@ -517,11 +625,25 @@
 
 **N** All of that together goes by one name. Unconventional monetary policy.
 
-## Chapter 19 — What quantitative easing actually is
+## Chapter 24 — What quantitative easing actually is
 
 **N** This is the chapter where it would be easiest to lose you, so we go slowly, and we do the key sum three times.
 
-**N** A government needs money, so it sells promises. Here is one, drawn as a ticket. The government has already sold it. It says: I will pay five pounds a year, and then a hundred pounds in twenty-thirty.
+**N** A government wants to spend more this year than it collects in tax. So it needs to borrow.
+
+**N** And here is somebody with money they would like to put somewhere safe — a pension fund, an insurer, a saver.
+
+**N** The saver hands over a hundred pounds.
+
+**N** And gets back a piece of paper. A promise. Five pounds every year, and then the hundred pounds back on a fixed date.
+
+**N** Year after year, the five pounds arrives. It never changes. That is the whole point of it.
+
+**N** And on the date printed on it, the hundred pounds comes back.
+
+**N** The saver does not have to keep it until then. There is a market, and the gilt can be sold on to somebody else, at whatever price the two of them agree.
+
+**N** But whatever price it changes hands at, the five pounds a year printed on it never changes. That one fact is the whole of the next section.
 
 **N** The payments printed on the ticket never change. Whatever happens, it pays five pounds a year. Hold on to that.
 
@@ -535,7 +657,7 @@
 
 **N** One careful sentence about creating money, because it is the thing everyone misunderstands. The Bank credits the seller's account with money that did not exist before, and takes the bond in exchange. Nothing is printed, and nothing is given away. An asset is swapped for money.
 
-## Chapter 20 — Three balance sheets
+## Chapter 25 — Three balance sheets
 
 **N** The policy is easy to describe and easy to get wrong. So we are going to follow the money through three sets of books, one at a time.
 
@@ -561,7 +683,7 @@
 
 **N** And one more difference, which matters enormously in the next chapter. What is bought. Short-dated government debt is very nearly the same thing as money. Long-dated gilts, company debt and mortgage-backed securities are not. The effectiveness of the policy may depend on what is bought, as well as how much.
 
-## Chapter 21 — Channel one: the hot potato
+## Chapter 26 — Channel one: the hot potato
 
 **N** Leg one of the chain has three channels, and this is the big one. The one the Bank of England itself puts first.
 
@@ -569,7 +691,7 @@
 
 **N** If the seller does not care which of those two it holds, the story ends right there. It takes the money, puts it in a drawer, and nothing else moves.
 
-**N** Economists call that a liquidity trap. And buying short-dated debt with money — what is sometimes called pure quantitative easing — can run straight into it. Japan did exactly that between two thousand and one and two thousand and six.
+**N** Economists have a name for that. And buying short-dated debt with money — what is sometimes called pure quantitative easing — can run straight into it. Japan did exactly that between two thousand and one and two thousand and six.
 
 **N** Line up the things somebody can hold, from the safest at the bottom to the riskiest at the top.
 
@@ -585,7 +707,7 @@
 
 **N** The authors call it passing the money around like a hot potato. Nobody wants to be left holding it.
 
-## Chapter 22 — Channels two and three: saying so, and oiling the wheels
+## Chapter 27 — Channels two and three: saying so, and oiling the wheels
 
 **N** The second channel does not need the money to go anywhere at all. It works purely through what the action tells everybody.
 
@@ -599,7 +721,7 @@
 
 **N** There is also disagreement about how big those effects were and how long they lasted. And the effects on wider classes of assets are less marked than on company bonds.
 
-## Chapter 23 — Leg two: cheaper money, and feeling richer
+## Chapter 28 — Leg two: cheaper money, and feeling richer
 
 **N** Leg one moved the prices of things in financial markets. Leg two has to turn that into somebody actually spending money. And it does it in two ways.
 
@@ -617,7 +739,7 @@
 
 **N** As with all monetary policy, they say, there are winners and losers.
 
-## Chapter 24 — Money, and what banks can’t do with reserves
+## Chapter 29 — Money, and what banks can’t do with reserves
 
 **N** There is a second way of telling the same story, and it clears up the thing almost everybody gets wrong about this policy. So it is worth four minutes.
 
@@ -643,7 +765,51 @@
 
 **N** The only way more reserves can lead to more lending is if they change a bank's incentive to lend — for instance by making the bank's own funding cheaper. Which is a completely different mechanism.
 
-## Chapter 27 — The chain
+## Chapter 30 — The result that says none of it works
+
+**N** The authors do something in this section that a less honest article would have left out. They set out, at length, a well-known result which says the whole policy does nothing at all.
+
+**N** The seller hands over something risky and gets back something safe. Every channel so far has assumed that changes how much risk the private sector is carrying.
+
+**N** It did not disappear. It moved onto the central bank's own books.
+
+**N** And who owns the central bank? The government. And who pays for the government? Households, through the taxes they will pay in future.
+
+**N** So the household's risk, taken as a whole, has not changed. There is nothing to rebalance. And the policy does nothing at all.
+
+**N** And the authors say it plainly. Those assumptions are very strong.
+
+**N** And here is the catch, which the authors are careful about. The promise has to be believed.
+
+**N** But once the economy has recovered — precisely because everyone believed the promise — the central bank has no reason left to keep it.
+
+**N** A promise nobody has to keep is a promise nobody believes. Which is why one reading of quantitative easing is that its real job was the signalling all along — an action, rather than a promise, and actions are harder to take back.
+
+## Chapter 31 — The other tools in the drawer
+
+**N** Buying assets was not the only thing central banks did. The authors group the rest into three, and each one is worth knowing, because Part Three has to be fair about what else was going on.
+
+**N** Left to themselves, people expect a rate that has been cut to nothing to start rising again fairly soon.
+
+**N** So the central bank simply tells them otherwise.
+
+**N** And the authors are careful about how well it worked. It did move expectations. But markets never fully priced in the cuts the announcements implied. And none of it was quite the promise to be irresponsible later that the theory in the last chapter actually calls for.
+
+**N** This one is the oldest job a central bank has, and it is not really monetary policy at all. When a sound bank cannot borrow simply because everyone has panicked, the central bank lends to it — at a penal rate, and against good collateral.
+
+**N** And in the euro area, two operations in late twenty-eleven and early twenty-twelve lent over a trillion euros for three years — aimed, their central bank argued, at repairing the transmission mechanism itself.
+
+**N** The third group exists because of the wedge from chapter twenty-three. Banks looked risky, so their own funding was dear, so what they charged households and firms stayed high.
+
+**N** The first was a guarantee. The government stands behind up to twenty billion pounds of bank debt, so an investor buying it faces the same risk as buying a gilt. And the bank gets that funding at a discount if it agrees to cut what it charges smaller companies.
+
+**N** Though twenty billion is only about eight per cent of a year's lending to small firms by the largest banks. Limited in scale, as the authors put it.
+
+**N** The second was bigger, and cleverer. Four-year funding, of at least five per cent of a bank's existing loan book — around eighty billion pounds across the eligible banks.
+
+**N** And every extra pound a bank lent raised the amount it could borrow under the scheme. A bank holding its lending steady or growing it paid a quarter of one per cent. A bank shrinking its lending by five per cent paid one and a half — six times as much, on the whole amount.
+
+## Chapter 32 — The chain
 
 **N** Two economists, writing in twenty-twelve, set out how the policy is supposed to work. They set it out as a chain. And the chain is the picture Part Two is built on, exactly as the vertical scale was Part One's.
 
@@ -664,7 +830,7 @@
 
 # PART THREE — THE ARGUMENT
 
-## Chapter 28 — One sentence, two different kinds of claim
+## Chapter 33 — One sentence, two different kinds of claim
 
 **N** Here is the sentence the whole of Part Two turns on. It is on page six hundred and twelve, and these are the authors' exact words.
 
@@ -688,7 +854,7 @@
 
 **N** But it does mean that the last link in the chain is the only one nobody examines.
 
-## Chapter 29 — The exception on page 613
+## Chapter 34 — The exception on page 613
 
 **N** A page later, the authors ask a question about somebody else. What does the government do when its own borrowing gets cheaper?
 
@@ -712,7 +878,7 @@
 
 **N** That sentence is the intellectual standard the rest of the film is held to. Everything Kit says from here has to meet it.
 
-## Chapter 30 — Bringing Part One back
+## Chapter 35 — Bringing Part One back
 
 **N** Kit puts the two articles side by side, and notices they are arguing about the same quantity from opposite sides.
 
@@ -738,7 +904,7 @@
 
 **N** And be clear about whose is whose. The bar, and the fact that it rises with uncertainty, is Dixit's. Putting it next to this policy is Kit's.
 
-## Chapter 31 — The instrument that fights itself
+## Chapter 36 — The instrument that fights itself
 
 **N** Cheap money is meant to make building attractive.
 
@@ -768,7 +934,7 @@
 
 **N** The claim he is entitled to is the plain one. Part of the policy is spent making patience more attractive.
 
-## Chapter 32 — Two different kinds of fear
+## Chapter 37 — Two different kinds of fear
 
 **N** Replay the bad news principle from chapter nine. When you can wait, it is mainly the bad possible outcomes that decide whether you build now.
 
@@ -782,7 +948,7 @@
 
 **N** What a central bank reaches directly is the price at which risk trades. What it reaches at one or two removes is the doubt itself.
 
-## Chapter 33 — The concession that hurts most
+## Chapter 38 — The concession that hurts most
 
 **N** This chapter exists because Kit's own source damages him, and that is what intellectual honesty looks like.
 
@@ -796,7 +962,7 @@
 
 **N** Why include something that damages you? Because it is what his own source says. The discomfort is the point.
 
-## Chapter 34 — The evidence, read twice
+## Chapter 39 — The evidence, read twice
 
 **N** A third article, and a third pair of authors. Christopher Martin and Costas Milas. Their job was to gather up the studies of what the policy actually achieved. Their colour is green.
 
@@ -818,7 +984,7 @@
 
 **N** And flag clearly which parts of that are Kit's and not Dixit's. That propping up the upside works best when things are frightening, and that the two jobs therefore pull apart, are steps Kit has added. Dixit's own text does not contain them.
 
-## Chapter 35 — And the ones that did not come back
+## Chapter 40 — And the ones that did not come back
 
 **N** You will recognise this picture instantly, because it is the one from chapter twelve. Same scale, same lines. Only the direction is different.
 
@@ -834,7 +1000,7 @@
 
 **N** State it plainly. What the policy stops from happening does not need explaining. What needs explaining is why, for the firms it did not reach in time, nothing came back.
 
-## Chapter 36 — The rivals Kit cannot beat
+## Chapter 41 — The rivals Kit cannot beat
 
 **N** Four doors. Kit opens each one, and cannot close it again. This is the chapter where the film earns its credibility, so none of these gets knocked down.
 
@@ -844,7 +1010,7 @@
 
 **N** The argument applies to investment a company can take its time over. Not to a race.
 
-## Chapter 37 — The management half: a queue, not a calculation
+## Chapter 42 — The management half: a queue, not a calculation
 
 **N** Grow Nell's factory into a large company, with several separately run parts.
 
@@ -866,7 +1032,7 @@
 
 **N** And the attribution, stated plainly. Treating a hurdle rate as a rationing device rather than a calculation is not an idea Kit invented. What he would claim is the use he has put it to.
 
-## Chapter 38 — What is actually being claimed
+## Chapter 43 — What is actually being claimed
 
 **N** This is not a claim that quantitative easing does not work.
 
@@ -896,4 +1062,4 @@
 
 ---
 
-Total narration: **8962 words** (about 70 minutes at the film's pace of ~128 words a minute).
+Total narration: **10862 words** (about 85 minutes at the film's pace of ~128 words a minute).

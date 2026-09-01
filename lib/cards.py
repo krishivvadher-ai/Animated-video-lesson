@@ -195,7 +195,7 @@ def progress(chapter):
     frac = chapter / (TOTAL_CHAPTERS - 1)
     fill = Line(LEFT * w / 2, LEFT * w / 2 + RIGHT * w * frac,
                 color=CHALK, stroke_width=4)
-    lab = Text(f"{chapter}/38", font=FONT, font_size=T_TINY, color=MUTED)
+    lab = Text(f"{chapter}/43", font=FONT, font_size=T_TINY, color=MUTED)
     lab.next_to(track, LEFT, buff=0.24)
     g = VGroup(track, fill, lab)
     g.to_corner(DOWN + RIGHT, buff=0.34)

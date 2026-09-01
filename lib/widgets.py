@@ -204,14 +204,21 @@ def iron_bar(color=CHALK):
 
 
 def ticket(color=CHALK, label="£100 in 2030", scale=1.0):
-    r = Rectangle(width=2.6, height=1.4, color=color, stroke_width=3,
-                  fill_color=BG, fill_opacity=1)
-    perf = DashedLine(r.get_top() + LEFT * 0.72, r.get_bottom() + LEFT * 0.72,
-                      color=color, stroke_width=2, dash_length=0.08)
-    t = Text(wrap(label, 16), font=FONT, font_size=T_SMALL, color=color,
-             line_spacing=0.9)
-    t.move_to(r.get_center() + RIGHT * 0.34)
-    return VGroup(r, perf, t).scale(scale)
+    """A bond drawn as a physical ticket: a stub, a perforation, and the terms."""
+    t = Text(wrap(label, 15), font=FONT, font_size=T_SMALL, color=color,
+             line_spacing=0.92)
+    body_w = max(t.width + 0.5, 1.9)
+    stub_w = 0.62
+    r = Rectangle(width=body_w + stub_w, height=max(t.height + 0.55, 1.0),
+                  color=color, stroke_width=3, fill_color=BG, fill_opacity=1)
+    perf = DashedLine(r.get_top() + RIGHT * (r.width / 2 - stub_w),
+                      r.get_bottom() + RIGHT * (r.width / 2 - stub_w),
+                      color=color, stroke_width=2, dash_length=0.07)
+    marks = VGroup(*[Line(LEFT * 0.16, RIGHT * 0.16, color=color, stroke_width=2)
+                     .move_to(r.get_center() + RIGHT * (r.width / 2 - stub_w / 2)
+                              + UP * y) for y in (0.16, 0.0, -0.16)])
+    t.move_to(r.get_center() + LEFT * stub_w / 2)
+    return VGroup(r, perf, marks, t).scale(scale)
 
 
 def shield(color=SUNK, label=None, scale=1.0):
@@ -260,3 +267,70 @@ def table_two_row(head, rows, colors, width=5.4, font_size=T_SMALL):
     row = VGroup(ca, cb).arrange(RIGHT, buff=0.9, aligned_edge=UP)
     g.add(row)
     return g, cells
+
+
+# ------------------------------------------------------------------ buildings
+def building(color=CHALK, size=1.0, kind="office", label=None):
+    """A simple, readable building. kind: office | government | bank | house."""
+    g = VGroup()
+    if kind == "government":
+        base = Rectangle(width=3.2, height=1.5, color=color, stroke_width=3)
+        steps = VGroup(*[Line(LEFT * (1.7 + 0.12 * i), RIGHT * (1.7 + 0.12 * i),
+                              color=color, stroke_width=3)
+                         .shift(DOWN * (0.75 + 0.16 * i)) for i in range(3)])
+        cols = VGroup(*[Line(DOWN * 0.72, UP * 0.62, color=color, stroke_width=3)
+                        .shift(RIGHT * x) for x in (-1.15, -0.58, 0.0, 0.58, 1.15)])
+        arch = Line(LEFT * 1.5 + UP * 0.62, RIGHT * 1.5 + UP * 0.62,
+                    color=color, stroke_width=4)
+        pediment = Polygon(LEFT * 1.7 + UP * 0.62, ORIGIN + UP * 1.5,
+                           RIGHT * 1.7 + UP * 0.62, color=color, stroke_width=3)
+        flag = VGroup(Line(UP * 1.5, UP * 2.15, color=color, stroke_width=3),
+                      Polygon(UP * 2.15, UP * 2.15 + RIGHT * 0.5,
+                              UP * 1.85 + RIGHT * 0.5, UP * 1.85,
+                              color=color, stroke_width=2, fill_opacity=0.25,
+                              fill_color=color))
+        g.add(base, cols, arch, pediment, steps, flag)
+        g.remove(base)
+    elif kind == "bank":
+        body = Rectangle(width=2.6, height=1.7, color=color, stroke_width=3)
+        pediment = Polygon(LEFT * 1.5 + UP * 0.85, ORIGIN + UP * 1.6,
+                           RIGHT * 1.5 + UP * 0.85, color=color, stroke_width=3)
+        cols = VGroup(*[Line(DOWN * 0.85, UP * 0.85, color=color, stroke_width=3)
+                        .shift(RIGHT * x) for x in (-0.9, -0.3, 0.3, 0.9)])
+        step = Line(LEFT * 1.5 + DOWN * 0.9, RIGHT * 1.5 + DOWN * 0.9,
+                    color=color, stroke_width=4)
+        g.add(pediment, cols, step)
+        g.remove(body)
+    elif kind == "house":
+        body = Rectangle(width=1.5, height=1.1, color=color, stroke_width=3)
+        roof = Polygon(LEFT * 0.85 + UP * 0.55, ORIGIN + UP * 1.15,
+                       RIGHT * 0.85 + UP * 0.55, color=color, stroke_width=3)
+        door = Rectangle(width=0.3, height=0.45, color=color, stroke_width=2)
+        door.move_to(DOWN * 0.32)
+        win = Square(side_length=0.26, color=color, stroke_width=2).move_to(
+            LEFT * 0.42 + UP * 0.1)
+        g.add(body, roof, door, win)
+    else:  # office
+        body = Rectangle(width=2.0, height=2.6, color=color, stroke_width=3)
+        wins = VGroup(*[Square(side_length=0.26, color=color, stroke_width=2)
+                        .move_to(RIGHT * x + UP * y)
+                        for x in (-0.55, 0.0, 0.55) for y in (-0.75, -0.1, 0.55, 1.0)])
+        door = Rectangle(width=0.42, height=0.5, color=color, stroke_width=3)
+        door.move_to(DOWN * 1.05)
+        g.add(body, wins, door)
+    g.scale(size)
+    if label:
+        t = Text(label, font=FONT, font_size=T_SMALL, color=MUTED)
+        t.next_to(g, DOWN, buff=0.3)
+        g = VGroup(g, t)
+    return g
+
+
+def coupon_stream(bond, n=4, color=MONEY):
+    """Little coins falling out of a bond, one per year."""
+    coins = VGroup()
+    for i in range(n):
+        c = coin(color, 0.13)
+        c.move_to(bond.get_bottom() + DOWN * 0.5 + RIGHT * (i - (n - 1) / 2) * 0.75)
+        coins.add(c)
+    return coins

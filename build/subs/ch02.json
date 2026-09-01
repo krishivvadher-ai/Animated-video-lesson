@@ -1,7 +1,7 @@
 {
  "chapter": 2,
  "title": "The textbook rule",
- "duration": 205.2666666666658,
+ "duration": 205.99999999999915,
  "cues": [
   {
    "start": 3.0000000000000018,
@@ -83,57 +83,84 @@
   },
   {
    "start": 144.73333333333292,
-   "end": 148.71972789115605,
-   "text": "She borrows it, and then she owes interest on it.",
+   "end": 149.43777777777737,
+   "text": "She borrows it, and then she has to pay extra for the use of it.",
    "voice": "n"
   },
   {
-   "start": 149.13333333333287,
-   "end": 156.7189115646254,
+   "start": 149.86666666666622,
+   "end": 157.45224489795874,
    "text": "Or it is her own money, and by putting it into this factory she gives up whatever else she could have done with it.",
    "voice": "n"
   },
   {
-   "start": 157.13333333333284,
-   "end": 163.12303854875233,
+   "start": 157.8666666666662,
+   "end": 163.85637188208568,
    "text": "Either way, the money has a price. Blend the two together and you get one number.",
    "voice": "n"
   },
   {
-   "start": 164.13333333333279,
-   "end": 171.94108843537362,
+   "start": 164.86666666666613,
+   "end": 172.67442176870696,
    "text": "The cost of capital. The yearly percentage the money she uses has to earn, just to be worth using at all.",
    "voice": "n"
   },
   {
-   "start": 175.6666666666661,
-   "end": 187.3112471655323,
+   "start": 176.39999999999944,
+   "end": 188.04458049886566,
    "text": "Earn less than that, and she would have done better leaving the money where it was. That is the whole idea, and every number later in the film is measured against it.",
    "voice": "n"
   },
   {
-   "start": 189.5999999999993,
-   "end": 193.07723356009,
+   "start": 190.33333333333266,
+   "end": 193.81056689342336,
    "text": "AVC: what one more chair costs",
    "voice": "n"
   },
   {
-   "start": 193.19999999999928,
-   "end": 196.02707482993125,
+   "start": 193.93333333333263,
+   "end": 196.7604081632646,
    "text": "LRAC: plus a share of the building",
    "voice": "n"
   },
   {
-   "start": 196.1333333333326,
-   "end": 199.56412698412623,
+   "start": 196.86666666666594,
+   "end": 200.29746031745958,
    "text": "build above LRAC \u00b7 shut below AVC",
    "voice": "n"
   },
   {
-   "start": 199.6666666666659,
-   "end": 202.8652607709743,
+   "start": 200.39999999999924,
+   "end": 203.59859410430764,
    "text": "cost of capital: what money must earn",
    "voice": "n"
   }
+ ],
+ "screen_text": [
+  "2/43",
+  "AVC:whatonemorechaircosts",
+  "BUILDabovehere",
+  "CHAPTER2",
+  "Everythingachaircostsher,includingashareofthebuilding.",
+  "LRAC:plusashareofthebuilding",
+  "Marshall",
+  "Moneycomingineachmonth",
+  "PARTONE\u2014THEPAPER",
+  "SHUTDOWNbelowhere",
+  "Thetextbookrule",
+  "Whateachextrachaircostshertomake.",
+  "Whatthemoneymustearntobeworthusing.",
+  "Whatwejustestablished",
+  "averagevariablecost",
+  "averagevariablecostperchair",
+  "borrowed\u2192shemustpayextra",
+  "buildaboveLRAC\u00b7shutbelowAVC",
+  "costofcapital",
+  "costofcapital:whatmoneymustearn",
+  "donothing",
+  "herown\u2192couldbeelsewhere",
+  "long-runaveragecost",
+  "shareofthebuilding",
+  "\u00a3"
  ]
 }

@@ -13,9 +13,28 @@ used in a sentence, and nothing is used before it is built.
 
 | Part | Chapters | What it teaches |
 |---|---|---|
-| **One — The Paper** | 0–16 | Avinash Dixit, *Investment and Hysteresis*, JEP 6(1), 1992, in full |
-| **Two — The Policy** | 17–27 | Bowdler & Radia, *Unconventional monetary policy: the assessment*, OxREP 28(4), 2012, in full |
-| **Three — The Argument** | 28–38 | The author's own argument, built on those two papers plus Martin & Milas (2012) |
+| **One — The Paper** | 0–21 | Avinash Dixit, *Investment and Hysteresis*, JEP 6(1), 1992, in full — including its mathematics, built up from GCSE arithmetic |
+| **Two — The Policy** | 22–32 | Bowdler & Radia, *Unconventional monetary policy: the assessment*, OxREP 28(4), 2012, in full |
+| **Three — The Argument** | 33–43 | The author's own argument, built on those two papers plus Martin & Milas (2012) |
+
+### The mathematics
+
+Chapters 9–13 do Dixit's mathematics properly, and assume nothing beyond GCSE:
+
+- **9** — discounting, and why a stream that lasts for ever is worth the yearly
+  amount divided by the rate.
+- **10** — the net worth of a project, `R ÷ ρ − K`, rearranged into the
+  textbook's line `M = C + ρK`, and Dixit's own 1.10 worked out on screen.
+- **11** — how the future is modelled: a random walk drawn as a binomial
+  lattice, and the choppiness as the width of the fan of outcomes.
+- **12** — the paper's own Figures 1 and 2, drawn live: the straight line of
+  building now, the curve of waiting, and why they *touch* rather than cross.
+- **13** — the one formula, `½(1 + √(1 + 8ρ ÷ σ²))`, computed on screen to
+  2.158, turned into the multiplier 1.86, then re-run by hand for the 40 per
+  cent and 2 per cent cases, and taken to both its limits.
+
+No calculus is used and no Greek letter is ever read aloud; σ is always "the
+choppiness" and ρ is always "the cost of capital".
 
 ## Deliverables
 

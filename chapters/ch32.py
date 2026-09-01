@@ -3,133 +3,108 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from manim import *
 from lib.base import Chapter
 from lib import stick, cards, widgets as W
+from lib.chain import Chain
 from lib.theme import *
 
 
 class Chapter32(Chapter):
     CH = 32
-    TITLE = "Two different kinds of fear"
-    PART = "PART THREE — THE ARGUMENT"
-    RECAP_ICONS = ["risk", "fog", "shield", "signal"]
+    TITLE = "The chain"
+    PART = "PART TWO — THE POLICY"
+    RECAP_ICONS = ["chain", "people", "door", "signal"]
 
     def body(self):
-        q = cards.quote_card(
-            "of possible future outcomes, only the unfavorable ones have a bearing on "
-            "the current propensity to undertake a given project",
-            "Dixit (1992), p. 118, quoting Bernanke (1983)", SRC_DX, width=42)
-        q.move_to(UP * 1.6)
-        if q.width > 11.4:
-            q.scale(11.4 / q.width)
-        with self.narrate("Replay the bad news principle from chapter nine. When you "
-                          "can wait, it is mainly the bad possible outcomes that decide "
-                          "whether you build now."):
-            self.play(FadeIn(q), run_time=1.2)
+        with self.narrate("Two economists, writing in twenty-twelve, set out how the "
+                          "policy is supposed to work. They set it out as a chain. And "
+                          "the chain is the picture Part Two is built on, exactly as "
+                          "the vertical scale was Part One's."):
+            pass
+
+        pair = VGroup(
+            stick.StickFigure("", CHALK, prop="printout", scale=0.75),
+            stick.StickFigure("", CHALK, hat="specs", prop="book", scale=0.75),
+        ).arrange(RIGHT, buff=0.6)
+        plabel = Text("Bowdler & Radia (2012)", font=FONT, font_size=T_SMALL, color=SRC_BR)
+        plabel.next_to(pair, DOWN, buff=0.25)
+        grp = VGroup(pair, plabel).move_to(LEFT * 4.4 + UP * 1.6)
+        with self.narrate("Christopher Bowdler and Amar Radia. They are careful, "
+                          "serious people, and nothing in this film is an attack on "
+                          "them. Their colour, from here on, is red."):
+            self.play(FadeIn(grp), run_time=1.0)
         self.beat()
-        ask = cards.body("So ask what this policy actually compresses.",
-                         size=T_SUB, color=SRC_KIT, width=36)
-        ask.move_to(DOWN * 1.2)
-        with self.narrate("So the question to ask is: what does this policy actually "
-                          "compress?"):
-            self.play(FadeIn(ask), run_time=0.9)
-        self.beat()
-        self.clear_stage()
+        self.play(grp.animate.scale(0.7).to_corner(UP + LEFT, buff=0.5), run_time=0.8)
 
-        self.define("the price of risk", "Extra return, for the worry.", "risk", SRC_BR,
-                    at=UP * 0.4, hold=5.0)
-
-        # ------------------------------------------------- the spring
-        head = Text("What QE pushes down", font=FONT, font_size=T_SUB,
-                    color=SRC_BR).to_edge(UP, buff=0.7)
-        self.play(FadeIn(head), run_time=0.5)
-        sp = W.spring(SRC_BR, turns=7, width=5.0, height=1.0).move_to(UP * 0.6)
-        wall = Line(LEFT * 3.0 + UP * 1.6, LEFT * 3.0 + DOWN * 0.4, color=MUTED,
-                    stroke_width=5)
-        lab = Text("the price of risk in financial markets", font=FONT,
-                   font_size=T_SMALL, color=SRC_BR)
-        lab.next_to(sp, DOWN, buff=0.6)
-        with self.narrate("In financial markets, quantitative easing pushes that price "
-                          "down. Squeeze the spring."):
-            self.play(Create(wall), Create(sp), FadeIn(lab), run_time=1.2)
-            sp2 = W.spring(SRC_BR, turns=7, width=5.0, height=1.0, compressed=0.85)
-            sp2.move_to(sp.get_center() + LEFT * 0.6)
-            self.play(Transform(sp, sp2), run_time=1.8)
-        self.beat()
-        self.clear_stage()
-
-        # ------------------------------------------------- the other fear
-        nell = stick.nell(scale=1.0).move_to(LEFT * 4.0 + DOWN * 0.8)
-        self.play(FadeIn(nell), nell.mood("worried"), run_time=0.6)
-        head2 = Text("And now the other fear, inside Nell's head",
-                     font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
-        self.play(FadeIn(head2), run_time=0.5)
-
-        fears = ["Will there still be customers in three years?",
-                 "Will the euro survive, or will countries start leaving it?",
-                 "Will this whole industry still exist?"]
-        bubbles = VGroup()
-        for i, f in enumerate(fears):
-            th = nell.think(f, direction=UP, width=3.4, color=WAIT)
-            th.move_to(RIGHT * 1.4 + UP * (1.7 - i * 1.6))
-            bubbles.add(th)
-            with self.narrate(f, v="c"):
-                self.play(FadeIn(th), run_time=0.8)
-        self.beat()
-        diff = cards.body("Different worries entirely.", size=T_SUB, color=WAIT, width=24)
-        diff.move_to(LEFT * 4.0 + DOWN * 2.6)
-        with self.narrate("Those are different worries entirely. A central bank buying "
-                          "government bonds reaches them only indirectly, if at all."):
-            self.play(FadeIn(diff), run_time=0.9)
-        self.beat()
-
-        # ------------------------------------------------- the concession
-        self.clear_stage()
-        kit = stick.kit(scale=0.8).move_to(LEFT * 5.4 + DOWN * 1.8)
-        self.play(FadeIn(kit), run_time=0.5)
-        head3 = Text("And here Kit narrows his own claim, in writing",
-                     font=FONT, font_size=T_SUB, color=SRC_KIT).to_edge(UP, buff=0.7)
-        self.play(FadeIn(head3), run_time=0.5)
-
-        conc = cards.bullet_list([
-            "it does touch that fear",
-            "richer owners spend more",
-            "one firm's customers are others' spending",
-            "and gilts aim at doubts about governments",
-        ], color=CHALK, width=42, dotc=SRC_KIT)
-        conc.move_to(RIGHT * 0.8 + UP * 0.5)
-        says = ["He cannot say the policy fails to touch that fear.",
-                "Higher share and property prices do make some owners spend more.",
-                "And one company's customers are other people's spending. So the fear "
-                "is thinned a little.",
-                "And buying government bonds is obviously aimed at doubts about "
-                "governments in the first place."]
-        for i in range(4):
+        ch = Chain(y=0.6, width=12.4)
+        says = [
+            "One. The Bank creates money and buys gilts.",
+            "Two. Gilt prices rise, and yields fall.",
+            "Three. Other borrowing rates follow them down.",
+            "Four. The cheaper price reaches an ordinary firm.",
+            "Five. The firm decides to build.",
+            "Six. Investment and output rise.",
+        ]
+        for i in range(6):
             with self.narrate(says[i]):
-                self.play(FadeIn(conc[i], shift=RIGHT * 0.2), run_time=0.6)
+                self.play(FadeIn(ch.boxes[i], scale=0.9), run_time=0.5)
+                if i > 0:
+                    self.play(Create(ch.arrows[i - 1]), run_time=0.4)
         self.beat()
 
-        self.play(FadeOut(conc), run_time=0.5)
-        honest = cards.body("So the honest version is about how DIRECTLY, not about "
-                            "whether.", size=T_HEAD, color=SRC_KIT, width=30)
-        honest.move_to(UP * 0.8)
-        with self.narrate("So the honest version of his claim is about how directly, "
-                          "not about whether."):
-            self.play(Write(honest), run_time=2.2)
+        why = cards.body("examine each link on its own", size=T_BODY, color=CHALK, width=54)
+        why.to_edge(DOWN, buff=1.2)
+        with self.narrate("Why a chain? Because it is honest. Each link can be examined "
+                          "on its own. And if any single link fails, the whole thing "
+                          "stops there."):
+            self.play(FadeIn(why), run_time=1.0)
         self.beat()
-        split = VGroup(
-            cards.body("DIRECTLY:\nthe price of risk", size=T_BODY, color=SRC_BR, width=24),
-            cards.body("AT ONE REMOVE:\nthe doubt itself",
-                       size=T_BODY, color=WAIT, width=24),
-        ).arrange(RIGHT, buff=1.6).move_to(DOWN * 1.5)
-        with self.narrate("What a central bank reaches directly is the price at which "
-                          "risk trades. What it reaches at one or two removes is the "
-                          "doubt itself."):
-            self.play(FadeIn(split[0]), run_time=0.8)
-            self.play(FadeIn(split[1]), run_time=0.8)
+        self.play(FadeOut(why), run_time=0.4)
+
+        # -------------------------------------------------- two legs
+        leg1 = SurroundingRectangle(VGroup(*ch.boxes[0:3]), color=MUTED, buff=0.22,
+                                    stroke_width=3, corner_radius=0.12)
+        l1 = Text("leg one: purchases → asset prices", font=FONT, font_size=T_SMALL,
+                  color=MUTED)
+        l1.next_to(leg1, DOWN, buff=0.25)
+        leg2 = SurroundingRectangle(VGroup(*ch.boxes[3:6]), color=MUTED, buff=0.22,
+                                    stroke_width=3, corner_radius=0.12)
+        l2 = Text("leg two: asset prices → spending", font=FONT, font_size=T_SMALL,
+                  color=MUTED)
+        l2.next_to(leg2, DOWN, buff=0.25)
+        with self.narrate("The authors themselves split the chain into two legs. From "
+                          "the purchases to the price of assets."):
+            self.play(Create(leg1), FadeIn(l1), run_time=0.9)
+        with self.narrate("And from the price of assets to what anybody actually spends."):
+            self.play(Create(leg2), FadeIn(l2), run_time=0.9)
+        self.beat()
+
+        kit = stick.kit(scale=0.75).move_to(LEFT * 4.6 + DOWN * 2.2)
+        b = kit.say("I'm only ever disputing\nthe second leg.", direction=UP, width=3.8,
+                    color=SRC_KIT)
+        with self.narrate("And Kit wants to say this out loud, now, before anything "
+                          "else. He is only ever disputing the second leg. Not the "
+                          "first. The first leg is the part everybody argues about, and "
+                          "he is not arguing about it.", v="c"):
+            self.play(FadeIn(kit), run_time=0.5)
+            self.play(FadeIn(b), run_time=0.7)
+        self.beat()
+        self.play(FadeOut(leg1), FadeOut(l1), FadeOut(b), run_time=0.5)
+
+        # -------------------------------------------------- link five
+        with self.narrate("And within that second leg, one link is going to matter more "
+                          "than all the others."):
+            self.play(*ch.dim_all(), run_time=0.8)
+            self.play(ch.highlight(4, SRC_KIT), run_time=0.9)
+        five = cards.body("Link five. The firm decides to build.", size=T_SUB,
+                          color=SRC_KIT, width=30)
+        five.to_edge(DOWN, buff=1.0)
+        with self.narrate("Link five. The firm decides to build. Keep your eye on it "
+                          "for the rest of the film."):
+            self.play(FadeIn(five), run_time=0.9)
         self.beat()
 
         self.close_chapter([
-            "bad news principle",
-            "QE squeezes the price of risk",
-            "a different fear: will there be customers?",
-            "how DIRECTLY — not whether",
+            "a chain of six links",
+            "one link fails ⇒ everything stops",
+            "two legs: to prices, then to spending",
+            "Kit disputes the second leg only",
         ])

@@ -6,132 +6,119 @@ from lib import stick, cards, widgets as W
 from lib.scale import MasterScale
 from lib.theme import *
 
-RUNGS = [
-    "investment: spend now, earn later",
-    "some of it is sunk — never got back",
-    "the future arrives a bit at a time",
-    "the chance usually keeps",
-    "so waiting pays: bad half cut, good half kept",
-    "not about disliking risk",
-    "waiting costs profit ⇒ a level to act at",
-    "the trigger sits above the textbook line",
-    "how far: choppiness and the cost of money",
-    "base case ≈ double · rough trade > 3×",
-    "cheaper money RAISES it",
-    "in reverse: absorb losses before quitting",
-    "the do-nothing band ≈ 9× wider",
-    "up and back down — the effect stays",
-    "hysteresis — the dollar and the imports",
-    "cushion the downside ⇒ early in; lift the upside ⇒ late out",
-    "many firms ⇒ an industry that looks frozen",
-]
-
 
 class Chapter16(Chapter):
     CH = 16
-    TITLE = "Everything, in order"
+    TITLE = "The zone of inaction"
     PART = "PART ONE — THE PAPER"
-    RECAP_ICONS = ['scale', 'door', 'chain']
+    RECAP_ICONS = ['scale', 'fog', 'slab', 'people']
 
     def body(self):
-        with self.narrate("One rung at a time, from the bottom. Everything Part One "
-                          "has built."):
-            pass
-        page = 4
-        for start in range(0, len(RUNGS), page):
-            chunk = RUNGS[start:start + page]
-            rows = VGroup(*[cards.body(r, size=T_BODY, color=CHALK, width=46)
-                            for r in chunk])
-            rows.arrange(DOWN, buff=0.55, aligned_edge=LEFT)
-            if rows.width > 11.6:
-                rows.scale(11.6 / rows.width)
-            rows.move_to(ORIGIN)
-            step = Text(f"{start + 1}–{start + len(chunk)} of {len(RUNGS)}",
-                        font=FONT, font_size=T_TINY, color=MUTED)
-            step.to_corner(UP + LEFT, buff=0.6)
-            self.play(FadeIn(step), run_time=0.3)
-            for k, r in enumerate(chunk):
-                with self.narrate(r, pad=0.25):
-                    self.play(FadeIn(rows[k], shift=RIGHT * 0.2), run_time=0.5)
-            self.wait(0.4)
-            self.play(FadeOut(rows), FadeOut(step), run_time=0.5)
+        sc = MasterScale(x=-3.4, y=-0.3, height=5.0)
+        self.play(Create(sc.axis), FadeIn(sc.arrow_head), FadeIn(sc.title), run_time=1.0)
 
-        # ------------------------------------------------------ final scale
-        sc = MasterScale(x=-3.0, y=-0.3, height=5.0)
-        self.play(Create(sc.axis), FadeIn(sc.arrow_head), FadeIn(sc.title), run_time=0.8)
-        for k, v, t, c, sw in [("L", 0.72, "0.72  give up", TRIGGER, 5),
-                               ("C", 1.00, "1.00  day-to-day cost", SUNK, 3),
-                               ("M", 1.10, "1.10  textbook", COST, 3),
-                               ("H", 1.62, "1.62  build", TRIGGER, 5)]:
-            g = sc.add_level(k, v, t, c, sw=sw)
-            self.play(Create(g[0]), FadeIn(g[1]), run_time=0.4)
-        band = sc.band(0.72, 1.62, TRIGGER, 0.13)
-        with self.narrate("And the master scale in its final form. Give up at nought "
-                          "point seven two. Build at one point six two. And in between, "
-                          "a wide stretch where the right thing to do is nothing."):
-            self.play(FadeIn(band), run_time=1.0)
+        c = sc.add_level("C", 1.00, "1.00", SUNK, width=3.0, sw=3)
+        m = sc.add_level("M", 1.10, "1.10", COST, width=3.0, sw=3)
+        with self.narrate("Take away the uncertainty for a moment, and leave only the "
+                          "sunk cost. The textbook still has a small band where doing "
+                          "nothing is right — from one, to one point one."):
+            self.play(Create(c[0]), FadeIn(c[1]), Create(m[0]), FadeIn(m[1]),
+                      run_time=1.2)
+        narrow = sc.band(1.00, 1.10, MUTED, 0.45, width=3.0)
+        nb = sc.brace_between(1.00, 1.10, "0.10 wide", MUTED)
+        with self.narrate("That is the whole of it. A band nought point one wide."):
+            self.play(FadeIn(narrow), FadeIn(nb), run_time=1.0)
         self.beat()
+
+        l = sc.add_level("L", 0.72, "0.72", TRIGGER, width=3.0, sw=5)
+        h = sc.add_level("H", 1.62, "1.62", TRIGGER, width=3.0, sw=5)
+        with self.narrate("Now put the uncertainty back in."):
+            self.play(Create(l[0]), FadeIn(l[1]), Create(h[0]), FadeIn(h[1]),
+                      run_time=1.4)
+        wide = sc.band(0.72, 1.62, TRIGGER, 0.16, width=3.0)
+        wb = sc.brace_between(0.72, 1.62, "0.90 wide", TRIGGER)
+        with self.narrate("Nought point seven two, to one point six two. Nought point "
+                          "nine wide."):
+            self.play(FadeOut(nb), FadeIn(wide), FadeIn(wb), run_time=1.2)
+        self.beat()
+
+        nine = cards.body("About nine times wider.", size=T_SUB, color=TRIGGER, width=20)
+        nine.move_to(RIGHT * 3.6 + UP * 1.6)
+        deriv = cards.note("derived: 0.90 ÷ 0.10 — ours, not the paper's", width=30)
+        deriv.next_to(nine, DOWN, buff=0.4)
+        with self.narrate("About nine times wider. That comparison is ours, not the "
+                          "paper's — the paper prints the four levels and calls the "
+                          "difference quite a dramatic difference. We did the sum."):
+            self.play(FadeIn(nine), run_time=0.7)
+            self.play(FadeIn(deriv), run_time=0.8)
+        self.beat()
+
+        name = cards.body("where doing nothing is right", size=T_BODY, color=CHALK, width=26)
+        name.move_to(RIGHT * 3.6 + DOWN * 1.6)
+        with self.narrate("This band has a name. The zone of inaction. The stretch "
+                          "where the right thing to do is nothing at all."):
+            self.play(FadeIn(name), run_time=0.9)
+        self.beat()
+
         self.clear_stage()
 
-        # ------------------------------------------------------ what it does NOT claim
-        head = Text("What the paper does not claim", font=FONT, font_size=T_SUB,
-                    color=COST).to_edge(UP, buff=0.8)
+        # ------------------------------------------------ two consequences
+        head = Text("Two consequences the paper draws", font=FONT,
+                    font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
         self.play(FadeIn(head), run_time=0.5)
-        nots = cards.bullet_list([
-            "not “firms are irrational”",
-            "not “waiting is always right”",
-            "not where a rival can snatch it",
-        ], color=CHALK, width=44, dotc=COST)
-        nots.move_to(UP * 0.3)
-        says = ["It does not say firms are irrational. It says the opposite.",
-                "It does not say waiting is always right.",
-                "And it does not apply where a rival can snatch the opportunity away "
-                "from you."]
+
+        one = cards.body("small frictions → large rigidities",
+                         size=T_BODY, color=CHALK, width=44)
+        one.move_to(UP * 1.5)
+        with self.narrate("First. Small frictions can produce much larger rigidities "
+                          "than models which ignore gradually-arriving information "
+                          "would ever suggest. A little stickiness goes a very long way."):
+            self.play(FadeIn(one), run_time=1.0)
+        self.beat()
+
+        # ------------------------------------------------ labour
+        self.play(FadeOut(one), run_time=0.4)
+        boss = stick.StickFigure("an employer", CHALK, hat="specs", scale=0.85)
+        boss.shift(LEFT * 4.4 + DOWN * 0.6)
+        workers = stick.crowd(4, spacing=1.4, scale=0.5).shift(RIGHT * 1.6 + DOWN * 0.6)
+        with self.narrate("Second, and this one reaches outside the firm altogether. "
+                          "Hiring and firing cost money. So exactly the same logic "
+                          "applies to jobs."):
+            self.play(FadeIn(boss), FadeIn(workers), run_time=1.0)
+
+        pts = cards.bullet_list([
+            "Employers hoard labour in downturns.",
+            "And are slow to hire in upturns.",
+            "above the wage, no hiring · below it, no firing",
+        ], color=CHALK, width=34)
+        pts.move_to(DOWN * 2.0)
+        if pts.height > 2.4:
+            pts.scale(2.4 / pts.height)
+        pts.to_edge(DOWN, buff=0.4)
+        says = ["Employers hoard labour in downturns.",
+                "And they are slow to hire in upturns.",
+                "above the wage, no hiring · below it, no firing"]
         for i in range(3):
             with self.narrate(says[i]):
-                self.play(FadeIn(nots[i], shift=RIGHT * 0.2), run_time=0.6)
-        self.beat()
-        self.clear_stage()
-
-        # ------------------------------------------------------ back to chapter 0
-        nell = stick.nell(scale=1.0).shift(LEFT * 4.4 + DOWN * 0.6)
-        self.play(FadeIn(nell), run_time=0.6)
-        with self.narrate("So go back to the two people we opened with, and let Nell "
-                          "explain them."):
-            pass
-        f = cards.body("“Closing is final.\nStaying keeps the good years possible.”",
-                       size=T_BODY, color=CHALK, width=28)
-        f.move_to(RIGHT * 1.8 + UP * 1.4)
-        with self.narrate("The farmer keeps going because closing is final. Staying "
-                          "open keeps the good years possible, and that is worth more "
-                          "to him than the losses are costing him."):
-            self.play(FadeIn(f), run_time=1.0)
-        self.beat()
-        n = cards.body("“Building is final too.\nThis year is not yet good enough "
-                       "to pay for waiting.”", size=T_BODY, color=CHALK, width=28)
-        n.move_to(RIGHT * 1.8 + DOWN * 1.4)
-        with self.narrate("And I do not build, because building is final too. Waiting "
-                          "another year is worth something, and this year's numbers are "
-                          "not yet good enough to pay for it."):
-            self.play(FadeIn(n), nell.mood("pleased"), run_time=1.0)
+                self.play(FadeIn(pts[i], shift=RIGHT * 0.2), run_time=0.6)
+                if i == 0:
+                    self.play(*[w.mood("worried") for w in workers], run_time=0.4)
         self.beat()
 
-        # ------------------------------------------------------ hook
-        self.clear_stage()
-        hook = cards.body("A government spent hundreds of billions assuming none of this.",
-                          size=T_HEAD, color=CHALK, width=32)
-        with self.narrate("One more thing before we stop. A government somewhere spent "
-                          "hundreds of billions of pounds on a policy that assumed none "
-                          "of this was true."):
-            self.play(Write(hook), run_time=2.4)
+        self.play(FadeOut(pts), FadeOut(boss), FadeOut(workers), run_time=0.5)
+        pop = cards.body("“loss of jobs” — better founded than the textbook allows",
+                         size=T_BODY, color=CHALK, width=42)
+        pop.move_to(UP * 0.2)
+        with self.narrate("And the paper draws a conclusion from that which is worth "
+                          "hearing. The popular worry about loss of jobs — the one "
+                          "economists usually wave away — may have more justification "
+                          "than the textbook allows."):
+            self.play(FadeIn(pop), run_time=1.1)
         self.beat()
-        nxt = Text("Part Two", font=FONT, font_size=T_SUB, color=MUTED)
-        nxt.next_to(hook, DOWN, buff=0.9)
-        self.play(FadeIn(nxt), run_time=0.7)
-        self.wait(1.4)
 
         self.close_chapter([
-            "the whole ladder, in order",
-            "not irrational · not always right",
-            "next: a policy that assumed none of it",
+            "sunk costs alone: 1.00 – 1.10",
+            "with uncertainty: 0.72 – 1.62",
+            "small frictions → large rigidities",
+            "and the same logic applies to jobs",
         ])

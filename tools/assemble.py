@@ -12,15 +12,15 @@ FINAL.mkdir(exist_ok=True)
 QUAL = os.environ.get("QUAL", "1080p30")
 
 PARTS = {
-    "part-one":   (list(range(0, 17)),  "Part One — The Paper",
+    "part-one":   (list(range(0, 22)),  "Part One — The Paper",
                    "Avinash Dixit, ‘Investment and Hysteresis’ (1992)",
-                   [("open", 0, 2), ("build", 2, 10), ("turn", 10, 17)]),
-    "part-two":   (list(range(17, 28)), "Part Two — The Policy",
+                   [("open", 0, 2), ("build", 2, 14), ("turn", 14, 22)]),
+    "part-two":   (list(range(22, 33)), "Part Two — The Policy",
                    "Bowdler & Radia, ‘Unconventional Monetary Policy’ (2012)",
-                   [("policy", 17, 28)]),
-    "part-three": (list(range(28, 39)), "Part Three — The Argument",
+                   [("policy", 22, 33)]),
+    "part-three": (list(range(33, 44)), "Part Three — The Argument",
                    "The gap at the last link",
-                   [("doubt", 28, 38), ("close", 38, 39)]),
+                   [("doubt", 33, 43), ("close", 43, 44)]),
 }
 
 

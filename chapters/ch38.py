@@ -3,155 +3,91 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from manim import *
 from lib.base import Chapter
 from lib import stick, cards, widgets as W
-from lib.chain import Chain
 from lib.theme import *
 
 
 class Chapter38(Chapter):
     CH = 38
-    TITLE = "What is actually being claimed"
+    TITLE = "The concession that hurts most"
     PART = "PART THREE — THE ARGUMENT"
-    RECAP_ICONS = ["chain", "scale", "queue", "people"]
+    RECAP_ICONS = ["shield", "people", "money", "door"]
 
     def body(self):
-        head = Text("Narrow it down, one line at a time", font=FONT, font_size=T_SUB,
-                    color=CHALK).to_edge(UP, buff=0.8)
+        kit = stick.kit(scale=0.8).move_to(LEFT * 5.4 + DOWN * 1.8)
+        self.play(FadeIn(kit), run_time=0.5)
+        with self.narrate("This chapter exists because Kit's own source damages him, "
+                          "and that is what intellectual honesty looks like."):
+            pass
+
+        kenji = stick.kenji(scale=0.9).move_to(RIGHT * 3.6 + UP * 0.4)
+        kl = kenji.label()
+        with self.narrate("Replay chapter thirteen. Japanese firms invested boldly and "
+                          "hung on through losses, because their downside was cushioned."):
+            self.play(FadeIn(kenji), FadeIn(kl), run_time=0.8)
+
+        ax = NumberLine(x_range=[-3, 3, 1], length=6.4, color=MUTED,
+                        include_numbers=False, include_ticks=False)
+        ax.move_to(LEFT * 1.4 + DOWN * 1.4)
+        curve = FunctionGraph(lambda x: 1.1 * np.exp(-x * x / 1.4), x_range=[-3, 3],
+                              color=WAIT, stroke_width=4)
+        curve.move_to(ax.get_center() + UP * 0.55)
+        bad = Text("bad", font=FONT, font_size=T_SMALL, color=COST).next_to(ax, LEFT, buff=0.2)
+        good = Text("good", font=FONT, font_size=T_SMALL, color=MONEY).next_to(ax, RIGHT, buff=0.2)
+        self.play(Create(ax), Create(curve), FadeIn(bad), FadeIn(good), run_time=1.2)
+
+        self.define("the good news principle", "Staying preserves the good outcomes.",
+                    "signal", SRC_DX, at=UP * 2.0, hold=4.6)
+
+        hl = Polygon(*[ax.n2p(x) for x in np.linspace(0, 3, 10)],
+                     ax.n2p(3) + UP * 0.02, ax.n2p(0) + UP * 0.02,
+                     color=MONEY, stroke_width=0, fill_color=MONEY, fill_opacity=0.0)
+        box = Rectangle(width=3.2, height=1.6, color=MONEY, stroke_width=4)
+        box.move_to(ax.n2p(1.5) + UP * 0.55)
+        with self.narrate("Which half of that spread does a policy that props up prices "
+                          "and signals that the authorities will act actually work on?"):
+            self.play(Create(box), run_time=1.2)
+        self.beat()
+
+        land = cards.body("exactly the right half", size=T_SUB, color=MONEY, width=26)
+        land.move_to(RIGHT * 3.6 + DOWN * 1.8)
+        with self.narrate("This half. Which is exactly the right half for keeping a "
+                          "struggling firm from closing."):
+            self.play(FadeIn(land), run_time=0.9)
+        self.beat()
+
+        # ------------------------------------------------- Kit writes it against himself
+        self.clear_stage()
+        head = Text("And Kit writes this into his own argument, against himself",
+                    font=FONT, font_size=T_SUB, color=SRC_KIT).to_edge(UP, buff=0.7)
         self.play(FadeIn(head), run_time=0.5)
 
-        n1 = cards.body("This is NOT a claim that quantitative easing does not work.",
-                        size=T_SUB, color=COST, width=40)
-        n1.move_to(UP * 1.4)
-        with self.narrate("This is not a claim that quantitative easing does not work."):
-            self.play(FadeIn(n1), run_time=0.9)
-        self.beat()
-        n1b = cards.body("prices in financial markets DID move", size=T_BODY, color=CHALK, width=44)
-        n1b.next_to(n1, DOWN, buff=0.5)
-        with self.narrate("Kit has not disputed that it moved prices in financial "
-                          "markets, which is the best-established finding in the whole "
-                          "body of research."):
-            self.play(FadeIn(n1b), run_time=1.0)
-        self.beat()
-        n2 = cards.body("It is NOT a claim that the theory is false.",
-                        size=T_SUB, color=COST, width=40)
-        n2.next_to(n1b, DOWN, buff=0.7)
-        with self.narrate("It is not a claim that the theory is false."):
-            self.play(FadeIn(n2), run_time=0.9)
-        self.beat()
-        n3 = cards.body("INCOMPLETE — in one place", size=T_SUB, color=SRC_KIT, width=40)
-        n3.next_to(n2, DOWN, buff=0.5)
-        with self.narrate("It is a claim that the theory is incomplete, in one specific "
-                          "place."):
-            self.play(FadeIn(n3), run_time=0.9)
-        self.beat()
-        self.clear_stage()
+        kit2 = stick.kit(scale=1.0).move_to(LEFT * 4.4 + DOWN * 0.8)
+        self.play(FadeIn(kit2), kit2.mood("worried"), run_time=0.6)
 
-        # ---------------------------------------------------- the chain, marked up
-        ch = Chain(y=1.0, width=12.4)
-        with self.narrate("So rebuild the chain one final time."):
-            self.play(FadeIn(ch), run_time=1.4)
-        marks = VGroup()
-        for i in range(4):
-            t = Text("✓", font=FONT, font_size=28, color=MONEY)
-            t.next_to(ch.boxes[i], DOWN, buff=0.22)
-            marks.add(t)
-        t5 = Text("?", font=FONT, font_size=34, color=SRC_KIT)
-        t5.next_to(ch.boxes[4], DOWN, buff=0.22)
-        t6 = Text("✓", font=FONT, font_size=28, color=MONEY)
-        t6.next_to(ch.boxes[5], DOWN, buff=0.22)
-        with self.narrate("Careful reasoning about what can go wrong at every stage."):
-            self.play(LaggedStart(*[FadeIn(m) for m in marks], lag_ratio=0.3),
-                      FadeIn(t6), run_time=1.8)
-        with self.narrate("Except one. The stage where a quantity finally has to "
-                          "change, because somebody in a room has to say yes."):
-            self.play(ch.highlight(4, SRC_KIT), FadeIn(t5), run_time=1.2)
-            self.play(Circumscribe(ch.boxes[4], color=SRC_KIT, buff=0.15,
-                                   stroke_width=5), run_time=1.6)
+        page = RoundedRectangle(width=6.6, height=3.6, corner_radius=0.14,
+                                color=SRC_KIT, stroke_width=3)
+        page.move_to(RIGHT * 1.8 + UP * 0.1)
+        written = cards.body("props up the upside\n= keeps firms alive\n= against me",
+                             size=T_BODY, color=CHALK, width=32)
+        written.move_to(page.get_center())
+        with self.narrate("A policy that props up the upside is aimed at exactly the "
+                          "right half of the distribution for keeping firms alive. "
+                          "Which hands the policy a mechanism for the very thing he was "
+                          "going to explain another way."):
+            self.play(Create(page), run_time=0.8)
+            self.play(FadeIn(written), run_time=1.4)
         self.beat()
 
-        # ---------------------------------------------------- two things belong there
-        two = Text("Two things belong there", font=FONT, font_size=T_SUB, color=CHALK)
-        two.move_to(DOWN * 0.6)
-        self.play(FadeIn(two), run_time=0.6)
-
-        a = cards.body("DIXIT'S:\nthe bar is higher\nand rises with fear",
-                       size=T_BODY, color=SRC_DX, width=40)
-        a.move_to(DOWN * 0.3)
-        self.play(FadeOut(two), run_time=0.3)
-        with self.narrate("The first is Dixit's, and Kit is mostly reporting it. When "
-                          "spending cannot be undone and the future is unknown, the bar "
-                          "is higher than the textbook says. And it rises as the world "
-                          "becomes more frightening. So a policy used in frightening "
-                          "times is working against the largest version of that bar. "
-                          "That is well-established economics, published in a general "
-                          "economics journal, and simply absent from the article he "
-                          "began with."):
-            self.play(FadeIn(a), run_time=1.6)
+        why = cards.body("his own source says it", size=T_SUB, color=SRC_KIT, width=40)
+        why.to_edge(DOWN, buff=0.6)
+        with self.narrate("Why include something that damages you? Because it is what "
+                          "his own source says. The discomfort is the point."):
+            self.play(FadeIn(why), run_time=1.0)
         self.beat()
-        self.play(FadeOut(a), run_time=0.5)
-
-        b = cards.body("KIT'S:\nheld loosely",
-                       size=T_SUB, color=SRC_KIT, width=40)
-        b.move_to(DOWN * 0.3)
-        with self.narrate("The second is Kit's. And he holds it loosely, for all the "
-                          "reasons chapter twenty-nine gave."):
-            self.play(FadeIn(b), run_time=1.0)
-        self.beat()
-        self.clear_stage()
-
-        # ---------------------------------------------------- the closing thought
-        head3 = Text("And the closing thought — what the whole film has been for",
-                     font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.8)
-        self.play(FadeIn(head3), run_time=0.5)
-
-        c1 = cards.body("Not a mistake in anybody's reasoning.",
-                        size=T_SUB, color=CHALK, width=38)
-        c1.move_to(UP * 1.2)
-        with self.narrate("The gap is not a mistake in anybody's reasoning."):
-            self.play(FadeIn(c1), run_time=0.9)
-        self.beat()
-        c2 = cards.body("It is a BOUNDARY.", size=T_HEAD, color=SRC_KIT, width=26)
-        c2.move_to(UP * 0.1)
-        with self.narrate("It is a boundary."):
-            self.play(Write(c2), run_time=1.6)
-        self.beat()
-        c3 = cards.body("one model hands off\nto a decision it does not model",
-                        size=T_BODY, color=CHALK, width=46)
-        c3.move_to(DOWN * 1.6)
-        with self.narrate("A model of the whole economy hands off to a decision it does "
-                          "not model. And the study of how that decision actually gets "
-                          "made sits in a different journal, on a different reading "
-                          "list, and in the other half of the same degree."):
-            self.play(FadeIn(c3), run_time=1.6)
-        self.beat()
-
-        # ---------------------------------------------------- the final shot
-        self.clear_stage()
-        chn = Chain(y=0.0, width=11.0).scale(0.9)
-        self.play(FadeIn(chn), run_time=1.2)
-        self.play(chn.highlight(4, SRC_KIT), run_time=0.8)
-
-        cast_left = VGroup(stick.nell(scale=0.6), stick.marshall(scale=0.6),
-                           stick.ava(scale=0.6)).arrange(RIGHT, buff=1.0)
-        cast_left.next_to(chn, UP, buff=0.7)
-        cast_right = VGroup(stick.kit(scale=0.6), stick.governor(scale=0.6),
-                            stick.StickFigure("", CHALK, prop="printout", scale=0.6),
-                            stick.StickFigure("", CHALK, hat="specs", prop="book", scale=0.6)
-                            ).arrange(RIGHT, buff=0.9)
-        cast_right.next_to(chn, DOWN, buff=0.7)
-        names = Text("Nell · Marshall · Ava · Kit · the Governor · the Authors",
-                     font=FONT, font_size=T_SMALL, color=MUTED)
-        names.next_to(cast_right, DOWN, buff=0.45)
-
-        with self.narrate("And the last shot is all of them, standing either side of "
-                          "the chain, at the link nobody examined."):
-            self.play(FadeIn(cast_left), run_time=1.0)
-            self.play(FadeIn(cast_right), run_time=1.0)
-            self.play(FadeIn(names), run_time=0.8)
-        self.wait(2.0)
 
         self.close_chapter([
-            "not “it fails” · not “the theory is false”",
-            "incomplete at the link where somebody says yes",
-            "Dixit's half: established, and absent",
-            "Kit's half: his own, held loosely",
+            "good news principle governs staying",
+            "QE works on exactly that half",
+            "a real mechanism for keeping firms alive",
+            "Kit writes it against himself",
         ])

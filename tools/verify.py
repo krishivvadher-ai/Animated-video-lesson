@@ -224,7 +224,7 @@ if __name__ == "__main__":
 def check_durations():
     print("\n== durations ==")
     total = 0.0
-    parts = {"PART ONE": (0, 16), "PART TWO": (17, 27), "PART THREE": (28, 38)}
+    parts = {"PART ONE": (0, 21), "PART TWO": (22, 32), "PART THREE": (33, 43)}
     for label, (a, b) in parts.items():
         sub = 0.0
         for n in range(a, b + 1):
@@ -262,8 +262,8 @@ def check_silences():
     """The three scripted silences must survive the mix."""
     print("\n== scripted silence check ==")
     want = {5: "the value of waiting lands",
-            12: "the path falls back and she does not close",
-            28: "Kit waits for a third shield"}
+            17: "the path falls back and she does not close",
+            33: "Kit waits for a third shield"}
     for n, why in want.items():
         f = list((BUILD / "media" / "videos" / f"ch{n:02d}").glob("*/*.mp4"))
         if not f:

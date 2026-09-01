@@ -11,7 +11,7 @@ about the world.
 No other author is named anywhere in the film. Bernanke appears once, only as
 "Dixit, quoting Bernanke", because that quotation sits inside DX.
 
-## PART ONE — THE PAPER
+## PART ONE — THE PAPER (chapters 0–21)
 
 | Ch | Claim | Source |
 |---|---|---|
@@ -81,53 +81,108 @@ No other author is named anywhere in the film. Bernanke appears once, only as
 | 15 | The two rent-controlled flats; the resolution is a signalling game, not a decision problem under uncertainty | DX 127 |
 | 16 | Recap ladder; what the paper does not claim | DX, throughout |
 
-## PART TWO — THE ARGUMENT
+## PART TWO — THE POLICY (chapters 22–32)
+
+Everything in this part is Bowdler & Radia (2012) unless marked otherwise.
 
 | Ch | Claim | Source |
 |---|---|---|
-| 17 | Central bank, interest, interest rate, monetary policy — plain definitions | BR/KIT background |
-| 17 | By 2009 the policy rate was almost at zero and could not go lower | MM 750, BR 603–4 |
-| 18 | A gilt is a promise of fixed payments on fixed dates | FILM (standard) |
-| 18 | Price up, yield down, because the printed payments never change | BR 606–8 |
-| 18 | QE = large purchases of mainly longer-term government bonds | MM 750 |
-| 19 | The transmission chain, and the authors' own two legs: purchases→asset prices, asset prices→spending | BR 605–13 |
-| 19 | This film disputes only the second leg | KIT |
-| 20 | QUOTE: a fall in the cost of capital "should boost consumption and investment by increasing incentives to borrow and reducing incentives to save" | BR 612 |
-| 20 | Three qualifications: damaged banking sector; households and smaller companies lack capital-market access; capital-constrained banks may pass little on | BR 612 |
-| 20 | The authors also name further routes for small firms: supply chains, a cheaper currency helping exporters, and banks passing on lower rates | BR 612 |
-| 20 | The asymmetry between the two halves of the sentence | KIT |
-| 20 | The diagnosis — a firm modelled as a machine — is a simplification, not a fault | KIT |
-| 21 | The government's borrowing cost is now lower | BR 613 |
-| 21 | QUOTE: "Their spending plans should therefore be unaffected by cyclical movements in interest rates." | BR 613 |
-| 21 | Kit's excitement, and his withdrawal: "cyclical" is a standard technical point about long-horizon planners | KIT |
-| 21 | What survives: a reason to go and look, not evidence about what you find | KIT |
-| 22 | Dixit and BR are arguing about the same quantity from opposite sides | KIT |
-| 22 | QE is used only at the zero bound, and the zero bound only comes in a crisis: maximum uncertainty | KIT |
-| 23 | Cheap money makes waiting cheaper; 1.86 at 5 per cent, 2.61 at 2 per cent | DX 116–17 |
-| 23 | Kit's withdrawal: whether the bar falls "by less than you would expect" depends on percentage points versus proportions; both sums are correct | KIT |
-| 24 | Bad news principle replayed | DX 118 |
-| 24 | QE compresses the price of risk | BR 606–12, MM 754–7 |
-| 24 | Kit's concession: wealth effects and demand linkages thin the other fear; so the claim is about how directly, not whether | KIT |
-| 25 | Good news principle means a policy propping up the upside is aimed at keeping firms alive | DX 123 + KIT |
-| 26 | QUOTES: "increased GDP growth by around 1–3 per cent with a similar effect on inflation"; "has proved effective in limiting the scale of the downturn"; "QE, by itself, is not strong enough to spark an economic recovery"; "Of course, this conclusion is tentative." | MM 762 |
-| 26 | The two-row table: preventing a collapse vs starting a recovery | KIT (flagged on screen as his) |
-| 27 | Hysteresis in reverse: firms that closed do not return | DX 122 + KIT |
-| 27 | Caveats: the rusting assumption; and ch 25's concession shrinks the group | DX 119 n.11, KIT |
-| 28 | Rival 1 — a small dose: 200–300 bp equivalent, later programmes did little | MM 763 |
-| 28 | Rival 2 — firms thought it temporary; Kit has three replies and none is a refutation | KIT, from BR 613 |
-| 28 | Rival 3 — QE did not affect rates facing SMEs and households; unsecured rates rose in 2008–9 | MM 757 |
-| 28 | Rival 4 — the literature is limited, uses similar methods, largely originates in central banks | MM abstract, 763 |
-| 28 | Dixit's own limit: a race defeats waiting | DX 118 |
-| 29 | Division, capital budget, hurdle rate as an object | FILM/KIT |
-| 29 | Dixit's account conceded: the number is an outside price wearing a disguise | DX 116–17 |
-| 29 | Kit's dispute is about what kind of number it is, not how high | KIT |
-| 29 | The queue: management, not money, runs out first — stated openly as an assumption | KIT |
-| 29 | Three holes Kit points at himself: wrong scarce thing; no distinguishing observation from "any published rule is slow to change"; a ranked queue is not rate-independent | KIT |
-| 29 | The defensible version: it moves on the company's clock, not the central bank's | KIT |
-| 29 | Attribution: treating a hurdle rate as a rationing device is not Kit's idea; the use he puts it to is | KIT |
-| 30 | Not a claim that QE does not work; not a claim that the theory is false; a claim that it is incomplete in one place | KIT |
-| 30 | Dixit's half, well-established and absent from BR; Kit's half, held loosely | KIT |
-| 30 | The gap is a boundary between two literatures, not a mistake | KIT |
+| 22 | Central bank, interest, interest rate, monetary policy — plain definitions | FILM (standard) |
+| 22 | By 2009 the policy rate was almost at zero and could go no lower | BR 604 |
+| 23 | The crisis threatened the liquidity and solvency of major institutions; market functioning became severely impaired | BR 603 |
+| 23 | Lenders would fund banks only at a higher price, if at all — so credit spreads opened between policy rates and the rates facing households and firms | BR 603 |
+| 23 | A coordinated cut on 8 October 2008 across seven central banks | BR 604 |
+| 23 | UK Bank Rate cut 3 percentage points in 2008 Q4 and 1½ more in 2009 Q1 | BR 604 |
+| 23 | It stopped at 0.5 per cent, not zero, over worries about bank profitability and money-market functioning | BR 604 n.1 |
+| 23 | What is left is called unconventional monetary policy, in three families | BR 604 |
+| 24 | A gilt is a promise the government has already sold, to pay fixed amounts on fixed dates; it can be sold on, and the printed payments never change | FILM (standard) |
+| 24 | Price up ⇒ yield down, worked three times with numbers | FILM (standard) |
+| 24 | QE = large-scale asset purchases financed by issuing central bank money | BR 604 |
+| 25 | The ultimate sellers are typically the non-bank private sector — pension funds, insurers | BR 607 |
+| 25 | The seller's gilts fall and deposits (broad money) rise; the central bank's balance sheet gains gilts against reserves; the private bank's gains reserves against deposits | BR 607, Figures 1–3 |
+| 25 | It is these balance-sheet perturbations that start the transmission mechanism | BR 607 |
+| 25 | QE differs from conventional policy by injecting a quantity of broad money rather than setting the price of base money | BR 607 |
+| 25 | There is nothing unusual about a central bank buying assets; the circumstances and the scale are what distinguish these operations | BR 607, quoting a Bank official |
+| 25 | Effectiveness may depend on what is bought as well as how much | BR 607 |
+| 26 | If money and what is bought are perfect substitutes the process stops there — a liquidity trap; "pure" QE on short-dated debt risks exactly that, as in Japan 2001–06 | BR 609 |
+| 26 | Imperfect substitutes: a 10-year gilt yields more than money, so holding money depresses average returns | BR 609 |
+| 26 | Preferred habitat: pension funds hold long assets to match their liabilities, and selling moves them away from it | BR 609 |
+| 26 | Local supply effect: restricting the net supply of a maturity raises its price and lowers its yield | BR 610 |
+| 26 | Duration and the term premium: buying long assets removes interest-rate risk the private sector would otherwise carry, lowering longer-term real rates | BR 610 |
+| 26 | The hot-potato chain outward into corporate bonds, foreign bonds and equities until all prices adjust | BR 610, 613–14 |
+| 26 | Buying foreign government debt can depreciate the exchange rate | BR 611 |
+| 26 | Limits: lack of risk appetite; a safety premium on low-risk liquid assets; heightened uncertainty over risky pay-offs; regulatory constraints on funds and insurers | BR 610–11 |
+| 27 | Signalling: purchases reveal the Bank's assessment and its commitment, helping anchor inflation expectations | BR 611 |
+| 27 | Liquidity: a very large buyer can reduce liquidity premia — but likely only while purchases continue, and possibly by little in normally liquid gilt markets | BR 611 |
+| 27 | Evidence: bond yields fell, corporate yields fell, equity prices rose — but size and persistence are disputed, and the channels are hard to disentangle | BR 611 |
+| 28 | The rates households and firms pay are related to risk-free rates at the maturity they borrow at, so falls in the yield curve should pass through | BR 612 |
+| 28 | QUOTE: a fall in the cost of capital "should boost consumption and investment by increasing incentives to borrow and reducing incentives to save" | BR 612 |
+| 28 | Three qualifications: an impaired banking sector; households and smaller firms have no capital-market access; capital-constrained banks may pass little on | BR 612 |
+| 28 | Three further routes for small firms: supply chains, a depreciating currency helping exporters, and pass-through of lower funding costs | BR 612 |
+| 28 | The government's borrowing cost is now lower, and QUOTE: "Their spending plans should therefore be unaffected by cyclical movements in interest rates." | BR 613 |
+| 28 | Wealth: £375bn of announced purchases will eventually boost UK households' net financial wealth by about 30 per cent | BR 613–14 |
+| 28 | Those gains accrue largely to holders of the most financial assets — older and more affluent households | BR 614 |
+| 28 | For most pensions, falling annuity rates are broadly offset by the rising pension pot; already-underfunded defined-benefit schemes were likely made worse off | BR 614 |
+| 28 | As with all monetary policy, there are winners and losers | BR 614 |
+| 29 | Broad money (deposits) versus narrow money (reserves); the mechanism runs through broad money | BR 614 |
+| 29 | The textbook money multiplier of 10–15 does not apply; the right expectation was about one, and in the UK it was less than one | BR 614–15 |
+| 29 | So the failure of broad money to explode is not evidence the policy failed | BR 615 |
+| 29 | Monetary leakages: broad money grew by less than £200bn in QE1; banks substituted long-term debt for deposits, and large companies issued bonds instead of borrowing | BR 615 |
+| 29 | The banking sector in aggregate cannot reduce its reserves or "lend them out"; the level is set by how the purchases were funded — arithmetic, not choice | BR 615 |
+| 29 | More reserves can raise lending only by changing the incentive to lend | BR 615 |
+| 30 | The irrelevance proposition: replacing gilts with money does not change the risk the private sector as a whole bears, because it moves to the government's consolidated balance sheet and back through future taxes | BR 615 |
+| 30 | The worked example: a central bank holding mortgage assets earns less in a crash, hands less to the Treasury, and taxes rise | BR 615 |
+| 30 | The assumptions are very strong, and the authors say so | BR 615 |
+| 30 | The alternative prescription: at the zero bound, raise expected inflation by promising looser policy — that is, promising to overshoot the target later to avoid a bigger undershoot now | BR 615 |
+| 30 | The promise is time-inconsistent, so it lacks credibility; QE may be one way of making it believable, through signalling | BR 615–16 |
+| 31 | Forward guidance, with its dates: "for some time" (Dec 2008), "an extended period" (Mar 2009), "at least mid-2013" (Aug 2011), "late 2014" (Jan 2012), and a considerable time after the recovery strengthens (Sep 2012) | BR 616–17 |
+| 31 | It did move expectations, but markets never fully priced the implied cuts, and none of it was quite a commitment to overshoot | BR 617 |
+| 31 | Liquidity operations: standing facilities widened, emergency lending, and longer-term swaps — the UK scheme lent about £185bn of Treasury bills for up to 3 years | BR 617–18 |
+| 31 | The European operations lent over €1 trillion for three years, argued as repairing the transmission mechanism | BR 618 |
+| 31 | Credit easing: a guarantee scheme covering up to £20bn of bank debt — only about 8 per cent of a year's gross lending to SMEs by the largest banks | BR 618–19 |
+| 31 | Funding for lending: four-year funding of at least 5 per cent of the existing loan book (about £80bn), unlimited beyond that if lending grows, with a fee rising from 0.25 to 1.5 per cent as lending shrinks | BR 619 |
+| 32 | The chain assembled, and its two legs; only the second leg is disputed | BR 605–13, KIT |
+
+## PART THREE — THE ARGUMENT (chapters 33–43)
+
+| Ch | Claim | Source |
+|---|---|---|
+| 33 | QUOTE: a fall in the cost of capital "should boost consumption and investment by increasing incentives to borrow and reducing incentives to save" | BR 612 |
+| 33 | Three qualifications: damaged banking sector; households and smaller companies lack capital-market access; capital-constrained banks may pass little on | BR 612 |
+| 33 | The authors also name further routes for small firms: supply chains, a cheaper currency helping exporters, and banks passing on lower rates | BR 612 |
+| 33 | The asymmetry between the two halves of the sentence | KIT |
+| 33 | The diagnosis — a firm modelled as a machine — is a simplification, not a fault | KIT |
+| 34 | The government's borrowing cost is now lower | BR 613 |
+| 34 | QUOTE: "Their spending plans should therefore be unaffected by cyclical movements in interest rates." | BR 613 |
+| 34 | Kit's excitement, and his withdrawal: "cyclical" is a standard technical point about long-horizon planners | KIT |
+| 34 | What survives: a reason to go and look, not evidence about what you find | KIT |
+| 35 | Dixit and BR are arguing about the same quantity from opposite sides | KIT |
+| 35 | QE is used only at the zero bound, and the zero bound only comes in a crisis: maximum uncertainty | KIT |
+| 36 | Cheap money makes waiting cheaper; 1.86 at 5 per cent, 2.61 at 2 per cent | DX 116–17 |
+| 36 | Kit's withdrawal: whether the bar falls "by less than you would expect" depends on percentage points versus proportions; both sums are correct | KIT |
+| 37 | Bad news principle replayed | DX 118 |
+| 37 | QE compresses the price of risk | BR 606–12, MM 754–7 |
+| 37 | Kit's concession: wealth effects and demand linkages thin the other fear; so the claim is about how directly, not whether | KIT |
+| 38 | Good news principle means a policy propping up the upside is aimed at keeping firms alive | DX 123 + KIT |
+| 39 | QUOTES: "increased GDP growth by around 1–3 per cent with a similar effect on inflation"; "has proved effective in limiting the scale of the downturn"; "QE, by itself, is not strong enough to spark an economic recovery"; "Of course, this conclusion is tentative." | MM 762 |
+| 39 | The two-row table: preventing a collapse vs starting a recovery | KIT (flagged on screen as his) |
+| 40 | Hysteresis in reverse: firms that closed do not return | DX 122 + KIT |
+| 40 | Caveats: the rusting assumption; and ch 25's concession shrinks the group | DX 119 n.11, KIT |
+| 41 | Rival 1 — a small dose: 200–300 bp equivalent, later programmes did little | MM 763 |
+| 41 | Rival 2 — firms thought it temporary; Kit has three replies and none is a refutation | KIT, from BR 613 |
+| 41 | Rival 3 — QE did not affect rates facing SMEs and households; unsecured rates rose in 2008–9 | MM 757 |
+| 41 | Rival 4 — the literature is limited, uses similar methods, largely originates in central banks | MM abstract, 763 |
+| 41 | Dixit's own limit: a race defeats waiting | DX 118 |
+| 42 | Division, capital budget, hurdle rate as an object | FILM/KIT |
+| 42 | Dixit's account conceded: the number is an outside price wearing a disguise | DX 116–17 |
+| 42 | Kit's dispute is about what kind of number it is, not how high | KIT |
+| 42 | The queue: management, not money, runs out first — stated openly as an assumption | KIT |
+| 42 | Three holes Kit points at himself: wrong scarce thing; no distinguishing observation from "any published rule is slow to change"; a ranked queue is not rate-independent | KIT |
+| 42 | The defensible version: it moves on the company's clock, not the central bank's | KIT |
+| 42 | Attribution: treating a hurdle rate as a rationing device is not Kit's idea; the use he puts it to is | KIT |
+| 43 | Not a claim that QE does not work; not a claim that the theory is false; a claim that it is incomplete in one place | KIT |
+| 43 | Dixit's half, well-established and absent from BR; Kit's half, held loosely | KIT |
+| 43 | The gap is a boundary between two literatures, not a mistake | KIT |
 
 ## Deliberate omissions
 
