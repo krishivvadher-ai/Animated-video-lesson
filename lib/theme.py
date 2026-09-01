@@ -64,10 +64,13 @@ OPACITY_PRIMARY = 1.00
 OPACITY_CONTEXT = 0.40
 OPACITY_GRID    = 0.15
 
+# A background grid is structure, not content, and stays at 15%.
+GRID = {"color": MUTED, "stroke_width": 1, "stroke_opacity": OPACITY_GRID}
+
 AXIS = {
     "color": MUTED,
     "stroke_width": 2,
-    "stroke_opacity": 0.55,
+    "stroke_opacity": 0.45,
     "include_ticks": True,
     "tick_size": 0.06,
     "include_tip": True,

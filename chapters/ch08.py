@@ -98,18 +98,37 @@ class Chapter08(Chapter):
         self.beat()
         self.play(FadeOut(near), FadeOut(alt), run_time=0.5)
 
+        # The dial and the bar are one quantity shown twice: a tracker drives
+        # both, so the line slides and the number counts while the dial turns.
+        sigma = ValueTracker(0.20)
+        live = always_redraw(
+            lambda: sc.level_line(SF.multiplier(sigma.get_value(), 0.05),
+                                  TRIGGER, width=2.2, sw=5))
+        read = always_redraw(
+            lambda: Text(f"{SF.multiplier(sigma.get_value(), 0.05):.2f} ×",
+                         font=FONT, font_size=T_SMALL, color=TRIGGER)
+            .next_to(sc.pos(SF.multiplier(sigma.get_value(), 0.05)),
+                     RIGHT, buff=2.4))
         with self.narrate("Now turn the choppiness dial up. Forty per cent a year — an "
-                          "oil well, a copper mine, a trade where prices swing hard."):
-            self.play(d1.turn_to(0.8, "40% a year"), run_time=1.4)
-        h2 = sc.add_level("H2", 3.32, "3.32 ×", TRIGGER, width=2.2, sw=5)
+                          "oil well, a copper mine, a trade where prices swing hard. "
+                          "Watch the bar while the dial turns."):
+            # the live readout replaces the static one it would otherwise sit on
+            self.play(FadeOut(h1[1]), run_time=0.3)
+            self.add(live, read)
+            self.play(d1.turn_to(0.8, "40% a year"),
+                      sigma.animate.set_value(0.40), run_time=3.0)
         big = St.caption("a 16.6% hurdle rate", TRIGGER, T_SUB, width=18)
         St.place(big, St.SIDE, ay=0.6)
         with self.narrate("The multiplier jumps to three point three two. The hurdle "
                           "rate to sixteen point six per cent."):
-            self.play(Create(h2[0]), FadeIn(h2[1]), run_time=1.2)
             self.play(FadeIn(big), run_time=0.7)
+            self.play(S.indicate(big, TRIGGER))
         self.beat()
-        self.play(FadeOut(big), FadeOut(h2), d1.turn_to(0.4, "20% a year"), run_time=1.0)
+        with self.narrate("Turn it back, and the bar comes back down with it."):
+            self.play(d1.turn_to(0.4, "20% a year"),
+                      sigma.animate.set_value(0.20), run_time=2.0)
+        self.remove(live, read)
+        self.play(FadeOut(big), FadeIn(h1[1]), run_time=0.5)
 
         # ------------------------------------------------ the strange one
         stop = St.caption("slow down here", CHALK, T_SUB, width=18)
