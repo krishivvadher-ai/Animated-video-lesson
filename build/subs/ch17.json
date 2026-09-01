@@ -1,143 +1,137 @@
 {
  "chapter": 17,
  "title": "Hysteresis",
- "duration": 174.79999999999762,
+ "duration": 175.1333333333333,
  "cues": [
   {
-   "start": 7.199999999999989,
-   "end": 14.555873015873004,
-   "text": "This is the chapter the paper is named after. Watch one path, and watch what it leaves behind.",
+   "start": 9.133333333333319,
+   "end": 16.695102040816312,
+   "text": "She starts at one. Money coming in exactly covers the day-to-day costs. Nothing is built.",
    "voice": "n"
   },
   {
-   "start": 15.399999999999988,
-   "end": 23.34938775510203,
-   "text": "She starts at one. Money coming in is exactly covering the day-to-day costs. Nothing is built.",
-   "voice": "n"
-  },
-  {
-   "start": 23.800000000000374,
-   "end": 32.04290249433144,
+   "start": 17.199999999999957,
+   "end": 25.442902494331022,
    "text": "It rises. It crosses one point one \u2014 the textbook's build-line \u2014 and nothing happens. She does not build.",
    "voice": "n"
   },
   {
-   "start": 32.50000000000075,
-   "end": 37.81179138322071,
+   "start": 25.93333333333326,
+   "end": 31.245124716553214,
    "text": "It keeps rising. And at one point six two, she builds.",
    "voice": "n"
   },
   {
-   "start": 38.96666666666705,
-   "end": 46.71519274376456,
+   "start": 32.53333333333326,
+   "end": 40.28185941043077,
    "text": "Now the money coming in starts to fall. Back past one point six two. Back past one point one.",
    "voice": "n"
   },
   {
-   "start": 47.166666666666586,
-   "end": 51.65115646258495,
+   "start": 40.73333333333367,
+   "end": 45.21782312925204,
    "text": "All the way back down to one \u2014 exactly where it started.",
    "voice": "n"
   },
   {
-   "start": 57.133333333332686,
-   "end": 61.61492063491999,
+   "start": 50.866666666667506,
+   "end": 55.34825396825481,
    "text": "The cause has completely reversed. The effect has not.",
    "voice": "n"
   },
   {
-   "start": 63.86666666666564,
-   "end": 67.61591836734591,
+   "start": 58.333333333334544,
+   "end": 62.08258503401481,
    "text": "Take an iron bar, and loop a wire around it.",
    "voice": "n"
   },
   {
-   "start": 68.03333333333224,
-   "end": 73.73968253968144,
+   "start": 62.46666666666795,
+   "end": 68.17301587301715,
    "text": "Pass an electric current through the wire, and the iron becomes magnetic.",
    "voice": "n"
   },
   {
-   "start": 74.16666666666548,
-   "end": 76.49410430838883,
+   "start": 68.60000000000133,
+   "end": 70.92743764172468,
    "text": "Now switch the current off.",
    "voice": "n"
   },
   {
-   "start": 76.93333333333209,
-   "end": 84.85405895691486,
+   "start": 71.3333333333346,
+   "end": 79.25405895691736,
    "text": "The magnetism does not go away. Some of it stays. The cause was temporary. The effect lasted.",
    "voice": "n"
   },
   {
-   "start": 86.69999999999865,
-   "end": 95.82122448979457,
-   "text": "Hysteresis. When the cause is reversed and the effect stays behind. The paper borrows the word directly.",
+   "start": 81.8000000000011,
+   "end": 88.14489795918477,
+   "text": "hysteresis. When the cause is reversed and the effect stays behind.",
    "voice": "n"
   },
   {
-   "start": 99.96666666666523,
-   "end": 101.88816326530468,
-   "text": "push down \u21d2 she quits",
+   "start": 92.80000000000098,
+   "end": 97.24947845805086,
+   "text": "Push the money coming in far enough down, and she quits for good.",
    "voice": "n"
   },
   {
-   "start": 102.33333333333186,
-   "end": 106.81210884353595,
+   "start": 97.6666666666676,
+   "end": 102.14544217687168,
    "text": "Now let it recover, all the way back to where it started.",
    "voice": "n"
   },
   {
-   "start": 107.23333333333183,
-   "end": 109.16643990929555,
-   "text": "she does not come back",
+   "start": 102.53333333333421,
+   "end": 108.9541043083909,
+   "text": "She does not come back. Because coming back means paying the whole sunk cost over again.",
    "voice": "n"
   },
   {
-   "start": 110.39999999999846,
-   "end": 120.61428571428416,
+   "start": 110.20000000000083,
+   "end": 120.41428571428654,
    "text": "And the paper's own careful point. Sunk costs alone can produce some of this. Adding uncertainty magnifies it dramatically.",
    "voice": "n"
   },
   {
-   "start": 122.83333333333168,
-   "end": 131.15192743764007,
+   "start": 123.33333333333401,
+   "end": 131.6519274376424,
    "text": "The dollar rose, and foreign firms poured into America \u2014 years late, because they were waiting to be sure.",
    "voice": "n"
   },
   {
-   "start": 131.59999999999812,
-   "end": 142.5946031746013,
+   "start": 132.0666666666671,
+   "end": 143.06126984127027,
    "text": "Then the dollar fell back to where it had been. And they did not leave. They had paid to get in, and leaving would mean paying to get back in again later.",
    "voice": "n"
   },
   {
-   "start": 143.83333333333138,
-   "end": 152.5434920634901,
+   "start": 144.26666666666702,
+   "end": 152.97682539682575,
    "text": "The cause reversed. The effect stayed. That is all hysteresis is \u2014 and now you have watched it happen twice.",
    "voice": "n"
   },
   {
-   "start": 154.7666666666646,
-   "end": 161.21605442176664,
+   "start": 155.26666666666694,
+   "end": 161.71605442176897,
    "text": "up past 1.10, nothing \u00b7 past 1.62, she builds",
    "voice": "n"
   },
   {
-   "start": 161.3333333333312,
-   "end": 166.00925170067816,
+   "start": 161.8000000000002,
+   "end": 166.47591836734716,
    "text": "back to 1.00 \u2014 and she does not close",
    "voice": "n"
   },
   {
-   "start": 166.13333333333114,
-   "end": 168.27541950113158,
+   "start": 166.60000000000014,
+   "end": 168.74208616780058,
    "text": "the bar stays magnetic",
    "voice": "n"
   },
   {
-   "start": 168.39999999999773,
-   "end": 172.44612244897732,
+   "start": 168.86666666666673,
+   "end": 172.91278911564632,
    "text": "hysteresis explains the dollar and the imports",
    "voice": "n"
   }
@@ -147,28 +141,33 @@
   "1.10",
   "1.62",
   "17/43",
-  "Anditworksinreverse.",
+  "Anditworksinreverse",
   "CHAPTER17",
-  "Causereversed.Effectstayed.",
-  "Causereversed.Effectstays.",
   "Hysteresis",
-  "Moneycomingineachmonth",
   "Nowgobacktochapterthree",
   "PARTONE\u2014THEPAPER",
-  "Shedoesnotclose.",
+  "Walkonepath,andwatchwhatitleaves",
   "Whatwejustestablished",
+  "Whenthecauseisreversedandtheeffectstaysbehind.",
   "Whythepaperborrowsawordfromphysics",
   "backto1.00\u2014andshedoesnotclose",
+  "causereversed\u00b7effectstayed",
+  "currentoff",
   "currenton",
   "hysteresis",
   "hysteresisexplainsthedollarandtheimports",
   "imports",
   "letitrecover,alltheway",
   "pushfarenoughdown\u2192shequits",
+  "shedoesnotclose",
   "shedoesnotcomeback",
-  "sunkcostsalone:someuncertainty:farmore",
+  "sunkcostsalone:some\u00b7uncertainty:farmore",
   "thebarstaysmagnetic",
   "thedollar",
   "uppast1.10,nothing\u00b7past1.62,shebuilds"
- ]
+ ],
+ "collisions": [],
+ "low_content": [],
+ "too_small": [],
+ "silent_beats": []
 }
