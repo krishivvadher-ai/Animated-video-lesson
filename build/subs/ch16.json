@@ -1,101 +1,101 @@
 {
  "chapter": 16,
  "title": "The zone of inaction",
- "duration": 136.4999999999993,
+ "duration": 144.3333333333329,
  "cues": [
   {
-   "start": 5.799999999999994,
-   "end": 18.136417233560085,
+   "start": 7.333333333333325,
+   "end": 19.669750566893416,
    "text": "Take away the uncertainty for a moment, and leave only the sunk cost. The textbook still has a small band where doing nothing is right \u2014 from one, to one point one.",
    "voice": "n"
   },
   {
-   "start": 18.566666666666656,
-   "end": 22.915192743764162,
+   "start": 20.066666666666656,
+   "end": 24.415192743764162,
    "text": "That is the whole of it. A band nought point one wide.",
    "voice": "n"
   },
   {
-   "start": 24.133333333333372,
-   "end": 27.16938775510208,
+   "start": 25.599999999999987,
+   "end": 28.636054421768694,
    "text": "Now put the uncertainty back in.",
    "voice": "n"
   },
   {
-   "start": 27.600000000000108,
-   "end": 33.79396825396836,
+   "start": 29.06666666666665,
+   "end": 35.2606349206349,
    "text": "Nought point seven two, to one point six two. Nought point nine wide.",
    "voice": "n"
   },
   {
-   "start": 35.0333333333335,
-   "end": 48.30721088435391,
-   "text": "About nine times wider. That comparison is ours, not the paper's \u2014 the paper prints the four levels and calls the difference quite a dramatic difference. We did the sum.",
+   "start": 36.46666666666664,
+   "end": 49.758820861677975,
+   "text": "About nine times wider. That comparison is ours, not the paper's \u2014 the paper prints the four levels and calls the difference quite a dramatic difference. We did the division.",
    "voice": "n"
   },
   {
-   "start": 49.53333333333342,
-   "end": 56.72149659863954,
+   "start": 51.00000000000004,
+   "end": 58.188163265306166,
    "text": "This band has a name. The zone of inaction. The stretch where the right thing to do is nothing at all.",
    "voice": "n"
   },
   {
-   "start": 58.96666666666664,
-   "end": 72.8907482993197,
+   "start": 61.133333333333496,
+   "end": 75.05741496598655,
    "text": "First. Small frictions can produce much larger rigidities than models which ignore gradually-arriving information would ever suggest. A little stickiness goes a very long way.",
    "voice": "n"
   },
   {
-   "start": 74.53333333333323,
-   "end": 85.30816326530602,
+   "start": 76.66666666666686,
+   "end": 87.44149659863965,
    "text": "Second, and this one reaches outside the firm altogether. Hiring and firing cost money. So exactly the same logic applies to jobs.",
    "voice": "n"
   },
   {
-   "start": 85.73333333333318,
-   "end": 89.13492063492048,
+   "start": 87.86666666666677,
+   "end": 91.26825396825407,
    "text": "Employers hoard labour in downturns.",
    "voice": "n"
   },
   {
-   "start": 89.56666666666645,
-   "end": 92.69378684807235,
+   "start": 91.66666666666673,
+   "end": 94.79378684807263,
    "text": "And they are slow to hire in upturns.",
    "voice": "n"
   },
   {
-   "start": 93.13333333333308,
-   "end": 97.49292517006778,
-   "text": "above the wage, no hiring \u00b7 below it, no firing",
+   "start": 95.20000000000002,
+   "end": 105.37886621315195,
+   "text": "So what a worker adds to the business can sit well above the wage without anybody being hired \u2014 and well below it without anybody being let go.",
    "voice": "n"
   },
   {
-   "start": 99.23333333333302,
-   "end": 113.86149659863915,
+   "start": 107.13333333333328,
+   "end": 121.76149659863941,
    "text": "And the paper draws a conclusion from that which is worth hearing. The popular worry about loss of jobs \u2014 the one economists usually wave away \u2014 may have more justification than the textbook allows.",
    "voice": "n"
   },
   {
-   "start": 116.09999999999957,
-   "end": 121.71346938775467,
+   "start": 124.0666666666665,
+   "end": 129.6801360544216,
    "text": "sunk costs alone: 1.00 \u2013 1.10",
    "voice": "n"
   },
   {
-   "start": 121.83333333333285,
-   "end": 126.84308390022628,
+   "start": 129.79999999999978,
+   "end": 134.8097505668932,
    "text": "with uncertainty: 0.72 \u2013 1.62",
    "voice": "n"
   },
   {
-   "start": 126.96666666666611,
-   "end": 130.89668934240308,
+   "start": 134.93333333333305,
+   "end": 138.86335600907,
    "text": "small frictions \u2192 large rigidities",
    "voice": "n"
   },
   {
-   "start": 131.03333333333273,
-   "end": 134.13904761904703,
+   "start": 138.99999999999966,
+   "end": 142.10571428571396,
    "text": "and the same logic applies to jobs",
    "voice": "n"
   }
@@ -104,26 +104,31 @@
   "0.10wide",
   "0.72",
   "0.90wide",
+  "0.90\u00f70.10\u2014ours,notthepaper's",
   "1.00",
   "1.10",
   "1.62",
   "16/43",
-  "Aboutninetimeswider.",
-  "Andareslowtohireinupturns.",
+  "Anarrowband,andawideone",
   "CHAPTER16",
-  "Employershoardlabourindownturns.",
   "Moneycomingineachmonth",
   "PARTONE\u2014THEPAPER",
   "Thezoneofinaction",
   "Twoconsequencesthepaperdraws",
   "Whatwejustestablished",
-  "abovethewage,nohiring\u00b7belowit,nofiring",
+  "aboutninetimeswider",
+  "andareslowtohireinupturns",
   "andthesamelogicappliestojobs",
-  "derived:0.90\u00f70.10\u2014ours,notthepaper's",
+  "employershoardlabourindownturns",
   "smallfrictions\u2192largerigidities",
+  "soaworkercansitabovethewage\u2014orbelowit",
   "sunkcostsalone:1.00\u20131.10",
   "wheredoingnothingisright",
   "withuncertainty:0.72\u20131.62",
-  "\u201clossofjobs\u201d\u2014betterfoundedthanthetextbookallows"
- ]
+  "\u201clossofjobs\u201dmaybebetterfoundedthanweallow"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "too_small": [],
+ "silent_beats": []
 }

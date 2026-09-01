@@ -1,126 +1,132 @@
 {
  "chapter": 14,
  "title": "When this is wrong",
- "duration": 193.0666666666653,
+ "duration": 198.93333333333246,
  "cues": [
   {
-   "start": 4.799999999999997,
-   "end": 17.302857142857142,
-   "text": "Being honest about the limits is part of the teaching, and it also stops you over-applying the idea. The paper sets out four qualifications, and every one of them matters.",
+   "start": 4.800000000000001,
+   "end": 15.538956916099774,
+   "text": "Being honest about the limits is part of the teaching, and it also stops you over-applying the idea. The paper sets out four qualifications.",
    "voice": "n"
   },
   {
-   "start": 18.233333333333356,
-   "end": 30.394104308390045,
+   "start": 17.46666666666666,
+   "end": 29.62743764172335,
    "text": "Everything so far assumed the chance was Nell's alone. Suppose it is not. Suppose there is one site, or one licence, and several firms want it.",
    "voice": "n"
   },
   {
-   "start": 30.83333333333341,
-   "end": 35.503129251700756,
+   "start": 30.066666666666656,
+   "end": 34.736462585034005,
    "text": "Nell hesitates, sensibly, to see how things develop.",
    "voice": "n"
   },
   {
-   "start": 35.9333333333334,
-   "end": 38.96938775510211,
+   "start": 35.133333333333326,
+   "end": 38.169387755102036,
    "text": "And somebody else walks through the door.",
    "voice": "n"
   },
   {
-   "start": 39.39999999999989,
-   "end": 54.346621315192635,
-   "text": "When the chance can be snatched, waiting is no longer possible. And when waiting is not possible, the textbook's trigger is valid again. This is a real limit, and we will come back to it in Part Two.",
+   "start": 38.60000000000015,
+   "end": 52.580090702948,
+   "text": "When the chance can be snatched, waiting is not possible. And when waiting is not possible, the textbook's trigger is valid again. This is a real limit, and Part Three comes back to it.",
    "voice": "n"
   },
   {
-   "start": 56.56666666666645,
-   "end": 67.02988662131497,
+   "start": 55.53333333333361,
+   "end": 65.99655328798214,
    "text": "Sometimes moving first has a value of its own \u2014 you take the best position, and everyone else has to work around you. That pulls the other way.",
    "voice": "n"
   },
   {
-   "start": 67.46666666666637,
-   "end": 71.34934240362782,
+   "start": 66.40000000000038,
+   "end": 70.28267573696182,
    "text": "The right answer balances the two against each other.",
    "voice": "n"
   },
   {
-   "start": 73.56666666666626,
-   "end": 81.50444444444405,
+   "start": 73.20000000000023,
+   "end": 81.13777777777801,
    "text": "Six firms, each looking at the same opportunity, each with slightly different information about it.",
    "voice": "n"
   },
   {
-   "start": 81.93333333333288,
-   "end": 94.84303854875239,
-   "text": "Each one looks around, sees that nobody else has moved, and concludes that the others must have found something discouraging. So each one revises its own view downwards.",
+   "start": 81.53333333333349,
+   "end": 94.12725623582782,
+   "text": "Each one looks around, sees that nobody else has moved, and concludes the others must have found something discouraging. So each revises its own view downwards.",
    "voice": "n"
   },
   {
-   "start": 95.26666666666613,
-   "end": 105.1044444444439,
+   "start": 94.5333333333334,
+   "end": 104.37111111111118,
    "text": "And so everybody waits. Not because the opportunity is bad, but because everybody is reading everybody else's silence.",
    "voice": "n"
   },
   {
-   "start": 106.33333333333275,
-   "end": 108.50625850340077,
+   "start": 105.60000000000002,
+   "end": 107.77292517006805,
    "text": "Then one of them moves.",
    "voice": "n"
   },
   {
-   "start": 108.9333333333327,
-   "end": 118.3911564625844,
-   "text": "And now everybody revises upwards \u2014 because that firm must have seen something good. Investment arrives in a sudden bunch.",
+   "start": 108.19999999999997,
+   "end": 120.58244897959182,
+   "text": "And now everybody revises upwards \u2014 because that firm must have seen something good. Investment arrives in a sudden bunch. Which is why it comes in waves.",
    "voice": "n"
   },
   {
-   "start": 121.3333333333325,
-   "end": 131.2588662131511,
-   "text": "This one comes with a quotation, because it is the single idea Part Two leans on hardest. Dixit is quoting Bernanke.",
+   "start": 123.53333333333308,
+   "end": 133.6630839002265,
+   "text": "This one comes with a quotation, because it is the single idea Part Three leans on hardest. Dixit is quoting Bernanke.",
    "voice": "n"
   },
   {
-   "start": 132.49999999999912,
-   "end": 141.27138321995378,
+   "start": 134.86666666666636,
+   "end": 143.63804988662102,
    "text": "In plain words. When you can wait, it is mainly the bad possible futures that decide whether you build now.",
    "voice": "n"
   },
   {
-   "start": 142.4999999999991,
-   "end": 151.81342403628028,
+   "start": 144.86666666666633,
+   "end": 154.18009070294752,
    "text": "Because the good futures will still be there next year. You have not missed them. Waiting only ever protects you from the bad ones.",
    "voice": "n"
   },
   {
-   "start": 153.63333333333236,
-   "end": 175.4704761904752,
-   "text": "And carry the qualification the paper adds in the very next sentence, because dropping it changes the meaning. The total chance of ending up above the trigger does still matter. What does not matter is the shape of the good outcomes beyond it. Those are not the same thing, and Part Two needs the difference.",
+   "start": 155.9999999999996,
+   "end": 168.4839455782309,
+   "text": "Carry the qualification the paper adds in the very next sentence, because dropping it changes the meaning. The total chance of ending up above the trigger does still matter.",
    "voice": "n"
   },
   {
-   "start": 177.6999999999989,
-   "end": 181.09596371881977,
-   "text": "a race \u2192 the textbook is right",
+   "start": 168.93333333333288,
+   "end": 178.4060770975052,
+   "text": "What does not matter is the shape of the good outcomes beyond it. Those are not the same thing, and Part Three needs the difference.",
    "voice": "n"
   },
   {
-   "start": 181.23333333333218,
-   "end": 184.30421768707367,
-   "text": "first-mover value pulls the other way",
+   "start": 180.66666666666612,
+   "end": 185.212018140589,
+   "text": "a race \u2192 waiting is impossible, textbook right",
    "voice": "n"
   },
   {
-   "start": 184.43333333333211,
-   "end": 188.67682539682417,
+   "start": 185.33333333333272,
+   "end": 188.48548752834407,
+   "text": "moving first can pull the other way",
+   "voice": "n"
+  },
+  {
+   "start": 188.5999999999993,
+   "end": 192.84349206349137,
    "text": "inaction reads as bad news \u2192 bunching",
    "voice": "n"
   },
   {
-   "start": 188.79999999999873,
-   "end": 190.6866666666654,
-   "text": "bad news principle",
+   "start": 192.93333333333257,
+   "end": 196.65437641723278,
+   "text": "the bad news principle, with its qualification",
    "voice": "n"
   }
  ],
@@ -131,43 +137,28 @@
   "Four\u2014thebadnewsprinciple",
   "One\u2014therace",
   "PARTONE\u2014THEPAPER",
-  "Therightanswerbalancesthetwo.",
   "Three\u2014firmswatchingeachother",
-  "Two\u2014movingfirstcanbeworthsomething",
+  "Two\u2014movingfirstcanpay",
   "Whatwejustestablished",
   "Whenthisiswrong",
-  "Whichiswhyinvestmentcomesinwaves.",
-  "arace\u2192thetextbookisright",
-  "badnewsprinciple",
+  "arace\u2192waitingisimpossible,textbookright",
   "beingfirstsays:gonow",
   "everybodywaits",
-  "first-movervaluepullstheotherway",
-  "goodfutureskeep\u00b7waitingguardsthebadones",
   "inactionreadsasbadnews\u2192bunching",
   "informationsays:wait",
+  "movingfirstcanpulltheotherway",
   "onesite,onelicence",
-  "thebadfuturesdecide",
-  "totalchance:mattersshapeofthegoodones:doesnot",
-  "waitingimpossible\u2192textbookvalid",
+  "thebadnewsprinciple,withitsqualification",
+  "therightanswerbalancesthetwo",
+  "theshapeofthegoodoutcomesdoesnot",
+  "thetotalchancestillmatters",
+  "waitingimpossible\u2192thetextbookisright",
+  "waitingonlyguardsagainstbadnews",
+  "whenyoucanwait,thebadfuturesdecide",
   "\u201cofpossiblefutureoutcomes,onlytheunfavorableoneshaveabearingonthecurrentpropensitytoundertakeagivenproject\u201d"
  ],
  "collisions": [],
- "low_content": [
-  {
-   "t": 143.4,
-   "text": "goodfutureskeep\u00b7waitingguardsthebadones",
-   "bottom": -3.63
-  },
-  {
-   "t": 152.23,
-   "text": "goodfutureskeep\u00b7waitingguardsthebadones",
-   "bottom": -3.63
-  },
-  {
-   "t": 153.03,
-   "text": "goodfutureskeep\u00b7waitingguardsthebadones",
-   "bottom": -3.63
-  }
- ],
- "too_small": []
+ "low_content": [],
+ "too_small": [],
+ "silent_beats": []
 }
