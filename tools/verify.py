@@ -16,11 +16,16 @@ EXCLUDED = ["Sharpe", "Suarez", "Penrose", "Wallace", "Jagannathan",
             "Krugman", "Modigliani", "Miller", "Ricardian", "Bagehot", "Farmer",
             "Breedon", "Chadha", "Waters", "Cobham", "Allen", "Cour-Thimann",
             "Winkler", "Goodhart", "Ashworth", "Sinclair", "Ellis", "Summers",
-            "Marshall,", "Black", "Scholes", "Brownian", "smooth pasting",
+            "Marshall,", "Black", "Scholes", "Brownian",
             "Hamermesh", "Soss", "Micawber", "Nalebuff", "Dertouzas", "Pindyck",
             "McDonald", "Siegel", "Leahy", "Stiglitz", "Mankiw", "Akerlof",
             "Bentolila", "Bertola", "Baldwin", "Frankel", "Meese", "Schwartz"]
 ALLOWED_MENTION = ["Bernanke"]   # only ever as "Dixit, quoting Bernanke"
+
+# Dixit's own name for the tangency condition. It was on the excluded list
+# while the film stopped short of the appendix; chapter 19 now builds the
+# condition on screen and names it, so it must be defined before it is used.
+MUST_BE_DEFINED = ["smooth pasting"]
 
 TERMS = None
 
@@ -219,22 +224,10 @@ def check_sync():
     return bad
 
 
-if __name__ == "__main__":
-    spoken, shown = spoken_and_shown()
-    check_attribution(spoken, shown)
-    check_screen_prose()
-    check_terms(spoken)
-    check_numbers()
-    check_sync()
-    check_durations()
-    check_silences()
-    check_audio()
-
-
 def check_durations():
     print("\n== durations ==")
     total = 0.0
-    parts = {"PART ONE": (0, 21), "PART TWO": (22, 32), "PART THREE": (33, 43)}
+    parts = {"PART ONE": (0, 27), "PART TWO": (28, 38), "PART THREE": (39, 49)}
     for label, (a, b) in parts.items():
         sub = 0.0
         for n in range(a, b + 1):
@@ -286,3 +279,15 @@ def check_silences():
         found = len(out.splitlines())
         print(f"  ch{n:02d} ({why}): {found} silence(s) of 2.4 s or more "
               f"{'PASS' if found else 'CHECK'}")
+
+
+if __name__ == "__main__":
+    spoken, shown = spoken_and_shown()
+    check_attribution(spoken, shown)
+    check_screen_prose()
+    check_terms(spoken)
+    check_numbers()
+    check_sync()
+    check_durations()
+    check_silences()
+    check_audio()

@@ -1,161 +1,133 @@
 {
  "chapter": 14,
- "title": "When this is wrong",
- "duration": 198.93333333333246,
+ "title": "How steep is a curve?",
+ "duration": 153.93333333333177,
  "cues": [
   {
-   "start": 4.800000000000001,
-   "end": 15.538956916099774,
-   "text": "Being honest about the limits is part of the teaching, and it also stops you over-applying the idea. The paper sets out four qualifications.",
+   "start": 10.666666666666652,
+   "end": 19.55414965986393,
+   "text": "Start with a straight line, which you met at school. Its steepness is one number, and it is the same everywhere along it.",
    "voice": "n"
   },
   {
-   "start": 17.46666666666666,
-   "end": 29.62743764172335,
-   "text": "Everything so far assumed the chance was Nell's alone. Suppose it is not. Suppose there is one site, or one licence, and several firms want it.",
+   "start": 19.99999999999998,
+   "end": 27.097596371882066,
+   "text": "Go along, and go up. Steepness is the up divided by the along. Nothing more than that.",
    "voice": "n"
   },
   {
-   "start": 30.066666666666656,
-   "end": 34.736462585034005,
-   "text": "Nell hesitates, sensibly, to see how things develop.",
+   "start": 31.433333333333515,
+   "end": 39.48902494331084,
+   "text": "Now bend it. A curve is not equally steep everywhere. Down here it is gentle. Up there it is steep.",
    "voice": "n"
   },
   {
-   "start": 35.133333333333326,
-   "end": 38.169387755102036,
-   "text": "And somebody else walks through the door.",
+   "start": 44.33333333333326,
+   "end": 56.223900226757294,
+   "text": "Take the point you care about, and a second point further along. Join them. That line has a steepness you can work out \u2014 up over along, exactly as before.",
    "voice": "n"
   },
   {
-   "start": 38.60000000000015,
-   "end": 52.580090702948,
-   "text": "When the chance can be snatched, waiting is not possible. And when waiting is not possible, the textbook's trigger is valid again. This is a real limit, and Part Three comes back to it.",
+   "start": 58.066666666666535,
+   "end": 64.446394557823,
+   "text": "Now slide the second point towards the first, and watch what that line does.",
    "voice": "n"
   },
   {
-   "start": 55.53333333333361,
-   "end": 65.99655328798214,
-   "text": "Sometimes moving first has a value of its own \u2014 you take the best position, and everyone else has to work around you. That pulls the other way.",
+   "start": 66.26666666666628,
+   "end": 77.18775510204043,
+   "text": "It settles on one line: the line that just touches the curve at that point, and does not cross it. That is the steepness of the curve, there.",
    "voice": "n"
   },
   {
-   "start": 66.40000000000038,
-   "end": 70.28267573696182,
-   "text": "The right answer balances the two against each other.",
+   "start": 80.73333333333274,
+   "end": 85.81274376417174,
+   "text": "the gradient. How steep a curve is at one single point on it.",
    "voice": "n"
   },
   {
-   "start": 73.20000000000023,
-   "end": 81.13777777777801,
-   "text": "Six firms, each looking at the same opportunity, each with slightly different information about it.",
+   "start": 90.83333333333262,
+   "end": 96.96925170067956,
+   "text": "Write the value of something as V of R \u2014 the value, when the money coming in is R.",
    "voice": "n"
   },
   {
-   "start": 81.53333333333349,
-   "end": 94.12725623582782,
-   "text": "Each one looks around, sees that nobody else has moved, and concludes the others must have found something discouraging. So each revises its own view downwards.",
+   "start": 97.3999999999992,
+   "end": 110.33369614512391,
+   "text": "Then V, with a dash, means its gradient: how fast that value changes as the money coming in changes. A dash is the whole of the notation. There is nothing else to learn.",
    "voice": "n"
   },
   {
-   "start": 94.5333333333334,
-   "end": 104.37111111111118,
-   "text": "And so everybody waits. Not because the opportunity is bad, but because everybody is reading everybody else's silence.",
+   "start": 112.16666666666575,
+   "end": 123.45160997732334,
+   "text": "And one fact you will need, which you can take on trust or check on paper. R squared has gradient two R. R cubed has gradient three R squared.",
    "voice": "n"
   },
   {
-   "start": 105.60000000000002,
-   "end": 107.77292517006805,
-   "text": "Then one of them moves.",
+   "start": 123.89999999999898,
+   "end": 133.19891156462484,
+   "text": "In general: bring the power down in front, and knock one off it. That single rule is all the calculus this film needs.",
    "voice": "n"
   },
   {
-   "start": 108.19999999999997,
-   "end": 120.58244897959182,
-   "text": "And now everybody revises upwards \u2014 because that firm must have seen something good. Investment arrives in a sudden bunch. Which is why it comes in waves.",
+   "start": 136.03333333333205,
+   "end": 139.1506575963706,
+   "text": "steepness of a line: up over along",
    "voice": "n"
   },
   {
-   "start": 123.53333333333308,
-   "end": 133.6630839002265,
-   "text": "This one comes with a quotation, because it is the single idea Part Three leans on hardest. Dixit is quoting Bernanke.",
+   "start": 139.29999999999865,
+   "end": 142.7307936507923,
+   "text": "a curve is a different steepness everywhere",
    "voice": "n"
   },
   {
-   "start": 134.86666666666636,
-   "end": 143.63804988662102,
-   "text": "In plain words. When you can wait, it is mainly the bad possible futures that decide whether you build now.",
+   "start": 142.86666666666525,
+   "end": 146.69219954648383,
+   "text": "slide two points together \u2192 the tangent",
    "voice": "n"
   },
   {
-   "start": 144.86666666666633,
-   "end": 154.18009070294752,
-   "text": "Because the good futures will still be there next year. You have not missed them. Waiting only ever protects you from the bad ones.",
-   "voice": "n"
-  },
-  {
-   "start": 155.9999999999996,
-   "end": 168.4839455782309,
-   "text": "Carry the qualification the paper adds in the very next sentence, because dropping it changes the meaning. The total chance of ending up above the trigger does still matter.",
-   "voice": "n"
-  },
-  {
-   "start": 168.93333333333288,
-   "end": 178.4060770975052,
-   "text": "What does not matter is the shape of the good outcomes beyond it. Those are not the same thing, and Part Three needs the difference.",
-   "voice": "n"
-  },
-  {
-   "start": 180.66666666666612,
-   "end": 185.212018140589,
-   "text": "a race \u2192 waiting is impossible, textbook right",
-   "voice": "n"
-  },
-  {
-   "start": 185.33333333333272,
-   "end": 188.48548752834407,
-   "text": "moving first can pull the other way",
-   "voice": "n"
-  },
-  {
-   "start": 188.5999999999993,
-   "end": 192.84349206349137,
-   "text": "inaction reads as bad news \u2192 bunching",
-   "voice": "n"
-  },
-  {
-   "start": 192.93333333333257,
-   "end": 196.65437641723278,
-   "text": "the bad news principle, with its qualification",
+   "start": 146.83333333333186,
+   "end": 151.69215419500986,
+   "text": "and the rule: R^x has gradient x R^(x\u22121)",
    "voice": "n"
   }
  ],
  "screen_text": [
-  "14/43",
+  "14/49",
+  "2R",
+  "3R\u00b2",
+  "Acurvehasadifferentanswereverywhere",
+  "Andashorthandforit",
   "CHAPTER14",
-  "Dixit(1992),p.118,quotingBernanke(1983)",
-  "Four\u2014thebadnewsprinciple",
-  "One\u2014therace",
+  "Howsteepacurveisatonesinglepointonit.",
+  "Howsteepisacurve?",
   "PARTONE\u2014THEPAPER",
-  "Three\u2014firmswatchingeachother",
-  "Two\u2014movingfirstcanpay",
+  "R",
+  "R^x\u2192xR^(x\u22121)",
+  "R\u00b2",
+  "R\u00b3",
+  "Soaskatonepointonly",
+  "V(R)",
+  "V\u2032(R)",
   "Whatwejustestablished",
-  "Whenthisiswrong",
-  "arace\u2192waitingisimpossible,textbookright",
-  "beingfirstsays:gonow",
-  "everybodywaits",
-  "inactionreadsasbadnews\u2192bunching",
-  "informationsays:wait",
-  "movingfirstcanpulltheotherway",
-  "onesite,onelicence",
-  "thebadnewsprinciple,withitsqualification",
-  "therightanswerbalancesthetwo",
-  "theshapeofthegoodoutcomesdoesnot",
-  "thetotalchancestillmatters",
-  "waitingimpossible\u2192thetextbookisright",
-  "waitingonlyguardsagainstbadnews",
-  "whenyoucanwait,thebadfuturesdecide",
-  "\u201cofpossiblefutureoutcomes,onlytheunfavorableoneshaveabearingonthecurrentpropensitytoundertakeagivenproject\u201d"
+  "Youalreadyknowthisbit",
+  "acurveisadifferentsteepnesseverywhere",
+  "along",
+  "andtherule:R^xhasgradientxR^(x\u22121)",
+  "howfastthatvaluechanges",
+  "means",
+  "nowslidethesecondpointin",
+  "slidetwopointstogether\u2192thetangent",
+  "steepnessofaline:upoveralong",
+  "thegradient",
+  "themoneycomingin",
+  "thevalue,ataleveloftakings",
+  "thevalue,atthatlevel",
+  "up",
+  "\u00a3",
+  "\u2192"
  ],
  "collisions": [],
  "low_content": [],

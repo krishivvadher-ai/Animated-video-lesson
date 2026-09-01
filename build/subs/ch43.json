@@ -1,0 +1,106 @@
+{
+ "chapter": 43,
+ "title": "Two different kinds of fear",
+ "duration": 99.13333333333264,
+ "cues": [
+  {
+   "start": 6.166666666666658,
+   "end": 15.820408163265299,
+   "text": "Replay the bad news principle. When you can wait, it is mainly the bad possible outcomes that decide whether you build now.",
+   "voice": "n"
+  },
+  {
+   "start": 17.666666666666643,
+   "end": 22.58086167800451,
+   "text": "So the question to ask is: what does this policy actually compress?",
+   "voice": "n"
+  },
+  {
+   "start": 26.100000000000104,
+   "end": 35.50081632653072,
+   "text": "In financial markets, there is a price for carrying risk. Quantitative easing pushes that price down. Squeeze the spring.",
+   "voice": "n"
+  },
+  {
+   "start": 39.03333333333348,
+   "end": 48.34476190476205,
+   "text": "But the doubt inside a firm is a different thing. Will anyone still be buying in three years? Will this factory still make sense?",
+   "voice": "n"
+  },
+  {
+   "start": 48.766666666666694,
+   "end": 57.77378684807259,
+   "text": "Those are different worries entirely. A central bank buying government bonds reaches them only indirectly, if at all.",
+   "voice": "n"
+  },
+  {
+   "start": 59.59999999999997,
+   "end": 64.56426303854873,
+   "text": "So the honest version of his claim is about how directly, not about whether.",
+   "voice": "c"
+  },
+  {
+   "start": 67.39999999999978,
+   "end": 73.42507936507914,
+   "text": "What a central bank reaches directly is the price at which risk trades.",
+   "voice": "n"
+  },
+  {
+   "start": 73.86666666666639,
+   "end": 78.65582766439881,
+   "text": "What it reaches at one or two removes is the doubt itself.",
+   "voice": "n"
+  },
+  {
+   "start": 81.49999999999962,
+   "end": 85.4532426303851,
+   "text": "the bad half decides whether she builds now",
+   "voice": "n"
+  },
+  {
+   "start": 85.59999999999955,
+   "end": 89.26299319727846,
+   "text": "the policy squeezes the price of risk directly",
+   "voice": "n"
+  },
+  {
+   "start": 89.3999999999995,
+   "end": 93.03995464852557,
+   "text": "the doubt inside a firm, only indirectly",
+   "voice": "n"
+  },
+  {
+   "start": 93.1666666666661,
+   "end": 96.90993197278856,
+   "text": "so the claim is about how directly, not whether",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "43/49",
+  "Andwhatitdoesnotreach",
+  "CHAPTER43",
+  "PARTTHREE\u2014THEARGUMENT",
+  "Twodifferentkindsoffear",
+  "Whatdecideswhethershebuilds",
+  "Whatitreachesdirectly",
+  "Whatwejustestablished",
+  "reachedonlyindirectly,ifatall",
+  "sotheclaimisabouthowdirectly,notwhether",
+  "sotheclaimisabouthowdirectly\u2014notwhether",
+  "sowhatdoesthepolicycompress?",
+  "thebadhalfdecideswhethershebuildsnow",
+  "thedoubtinsideafirm,onlyindirectly",
+  "thedoubtitself\u2014atoneortworemoves",
+  "thepolicysqueezesthepriceofriskdirectly",
+  "thepriceatwhichrisktrades",
+  "thepriceofrisk\u2014reacheddirectly",
+  "willanyonestillbebuyinginthreeyears?",
+  "\u00a3"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "off_frame": [],
+ "too_small": [],
+ "silent_beats": []
+}

@@ -1,0 +1,142 @@
+{
+ "chapter": 48,
+ "title": "The management half",
+ "duration": 142.49999999999883,
+ "cues": [
+  {
+   "start": 6.166666666666658,
+   "end": 12.24453514739228,
+   "text": "Grow Nell's factory into a large company, with several separately run parts.",
+   "voice": "n"
+  },
+  {
+   "start": 14.066666666666647,
+   "end": 22.501587301587282,
+   "text": "So say this explicitly, because it is easy to miss. Kit's dispute is not about how high the number is. It is about what kind of number it is.",
+   "voice": "c"
+  },
+  {
+   "start": 26.033333333333417,
+   "end": 31.75859410430847,
+   "text": "And here is the mechanism, as an actual queue of projects at the boardroom door.",
+   "voice": "n"
+  },
+  {
+   "start": 32.200000000000195,
+   "end": 44.119682539682735,
+   "text": "State the assumption openly, because it is doing a lot of work and it might be wrong. In a large company the thing that runs out first is not money. It is management.",
+   "voice": "n"
+  },
+  {
+   "start": 45.96666666666678,
+   "end": 56.78975056689354,
+   "text": "A minimum return set to solve that problem is tied to the next project in the queue \u2014 the best thing the company would have to drop in order to take this one on.",
+   "voice": "n"
+  },
+  {
+   "start": 57.233333333333306,
+   "end": 67.80027210884352,
+   "text": "And that is an internal quantity. It depends on how many good ideas the business is generating, and how many capable people it has spare.",
+   "voice": "n"
+  },
+  {
+   "start": 71.33333333333314,
+   "end": 77.3415419501132,
+   "text": "A fall in the return on government debt does not lengthen anybody's working week.",
+   "voice": "n"
+  },
+  {
+   "start": 77.76666666666637,
+   "end": 81.53043083900197,
+   "text": "The yield falls. And the queue does not move.",
+   "voice": "n"
+  },
+  {
+   "start": 85.06666666666617,
+   "end": 92.77002267573646,
+   "text": "So here is the version he can defend. Not that the number never moves. But that it moves on the company's clock rather than the central bank's.",
+   "voice": "c"
+  },
+  {
+   "start": 93.1999999999994,
+   "end": 106.18013605442117,
+   "text": "Changing as the pipeline of ideas and the stock of managers change, over years. For a policy meant to work inside a downturn, that is close enough to failure to matter. But it is not the same as never, and he will not say never.",
+   "voice": "c"
+  },
+  {
+   "start": 109.69999999999926,
+   "end": 117.5658049886614,
+   "text": "Treating a hurdle rate as a rationing device rather than a calculation is not an idea Kit invented.",
+   "voice": "n"
+  },
+  {
+   "start": 117.99999999999922,
+   "end": 121.25664399092892,
+   "text": "What he would claim is the use he has put it to.",
+   "voice": "n"
+  },
+  {
+   "start": 124.09999999999911,
+   "end": 128.16934240362724,
+   "text": "a big company rations management, not money",
+   "voice": "n"
+  },
+  {
+   "start": 128.29999999999905,
+   "end": 132.34612244897863,
+   "text": "so the bar is tied to the next project in the queue",
+   "voice": "n"
+  },
+  {
+   "start": 132.46666666666565,
+   "end": 136.15287981859308,
+   "text": "the yield falls, and the queue does not move",
+   "voice": "n"
+  },
+  {
+   "start": 136.29999999999893,
+   "end": 140.25324263038442,
+   "text": "it moves on the company's clock, not the Bank's",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "48/49",
+  "5",
+  "Andtheattribution,plainly",
+  "Aqueueattheboardroomdoor",
+  "CHAPTER48",
+  "Growthefactoryintoacompany",
+  "PARTTHREE\u2014THEARGUMENT",
+  "Sodroptheyield,andwatch",
+  "Themanagementhalf",
+  "Theversionhecandefend",
+  "Whatwejustestablished",
+  "abigcompanyrationsmanagement,notmoney",
+  "ahurdlerateasrationing",
+  "closeenoughtofailuretomatter\u2014butnotnever",
+  "giltyield",
+  "itmovesonthecompany'sclock,nottheBank's",
+  "managementis",
+  "moneyisnotwhatrunsout",
+  "notKit'sidea",
+  "nothowhighthenumberis\u2014whatkindofnumberitis",
+  "sothebaristiedtothenextprojectinthequeue",
+  "thatishis",
+  "thebaristiedtothenextprojectinthequeue",
+  "theboard",
+  "thecentralbank'sclock:months",
+  "thecompany'sclock:years",
+  "theusehehasputitto",
+  "theyieldfalls,andthequeuedoesnotmove"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "off_frame": [],
+ "too_small": [],
+ "silent_beats": []
+}

@@ -13,6 +13,9 @@ class Chapter14(Chapter):
     RECAP_ICONS = ["scale", "flow", "clock", "money"]
 
     def body(self):
+        # the key to the squiggles, before any of them is used again
+        self.symbol_key(["V", "R"], region=St.FULL, hold=4.0)
+
         # ------------------------------------------------ gradient you know
         self.heading("You already know this bit")
         ax = Axes(x_range=[0, 6, 1], y_range=[0, 4, 1], x_length=6.4, y_length=3.4,

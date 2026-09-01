@@ -40,9 +40,23 @@ SAY_AS = [
     (r"\bgilt\b", "gilt"),
     (r"\bKenji\b", "Ken-jee"),
     (r"\bMarshallian\b", "Marshall-ian"),
-    (r"\bσ\b", "the choppiness dial"),
+    # No Greek letter is ever read out. Each one is spoken as the thing it
+    # stands for, both as a symbol and as its transliterated name, so that a
+    # line reads the same whether it was written "σ" or "sigma".
+    (r"σ²", "the choppiness squared"),
+    (r"\bσ\b", "the choppiness"),
+    (r"\bsigma\b", "the choppiness"),
     (r"\bρ\b", "the cost of capital"),
+    (r"\brho\b", "the cost of capital"),
+    (r"\bμ\b", "the drift"),
+    (r"\bmu\b", "the drift"),
+    (r"\bβ\b", "the steepness"),
+    (r"\bbeta\b", "the steepness"),
+    (r"\bα\b", "the other root"),
+    (r"\balpha\b", "the other root"),
     (r"£", "pounds "),
+    # a substitution can leave "the the choppiness" behind; tidy that up
+    (r"\b(?:the|a|an)\s+the\b", "the"),
 ]
 
 

@@ -13,6 +13,9 @@ class Chapter17(Chapter):
     RECAP_ICONS = ["scale", "money", "risk", "flow"]
 
     def body(self):
+        # the key to the squiggles, before any of them is used again
+        self.symbol_key(["V", "rho", "sigma", "mu"], region=St.FULL, hold=4.0)
+
         # ------------------------------------------------ a curve near a point
         self.heading("A curve, very close up")
         ax = Axes(x_range=[0, 6, 1], y_range=[0, 5, 1], x_length=6.2, y_length=3.2,
@@ -116,14 +119,14 @@ class Chapter17(Chapter):
         self.heading("Put them together and divide by dt")
         s1 = Text("V′μR dt  +  ½V″σ²R² dt   =   ρV dt", font=FONT, font_size=T_SUB,
                   color=CHALK)
-        St.place(s1, St.FULL, ay=0.8)
+        St.place(s1, St.FULL, ay=0.9)
         self.play(Write(s1), run_time=2.0)
         with self.narrate("Every single term has a d t in it. So divide the whole line "
                           "by d t, and every d t disappears at once."):
             self.play(S.flash_around(s1, TRIGGER, run_time=2.0))
         s2 = Text("½ σ²R² V″(R)  +  μR V′(R)  −  ρV(R)  =  0", font=FONT,
                   font_size=T_SUB, color=TRIGGER)
-        St.place(s2, St.FULL, ay=0.0)
+        St.place(s2, St.FULL, ay=0.15)
         with self.narrate("Tidy it up, bring everything to one side, and this is "
                           "equation A one of the appendix. It is the whole of the "
                           "paper's mathematics in a single line, and you have just "
@@ -136,7 +139,7 @@ class Chapter17(Chapter):
                           "a slope term, from the drift",
                           "and the ordinary return being given up"],
                          colour=CHALK, dot_colour=MUTED, size=T_SMALL, width=34)
-        St.place(read, St.FULL, ay=-0.8)
+        St.place(read, St.FULL, ay=-0.78)
         says = ["Read it left to right. A bend term, carrying the choppiness.",
                 "A slope term, carrying the drift.",
                 "And the ordinary return being given up by holding on."]
@@ -149,5 +152,5 @@ class Chapter17(Chapter):
             "close up, a curve is a tangent plus a bend",
             "so E[dV] has a slope term and a bend term",
             "waiting pays nothing, so gain = normal return",
-            "divide by dt: ½σ²R²V″ + μRV′ − ρV = 0",
+            "divide by the slice, and the equation is left",
         ])

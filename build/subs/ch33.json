@@ -1,0 +1,120 @@
+{
+ "chapter": 33,
+ "title": "Channels two and three",
+ "duration": 135.0333333333323,
+ "cues": [
+  {
+   "start": 6.166666666666658,
+   "end": 14.972879818594095,
+   "text": "The second channel does not need the money to go anywhere at all. It works purely through what the action tells everybody.",
+   "voice": "n"
+  },
+  {
+   "start": 15.399999999999988,
+   "end": 27.22861678004534,
+   "text": "A very large purchase is a signal. It says the central bank is serious about getting the economy going, and that it will keep rates low for a long time yet.",
+   "voice": "n"
+  },
+  {
+   "start": 27.666666666666735,
+   "end": 34.55723356009077,
+   "text": "And if everybody believes that, they act on it now, before anything else has happened at all.",
+   "voice": "n"
+  },
+  {
+   "start": 36.40000000000017,
+   "end": 47.354739229025114,
+   "text": "Which helps keep people's expectations of future inflation anchored. And expectations, as a later chapter will show, are themselves a lever.",
+   "voice": "n"
+  },
+  {
+   "start": 52.59999999999993,
+   "end": 58.17392290249426,
+   "text": "liquidity. How easily a thing can be sold without moving its price.",
+   "voice": "n"
+  },
+  {
+   "start": 61.4999999999999,
+   "end": 71.86195011337858,
+   "text": "When markets seize up, you may not be able to find a buyer at all. So investors demand a higher return to compensate them for that risk.",
+   "voice": "n"
+  },
+  {
+   "start": 74.29999999999968,
+   "end": 86.1235827664396,
+   "text": "A central bank buying on a very large scale is, among other things, a buyer. It puts trading back into the market, and that premium comes down.",
+   "voice": "n"
+  },
+  {
+   "start": 89.66666666666612,
+   "end": 97.31333333333278,
+   "text": "But the authors are careful about this one. The effect probably lasts only while the purchases are going on.",
+   "voice": "n"
+  },
+  {
+   "start": 97.73333333333274,
+   "end": 102.67986394557764,
+   "text": "And in gilt markets, which are normally very liquid anyway,",
+   "voice": "n"
+  },
+  {
+   "start": 103.09999999999935,
+   "end": 104.70802721088371,
+   "text": "it may be small.",
+   "voice": "n"
+  },
+  {
+   "start": 106.53333333333265,
+   "end": 119.23455782312857,
+   "text": "There is also disagreement about how big those effects were and how long they lasted. And the effects on wider classes of assets are less marked than on company bonds.",
+   "voice": "n"
+  },
+  {
+   "start": 122.06666666666588,
+   "end": 125.24204081632574,
+   "text": "channel two works purely through the signal",
+   "voice": "n"
+  },
+  {
+   "start": 125.36666666666582,
+   "end": 129.52866213151842,
+   "text": "channel three puts trading back in a frozen market",
+   "voice": "n"
+  },
+  {
+   "start": 129.66666666666575,
+   "end": 132.7836281179129,
+   "text": "and the authors hedge channel three hard",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "33/49",
+  "Andtheauthors'ownhedges",
+  "CHAPTER33",
+  "Channelstwoandthree",
+  "Channelthree:oilingthewheels",
+  "Channeltwo:sayingso",
+  "Howeasilyathingcanbesoldwithoutmovingitsprice.",
+  "PARTTWO\u2014THEPOLICY",
+  "TheGovernor",
+  "Whatwejustestablished",
+  "andtheauthorshedgechannelthreehard",
+  "channelthreeputstradingbackinafrozenmarket",
+  "channeltwoworkspurelythroughthesignal",
+  "expectationsofinflation,helddown",
+  "extrareturndemanded",
+  "giltmarketsareveryliquidanyway",
+  "howbig,andforhowlong\u2014disputed",
+  "liquidity",
+  "probablyonlywhilethebuyinggoeson",
+  "sothisonemaybesmall",
+  "themarket",
+  "weareserious,andwearenotfinished"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "off_frame": [],
+ "too_small": [],
+ "silent_beats": []
+}

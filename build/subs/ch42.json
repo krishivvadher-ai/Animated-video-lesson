@@ -1,0 +1,158 @@
+{
+ "chapter": 42,
+ "title": "The instrument that fights itself",
+ "duration": 134.29999999999862,
+ "cues": [
+  {
+   "start": 6.166666666666658,
+   "end": 9.740725623582758,
+   "text": "Cheap money is meant to make building attractive.",
+   "voice": "n"
+  },
+  {
+   "start": 10.166666666666655,
+   "end": 13.450340136054411,
+   "text": "But cheap money also makes waiting cheaper.",
+   "voice": "n"
+  },
+  {
+   "start": 13.899999999999986,
+   "end": 24.287346938775496,
+   "text": "Because the cost of holding off for a year is the return the money would have earned meanwhile. Make that return small, and holding off hurts less.",
+   "voice": "n"
+  },
+  {
+   "start": 28.333333333333425,
+   "end": 34.29360544217696,
+   "text": "At a five per cent cost of capital, the multiplier is one point eight six.",
+   "voice": "n"
+  },
+  {
+   "start": 34.733333333333476,
+   "end": 38.303446712018285,
+   "text": "At two per cent, it is two point six one.",
+   "voice": "n"
+  },
+  {
+   "start": 41.833333333333215,
+   "end": 49.62231292516995,
+   "text": "Think of a firm's bar as two pieces. The break-even level, and the mark-up that waiting adds on top of it.",
+   "voice": "n"
+  },
+  {
+   "start": 50.06666666666648,
+   "end": 52.975011337868295,
+   "text": "The policy pushes the bottom piece down.",
+   "voice": "n"
+  },
+  {
+   "start": 53.39999999999971,
+   "end": 57.46662131519245,
+   "text": "And at the same time it fattens the piece on top.",
+   "voice": "n"
+  },
+  {
+   "start": 59.299999999999606,
+   "end": 65.81886621315154,
+   "text": "The direction is not in doubt. The bar does come down. The first effect wins.",
+   "voice": "n"
+  },
+  {
+   "start": 69.36666666666613,
+   "end": 74.51478458049833,
+   "text": "What Kit originally wanted to say was sharper. That it comes down by less than you would expect.",
+   "voice": "c"
+  },
+  {
+   "start": 74.93333333333273,
+   "end": 79.82802721088375,
+   "text": "He has withdrawn it. Because whether that is true depends entirely on how you measure it.",
+   "voice": "c"
+  },
+  {
+   "start": 80.26666666666598,
+   "end": 87.69687074829864,
+   "text": "Compare the two figures as percentage points, and the bar falls by more than the cost of money does.",
+   "voice": "n"
+  },
+  {
+   "start": 88.1333333333326,
+   "end": 92.58453514739156,
+   "text": "Compare them as proportions, and it falls by less.",
+   "voice": "n"
+  },
+  {
+   "start": 93.03333333333255,
+   "end": 97.69419501133709,
+   "text": "Both sums are correct. Neither of them is the true one. So he declines to pick.",
+   "voice": "c"
+  },
+  {
+   "start": 100.53333333333244,
+   "end": 108.37210884353652,
+   "text": "The claim he is entitled to is the plain one. Part of the policy is spent making patience more attractive.",
+   "voice": "n"
+  },
+  {
+   "start": 112.99999999999889,
+   "end": 117.05773242630275,
+   "text": "cheap money makes building and waiting both cheaper",
+   "voice": "n"
+  },
+  {
+   "start": 117.19999999999884,
+   "end": 124.5549659863934,
+   "text": "1.86 at 5% \u00b7 2.61 at 2% \u2014 Dixit's own figures",
+   "voice": "n"
+  },
+  {
+   "start": 124.69999999999878,
+   "end": 128.3281632653049,
+   "text": "the bar does fall: the first effect wins",
+   "voice": "n"
+  },
+  {
+   "start": 128.4666666666654,
+   "end": 132.05999999999872,
+   "text": "but part of the policy is spent on patience",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "1.86",
+  "1.86at5%\u00b72.61at2%\u2014Dixit'sownfigures",
+  "2.61",
+  "42/49",
+  "AndaclaimKithaswithdrawn",
+  "CHAPTER42",
+  "Cheapmoneypullstwoways",
+  "Dixit'sownfigures,ononescale",
+  "PARTTHREE\u2014THEARGUMENT",
+  "Sosplitthebarintotwopieces",
+  "Theinstrumentthatfightsitself",
+  "Whatwejustestablished",
+  "asproportions",
+  "break-even",
+  "buildinglooksmoreattractive",
+  "butpartofthepolicyisspentonpatience",
+  "cheapmoneymakesbuildingandwaitingbothcheaper",
+  "fallsbyless",
+  "fallsbymore",
+  "holdingoffcoststhereturnthemoneywouldhaveearned",
+  "inpoints",
+  "itcomesdownbylessthanyouwouldexpect",
+  "moneyat2%",
+  "moneyat5%",
+  "partofthepolicyisspentmakingpatiencemoreattractive",
+  "thebardoescomedown\u2014thefirsteffectwins",
+  "thebardoesfall:thefirsteffectwins",
+  "waitingalsogetscheaper",
+  "whatwaitingadds",
+  "\u00a3"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "off_frame": [],
+ "too_small": [],
+ "silent_beats": []
+}

@@ -1,0 +1,93 @@
+{
+ "chapter": 44,
+ "title": "The concession that hurts most",
+ "duration": 90.23333333333271,
+ "cues": [
+  {
+   "start": 4.699999999999997,
+   "end": 10.959954648526073,
+   "text": "This chapter exists because Kit's own source damages him, and that is what intellectual honesty looks like.",
+   "voice": "c"
+  },
+  {
+   "start": 12.999999999999982,
+   "end": 22.93451247165531,
+   "text": "Replay the two countries. Japanese firms invested boldly and hung on through losses, because their downside was cushioned.",
+   "voice": "n"
+  },
+  {
+   "start": 29.16666666666686,
+   "end": 37.496870748299514,
+   "text": "Which half of that spread does a policy that props up prices and signals that the authorities will act actually work on?",
+   "voice": "n"
+  },
+  {
+   "start": 37.933333333333586,
+   "end": 44.54526077097531,
+   "text": "This half. Which is exactly the right half for keeping a struggling firm from closing.",
+   "voice": "n"
+  },
+  {
+   "start": 48.06666666666665,
+   "end": 62.991337868480706,
+   "text": "A policy that props up the upside is aimed at exactly the right half of the distribution for keeping firms alive. Which hands the policy a mechanism for the very thing he was going to explain another way.",
+   "voice": "n"
+  },
+  {
+   "start": 64.83333333333313,
+   "end": 70.73446712018121,
+   "text": "Why include something that damages you? Because it is what his own source says. The discomfort is the point.",
+   "voice": "c"
+  },
+  {
+   "start": 73.56666666666635,
+   "end": 77.25265306122418,
+   "text": "a cushioned downside keeps firms invested",
+   "voice": "n"
+  },
+  {
+   "start": 77.39999999999962,
+   "end": 80.28512471655291,
+   "text": "the policy props up the good half",
+   "voice": "n"
+  },
+  {
+   "start": 80.4333333333329,
+   "end": 84.2240362811787,
+   "text": "which is the right half for keeping firms alive",
+   "voice": "n"
+  },
+  {
+   "start": 84.36666666666616,
+   "end": 87.99482993197229,
+   "text": "so his own source hands the policy a mechanism",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "44/49",
+  "Aconcessionthatcostshim",
+  "Andthathandsthepolicyamechanism",
+  "CHAPTER44",
+  "Kenji",
+  "PARTTHREE\u2014THEARGUMENT",
+  "Sowhichhalfdoesthepolicyworkon?",
+  "Theconcessionthathurtsmost",
+  "Thecushioneddownside,again",
+  "Whatwejustestablished",
+  "acushioneddownsidekeepsfirmsinvested",
+  "amechanismforthethinghemeanttoexplainanotherway",
+  "badhalf",
+  "becauseitiswhathisownsourcesays",
+  "goodhalf",
+  "sohisownsourcehandsthepolicyamechanism",
+  "thedownsidecushioned",
+  "thepolicypropsupthegoodhalf",
+  "whichistherighthalfforkeepingfirmsalive"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "off_frame": [],
+ "too_small": [],
+ "silent_beats": []
+}

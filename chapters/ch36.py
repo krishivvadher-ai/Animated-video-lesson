@@ -47,10 +47,10 @@ class Chapter36(Chapter):
         names = [("the private\nsector", MONEY), ("the central\nbank", SRC_BR),
                  ("the government", TRIGGER), ("households,\nin taxes", COST)]
         ring = VGroup()
-        radius = 1.75
+        radius = 1.55
         for i, (name, col) in enumerate(names):
             ang = PI / 2 - i * TAU / 4
-            c = Circle(radius=0.52, color=col, stroke_width=4,
+            c = Circle(radius=0.46, color=col, stroke_width=4,
                        fill_color=col, fill_opacity=0.16)
             c.move_to(radius * np.array([np.cos(ang), np.sin(ang), 0]) * 1.25)
             t = Text(name, font=FONT, font_size=T_SMALL, color=col,

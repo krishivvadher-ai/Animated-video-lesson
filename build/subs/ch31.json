@@ -1,0 +1,172 @@
+{
+ "chapter": 31,
+ "title": "Three sets of books",
+ "duration": 210.2999999999983,
+ "cues": [
+  {
+   "start": 6.166666666666658,
+   "end": 13.71578231292516,
+   "text": "The policy is easy to describe and easy to get wrong. So we are going to follow the money through three sets of books, one at a time.",
+   "voice": "c"
+  },
+  {
+   "start": 15.833333333333316,
+   "end": 21.87619047619046,
+   "text": "a balance sheet. What somebody owns on one side, what they owe on the other.",
+   "voice": "n"
+  },
+  {
+   "start": 27.10000000000009,
+   "end": 37.39233560090712,
+   "text": "The people who actually sell the gilts are usually not banks. They are pension funds and insurance companies \u2014 the non-bank private sector.",
+   "voice": "n"
+  },
+  {
+   "start": 42.33333333333336,
+   "end": 48.28349206349209,
+   "text": "The seller hands over its gilts. So its holdings of gilts go down.",
+   "voice": "n"
+  },
+  {
+   "start": 48.73333333333331,
+   "end": 57.69115646258501,
+   "text": "And it gets money instead \u2014 not printed notes, but a number credited to its bank account. So its deposits go up.",
+   "voice": "n"
+  },
+  {
+   "start": 59.53333333333327,
+   "end": 69.61936507936501,
+   "text": "The central bank now owns the gilts. And it pays for them by creating reserves \u2014 money that only banks hold, at the central bank.",
+   "voice": "n"
+  },
+  {
+   "start": 71.76666666666642,
+   "end": 77.64594104308365,
+   "text": "reserves. Money banks hold at the central bank, and nobody else can.",
+   "voice": "n"
+  },
+  {
+   "start": 80.73333333333306,
+   "end": 93.52712018140562,
+   "text": "And the bank in the middle sits between them. It has more reserves on one side, and it owes the seller more deposits on the other. Both sides of its books grow together.",
+   "voice": "n"
+  },
+  {
+   "start": 95.36666666666632,
+   "end": 105.58784580498832,
+   "text": "Look at that and notice what has not happened. Nobody has been given anything. Every single one of those entries is matched by another one.",
+   "voice": "n"
+  },
+  {
+   "start": 109.5333333333327,
+   "end": 122.51959183673407,
+   "text": "What has happened is that the seller's portfolio has been disturbed. It wanted gilts, and now it is holding money. And that disturbance is where the whole mechanism starts.",
+   "voice": "n"
+  },
+  {
+   "start": 126.06666666666577,
+   "end": 137.66054421768618,
+   "text": "Ordinary monetary policy sets the price of money. One short-term interest rate, and everything else follows from what people expect that rate to do.",
+   "voice": "n"
+  },
+  {
+   "start": 138.09999999999903,
+   "end": 149.26503401360446,
+   "text": "Quantitative easing sets the quantity instead. And it aims directly at longer-term rates, rather than reaching them through expectations.",
+   "voice": "n"
+  },
+  {
+   "start": 152.79999999999885,
+   "end": 167.18671201813945,
+   "text": "And the authors are careful here. There is nothing unusual about a central bank buying assets at all. What distinguishes these operations is the circumstances they took place in, and their scale.",
+   "voice": "n"
+  },
+  {
+   "start": 167.6333333333321,
+   "end": 178.81900226757247,
+   "text": "And one more difference, which matters enormously in the next chapter. What is bought. Short-dated government debt is very nearly the same thing as money.",
+   "voice": "n"
+  },
+  {
+   "start": 179.2666666666654,
+   "end": 190.67165532879693,
+   "text": "Long-dated gilts, company debt and mortgage-backed securities are not. The effectiveness of the policy may depend on what is bought, as well as how much.",
+   "voice": "n"
+  },
+  {
+   "start": 193.49999999999855,
+   "end": 197.19782312925025,
+   "text": "the sellers are pension funds, not banks",
+   "voice": "n"
+  },
+  {
+   "start": 197.33333333333184,
+   "end": 200.83487528344523,
+   "text": "three sets of books, every entry matched",
+   "voice": "n"
+  },
+  {
+   "start": 200.9666666666651,
+   "end": 204.18848072562201,
+   "text": "QE sets a quantity, not a price",
+   "voice": "n"
+  },
+  {
+   "start": 204.33333333333172,
+   "end": 208.07759637188047,
+   "text": "and what is bought matters, not just how much",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "+deposits",
+  "+gilts",
+  "+reserves",
+  "1-monthbill",
+  "10-yeargilt",
+  "31/49",
+  "CHAPTER31",
+  "Followthemoneythroughthebooks",
+  "Moneybanksholdatthecentralbank,andnobodyelsecan.",
+  "PARTTWO\u2014THEPOLICY",
+  "Priceofmoney,orquantityofit",
+  "QEsetsaquantity,notaprice",
+  "QEsetsthequantityinstead",
+  "Threesetsofbooks",
+  "Threesetsofbooks,oneentryatatime",
+  "Twocarefulqualifications",
+  "Whatsomebodyownsononeside,whattheyoweontheother.",
+  "Whatthesellerisleftholding",
+  "Whatwejustestablished",
+  "Whoactuallysellsthegilts",
+  "abalancesheet",
+  "andwhatisboughtmatters,notjusthowmuch",
+  "assets",
+  "buyingassetsisnotitselfunusual",
+  "everyentrymatchedbyanother",
+  "gilts",
+  "insurers",
+  "liabilities",
+  "normalpolicysetsthepriceofmoney",
+  "notbanks",
+  "notmoney",
+  "pensionfunds",
+  "reserves",
+  "thebankinbetween",
+  "thecentralbank",
+  "theseller",
+  "thesellersarepensionfunds,notbanks",
+  "threesetsofbooks,everyentrymatched",
+  "whatisnew:thecircumstances,andthescale",
+  "whatitnowhas",
+  "whatitwanted",
+  "\u00a3",
+  "\u2212gilts",
+  "\u2248money"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "off_frame": [],
+ "too_small": [],
+ "silent_beats": []
+}

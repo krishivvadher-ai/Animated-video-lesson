@@ -1,0 +1,6457 @@
+1
+00:00:21,167 --> 00:00:25,986
+Here is a farmer. For four years running, his
+farm has lost money.
+
+2
+00:00:26,433 --> 00:00:32,732
+Every year, more money went out of the farm
+than came in. And every year the hole got
+
+3
+00:00:32,732 --> 00:00:33,251
+deeper.
+
+4
+00:00:33,700 --> 00:00:39,801
+Anybody watching would tell him to stop. He
+does not stop. He keeps farming.
+
+5
+00:00:43,333 --> 00:00:50,317
+And here is Nell. Nell owns a small factory,
+and she has the chance to build a second one.
+
+6
+00:00:50,767 --> 00:00:56,860
+The sums say the new factory would earn her
+far more than her money is costing her. On
+
+7
+00:00:56,860 --> 00:00:59,411
+paper, she should build it tomorrow.
+
+8
+00:00:59,833 --> 00:01:04,866
+She refuses. Not this year. Perhaps not next
+year either.
+
+9
+00:01:07,700 --> 00:01:10,063
+Both of them look irrational.
+
+10
+00:01:10,900 --> 00:01:14,760
+Both of them are, in fact, behaving correctly.
+
+11
+00:01:15,600 --> 00:01:22,503
+And by the end of this film, you will be able
+to say exactly why — in your own words.
+
+12
+00:01:25,400 --> 00:01:32,928
+Nell makes the decisions. She owns the
+factory. Every choice in this film is hers, and she
+
+13
+00:01:32,928 --> 00:01:34,935
+is sensible — not timid.
+
+14
+00:01:35,367 --> 00:01:41,856
+Marshall carries the textbook. He always gives
+the standard answer. He is right when the
+
+15
+00:01:41,856 --> 00:01:45,247
+world is calm, and badly wrong when it is not.
+
+16
+00:01:45,667 --> 00:01:50,873
+And Ava asks the questions you would ask. She
+never lets Marshall get away with anything.
+
+17
+00:01:51,300 --> 00:01:57,828
+We start from nothing at all. No economics is
+assumed. Not one word of it.
+
+18
+00:02:00,667 --> 00:02:04,528
+a farmer absorbs losses, and will not shut
+
+19
+00:02:04,667 --> 00:02:08,423
+an owner refuses a project the sums approve
+
+20
+00:02:08,567 --> 00:02:11,353
+both are correct — that is the film
+
+21
+00:02:19,766 --> 00:02:25,356
+Start with the simplest picture there is. A
+factory. Nell's factory.
+
+22
+00:02:25,799 --> 00:02:32,214
+Every month, money comes in. Customers buy
+what she makes, and they pay her.
+
+23
+00:02:34,333 --> 00:02:41,318
+Economists call that revenue. All the money
+coming in, before anything is taken out of it.
+
+24
+00:02:44,033 --> 00:02:52,041
+Every month, money also goes out. She pays for
+materials, for electricity, for wages, for
+
+25
+00:02:52,041 --> 00:02:52,851
+the rent.
+
+26
+00:02:54,999 --> 00:02:59,115
+cost. All the money going out to keep the
+place running.
+
+27
+00:03:01,599 --> 00:03:06,121
+The difference between the two is what she
+actually keeps.
+
+28
+00:03:08,266 --> 00:03:12,426
+profit. Revenue minus cost. What is left over.
+
+29
+00:03:16,633 --> 00:03:23,679
+Not all costs behave the same way. The rent is
+the same whether she makes one chair or a
+
+30
+00:03:23,679 --> 00:03:24,400
+thousand.
+
+31
+00:03:26,533 --> 00:03:31,254
+fixed cost. A cost that does not change with
+how much you make.
+
+32
+00:03:33,599 --> 00:03:40,192
+The wood is different. Make twice as many
+chairs and she buys twice as much wood.
+
+33
+00:03:42,333 --> 00:03:47,747
+variable cost. A cost that rises and falls
+with how much you make.
+
+34
+00:03:52,366 --> 00:03:57,190
+You may think investment means buying shares
+in a company. That is not what an economist
+
+35
+00:03:57,190 --> 00:03:57,848
+means by it.
+
+36
+00:03:58,266 --> 00:04:04,854
+It means this. You spend a large sum of money
+now, to build something that will produce
+
+37
+00:04:04,854 --> 00:04:05,914
+revenue later.
+
+38
+00:04:08,033 --> 00:04:13,976
+investment. Spending a large sum now to build
+something that earns later.
+
+39
+00:04:17,066 --> 00:04:24,663
+A factory. A shop fitted out. A well drilled.
+A machine bought. That is investment, and that
+
+40
+00:04:24,663 --> 00:04:28,049
+is the decision this whole film is about.
+
+41
+00:04:30,866 --> 00:04:34,204
+revenue − cost = profit
+
+42
+00:04:34,333 --> 00:04:37,241
+fixed stays put · variable moves
+
+43
+00:04:37,366 --> 00:04:41,401
+investment = spend now, earn later
+
+44
+00:04:49,799 --> 00:04:56,473
+Marshall has a rule. It is the rule in every
+textbook, and it is worth stating fairly,
+
+45
+00:04:56,473 --> 00:05:02,293
+because for most of the last century it was
+simply what everybody believed.
+
+46
+00:05:02,733 --> 00:05:09,141
+Take everything she spends that moves with
+output — the wood, the power, the wages — and
+
+47
+00:05:09,141 --> 00:05:12,346
+divide it by the number of chairs she makes.
+
+48
+00:05:14,466 --> 00:05:19,808
+average variable cost. What each extra chair
+costs her to make.
+
+49
+00:05:22,299 --> 00:05:28,789
+Now add a share of the cost of the building
+itself — the factory that had to be paid for
+
+50
+00:05:28,789 --> 00:05:31,075
+before a single chair was made.
+
+51
+00:05:33,199 --> 00:05:38,714
+long-run average cost. Everything a chair
+costs, the building included.
+
+52
+00:05:42,899 --> 00:05:49,956
+This is the most important picture in the
+film, so we build it slowly. One line, running up
+
+53
+00:05:49,956 --> 00:05:56,314
+the screen. Low down, the money coming in each
+month is poor. High up, it is good.
+
+54
+00:05:58,133 --> 00:06:05,376
+Marshall's first half. If the money coming in
+clears the long-run average cost, then build.
+
+55
+00:06:05,376 --> 00:06:07,286
+Expand. Enter the trade.
+
+56
+00:06:07,733 --> 00:06:14,694
+Marshall's second half. If the money coming in
+drops below the average variable cost — if a
+
+57
+00:06:14,694 --> 00:06:19,513
+chair no longer covers even the wood and the
+wages — then stop.
+
+58
+00:06:19,933 --> 00:06:26,735
+Notice how close together those two lines are.
+Between them is a narrow band where the right
+
+59
+00:06:26,735 --> 00:06:33,020
+thing to do is nothing at all. Hold that
+thought. It is going to get very much wider.
+
+60
+00:06:37,166 --> 00:06:44,295
+One definition left, and it is the single most
+important one in this film. Nell needs a
+
+61
+00:06:44,295 --> 00:06:50,031
+large sum to build. It comes from one of two
+places, and usually both.
+
+62
+00:06:50,466 --> 00:06:55,170
+She borrows it, and then she has to pay extra
+for the use of it.
+
+63
+00:06:55,599 --> 00:07:01,588
+Or it is her own money, and by putting it into
+this factory she gives up whatever else she
+
+64
+00:07:01,588 --> 00:07:03,185
+could have done with it.
+
+65
+00:07:03,633 --> 00:07:09,622
+Either way, the money has a price. Blend the
+two together and you get one number.
+
+66
+00:07:11,766 --> 00:07:17,333
+cost of capital. The yearly percentage her
+money must earn to be worth using.
+
+67
+00:07:21,433 --> 00:07:27,767
+Earn less than that, and she would have done
+better leaving the money where it was. Every
+
+68
+00:07:27,767 --> 00:07:31,255
+number later in this film is measured against
+it.
+
+69
+00:07:34,099 --> 00:07:37,577
+AVC: what one more chair costs
+
+70
+00:07:37,699 --> 00:07:40,526
+LRAC: plus a share of the building
+
+71
+00:07:40,666 --> 00:07:44,097
+build above LRAC · shut below AVC
+
+72
+00:07:44,233 --> 00:07:47,431
+cost of capital: what money must earn
+
+73
+00:07:54,366 --> 00:08:00,578
+Marshall's rule is clear, and it is wrong.
+Here are three facts that do not fit it. All
+
+74
+00:08:00,578 --> 00:08:04,433
+three come straight out of the paper we are
+following.
+
+75
+00:08:08,033 --> 00:08:13,569
+hurdle rate. The return a firm insists a
+project must promise.
+
+76
+00:08:16,666 --> 00:08:19,818
+Here is what a firm's money costs it.
+
+77
+00:08:20,266 --> 00:08:27,564
+And here is what firms insist a project
+promises before they will build it. Three or four
+
+78
+00:08:27,564 --> 00:08:28,712
+times as much.
+
+79
+00:08:30,533 --> 00:08:37,515
+Asked directly, firms named rates from eight
+to thirty per cent. The middle answer was
+
+80
+00:08:37,515 --> 00:08:40,356
+fifteen. The average was seventeen.
+
+81
+00:08:42,199 --> 00:08:49,049
+And the safe cost of their money at the time?
+A nominal rate of four per cent, and a real
+
+82
+00:08:49,049 --> 00:08:50,512
+rate close to zero.
+
+83
+00:08:54,033 --> 00:09:01,108
+Second. In the middle of the
+nineteen-eighties, American farmers stayed open through long
+
+84
+00:09:01,108 --> 00:09:02,698
+stretches of losses.
+
+85
+00:09:03,133 --> 00:09:09,780
+In nineteen eighty-three the average net
+income for a farm operator was six thousand
+
+86
+00:09:09,780 --> 00:09:11,521
+dollars. For the year.
+
+87
+00:09:13,366 --> 00:09:20,454
+Even leaving out the rent on the land and the
+mortgage payments altogether, it only rises to
+
+88
+00:09:20,454 --> 00:09:25,693
+thirteen and a half thousand. For a whole
+family, for a year's work.
+
+89
+00:09:27,533 --> 00:09:31,589
+Marshall's rule says: stop. They did not stop.
+
+90
+00:09:35,433 --> 00:09:40,551
+exchange rate. How much of one country's money
+another's will buy.
+
+91
+00:09:44,966 --> 00:09:48,711
+imports. Goods made abroad and sold here.
+
+92
+00:09:52,133 --> 00:09:58,850
+Here is the dollar. Up sharply to the end of
+nineteen eighty-four — it rose by about fifty
+
+93
+00:09:58,850 --> 00:10:05,716
+per cent — then falling from early nineteen
+eighty-five, until by the end of eighty-seven it
+
+94
+00:10:05,716 --> 00:10:09,523
+was almost back where it had been in
+seventy-eight.
+
+95
+00:10:09,966 --> 00:10:17,301
+And here are the imports. Flat for three years
+while the dollar climbed. Then rising — and
+
+96
+00:10:17,301 --> 00:10:21,947
+still rising, long after the reason for it had
+gone away.
+
+97
+00:10:23,766 --> 00:10:30,464
+The paper gives that level two different ways
+on two different pages. We use the first.
+
+98
+00:10:33,999 --> 00:10:38,212
+Firms turn down work that is profitable on
+paper.
+
+99
+00:10:38,633 --> 00:10:42,807
+Farmers absorb years of losses rather than
+shut.
+
+100
+00:10:43,233 --> 00:10:48,103
+And imports arrive years late, then refuse to
+leave.
+
+101
+00:10:48,533 --> 00:10:52,920
+They are not being stupid. The next four
+chapters explain why.
+
+102
+00:10:55,766 --> 00:11:00,079
+hurdle rates: 3–4× the cost of capital
+
+103
+00:11:00,199 --> 00:11:03,143
+farmers absorbed years of losses
+
+104
+00:11:03,266 --> 00:11:06,465
+imports arrived late — and stayed
+
+105
+00:11:13,399 --> 00:11:20,552
+Everything that follows rests on three things
+being true at once. Each one gets a picture,
+
+106
+00:11:20,552 --> 00:11:25,956
+and each one gets an icon you will see again
+whenever it is in play.
+
+107
+00:11:27,866 --> 00:11:34,840
+Nell pays for the concrete foundation of her
+new factory. The money leaves her hands, and
+
+108
+00:11:34,840 --> 00:11:36,173
+the slab appears.
+
+109
+00:11:36,599 --> 00:11:44,275
+Now she changes her mind, and tries to sell
+the foundation back. Nobody wants a hole in a
+
+110
+00:11:44,275 --> 00:11:46,518
+field with concrete in it.
+
+111
+00:11:48,666 --> 00:11:53,461
+sunk cost. Money that cannot be got back if
+you change your mind.
+
+112
+00:11:56,799 --> 00:12:03,976
+And be careful. Sunk is not the same as
+expensive. A lorry is expensive and you can sell it
+
+113
+00:12:03,976 --> 00:12:08,156
+again. A hole in the ground is cheap, and you
+cannot.
+
+114
+00:12:11,699 --> 00:12:18,612
+Second ingredient. Nell does not know what
+next year holds. Will there be customers? How
+
+115
+00:12:18,612 --> 00:12:20,183
+many? At what price?
+
+116
+00:12:20,633 --> 00:12:27,138
+But the fog thins. Every month that passes
+tells her a little more than she knew the month
+
+117
+00:12:27,138 --> 00:12:27,644
+before.
+
+118
+00:12:29,766 --> 00:12:35,865
+ongoing uncertainty. You do not know what is
+coming, and you learn a little at a time.
+
+119
+00:12:40,899 --> 00:12:47,839
+Third. If she does not build this year, the
+chance is generally still there next year. The
+
+120
+00:12:47,839 --> 00:12:49,073
+door stays open.
+
+121
+00:12:49,499 --> 00:12:54,641
+This year. Next year. The year after that.
+Still open.
+
+122
+00:12:57,066 --> 00:13:02,972
+the chance keeps. The opportunity does not
+vanish if you do not take it today.
+
+123
+00:13:07,366 --> 00:13:13,999
+Money you cannot get back. A future you learn
+about slowly. And a chance that keeps.
+
+124
+00:13:14,433 --> 00:13:18,021
+When all three are true, waiting is worth
+money.
+
+125
+00:13:19,866 --> 00:13:26,389
+And when any one of them is missing, it is
+not. Remember that — in chapter twenty we take
+
+126
+00:13:26,389 --> 00:13:30,493
+the third one away, and the whole conclusion
+flips over.
+
+127
+00:13:33,333 --> 00:13:36,299
+sunk cost: money you cannot get back
+
+128
+00:13:36,433 --> 00:13:39,190
+a future you learn a bit at a time
+
+129
+00:13:39,333 --> 00:13:41,370
+a chance that keeps
+
+130
+00:13:41,499 --> 00:13:44,628
+all three → waiting pays
+
+131
+00:13:53,033 --> 00:13:59,870
+Put Nell exactly on Marshall's line. Exactly
+on it. The money coming in is precisely enough
+
+132
+00:13:59,870 --> 00:14:03,853
+to cover everything, including the cost of her
+money.
+
+133
+00:14:04,299 --> 00:14:10,839
+Marshall says she should be indifferent.
+Build, or do not build. It makes no difference
+
+134
+00:14:10,839 --> 00:14:11,666
+either way.
+
+135
+00:14:12,099 --> 00:14:16,421
+Hang on. There is a third thing she could do,
+and neither of those is it.
+
+136
+00:14:18,066 --> 00:14:23,060
+Give her one very simple plan. Wait a fixed
+stretch of time.
+
+137
+00:14:23,499 --> 00:14:26,083
+Then look at the money coming in.
+
+138
+00:14:26,499 --> 00:14:33,632
+If it is above the line, build. If it is not,
+never build. It is not even the best plan — it
+
+139
+00:14:33,632 --> 00:14:37,587
+is just a plan, and it is enough to make the
+point.
+
+140
+00:14:41,633 --> 00:14:49,307
+Now watch what the future might do, starting
+from that point. Here are five futures. Nobody
+
+141
+00:14:49,307 --> 00:14:53,777
+knows which one happens. Some end high. Some
+end low.
+
+142
+00:14:54,199 --> 00:15:01,419
+In the two futures that end high, she looks,
+she sees the money is well above the line, and
+
+143
+00:15:01,419 --> 00:15:03,164
+she builds. She gains.
+
+144
+00:15:03,599 --> 00:15:09,590
+In the two that end low, she looks, and she
+does not build. She gains nothing.
+
+145
+00:15:10,033 --> 00:15:17,250
+But look at that again, because everything
+turns on it. She gains nothing — and she loses
+
+146
+00:15:17,250 --> 00:15:17,898
+nothing.
+
+147
+00:15:21,433 --> 00:15:28,172
+Two outcomes that pay something. Three that
+pay nothing at all — but cost nothing either.
+
+148
+00:15:28,599 --> 00:15:35,315
+Weigh each by how likely it is, and add them
+up. The answer is bigger than nothing. It
+
+149
+00:15:35,315 --> 00:15:37,189
+cannot be anything else.
+
+150
+00:15:40,033 --> 00:15:47,139
+Here is the sentence this chapter exists for.
+Waiting cuts off the bad half, and keeps the
+
+151
+00:15:47,139 --> 00:15:47,929
+good half.
+
+152
+00:15:51,566 --> 00:15:56,111
+That selective removal of risk is what waiting
+is worth.
+
+153
+00:16:00,099 --> 00:16:06,825
+This is the most counter-intuitive part of the
+chapter, so I am going to say it twice. It
+
+154
+00:16:06,825 --> 00:16:10,528
+has nothing whatsoever to do with disliking
+risk.
+
+155
+00:16:12,366 --> 00:16:19,430
+Nell is assumed not to mind risk at all. She
+would take a fair gamble without blinking. And
+
+156
+00:16:19,430 --> 00:16:20,672
+she still waits.
+
+157
+00:16:22,499 --> 00:16:30,335
+The trade she is making is between risk now
+and risk later. It is about timing, not nerves.
+
+158
+00:16:33,166 --> 00:16:36,295
+start exactly on the textbook's line
+
+159
+00:16:36,433 --> 00:16:39,840
+good futures pay · bad ones cost nothing
+
+160
+00:16:39,966 --> 00:16:43,896
+gains + zeros > nothing, so waiting wins
+
+161
+00:16:44,033 --> 00:16:47,429
+and none of it is about disliking risk
+
+162
+00:16:55,833 --> 00:17:00,838
+If waiting is worth money, why does she ever
+build at all? Why not wait for ever?
+
+163
+00:17:01,266 --> 00:17:07,858
+Because waiting is not free. Every month she
+waits, she gives up a month of profit she could
+
+164
+00:17:07,858 --> 00:17:09,076
+have been making.
+
+165
+00:17:12,699 --> 00:17:18,315
+the trigger. The level the money coming in
+must reach before building is right.
+
+166
+00:17:23,833 --> 00:17:27,454
+Here is Marshall's line again, where we left
+it.
+
+167
+00:17:27,899 --> 00:17:34,764
+Marshall's line stays exactly where it is. It
+is not wrong about arithmetic. But the line
+
+168
+00:17:34,764 --> 00:17:38,774
+where Nell should actually build slides up
+above it.
+
+169
+00:17:40,599 --> 00:17:46,933
+And that gap has a meaning. It is the value of
+the chance to wait — the thing she destroys
+
+170
+00:17:46,933 --> 00:17:48,482
+the moment she builds.
+
+171
+00:17:50,299 --> 00:17:57,218
+Build now, and the chance to wait is gone for
+ever. She has to be paid for that, and the gap
+
+172
+00:17:57,218 --> 00:17:58,196
+is the price.
+
+173
+00:18:00,033 --> 00:18:06,624
+There is a mirror image of this on the way
+down, and chapter fifteen builds it properly.
+
+174
+00:18:07,066 --> 00:18:12,888
+Marshall says: shut down when the money stops
+covering the day-to-day costs.
+
+175
+00:18:13,333 --> 00:18:19,630
+The right answer is lower. She should absorb
+real losses before she gives up — because
+
+176
+00:18:19,630 --> 00:18:23,877
+giving up throws away the chance of things
+getting better.
+
+177
+00:18:26,699 --> 00:18:29,455
+waiting costs the profit given up
+
+178
+00:18:29,599 --> 00:18:32,821
+so there is a trigger: high enough to act
+
+179
+00:18:32,966 --> 00:18:36,072
+the trigger sits above the textbook line
+
+180
+00:18:36,199 --> 00:18:39,270
+and the mirror image on the way down
+
+181
+00:18:48,266 --> 00:18:55,467
+Forget factories for two minutes. Somebody
+gives Nell a voucher. It says: you may buy this
+
+182
+00:18:55,467 --> 00:19:02,749
+bicycle for forty pounds, on any day you like.
+It never expires. And it never forces you to
+
+183
+00:19:02,749 --> 00:19:03,789
+buy anything.
+
+184
+00:19:05,633 --> 00:19:09,420
+Question. Is the voucher worth anything before
+she uses it?
+
+185
+00:19:11,266 --> 00:19:18,445
+Of course it is. Somebody would buy it off
+her. It gives her a right she would not otherwise
+
+186
+00:19:18,445 --> 00:19:22,580
+have, and it never obliges her to do anything
+at all.
+
+187
+00:19:24,399 --> 00:19:31,088
+And here is the point. The moment she uses it,
+the voucher is gone. She has a bicycle
+
+188
+00:19:31,088 --> 00:19:35,809
+instead. She cannot use it again, and she
+cannot sell it on.
+
+189
+00:19:39,333 --> 00:19:42,206
+The voucher is the chance to build.
+
+190
+00:19:42,633 --> 00:19:47,654
+The forty pounds is the sunk cost — the money
+she cannot get back.
+
+191
+00:19:48,099 --> 00:19:52,668
+And the bicycle is all the revenue the factory
+will ever earn.
+
+192
+00:19:57,899 --> 00:20:02,741
+intrinsic value. What using the chance right
+now would give you.
+
+193
+00:20:07,533 --> 00:20:11,602
+holding premium. What the waiting itself is
+worth.
+
+194
+00:20:15,933 --> 00:20:23,110
+Which gives the rule, in one line. Use the
+chance when the holding premium has fallen to
+
+195
+00:20:23,110 --> 00:20:24,497
+zero. Not before.
+
+196
+00:20:26,333 --> 00:20:32,794
+Before that point, waiting is still worth
+something, and building throws it away for
+
+197
+00:20:32,794 --> 00:20:33,409
+nothing.
+
+198
+00:20:36,233 --> 00:20:39,048
+a right, not an obligation
+
+199
+00:20:39,166 --> 00:20:41,842
+worth something before it is used
+
+200
+00:20:41,966 --> 00:20:44,979
+intrinsic value: using it now
+
+201
+00:20:45,099 --> 00:20:49,114
+holding premium → zero, then build
+
+202
+00:20:57,499 --> 00:21:02,851
+So far this is a story. Is the effect big
+enough to matter, or is it a curiosity?
+
+203
+00:21:03,299 --> 00:21:10,637
+The paper answers that with arithmetic. There
+is mathematics behind it, and for now we leave
+
+204
+00:21:10,637 --> 00:21:15,262
+it sealed in a box. Two dials go in. One
+number comes out.
+
+205
+00:21:15,699 --> 00:21:22,028
+Dial one. How choppy the revenue is — how much
+the money coming in swings around in a
+
+206
+00:21:22,028 --> 00:21:22,996
+typical year.
+
+207
+00:21:23,433 --> 00:21:30,359
+The paper gives anchors. About ten per cent a
+year for revenue that moves with exchange
+
+208
+00:21:30,359 --> 00:21:37,683
+rates. Twenty-five to forty for an oil well or
+a copper mine. The base case sits between, at
+
+209
+00:21:37,683 --> 00:21:38,240
+twenty.
+
+210
+00:21:40,566 --> 00:21:46,925
+Dial two is the cost of capital, from chapter
+two. What the money has to earn to be worth
+
+211
+00:21:46,925 --> 00:21:47,354
+using.
+
+212
+00:21:47,799 --> 00:21:54,449
+And out of the box comes one number. A
+multiplier. The money coming in must reach that
+
+213
+00:21:54,449 --> 00:21:59,474
+multiplier, times the break-even level, before
+building is right.
+
+214
+00:22:05,799 --> 00:22:13,390
+Base case. Cost of capital five per cent,
+choppiness twenty per cent. The multiplier is one
+
+215
+00:22:13,390 --> 00:22:14,725
+point eight six.
+
+216
+00:22:16,566 --> 00:22:22,307
+The money coming in must nearly double the
+break-even level before she should build.
+
+217
+00:22:22,733 --> 00:22:29,791
+Said the other way round, that is a hurdle
+rate of nine point three per cent, against a true
+
+218
+00:22:29,791 --> 00:22:31,632
+cost of capital of five.
+
+219
+00:22:33,966 --> 00:22:41,513
+Now turn the choppiness dial up. Forty per
+cent a year — an oil well, a copper mine, a trade
+
+220
+00:22:41,513 --> 00:22:46,435
+where prices swing hard. Watch the bar while
+the dial turns.
+
+221
+00:22:46,866 --> 00:22:53,737
+The multiplier jumps to three point three two.
+The hurdle rate to sixteen point six per
+
+222
+00:22:53,737 --> 00:22:54,131
+cent.
+
+223
+00:22:55,966 --> 00:22:59,860
+Turn it back, and the bar comes back down with
+it.
+
+224
+00:23:02,899 --> 00:23:10,232
+Now turn the other dial. Not up — down. Make
+money cheaper. Cost of capital two per cent
+
+225
+00:23:10,232 --> 00:23:11,565
+instead of five.
+
+226
+00:23:11,999 --> 00:23:18,856
+And the multiplier goes up. Two point six one.
+Cheaper money makes her more reluctant to
+
+227
+00:23:18,856 --> 00:23:20,102
+build, not less.
+
+228
+00:23:22,333 --> 00:23:29,105
+Say that again, because it is the strangest
+result in the paper. Cheaper money makes waiting
+
+229
+00:23:29,105 --> 00:23:30,282
+more attractive.
+
+230
+00:23:32,099 --> 00:23:38,848
+Here is why. When money is cheap, the future
+matters more to you. And if the future matters
+
+231
+00:23:38,848 --> 00:23:45,597
+more, then finding things out about it is
+worth more. So waiting to find out is worth more.
+
+232
+00:23:47,933 --> 00:23:54,031
+If the world is very certain, or the future is
+barely valued at all, the multiplier
+
+233
+00:23:54,031 --> 00:23:57,558
+collapses to one — and Marshall is simply
+right.
+
+234
+00:23:57,999 --> 00:24:04,823
+And as uncertainty grows, or money becomes
+nearly free, it grows without limit. In the
+
+235
+00:24:04,823 --> 00:24:10,219
+paper's own words, the textbook analysis
+becomes totally misleading.
+
+236
+00:24:12,466 --> 00:24:19,324
+One footnote. If the revenue is also growing —
+say two per cent a year — two things pull
+
+237
+00:24:19,324 --> 00:24:26,417
+against each other, and the waiting effect
+wins. The hurdle rate goes to thirteen point six
+
+238
+00:24:26,417 --> 00:24:31,326
+per cent, and the trigger to three point nine
+times break-even.
+
+239
+00:24:34,166 --> 00:24:41,540
+One last way of seeing all of that at once.
+The multiplier depends on two things and two
+
+240
+00:24:41,540 --> 00:24:46,567
+things only. Two things in, one number out.
+That is a shape.
+
+241
+00:24:48,299 --> 00:24:54,789
+Along one way, the revenue gets choppier.
+Along the other, the money gets cheaper. And
+
+242
+00:24:54,789 --> 00:24:56,600
+upwards is a higher bar.
+
+243
+00:24:57,033 --> 00:24:58,919
+And here is the shape.
+
+244
+00:25:03,033 --> 00:25:10,143
+Look at the near corner. Calm revenue,
+expensive money. The sheet is almost flat, and the
+
+245
+00:25:10,143 --> 00:25:16,055
+multiplier is almost one. That is Marshall's
+world, and in it he is right.
+
+246
+00:25:17,899 --> 00:25:25,052
+Now follow it away from that corner. Every
+step towards choppier revenue, and every step
+
+247
+00:25:25,052 --> 00:25:31,555
+towards cheaper money, lifts the sheet. The
+two effects do not cancel. They add.
+
+248
+00:25:33,399 --> 00:25:39,731
+The three numbers you just watched are three
+points on this one sheet. The base case.
+
+249
+00:25:40,166 --> 00:25:42,691
+Choppier revenue — further along.
+
+250
+00:25:43,133 --> 00:25:46,738
+And cheaper money — further along the other
+way.
+
+251
+00:25:48,566 --> 00:25:55,751
+Hold that picture. In chapter forty-one we
+come back to this exact sheet, and watch a firm
+
+252
+00:25:55,751 --> 00:25:59,104
+walked across it — in the wrong direction.
+
+253
+00:26:01,933 --> 00:26:08,340
+And that resolves the first of our three
+puzzles. Firms demanding fifteen per cent when
+
+254
+00:26:08,340 --> 00:26:14,232
+their money costs them five are not being
+short-sighted. They are being correct.
+
+255
+00:26:17,066 --> 00:26:20,102
+two dials → one multiplier
+
+256
+00:26:20,233 --> 00:26:27,472
+base case 1.86× · 9.3% against a true 5%
+
+257
+00:26:27,599 --> 00:26:34,153
+choppier → 3.32 · cheaper money → 2.61
+
+258
+00:26:34,299 --> 00:26:38,252
+15% is arithmetic, not stupidity
+
+259
+00:26:45,199 --> 00:26:50,738
+The next five chapters do the mathematics.
+Properly, and from the beginning. Nothing beyond
+
+260
+00:26:50,738 --> 00:26:56,157
+square roots, fractions and percentages is
+used, and everything is built in front of you.
+
+261
+00:26:58,065 --> 00:27:04,067
+A hundred pounds today, and a hundred pounds
+in a year. Which would you rather have?
+
+262
+00:27:04,499 --> 00:27:10,428
+Today, obviously. Because you could put
+today's hundred to work, and have more than a
+
+263
+00:27:10,428 --> 00:27:11,893
+hundred by next year.
+
+264
+00:27:13,732 --> 00:27:19,974
+Put a hundred pounds somewhere paying five per
+cent, and in a year you have a hundred and
+
+265
+00:27:19,974 --> 00:27:20,325
+five.
+
+266
+00:27:20,765 --> 00:27:27,431
+Run that backwards, and it is a division.
+Divide by one point nought five, and you have
+
+267
+00:27:27,431 --> 00:27:30,036
+turned money later into money now.
+
+268
+00:27:33,565 --> 00:27:38,239
+interest. The extra a borrower pays for the
+use of money.
+
+269
+00:27:42,432 --> 00:27:47,803
+discounting. Turning money you get later into
+what it is worth today.
+
+270
+00:27:53,699 --> 00:28:01,019
+A factory that earns five pounds a year, for
+ever. Here is the five pounds, arriving year
+
+271
+00:28:01,019 --> 00:28:01,924
+after year.
+
+272
+00:28:02,365 --> 00:28:09,596
+But each one has to be discounted back. Year
+one is divided once. Year two, twice. Year
+
+273
+00:28:09,596 --> 00:28:16,993
+twenty, twenty times. So the far-off ones
+shrink away almost to nothing — and that is why
+
+274
+00:28:16,993 --> 00:28:20,234
+the total does not run off to infinity.
+
+275
+00:28:22,065 --> 00:28:29,060
+Add up every one of them, all the way out to
+for ever, and the sum is astonishingly simple.
+
+276
+00:28:29,060 --> 00:28:34,209
+Five pounds, divided by nought point nought
+five. A hundred pounds.
+
+277
+00:28:36,032 --> 00:28:43,023
+That is the only piece of machinery you need.
+The value of a stream that goes on for ever is
+
+278
+00:28:43,023 --> 00:28:49,710
+the yearly amount divided by the rate. And the
+rate we divide by is the cost of capital.
+
+279
+00:28:53,232 --> 00:28:57,719
+Five pounds a year at five per cent is worth a
+hundred.
+
+280
+00:28:58,565 --> 00:29:05,460
+The same five pounds, when the rate is only
+two per cent, is worth two hundred and fifty.
+
+281
+00:29:05,460 --> 00:29:08,947
+Cheaper money makes future income worth more.
+
+282
+00:29:09,765 --> 00:29:17,140
+And at ten per cent it is worth only fifty.
+Expensive money makes future income worth less.
+
+283
+00:29:17,965 --> 00:29:24,043
+Hold on to the middle one. It is going to
+matter enormously in chapter thirteen.
+
+284
+00:29:26,865 --> 00:29:30,190
+money later is worth less than money now
+
+285
+00:29:30,332 --> 00:29:34,088
+discounting turns later money into today's
+
+286
+00:29:34,232 --> 00:29:38,731
+a stream for ever = amount ÷ the rate
+
+287
+00:29:38,865 --> 00:29:42,308
+cheaper money makes future income worth MORE
+
+288
+00:29:50,699 --> 00:29:57,799
+Nell is deciding whether to build. There are
+exactly two amounts, and we can write both of
+
+289
+00:29:57,799 --> 00:29:58,588
+them down.
+
+290
+00:29:59,032 --> 00:30:05,482
+What she gets: the money coming in each month,
+for ever, discounted back. From the last
+
+291
+00:30:05,482 --> 00:30:12,080
+chapter, that is the yearly amount divided by
+the rate. Call the yearly amount R, and the
+
+292
+00:30:12,080 --> 00:30:13,933
+rate the cost of capital.
+
+293
+00:30:15,765 --> 00:30:20,611
+What she pays: the sunk cost of building it.
+Call that K.
+
+294
+00:30:22,432 --> 00:30:29,564
+Three letters, and nothing more. R is the
+revenue a year. K is the sunk cost. And the third
+
+295
+00:30:29,564 --> 00:30:33,247
+one we will only ever call the cost of
+capital.
+
+296
+00:30:35,465 --> 00:30:40,266
+Subtract one from the other and you have what
+the project is worth.
+
+297
+00:30:42,765 --> 00:30:46,584
+net worth. What you get, minus what you pay.
+
+298
+00:30:52,099 --> 00:30:58,223
+The borderline is where the two are exactly
+equal — where net worth is nothing at all.
+
+299
+00:30:58,665 --> 00:31:04,148
+Add K to both sides. What she gets equals what
+she pays.
+
+300
+00:31:04,565 --> 00:31:09,786
+Multiply both sides by the rate. And there is
+the textbook's line.
+
+301
+00:31:11,632 --> 00:31:18,020
+That is Marshall's line, and now you know
+exactly where it comes from. It is the interest on
+
+302
+00:31:18,020 --> 00:31:23,992
+the money she sank into the building — the
+normal return on capital, and nothing more.
+
+303
+00:31:27,532 --> 00:31:35,177
+Dixit's worked example uses a sunk cost of
+two, and a cost of capital of five per cent.
+
+304
+00:31:35,999 --> 00:31:42,612
+So the normal return on that capital is nought
+point nought five times two. A tenth.
+
+305
+00:31:43,432 --> 00:31:47,774
+And the factory also costs one to run each
+year.
+
+306
+00:31:48,599 --> 00:31:54,888
+Add them: one, plus a tenth. One point one.
+That is the number you have been staring at
+
+307
+00:31:54,888 --> 00:31:59,226
+since chapter two, and you have just worked it
+out yourself.
+
+308
+00:32:03,365 --> 00:32:07,632
+what she gets: R ÷ ρ
+
+309
+00:32:07,765 --> 00:32:09,710
+what she pays: K
+
+310
+00:32:09,832 --> 00:32:13,402
+the borderline is where net worth is zero
+
+311
+00:32:13,532 --> 00:32:20,348
+so the textbook line is M = C + ρK = 1.10
+
+312
+00:32:28,732 --> 00:32:36,126
+Every number in the next two chapters rests on
+one assumption about how revenue moves. Each
+
+313
+00:32:36,126 --> 00:32:43,195
+year, revenue does one of two things. It goes
+up by a fixed percentage, or down by one.
+
+314
+00:32:45,032 --> 00:32:51,949
+Percentages rather than pounds, because a big
+firm swings by big amounts and a small one by
+
+315
+00:32:51,949 --> 00:32:56,129
+small amounts. That is the only realistic way
+to do it.
+
+316
+00:32:59,665 --> 00:33:06,900
+Do that again the next year, and the next.
+Every point splits in two, and the possibilities
+
+317
+00:33:06,900 --> 00:33:07,536
+fan out.
+
+318
+00:33:09,365 --> 00:33:15,629
+Watch one possible path through it. That is
+one future — one thing that might happen.
+
+319
+00:33:16,065 --> 00:33:23,767
+And here are a dozen more. Nobody knows which
+one happens. All anybody knows is the shape of
+
+320
+00:33:23,767 --> 00:33:24,437
+the fan.
+
+321
+00:33:27,965 --> 00:33:33,477
+a random walk. Each step is up or down, and
+you cannot tell which.
+
+322
+00:33:39,165 --> 00:33:46,705
+Take a typical year and ask how far revenue
+moved. In a calm trade, not far. The outcomes
+
+323
+00:33:46,705 --> 00:33:47,468
+bunch up.
+
+324
+00:33:47,899 --> 00:33:52,867
+In a rough trade — oil, metals — they spread
+right out.
+
+325
+00:33:54,699 --> 00:34:01,381
+The width of that spread is the number the
+paper calls the choppiness. It is the size of a
+
+326
+00:34:01,381 --> 00:34:07,841
+typical yearly swing, as a percentage. Ten per
+cent with exchange rates. Twenty-five to
+
+327
+00:34:07,841 --> 00:34:11,627
+forty for an oil well. And the base case at
+twenty.
+
+328
+00:34:13,465 --> 00:34:20,653
+The paper writes it as a Greek letter. This
+film never will. It is the choppiness, and it is
+
+329
+00:34:20,653 --> 00:34:21,669
+a percentage.
+
+330
+00:34:24,499 --> 00:34:28,487
+each year: up or down by a fixed percentage
+
+331
+00:34:28,632 --> 00:34:32,074
+run it forward and the futures fan out
+
+332
+00:34:32,199 --> 00:34:35,536
+nobody knows the path, only the fan
+
+333
+00:34:35,665 --> 00:34:38,458
+the width of the fan is the choppiness
+
+334
+00:34:46,865 --> 00:34:53,036
+The paper has two diagrams, and they are the
+heart of it. Across the bottom, the revenue
+
+335
+00:34:53,036 --> 00:34:58,506
+coming in each year. Up the side, what the
+whole opportunity is worth to Nell.
+
+336
+00:34:58,931 --> 00:35:06,081
+First, the straight line. If she builds today
+she gets the revenue for ever, divided by the
+
+337
+00:35:06,081 --> 00:35:13,231
+rate, minus the sunk cost. That is the sum
+from two chapters ago, and drawn against revenue
+
+338
+00:35:13,231 --> 00:35:14,959
+it is a straight line.
+
+339
+00:35:16,798 --> 00:35:24,619
+It starts below the axis, because at zero
+revenue she would simply lose the sunk cost. And
+
+340
+00:35:24,619 --> 00:35:28,356
+it crosses zero exactly at Marshall's line.
+
+341
+00:35:30,198 --> 00:35:37,065
+Now the second line, and this one is a curve.
+It is what the chance to build is worth if she
+
+342
+00:35:37,065 --> 00:35:38,557
+does not use it yet.
+
+343
+00:35:40,398 --> 00:35:46,594
+When revenue is very low the chance is nearly
+worthless — things would have to improve
+
+344
+00:35:46,594 --> 00:35:49,404
+enormously, and that is a long way off.
+
+345
+00:35:49,831 --> 00:35:56,825
+As revenue rises the chance is worth more, and
+worth more faster. That is why it bends
+
+346
+00:35:56,825 --> 00:35:57,476
+upwards.
+
+347
+00:35:57,898 --> 00:36:04,542
+And close to the point where she would build,
+it is worth just about what building is worth.
+
+348
+00:36:04,542 --> 00:36:06,058
+The two have to meet.
+
+349
+00:36:08,398 --> 00:36:14,972
+They meet here. And they do not cross — they
+touch, and run off in the same direction.
+
+350
+00:36:16,798 --> 00:36:23,395
+If the two lines crossed, waiting would still
+be worth more just past the meeting point — so
+
+351
+00:36:23,395 --> 00:36:25,976
+she would not build there after all.
+
+352
+00:36:26,398 --> 00:36:32,472
+And if the curve stayed below the line, she
+would have been better off building sooner.
+
+353
+00:36:32,898 --> 00:36:39,789
+Touching, and only touching, is the right
+place. That single condition is what picks out the
+
+354
+00:36:39,789 --> 00:36:40,388
+trigger.
+
+355
+00:36:42,731 --> 00:36:49,020
+And there, between where the textbook says
+build and where she actually should, is the gap
+
+356
+00:36:49,020 --> 00:36:54,051
+this whole film is about. You have now seen
+exactly where it comes from.
+
+357
+00:36:55,898 --> 00:37:02,585
+The paper finds that touching point with
+calculus. We are about to get exactly the same
+
+358
+00:37:02,585 --> 00:37:04,584
+answer with a square root.
+
+359
+00:37:07,431 --> 00:37:09,936
+the straight line: building now
+
+360
+00:37:10,065 --> 00:37:12,776
+the curve: what waiting is worth
+
+361
+00:37:12,898 --> 00:37:15,516
+they touch — they do not cross
+
+362
+00:37:15,665 --> 00:37:18,236
+and where they touch is the trigger
+
+363
+00:37:26,631 --> 00:37:33,292
+Before any of this, the alphabet again, with
+two new ones added. Economists write these
+
+364
+00:37:33,292 --> 00:37:40,335
+quantities as Greek letters purely to save
+space. Each one is a short name for something you
+
+365
+00:37:40,335 --> 00:37:41,330
+already know.
+
+366
+00:37:41,765 --> 00:37:44,868
+R is the money coming in, as before.
+
+367
+00:37:45,298 --> 00:37:48,961
+K is the sunk cost of building, as before.
+
+368
+00:37:49,398 --> 00:37:55,023
+The one that looks like a p is the cost of
+capital — you met it in chapter ten.
+
+369
+00:37:55,465 --> 00:38:00,718
+The one like an o with a tail is the
+choppiness, from chapter eleven.
+
+370
+00:38:01,165 --> 00:38:08,049
+And the one like a B is new. It is the
+steepness, and working it out is what this chapter
+
+371
+00:38:08,049 --> 00:38:08,436
+does.
+
+372
+00:38:08,865 --> 00:38:15,410
+Nothing in this film is ever said as a Greek
+letter. Every one of them is spoken as the
+
+373
+00:38:15,410 --> 00:38:18,720
+English phrase beside it, every single time.
+
+374
+00:38:22,265 --> 00:38:29,874
+Start inside. Eight, times the cost of
+capital, divided by the choppiness multiplied by
+
+375
+00:38:29,874 --> 00:38:30,487
+itself.
+
+376
+00:38:32,331 --> 00:38:39,517
+Add one to it. Take the square root. Add one
+again, and halve it. That is the whole formula.
+
+377
+00:38:41,365 --> 00:38:47,894
+The paper calls the answer beta. This film
+calls it the steepness, because that is what it
+
+378
+00:38:47,894 --> 00:38:52,102
+measures — how steeply the value of waiting
+curves upward.
+
+379
+00:38:55,631 --> 00:39:01,547
+The choppiness is nought point two. Times
+itself, nought point nought four.
+
+380
+00:39:02,298 --> 00:39:08,860
+Eight times nought point nought five is nought
+point four. Divided by nought point nought
+
+381
+00:39:08,860 --> 00:39:10,187
+four, that is ten.
+
+382
+00:39:10,965 --> 00:39:16,975
+One plus ten is eleven. The square root of
+eleven is three point three one seven.
+
+383
+00:39:17,731 --> 00:39:24,599
+One plus that is four point three one seven.
+Halve it. Two point one five eight.
+
+384
+00:39:25,365 --> 00:39:31,699
+The paper prints two point one five. That is
+your answer, with the paper's own rounding.
+
+385
+00:39:35,231 --> 00:39:38,767
+Divide the steepness by itself-minus-one.
+
+386
+00:39:39,198 --> 00:39:46,693
+Two point one five eight, divided by one point
+one five eight. One point eight six. There is
+
+387
+00:39:46,693 --> 00:39:51,988
+the multiplier from chapter eight — and you
+have just derived it.
+
+388
+00:39:53,831 --> 00:39:58,757
+Multiply the textbook's line by it, and you
+have the real trigger.
+
+389
+00:39:59,198 --> 00:40:06,199
+Or multiply the cost of capital by it, and you
+have the corrected hurdle rate. Nine point
+
+390
+00:40:06,199 --> 00:40:07,379
+three per cent.
+
+391
+00:40:10,898 --> 00:40:17,952
+Turn the choppiness up to forty per cent.
+Nought point four times itself is nought point one
+
+392
+00:40:17,952 --> 00:40:24,623
+six. Eight times nought point nought five over
+that is two and a half. One plus that is
+
+393
+00:40:24,623 --> 00:40:31,524
+three and a half; its square root is one point
+eight seven. Halve one plus that: one point
+
+394
+00:40:31,524 --> 00:40:32,751
+four three five.
+
+395
+00:40:33,498 --> 00:40:40,163
+Divide by itself-minus-one: three point three.
+The paper prints three point three two,
+
+396
+00:40:40,163 --> 00:40:43,107
+because it rounds the steepness first.
+
+397
+00:40:43,831 --> 00:40:50,789
+Now put the choppiness back to twenty and drop
+the cost of capital to two per cent. That
+
+398
+00:40:50,789 --> 00:40:57,746
+gives four inside; one plus four is five; the
+square root of five is two point two three
+
+399
+00:40:57,746 --> 00:41:01,699
+six. Halve one plus that: one point six one
+eight.
+
+400
+00:41:02,431 --> 00:41:08,161
+And divide: two point six two. The paper
+prints two point six one.
+
+401
+00:41:08,898 --> 00:41:15,058
+And now you can see why both dials push the
+same way. More choppiness, or cheaper money,
+
+402
+00:41:15,058 --> 00:41:21,499
+both make the number inside the square root
+smaller. That makes the steepness smaller. And a
+
+403
+00:41:21,499 --> 00:41:24,579
+smaller steepness gives a bigger multiplier.
+
+404
+00:41:28,098 --> 00:41:35,082
+Let the choppiness shrink to nothing. The
+number inside the square root grows without limit,
+
+405
+00:41:35,082 --> 00:41:41,686
+the steepness grows with it, and the
+multiplier settles on one. The textbook is exactly
+
+406
+00:41:41,686 --> 00:41:43,583
+right in a certain world.
+
+407
+00:41:44,431 --> 00:41:50,719
+Let the cost of capital fall to nothing
+instead. The steepness goes to one, and the
+
+408
+00:41:50,719 --> 00:41:57,158
+multiplier goes off to infinity. Which is the
+paper's own line: the textbook analysis
+
+409
+00:41:57,158 --> 00:41:59,203
+becomes totally misleading.
+
+410
+00:42:00,031 --> 00:42:06,397
+One honest note to finish on. All of that
+works because the project, once built, always
+
+411
+00:42:06,397 --> 00:42:13,054
+makes money. Once you let it make losses and
+allow her to give up, the two lines have to be
+
+412
+00:42:13,054 --> 00:42:19,712
+found together, and there is no formula — it
+needs four equations and a computer. The paper
+
+413
+00:42:19,712 --> 00:42:25,638
+does that, and prints the answers: nought
+point seven two, and one point six two.
+
+414
+00:42:28,465 --> 00:42:33,474
+one square root gives the steepness: 2.158
+
+415
+00:42:33,598 --> 00:42:39,664
+steepness ÷ (steepness − 1) = 1.86
+
+416
+00:42:39,798 --> 00:42:47,942
+40% choppiness → 3.32 · 2% money → 2.61
+
+417
+00:42:48,065 --> 00:42:52,099
+both dials shrink it, so both raise the bar
+
+418
+00:43:04,998 --> 00:43:11,738
+Start with a straight line, which you met at
+school. Its steepness is one number, and it is
+
+419
+00:43:11,738 --> 00:43:13,886
+the same everywhere along it.
+
+420
+00:43:14,331 --> 00:43:21,429
+Go along, and go up. Steepness is the up
+divided by the along. Nothing more than that.
+
+421
+00:43:25,765 --> 00:43:33,327
+Now bend it. A curve is not equally steep
+everywhere. Down here it is gentle. Up there it is
+
+422
+00:43:33,327 --> 00:43:33,820
+steep.
+
+423
+00:43:38,665 --> 00:43:45,737
+Take the point you care about, and a second
+point further along. Join them. That line has a
+
+424
+00:43:45,737 --> 00:43:50,555
+steepness you can work out — up over along,
+exactly as before.
+
+425
+00:43:52,398 --> 00:43:58,778
+Now slide the second point towards the first,
+and watch what that line does.
+
+426
+00:44:00,598 --> 00:44:07,463
+It settles on one line: the line that just
+touches the curve at that point, and does not
+
+427
+00:44:07,463 --> 00:44:11,519
+cross it. That is the steepness of the curve,
+there.
+
+428
+00:44:15,065 --> 00:44:20,144
+the gradient. How steep a curve is at one
+single point on it.
+
+429
+00:44:25,165 --> 00:44:31,301
+Write the value of something as V of R — the
+value, when the money coming in is R.
+
+430
+00:44:31,731 --> 00:44:38,737
+Then V, with a dash, means its gradient: how
+fast that value changes as the money coming in
+
+431
+00:44:38,737 --> 00:44:44,665
+changes. A dash is the whole of the notation.
+There is nothing else to learn.
+
+432
+00:44:46,498 --> 00:44:53,541
+And one fact you will need, which you can take
+on trust or check on paper. R squared has
+
+433
+00:44:53,541 --> 00:44:57,783
+gradient two R. R cubed has gradient three R
+squared.
+
+434
+00:44:58,231 --> 00:45:05,543
+In general: bring the power down in front, and
+knock one off it. That single rule is all the
+
+435
+00:45:05,543 --> 00:45:07,530
+calculus this film needs.
+
+436
+00:45:10,365 --> 00:45:13,482
+steepness of a line: up over along
+
+437
+00:45:13,631 --> 00:45:17,062
+a curve is a different steepness everywhere
+
+438
+00:45:17,198 --> 00:45:21,024
+slide two points together → the tangent
+
+439
+00:45:21,165 --> 00:45:26,024
+and the rule: R^x has gradient x R^(x−1)
+
+440
+00:45:36,631 --> 00:45:43,728
+Here is the tangent again, and here it is
+walking along the curve. Watch the tangent itself,
+
+441
+00:45:43,728 --> 00:45:44,808
+not the point.
+
+442
+00:45:45,231 --> 00:45:51,626
+It is turning. The gradient is not a fixed
+number: it has a gradient of its own.
+
+443
+00:45:55,165 --> 00:46:00,778
+the second gradient. How fast the steepness
+itself is changing.
+
+444
+00:46:04,298 --> 00:46:11,740
+One dash for the steepness. Two dashes for how
+fast the steepness is changing. That is all
+
+445
+00:46:11,740 --> 00:46:13,477
+the second one means.
+
+446
+00:46:19,198 --> 00:46:26,585
+Two futures, equally likely. One bad, one
+good, the same distance either side of where we
+
+447
+00:46:26,585 --> 00:46:27,249
+are now.
+
+448
+00:46:27,698 --> 00:46:33,539
+Join them. The middle of that line is the
+average of the two values — what you get on
+
+449
+00:46:33,539 --> 00:46:36,838
+average if the future goes one way or the
+other.
+
+450
+00:46:37,265 --> 00:46:43,644
+And it is higher than the curve. The average
+of the two values beats the value at the
+
+451
+00:46:43,644 --> 00:46:49,723
+average. The gap is pure bend — and it is
+exactly the gap chapter five was about.
+
+452
+00:46:51,565 --> 00:46:58,125
+So a value that bends upwards is worth more
+when the future is uncertain than when it is
+
+453
+00:46:58,125 --> 00:47:02,970
+not. That is the whole reason the second
+gradient appears at all.
+
+454
+00:47:08,398 --> 00:47:15,225
+A curve that bends the other way loses by the
+same argument. The chord sits below it, so
+
+455
+00:47:15,225 --> 00:47:17,940
+uncertainty costs rather than pays.
+
+456
+00:47:18,365 --> 00:47:21,274
+Bending up, uncertainty pays.
+
+457
+00:47:21,698 --> 00:47:24,214
+Bending down, it costs.
+
+458
+00:47:24,631 --> 00:47:31,712
+And a straight line — no bend at all — is the
+one case where uncertainty makes no difference
+
+459
+00:47:31,712 --> 00:47:38,715
+whatsoever. Which is precisely why the
+textbook, which draws straight lines, never sees any
+
+460
+00:47:38,715 --> 00:47:39,330
+of this.
+
+461
+00:47:42,165 --> 00:47:46,211
+two dashes: how fast the steepness changes
+
+462
+00:47:46,331 --> 00:47:49,693
+a bend up puts the average above the curve
+
+463
+00:47:49,831 --> 00:47:53,355
+so uncertainty adds value to a bent thing
+
+464
+00:47:53,498 --> 00:47:56,836
+and does nothing at all to a straight one
+
+465
+00:48:09,731 --> 00:48:17,012
+Here is the money coming in, wandering about
+as it does. Cut out one tiny slice of time from
+
+466
+00:48:17,012 --> 00:48:17,249
+it.
+
+467
+00:48:17,698 --> 00:48:25,000
+Call the length of that slice d t. The d is
+just shorthand for a change in something, so d t
+
+468
+00:48:25,000 --> 00:48:28,095
+is a change in time — a very small one.
+
+469
+00:48:29,931 --> 00:48:37,399
+And d R is the change in the money coming in
+over that same slice. Nobody knows which way it
+
+470
+00:48:37,399 --> 00:48:38,048
+will go.
+
+471
+00:48:41,565 --> 00:48:48,492
+The paper writes down two facts about it. E
+square brackets means on average. On average,
+
+472
+00:48:48,492 --> 00:48:55,576
+the money drifts by a rate called the drift,
+times where it is now, times the length of the
+
+473
+00:48:55,576 --> 00:48:56,043
+slice.
+
+474
+00:48:57,865 --> 00:49:04,737
+And around that average it scatters. The
+scatter is measured by the choppiness from chapter
+
+475
+00:49:04,737 --> 00:49:09,646
+eleven, squared, times where it is now,
+squared, times the slice.
+
+476
+00:49:13,165 --> 00:49:19,605
+Here is the thing that makes all of this work.
+Take a step up and a step down, equally
+
+477
+00:49:19,605 --> 00:49:23,574
+likely. Add them and average. They cancel to
+nothing.
+
+478
+00:49:25,398 --> 00:49:32,198
+Now square them first. Minus two squared is
+four, the same as plus two squared. Squaring
+
+479
+00:49:32,198 --> 00:49:38,381
+throws the minus sign away, so the average of
+the squares is not nothing at all.
+
+480
+00:49:40,198 --> 00:49:46,840
+Randomness disappears when you average it, and
+survives when you square it first. That is
+
+481
+00:49:46,840 --> 00:49:53,557
+the whole reason a second gradient — which
+multiplies a square — has anything to say here.
+
+482
+00:49:57,098 --> 00:50:03,532
+The average of the square is the square of the
+average, plus the scatter. That is a standard
+
+483
+00:50:03,532 --> 00:50:07,308
+fact about averages, and it is the only one we
+borrow.
+
+484
+00:50:07,731 --> 00:50:13,607
+Put the two facts in, and you get a d t
+squared term and a d t term.
+
+485
+00:50:15,431 --> 00:50:22,553
+And now the step that makes the whole thing
+tractable. If d t is a hundredth, d t squared is
+
+486
+00:50:22,553 --> 00:50:29,441
+a ten-thousandth. Make the slice small enough
+and the squared term is nothing next to the
+
+487
+00:50:29,441 --> 00:50:31,144
+other one. So drop it.
+
+488
+00:50:33,965 --> 00:50:38,570
+dt is a tiny slice of time; dR the change in
+it
+
+489
+00:50:38,698 --> 00:50:42,814
+on average it drifts; around that it scatters
+
+490
+00:50:42,931 --> 00:50:46,641
+a square keeps what an average throws away
+
+491
+00:50:46,765 --> 00:50:51,055
+so the squared step survives, and nothing else
+does
+
+492
+00:51:03,964 --> 00:51:10,186
+Take the value curve and stand at one point on
+it. Close up, the tangent is a good
+
+493
+00:51:10,186 --> 00:51:12,083
+description of the curve.
+
+494
+00:51:12,531 --> 00:51:19,390
+But it is not perfect. Move a little way, and
+the real curve has lifted off the tangent — by
+
+495
+00:51:19,390 --> 00:51:21,999
+an amount that depends on the bend.
+
+496
+00:51:25,531 --> 00:51:32,725
+Which gives the line the appendix opens with.
+The expected change in value has two pieces.
+
+497
+00:51:33,164 --> 00:51:38,606
+The first is the tangent's answer: the slope,
+times how far you moved.
+
+498
+00:51:39,031 --> 00:51:45,393
+The second is the correction for the bend: a
+half of the second gradient, times the square
+
+499
+00:51:45,393 --> 00:51:51,896
+of the step. And we know what that square is —
+it is the one thing randomness leaves behind.
+
+500
+00:51:53,731 --> 00:52:00,558
+Put the two facts from the last chapter in,
+and every piece of it is now something we have
+
+501
+00:52:00,558 --> 00:52:01,620
+already built.
+
+502
+00:52:05,164 --> 00:52:11,787
+The chance to build is an asset you are
+holding. It pays you nothing while you hold it — no
+
+503
+00:52:11,787 --> 00:52:16,736
+rent, no revenue — so all it can offer is the
+gain in its own value.
+
+504
+00:52:17,164 --> 00:52:23,492
+And your money could have been earning the
+ordinary return somewhere else. In equilibrium
+
+505
+00:52:23,492 --> 00:52:26,762
+those two must match, or nobody would hold it.
+
+506
+00:52:28,597 --> 00:52:33,076
+Expected gain equals the normal return. One
+line.
+
+507
+00:52:38,597 --> 00:52:47,287
+Every single term has a d t in it. So divide
+the whole line by d t, and every d t disappears
+
+508
+00:52:47,287 --> 00:52:48,042
+at once.
+
+509
+00:52:48,464 --> 00:52:54,979
+Tidy it up, bring everything to one side, and
+this is equation A one of the appendix. It is
+
+510
+00:52:54,979 --> 00:53:01,566
+the whole of the paper's mathematics in a
+single line, and you have just watched every piece
+
+511
+00:53:01,566 --> 00:53:02,854
+of it being built.
+
+512
+00:53:04,897 --> 00:53:09,842
+Read it left to right. A bend term, carrying
+the choppiness.
+
+513
+00:53:10,264 --> 00:53:13,180
+A slope term, carrying the drift.
+
+514
+00:53:13,597 --> 00:53:17,969
+And the ordinary return being given up by
+holding on.
+
+515
+00:53:20,797 --> 00:53:24,542
+close up, a curve is a tangent plus a bend
+
+516
+00:53:24,664 --> 00:53:28,942
+so E[dV] has a slope term and a bend term
+
+517
+00:53:29,064 --> 00:53:33,563
+waiting pays nothing, so gain = normal return
+
+518
+00:53:33,697 --> 00:53:38,150
+divide by the slice, and the equation is left
+
+519
+00:53:52,864 --> 00:53:59,506
+Look at the shape of it. Wherever there are
+two dashes there is an R squared, and wherever
+
+520
+00:53:59,506 --> 00:54:06,222
+there is one dash there is a single R. Each
+differentiation is paid for with exactly one R.
+
+521
+00:54:06,664 --> 00:54:14,480
+So try a power. Using the rule from chapter
+fourteen, the gradient of R to the x is x times
+
+522
+00:54:14,480 --> 00:54:16,284
+R to the x minus one.
+
+523
+00:54:16,731 --> 00:54:23,673
+Multiply that by the R sitting next to it, and
+the power comes straight back to what it was.
+
+524
+00:54:23,673 --> 00:54:28,125
+The shape survives. That is why a power is the
+right guess.
+
+525
+00:54:31,664 --> 00:54:34,839
+The value itself is R to the x.
+
+526
+00:54:35,264 --> 00:54:39,908
+R times its gradient is x, times R to the x.
+
+527
+00:54:40,331 --> 00:54:48,117
+And R squared times the second gradient is x,
+times x minus one, times R to the x. Every one
+
+528
+00:54:48,117 --> 00:54:53,618
+of them is the same R to the x, with a
+different number in front.
+
+529
+00:54:55,464 --> 00:55:01,403
+Put them into the equation and the whole R to
+the x factors out of every term.
+
+530
+00:55:01,831 --> 00:55:09,090
+R to the x is never zero, so the bracket must
+be. And the bracket is a quadratic — the thing
+
+531
+00:55:09,090 --> 00:55:12,640
+you solved at school. That is equation A two.
+
+532
+00:55:18,364 --> 00:55:25,467
+A quadratic crosses zero twice. The paper
+calls the two answers by the first two letters of
+
+533
+00:55:25,467 --> 00:55:31,243
+the Greek alphabet. One of them is negative.
+The other is bigger than one.
+
+534
+00:55:33,064 --> 00:55:38,770
+So the general answer is a bit of each, with
+two unknown amounts A and B.
+
+535
+00:55:39,197 --> 00:55:46,324
+Now one piece of economics kills half of it.
+If the money coming in falls to nothing, the
+
+536
+00:55:46,324 --> 00:55:53,691
+chance to build is worth nothing. But R to a
+negative power blows up as R goes to zero. So A
+
+537
+00:55:53,691 --> 00:55:54,892
+has to be zero.
+
+538
+00:55:55,331 --> 00:56:02,045
+What is left is the paper's equation two,
+which chapter twelve drew as a curve without ever
+
+539
+00:56:02,045 --> 00:56:03,963
+saying where it came from.
+
+540
+00:56:07,497 --> 00:56:11,574
+Set the drift to zero, as the main text does.
+
+541
+00:56:11,997 --> 00:56:15,063
+Divide through by a half sigma squared.
+
+542
+00:56:15,497 --> 00:56:17,825
+Multiply out the bracket.
+
+543
+00:56:18,264 --> 00:56:24,983
+Now complete the square — add a quarter to
+both sides, which is exactly what you were taught
+
+544
+00:56:24,983 --> 00:56:25,422
+to do.
+
+545
+00:56:25,864 --> 00:56:30,885
+Tidy the right-hand side over a common
+denominator of four.
+
+546
+00:56:31,331 --> 00:56:37,756
+Square-root both sides, take the bigger
+answer, and there is the formula from chapter
+
+547
+00:56:37,756 --> 00:56:42,292
+thirteen. Every symbol in it has now been
+derived on screen.
+
+548
+00:56:47,731 --> 00:56:51,371
+each dash is paid for with exactly one R
+
+549
+00:56:51,497 --> 00:56:55,369
+so a power survives, and R^x factors out
+
+550
+00:56:55,497 --> 00:56:58,847
+leaving a quadratic, with two roots
+
+551
+00:56:58,964 --> 00:57:03,115
+complete the square, and the steepness falls
+out
+
+552
+00:57:16,030 --> 00:57:22,526
+Everything so far was about the chance to
+build, which pays you nothing while you hold it.
+
+553
+00:57:22,963 --> 00:57:29,695
+A project that has actually been built is
+different. It hands you the money coming in, every
+
+554
+00:57:29,695 --> 00:57:34,378
+year, while you own it. So the balance has one
+more thing on it.
+
+555
+00:57:34,797 --> 00:57:42,017
+Which is the same equation with a single extra
+R on the end — the revenue it pays out. That
+
+556
+00:57:42,017 --> 00:57:43,525
+is equation A five.
+
+557
+00:57:43,963 --> 00:57:50,329
+Its answer is the plain worth of the revenue
+stream, plus a term that is the value of the
+
+558
+00:57:50,329 --> 00:57:56,767
+option to give up. That option is worthless
+when takings are enormous, which is what fixes
+
+559
+00:57:56,767 --> 00:57:58,984
+which power survives this time.
+
+560
+00:58:03,430 --> 00:58:09,967
+Here is what waiting is worth: B times R to
+the beta, the curve we just derived.
+
+561
+00:58:10,397 --> 00:58:16,664
+And here is what a running project is worth,
+once you allow it to be abandoned. Nearly a
+
+562
+00:58:16,664 --> 00:58:21,152
+straight line when takings are high, bending
+away as they fall.
+
+563
+00:58:24,197 --> 00:58:30,884
+At the level where she builds, stepping from
+one curve to the other must be worth exactly
+
+564
+00:58:30,884 --> 00:58:37,645
+the cost of building. Not more, or she would
+have built sooner. Not less, or she would not
+
+565
+00:58:37,645 --> 00:58:38,622
+build at all.
+
+566
+00:58:41,863 --> 00:58:48,271
+And a second condition, which is the subtle
+one. The two curves must not just be the right
+
+567
+00:58:48,271 --> 00:58:54,038
+distance apart — they must have the same
+steepness there. They meet tangentially.
+
+568
+00:58:54,463 --> 00:59:00,818
+Because a corner would mean the trigger was in
+the wrong place: nudge it either way and you
+
+569
+00:59:00,818 --> 00:59:06,056
+would do better. Only where the slopes agree
+is there nothing left to gain.
+
+570
+00:59:09,597 --> 00:59:15,454
+smooth pasting. Where two value curves meet,
+their slopes must agree.
+
+571
+00:59:20,497 --> 00:59:24,775
+At the build line, the step up is worth the
+cost.
+
+572
+00:59:25,197 --> 00:59:27,376
+And the slopes agree there.
+
+573
+00:59:27,797 --> 00:59:33,654
+At the give-up line, the step is worth nothing
+at all — she simply walks away.
+
+574
+00:59:34,097 --> 00:59:36,680
+And the slopes agree there too.
+
+575
+00:59:37,097 --> 00:59:42,800
+Four conditions. Four unknowns: the two
+amounts, and the two levels.
+
+576
+00:59:44,630 --> 00:59:51,457
+And the paper is honest about what happens
+next. There is no formula. The four have to be
+
+577
+00:59:51,457 --> 00:59:58,361
+solved together on a computer. Which is
+exactly why the two numbers chapter thirteen ended
+
+578
+00:59:58,361 --> 01:00:04,728
+on were printed rather than derived: nought
+point seven two, and one point six two.
+
+579
+01:00:07,563 --> 01:00:12,550
+a running project pays R, so its equation
+gains +R
+
+580
+01:00:12,697 --> 01:00:16,685
+at H the step between curves is worth K
+
+581
+01:00:16,830 --> 01:00:20,342
+and the slopes must agree: smooth pasting
+
+582
+01:00:20,463 --> 01:00:24,835
+four conditions, four unknowns, solved by
+computer
+
+583
+01:00:31,763 --> 01:00:38,717
+Being honest about the limits is part of the
+teaching, and it also stops you over-applying
+
+584
+01:00:38,717 --> 01:00:42,502
+the idea. The paper sets out four
+qualifications.
+
+585
+01:00:44,397 --> 01:00:52,104
+Everything so far assumed the chance was
+Nell's alone. Suppose it is not. Suppose there is
+
+586
+01:00:52,104 --> 01:00:56,558
+one site, or one licence, and several firms
+want it.
+
+587
+01:00:56,997 --> 01:01:01,667
+Nell hesitates, sensibly, to see how things
+develop.
+
+588
+01:01:02,097 --> 01:01:05,133
+And somebody else walks through the door.
+
+589
+01:01:05,563 --> 01:01:12,515
+When the chance can be snatched, waiting is
+not possible. And when waiting is not possible,
+
+590
+01:01:12,515 --> 01:01:19,314
+the textbook's trigger is valid again. This is
+a real limit, and Part Three comes back to
+
+591
+01:01:19,314 --> 01:01:19,544
+it.
+
+592
+01:01:23,063 --> 01:01:29,548
+Sometimes moving first has a value of its own
+— you take the best position, and everyone
+
+593
+01:01:29,548 --> 01:01:33,527
+else has to work around you. That pulls the
+other way.
+
+594
+01:01:33,963 --> 01:01:37,846
+The right answer balances the two against each
+other.
+
+595
+01:01:41,363 --> 01:01:48,572
+Six firms, each looking at the same
+opportunity, each with slightly different information
+
+596
+01:01:48,572 --> 01:01:49,301
+about it.
+
+597
+01:01:49,730 --> 01:01:56,859
+Each one looks around, sees that nobody else
+has moved, and concludes the others must have
+
+598
+01:01:56,859 --> 01:02:02,324
+found something discouraging. So each revises
+its own view downwards.
+
+599
+01:02:02,763 --> 01:02:10,499
+And so everybody waits. Not because the
+opportunity is bad, but because everybody is reading
+
+600
+01:02:10,499 --> 01:02:12,601
+everybody else's silence.
+
+601
+01:02:14,430 --> 01:02:16,603
+Then one of them moves.
+
+602
+01:02:17,030 --> 01:02:23,828
+And now everybody revises upwards — because
+that firm must have seen something good.
+
+603
+01:02:23,828 --> 01:02:29,413
+Investment arrives in a sudden bunch. Which is
+why it comes in waves.
+
+604
+01:02:32,930 --> 01:02:40,809
+This one comes with a quotation, because it is
+the single idea Part Three leans on hardest.
+
+605
+01:02:40,809 --> 01:02:43,060
+Dixit is quoting Bernanke.
+
+606
+01:02:44,897 --> 01:02:52,510
+In plain words. When you can wait, it is
+mainly the bad possible futures that decide whether
+
+607
+01:02:52,510 --> 01:02:53,668
+you build now.
+
+608
+01:02:55,497 --> 01:03:01,873
+Because the good futures will still be there
+next year. You have not missed them. Waiting
+
+609
+01:03:01,873 --> 01:03:04,810
+only ever protects you from the bad ones.
+
+610
+01:03:07,230 --> 01:03:13,399
+Carry the qualification the paper adds in the
+very next sentence, because dropping it
+
+611
+01:03:13,399 --> 01:03:19,714
+changes the meaning. The total chance of
+ending up above the trigger does still matter.
+
+612
+01:03:20,163 --> 01:03:26,527
+What does not matter is the shape of the good
+outcomes beyond it. Those are not the same
+
+613
+01:03:26,527 --> 01:03:29,636
+thing, and Part Three needs the difference.
+
+614
+01:03:32,463 --> 01:03:37,009
+a race → waiting is impossible, textbook right
+
+615
+01:03:37,130 --> 01:03:40,282
+moving first can pull the other way
+
+616
+01:03:40,430 --> 01:03:44,674
+inaction reads as bad news → bunching
+
+617
+01:03:44,797 --> 01:03:48,518
+the bad news principle, with its qualification
+
+618
+01:03:58,630 --> 01:04:03,083
+suspending. Stopping for a while, meaning to
+start again.
+
+619
+01:04:07,297 --> 01:04:09,915
+abandoning. Stopping for good.
+
+620
+01:04:12,263 --> 01:04:18,341
+To make the point sharp, the paper assumes
+that idle machinery rusts. Totally, and
+
+621
+01:04:18,341 --> 01:04:25,085
+immediately. So pausing and quitting become
+the same thing, and starting again means paying
+
+622
+01:04:25,085 --> 01:04:27,383
+the whole sunk cost over again.
+
+623
+01:04:29,230 --> 01:04:36,008
+And the paper flags that itself, as a
+deliberate simplification. Where a firm really can
+
+624
+01:04:36,008 --> 01:04:43,093
+mothball a factory and restart it cheaply,
+this half of the argument gets weaker. Hold on to
+
+625
+01:04:43,093 --> 01:04:45,173
+that — Part Three needs it.
+
+626
+01:04:49,397 --> 01:04:52,398
+Nell is losing money this month.
+
+627
+01:04:52,830 --> 01:04:59,291
+If she closes, she can never get the chance
+back without paying for it all over again.
+
+628
+01:04:59,730 --> 01:05:04,403
+Staying open keeps alive the chance that trade
+recovers.
+
+629
+01:05:04,830 --> 01:05:11,895
+And that chance is worth something. So she
+should absorb real losses before she shuts.
+
+630
+01:05:17,030 --> 01:05:24,095
+Down here, at nought point seven two, she
+finally gives up. That is the real quit-line.
+
+631
+01:05:24,930 --> 01:05:32,018
+At one, her day-to-day costs are exactly
+covered. That is where the textbook says stop.
+
+632
+01:05:32,863 --> 01:05:39,600
+At one point one, the textbook says build —
+day-to-day costs plus the normal return on the
+
+633
+01:05:39,600 --> 01:05:40,648
+money sunk in.
+
+634
+01:05:41,497 --> 01:05:46,054
+And at one point six two, she should actually
+build.
+
+635
+01:05:47,197 --> 01:05:54,156
+At the true build point her operating profit
+is nought point six two — more than six times
+
+636
+01:05:54,156 --> 01:05:57,791
+the normal return on the money she has sunk
+in.
+
+637
+01:05:58,230 --> 01:06:04,812
+And at the quit point she is absorbing losses
+of nearly a third of her day-to-day costs,
+
+638
+01:06:04,812 --> 01:06:07,729
+month after month, before she gives up.
+
+639
+01:06:11,163 --> 01:06:17,855
+Suppose the building costs more to put up. A
+bigger sunk cost. What happens to the two
+
+640
+01:06:17,855 --> 01:06:18,322
+lines?
+
+641
+01:06:18,763 --> 01:06:23,204
+The build-line goes up. She is more reluctant
+to start.
+
+642
+01:06:23,630 --> 01:06:28,145
+And the quit-line goes down. She is more
+reluctant to stop.
+
+643
+01:06:29,963 --> 01:06:36,992
+Say that one twice, because it is not obvious.
+A bigger stake to keep alive makes her slower
+
+644
+01:06:36,992 --> 01:06:43,485
+to start and slower to stop. Both at once, and
+for the same reason — there is more to
+
+645
+01:06:43,485 --> 01:06:44,096
+protect.
+
+646
+01:06:46,430 --> 01:06:53,450
+One more. If leaving is itself expensive —
+redundancy payments, restoring the site of a mine
+
+647
+01:06:53,450 --> 01:07:00,470
+— then the build-line rises further still. She
+is more cautious about entering something she
+
+648
+01:07:00,470 --> 01:07:02,454
+may have to pay to escape.
+
+649
+01:07:05,297 --> 01:07:09,494
+stopping = ruin, a flagged simplification
+
+650
+01:07:09,630 --> 01:07:14,524
+staying keeps recovery alive, so losses are
+absorbed
+
+651
+01:07:14,663 --> 01:07:21,670
+0.72 · 1.00 · 1.10 · 1.62
+
+652
+01:07:21,797 --> 01:07:25,390
+a bigger sunk cost slows her both ways
+
+653
+01:07:34,796 --> 01:07:41,759
+Take away the uncertainty for a moment, and
+leave only the sunk cost. The textbook still has
+
+654
+01:07:41,759 --> 01:07:47,133
+a small band where doing nothing is right —
+from one, to one point one.
+
+655
+01:07:47,563 --> 01:07:51,911
+That is the whole of it. A band nought point
+one wide.
+
+656
+01:07:53,729 --> 01:07:56,765
+Now put the uncertainty back in.
+
+657
+01:07:57,196 --> 01:08:03,390
+Nought point seven two, to one point six two.
+Nought point nine wide.
+
+658
+01:08:05,229 --> 01:08:12,298
+About nine times wider. That comparison is
+ours, not the paper's — the paper prints the four
+
+659
+01:08:12,298 --> 01:08:18,522
+levels and calls the difference quite a
+dramatic difference. We did the division.
+
+660
+01:08:20,363 --> 01:08:26,483
+This band has a name. The zone of inaction.
+The stretch where the right thing to do is
+
+661
+01:08:26,483 --> 01:08:27,551
+nothing at all.
+
+662
+01:08:31,096 --> 01:08:37,658
+First. Small frictions can produce much larger
+rigidities than models which ignore
+
+663
+01:08:37,658 --> 01:08:45,020
+gradually-arriving information would ever
+suggest. A little stickiness goes a very long way.
+
+664
+01:08:47,263 --> 01:08:54,780
+Second, and this one reaches outside the firm
+altogether. Hiring and firing cost money. So
+
+665
+01:08:54,780 --> 01:08:58,038
+exactly the same logic applies to jobs.
+
+666
+01:08:58,463 --> 01:09:01,864
+Employers hoard labour in downturns.
+
+667
+01:09:02,296 --> 01:09:05,423
+And they are slow to hire in upturns.
+
+668
+01:09:05,863 --> 01:09:12,099
+So what a worker adds to the business can sit
+well above the wage without anybody being
+
+669
+01:09:12,099 --> 01:09:16,042
+hired — and well below it without anybody
+being let go.
+
+670
+01:09:18,363 --> 01:09:25,080
+And the paper draws a conclusion from that
+which is worth hearing. The popular worry about
+
+671
+01:09:25,080 --> 01:09:31,797
+loss of jobs — the one economists usually wave
+away — may have more justification than the
+
+672
+01:09:31,797 --> 01:09:32,991
+textbook allows.
+
+673
+01:09:35,829 --> 01:09:41,443
+sunk costs alone: 1.00 – 1.10
+
+674
+01:09:41,563 --> 01:09:46,573
+with uncertainty: 0.72 – 1.62
+
+675
+01:09:46,696 --> 01:09:50,626
+small frictions → large rigidities
+
+676
+01:09:50,763 --> 01:09:53,868
+and the same logic applies to jobs
+
+677
+01:10:04,963 --> 01:10:12,525
+She starts at one. Money coming in exactly
+covers the day-to-day costs. Nothing is built.
+
+678
+01:10:12,996 --> 01:10:20,050
+It rises. It crosses one point one — the
+textbook's build-line — and nothing happens. She
+
+679
+01:10:20,050 --> 01:10:21,239
+does not build.
+
+680
+01:10:21,696 --> 01:10:27,008
+It keeps rising. And at one point six two, she
+builds.
+
+681
+01:10:28,263 --> 01:10:35,674
+Now the money coming in starts to fall. Back
+past one point six two. Back past one point
+
+682
+01:10:35,674 --> 01:10:36,011
+one.
+
+683
+01:10:36,463 --> 01:10:40,947
+All the way back down to one — exactly where
+it started.
+
+684
+01:10:47,129 --> 01:10:51,611
+The cause has completely reversed. The effect
+has not.
+
+685
+01:10:55,163 --> 01:10:58,912
+Take an iron bar, and loop a wire around it.
+
+686
+01:10:59,329 --> 01:11:05,036
+Pass an electric current through the wire, and
+the iron becomes magnetic.
+
+687
+01:11:05,463 --> 01:11:07,790
+Now switch the current off.
+
+688
+01:11:08,229 --> 01:11:15,547
+The magnetism does not go away. Some of it
+stays. The cause was temporary. The effect
+
+689
+01:11:15,547 --> 01:11:16,150
+lasted.
+
+690
+01:11:19,696 --> 01:11:26,041
+hysteresis. When the cause is reversed and the
+effect stays behind.
+
+691
+01:11:31,263 --> 01:11:35,712
+Push the money coming in far enough down, and
+she quits for good.
+
+692
+01:11:36,129 --> 01:11:40,608
+Now let it recover, all the way back to where
+it started.
+
+693
+01:11:41,029 --> 01:11:47,450
+She does not come back. Because coming back
+means paying the whole sunk cost over again.
+
+694
+01:11:49,296 --> 01:11:56,329
+And the paper's own careful point. Sunk costs
+alone can produce some of this. Adding
+
+695
+01:11:56,329 --> 01:11:59,510
+uncertainty magnifies it dramatically.
+
+696
+01:12:03,029 --> 01:12:09,843
+The dollar rose, and foreign firms poured into
+America — years late, because they were
+
+697
+01:12:09,843 --> 01:12:11,348
+waiting to be sure.
+
+698
+01:12:11,796 --> 01:12:18,407
+Then the dollar fell back to where it had
+been. And they did not leave. They had paid to get
+
+699
+01:12:18,407 --> 01:12:22,791
+in, and leaving would mean paying to get back
+in again later.
+
+700
+01:12:24,629 --> 01:12:32,037
+The cause reversed. The effect stayed. That is
+all hysteresis is — and now you have watched
+
+701
+01:12:32,037 --> 01:12:33,340
+it happen twice.
+
+702
+01:12:36,163 --> 01:12:42,612
+up past 1.10, nothing · past 1.62, she builds
+
+703
+01:12:42,729 --> 01:12:47,405
+back to 1.00 — and she does not close
+
+704
+01:12:47,529 --> 01:12:49,672
+the bar stays magnetic
+
+705
+01:12:49,796 --> 01:12:53,842
+hysteresis explains the dollar and the imports
+
+706
+01:13:02,229 --> 01:13:09,208
+Here is Nell, in America. And here is Kenji,
+running a similar factory in Japan.
+
+707
+01:13:09,629 --> 01:13:16,936
+American firms of the period demanded very
+high returns before they would build — and then
+
+708
+01:13:16,936 --> 01:13:24,406
+abandoned whole fields after short stretches
+of losses. Colour televisions. Video recorders.
+
+709
+01:13:24,406 --> 01:13:25,623
+Semiconductors.
+
+710
+01:13:26,063 --> 01:13:33,356
+Japanese firms did the opposite on both
+counts. They invested aggressively, and they hung
+
+711
+01:13:33,356 --> 01:13:33,601
+on.
+
+712
+01:13:38,729 --> 01:13:45,413
+Remember what uncertainty does to the two
+lines. It raises the build-line and lowers the
+
+713
+01:13:45,413 --> 01:13:49,667
+quit-line. Together. It cannot do one without
+the other.
+
+714
+01:13:51,496 --> 01:13:58,654
+So a firm too hesitant to invest should be
+more willing to ride out bad periods, not less.
+
+715
+01:13:58,654 --> 01:14:04,698
+The American firms were the opposite on both
+counts. The story does not fit.
+
+716
+01:14:08,229 --> 01:14:15,380
+The usual explanation is lifetime employment,
+which makes labour a cost you carry whether
+
+717
+01:14:15,380 --> 01:14:16,827
+you use it or not.
+
+718
+01:14:17,263 --> 01:14:24,531
+Lower day-to-day costs do mean revenue has to
+fall further before quitting makes sense. So
+
+719
+01:14:24,531 --> 01:14:25,500
+far so good.
+
+720
+01:14:25,929 --> 01:14:32,949
+But larger fixed and sunk commitments should
+make those same firms reluctant investors.
+
+721
+01:14:33,396 --> 01:14:40,324
+And they were the opposite. Particularly
+aggressive ones. So that explanation does not work
+
+722
+01:14:40,324 --> 01:14:40,857
+either.
+
+723
+01:14:44,396 --> 01:14:51,268
+Here is the spread of possible futures for a
+firm. Bad ones to the left, good ones to the
+
+724
+01:14:51,268 --> 01:14:51,732
+right.
+
+725
+01:14:52,163 --> 01:14:58,722
+For the Japanese firms, the bad half was
+cushioned. Government support, and cartels
+
+726
+01:14:58,722 --> 01:15:02,831
+tolerated in recessions, cut off the worst
+outcomes.
+
+727
+01:15:04,663 --> 01:15:11,701
+Now use the bad news principle. Waiting is
+worth less when there is less bad news to wait
+
+728
+01:15:11,701 --> 01:15:13,837
+out. So they entered early.
+
+729
+01:15:17,663 --> 01:15:23,325
+the good news principle. Staying is governed
+by the good possible outcomes.
+
+730
+01:15:26,863 --> 01:15:33,688
+And because the upside mattered relatively
+more for them, they stayed late as well. One
+
+731
+01:15:33,688 --> 01:15:37,062
+lopsided distribution, both puzzles solved.
+
+732
+01:15:40,596 --> 01:15:47,426
+Which gives two rules, and they are probably
+the most practically useful sentences in the
+
+733
+01:15:47,426 --> 01:15:52,874
+whole article. To get firms to invest sooner,
+reduce the downside risk.
+
+734
+01:15:54,696 --> 01:15:58,440
+To stop firms leaving, improve the upside.
+
+735
+01:16:00,263 --> 01:16:07,054
+Different instruments, for different jobs.
+Remember that. Part Three is built on it.
+
+736
+01:16:09,896 --> 01:16:14,627
+US: late in, early out · Japan: the reverse
+
+737
+01:16:14,763 --> 01:16:18,147
+option value moves both lines together
+
+738
+01:16:18,296 --> 01:16:21,995
+cushioned downside ⇒ early in, late out
+
+739
+01:16:22,129 --> 01:16:26,477
+downside → entry · upside → staying
+
+740
+01:16:35,862 --> 01:16:40,547
+Six similar firms, all facing the same
+swinging demand.
+
+741
+01:16:40,996 --> 01:16:48,045
+When the price rises to the entry line, new
+firms come in. More supply, and the price stops
+
+742
+01:16:48,045 --> 01:16:51,221
+rising. So it never gets above that line.
+
+743
+01:16:51,662 --> 01:16:58,464
+And when the price falls to the exit line,
+firms leave. Less supply, and the price stops
+
+744
+01:16:58,464 --> 01:17:02,174
+falling. So it never gets below that one
+either.
+
+745
+01:17:05,196 --> 01:17:12,298
+Why must the entry line sit above average
+cost? Suppose it did not — suppose entry capped
+
+746
+01:17:12,298 --> 01:17:15,011
+the price exactly at average cost.
+
+747
+01:17:15,429 --> 01:17:22,296
+Then firms could never do better than normal,
+and bad spells would still push them below it.
+
+748
+01:17:22,729 --> 01:17:27,762
+So on average they would lose. And nobody
+would enter at all.
+
+749
+01:17:28,196 --> 01:17:35,115
+Which means the entry line has to leave room
+for the good spells to pay for the bad ones.
+
+750
+01:17:35,115 --> 01:17:40,713
+The same argument upside down holds the exit
+line below day-to-day cost.
+
+751
+01:17:44,262 --> 01:17:51,121
+With these particular assumptions, the
+market's two lines turn out to be exactly the ones a
+
+752
+01:17:51,121 --> 01:17:57,829
+single firm on its own would have chosen. So
+every number from chapter twenty-one carries
+
+753
+01:17:57,829 --> 01:17:58,884
+straight over.
+
+754
+01:18:00,729 --> 01:18:07,373
+Carry the caveat, because it matters later.
+That result holds for identical, small,
+
+755
+01:18:07,373 --> 01:18:14,416
+price-taking firms, under the paper's
+particular assumptions. It is not a general truth.
+
+756
+01:18:17,962 --> 01:18:24,114
+So what should we expect to see? In the
+paper's own words: significant periods of
+
+757
+01:18:24,114 --> 01:18:29,885
+supernormal profits with no new entry, and of
+operating losses without exit.
+
+758
+01:18:31,729 --> 01:18:39,323
+An industry sitting perfectly still.
+Profitable firms not expanding. Loss-making firms not
+
+759
+01:18:39,323 --> 01:18:42,361
+closing. And nothing wrong anywhere.
+
+760
+01:18:45,896 --> 01:18:52,726
+A snapshot misleads. Firms making good profits
+with no new entrants is not proof of
+
+761
+01:18:52,726 --> 01:18:53,467
+monopoly.
+
+762
+01:18:53,896 --> 01:18:59,369
+Firms selling below day-to-day cost is not
+proof of predatory pricing.
+
+763
+01:18:59,796 --> 01:19:06,784
+And there is a sting. An action aimed at those
+profits — an antitrust case, a price cap —
+
+764
+01:19:06,784 --> 01:19:13,538
+depresses entry. And the reduced supply can
+actually raise the long-run average price.
+
+765
+01:19:13,962 --> 01:19:21,148
+And a government that props firms up in bad
+times will be anticipated. That draws in extra
+
+766
+01:19:21,148 --> 01:19:26,817
+entry, which makes the losses worse when the
+bad times actually arrive.
+
+767
+01:19:29,662 --> 01:19:33,685
+entry caps at H · exit floors at L
+
+768
+01:19:33,829 --> 01:19:37,689
+H above average cost, or nobody enters
+
+769
+01:19:37,829 --> 01:19:41,326
+profits without entry · losses without exit
+
+770
+01:19:41,462 --> 01:19:43,628
+so a snapshot misleads
+
+771
+01:19:52,029 --> 01:19:59,023
+The paper closes with an observation that
+reaches well outside business. Many personal,
+
+772
+01:19:59,023 --> 01:20:06,419
+social and political decisions have exactly
+the same three features. Costly to reverse. Made
+
+773
+01:20:06,419 --> 01:20:10,679
+under uncertainty. And the timing is yours to
+choose.
+
+774
+01:20:11,129 --> 01:20:14,386
+So the same inertia applies to them too.
+
+775
+01:20:17,929 --> 01:20:24,369
+A man and his partner, in New York, each with
+a rent-controlled flat. Their relationship
+
+776
+01:20:24,369 --> 01:20:28,906
+reaches the point where she suggests they give
+one of them up.
+
+777
+01:20:29,329 --> 01:20:31,158
+Let us give one of them up.
+
+778
+01:20:31,596 --> 01:20:38,450
+And he explains to her, at length, the
+importance of keeping options alive. It is unlikely
+
+779
+01:20:38,450 --> 01:20:44,086
+they would split up, he says, but given a
+positive probability, and so on.
+
+780
+01:20:45,929 --> 01:20:50,032
+She took it very badly, and ended the
+relationship.
+
+781
+01:20:53,562 --> 01:21:00,285
+Financial economists who hear that story say
+it proves how right he was. The paper says
+
+782
+01:21:00,285 --> 01:21:07,393
+something better. He had misread the situation
+entirely. It was not a decision problem under
+
+783
+01:21:07,393 --> 01:21:08,861
+uncertainty at all.
+
+784
+01:21:12,396 --> 01:21:18,427
+signalling. Doing something costly, because
+the cost is what makes it believable.
+
+785
+01:21:22,529 --> 01:21:25,681
+She was unsure how much he valued her.
+
+786
+01:21:26,129 --> 01:21:32,754
+And it was precisely his willingness to take
+the costly, irreversible step of giving up the
+
+787
+01:21:32,754 --> 01:21:39,378
+flat that would have carried the message.
+Anyone can say it. Only someone who means it will
+
+788
+01:21:39,378 --> 01:21:40,179
+pay for it.
+
+789
+01:21:40,596 --> 01:21:44,688
+He tried to sit on the fence, and fell off it.
+
+790
+01:21:47,529 --> 01:21:54,334
+And that gives the chapter a real point rather
+than a joke. It shows a limit of the whole
+
+791
+01:21:54,334 --> 01:22:01,214
+framework. Option value is not always the
+right lens. Sometimes the irreversibility is the
+
+792
+01:22:01,214 --> 01:22:01,826
+message.
+
+793
+01:22:04,662 --> 01:22:07,683
+the same three features appear elsewhere
+
+794
+01:22:07,829 --> 01:22:11,562
+keeping the option open can be the wrong move
+
+795
+01:22:11,696 --> 01:22:14,581
+signalling: the cost is the message
+
+796
+01:22:23,295 --> 01:22:26,730
+investment: spend now, earn later
+
+797
+01:22:26,928 --> 01:22:29,779
+some of it is sunk — never got back
+
+798
+01:22:29,995 --> 01:22:32,880
+the future arrives a bit at a time
+
+799
+01:22:33,095 --> 01:22:35,307
+the chance usually keeps
+
+800
+01:22:36,695 --> 01:22:41,043
+so waiting pays: bad half cut, good half kept
+
+801
+01:22:41,262 --> 01:22:43,787
+not about disliking risk
+
+802
+01:22:43,995 --> 01:22:47,554
+waiting costs profit ⇒ a level to act at
+
+803
+01:22:47,762 --> 01:22:50,867
+the trigger sits above the textbook line
+
+804
+01:22:52,262 --> 01:22:55,495
+how far: choppiness and the cost of money
+
+805
+01:22:55,695 --> 01:23:00,531
+base case ≈ double · rough trade > 3×
+
+806
+01:23:00,728 --> 01:23:02,824
+cheaper money RAISES it
+
+807
+01:23:03,028 --> 01:23:06,761
+in reverse: absorb losses before quitting
+
+808
+01:23:08,162 --> 01:23:12,312
+the do-nothing band ≈ 9× wider
+
+809
+01:23:12,528 --> 01:23:15,602
+up and back down — the effect stays
+
+810
+01:23:15,795 --> 01:23:18,541
+cushion the downside ⇒ early in
+
+811
+01:23:18,728 --> 01:23:22,508
+many firms ⇒ an industry that looks frozen
+
+812
+01:23:27,562 --> 01:23:34,198
+Give up at nought point seven two. Build at
+one point six two. And in between, a wide
+
+813
+01:23:34,198 --> 01:23:37,867
+stretch where the right thing to do is
+nothing.
+
+814
+01:23:41,395 --> 01:23:46,048
+It does not say firms are irrational. It says
+the opposite.
+
+815
+01:23:46,495 --> 01:23:49,977
+It does not say waiting is always right.
+
+816
+01:23:50,395 --> 01:23:55,900
+And it does not apply where a rival can snatch
+the opportunity away from you.
+
+817
+01:24:00,028 --> 01:24:06,515
+The farmer keeps going because closing is
+final. Staying open keeps the good years possible,
+
+818
+01:24:06,515 --> 01:24:10,887
+and that is worth more to him than the losses
+are costing him.
+
+819
+01:24:12,728 --> 01:24:19,455
+And I do not build, because building is final
+too. Waiting another year is worth something,
+
+820
+01:24:19,455 --> 01:24:24,038
+and this year's numbers are not yet good
+enough to pay for it.
+
+821
+01:24:26,862 --> 01:24:33,417
+One more thing before we stop. A government
+somewhere spent hundreds of billions of pounds
+
+822
+01:24:33,417 --> 01:24:36,840
+on a policy that assumed none of this was
+true.
+
+823
+01:24:41,762 --> 01:24:43,927
+the whole ladder, in order
+
+824
+01:24:44,062 --> 01:24:46,738
+not irrational · not always right
+
+825
+01:24:46,862 --> 01:24:50,165
+next: a policy that assumed none of it
+
+826
+01:25:06,083 --> 01:25:12,891
+Nothing here assumes you know what a central
+bank is, or an interest rate, or a bond. We
+
+827
+01:25:12,891 --> 01:25:18,229
+build all of them from scratch, exactly as we
+built cost and revenue.
+
+828
+01:25:18,649 --> 01:25:25,936
+And there is one new person. This is Kit. He
+is a student, and the argument in Part Three is
+
+829
+01:25:25,936 --> 01:25:33,223
+his. He notices things, gets excited, and then
+talks himself down when the evidence will not
+
+830
+01:25:33,223 --> 01:25:36,788
+carry him. That last part is the whole point.
+
+831
+01:25:39,016 --> 01:25:44,279
+central bank. The public body that looks after
+a country's money.
+
+832
+01:25:49,083 --> 01:25:53,756
+interest. The extra a borrower pays for the
+use of money.
+
+833
+01:25:58,449 --> 01:26:05,758
+Borrow a hundred pounds at five per cent, and
+you pay back a hundred and five after a year.
+
+834
+01:26:09,283 --> 01:26:14,246
+interest rate. How much extra, as a percentage
+per year.
+
+835
+01:26:18,949 --> 01:26:24,857
+monetary policy. What a central bank does to
+make borrowing easier or harder.
+
+836
+01:26:29,383 --> 01:26:36,241
+Meet the Governor. He runs the central bank.
+He is well-meaning, he holds the levers, and he
+
+837
+01:26:36,241 --> 01:26:42,279
+is genuinely trying to help. He is not the
+villain of this film. There isn't one.
+
+838
+01:26:43,816 --> 01:26:51,038
+After the crash of two thousand and eight, the
+Bank wanted people and businesses to spend
+
+839
+01:26:51,038 --> 01:26:55,420
+and build. So it did the usual thing. It cut
+the rate.
+
+840
+01:26:55,849 --> 01:26:58,778
+And it cut it again. And again.
+
+841
+01:26:59,216 --> 01:27:06,513
+And by two thousand and nine the rate was
+almost at zero. The lever had hit the floor. You
+
+842
+01:27:06,513 --> 01:27:08,945
+cannot cut much below nothing.
+
+843
+01:27:10,783 --> 01:27:17,398
+So they needed something else. That something
+else is the subject of the next two chapters.
+
+844
+01:27:20,216 --> 01:27:23,264
+central bank: looks after the money
+
+845
+01:27:23,383 --> 01:27:26,339
+interest, and the rate, per year
+
+846
+01:27:26,483 --> 01:27:29,065
+monetary policy: the lever
+
+847
+01:27:29,183 --> 01:27:32,939
+by 2009 the lever hit the floor
+
+848
+01:27:42,349 --> 01:27:49,703
+In normal times the Bank's rate travels down
+this line, through a bank, and comes out as the
+
+849
+01:27:49,703 --> 01:27:51,861
+rate an ordinary firm pays.
+
+850
+01:27:52,283 --> 01:27:59,225
+Then, in two thousand and seven and eight,
+banks stopped trusting each other. Lenders would
+
+851
+01:27:59,225 --> 01:28:04,108
+provide funds to a bank only at a much higher
+price — if at all.
+
+852
+01:28:04,549 --> 01:28:12,155
+A wedge opened up. The Bank's rate went down.
+The rate a firm actually paid did not follow
+
+853
+01:28:12,155 --> 01:28:12,409
+it.
+
+854
+01:28:14,549 --> 01:28:20,046
+credit spread. The wedge between the Bank's
+rate and the rate a firm pays.
+
+855
+01:28:26,283 --> 01:28:33,462
+On the eighth of October two thousand and
+eight, central banks in Canada, China, the euro
+
+856
+01:28:33,462 --> 01:28:40,884
+area, Sweden, Switzerland, the United Kingdom
+and the United States all cut on the same day.
+
+857
+01:28:41,316 --> 01:28:47,688
+In Britain, the Bank cut its rate by three
+percentage points in the last three months of
+
+858
+01:28:47,688 --> 01:28:48,412
+that year.
+
+859
+01:28:48,849 --> 01:28:55,733
+And by a further one and a half percentage
+points in the first three months of two thousand
+
+860
+01:28:55,733 --> 01:28:56,413
+and nine.
+
+861
+01:28:56,849 --> 01:29:01,023
+And there it stopped, at nought point five per
+cent.
+
+862
+01:29:02,849 --> 01:29:08,979
+And note that they stopped just above zero,
+not at it — because of worries about what
+
+863
+01:29:08,979 --> 01:29:15,541
+extremely low rates would do to banks' own
+profits, and to the working of the money markets
+
+864
+01:29:15,541 --> 01:29:16,335
+themselves.
+
+865
+01:29:20,283 --> 01:29:26,184
+the zero lower bound. The point where a
+central bank cannot cut any further.
+
+866
+01:29:30,983 --> 01:29:37,013
+They could lend to banks that were short of
+cash — the oldest job a central bank has.
+
+867
+01:29:37,449 --> 01:29:44,345
+They could buy assets with money they created.
+That is the one this film is about, and the
+
+868
+01:29:44,345 --> 01:29:46,107
+next chapter builds it.
+
+869
+01:29:46,549 --> 01:29:52,787
+Or they could simply say something about what
+they intended to do in future — which turns
+
+870
+01:29:52,787 --> 01:29:55,591
+out to matter more than you would think.
+
+871
+01:29:56,016 --> 01:30:01,768
+All of that together goes by one name.
+Unconventional monetary policy.
+
+872
+01:30:04,616 --> 01:30:08,024
+lenders would fund banks only dearly
+
+873
+01:30:08,149 --> 01:30:10,275
+a credit spread opened up
+
+874
+01:30:10,416 --> 01:30:16,027
+cut 3 points, then 1.5 — stop at 0.5
+
+875
+01:30:16,149 --> 01:30:19,499
+what is left: unconventional policy
+
+876
+01:30:27,883 --> 01:30:34,332
+This is the chapter where it would be easiest
+to lose you, so we go slowly, and we do the
+
+877
+01:30:34,332 --> 01:30:35,781
+key sum three times.
+
+878
+01:30:36,216 --> 01:30:43,350
+A government wants to spend more this year
+than it collects in tax. So it needs to borrow.
+
+879
+01:30:45,183 --> 01:30:51,848
+And here is somebody with money they would
+like to put somewhere safe — a pension fund, an
+
+880
+01:30:51,848 --> 01:30:53,107
+insurer, a saver.
+
+881
+01:30:53,549 --> 01:30:56,871
+The saver hands over a hundred pounds.
+
+882
+01:30:59,516 --> 01:31:04,239
+a gilt. A piece of British government debt,
+bought and sold.
+
+883
+01:31:07,583 --> 01:31:14,627
+And gets back a piece of paper. A promise.
+Five pounds every year, and then the hundred
+
+884
+01:31:14,627 --> 01:31:16,894
+pounds back on a fixed date.
+
+885
+01:31:19,916 --> 01:31:27,136
+Year after year, the five pounds arrives. It
+never changes. That is the whole point of it.
+
+886
+01:31:27,583 --> 01:31:32,405
+And on the date printed on it, the hundred
+pounds comes back.
+
+887
+01:31:36,649 --> 01:31:43,185
+The saver does not have to keep it until then.
+There is a market, and the gilt can be sold
+
+888
+01:31:43,185 --> 01:31:47,615
+on to somebody else, at whatever price the two
+of them agree.
+
+889
+01:31:48,049 --> 01:31:54,782
+But whatever price it changes hands at, the
+five pounds a year printed on it never changes.
+
+890
+01:31:54,782 --> 01:31:58,259
+That one fact is the whole of the next
+section.
+
+891
+01:32:03,483 --> 01:32:09,839
+yield. What the fixed payments are worth, as a
+percentage of today's price.
+
+892
+01:32:13,383 --> 01:32:20,273
+The payments printed on the ticket never
+change. Whatever happens, it pays five pounds a
+
+893
+01:32:20,273 --> 01:32:21,995
+year. Hold on to that.
+
+894
+01:32:22,416 --> 01:32:29,699
+Pay a hundred and twenty-five for exactly the
+same ticket, and the same five pounds is only
+
+895
+01:32:29,699 --> 01:32:30,820
+four per cent.
+
+896
+01:32:31,249 --> 01:32:37,915
+Pay two hundred, and it is two and a half.
+Same ticket. Same five pounds.
+
+897
+01:32:39,749 --> 01:32:47,111
+Price up, return down. Always. There is no way
+round it, because the payments on the ticket
+
+898
+01:32:47,111 --> 01:32:47,920
+are fixed.
+
+899
+01:32:52,649 --> 01:32:55,790
+The central bank creates new money.
+
+900
+01:32:56,216 --> 01:33:01,223
+And uses it to buy these tickets. In enormous
+quantities.
+
+901
+01:33:01,649 --> 01:33:08,911
+So many buyers appear that the price of gilts
+rises. And therefore, by the sum we just did
+
+902
+01:33:08,911 --> 01:33:11,251
+three times, the yield falls.
+
+903
+01:33:15,583 --> 01:33:22,637
+One careful sentence about creating money,
+because it is the thing everyone misunderstands.
+
+904
+01:33:22,637 --> 01:33:29,535
+The Bank credits the seller's account with
+money that did not exist before, and takes the
+
+905
+01:33:29,535 --> 01:33:30,853
+bond in exchange.
+
+906
+01:33:31,283 --> 01:33:37,171
+Nothing is printed, and nothing is given away.
+An asset is swapped for money.
+
+907
+01:33:40,016 --> 01:33:43,842
+a gilt: fixed payments, on a fixed date
+
+908
+01:33:43,983 --> 01:33:47,797
+price up → yield down, always
+
+909
+01:33:47,916 --> 01:33:51,544
+the Bank creates money and buys gilts
+
+910
+01:33:51,683 --> 01:33:55,427
+an asset swap — not a gift, not printing
+
+911
+01:34:03,816 --> 01:34:08,906
+The policy is easy to describe and easy to get
+wrong. So we are going to follow the money
+
+912
+01:34:08,906 --> 01:34:11,365
+through three sets of books, one at a time.
+
+913
+01:34:13,483 --> 01:34:19,526
+a balance sheet. What somebody owns on one
+side, what they owe on the other.
+
+914
+01:34:24,749 --> 01:34:31,313
+The people who actually sell the gilts are
+usually not banks. They are pension funds and
+
+915
+01:34:31,313 --> 01:34:35,042
+insurance companies — the non-bank private
+sector.
+
+916
+01:34:39,983 --> 01:34:45,933
+The seller hands over its gilts. So its
+holdings of gilts go down.
+
+917
+01:34:46,383 --> 01:34:53,807
+And it gets money instead — not printed notes,
+but a number credited to its bank account. So
+
+918
+01:34:53,807 --> 01:34:55,340
+its deposits go up.
+
+919
+01:34:57,183 --> 01:35:04,353
+The central bank now owns the gilts. And it
+pays for them by creating reserves — money that
+
+920
+01:35:04,353 --> 01:35:07,269
+only banks hold, at the central bank.
+
+921
+01:35:09,416 --> 01:35:15,295
+reserves. Money banks hold at the central
+bank, and nobody else can.
+
+922
+01:35:18,383 --> 01:35:25,313
+And the bank in the middle sits between them.
+It has more reserves on one side, and it owes
+
+923
+01:35:25,313 --> 01:35:31,176
+the seller more deposits on the other. Both
+sides of its books grow together.
+
+924
+01:35:33,016 --> 01:35:39,756
+Look at that and notice what has not happened.
+Nobody has been given anything. Every single
+
+925
+01:35:39,756 --> 01:35:43,237
+one of those entries is matched by another
+one.
+
+926
+01:35:47,183 --> 01:35:53,942
+What has happened is that the seller's
+portfolio has been disturbed. It wanted gilts, and
+
+927
+01:35:53,942 --> 01:36:00,169
+now it is holding money. And that disturbance
+is where the whole mechanism starts.
+
+928
+01:36:03,716 --> 01:36:10,262
+Ordinary monetary policy sets the price of
+money. One short-term interest rate, and
+
+929
+01:36:10,262 --> 01:36:15,310
+everything else follows from what people
+expect that rate to do.
+
+930
+01:36:15,749 --> 01:36:23,056
+Quantitative easing sets the quantity instead.
+And it aims directly at longer-term rates,
+
+931
+01:36:23,056 --> 01:36:26,914
+rather than reaching them through
+expectations.
+
+932
+01:36:30,449 --> 01:36:36,860
+And the authors are careful here. There is
+nothing unusual about a central bank buying
+
+933
+01:36:36,860 --> 01:36:43,643
+assets at all. What distinguishes these
+operations is the circumstances they took place in,
+
+934
+01:36:43,643 --> 01:36:44,836
+and their scale.
+
+935
+01:36:45,283 --> 01:36:51,570
+And one more difference, which matters
+enormously in the next chapter. What is bought.
+
+936
+01:36:51,570 --> 01:36:56,468
+Short-dated government debt is very nearly the
+same thing as money.
+
+937
+01:36:56,916 --> 01:37:03,744
+Long-dated gilts, company debt and
+mortgage-backed securities are not. The effectiveness of
+
+938
+01:37:03,744 --> 01:37:08,321
+the policy may depend on what is bought, as
+well as how much.
+
+939
+01:37:11,149 --> 01:37:14,847
+the sellers are pension funds, not banks
+
+940
+01:37:14,983 --> 01:37:18,484
+three sets of books, every entry matched
+
+941
+01:37:18,616 --> 01:37:21,838
+QE sets a quantity, not a price
+
+942
+01:37:21,983 --> 01:37:25,727
+and what is bought matters, not just how much
+
+943
+01:37:32,649 --> 01:37:39,382
+Leg one of the chain has three channels, and
+this is the big one. The one the Bank of
+
+944
+01:37:39,382 --> 01:37:41,442
+England itself puts first.
+
+945
+01:37:43,483 --> 01:37:50,317
+At the zero lower bound, money pays nothing.
+And a piece of government debt that matures
+
+946
+01:37:50,317 --> 01:37:55,055
+next month, at a rate of practically zero,
+also pays nothing.
+
+947
+01:37:55,483 --> 01:38:01,782
+If the seller does not care which of those two
+it holds, the story ends right there. It
+
+948
+01:38:01,782 --> 01:38:06,198
+takes the money, puts it in a drawer, and
+nothing else moves.
+
+949
+01:38:10,216 --> 01:38:16,224
+a liquidity trap. When extra money is simply
+held, and nothing moves.
+
+950
+01:38:19,749 --> 01:38:26,835
+Economists have a name for that. And buying
+short-dated debt with money — what is sometimes
+
+951
+01:38:26,835 --> 01:38:33,842
+called pure quantitative easing — can run
+straight into it. Japan did exactly that between
+
+952
+01:38:33,842 --> 01:38:37,423
+two thousand and one and two thousand and six.
+
+953
+01:38:40,949 --> 01:38:47,780
+Line up the things somebody can hold, from the
+safest at the bottom to the riskiest at the
+
+954
+01:38:47,780 --> 01:38:48,084
+top.
+
+955
+01:38:48,516 --> 01:38:55,737
+A ten-year gilt pays more than money. Sell it
+and hold the money instead, and the return on
+
+956
+01:38:55,737 --> 01:38:57,879
+your whole portfolio drops.
+
+957
+01:39:02,116 --> 01:39:08,130
+The seller has money it did not want. So it
+goes looking for something else to hold —
+
+958
+01:39:08,130 --> 01:39:12,233
+something a little riskier, which is now
+relatively cheap.
+
+959
+01:39:12,683 --> 01:39:18,702
+And whoever sells it that thing now has the
+money instead. So they go looking too.
+
+960
+01:39:19,149 --> 01:39:25,561
+The authors call it passing the money around
+like a hot potato. Nobody wants to be left
+
+961
+01:39:25,561 --> 01:39:26,372
+holding it.
+
+962
+01:39:29,916 --> 01:39:36,774
+Think of all the interest-rate risk in the
+bond market as one pool, which somebody has to
+
+963
+01:39:36,774 --> 01:39:37,236
+carry.
+
+964
+01:39:37,683 --> 01:39:44,826
+When the central bank buys long-dated bonds,
+it carries some of that risk itself. So there
+
+965
+01:39:44,826 --> 01:39:48,080
+is less left for everybody else to carry.
+
+966
+01:39:48,516 --> 01:39:55,328
+And so the extra return they demand for
+carrying it falls, which pushes longer-term real
+
+967
+01:39:55,328 --> 01:40:02,373
+interest rates down. That is the thinking
+behind the American programme nicknamed operation
+
+968
+01:40:02,373 --> 01:40:02,838
+twist.
+
+969
+01:40:05,683 --> 01:40:09,845
+if money and bills are the same, nothing moves
+
+970
+01:40:09,983 --> 01:40:13,525
+buy long, and the seller must go up the ladder
+
+971
+01:40:13,649 --> 01:40:16,920
+money passed along like a hot potato
+
+972
+01:40:17,049 --> 01:40:21,293
+and the Bank carries risk everyone else was
+carrying
+
+973
+01:40:29,681 --> 01:40:36,158
+The second channel does not need the money to
+go anywhere at all. It works purely through
+
+974
+01:40:36,158 --> 01:40:38,487
+what the action tells everybody.
+
+975
+01:40:38,914 --> 01:40:45,630
+A very large purchase is a signal. It says the
+central bank is serious about getting the
+
+976
+01:40:45,630 --> 01:40:50,743
+economy going, and that it will keep rates low
+for a long time yet.
+
+977
+01:40:51,181 --> 01:40:57,772
+And if everybody believes that, they act on it
+now, before anything else has happened at
+
+978
+01:40:57,772 --> 01:40:58,071
+all.
+
+979
+01:40:59,914 --> 01:41:07,086
+Which helps keep people's expectations of
+future inflation anchored. And expectations, as a
+
+980
+01:41:07,086 --> 01:41:10,869
+later chapter will show, are themselves a
+lever.
+
+981
+01:41:16,114 --> 01:41:21,688
+liquidity. How easily a thing can be sold
+without moving its price.
+
+982
+01:41:25,014 --> 01:41:31,769
+When markets seize up, you may not be able to
+find a buyer at all. So investors demand a
+
+983
+01:41:31,769 --> 01:41:35,376
+higher return to compensate them for that
+risk.
+
+984
+01:41:37,814 --> 01:41:45,474
+A central bank buying on a very large scale
+is, among other things, a buyer. It puts trading
+
+985
+01:41:45,474 --> 01:41:49,638
+back into the market, and that premium comes
+down.
+
+986
+01:41:53,181 --> 01:41:59,184
+But the authors are careful about this one.
+The effect probably lasts only while the
+
+987
+01:41:59,184 --> 01:42:00,827
+purchases are going on.
+
+988
+01:42:01,247 --> 01:42:06,194
+And in gilt markets, which are normally very
+liquid anyway,
+
+989
+01:42:06,614 --> 01:42:08,222
+it may be small.
+
+990
+01:42:10,047 --> 01:42:16,857
+There is also disagreement about how big those
+effects were and how long they lasted. And
+
+991
+01:42:16,857 --> 01:42:22,749
+the effects on wider classes of assets are
+less marked than on company bonds.
+
+992
+01:42:25,581 --> 01:42:28,756
+channel two works purely through the signal
+
+993
+01:42:28,881 --> 01:42:33,043
+channel three puts trading back in a frozen
+market
+
+994
+01:42:33,181 --> 01:42:36,298
+and the authors hedge channel three hard
+
+995
+01:42:44,714 --> 01:42:51,888
+Leg one moved the prices of things in
+financial markets. Leg two has to turn that into
+
+996
+01:42:51,888 --> 01:42:56,977
+somebody actually spending money. And it does
+it in two ways.
+
+997
+01:43:00,514 --> 01:43:07,653
+And that gives the sentence the whole policy
+rests on. Their words: this fall in the cost of
+
+998
+01:43:07,653 --> 01:43:14,405
+capital should boost consumption and
+investment, by increasing incentives to borrow and
+
+999
+01:43:14,405 --> 01:43:16,578
+reducing incentives to save.
+
+1000
+01:43:22,714 --> 01:43:28,223
+Banks were badly damaged, so any route through
+them was likely impaired.
+
+1001
+01:43:28,647 --> 01:43:34,377
+Households and smaller companies have no
+access to capital markets at all.
+
+1002
+01:43:34,814 --> 01:43:38,477
+So they may not directly benefit from this
+channel.
+
+1003
+01:43:44,814 --> 01:43:51,254
+And be fair to them, because they do not leave
+it there. They name three further routes by
+
+1004
+01:43:51,254 --> 01:43:53,973
+which small firms might still benefit.
+
+1005
+01:43:57,514 --> 01:44:04,227
+An obvious implication of a fall in gilt
+yields is that the government's own cost of
+
+1006
+01:44:04,227 --> 01:44:08,863
+borrowing is now lower. Gilts are exactly what
+was bought.
+
+1007
+01:44:09,281 --> 01:44:15,550
+And their answer is that it will not change
+what the government does. Governments take a
+
+1008
+01:44:15,550 --> 01:44:22,033
+longer-term view. Their spending plans should
+therefore be unaffected by cyclical movements
+
+1009
+01:44:22,033 --> 01:44:23,316
+in interest rates.
+
+1010
+01:44:26,847 --> 01:44:32,888
+When asset prices go up, the people who own
+those assets are richer. And higher wealth
+
+1011
+01:44:32,888 --> 01:44:34,714
+should mean more spending.
+
+1012
+01:44:35,147 --> 01:44:41,653
+They put a number on it. Three hundred and
+seventy-five billion pounds of announced
+
+1013
+01:44:41,653 --> 01:44:48,863
+purchases will eventually boost British
+households' net financial wealth by about thirty per
+
+1014
+01:44:48,863 --> 01:44:49,255
+cent.
+
+1015
+01:44:51,081 --> 01:44:57,824
+Those gains went largely to the households
+holding the most financial assets — in particular
+
+1016
+01:44:57,824 --> 01:45:04,421
+older and more affluent ones. As with all
+monetary policy, they say, there are winners and
+
+1017
+01:45:04,421 --> 01:45:04,934
+losers.
+
+1018
+01:45:07,781 --> 01:45:11,102
+cheaper borrowing, and owners feeling richer
+
+1019
+01:45:11,247 --> 01:45:15,572
+the cost-of-capital sentence, hedged three
+times
+
+1020
+01:45:15,714 --> 01:45:18,913
+and three named ways round the hedge
+
+1021
+01:45:19,047 --> 01:45:27,285
+£375bn → about +30% of net financial wealth
+
+1022
+01:45:34,214 --> 01:45:39,276
+There is a second way of telling the same
+story, and it clears up the thing almost everybody
+
+1023
+01:45:39,276 --> 01:45:42,467
+gets wrong about this policy. So it is worth
+four minutes.
+
+1024
+01:45:44,514 --> 01:45:51,824
+Narrow money is reserves — the money banks
+hold at the central bank. Nobody else can touch
+
+1025
+01:45:51,824 --> 01:45:52,067
+it.
+
+1026
+01:45:52,514 --> 01:45:59,694
+Broad money is deposits — the money in
+everybody else's bank account. That is the one that
+
+1027
+01:45:59,694 --> 01:46:00,571
+gets spent.
+
+1028
+01:46:02,414 --> 01:46:09,195
+And the transmission of this policy runs
+through broad money. Not narrow money. The Bank of
+
+1029
+01:46:09,195 --> 01:46:11,504
+England has said so explicitly.
+
+1030
+01:46:15,547 --> 01:46:22,976
+Put a pound of reserves into the system, says
+the textbook, and broad money rises by ten or
+
+1031
+01:46:22,976 --> 01:46:24,772
+fifteen times as much.
+
+1032
+01:46:25,214 --> 01:46:27,826
+In Britain, it was less than one.
+
+1033
+01:46:30,847 --> 01:46:37,375
+And the authors say plainly that this is not
+evidence the policy failed. On their own
+
+1034
+01:46:37,375 --> 01:46:44,440
+account, the right thing to expect was about
+one, not fifteen. The failure of broad money to
+
+1035
+01:46:44,440 --> 01:46:47,973
+explode is exactly what their theory predicts.
+
+1036
+01:46:51,514 --> 01:46:57,836
+Broad money grew by less than two hundred
+billion pounds during the first round.
+
+1037
+01:46:58,281 --> 01:47:02,431
+Banks swapped short-term deposits for
+long-term debt.
+
+1038
+01:47:02,881 --> 01:47:09,784
+And large companies raised money by issuing
+bonds instead of borrowing from banks. Both of
+
+1039
+01:47:09,784 --> 01:47:11,702
+those reduce broad money.
+
+1040
+01:47:15,247 --> 01:47:21,361
+You will hear it said that the banks are
+sitting on all that money instead of lending it
+
+1041
+01:47:21,361 --> 01:47:21,639
+out.
+
+1042
+01:47:22,081 --> 01:47:29,004
+The banking system cannot do that. The amount
+of reserves in the system is decided by how
+
+1043
+01:47:29,004 --> 01:47:35,071
+the central bank chose to fund its purchases —
+not by any bank's own decision.
+
+1044
+01:47:35,514 --> 01:47:42,898
+Reserves went up a lot because of how the
+purchases were paid for. That is arithmetic, not a
+
+1045
+01:47:42,898 --> 01:47:43,460
+choice.
+
+1046
+01:47:46,981 --> 01:47:53,592
+The only way more reserves can lead to more
+lending is if they change a bank's incentive to
+
+1047
+01:47:53,592 --> 01:47:58,024
+lend — for instance by making the bank's own
+funding cheaper.
+
+1048
+01:47:58,447 --> 01:48:01,692
+Which is a completely different mechanism.
+
+1049
+01:48:04,514 --> 01:48:08,932
+narrow money is reserves; broad money is
+deposits
+
+1050
+01:48:09,081 --> 01:48:11,803
+the policy runs through broad money
+
+1051
+01:48:11,947 --> 01:48:15,348
+the multiplier was under one — as predicted
+
+1052
+01:48:15,481 --> 01:48:19,132
+banks cannot choose the quantity of reserves
+
+1053
+01:48:26,079 --> 01:48:30,779
+The authors do something in this section that
+a less honest article would have left out.
+
+1054
+01:48:30,779 --> 01:48:35,478
+They set out, at length, a well-known result
+which says the whole policy does nothing at
+
+1055
+01:48:35,478 --> 01:48:35,692
+all.
+
+1056
+01:48:37,713 --> 01:48:44,792
+The seller hands over something risky and gets
+back something safe. Every channel so far has
+
+1057
+01:48:44,792 --> 01:48:49,870
+assumed that changes how much risk the private
+sector is carrying.
+
+1058
+01:48:53,413 --> 01:48:56,918
+Start with the risk sitting in the private
+sector.
+
+1059
+01:48:57,346 --> 01:49:03,017
+It did not disappear. It moved onto the
+central bank's own books.
+
+1060
+01:49:03,446 --> 01:49:07,002
+And who owns the central bank? The government.
+
+1061
+01:49:07,446 --> 01:49:13,712
+And who pays for the government? Households,
+through the taxes they will pay in future.
+
+1062
+01:49:14,146 --> 01:49:20,836
+And households are the private sector. The
+risk has gone all the way round and come back to
+
+1063
+01:49:20,836 --> 01:49:22,673
+exactly where it started.
+
+1064
+01:49:23,113 --> 01:49:29,772
+So the household's risk, taken as a whole, has
+not changed. There is nothing to rebalance.
+
+1065
+01:49:29,772 --> 01:49:32,361
+And the policy does nothing at all.
+
+1066
+01:49:35,879 --> 01:49:40,027
+People have to see straight through to the
+state's own books.
+
+1067
+01:49:40,446 --> 01:49:44,492
+There must be no limits on who can hold what.
+
+1068
+01:49:44,913 --> 01:49:49,377
+And the future taxes must fall on the very
+same people.
+
+1069
+01:49:49,813 --> 01:49:54,722
+And the authors say it plainly. Those
+assumptions are very strong.
+
+1070
+01:49:58,246 --> 01:50:04,604
+There is one way out of it, and it is a
+promise. The central bank says it will hold rates
+
+1071
+01:50:04,604 --> 01:50:09,819
+low for longer than it otherwise would — even
+once things have recovered.
+
+1072
+01:50:10,246 --> 01:50:16,687
+And here is the catch, which the authors are
+careful about. The promise has to be believed.
+
+1073
+01:50:17,113 --> 01:50:23,897
+But once the economy has recovered — precisely
+because everyone believed the promise — the
+
+1074
+01:50:23,897 --> 01:50:27,139
+central bank has no reason left to keep it.
+
+1075
+01:50:29,479 --> 01:50:34,347
+A promise nobody has to keep is a promise
+nobody believes.
+
+1076
+01:50:37,879 --> 01:50:44,711
+Which is why one reading of quantitative
+easing is that its real job was the signalling all
+
+1077
+01:50:44,711 --> 01:50:50,567
+along — an action, rather than a promise, and
+actions are harder to take back.
+
+1078
+01:50:53,413 --> 01:50:57,285
+risk moved to the state and back through taxes
+
+1079
+01:50:57,413 --> 01:51:00,669
+so in that world the policy does nothing
+
+1080
+01:51:00,813 --> 01:51:03,977
+the assumptions behind it are very strong
+
+1081
+01:51:04,113 --> 01:51:07,487
+and the way out is a promise nobody must keep
+
+1082
+01:51:15,879 --> 01:51:22,401
+Buying assets was not the only thing central
+banks did. The authors group the rest into
+
+1083
+01:51:22,401 --> 01:51:29,223
+three, and each one is worth knowing, because
+Part Three has to be fair about what else was
+
+1084
+01:51:29,223 --> 01:51:29,898
+going on.
+
+1085
+01:51:34,446 --> 01:51:41,562
+Left to themselves, people expect a rate that
+has been cut to nothing to start rising again
+
+1086
+01:51:41,562 --> 01:51:42,500
+fairly soon.
+
+1087
+01:51:42,946 --> 01:51:49,734
+So the central bank simply tells them
+otherwise. It says the rate will stay where it is for
+
+1088
+01:51:49,734 --> 01:51:50,928
+a long time yet.
+
+1089
+01:51:52,746 --> 01:51:59,068
+And the authors are careful about how well it
+worked. It did move expectations.
+
+1090
+01:51:59,512 --> 01:52:04,689
+But markets never fully priced in the cuts the
+announcements implied.
+
+1091
+01:52:05,112 --> 01:52:11,627
+And none of it was quite the promise to be
+irresponsible later that the theory in the last
+
+1092
+01:52:11,627 --> 01:52:13,582
+chapter actually calls for.
+
+1093
+01:52:17,112 --> 01:52:24,324
+This one is the oldest job a central bank has,
+and it is not really monetary policy at all.
+
+1094
+01:52:24,324 --> 01:52:31,614
+When a sound bank cannot borrow simply because
+everyone has panicked, the central bank lends
+
+1095
+01:52:31,614 --> 01:52:35,814
+to it — at a penal rate, and against good
+collateral.
+
+1096
+01:52:36,246 --> 01:52:43,462
+And in the euro area, two operations in late
+twenty-eleven and early twenty-twelve lent over
+
+1097
+01:52:43,462 --> 01:52:50,130
+a trillion euros for three years — aimed,
+their central bank argued, at repairing the
+
+1098
+01:52:50,130 --> 01:52:52,483
+transmission mechanism itself.
+
+1099
+01:52:56,012 --> 01:53:02,770
+The third group exists because of the wedge
+from an earlier chapter. Banks looked risky, so
+
+1100
+01:53:02,770 --> 01:53:08,859
+their own funding was dear, so what they
+charged households and firms stayed high.
+
+1101
+01:53:09,279 --> 01:53:16,218
+The first was a guarantee. The government
+stands behind up to twenty billion pounds of bank
+
+1102
+01:53:16,218 --> 01:53:23,157
+debt, so an investor buying it faces the same
+risk as buying a gilt. And the bank gets that
+
+1103
+01:53:23,157 --> 01:53:28,953
+funding at a discount if it agrees to cut what
+it charges smaller companies.
+
+1104
+01:53:29,379 --> 01:53:36,344
+Though twenty billion is only about eight per
+cent of a year's lending to small firms by the
+
+1105
+01:53:36,344 --> 01:53:40,507
+largest banks. Limited in scale, as the
+authors put it.
+
+1106
+01:53:44,046 --> 01:53:50,491
+The second was bigger, and cleverer. Four-year
+funding, of at least five per cent of a
+
+1107
+01:53:50,491 --> 01:53:56,712
+bank's existing loan book — around eighty
+billion pounds across the eligible banks.
+
+1108
+01:53:57,146 --> 01:54:03,630
+And every extra pound a bank lent raised the
+amount it could borrow under the scheme.
+
+1109
+01:54:04,079 --> 01:54:10,122
+A bank holding its lending steady or growing
+it paid a quarter of one per cent.
+
+1110
+01:54:10,546 --> 01:54:17,774
+A bank shrinking its lending by five per cent
+paid one and a half — six times as much, on
+
+1111
+01:54:17,774 --> 01:54:19,155
+the whole amount.
+
+1112
+01:54:21,979 --> 01:54:26,501
+guidance: the rate path, held flat by
+announcement
+
+1113
+01:54:26,646 --> 01:54:30,768
+lending in a panic: penal rate, good
+collateral
+
+1114
+01:54:30,912 --> 01:54:34,088
+and schemes aimed straight at the wedge
+
+1115
+01:54:34,212 --> 01:54:38,909
+one of which charged 6× more for shrinking
+lending
+
+1116
+01:54:47,312 --> 01:54:54,095
+Two economists, writing in twenty-twelve, set
+out how the policy is supposed to work.
+
+1117
+01:54:54,095 --> 01:54:56,888
+Christopher Bowdler and Amar Radia.
+
+1118
+01:54:57,312 --> 01:55:03,795
+They are careful, serious people, and nothing
+in this film is an attack on them. Their
+
+1119
+01:55:03,795 --> 01:55:05,981
+colour, from here on, is red.
+
+1120
+01:55:09,512 --> 01:55:16,405
+And the chain is the picture Part Two is built
+on, exactly as the vertical scale was Part
+
+1121
+01:55:16,405 --> 01:55:16,870
+One's.
+
+1122
+01:55:17,312 --> 01:55:23,265
+Why a chain? Because it is honest. Each link
+can be examined on its own.
+
+1123
+01:55:23,712 --> 01:55:28,365
+And if any single link fails, the whole thing
+stops there.
+
+1124
+01:55:32,612 --> 01:55:39,344
+The authors themselves split the chain into
+two legs. From the purchases to the price of
+
+1125
+01:55:39,344 --> 01:55:39,880
+assets.
+
+1126
+01:55:40,312 --> 01:55:45,508
+And from the price of assets to what anybody
+actually spends.
+
+1127
+01:55:47,346 --> 01:55:53,434
+And Kit wants to say this out loud, now,
+before anything else. He is only ever disputing the
+
+1128
+01:55:53,434 --> 01:55:55,155
+second leg. Not the first.
+
+1129
+01:55:55,579 --> 01:56:00,870
+The first leg is the part everybody argues
+about, and he is not arguing about it.
+
+1130
+01:56:04,512 --> 01:56:10,091
+And within that second leg, one link is going
+to matter more than all the others.
+
+1131
+01:56:10,512 --> 01:56:17,040
+Link five. The firm decides to build. Keep
+your eye on it for the rest of the film.
+
+1132
+01:56:19,879 --> 01:56:24,169
+Bowdler and Radia set the policy out as a
+chain
+
+1133
+01:56:24,312 --> 01:56:28,881
+leg one: purchases → the price of assets
+
+1134
+01:56:29,012 --> 01:56:33,488
+leg two: prices → what anybody spends
+
+1135
+01:56:33,612 --> 01:56:37,043
+and link five is where a firm decides
+
+1136
+01:56:52,967 --> 01:57:00,151
+Here is the sentence the whole of Part Two
+turns on. It is on page six hundred and twelve,
+
+1137
+01:57:00,151 --> 01:57:03,265
+and these are the authors' exact words.
+
+1138
+01:57:05,100 --> 01:57:12,559
+It contains two completely different kinds of
+claim, stitched together. Split it in half.
+
+1139
+01:57:13,700 --> 01:57:20,719
+The first half is a question about prices.
+Does the cheaper money actually arrive at a firm?
+
+1140
+01:57:20,719 --> 01:57:22,702
+You can go and check that.
+
+1141
+01:57:23,133 --> 01:57:29,530
+The second half is a question about behaviour.
+What does a firm do once the money has
+
+1142
+01:57:29,530 --> 01:57:33,670
+arrived? That is a different sort of question
+entirely.
+
+1143
+01:57:35,500 --> 01:57:39,198
+The first half gets hedged. Banks were
+impaired.
+
+1144
+01:57:39,633 --> 01:57:45,142
+Households and smaller companies have no
+access to capital markets.
+
+1145
+01:57:45,567 --> 01:57:48,390
+So they may not directly benefit.
+
+1146
+01:57:48,833 --> 01:57:55,437
+And be fair to them. These are honest, careful
+qualifications. They also name several other
+
+1147
+01:57:55,437 --> 01:58:01,968
+routes by which small firms might still
+benefit — through supply chains, through a cheaper
+
+1148
+01:58:01,968 --> 01:58:08,571
+currency helping exporters, and through banks
+passing on lower rates. All of that is in the
+
+1149
+01:58:08,571 --> 01:58:09,151
+article.
+
+1150
+01:58:09,600 --> 01:58:13,193
+Now Kit waits for the same thing to happen to
+the other half.
+
+1151
+01:58:17,033 --> 01:58:24,131
+One half of that sentence is hedged three
+times. The other half is not hedged once.
+
+1152
+01:58:27,667 --> 01:58:33,262
+His first reaction is not disagreement, and
+that matters for everything that follows.
+
+1153
+01:58:33,700 --> 01:58:38,455
+His first reaction is that two halves of one
+sentence are not the same kind of statement,
+
+1154
+01:58:38,455 --> 01:58:40,859
+and are being given the same amount of trust.
+
+1155
+01:58:44,400 --> 01:58:51,986
+This is not carelessness. It is what a certain
+kind of economics does by construction. It
+
+1156
+01:58:51,986 --> 01:58:59,657
+models markets in enormous detail, and it
+treats a firm as a machine. Numbers in. Decision
+
+1157
+01:58:59,657 --> 01:58:59,998
+out.
+
+1158
+01:59:00,433 --> 01:59:07,502
+There is nothing dishonest in that. It is a
+simplification, and simplifications are how
+
+1159
+01:59:07,502 --> 01:59:10,833
+anyone thinks about anything complicated.
+
+1160
+01:59:12,667 --> 01:59:18,782
+But it does mean that the last link in the
+chain is the only one nobody examines.
+
+1161
+01:59:21,600 --> 01:59:25,275
+one sentence, two different kinds of claim
+
+1162
+01:59:25,400 --> 01:59:28,761
+the price half is hedged three times
+
+1163
+01:59:28,900 --> 01:59:32,064
+the behaviour half is not hedged once
+
+1164
+01:59:32,200 --> 01:59:35,399
+because a firm is modelled as a machine
+
+1165
+01:59:43,799 --> 01:59:50,072
+A page later, the authors ask a question about
+somebody else. What does the government do
+
+1166
+01:59:50,072 --> 01:59:52,609
+when its own borrowing gets cheaper?
+
+1167
+01:59:53,033 --> 01:59:59,457
+And notice what they open with. The
+government's borrowing cost is now lower. Gilts are
+
+1168
+01:59:59,457 --> 02:00:06,030
+exactly what the Bank had been buying. So if
+anyone got the cheaper price, the government
+
+1169
+02:00:06,030 --> 02:00:06,325
+did.
+
+1170
+02:00:06,766 --> 02:00:09,361
+The money definitely arrives.
+
+1171
+02:00:11,199 --> 02:00:13,205
+And nothing happens.
+
+1172
+02:00:18,333 --> 02:00:25,225
+Here is what the authors say, in their own
+words. Their spending plans should therefore be
+
+1173
+02:00:25,225 --> 02:00:29,130
+unaffected by cyclical movements in interest
+rates.
+
+1174
+02:00:31,366 --> 02:00:37,252
+And look at the reason. It has nothing to do
+with access. The money arrives.
+
+1175
+02:00:37,699 --> 02:00:44,611
+The reason is about the horizon the decision
+is taken over. Governments plan a long way
+
+1176
+02:00:44,611 --> 02:00:45,088
+ahead.
+
+1177
+02:00:49,233 --> 02:00:54,581
+Kit gets excited. They have admitted, he says,
+that a feature of how the decision is made
+
+1178
+02:00:54,581 --> 02:00:56,143
+can break the whole chain.
+
+1179
+02:00:57,966 --> 02:01:03,088
+And then he reads it again, and crosses his
+own conclusion out. That is the first of several
+
+1180
+02:01:03,088 --> 02:01:04,313
+times he will do that.
+
+1181
+02:01:06,633 --> 02:01:13,509
+What survives is this, and it is thinner than
+he first thought. A feature of the decision
+
+1182
+02:01:13,509 --> 02:01:15,363
+itself is allowed, once,
+
+1183
+02:01:15,799 --> 02:01:20,065
+to break the link between a cheaper price and
+more spending.
+
+1184
+02:01:20,499 --> 02:01:27,285
+And nobody then asks whether anything else
+about how a decision gets made could do the same.
+
+1185
+02:01:30,133 --> 02:01:35,851
+That is a reason to go and look. It is not
+evidence about what you find.
+
+1186
+02:01:38,499 --> 02:01:45,166
+That sentence is the intellectual standard the
+rest of the film is held to. Everything Kit
+
+1187
+02:01:45,166 --> 02:01:47,389
+says from here has to meet it.
+
+1188
+02:01:50,233 --> 02:01:53,803
+the government gets the cheaper money for
+certain
+
+1189
+02:01:53,933 --> 02:01:57,480
+and its plans are unaffected — their words
+
+1190
+02:01:57,599 --> 02:02:00,944
+the reason is the horizon, not access
+
+1191
+02:02:01,066 --> 02:02:04,566
+which is a reason to look, not a finding
+
+1192
+02:02:12,966 --> 02:02:20,653
+Kit puts the two articles side by side, and
+notices they are arguing about the same quantity
+
+1193
+02:02:20,653 --> 02:02:22,324
+from opposite sides.
+
+1194
+02:02:22,766 --> 02:02:27,959
+One of them asserts that a lower cost of
+capital raises investment.
+
+1195
+02:02:28,399 --> 02:02:34,383
+And the other spends a whole article showing
+that the number standing between the cost of
+
+1196
+02:02:34,383 --> 02:02:37,879
+capital and the decision is not the cost of
+capital.
+
+1197
+02:02:41,399 --> 02:02:46,374
+The bar a project must clear is the textbook
+bar, multiplied.
+
+1198
+02:02:46,799 --> 02:02:51,518
+And the multiplier grows as the world becomes
+more uncertain.
+
+1199
+02:02:54,366 --> 02:03:00,720
+Which means we can go back to the sheet from
+chapter eight, and watch what the policy
+
+1200
+02:03:00,720 --> 02:03:02,963
+actually does to a firm's bar.
+
+1201
+02:03:09,799 --> 02:03:17,403
+Here is a firm in ordinary times. Twenty per
+cent choppiness, money at five per cent. Its
+
+1202
+02:03:17,403 --> 02:03:21,162
+bar is one point eight six times break-even.
+
+1203
+02:03:22,999 --> 02:03:30,231
+The policy makes money cheaper. So the firm
+slides this way — and the sheet under it goes
+
+1204
+02:03:30,231 --> 02:03:32,831
+up, not down. Two point six one.
+
+1205
+02:03:34,666 --> 02:03:41,268
+But the policy is only ever used in a crisis.
+So at the very same moment, the firm is
+
+1206
+02:03:41,268 --> 02:03:46,317
+dragged the other way too — into the choppiest
+part of the sheet.
+
+1207
+02:03:48,166 --> 02:03:53,868
+Both movements push the bar up. Not one up and
+one down. Both up.
+
+1208
+02:03:56,699 --> 02:04:03,605
+Which gives the sentence this chapter exists
+for. Quantitative easing is not a weaker
+
+1209
+02:04:03,605 --> 02:04:10,672
+version of a rate cut. It is a rate cut
+delivered in the one situation that blunts rate
+
+1210
+02:04:10,672 --> 02:04:11,078
+cuts.
+
+1211
+02:04:15,466 --> 02:04:23,231
+And be clear about whose is whose. The bar,
+and the fact that it rises with uncertainty, is
+
+1212
+02:04:23,231 --> 02:04:23,913
+Dixit's.
+
+1213
+02:04:24,333 --> 02:04:27,385
+Putting it next to this policy is Kit's.
+
+1214
+02:04:30,233 --> 02:04:34,453
+one article asserts what the other spends
+pages on
+
+1215
+02:04:34,599 --> 02:04:37,612
+cheaper money moves the firm up the sheet
+
+1216
+02:04:37,733 --> 02:04:41,407
+and a crisis moves it up the other way too
+
+1217
+02:04:41,533 --> 02:04:45,521
+a rate cut delivered where rate cuts are
+blunted
+
+1218
+02:04:53,932 --> 02:04:57,506
+Cheap money is meant to make building
+attractive.
+
+1219
+02:04:57,932 --> 02:05:01,216
+But cheap money also makes waiting cheaper.
+
+1220
+02:05:01,665 --> 02:05:07,642
+Because the cost of holding off for a year is
+the return the money would have earned
+
+1221
+02:05:07,642 --> 02:05:12,053
+meanwhile. Make that return small, and holding
+off hurts less.
+
+1222
+02:05:16,099 --> 02:05:22,059
+At a five per cent cost of capital, the
+multiplier is one point eight six.
+
+1223
+02:05:22,499 --> 02:05:26,069
+At two per cent, it is two point six one.
+
+1224
+02:05:29,599 --> 02:05:36,423
+Think of a firm's bar as two pieces. The
+break-even level, and the mark-up that waiting adds
+
+1225
+02:05:36,423 --> 02:05:37,388
+on top of it.
+
+1226
+02:05:37,832 --> 02:05:40,740
+The policy pushes the bottom piece down.
+
+1227
+02:05:41,165 --> 02:05:45,232
+And at the same time it fattens the piece on
+top.
+
+1228
+02:05:47,065 --> 02:05:53,584
+The direction is not in doubt. The bar does
+come down. The first effect wins.
+
+1229
+02:05:57,132 --> 02:06:01,901
+What Kit originally wanted to say was sharper.
+That it comes down by less than you would
+
+1230
+02:06:01,901 --> 02:06:02,280
+expect.
+
+1231
+02:06:02,699 --> 02:06:07,593
+He has withdrawn it. Because whether that is
+true depends entirely on how you measure it.
+
+1232
+02:06:08,032 --> 02:06:14,637
+Compare the two figures as percentage points,
+and the bar falls by more than the cost of
+
+1233
+02:06:14,637 --> 02:06:15,462
+money does.
+
+1234
+02:06:15,899 --> 02:06:20,350
+Compare them as proportions, and it falls by
+less.
+
+1235
+02:06:20,799 --> 02:06:25,460
+Both sums are correct. Neither of them is the
+true one. So he declines to pick.
+
+1236
+02:06:28,299 --> 02:06:34,943
+The claim he is entitled to is the plain one.
+Part of the policy is spent making patience
+
+1237
+02:06:34,943 --> 02:06:36,137
+more attractive.
+
+1238
+02:06:40,765 --> 02:06:44,823
+cheap money makes building and waiting both
+cheaper
+
+1239
+02:06:44,965 --> 02:06:52,320
+1.86 at 5% · 2.61 at 2% — Dixit's own figures
+
+1240
+02:06:52,465 --> 02:06:56,094
+the bar does fall: the first effect wins
+
+1241
+02:06:56,232 --> 02:06:59,825
+but part of the policy is spent on patience
+
+1242
+02:07:08,232 --> 02:07:15,195
+Replay the bad news principle. When you can
+wait, it is mainly the bad possible outcomes
+
+1243
+02:07:15,195 --> 02:07:17,886
+that decide whether you build now.
+
+1244
+02:07:19,732 --> 02:07:24,646
+So the question to ask is: what does this
+policy actually compress?
+
+1245
+02:07:28,165 --> 02:07:35,138
+In financial markets, there is a price for
+carrying risk. Quantitative easing pushes that
+
+1246
+02:07:35,138 --> 02:07:37,566
+price down. Squeeze the spring.
+
+1247
+02:07:41,099 --> 02:07:47,355
+But the doubt inside a firm is a different
+thing. Will anyone still be buying in three
+
+1248
+02:07:47,355 --> 02:07:50,410
+years? Will this factory still make sense?
+
+1249
+02:07:50,832 --> 02:07:57,743
+Those are different worries entirely. A
+central bank buying government bonds reaches them
+
+1250
+02:07:57,743 --> 02:07:59,839
+only indirectly, if at all.
+
+1251
+02:08:01,665 --> 02:08:06,630
+So the honest version of his claim is about
+how directly, not about whether.
+
+1252
+02:08:09,465 --> 02:08:15,490
+What a central bank reaches directly is the
+price at which risk trades.
+
+1253
+02:08:15,932 --> 02:08:20,721
+What it reaches at one or two removes is the
+doubt itself.
+
+1254
+02:08:23,565 --> 02:08:27,519
+the bad half decides whether she builds now
+
+1255
+02:08:27,665 --> 02:08:31,328
+the policy squeezes the price of risk directly
+
+1256
+02:08:31,465 --> 02:08:35,105
+the doubt inside a firm, only indirectly
+
+1257
+02:08:35,232 --> 02:08:38,975
+so the claim is about how directly, not
+whether
+
+1258
+02:08:45,899 --> 02:08:51,037
+This chapter exists because Kit's own source
+damages him, and that is what intellectual
+
+1259
+02:08:51,037 --> 02:08:52,159
+honesty looks like.
+
+1260
+02:08:54,199 --> 02:09:01,752
+Replay the two countries. Japanese firms
+invested boldly and hung on through losses, because
+
+1261
+02:09:01,752 --> 02:09:04,133
+their downside was cushioned.
+
+1262
+02:09:10,365 --> 02:09:16,036
+Which half of that spread does a policy that
+props up prices and signals that the
+
+1263
+02:09:16,036 --> 02:09:18,696
+authorities will act actually work on?
+
+1264
+02:09:19,132 --> 02:09:25,744
+This half. Which is exactly the right half for
+keeping a struggling firm from closing.
+
+1265
+02:09:29,265 --> 02:09:36,063
+A policy that props up the upside is aimed at
+exactly the right half of the distribution for
+
+1266
+02:09:36,063 --> 02:09:42,712
+keeping firms alive. Which hands the policy a
+mechanism for the very thing he was going to
+
+1267
+02:09:42,712 --> 02:09:44,190
+explain another way.
+
+1268
+02:09:46,032 --> 02:09:50,610
+Why include something that damages you?
+Because it is what his own source says. The
+
+1269
+02:09:50,610 --> 02:09:51,933
+discomfort is the point.
+
+1270
+02:09:54,765 --> 02:09:58,451
+a cushioned downside keeps firms invested
+
+1271
+02:09:58,599 --> 02:10:01,484
+the policy props up the good half
+
+1272
+02:10:01,632 --> 02:10:05,423
+which is the right half for keeping firms
+alive
+
+1273
+02:10:05,565 --> 02:10:09,194
+so his own source hands the policy a mechanism
+
+1274
+02:10:17,598 --> 02:10:24,657
+A third article, and a third pair of authors.
+Christopher Martin and Costas Milas. Their job
+
+1275
+02:10:24,657 --> 02:10:31,486
+was to gather up the studies of what the
+policy actually achieved. Their colour is green.
+
+1276
+02:10:33,632 --> 02:10:40,618
+Across the studies they gathered, quantitative
+easing raised growth by somewhere between one
+
+1277
+02:10:40,618 --> 02:10:44,795
+and three per cent, with a similar effect on
+inflation.
+
+1278
+02:10:48,332 --> 02:10:55,301
+And here is their verdict, in their own words.
+Quantitative easing has proved effective in
+
+1279
+02:10:55,301 --> 02:11:02,347
+limiting the scale of the downturn. However,
+by itself, it is not strong enough to spark an
+
+1280
+02:11:02,347 --> 02:11:03,741
+economic recovery.
+
+1281
+02:11:05,765 --> 02:11:12,944
+And they hedge it themselves. This conclusion,
+they say, is tentative. There is relatively
+
+1282
+02:11:12,944 --> 02:11:17,172
+little evidence, and most of it uses the same
+method.
+
+1283
+02:11:20,698 --> 02:11:28,306
+In one line: effective at preventing a deeper
+crisis, less effective at promoting recovery.
+
+1284
+02:11:29,732 --> 02:11:35,504
+The first time Kit read that, he treated it as
+a result. Here is what the numbers say. Write
+
+1285
+02:11:35,504 --> 02:11:36,570
+it down, move on.
+
+1286
+02:11:36,998 --> 02:11:40,777
+Reading it again, after Dixit, he cannot let
+it alone.
+
+1287
+02:11:41,198 --> 02:11:46,485
+Why would one policy be good at stopping a
+fall and bad at starting a rise? Those are not
+
+1288
+02:11:46,485 --> 02:11:47,970
+obviously different jobs.
+
+1289
+02:11:48,398 --> 02:11:53,360
+And he is uncomfortable. Not with the article
+— with himself, for having read that sentence
+
+1290
+02:11:53,360 --> 02:11:56,959
+once already and never asked whether there was
+a reason behind it.
+
+1291
+02:12:00,498 --> 02:12:06,928
+Preventing a collapse needs markets that keep
+working and the upside held up. And by the
+
+1292
+02:12:06,928 --> 02:12:13,505
+good news principle, that is exactly what
+stops a struggling firm closing. It is strongest
+
+1293
+02:12:13,505 --> 02:12:19,935
+when things are frightening, because there is
+most to repair and most upside to restore.
+
+1294
+02:12:20,365 --> 02:12:26,770
+Starting a recovery needs firms to commit
+money they cannot get back. By the bad news
+
+1295
+02:12:26,770 --> 02:12:33,626
+principle, that turns on the downside — which
+is exactly what fear makes them least willing
+
+1296
+02:12:33,626 --> 02:12:37,092
+to face. It is strongest when things are calm.
+
+1297
+02:12:39,932 --> 02:12:47,461
+So the policy is used in exactly the state
+where the first job is easiest and the second is
+
+1298
+02:12:47,461 --> 02:12:48,123
+hardest.
+
+1299
+02:12:48,565 --> 02:12:50,882
+It steadies without starting.
+
+1300
+02:12:53,098 --> 02:12:59,795
+And flag clearly which parts of that are Kit's
+and not Dixit's. That propping up the upside
+
+1301
+02:12:59,795 --> 02:13:06,197
+works best when things are frightening, and
+that the two jobs therefore pull apart, are
+
+1302
+02:13:06,197 --> 02:13:10,612
+steps Kit has added. Dixit's own text does not
+contain them.
+
+1303
+02:13:13,432 --> 02:13:17,896
+their verdict: prevents a crisis, less so a
+recovery
+
+1304
+02:13:18,032 --> 02:13:21,648
+the two jobs need opposite halves of the
+spread
+
+1305
+02:13:21,765 --> 02:13:24,952
+and opposite conditions to work in
+
+1306
+02:13:25,098 --> 02:13:29,621
+it steadies without starting — Kit's step, not
+Dixit's
+
+1307
+02:13:39,032 --> 02:13:46,466
+You will recognise this picture instantly,
+because it is the hysteresis one. Same scale,
+
+1308
+02:13:46,466 --> 02:13:50,183
+same lines. Only the direction is different.
+
+1309
+02:13:50,632 --> 02:13:53,157
+A firm that is already running.
+
+1310
+02:13:53,598 --> 02:13:57,436
+The crisis arrives, and its takings fall.
+
+1311
+02:13:57,865 --> 02:14:04,591
+Down past the level where the textbook would
+have closed it. And still it holds on, because
+
+1312
+02:14:04,591 --> 02:14:07,991
+holding on keeps the chance of recovery alive.
+
+1313
+02:14:08,432 --> 02:14:12,023
+And then through the quit line. It closes.
+
+1314
+02:14:13,865 --> 02:14:20,593
+Now the policy works. Conditions come back up
+to normal. All the way back to where they
+
+1315
+02:14:20,593 --> 02:14:21,212
+started.
+
+1316
+02:14:23,032 --> 02:14:29,712
+The firm does not come back. Because coming
+back means paying the whole set-up cost over
+
+1317
+02:14:29,712 --> 02:14:30,168
+again.
+
+1318
+02:14:32,998 --> 02:14:39,041
+State it plainly. What the policy stops from
+happening does not need explaining.
+
+1319
+02:14:39,465 --> 02:14:46,483
+What needs explaining is why, for the firms it
+did not reach in time, nothing came back.
+
+1320
+02:14:50,932 --> 02:14:54,513
+a firm absorbs losses, then closes
+
+1321
+02:14:54,632 --> 02:14:57,261
+conditions recover all the way
+
+1322
+02:14:57,398 --> 02:15:00,040
+and the firm does not come back
+
+1323
+02:15:00,165 --> 02:15:03,584
+because coming back costs the set-up again
+
+1324
+02:15:10,531 --> 02:15:15,858
+Four doors. Kit opens each one, and cannot
+close it again. This is the chapter where the
+
+1325
+02:15:15,858 --> 02:15:19,672
+film earns its credibility, so none of these
+gets knocked down.
+
+1326
+02:15:22,098 --> 02:15:28,652
+Door one. Firms may not have been short of
+confidence at all. They may simply have been
+
+1327
+02:15:28,652 --> 02:15:35,130
+unable to borrow. If the banks would not lend,
+no bar inside the firm was ever tested.
+
+1328
+02:15:35,564 --> 02:15:42,080
+Door two. They may have had no customers. If
+nobody is buying, patience has nothing to do
+
+1329
+02:15:42,080 --> 02:15:48,522
+with it. And which of the two does more of the
+work is a question this argument does not
+
+1330
+02:15:48,522 --> 02:15:49,034
+settle.
+
+1331
+02:15:49,464 --> 02:15:56,377
+Door three. If several firms are racing for
+the same opportunity, waiting is not possible,
+
+1332
+02:15:56,377 --> 02:15:59,141
+and the textbook is right after all.
+
+1333
+02:15:59,564 --> 02:16:06,588
+Door four. The policy did move prices in
+financial markets. That is the best-established
+
+1334
+02:16:06,588 --> 02:16:11,936
+finding in the whole body of research, and
+nothing here touches it.
+
+1335
+02:16:13,764 --> 02:16:17,983
+All four are left standing open. Kit does not
+claim to have closed any of them.
+
+1336
+02:16:20,831 --> 02:16:28,081
+Which fixes the scope of the whole argument.
+It applies to investment a company can take its
+
+1337
+02:16:28,081 --> 02:16:30,051
+time over. Not to a race.
+
+1338
+02:16:34,498 --> 02:16:37,685
+firms may have been unable to borrow
+
+1339
+02:16:37,831 --> 02:16:40,588
+or simply have had no customers
+
+1340
+02:16:40,731 --> 02:16:43,663
+a race removes the option to wait
+
+1341
+02:16:43,798 --> 02:16:47,066
+and the policy did move market prices
+
+1342
+02:16:55,464 --> 02:17:01,542
+Grow Nell's factory into a large company, with
+several separately run parts.
+
+1343
+02:17:03,364 --> 02:17:08,847
+So say this explicitly, because it is easy to
+miss. Kit's dispute is not about how high the
+
+1344
+02:17:08,847 --> 02:17:11,799
+number is. It is about what kind of number it
+is.
+
+1345
+02:17:15,331 --> 02:17:21,056
+And here is the mechanism, as an actual queue
+of projects at the boardroom door.
+
+1346
+02:17:21,498 --> 02:17:27,999
+State the assumption openly, because it is
+doing a lot of work and it might be wrong. In a
+
+1347
+02:17:27,999 --> 02:17:33,417
+large company the thing that runs out first is
+not money. It is management.
+
+1348
+02:17:35,264 --> 02:17:41,285
+A minimum return set to solve that problem is
+tied to the next project in the queue — the
+
+1349
+02:17:41,285 --> 02:17:46,087
+best thing the company would have to drop in
+order to take this one on.
+
+1350
+02:17:46,531 --> 02:17:52,980
+And that is an internal quantity. It depends
+on how many good ideas the business is
+
+1351
+02:17:52,980 --> 02:17:57,098
+generating, and how many capable people it has
+spare.
+
+1352
+02:18:00,631 --> 02:18:06,639
+A fall in the return on government debt does
+not lengthen anybody's working week.
+
+1353
+02:18:07,064 --> 02:18:10,828
+The yield falls. And the queue does not move.
+
+1354
+02:18:14,364 --> 02:18:19,301
+So here is the version he can defend. Not that
+the number never moves. But that it moves on
+
+1355
+02:18:19,301 --> 02:18:22,068
+the company's clock rather than the central
+bank's.
+
+1356
+02:18:22,498 --> 02:18:27,782
+Changing as the pipeline of ideas and the
+stock of managers change, over years. For a policy
+
+1357
+02:18:27,782 --> 02:18:32,893
+meant to work inside a downturn, that is close
+enough to failure to matter. But it is not
+
+1358
+02:18:32,893 --> 02:18:35,478
+the same as never, and he will not say never.
+
+1359
+02:18:38,998 --> 02:18:46,141
+Treating a hurdle rate as a rationing device
+rather than a calculation is not an idea Kit
+
+1360
+02:18:46,141 --> 02:18:46,864
+invented.
+
+1361
+02:18:47,298 --> 02:18:50,554
+What he would claim is the use he has put it
+to.
+
+1362
+02:18:53,398 --> 02:18:57,467
+a big company rations management, not money
+
+1363
+02:18:57,598 --> 02:19:01,644
+so the bar is tied to the next project in the
+queue
+
+1364
+02:19:01,764 --> 02:19:05,451
+the yield falls, and the queue does not move
+
+1365
+02:19:05,598 --> 02:19:09,551
+it moves on the company's clock, not the
+Bank's
+
+1366
+02:19:17,964 --> 02:19:22,738
+This is not a claim that quantitative easing
+does not work.
+
+1367
+02:19:23,164 --> 02:19:29,029
+Kit has not disputed that it moved prices in
+financial markets, which is the
+
+1368
+02:19:29,029 --> 02:19:33,274
+best-established finding in the whole body of
+research.
+
+1369
+02:19:33,698 --> 02:19:37,001
+It is not a claim that the theory is false.
+
+1370
+02:19:37,431 --> 02:19:42,842
+It is a claim that the theory is incomplete,
+in one specific place.
+
+1371
+02:19:47,564 --> 02:19:50,786
+So rebuild the chain one final time.
+
+1372
+02:19:51,231 --> 02:19:56,101
+Careful reasoning about what can go wrong at
+every stage.
+
+1373
+02:19:56,531 --> 02:20:03,938
+Except one. The stage where a quantity finally
+has to change, because somebody in a room has
+
+1374
+02:20:03,938 --> 02:20:04,823
+to say yes.
+
+1375
+02:20:09,064 --> 02:20:16,086
+The first is Dixit's, and Kit is mostly
+reporting it. When spending cannot be undone and the
+
+1376
+02:20:16,086 --> 02:20:22,650
+future is unknown, the bar is higher than the
+textbook says. And it rises as the world
+
+1377
+02:20:22,650 --> 02:20:24,558
+becomes more frightening.
+
+1378
+02:20:24,998 --> 02:20:31,882
+So a policy used in frightening times is
+working against the largest version of that bar.
+
+1379
+02:20:31,882 --> 02:20:38,690
+That is well-established economics, published
+in a general economics journal, and simply
+
+1380
+02:20:38,690 --> 02:20:41,629
+absent from the article he began with.
+
+1381
+02:20:42,064 --> 02:20:49,363
+The second is Kit's. And he holds it loosely,
+for all the reasons the four open doors gave.
+
+1382
+02:20:52,198 --> 02:20:56,070
+The gap is not a mistake in anybody's
+reasoning.
+
+1383
+02:20:56,498 --> 02:20:58,245
+It is a boundary.
+
+1384
+02:21:01,664 --> 02:21:08,353
+A model of the whole economy hands off to a
+decision it does not model. And the study of how
+
+1385
+02:21:08,353 --> 02:21:14,897
+that decision actually gets made sits in a
+different journal, on a different reading list,
+
+1386
+02:21:14,897 --> 02:21:17,878
+and in the other half of the same degree.
+
+1387
+02:21:21,998 --> 02:21:28,515
+And the last shot is all of them, standing
+either side of the chain, at the link nobody
+
+1388
+02:21:28,515 --> 02:21:29,189
+examined.
+
+1389
+02:21:32,631 --> 02:21:36,921
+not that the policy fails, or the theory is
+false
+
+1390
+02:21:37,064 --> 02:21:40,611
+that the theory is incomplete in one place
+
+1391
+02:21:40,731 --> 02:21:44,847
+the bar rises exactly when the policy is used
+
+1392
+02:21:44,964 --> 02:21:48,918
+and the last link is a boundary, not a mistake

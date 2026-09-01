@@ -24,23 +24,25 @@ uses a term before the chapter listed here.
 | **the trigger** | The level the money coming in must reach before building is right. | 6 — So how high is high enough? |
 | **intrinsic value** | What using the chance right now would give you. | 7 — A right, but not an obligation |
 | **holding premium** | What the waiting itself is worth. | 7 — A right, but not an obligation |
+| **interest** | The extra a borrower pays for the use of money. | 9 — Money later is worth less than money now |
 | **discounting** | Turning money you get later into what it is worth today. | 9 — Money later is worth less than money now |
 | **net worth** | What you get, minus what you pay. | 10 — The textbook’s line, as a sum |
 | **a random walk** | Each step is up or down, and you cannot tell which. | 11 — How the future is modelled |
-| **suspending** | Stopping for a while, meaning to start again. | 15 — When to give up |
-| **abandoning** | Stopping for good. | 15 — When to give up |
-| **hysteresis** | When the cause is reversed and the effect stays behind. | 17 — Hysteresis |
-| **the good news principle** | Staying is governed by the good possible outcomes. | 18 — Two countries |
-| **signalling** | Doing something costly, because the cost is what makes it believable. | 20 — Outside business |
-| **central bank** | The public body that looks after a country's money. | 22 — Money, and who is in charge of it |
-| **interest** | The extra a borrower pays for the use of money. | 22 — Money, and who is in charge of it |
-| **interest rate** | How much extra, as a percentage per year. | 22 — Money, and who is in charge of it |
-| **monetary policy** | What a central bank does to make borrowing easier or harder. | 22 — Money, and who is in charge of it |
-| **credit spread** | The wedge between the Bank's rate and the rate a firm pays. | 23 — Why cutting the rate was not enough |
-| **the zero lower bound** | The point where a central bank cannot cut any further. | 23 — Why cutting the rate was not enough |
-| **a gilt** | A piece of British government debt, bought and sold. | 24 — What quantitative easing actually is |
-| **yield** | What the fixed payments are worth, as a percentage of today's price. | 24 — What quantitative easing actually is |
-| **a balance sheet** | What somebody owns on one side, what they owe on the other. | 25 — Three sets of books |
-| **reserves** | Money banks hold at the central bank, and nobody else can. | 25 — Three sets of books |
-| **a liquidity trap** | When extra money is simply held, and nothing moves. | 26 — Channel one: the hot potato |
-| **liquidity** | How easily a thing can be sold without moving its price. | 27 — Channels two and three |
+| **the gradient** | How steep a curve is at one single point on it. | 14 — How steep is a curve? |
+| **the second gradient** | How fast the steepness itself is changing. | 15 — Why a bend is worth money |
+| **suspending** | Stopping for a while, meaning to start again. | 21 — When to give up |
+| **abandoning** | Stopping for good. | 21 — When to give up |
+| **hysteresis** | When the cause is reversed and the effect stays behind. | 23 — Hysteresis |
+| **the good news principle** | Staying is governed by the good possible outcomes. | 24 — Two countries |
+| **signalling** | Doing something costly, because the cost is what makes it believable. | 26 — Outside business |
+| **central bank** | The public body that looks after a country's money. | 28 — Money, and who is in charge of it |
+| **interest rate** | How much extra, as a percentage per year. | 28 — Money, and who is in charge of it |
+| **monetary policy** | What a central bank does to make borrowing easier or harder. | 28 — Money, and who is in charge of it |
+| **credit spread** | The wedge between the Bank's rate and the rate a firm pays. | 29 — Why cutting the rate was not enough |
+| **the zero lower bound** | The point where a central bank cannot cut any further. | 29 — Why cutting the rate was not enough |
+| **a gilt** | A piece of British government debt, bought and sold. | 30 — What quantitative easing actually is |
+| **yield** | What the fixed payments are worth, as a percentage of today's price. | 30 — What quantitative easing actually is |
+| **a balance sheet** | What somebody owns on one side, what they owe on the other. | 31 — Three sets of books |
+| **reserves** | Money banks hold at the central bank, and nobody else can. | 31 — Three sets of books |
+| **a liquidity trap** | When extra money is simply held, and nothing moves. | 32 — Channel one: the hot potato |
+| **liquidity** | How easily a thing can be sold without moving its price. | 33 — Channels two and three |

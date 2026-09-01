@@ -1,0 +1,96 @@
+{
+ "chapter": 47,
+ "title": "The rivals Kit cannot beat",
+ "duration": 103.466666666666,
+ "cues": [
+  {
+   "start": 4.699999999999997,
+   "end": 13.840589569160993,
+   "text": "Four doors. Kit opens each one, and cannot close it again. This is the chapter where the film earns its credibility, so none of these gets knocked down.",
+   "voice": "c"
+  },
+  {
+   "start": 16.266666666666662,
+   "end": 29.298911564625847,
+   "text": "Door one. Firms may not have been short of confidence at all. They may simply have been unable to borrow. If the banks would not lend, no bar inside the firm was ever tested.",
+   "voice": "n"
+  },
+  {
+   "start": 29.73333333333344,
+   "end": 43.20321995464863,
+   "text": "Door two. They may have had no customers. If nobody is buying, patience has nothing to do with it. And which of the two does more of the work is a question this argument does not settle.",
+   "voice": "n"
+  },
+  {
+   "start": 43.63333333333355,
+   "end": 53.31038548752856,
+   "text": "Door three. If several firms are racing for the same opportunity, waiting is not possible, and the textbook is right after all.",
+   "voice": "n"
+  },
+  {
+   "start": 53.73333333333342,
+   "end": 66.1049886621316,
+   "text": "Door four. The policy did move prices in financial markets. That is the best-established finding in the whole body of research, and nothing here touches it.",
+   "voice": "n"
+  },
+  {
+   "start": 67.9333333333333,
+   "end": 72.15188208616776,
+   "text": "All four are left standing open. Kit does not claim to have closed any of them.",
+   "voice": "c"
+  },
+  {
+   "start": 74.99999999999986,
+   "end": 84.21950113378671,
+   "text": "Which fixes the scope of the whole argument. It applies to investment a company can take its time over. Not to a race.",
+   "voice": "n"
+  },
+  {
+   "start": 88.66666666666632,
+   "end": 91.85365079365044,
+   "text": "firms may have been unable to borrow",
+   "voice": "n"
+  },
+  {
+   "start": 91.99999999999959,
+   "end": 94.75741496598599,
+   "text": "or simply have had no customers",
+   "voice": "n"
+  },
+  {
+   "start": 94.89999999999952,
+   "end": 97.83156462584986,
+   "text": "a race removes the option to wait",
+   "voice": "n"
+  },
+  {
+   "start": 97.96666666666613,
+   "end": 101.2349206349201,
+   "text": "and the policy did move market prices",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "47/49",
+  "CHAPTER47",
+  "Fourdoorshecannotclose",
+  "PARTTHREE\u2014THEARGUMENT",
+  "TherivalsKitcannotbeat",
+  "Whatwejustestablished",
+  "allfourleftstandingopen",
+  "andthepolicydidmovemarketprices",
+  "araceforthesamejob",
+  "araceremovestheoptiontowait",
+  "creditrationing",
+  "demand,notpatience",
+  "firmsmayhavebeenunabletoborrow",
+  "investmentacompanycantakeitstimeover\u2014notarace",
+  "itdidmoveprices",
+  "orsimplyhavehadnocustomers"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "off_frame": [],
+ "too_small": [],
+ "silent_beats": []
+}

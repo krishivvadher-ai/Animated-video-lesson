@@ -1,113 +1,113 @@
 {
  "chapter": 12,
  "title": "The picture the paper draws",
- "duration": 159.866666666666,
+ "duration": 159.76666666666563,
  "cues": [
   {
-   "start": 6.333333333333329,
-   "end": 17.97414965986394,
+   "start": 6.166666666666658,
+   "end": 17.80748299319727,
    "text": "The paper has two diagrams, and they are the heart of it. Across the bottom, the revenue coming in each year. Up the side, what the whole opportunity is worth to Nell.",
    "voice": "n"
   },
   {
-   "start": 18.39999999999999,
-   "end": 34.42761904761904,
+   "start": 18.23333333333332,
+   "end": 34.26095238095237,
    "text": "First, the straight line. If she builds today she gets the revenue for ever, divided by the rate, minus the sunk cost. That is the sum from two chapters ago, and drawn against revenue it is a straight line.",
    "voice": "n"
   },
   {
-   "start": 36.266666666666644,
-   "end": 47.824444444444424,
+   "start": 36.100000000000094,
+   "end": 47.65777777777787,
    "text": "It starts below the axis, because at zero revenue she would simply lose the sunk cost. And it crosses zero exactly at Marshall's line.",
    "voice": "n"
   },
   {
-   "start": 49.66666666666673,
-   "end": 58.026031746031805,
+   "start": 49.49999999999999,
+   "end": 57.85936507936508,
    "text": "Now the second line, and this one is a curve. It is what the chance to build is worth if she does not use it yet.",
    "voice": "n"
   },
   {
-   "start": 59.866666666666845,
-   "end": 68.87242630385505,
+   "start": 59.699999999999854,
+   "end": 68.70575963718807,
    "text": "When revenue is very low the chance is nearly worthless \u2014 things would have to improve enormously, and that is a long way off.",
    "voice": "n"
   },
   {
-   "start": 69.26666666666688,
-   "end": 76.91097505668955,
+   "start": 69.13333333333314,
+   "end": 76.77764172335581,
    "text": "As revenue rises the chance is worth more, and worth more faster. That is why it bends upwards.",
    "voice": "n"
   },
   {
-   "start": 77.3333333333335,
-   "end": 85.49360544217704,
+   "start": 77.19999999999976,
+   "end": 85.3602721088433,
    "text": "And close to the point where she would build, it is worth just about what building is worth. The two have to meet.",
    "voice": "n"
   },
   {
-   "start": 87.86666666666676,
-   "end": 94.44095238095247,
+   "start": 87.69999999999969,
+   "end": 94.2742857142854,
    "text": "They meet here. And they do not cross \u2014 they touch, and run off in the same direction.",
    "voice": "n"
   },
   {
-   "start": 96.26666666666662,
-   "end": 105.44439909297049,
+   "start": 96.09999999999955,
+   "end": 105.2777324263034,
    "text": "If the two lines crossed, waiting would still be worth more just past the meeting point \u2014 so she would not build there after all.",
    "voice": "n"
   },
   {
-   "start": 105.86666666666657,
-   "end": 111.94031746031737,
+   "start": 105.6999999999995,
+   "end": 111.7736507936503,
    "text": "And if the curve stayed below the line, she would have been better off building sooner.",
    "voice": "n"
   },
   {
-   "start": 112.3333333333332,
-   "end": 119.82308390022662,
+   "start": 112.19999999999946,
+   "end": 119.68975056689288,
    "text": "Touching, and only touching, is the right place. That single condition is what picks out the trigger.",
    "voice": "n"
   },
   {
-   "start": 122.19999999999979,
-   "end": 133.51918367346917,
+   "start": 122.03333333333273,
+   "end": 133.35251700680212,
    "text": "And there, between where the textbook says build and where she actually should, is the gap this whole film is about. You have now seen exactly where it comes from.",
    "voice": "n"
   },
   {
-   "start": 135.33333333333306,
-   "end": 144.01904761904734,
+   "start": 135.19999999999933,
+   "end": 143.88571428571362,
    "text": "The paper finds that touching point with calculus. We are about to get exactly the same answer with a square root.",
    "voice": "n"
   },
   {
-   "start": 146.93333333333297,
-   "end": 149.43782312925134,
+   "start": 146.73333333333258,
+   "end": 149.23782312925096,
    "text": "the straight line: building now",
    "voice": "n"
   },
   {
-   "start": 149.5333333333329,
-   "end": 152.24430839002224,
+   "start": 149.36666666666585,
+   "end": 152.07764172335519,
    "text": "the curve: what waiting is worth",
    "voice": "n"
   },
   {
-   "start": 152.33333333333283,
-   "end": 154.95142857142807,
+   "start": 152.19999999999914,
+   "end": 154.81809523809437,
    "text": "they touch \u2014 they do not cross",
    "voice": "n"
   },
   {
-   "start": 155.0666666666661,
-   "end": 157.63832199546428,
+   "start": 154.96666666666573,
+   "end": 157.53832199546392,
    "text": "and where they touch is the trigger",
    "voice": "n"
   }
  ],
  "screen_text": [
-  "12/43",
+  "12/49",
   "CHAPTER12",
   "H",
   "M",

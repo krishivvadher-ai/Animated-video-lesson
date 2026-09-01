@@ -1,0 +1,215 @@
+{
+ "chapter": 27,
+ "title": "Everything, in order",
+ "duration": 155.5666666666652,
+ "cues": [
+  {
+   "start": 6.466666666666657,
+   "end": 9.901632653061215,
+   "text": "investment: spend now, earn later",
+   "voice": "n"
+  },
+  {
+   "start": 10.099999999999987,
+   "end": 12.950294784580485,
+   "text": "some of it is sunk \u2014 never got back",
+   "voice": "n"
+  },
+  {
+   "start": 13.166666666666652,
+   "end": 16.05179138321994,
+   "text": "the future arrives a bit at a time",
+   "voice": "n"
+  },
+  {
+   "start": 16.26666666666665,
+   "end": 18.478412698412683,
+   "text": "the chance usually keeps",
+   "voice": "n"
+  },
+  {
+   "start": 19.86666666666672,
+   "end": 24.214648526077152,
+   "text": "so waiting pays: bad half cut, good half kept",
+   "voice": "n"
+  },
+  {
+   "start": 24.433333333333415,
+   "end": 26.95854875283455,
+   "text": "not about disliking risk",
+   "voice": "n"
+  },
+  {
+   "start": 27.166666666666778,
+   "end": 30.72517006802732,
+   "text": "waiting costs profit \u21d2 a level to act at",
+   "voice": "n"
+  },
+  {
+   "start": 30.933333333333476,
+   "end": 34.039047619047764,
+   "text": "the trigger sits above the textbook line",
+   "voice": "n"
+  },
+  {
+   "start": 35.43333333333346,
+   "end": 38.666757369614636,
+   "text": "how far: choppiness and the cost of money",
+   "voice": "n"
+  },
+  {
+   "start": 38.86666666666676,
+   "end": 43.70226757369624,
+   "text": "base case \u2248 double \u00b7 rough trade > 3\u00d7",
+   "voice": "n"
+  },
+  {
+   "start": 43.90000000000006,
+   "end": 45.99564625850346,
+   "text": "cheaper money RAISES it",
+   "voice": "n"
+  },
+  {
+   "start": 46.20000000000003,
+   "end": 49.93265306122452,
+   "text": "in reverse: absorb losses before quitting",
+   "voice": "n"
+  },
+  {
+   "start": 51.333333333333286,
+   "end": 55.48394557823124,
+   "text": "the do-nothing band \u2248 9\u00d7 wider",
+   "voice": "n"
+  },
+  {
+   "start": 55.69999999999992,
+   "end": 58.77346938775502,
+   "text": "up and back down \u2014 the effect stays",
+   "voice": "n"
+  },
+  {
+   "start": 58.96666666666655,
+   "end": 61.71247165532868,
+   "text": "cushion the downside \u21d2 early in",
+   "voice": "n"
+  },
+  {
+   "start": 61.89999999999985,
+   "end": 65.6790929705214,
+   "text": "many firms \u21d2 an industry that looks frozen",
+   "voice": "n"
+  },
+  {
+   "start": 70.7333333333329,
+   "end": 81.03827664399049,
+   "text": "Give up at nought point seven two. Build at one point six two. And in between, a wide stretch where the right thing to do is nothing.",
+   "voice": "n"
+  },
+  {
+   "start": 84.56666666666608,
+   "end": 89.21963718820803,
+   "text": "It does not say firms are irrational. It says the opposite.",
+   "voice": "n"
+  },
+  {
+   "start": 89.66666666666605,
+   "end": 93.14866213151865,
+   "text": "It does not say waiting is always right.",
+   "voice": "n"
+  },
+  {
+   "start": 93.56666666666601,
+   "end": 99.07183673469322,
+   "text": "And it does not apply where a rival can snatch the opportunity away from you.",
+   "voice": "n"
+  },
+  {
+   "start": 103.19999999999918,
+   "end": 114.05827664399011,
+   "text": "The farmer keeps going because closing is final. Staying open keeps the good years possible, and that is worth more to him than the losses are costing him.",
+   "voice": "n"
+  },
+  {
+   "start": 115.89999999999912,
+   "end": 127.20956916099686,
+   "text": "And I do not build, because building is final too. Waiting another year is worth something, and this year's numbers are not yet good enough to pay for it.",
+   "voice": "n"
+  },
+  {
+   "start": 130.03333333333234,
+   "end": 140.01201814058857,
+   "text": "One more thing before we stop. A government somewhere spent hundreds of billions of pounds on a policy that assumed none of this was true.",
+   "voice": "n"
+  },
+  {
+   "start": 144.93333333333211,
+   "end": 147.0986394557811,
+   "text": "the whole ladder, in order",
+   "voice": "n"
+  },
+  {
+   "start": 147.23333333333204,
+   "end": 149.9094784580486,
+   "text": "not irrational \u00b7 not always right",
+   "voice": "n"
+  },
+  {
+   "start": 150.03333333333197,
+   "end": 153.33641723355873,
+   "text": "next: a policy that assumed none of it",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "0.72giveup",
+  "1.00day-to-daycost",
+  "1.10textbook",
+  "1.62build",
+  "13\u201316of16",
+  "1\u20134of16",
+  "27/49",
+  "5\u20138of16",
+  "9\u201312of16",
+  "Backtothetwoweopenedwith",
+  "CHAPTER27",
+  "Everything,inorder",
+  "Moneycomingineachmonth",
+  "PARTONE\u2014THEPAPER",
+  "PartTwo",
+  "Themasterscale,initsfinalform",
+  "Thewholeladder,inorder",
+  "WhatthepaperdoesNOTclaim",
+  "Whatwejustestablished",
+  "agovernmentspentbillionsassumingnoneofthis",
+  "basecase\u2248double\u00b7roughtrade>3\u00d7",
+  "buildingisfinaltoo\u2014thisyearisnotyetgoodenough",
+  "cheapermoneyRAISESit",
+  "closingisfinal\u2014stayingkeepsthegoodyearspossible",
+  "cushionthedownside\u21d2earlyin",
+  "howfar:choppinessandthecostofmoney",
+  "inreverse:absorblossesbeforequitting",
+  "investment:spendnow,earnlater",
+  "manyfirms\u21d2anindustrythatlooksfrozen",
+  "next:apolicythatassumednoneofit",
+  "notaboutdislikingrisk",
+  "notirrational\u00b7notalwaysright",
+  "notwherearivalcansnatchit",
+  "not\u201cfirmsareirrational\u201d",
+  "not\u201cwaitingisalwaysright\u201d",
+  "someofitissunk\u2014nevergotback",
+  "sowaitingpays:badhalfcut,goodhalfkept",
+  "thechanceusuallykeeps",
+  "thedo-nothingband\u22489\u00d7wider",
+  "thefuturearrivesabitatatime",
+  "thetriggersitsabovethetextbookline",
+  "thewholeladder,inorder",
+  "upandbackdown\u2014theeffectstays",
+  "waitingcostsprofit\u21d2aleveltoactat",
+  "\u00a3"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "off_frame": [],
+ "too_small": [],
+ "silent_beats": []
+}

@@ -1,182 +1,131 @@
 {
  "chapter": 15,
- "title": "When to give up",
- "duration": 216.86666666666505,
+ "title": "Why a bend is worth money",
+ "duration": 150.79999999999868,
  "cues": [
   {
-   "start": 7.866666666666652,
-   "end": 12.31913832199545,
-   "text": "suspending. Stopping for a while, meaning to start again.",
+   "start": 8.366666666666651,
+   "end": 16.54321995464851,
+   "text": "Here is the tangent again, and here it is walking along the curve. Watch the tangent itself, not the point.",
    "voice": "n"
   },
   {
-   "start": 16.53333333333334,
-   "end": 19.151428571428575,
-   "text": "abandoning. Stopping for good.",
+   "start": 16.966666666666637,
+   "end": 23.360997732426274,
+   "text": "It is turning. The gradient is not a fixed number: it has a gradient of its own.",
    "voice": "n"
   },
   {
-   "start": 21.50000000000003,
-   "end": 36.61909297052157,
-   "text": "To make the point sharp, the paper assumes that idle machinery rusts. Totally, and immediately. So pausing and quitting become the same thing, and starting again means paying the whole sunk cost over again.",
+   "start": 26.900000000000095,
+   "end": 32.51360544217697,
+   "text": "the second gradient. How fast the steepness itself is changing.",
    "voice": "n"
   },
   {
-   "start": 38.46666666666675,
-   "end": 54.409160997732506,
-   "text": "And the paper flags that itself, as a deliberate simplification. Where a firm really can mothball a factory and restart it cheaply, this half of the argument gets weaker. Hold on to that \u2014 Part Three needs it.",
+   "start": 36.0333333333334,
+   "end": 45.21215419501141,
+   "text": "One dash for the steepness. Two dashes for how fast the steepness is changing. That is all the second one means.",
    "voice": "n"
   },
   {
-   "start": 58.63333333333323,
-   "end": 61.63455782312915,
-   "text": "Nell is losing money this month.",
+   "start": 50.93333333333313,
+   "end": 58.98390022675717,
+   "text": "Two futures, equally likely. One bad, one good, the same distance either side of where we are now.",
    "voice": "n"
   },
   {
-   "start": 62.06666666666653,
-   "end": 68.52766439909283,
-   "text": "If she closes, she can never get the chance back without paying for it all over again.",
+   "start": 59.43333333333306,
+   "end": 68.57328798185914,
+   "text": "Join them. The middle of that line is the average of the two values \u2014 what you get on average if the future goes one way or the other.",
    "voice": "n"
   },
   {
-   "start": 68.96666666666648,
-   "end": 73.63972789115628,
-   "text": "Staying open keeps alive the chance that trade recovers.",
+   "start": 68.99999999999963,
+   "end": 81.45782312925132,
+   "text": "And it is higher than the curve. The average of the two values beats the value at the average. The gap is pure bend \u2014 and it is exactly the gap chapter five was about.",
    "voice": "n"
   },
   {
-   "start": 74.06666666666645,
-   "end": 81.13138321995443,
-   "text": "And that chance is worth something. So she should absorb real losses before she shuts.",
+   "start": 83.29999999999943,
+   "end": 94.70512471655272,
+   "text": "So a value that bends upwards is worth more when the future is uncertain than when it is not. That is the whole reason the second gradient appears at all.",
    "voice": "n"
   },
   {
-   "start": 86.26666666666623,
-   "end": 93.3313832199542,
-   "text": "Down here, at nought point seven two, she finally gives up. That is the real quit-line.",
+   "start": 100.13333333333252,
+   "end": 109.6754648526069,
+   "text": "A curve that bends the other way loses by the same argument. The chord sits below it, so uncertainty costs rather than pays.",
    "voice": "n"
   },
   {
-   "start": 94.16666666666617,
-   "end": 101.25460317460268,
-   "text": "At one, her day-to-day costs are exactly covered. That is where the textbook says stop.",
+   "start": 110.09999999999913,
+   "end": 113.0088435374141,
+   "text": "Bending up, uncertainty pays.",
    "voice": "n"
   },
   {
-   "start": 102.09999999999945,
-   "end": 109.88453514739174,
-   "text": "At one point one, the textbook says build \u2014 day-to-day costs plus the normal return on the money sunk in.",
+   "start": 113.43333333333243,
+   "end": 115.9491156462576,
+   "text": "Bending down, it costs.",
    "voice": "n"
   },
   {
-   "start": 110.73333333333272,
-   "end": 115.29029478457988,
-   "text": "And at one point six two, she should actually build.",
+   "start": 116.36666666666572,
+   "end": 131.06562358276548,
+   "text": "And a straight line \u2014 no bend at all \u2014 is the one case where uncertainty makes no difference whatsoever. Which is precisely why the textbook, which draws straight lines, never sees any of this.",
    "voice": "n"
   },
   {
-   "start": 116.43333333333266,
-   "end": 127.0274829931966,
-   "text": "At the true build point her operating profit is nought point six two \u2014 more than six times the normal return on the money she has sunk in.",
+   "start": 133.89999999999895,
+   "end": 137.94612244897854,
+   "text": "two dashes: how fast the steepness changes",
    "voice": "n"
   },
   {
-   "start": 127.46666666666593,
-   "end": 136.96566893423963,
-   "text": "And at the quit point she is absorbing losses of nearly a third of her day-to-day costs, month after month, before she gives up.",
+   "start": 138.06666666666555,
+   "end": 141.42780045351364,
+   "text": "a bend up puts the average above the curve",
    "voice": "n"
   },
   {
-   "start": 140.39999999999912,
-   "end": 147.55823129251613,
-   "text": "Suppose the building costs more to put up. A bigger sunk cost. What happens to the two lines?",
+   "start": 141.5666666666655,
+   "end": 145.09034013605324,
+   "text": "so uncertainty adds value to a bent thing",
    "voice": "n"
   },
   {
-   "start": 147.9999999999991,
-   "end": 152.4408616780036,
-   "text": "The build-line goes up. She is more reluctant to start.",
-   "voice": "n"
-  },
-  {
-   "start": 152.86666666666568,
-   "end": 157.38149659863848,
-   "text": "And the quit-line goes down. She is more reluctant to stop.",
-   "voice": "n"
-  },
-  {
-   "start": 159.19999999999894,
-   "end": 173.33265306122343,
-   "text": "Say that one twice, because it is not obvious. A bigger stake to keep alive makes her slower to start and slower to stop. Both at once, and for the same reason \u2014 there is more to protect.",
-   "voice": "n"
-  },
-  {
-   "start": 175.66666666666544,
-   "end": 191.69088435374027,
-   "text": "One more. If leaving is itself expensive \u2014 redundancy payments, restoring the site of a mine \u2014 then the build-line rises further still. She is more cautious about entering something she may have to pay to escape.",
-   "voice": "n"
-  },
-  {
-   "start": 194.533333333332,
-   "end": 198.730385487527,
-   "text": "stopping = ruin, a flagged simplification",
-   "voice": "n"
-  },
-  {
-   "start": 198.86666666666528,
-   "end": 203.7603174603161,
-   "text": "staying keeps recovery alive, so losses are absorbed",
-   "voice": "n"
-  },
-  {
-   "start": 203.89999999999856,
-   "end": 210.90666666666522,
-   "text": "0.72 \u00b7 1.00 \u00b7 1.10 \u00b7 1.62",
-   "voice": "n"
-  },
-  {
-   "start": 211.03333333333183,
-   "end": 214.62666666666516,
-   "text": "a bigger sunk cost slows her both ways",
+   "start": 145.2333333333321,
+   "end": 148.57124716553164,
+   "text": "and does nothing at all to a straight one",
    "voice": "n"
   }
  ],
  "screen_text": [
-  "0.72giveup",
-  "0.72\u00b71.00\u00b71.10\u00b71.62",
-  "1.00day-to-daycost",
-  "1.10textbook",
-  "1.62reallybuild",
-  "15/43",
+  "15/49",
+  "Andhereiswhythatmatters",
+  "Andtheotherwayround",
   "CHAPTER15",
-  "Fourlevels,inhisownexample",
-  "Moneycomingineachmonth",
-  "Nowmoveonethingatatime",
+  "Doittwice",
+  "Howfastthesteepnessitselfischanging.",
   "PARTONE\u2014THEPAPER",
-  "Stoppingforawhile,meaningtostartagain.",
-  "Stoppingforgood.",
-  "Twowordsthatarenotthesame",
+  "V\u2032(R)",
+  "V\u2033(R)",
   "Whatwejustestablished",
-  "Whentogiveup",
-  "Whysheabsorbslossesfirst",
-  "abandoning",
-  "abiggersunkcost",
-  "abiggersunkcostslowsherbothways",
-  "atL:lossesnearathirdofrunningcost",
-  "closingisfinal",
-  "costlytoleave\u2192build-linehigherstill",
-  "idlemachineryrusts\u2014totally,atonce",
-  "losingmoneythismonth",
-  "profit0.62atH\u2014over6\u00d7thenormalreturn",
-  "runningcost1\u00b7sunkcost2",
-  "slowertostartANDslowertostop",
-  "sosheabsorbsreallosses",
-  "stayingkeepsrecoveryalive",
-  "stayingkeepsrecoveryalive,solossesareabsorbed",
-  "stopping=ruin,aflaggedsimplification",
-  "suspending",
-  "thepaperflagsthisasasimplification"
+  "Whyabendisworthmoney",
+  "abendupputstheaverageabovethecurve",
+  "anddoesnothingatalltoastraightone",
+  "bendsdown\u2192uncertaintycosts",
+  "bendsupwards\u2192uncertaintyaddsvalue",
+  "bendsup\u2192uncertaintypays",
+  "souncertaintyaddsvaluetoabentthing",
+  "straight\u2192uncertaintydoesnothing",
+  "thebendisworththismuch",
+  "thegradientisitselfchanging",
+  "thesecondgradient",
+  "twodashes:howfastthesteepnesschanges",
+  "value",
+  "\u00a3",
+  "\u2192"
  ],
  "collisions": [],
  "low_content": [],

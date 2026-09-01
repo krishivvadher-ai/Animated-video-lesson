@@ -234,14 +234,15 @@ def recap_panel(items, heading="So far", icons=None):
 
 
 def progress(chapter):
-    """A small persistent indicator: where we are in the thirty-one chapters."""
+    """A small persistent indicator: how far through the film we are."""
     w = 2.6
     track = Line(LEFT * w / 2, RIGHT * w / 2, color=MUTED, stroke_width=1.5)
     track.set_opacity(0.45)
     frac = chapter / (TOTAL_CHAPTERS - 1)
     fill = Line(LEFT * w / 2, LEFT * w / 2 + RIGHT * w * frac,
                 color=GREY_A, stroke_width=3)
-    lab = Text(f"{chapter}/43", font=FONT, font_size=T_TINY, color=MUTED)
+    lab = Text(f"{chapter}/{TOTAL_CHAPTERS - 1}", font=FONT,
+               font_size=T_TINY, color=MUTED)
     lab.set_opacity(0.7)
     lab.next_to(track, LEFT, buff=0.24)
     g = VGroup(track, fill, lab)
@@ -260,3 +261,36 @@ def source_tag(text, color):
 def note(text, color=MUTED, size=T_SMALL, width=70):
     return Text(wrap(text, width), font=FONT, font_size=size, color=color,
                 line_spacing=0.95)
+
+
+SYMBOLS = {
+    "R": ("R", "the money coming in", MONEY),
+    "K": ("K", "the sunk cost of building", SUNK),
+    "rho": ("\u03c1", "the cost of capital", WAIT),
+    "sigma": ("\u03c3", "the choppiness", COST),
+    "mu": ("\u03bc", "the drift", MUTED),
+    "beta": ("\u03b2", "the steepness", TRIGGER),
+    "alpha": ("\u03b1", "the other root", MUTED),
+    "V": ("V(R)", "the value, at that level", CHALK),
+    "dt": ("dt", "a tiny slice of time", MUTED),
+    "dR": ("dR", "the change over it", MUTED),
+}
+
+
+def symbol_key(keys, size=T_SMALL, buff=0.28):
+    """A running key to the symbols on screen.
+
+    Every Greek letter in this film is a squiggle standing for an English
+    phrase, and the phrase is what gets said aloud. The key keeps the
+    translation in view rather than asking anyone to remember it."""
+    rows = VGroup()
+    for k in keys:
+        sym, words, col = SYMBOLS[k]
+        s = Text(sym, font=FONT, font_size=size + 4, color=col)
+        eq = Text("means", font=FONT, font_size=size - 5, color=MUTED)
+        w = Text(words, font=FONT, font_size=size, color=col)
+        rows.add(VGroup(s, eq, w).arrange(RIGHT, buff=0.22))
+    rows.arrange(DOWN, buff=buff, aligned_edge=LEFT)
+    for r in rows:                      # line the three columns up
+        r[0].align_to(rows[0][0], LEFT)
+    return rows

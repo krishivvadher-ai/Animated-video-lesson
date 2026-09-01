@@ -1,0 +1,148 @@
+{
+ "chapter": 29,
+ "title": "Why cutting the rate was not enough",
+ "duration": 166.53333333333194,
+ "cues": [
+  {
+   "start": 7.1666666666666545,
+   "end": 16.678458049886608,
+   "text": "In normal times the Bank's rate travels down this line, through a bank, and comes out as the rate an ordinary firm pays.",
+   "voice": "n"
+  },
+  {
+   "start": 17.099999999999973,
+   "end": 28.92526077097503,
+   "text": "Then, in two thousand and seven and eight, banks stopped trusting each other. Lenders would provide funds to a bank only at a much higher price \u2014 if at all.",
+   "voice": "n"
+  },
+  {
+   "start": 29.36666666666669,
+   "end": 37.226122448979616,
+   "text": "A wedge opened up. The Bank's rate went down. The rate a firm actually paid did not follow it.",
+   "voice": "n"
+  },
+  {
+   "start": 39.36666666666664,
+   "end": 44.86290249433104,
+   "text": "credit spread. The wedge between the Bank's rate and the rate a firm pays.",
+   "voice": "n"
+  },
+  {
+   "start": 51.09999999999979,
+   "end": 65.70099773242609,
+   "text": "On the eighth of October two thousand and eight, central banks in Canada, China, the euro area, Sweden, Switzerland, the United Kingdom and the United States all cut on the same day.",
+   "voice": "n"
+  },
+  {
+   "start": 66.13333333333304,
+   "end": 73.22920634920605,
+   "text": "In Britain, the Bank cut its rate by three percentage points in the last three months of that year.",
+   "voice": "n"
+  },
+  {
+   "start": 73.66666666666629,
+   "end": 81.23061224489759,
+   "text": "And by a further one and a half percentage points in the first three months of two thousand and nine.",
+   "voice": "n"
+  },
+  {
+   "start": 81.6666666666662,
+   "end": 85.84049886621268,
+   "text": "And there it stopped, at nought point five per cent.",
+   "voice": "n"
+  },
+  {
+   "start": 87.66666666666613,
+   "end": 101.15206349206295,
+   "text": "And note that they stopped just above zero, not at it \u2014 because of worries about what extremely low rates would do to banks' own profits, and to the working of the money markets themselves.",
+   "voice": "n"
+  },
+  {
+   "start": 105.09999999999927,
+   "end": 111.00131519274304,
+   "text": "the zero lower bound. The point where a central bank cannot cut any further.",
+   "voice": "n"
+  },
+  {
+   "start": 115.79999999999914,
+   "end": 121.83034013605356,
+   "text": "They could lend to banks that were short of cash \u2014 the oldest job a central bank has.",
+   "voice": "n"
+  },
+  {
+   "start": 122.26666666666576,
+   "end": 130.92467120181314,
+   "text": "They could buy assets with money they created. That is the one this film is about, and the next chapter builds it.",
+   "voice": "n"
+  },
+  {
+   "start": 131.3666666666657,
+   "end": 140.40834467120087,
+   "text": "Or they could simply say something about what they intended to do in future \u2014 which turns out to matter more than you would think.",
+   "voice": "n"
+  },
+  {
+   "start": 140.83333333333232,
+   "end": 146.58503401360443,
+   "text": "All of that together goes by one name. Unconventional monetary policy.",
+   "voice": "n"
+  },
+  {
+   "start": 149.43333333333223,
+   "end": 152.84090702947736,
+   "text": "lenders would fund banks only dearly",
+   "voice": "n"
+  },
+  {
+   "start": 152.9666666666655,
+   "end": 155.09265306122333,
+   "text": "a credit spread opened up",
+   "voice": "n"
+  },
+  {
+   "start": 155.2333333333321,
+   "end": 160.8440362811779,
+   "text": "cut 3 points, then 1.5 \u2014 stop at 0.5",
+   "voice": "n"
+  },
+  {
+   "start": 160.96666666666536,
+   "end": 164.31619047618918,
+   "text": "what is left: unconventional policy",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "0.5%,notzero",
+  "20082009",
+  "29/49",
+  "CHAPTER29",
+  "PARTTWO\u2014THEPOLICY",
+  "Sotheycut,andcut,andcut",
+  "Thepointwhereacentralbankcannotcutanyfurther.",
+  "ThewedgebetweentheBank'srateandtherateafirmpays.",
+  "Whatisleftwhentheleverisdown",
+  "Whatwejustestablished",
+  "Wheretherateissupposedtotravel",
+  "Whycuttingtheratewasnotenough",
+  "abank",
+  "acreditspreadopenedup",
+  "afirm",
+  "buyassetswithnewmoney",
+  "creditspread",
+  "cut3points,then1.5\u2014stopat0.5",
+  "lenderswouldfundbanksonlydearly",
+  "lendtobanksshortofcash",
+  "saywhatyouintendtodo",
+  "theBank'srate",
+  "thezerolowerbound",
+  "unconventionalmonetarypolicy",
+  "whatisleft:unconventionalpolicy",
+  "zero"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "off_frame": [],
+ "too_small": [],
+ "silent_beats": []
+}

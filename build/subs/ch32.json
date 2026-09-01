@@ -1,0 +1,150 @@
+{
+ "chapter": 32,
+ "title": "Channel one: the hot potato",
+ "duration": 175.56666666666507,
+ "cues": [
+  {
+   "start": 4.699999999999997,
+   "end": 13.492290249433104,
+   "text": "Leg one of the chain has three channels, and this is the big one. The one the Bank of England itself puts first.",
+   "voice": "n"
+  },
+  {
+   "start": 15.533333333333317,
+   "end": 27.105804988662115,
+   "text": "At the zero lower bound, money pays nothing. And a piece of government debt that matures next month, at a rate of practically zero, also pays nothing.",
+   "voice": "n"
+  },
+  {
+   "start": 27.533333333333395,
+   "end": 38.249115646258566,
+   "text": "If the seller does not care which of those two it holds, the story ends right there. It takes the money, puts it in a drawer, and nothing else moves.",
+   "voice": "n"
+  },
+  {
+   "start": 42.26666666666672,
+   "end": 48.27487528344677,
+   "text": "a liquidity trap. When extra money is simply held, and nothing moves.",
+   "voice": "n"
+  },
+  {
+   "start": 51.80000000000003,
+   "end": 69.47410430839005,
+   "text": "Economists have a name for that. And buying short-dated debt with money \u2014 what is sometimes called pure quantitative easing \u2014 can run straight into it. Japan did exactly that between two thousand and one and two thousand and six.",
+   "voice": "n"
+  },
+  {
+   "start": 72.9999999999999,
+   "end": 80.13437641723345,
+   "text": "Line up the things somebody can hold, from the safest at the bottom to the riskiest at the top.",
+   "voice": "n"
+  },
+  {
+   "start": 80.56666666666644,
+   "end": 89.9301587301585,
+   "text": "A ten-year gilt pays more than money. Sell it and hold the money instead, and the return on your whole portfolio drops.",
+   "voice": "n"
+  },
+  {
+   "start": 94.16666666666622,
+   "end": 104.28390022675691,
+   "text": "The seller has money it did not want. So it goes looking for something else to hold \u2014 something a little riskier, which is now relatively cheap.",
+   "voice": "n"
+  },
+  {
+   "start": 104.73333333333281,
+   "end": 110.75315192743712,
+   "text": "And whoever sells it that thing now has the money instead. So they go looking too.",
+   "voice": "n"
+  },
+  {
+   "start": 111.1999999999993,
+   "end": 118.422539682539,
+   "text": "The authors call it passing the money around like a hot potato. Nobody wants to be left holding it.",
+   "voice": "n"
+  },
+  {
+   "start": 121.96666666666572,
+   "end": 129.2868027210875,
+   "text": "Think of all the interest-rate risk in the bond market as one pool, which somebody has to carry.",
+   "voice": "n"
+  },
+  {
+   "start": 129.73333333333233,
+   "end": 140.1311111111101,
+   "text": "When the central bank buys long-dated bonds, it carries some of that risk itself. So there is less left for everybody else to carry.",
+   "voice": "n"
+  },
+  {
+   "start": 140.56666666666544,
+   "end": 154.8883446712006,
+   "text": "And so the extra return they demand for carrying it falls, which pushes longer-term real interest rates down. That is the thinking behind the American programme nicknamed operation twist.",
+   "voice": "n"
+  },
+  {
+   "start": 157.733333333332,
+   "end": 161.89555555555424,
+   "text": "if money and bills are the same, nothing moves",
+   "voice": "n"
+  },
+  {
+   "start": 162.03333333333194,
+   "end": 165.57537414965847,
+   "text": "buy long, and the seller must go up the ladder",
+   "voice": "n"
+  },
+  {
+   "start": 165.69999999999854,
+   "end": 168.97115646258356,
+   "text": "money passed along like a hot potato",
+   "voice": "n"
+  },
+  {
+   "start": 169.0999999999985,
+   "end": 173.34349206349054,
+   "text": "and the Bank carries risk everyone else was carrying",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "1-monthbill",
+  "10-yeargilts",
+  "32/49",
+  "=",
+  "Andasecondwayofseeingit",
+  "CHAPTER32",
+  "Channelone:thehotpotato",
+  "First,thewayitcanfail",
+  "Japan,2001\u20132006",
+  "PARTTWO\u2014THEPOLICY",
+  "Solineupthethingsyoucanhold",
+  "Sothemoneygetspassedalong",
+  "ThechanneltheBankputsfirst",
+  "Whatwejustestablished",
+  "Whenextramoneyissimplyheld,andnothingmoves.",
+  "aliquiditytrap",
+  "alltheinterest-rateriskinthebondmarket",
+  "andtheBankcarriesriskeveryoneelsewascarrying",
+  "buylong,andthesellermustgouptheladder",
+  "carriedbytheBank",
+  "companybonds",
+  "ifmoneyandbillsarethesame,nothingmoves",
+  "intoadrawer",
+  "money",
+  "moneypassedalonglikeahotpotato",
+  "nobodywantstobeleftholdingit",
+  "pays0%",
+  "riskiest",
+  "safest",
+  "sellthegilt,holdthemoney,andyourreturndrops",
+  "shares",
+  "shortbills",
+  "sotheextrareturndemandedfalls",
+  "\u00a3"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "off_frame": [],
+ "too_small": [],
+ "silent_beats": []
+}

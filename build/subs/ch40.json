@@ -1,0 +1,148 @@
+{
+ "chapter": 40,
+ "title": "The exception on page 613",
+ "duration": 149.16666666666512,
+ "cues": [
+  {
+   "start": 6.166666666666658,
+   "end": 14.976190476190467,
+   "text": "A page later, the authors ask a question about somebody else. What does the government do when its own borrowing gets cheaper?",
+   "voice": "n"
+  },
+  {
+   "start": 15.399999999999988,
+   "end": 28.692335600907015,
+   "text": "And notice what they open with. The government's borrowing cost is now lower. Gilts are exactly what the Bank had been buying. So if anyone got the cheaper price, the government did.",
+   "voice": "n"
+  },
+  {
+   "start": 29.133333333333333,
+   "end": 31.728208616780044,
+   "text": "The money definitely arrives.",
+   "voice": "n"
+  },
+  {
+   "start": 33.566666666666784,
+   "end": 35.57242630385499,
+   "text": "And nothing happens.",
+   "voice": "n"
+  },
+  {
+   "start": 40.69999999999996,
+   "end": 51.4975056689342,
+   "text": "Here is what the authors say, in their own words. Their spending plans should therefore be unaffected by cyclical movements in interest rates.",
+   "voice": "n"
+  },
+  {
+   "start": 53.7333333333332,
+   "end": 59.61936507936495,
+   "text": "And look at the reason. It has nothing to do with access. The money arrives.",
+   "voice": "n"
+  },
+  {
+   "start": 60.06666666666645,
+   "end": 67.4548752834465,
+   "text": "The reason is about the horizon the decision is taken over. Governments plan a long way ahead.",
+   "voice": "n"
+  },
+  {
+   "start": 71.59999999999953,
+   "end": 78.51034013605394,
+   "text": "Kit gets excited. They have admitted, he says, that a feature of how the decision is made can break the whole chain.",
+   "voice": "c"
+  },
+  {
+   "start": 80.3333333333327,
+   "end": 86.68031746031683,
+   "text": "And then he reads it again, and crosses his own conclusion out. That is the first of several times he will do that.",
+   "voice": "c"
+  },
+  {
+   "start": 88.99999999999928,
+   "end": 97.73043083900154,
+   "text": "What survives is this, and it is thinner than he first thought. A feature of the decision itself is allowed, once,",
+   "voice": "n"
+  },
+  {
+   "start": 98.1666666666659,
+   "end": 102.43188208616704,
+   "text": "to break the link between a cheaper price and more spending.",
+   "voice": "n"
+  },
+  {
+   "start": 102.86666666666586,
+   "end": 109.65274376417153,
+   "text": "And nobody then asks whether anything else about how a decision gets made could do the same.",
+   "voice": "n"
+  },
+  {
+   "start": 112.4999999999991,
+   "end": 118.21795918367258,
+   "text": "That is a reason to go and look. It is not evidence about what you find.",
+   "voice": "n"
+  },
+  {
+   "start": 120.86666666666562,
+   "end": 129.75614512471552,
+   "text": "That sentence is the intellectual standard the rest of the film is held to. Everything Kit says from here has to meet it.",
+   "voice": "n"
+  },
+  {
+   "start": 132.59999999999874,
+   "end": 136.17011337868354,
+   "text": "the government gets the cheaper money for certain",
+   "voice": "n"
+  },
+  {
+   "start": 136.29999999999868,
+   "end": 139.84689342403496,
+   "text": "and its plans are unaffected \u2014 their words",
+   "voice": "n"
+  },
+  {
+   "start": 139.96666666666528,
+   "end": 143.31147392290111,
+   "text": "the reason is the horizon, not access",
+   "voice": "n"
+  },
+  {
+   "start": 143.4333333333319,
+   "end": 146.93378684807112,
+   "text": "which is a reason to look, not a finding",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "40/49",
+  "Apagelater,theyaskaboutsomebodyelse",
+  "Bowdler&Radia,p.613",
+  "CHAPTER40",
+  "Kitgetsaheadofhimself",
+  "PARTTHREE\u2014THEARGUMENT",
+  "Theexceptiononpage613",
+  "Theirwordsforwhy",
+  "Whatwejustestablished",
+  "aboutthehorizon",
+  "anditsplansareunaffected\u2014theirwords",
+  "andnobodyaskswhatelsecould",
+  "andnothinghappens",
+  "areasontogoandlook\u2014notevidenceaboutwhatyoufind",
+  "breaksthelink,once",
+  "cheapermoney",
+  "everythingKitsayshastomeetthat",
+  "giltsareexactlywhatwasbought",
+  "notaboutaccess",
+  "onefeatureofadecision",
+  "sotheyadmitmywholepoint!",
+  "thegovernmentgetsthecheapermoneyforcertain",
+  "thereasonisthehorizon,notaccess",
+  "whichisareasontolook,notafinding",
+  "\u00a3",
+  "\u201cTheirspendingplansshouldthereforebeunaffectedbycyclicalmovementsininterestrates.\u201d"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "off_frame": [],
+ "too_small": [],
+ "silent_beats": []
+}

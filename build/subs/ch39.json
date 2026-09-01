@@ -1,0 +1,156 @@
+{
+ "chapter": 39,
+ "title": "One sentence, two different kinds of claim",
+ "duration": 170.83333333333195,
+ "cues": [
+  {
+   "start": 6.166666666666658,
+   "end": 16.464580498866205,
+   "text": "Here is the sentence the whole of Part Two turns on. It is on page six hundred and twelve, and these are the authors' exact words.",
+   "voice": "n"
+  },
+  {
+   "start": 18.299999999999976,
+   "end": 25.7594557823129,
+   "text": "It contains two completely different kinds of claim, stitched together. Split it in half.",
+   "voice": "n"
+  },
+  {
+   "start": 26.90000000000008,
+   "end": 35.90204081632661,
+   "text": "The first half is a question about prices. Does the cheaper money actually arrive at a firm? You can go and check that.",
+   "voice": "n"
+  },
+  {
+   "start": 36.33333333333346,
+   "end": 46.869569160997855,
+   "text": "The second half is a question about behaviour. What does a firm do once the money has arrived? That is a different sort of question entirely.",
+   "voice": "n"
+  },
+  {
+   "start": 48.700000000000074,
+   "end": 52.39759637188216,
+   "text": "The first half gets hedged. Banks were impaired.",
+   "voice": "n"
+  },
+  {
+   "start": 52.833333333333364,
+   "end": 58.3423129251701,
+   "text": "Households and smaller companies have no access to capital markets.",
+   "voice": "n"
+  },
+  {
+   "start": 58.76666666666666,
+   "end": 61.589750566893414,
+   "text": "So they may not directly benefit.",
+   "voice": "n"
+  },
+  {
+   "start": 62.03333333333329,
+   "end": 82.35147392290244,
+   "text": "And be fair to them. These are honest, careful qualifications. They also name several other routes by which small firms might still benefit \u2014 through supply chains, through a cheaper currency helping exporters, and through banks passing on lower rates. All of that is in the article.",
+   "voice": "n"
+  },
+  {
+   "start": 82.79999999999981,
+   "end": 86.39333333333315,
+   "text": "Now Kit waits for the same thing to happen to the other half.",
+   "voice": "c"
+  },
+  {
+   "start": 90.23333333333309,
+   "end": 97.33147392290225,
+   "text": "One half of that sentence is hedged three times. The other half is not hedged once.",
+   "voice": "n"
+  },
+  {
+   "start": 100.86666666666616,
+   "end": 106.46154195011287,
+   "text": "His first reaction is not disagreement, and that matters for everything that follows.",
+   "voice": "c"
+  },
+  {
+   "start": 106.89999999999945,
+   "end": 114.05936507936453,
+   "text": "His first reaction is that two halves of one sentence are not the same kind of statement, and are being given the same amount of trust.",
+   "voice": "c"
+  },
+  {
+   "start": 117.59999999999931,
+   "end": 133.19827664399025,
+   "text": "This is not carelessness. It is what a certain kind of economics does by construction. It models markets in enormous detail, and it treats a firm as a machine. Numbers in. Decision out.",
+   "voice": "n"
+  },
+  {
+   "start": 133.6333333333325,
+   "end": 144.03324263038465,
+   "text": "There is nothing dishonest in that. It is a simplification, and simplifications are how anyone thinks about anything complicated.",
+   "voice": "n"
+  },
+  {
+   "start": 145.8666666666658,
+   "end": 151.98249433106488,
+   "text": "But it does mean that the last link in the chain is the only one nobody examines.",
+   "voice": "n"
+  },
+  {
+   "start": 154.7999999999989,
+   "end": 158.47460317460207,
+   "text": "one sentence, two different kinds of claim",
+   "voice": "n"
+  },
+  {
+   "start": 158.59999999999883,
+   "end": 161.96113378684691,
+   "text": "the price half is hedged three times",
+   "voice": "n"
+  },
+  {
+   "start": 162.09999999999877,
+   "end": 165.26376417233436,
+   "text": "the behaviour half is not hedged once",
+   "voice": "n"
+  },
+  {
+   "start": 165.3999999999987,
+   "end": 168.5985941043071,
+   "text": "because a firm is modelled as a machine",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "39/49",
+  "Andnoticewhatheisnotsaying",
+  "Bowdler&Radia,p.612",
+  "CHAPTER39",
+  "Onesentence,twodifferentkindsofclaim",
+  "PARTTHREE\u2014THEARGUMENT",
+  "ThesentencePartTwoturnson",
+  "Whatwejustestablished",
+  "Whythesecondhalfgoesunexamined",
+  "amachine:numbersin,decisionout",
+  "banksimpaired",
+  "becauseafirmismodelledasamachine",
+  "but:twohalves,oneleveloftrust",
+  "butthelastlinkistheonenobodyexamines",
+  "doescheapermoneyarrive?",
+  "markets:modelledinenormousdetail",
+  "maynotbenefit",
+  "nomarketaccess",
+  "not:thesentenceiswrong",
+  "onesentence,twodifferentkindsofclaim",
+  "shouldboostconsumptionandinvestment",
+  "simplificationsarehowanyonethinks",
+  "thebehaviourhalfisnothedgedonce",
+  "thefirm",
+  "thepricehalfishedgedthreetimes",
+  "thisfallinthecostofcapital",
+  "threehedges\u00b7none",
+  "whatdoesafirmthendo?"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "off_frame": [],
+ "too_small": [],
+ "silent_beats": []
+}

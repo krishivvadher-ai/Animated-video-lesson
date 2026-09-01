@@ -1,0 +1,138 @@
+{
+ "chapter": 28,
+ "title": "Money, and who is in charge of it",
+ "duration": 155.26666666666497,
+ "cues": [
+  {
+   "start": 6.166666666666658,
+   "end": 18.31274376417233,
+   "text": "Nothing here assumes you know what a central bank is, or an interest rate, or a bond. We build all of them from scratch, exactly as we built cost and revenue.",
+   "voice": "n"
+  },
+  {
+   "start": 18.73333333333332,
+   "end": 36.8717006802721,
+   "text": "And there is one new person. This is Kit. He is a student, and the argument in Part Three is his. He notices things, gets excited, and then talks himself down when the evidence will not carry him. That last part is the whole point.",
+   "voice": "n"
+  },
+  {
+   "start": 39.09999999999995,
+   "end": 44.36294784580494,
+   "text": "central bank. The public body that looks after a country's money.",
+   "voice": "n"
+  },
+  {
+   "start": 49.166666666666494,
+   "end": 53.84004535147375,
+   "text": "interest. The extra a borrower pays for the use of money.",
+   "voice": "n"
+  },
+  {
+   "start": 58.53333333333302,
+   "end": 65.84185941043053,
+   "text": "Borrow a hundred pounds at five per cent, and you pay back a hundred and five after a year.",
+   "voice": "n"
+  },
+  {
+   "start": 69.36666666666606,
+   "end": 74.32997732426243,
+   "text": "interest rate. How much extra, as a percentage per year.",
+   "voice": "n"
+  },
+  {
+   "start": 79.03333333333259,
+   "end": 84.94081632652987,
+   "text": "monetary policy. What a central bank does to make borrowing easier or harder.",
+   "voice": "n"
+  },
+  {
+   "start": 89.46666666666583,
+   "end": 102.36258503401277,
+   "text": "Meet the Governor. He runs the central bank. He is well-meaning, he holds the levers, and he is genuinely trying to help. He is not the villain of this film. There isn't one.",
+   "voice": "n"
+  },
+  {
+   "start": 103.89999999999904,
+   "end": 115.50421768707386,
+   "text": "After the crash of two thousand and eight, the Bank wanted people and businesses to spend and build. So it did the usual thing. It cut the rate.",
+   "voice": "n"
+  },
+  {
+   "start": 115.93333333333224,
+   "end": 118.86199546485152,
+   "text": "And it cut it again. And again.",
+   "voice": "n"
+  },
+  {
+   "start": 119.29999999999878,
+   "end": 129.02938775510083,
+   "text": "And by two thousand and nine the rate was almost at zero. The lever had hit the floor. You cannot cut much below nothing.",
+   "voice": "n"
+  },
+  {
+   "start": 130.86666666666537,
+   "end": 137.48167800453385,
+   "text": "So they needed something else. That something else is the subject of the next two chapters.",
+   "voice": "n"
+  },
+  {
+   "start": 140.2999999999986,
+   "end": 143.34766439909157,
+   "text": "central bank: looks after the money",
+   "voice": "n"
+  },
+  {
+   "start": 143.4666666666652,
+   "end": 146.42349206349058,
+   "text": "interest, and the rate, per year",
+   "voice": "n"
+  },
+  {
+   "start": 146.56666666666513,
+   "end": 149.14911564625697,
+   "text": "monetary policy: the lever",
+   "voice": "n"
+  },
+  {
+   "start": 149.26666666666506,
+   "end": 153.02253968253808,
+   "text": "by 2009 the lever hit the floor",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "2008,inninetyseconds",
+  "28/49",
+  "Aninterestrate,withnumbers",
+  "CHAPTER28",
+  "Howmuchextra,asapercentageperyear.",
+  "Kit",
+  "Money,andwhoisinchargeofit",
+  "PARTTWO\u2014THEPOLICY",
+  "PartTwostartsfromnothingagain",
+  "TheGovernor",
+  "Theextraaborrowerpaysfortheuseofmoney.",
+  "Thepublicbodythatlooksafteracountry'smoney.",
+  "Whatacentralbankdoestomakeborrowingeasierorharder.",
+  "Whatwejustestablished",
+  "by2009theleverhitthefloor",
+  "centralbank",
+  "centralbank:looksafterthemoney",
+  "interest",
+  "interest,andtherate,peryear",
+  "interestrate",
+  "monetarypolicy",
+  "monetarypolicy:thelever",
+  "sotheyneededsomethingelse",
+  "theinterestrate",
+  "zero",
+  "\u00a3",
+  "\u00a3100now",
+  "\u00a3105inayear"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "off_frame": [],
+ "too_small": [],
+ "silent_beats": []
+}

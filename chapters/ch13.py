@@ -13,6 +13,36 @@ class Chapter13(Chapter):
     RECAP_ICONS = ["scale", "money", "fog", "clock"]
 
     def body(self):
+        # Nothing Greek is used before it has been translated on screen.
+        self.heading("First, the squiggles")
+        intro = St.caption("a Greek letter is just a short name", MUTED,
+                           T_SUB, width=40)
+        St.place(intro, St.FULL, ay=0.85)
+        with self.narrate("Before any of this, the alphabet again, with two new ones "
+                          "added. Economists write these quantities as Greek letters "
+                          "purely to save space. Each one is a short name for something "
+                          "you already know."):
+            self.play(FadeIn(intro), run_time=0.9)
+        key = cards.symbol_key(["R", "K", "rho", "sigma", "beta"])
+        St.place(key, St.FULL, ay=-0.25, fill=False)
+        says = ["R is the money coming in, as before.",
+                "K is the sunk cost of building, as before.",
+                "The one that looks like a p is the cost of capital — you met it in "
+                "chapter ten.",
+                "The one like an o with a tail is the choppiness, from chapter "
+                "eleven.",
+                "And the one like a B is new. It is the steepness, and working it out "
+                "is what this chapter does."]
+        for i, row in enumerate(key):
+            with self.narrate(says[i]):
+                self.play(FadeIn(row, shift=RIGHT * 0.2), run_time=0.8)
+        with self.narrate("Nothing in this film is ever said as a Greek letter. Every "
+                          "one of them is spoken as the English phrase beside it, every "
+                          "single time."):
+            self.play(S.flash_around(key, TRIGGER, run_time=2.2))
+        self.beat()
+        self.clear_stage()
+
         # ------------------------------------------------ build the formula
         self.heading("It is a square root and a division")
         inner = VGroup(

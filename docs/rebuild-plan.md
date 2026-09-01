@@ -105,3 +105,9 @@ quotations looked like forbidden paragraphs.
 
 The lesson each of them shares: a check that cannot fail is worse than no check,
 because it is mistaken for one.
+
+**5. Verification that stopped halfway.**
+`verify.py`'s run block sat above the functions it called, so `check_durations`
+raised `NameError` and the last three checks -- durations, scripted silences
+and loudness -- had never run once. The block now sits at the end of the file.
+Same lesson as the other four: a check that cannot fail is worse than no check.

@@ -13,6 +13,9 @@ class Chapter19(Chapter):
     RECAP_ICONS = ["scale", "door", "flow", "money"]
 
     def body(self):
+        # the key to the squiggles, before any of them is used again
+        self.symbol_key(["R", "K", "beta", "alpha"], region=St.FULL, hold=4.0)
+
         # ------------------------------------------------ the second equation
         self.heading("A live project pays you while you hold it")
         wait_ = VGroup(cards.icon("clock", WAIT, 1.6),
@@ -107,11 +110,12 @@ class Chapter19(Chapter):
         St.place(why, St.SIDE, ay=-0.35)
         with self.narrate("Because a corner would mean the trigger was in the wrong "
                           "place: nudge it either way and you would do better. Only "
-                          "where the slopes agree is there nothing left to gain. "
-                          "Economists call it smooth pasting."):
+                          "where the slopes agree is there nothing left to gain."):
             self.play(FadeIn(why), run_time=0.9)
             self.play(S.indicate(sp, MONEY))
         self.beat()
+        self.define("smooth pasting", "Where two value curves meet, their slopes "
+                    "must agree.", "flow", MONEY, at=DOWN * 2.5, hold=4.2)
         self.clear_stage()
 
         # ------------------------------------------------ four equations

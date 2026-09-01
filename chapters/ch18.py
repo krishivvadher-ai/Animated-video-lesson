@@ -13,6 +13,9 @@ class Chapter18(Chapter):
     RECAP_ICONS = ["scale", "flow", "money", "door"]
 
     def body(self):
+        # the key to the squiggles, before any of them is used again
+        self.symbol_key(["rho", "sigma", "beta", "alpha"], region=St.FULL, hold=4.0)
+
         # ------------------------------------------------ why a power
         self.heading("Why guess a power?")
         eq = Text("½ σ²R² V″  +  μR V′  −  ρV  =  0", font=FONT, font_size=T_SUB,
@@ -100,8 +103,8 @@ class Chapter18(Chapter):
         lb = Text("β", font=FONT, font_size=T_SUB, color=MONEY)
         lb.next_to(r2, DOWN, buff=0.2)
         with self.narrate("A quadratic crosses zero twice. The paper calls the two "
-                          "answers alpha and beta. One of them is negative. The other "
-                          "is bigger than one."):
+                          "answers by the first two letters of the Greek alphabet. One of "
+                          "them is negative. The other is bigger than one."):
             self.play(FadeIn(r1), FadeIn(la), run_time=0.8)
             self.play(FadeIn(r2), FadeIn(lb), run_time=0.8)
         self.beat()
@@ -164,6 +167,6 @@ class Chapter18(Chapter):
         self.close_chapter([
             "each dash is paid for with exactly one R",
             "so a power survives, and R^x factors out",
-            "leaving a quadratic with roots α and β",
-            "complete the square, and β is the formula",
+            "leaving a quadratic, with two roots",
+            "complete the square, and the steepness falls out",
         ])

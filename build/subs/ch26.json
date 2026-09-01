@@ -1,0 +1,129 @@
+{
+ "chapter": 26,
+ "title": "Outside business",
+ "duration": 150.96666666666542,
+ "cues": [
+  {
+   "start": 6.166666666666658,
+   "end": 24.816916099773234,
+   "text": "The paper closes with an observation that reaches well outside business. Many personal, social and political decisions have exactly the same three features. Costly to reverse. Made under uncertainty. And the timing is yours to choose.",
+   "voice": "n"
+  },
+  {
+   "start": 25.26666666666665,
+   "end": 28.523310657596358,
+   "text": "So the same inertia applies to them too.",
+   "voice": "n"
+  },
+  {
+   "start": 32.06666666666676,
+   "end": 43.043582766440004,
+   "text": "A man and his partner, in New York, each with a rent-controlled flat. Their relationship reaches the point where she suggests they give one of them up.",
+   "voice": "n"
+  },
+  {
+   "start": 43.466666666666654,
+   "end": 45.295283446712006,
+   "text": "Let us give one of them up.",
+   "voice": "c"
+  },
+  {
+   "start": 45.73333333333326,
+   "end": 58.22376417233553,
+   "text": "And he explains to her, at length, the importance of keeping options alive. It is unlikely they would split up, he says, but given a positive probability, and so on.",
+   "voice": "n"
+  },
+  {
+   "start": 60.06666666666655,
+   "end": 64.16938775510192,
+   "text": "She took it very badly, and ended the relationship.",
+   "voice": "n"
+  },
+  {
+   "start": 67.69999999999962,
+   "end": 82.99873015872978,
+   "text": "Financial economists who hear that story say it proves how right he was. The paper says something better. He had misread the situation entirely. It was not a decision problem under uncertainty at all.",
+   "voice": "n"
+  },
+  {
+   "start": 86.53333333333279,
+   "end": 92.56476190476137,
+   "text": "signalling. Doing something costly, because the cost is what makes it believable.",
+   "voice": "n"
+  },
+  {
+   "start": 96.6666666666661,
+   "end": 99.81882086167744,
+   "text": "She was unsure how much he valued her.",
+   "voice": "n"
+  },
+  {
+   "start": 100.26666666666605,
+   "end": 114.31623582766379,
+   "text": "And it was precisely his willingness to take the costly, irreversible step of giving up the flat that would have carried the message. Anyone can say it. Only someone who means it will pay for it.",
+   "voice": "n"
+  },
+  {
+   "start": 114.73333333333268,
+   "end": 118.82589569160932,
+   "text": "He tried to sit on the fence, and fell off it.",
+   "voice": "n"
+  },
+  {
+   "start": 121.66666666666592,
+   "end": 135.963673469387,
+   "text": "And that gives the chapter a real point rather than a joke. It shows a limit of the whole framework. Option value is not always the right lens. Sometimes the irreversibility is the message.",
+   "voice": "n"
+  },
+  {
+   "start": 138.79999999999896,
+   "end": 141.8202721088425,
+   "text": "the same three features appear elsewhere",
+   "voice": "n"
+  },
+  {
+   "start": 141.96666666666556,
+   "end": 145.69931972789004,
+   "text": "keeping the option open can be the wrong move",
+   "voice": "n"
+  },
+  {
+   "start": 145.83333333333218,
+   "end": 148.71845804988547,
+   "text": "signalling: the cost is the message",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "26/49",
+  "Andtheresolutionistheinstructivepart",
+  "Anexampletoldagainsteconomists",
+  "CHAPTER26",
+  "Doingsomethingcostly,becausethecostiswhatmakesitbelievable.",
+  "Givenapositiveprobability\u2026",
+  "Let'sgiveoneup.",
+  "Outsidebusiness",
+  "PARTONE\u2014THEPAPER",
+  "Thesamethreefeatures,elsewhere",
+  "Whatwejustestablished",
+  "costlytoreverse",
+  "hesatonthefence,andfelloff",
+  "keepingtheoptionopencanbethewrongmove",
+  "madeunderuncertainty",
+  "notadecisionunderuncertainty\u2014asignallinggame",
+  "shewasunsurehowmuchhevaluedher",
+  "signalling",
+  "signalling:thecostisthemessage",
+  "sometimestheirreversibilityISthemessage",
+  "sothesameinertiaapplies",
+  "thecostly,irreversiblestepWASthemessage",
+  "thesamethreefeaturesappearelsewhere",
+  "thetimingisyours",
+  "tworent-controlledflats"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "off_frame": [],
+ "too_small": [],
+ "silent_beats": []
+}

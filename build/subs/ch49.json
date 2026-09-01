@@ -1,0 +1,161 @@
+{
+ "chapter": 49,
+ "title": "What is actually being claimed",
+ "duration": 159.36666666666474,
+ "cues": [
+  {
+   "start": 6.166666666666658,
+   "end": 10.940362811791374,
+   "text": "This is not a claim that quantitative easing does not work.",
+   "voice": "n"
+  },
+  {
+   "start": 11.366666666666655,
+   "end": 21.475918367346928,
+   "text": "Kit has not disputed that it moved prices in financial markets, which is the best-established finding in the whole body of research.",
+   "voice": "n"
+  },
+  {
+   "start": 21.899999999999984,
+   "end": 25.20308390022674,
+   "text": "It is not a claim that the theory is false.",
+   "voice": "n"
+  },
+  {
+   "start": 25.63333333333336,
+   "end": 31.043990929705245,
+   "text": "It is a claim that the theory is incomplete, in one specific place.",
+   "voice": "n"
+  },
+  {
+   "start": 35.76666666666671,
+   "end": 38.988480725623624,
+   "text": "So rebuild the chain one final time.",
+   "voice": "n"
+  },
+  {
+   "start": 39.4333333333332,
+   "end": 44.30376417233547,
+   "text": "Careful reasoning about what can go wrong at every stage.",
+   "voice": "n"
+  },
+  {
+   "start": 44.7333333333331,
+   "end": 53.02539682539659,
+   "text": "Except one. The stage where a quantity finally has to change, because somebody in a room has to say yes.",
+   "voice": "n"
+  },
+  {
+   "start": 57.26666666666607,
+   "end": 72.76013605442117,
+   "text": "The first is Dixit's, and Kit is mostly reporting it. When spending cannot be undone and the future is unknown, the bar is higher than the textbook says. And it rises as the world becomes more frightening.",
+   "voice": "n"
+  },
+  {
+   "start": 73.19999999999932,
+   "end": 89.83133786848005,
+   "text": "So a policy used in frightening times is working against the largest version of that bar. That is well-established economics, published in a general economics journal, and simply absent from the article he began with.",
+   "voice": "n"
+  },
+  {
+   "start": 90.26666666666586,
+   "end": 97.56557823129171,
+   "text": "The second is Kit's. And he holds it loosely, for all the reasons the four open doors gave.",
+   "voice": "n"
+  },
+  {
+   "start": 100.39999999999907,
+   "end": 104.27197278911471,
+   "text": "The gap is not a mistake in anybody's reasoning.",
+   "voice": "n"
+  },
+  {
+   "start": 104.69999999999902,
+   "end": 106.44734693877453,
+   "text": "It is a boundary.",
+   "voice": "n"
+  },
+  {
+   "start": 109.8666666666656,
+   "end": 126.08004535147285,
+   "text": "A model of the whole economy hands off to a decision it does not model. And the study of how that decision actually gets made sits in a different journal, on a different reading list, and in the other half of the same degree.",
+   "voice": "n"
+  },
+  {
+   "start": 130.19999999999868,
+   "end": 137.39120181405764,
+   "text": "And the last shot is all of them, standing either side of the chain, at the link nobody examined.",
+   "voice": "n"
+  },
+  {
+   "start": 140.8333333333317,
+   "end": 145.1232653061208,
+   "text": "not that the policy fails, or the theory is false",
+   "voice": "n"
+  },
+  {
+   "start": 145.26666666666497,
+   "end": 148.81356009070126,
+   "text": "that the theory is incomplete in one place",
+   "voice": "n"
+  },
+  {
+   "start": 148.93333333333157,
+   "end": 153.04911564625675,
+   "text": "the bar rises exactly when the policy is used",
+   "voice": "n"
+  },
+  {
+   "start": 153.16666666666484,
+   "end": 157.11990929705033,
+   "text": "and the last link is a boundary, not a mistake",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "49/49",
+  "5",
+  "6",
+  "?",
+  "CHAPTER49",
+  "First,whatitisnot",
+  "Kit'sown,andheldloosely",
+  "PARTTHREE\u2014THEARGUMENT",
+  "So:twoclaims,helddifferently",
+  "Thechain,onelasttime",
+  "Whatisactuallybeingclaimed",
+  "Whatwejustestablished",
+  "adecisionisaqueue,notacalculation",
+  "amodelofthewholeeconomy",
+  "anditrisesastheworldfrightens",
+  "andthelastlinkisaboundary,notamistake",
+  "but:incomplete,inoneplace",
+  "carefulreasoningateverystage",
+  "cheaperforafirm",
+  "howthedecisiongetsmade",
+  "itisaboundary",
+  "moneybuysgilts",
+  "mostlyDixit's,andhereportsit",
+  "not:thepolicydoesnotwork",
+  "not:thetheoryisfalse",
+  "notthatthepolicyfails,orthetheoryisfalse",
+  "otherratesfalltoo",
+  "outputrises",
+  "pricesupyieldsdown",
+  "sothepolicyfightsthelargestbar",
+  "thatthetheoryisincompleteinoneplace",
+  "thebarishigherthanthetextbooksays",
+  "thebarrisesexactlywhenthepolicyisused",
+  "thefirmdecides",
+  "thegapisnotamistake"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "off_frame": [],
+ "too_small": [],
+ "silent_beats": []
+}

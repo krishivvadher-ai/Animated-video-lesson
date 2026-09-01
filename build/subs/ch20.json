@@ -1,0 +1,165 @@
+{
+ "chapter": 20,
+ "title": "When this is wrong",
+ "duration": 203.6999999999986,
+ "cues": [
+  {
+   "start": 4.699999999999997,
+   "end": 15.43895691609977,
+   "text": "Being honest about the limits is part of the teaching, and it also stops you over-applying the idea. The paper sets out four qualifications.",
+   "voice": "n"
+  },
+  {
+   "start": 17.333333333333396,
+   "end": 29.494104308390085,
+   "text": "Everything so far assumed the chance was Nell's alone. Suppose it is not. Suppose there is one site, or one licence, and several firms want it.",
+   "voice": "n"
+  },
+  {
+   "start": 29.933333333333458,
+   "end": 34.60312925170081,
+   "text": "Nell hesitates, sensibly, to see how things develop.",
+   "voice": "n"
+  },
+  {
+   "start": 35.03333333333355,
+   "end": 38.06938775510226,
+   "text": "And somebody else walks through the door.",
+   "voice": "n"
+  },
+  {
+   "start": 38.50000000000004,
+   "end": 52.48009070294789,
+   "text": "When the chance can be snatched, waiting is not possible. And when waiting is not possible, the textbook's trigger is valid again. This is a real limit, and Part Three comes back to it.",
+   "voice": "n"
+  },
+  {
+   "start": 55.9999999999999,
+   "end": 66.46321995464842,
+   "text": "Sometimes moving first has a value of its own \u2014 you take the best position, and everyone else has to work around you. That pulls the other way.",
+   "voice": "n"
+  },
+  {
+   "start": 66.89999999999979,
+   "end": 70.78267573696124,
+   "text": "The right answer balances the two against each other.",
+   "voice": "n"
+  },
+  {
+   "start": 74.29999999999966,
+   "end": 82.23777777777744,
+   "text": "Six firms, each looking at the same opportunity, each with slightly different information about it.",
+   "voice": "n"
+  },
+  {
+   "start": 82.66666666666625,
+   "end": 95.26058956916057,
+   "text": "Each one looks around, sees that nobody else has moved, and concludes the others must have found something discouraging. So each revises its own view downwards.",
+   "voice": "n"
+  },
+  {
+   "start": 95.6999999999995,
+   "end": 105.53777777777728,
+   "text": "And so everybody waits. Not because the opportunity is bad, but because everybody is reading everybody else's silence.",
+   "voice": "n"
+  },
+  {
+   "start": 107.36666666666613,
+   "end": 109.53959183673416,
+   "text": "Then one of them moves.",
+   "voice": "n"
+  },
+  {
+   "start": 109.96666666666609,
+   "end": 122.34911564625793,
+   "text": "And now everybody revises upwards \u2014 because that firm must have seen something good. Investment arrives in a sudden bunch. Which is why it comes in waves.",
+   "voice": "n"
+  },
+  {
+   "start": 125.86666666666586,
+   "end": 135.9964172335593,
+   "text": "This one comes with a quotation, because it is the single idea Part Three leans on hardest. Dixit is quoting Bernanke.",
+   "voice": "n"
+  },
+  {
+   "start": 137.83333333333246,
+   "end": 146.60471655328712,
+   "text": "In plain words. When you can wait, it is mainly the bad possible futures that decide whether you build now.",
+   "voice": "n"
+  },
+  {
+   "start": 148.43333333333243,
+   "end": 157.74675736961362,
+   "text": "Because the good futures will still be there next year. You have not missed them. Waiting only ever protects you from the bad ones.",
+   "voice": "n"
+  },
+  {
+   "start": 160.1666666666657,
+   "end": 172.650612244897,
+   "text": "Carry the qualification the paper adds in the very next sentence, because dropping it changes the meaning. The total chance of ending up above the trigger does still matter.",
+   "voice": "n"
+  },
+  {
+   "start": 173.09999999999897,
+   "end": 182.57274376417132,
+   "text": "What does not matter is the shape of the good outcomes beyond it. Those are not the same thing, and Part Three needs the difference.",
+   "voice": "n"
+  },
+  {
+   "start": 185.39999999999887,
+   "end": 189.94535147392176,
+   "text": "a race \u2192 waiting is impossible, textbook right",
+   "voice": "n"
+  },
+  {
+   "start": 190.06666666666547,
+   "end": 193.21882086167682,
+   "text": "moving first can pull the other way",
+   "voice": "n"
+  },
+  {
+   "start": 193.3666666666654,
+   "end": 197.61015873015745,
+   "text": "inaction reads as bad news \u2192 bunching",
+   "voice": "n"
+  },
+  {
+   "start": 197.733333333332,
+   "end": 201.45437641723223,
+   "text": "the bad news principle, with its qualification",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "20/49",
+  "CHAPTER20",
+  "Dixit(1992),p.118,quotingBernanke(1983)",
+  "Four\u2014thebadnewsprinciple",
+  "One\u2014therace",
+  "PARTONE\u2014THEPAPER",
+  "Three\u2014firmswatchingeachother",
+  "Two\u2014movingfirstcanpay",
+  "Whatwejustestablished",
+  "Whenthisiswrong",
+  "arace\u2192waitingisimpossible,textbookright",
+  "beingfirstsays:gonow",
+  "everybodywaits",
+  "inactionreadsasbadnews\u2192bunching",
+  "informationsays:wait",
+  "movingfirstcanpulltheotherway",
+  "onesite,onelicence",
+  "thebadnewsprinciple,withitsqualification",
+  "therightanswerbalancesthetwo",
+  "theshapeofthegoodoutcomesdoesnot",
+  "thetotalchancestillmatters",
+  "waitingimpossible\u2192thetextbookisright",
+  "waitingonlyguardsagainstbadnews",
+  "whenyoucanwait,thebadfuturesdecide",
+  "\u201cofpossiblefutureoutcomes,onlytheunfavorableoneshaveabearingonthecurrentpropensitytoundertakeagivenproject\u201d"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "off_frame": [],
+ "too_small": [],
+ "silent_beats": []
+}

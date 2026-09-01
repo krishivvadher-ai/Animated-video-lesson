@@ -120,7 +120,7 @@
 
 **N** When all three are true, waiting is worth money.
 
-**N** And when any one of them is missing, it is not. Remember that — in chapter fourteen we take the third one away, and the whole conclusion flips over.
+**N** And when any one of them is missing, it is not. Remember that — in chapter twenty we take the third one away, and the whole conclusion flips over.
 
 ## Chapter 5 — Why waiting is worth money
 
@@ -206,9 +206,11 @@
 
 **N** Said the other way round, that is a hurdle rate of nine point three per cent, against a true cost of capital of five.
 
-**N** Now turn the choppiness dial up. Forty per cent a year — an oil well, a copper mine, a trade where prices swing hard.
+**N** Now turn the choppiness dial up. Forty per cent a year — an oil well, a copper mine, a trade where prices swing hard. Watch the bar while the dial turns.
 
 **N** The multiplier jumps to three point three two. The hurdle rate to sixteen point six per cent.
+
+**N** Turn it back, and the bar comes back down with it.
 
 **N** Now turn the other dial. Not up — down. Make money cheaper. Cost of capital two per cent instead of five.
 
@@ -230,7 +232,7 @@
 
 **N** Now follow it away from that corner. Every step towards choppier revenue, and every step towards cheaper money, lifts the sheet. The two effects do not cancel. They add.
 
-**N** Hold that picture. In chapter thirty-five we come back to this exact sheet, and watch a firm walked across it — in the wrong direction.
+**N** Hold that picture. In chapter forty-one we come back to this exact sheet, and watch a firm walked across it — in the wrong direction.
 
 **N** And that resolves the first of our three puzzles. Firms demanding fifteen per cent when their money costs them five are not being short-sighted. They are being correct.
 
@@ -308,6 +310,10 @@
 
 ## Chapter 13 — The one formula in the film
 
+**N** Before any of this, the alphabet again, with two new ones added. Economists write these quantities as Greek letters purely to save space. Each one is a short name for something you already know.
+
+**N** Nothing in this film is ever said as a Greek letter. Every one of them is spoken as the English phrase beside it, every single time.
+
 **N** Start inside. Eight, times the cost of capital, divided by the choppiness multiplied by itself.
 
 **N** Add one to it. Take the square root. Add one again, and halve it. That is the whole formula.
@@ -328,7 +334,139 @@
 
 **N** One honest note to finish on. All of that works because the project, once built, always makes money. Once you let it make losses and allow her to give up, the two lines have to be found together, and there is no formula — it needs four equations and a computer. The paper does that, and prints the answers: nought point seven two, and one point six two.
 
-## Chapter 14 — When this is wrong
+## Chapter 14 — How steep is a curve?
+
+**N** Start with a straight line, which you met at school. Its steepness is one number, and it is the same everywhere along it.
+
+**N** Go along, and go up. Steepness is the up divided by the along. Nothing more than that.
+
+**N** Now bend it. A curve is not equally steep everywhere. Down here it is gentle. Up there it is steep.
+
+**N** Take the point you care about, and a second point further along. Join them. That line has a steepness you can work out — up over along, exactly as before.
+
+**N** Now slide the second point towards the first, and watch what that line does.
+
+**N** It settles on one line: the line that just touches the curve at that point, and does not cross it. That is the steepness of the curve, there.
+
+**N** Write the value of something as V of R — the value, when the money coming in is R.
+
+**N** Then V, with a dash, means its gradient: how fast that value changes as the money coming in changes. A dash is the whole of the notation. There is nothing else to learn.
+
+**N** And one fact you will need, which you can take on trust or check on paper. R squared has gradient two R. R cubed has gradient three R squared.
+
+**N** In general: bring the power down in front, and knock one off it. That single rule is all the calculus this film needs.
+
+## Chapter 15 — Why a bend is worth money
+
+**N** Here is the tangent again, and here it is walking along the curve. Watch the tangent itself, not the point.
+
+**N** It is turning. The gradient is not a fixed number: it has a gradient of its own.
+
+**N** One dash for the steepness. Two dashes for how fast the steepness is changing. That is all the second one means.
+
+**N** Two futures, equally likely. One bad, one good, the same distance either side of where we are now.
+
+**N** Join them. The middle of that line is the average of the two values — what you get on average if the future goes one way or the other.
+
+**N** And it is higher than the curve. The average of the two values beats the value at the average. The gap is pure bend — and it is exactly the gap chapter five was about.
+
+**N** So a value that bends upwards is worth more when the future is uncertain than when it is not. That is the whole reason the second gradient appears at all.
+
+**N** A curve that bends the other way loses by the same argument. The chord sits below it, so uncertainty costs rather than pays.
+
+## Chapter 16 — One small random step
+
+**N** Here is the money coming in, wandering about as it does. Cut out one tiny slice of time from it.
+
+**N** Call the length of that slice d t. The d is just shorthand for a change in something, so d t is a change in time — a very small one.
+
+**N** And d R is the change in the money coming in over that same slice. Nobody knows which way it will go.
+
+**N** The paper writes down two facts about it. E square brackets means on average. On average, the money drifts by a rate called the drift, times where it is now, times the length of the slice.
+
+**N** And around that average it scatters. The scatter is measured by the choppiness from chapter eleven, squared, times where it is now, squared, times the slice.
+
+**N** Here is the thing that makes all of this work. Take a step up and a step down, equally likely. Add them and average. They cancel to nothing.
+
+**N** Now square them first. Minus two squared is four, the same as plus two squared. Squaring throws the minus sign away, so the average of the squares is not nothing at all.
+
+**N** Randomness disappears when you average it, and survives when you square it first. That is the whole reason a second gradient — which multiplies a square — has anything to say here.
+
+**N** The average of the square is the square of the average, plus the scatter. That is a standard fact about averages, and it is the only one we borrow.
+
+**N** Put the two facts in, and you get a d t squared term and a d t term.
+
+**N** And now the step that makes the whole thing tractable. If d t is a hundredth, d t squared is a ten-thousandth. Make the slice small enough and the squared term is nothing next to the other one. So drop it.
+
+## Chapter 17 — The equation the paper actually solves
+
+**N** Take the value curve and stand at one point on it. Close up, the tangent is a good description of the curve.
+
+**N** But it is not perfect. Move a little way, and the real curve has lifted off the tangent — by an amount that depends on the bend.
+
+**N** Which gives the line the appendix opens with. The expected change in value has two pieces.
+
+**N** The first is the tangent's answer: the slope, times how far you moved.
+
+**N** The second is the correction for the bend: a half of the second gradient, times the square of the step. And we know what that square is — it is the one thing randomness leaves behind.
+
+**N** Put the two facts from the last chapter in, and every piece of it is now something we have already built.
+
+**N** The chance to build is an asset you are holding. It pays you nothing while you hold it — no rent, no revenue — so all it can offer is the gain in its own value.
+
+**N** And your money could have been earning the ordinary return somewhere else. In equilibrium those two must match, or nobody would hold it.
+
+**N** Expected gain equals the normal return. One line.
+
+**N** Every single term has a d t in it. So divide the whole line by d t, and every d t disappears at once.
+
+**N** Tidy it up, bring everything to one side, and this is equation A one of the appendix. It is the whole of the paper's mathematics in a single line, and you have just watched every piece of it being built.
+
+## Chapter 18 — Solving it with a guess
+
+**N** Look at the shape of it. Wherever there are two dashes there is an R squared, and wherever there is one dash there is a single R. Each differentiation is paid for with exactly one R.
+
+**N** So try a power. Using the rule from chapter fourteen, the gradient of R to the x is x times R to the x minus one.
+
+**N** Multiply that by the R sitting next to it, and the power comes straight back to what it was. The shape survives. That is why a power is the right guess.
+
+**N** Put them into the equation and the whole R to the x factors out of every term.
+
+**N** R to the x is never zero, so the bracket must be. And the bracket is a quadratic — the thing you solved at school. That is equation A two.
+
+**N** A quadratic crosses zero twice. The paper calls the two answers by the first two letters of the Greek alphabet. One of them is negative. The other is bigger than one.
+
+**N** So the general answer is a bit of each, with two unknown amounts A and B.
+
+**N** Now one piece of economics kills half of it. If the money coming in falls to nothing, the chance to build is worth nothing. But R to a negative power blows up as R goes to zero. So A has to be zero.
+
+**N** What is left is the paper's equation two, which chapter twelve drew as a curve without ever saying where it came from.
+
+## Chapter 19 — Two curves, and where they touch
+
+**N** Everything so far was about the chance to build, which pays you nothing while you hold it.
+
+**N** A project that has actually been built is different. It hands you the money coming in, every year, while you own it. So the balance has one more thing on it.
+
+**N** Which is the same equation with a single extra R on the end — the revenue it pays out. That is equation A five.
+
+**N** Its answer is the plain worth of the revenue stream, plus a term that is the value of the option to give up. That option is worthless when takings are enormous, which is what fixes which power survives this time.
+
+**N** Here is what waiting is worth: B times R to the beta, the curve we just derived.
+
+**N** And here is what a running project is worth, once you allow it to be abandoned. Nearly a straight line when takings are high, bending away as they fall.
+
+**N** At the level where she builds, stepping from one curve to the other must be worth exactly the cost of building. Not more, or she would have built sooner. Not less, or she would not build at all.
+
+**N** And a second condition, which is the subtle one. The two curves must not just be the right distance apart — they must have the same steepness there. They meet tangentially.
+
+**N** Because a corner would mean the trigger was in the wrong place: nudge it either way and you would do better. Only where the slopes agree is there nothing left to gain. Economists call it smooth pasting.
+
+**N** Four conditions. Four unknowns: the two amounts, and the two levels.
+
+**N** And the paper is honest about what happens next. There is no formula. The four have to be solved together on a computer. Which is exactly why the two numbers chapter thirteen ended on were printed rather than derived: nought point seven two, and one point six two.
+
+## Chapter 20 — When this is wrong
 
 **N** Being honest about the limits is part of the teaching, and it also stops you over-applying the idea. The paper sets out four qualifications.
 
@@ -360,7 +498,7 @@
 
 **N** Because the good futures will still be there next year. You have not missed them. Waiting only ever protects you from the bad ones.
 
-## Chapter 15 — When to give up
+## Chapter 21 — When to give up
 
 **N** To make the point sharp, the paper assumes that idle machinery rusts. Totally, and immediately. So pausing and quitting become the same thing, and starting again means paying the whole sunk cost over again.
 
@@ -376,7 +514,7 @@
 
 **N** One more. If leaving is itself expensive — redundancy payments, restoring the site of a mine — then the build-line rises further still. She is more cautious about entering something she may have to pay to escape.
 
-## Chapter 16 — The zone of inaction
+## Chapter 22 — The zone of inaction
 
 **N** Take away the uncertainty for a moment, and leave only the sunk cost. The textbook still has a small band where doing nothing is right — from one, to one point one.
 
@@ -396,7 +534,7 @@
 
 **N** And the paper draws a conclusion from that which is worth hearing. The popular worry about loss of jobs — the one economists usually wave away — may have more justification than the textbook allows.
 
-## Chapter 17 — Hysteresis
+## Chapter 23 — Hysteresis
 
 **N** She starts at one. Money coming in exactly covers the day-to-day costs. Nothing is built.
 
@@ -426,7 +564,7 @@
 
 **N** The cause reversed. The effect stayed. That is all hysteresis is — and now you have watched it happen twice.
 
-## Chapter 18 — Two countries
+## Chapter 24 — Two countries
 
 **N** Here is Nell, in America. And here is Kenji, running a similar factory in Japan.
 
@@ -452,7 +590,7 @@
 
 **N** Different instruments, for different jobs. Remember that. Part Three is built on it.
 
-## Chapter 19 — What a whole industry looks like
+## Chapter 25 — What a whole industry looks like
 
 **N** Six similar firms, all facing the same swinging demand.
 
@@ -460,7 +598,7 @@
 
 **N** And when the price falls to the exit line, firms leave. Less supply, and the price stops falling. So it never gets below that one either.
 
-**N** With these particular assumptions, the market's two lines turn out to be exactly the ones a single firm on its own would have chosen. So every number from chapter fifteen carries straight over.
+**N** With these particular assumptions, the market's two lines turn out to be exactly the ones a single firm on its own would have chosen. So every number from chapter twenty-one carries straight over.
 
 **N** Carry the caveat, because it matters later. That result holds for identical, small, price-taking firms, under the paper's particular assumptions. It is not a general truth.
 
@@ -468,7 +606,7 @@
 
 **N** An industry sitting perfectly still. Profitable firms not expanding. Loss-making firms not closing. And nothing wrong anywhere.
 
-## Chapter 20 — Outside business
+## Chapter 26 — Outside business
 
 **N** The paper closes with an observation that reaches well outside business. Many personal, social and political decisions have exactly the same three features. Costly to reverse. Made under uncertainty. And the timing is yours to choose.
 
@@ -486,7 +624,7 @@
 
 **N** And that gives the chapter a real point rather than a joke. It shows a limit of the whole framework. Option value is not always the right lens. Sometimes the irreversibility is the message.
 
-## Chapter 21 — Everything, in order
+## Chapter 27 — Everything, in order
 
 **N** Give up at nought point seven two. Build at one point six two. And in between, a wide stretch where the right thing to do is nothing.
 
@@ -499,7 +637,7 @@
 
 # PART TWO — THE POLICY
 
-## Chapter 22 — Money, and who is in charge of it
+## Chapter 28 — Money, and who is in charge of it
 
 **N** Nothing here assumes you know what a central bank is, or an interest rate, or a bond. We build all of them from scratch, exactly as we built cost and revenue.
 
@@ -517,7 +655,7 @@
 
 **N** So they needed something else. That something else is the subject of the next two chapters.
 
-## Chapter 23 — Why cutting the rate was not enough
+## Chapter 29 — Why cutting the rate was not enough
 
 **N** In normal times the Bank's rate travels down this line, through a bank, and comes out as the rate an ordinary firm pays.
 
@@ -529,7 +667,7 @@
 
 **N** All of that together goes by one name. Unconventional monetary policy.
 
-## Chapter 24 — What quantitative easing actually is
+## Chapter 30 — What quantitative easing actually is
 
 **N** This is the chapter where it would be easiest to lose you, so we go slowly, and we do the key sum three times.
 
@@ -563,7 +701,7 @@
 
 **N** Nothing is printed, and nothing is given away. An asset is swapped for money.
 
-## Chapter 25 — Three sets of books
+## Chapter 31 — Three sets of books
 
 **C** The policy is easy to describe and easy to get wrong. So we are going to follow the money through three sets of books, one at a time.
 
@@ -591,7 +729,7 @@
 
 **N** Long-dated gilts, company debt and mortgage-backed securities are not. The effectiveness of the policy may depend on what is bought, as well as how much.
 
-## Chapter 26 — Channel one: the hot potato
+## Chapter 32 — Channel one: the hot potato
 
 **N** Leg one of the chain has three channels, and this is the big one. The one the Bank of England itself puts first.
 
@@ -617,7 +755,7 @@
 
 **N** And so the extra return they demand for carrying it falls, which pushes longer-term real interest rates down. That is the thinking behind the American programme nicknamed operation twist.
 
-## Chapter 27 — Channels two and three
+## Chapter 33 — Channels two and three
 
 **N** The second channel does not need the money to go anywhere at all. It works purely through what the action tells everybody.
 
@@ -633,7 +771,7 @@
 
 **N** There is also disagreement about how big those effects were and how long they lasted. And the effects on wider classes of assets are less marked than on company bonds.
 
-## Chapter 28 — Leg two: cheaper money, and feeling richer
+## Chapter 34 — Leg two: cheaper money, and feeling richer
 
 **N** Leg one moved the prices of things in financial markets. Leg two has to turn that into somebody actually spending money. And it does it in two ways.
 
@@ -651,7 +789,7 @@
 
 **N** Those gains went largely to the households holding the most financial assets — in particular older and more affluent ones. As with all monetary policy, they say, there are winners and losers.
 
-## Chapter 29 — What banks cannot do with reserves
+## Chapter 35 — What banks cannot do with reserves
 
 **C** There is a second way of telling the same story, and it clears up the thing almost everybody gets wrong about this policy. So it is worth four minutes.
 
@@ -679,7 +817,7 @@
 
 **N** Which is a completely different mechanism.
 
-## Chapter 30 — The result that says none of it works
+## Chapter 36 — The result that says none of it works
 
 **C** The authors do something in this section that a less honest article would have left out. They set out, at length, a well-known result which says the whole policy does nothing at all.
 
@@ -703,7 +841,7 @@
 
 **N** Which is why one reading of quantitative easing is that its real job was the signalling all along — an action, rather than a promise, and actions are harder to take back.
 
-## Chapter 31 — The other tools in the drawer
+## Chapter 37 — The other tools in the drawer
 
 **N** Buying assets was not the only thing central banks did. The authors group the rest into three, and each one is worth knowing, because Part Three has to be fair about what else was going on.
 
@@ -729,7 +867,7 @@
 
 **N** A bank shrinking its lending by five per cent paid one and a half — six times as much, on the whole amount.
 
-## Chapter 32 — The chain
+## Chapter 38 — The chain
 
 **N** Two economists, writing in twenty-twelve, set out how the policy is supposed to work. Christopher Bowdler and Amar Radia.
 
@@ -756,7 +894,7 @@
 
 # PART THREE — THE ARGUMENT
 
-## Chapter 33 — One sentence, two different kinds of claim
+## Chapter 39 — One sentence, two different kinds of claim
 
 **N** Here is the sentence the whole of Part Two turns on. It is on page six hundred and twelve, and these are the authors' exact words.
 
@@ -782,7 +920,7 @@
 
 **N** But it does mean that the last link in the chain is the only one nobody examines.
 
-## Chapter 34 — The exception on page 613
+## Chapter 40 — The exception on page 613
 
 **N** A page later, the authors ask a question about somebody else. What does the government do when its own borrowing gets cheaper?
 
@@ -806,7 +944,7 @@
 
 **N** That sentence is the intellectual standard the rest of the film is held to. Everything Kit says from here has to meet it.
 
-## Chapter 35 — Bringing Part One back
+## Chapter 41 — Bringing Part One back
 
 **N** Kit puts the two articles side by side, and notices they are arguing about the same quantity from opposite sides.
 
@@ -834,7 +972,7 @@
 
 **N** Putting it next to this policy is Kit's.
 
-## Chapter 36 — The instrument that fights itself
+## Chapter 42 — The instrument that fights itself
 
 **N** Cheap money is meant to make building attractive.
 
@@ -866,7 +1004,7 @@
 
 **N** The claim he is entitled to is the plain one. Part of the policy is spent making patience more attractive.
 
-## Chapter 37 — Two different kinds of fear
+## Chapter 43 — Two different kinds of fear
 
 **N** Replay the bad news principle. When you can wait, it is mainly the bad possible outcomes that decide whether you build now.
 
@@ -884,7 +1022,7 @@
 
 **N** What it reaches at one or two removes is the doubt itself.
 
-## Chapter 38 — The concession that hurts most
+## Chapter 44 — The concession that hurts most
 
 **C** This chapter exists because Kit's own source damages him, and that is what intellectual honesty looks like.
 
@@ -898,11 +1036,17 @@
 
 **C** Why include something that damages you? Because it is what his own source says. The discomfort is the point.
 
-## Chapter 39 — The evidence, read twice
+## Chapter 45 — The evidence, read twice
 
 **N** A third article, and a third pair of authors. Christopher Martin and Costas Milas. Their job was to gather up the studies of what the policy actually achieved. Their colour is green.
 
-**N** Their conclusion is that the policy was effective at preventing a deeper crisis, and less effective at promoting recovery.
+**N** Across the studies they gathered, quantitative easing raised growth by somewhere between one and three per cent, with a similar effect on inflation.
+
+**N** And here is their verdict, in their own words. Quantitative easing has proved effective in limiting the scale of the downturn. However, by itself, it is not strong enough to spark an economic recovery.
+
+**N** And they hedge it themselves. This conclusion, they say, is tentative. There is relatively little evidence, and most of it uses the same method.
+
+**N** In one line: effective at preventing a deeper crisis, less effective at promoting recovery.
 
 **C** The first time Kit read that, he treated it as a result. Here is what the numbers say. Write it down, move on.
 
@@ -922,7 +1066,7 @@
 
 **N** And flag clearly which parts of that are Kit's and not Dixit's. That propping up the upside works best when things are frightening, and that the two jobs therefore pull apart, are steps Kit has added. Dixit's own text does not contain them.
 
-## Chapter 40 — And the ones that did not come back
+## Chapter 46 — And the ones that did not come back
 
 **N** You will recognise this picture instantly, because it is the hysteresis one. Same scale, same lines. Only the direction is different.
 
@@ -942,7 +1086,7 @@
 
 **N** What needs explaining is why, for the firms it did not reach in time, nothing came back.
 
-## Chapter 41 — The rivals Kit cannot beat
+## Chapter 47 — The rivals Kit cannot beat
 
 **C** Four doors. Kit opens each one, and cannot close it again. This is the chapter where the film earns its credibility, so none of these gets knocked down.
 
@@ -950,7 +1094,7 @@
 
 **N** Which fixes the scope of the whole argument. It applies to investment a company can take its time over. Not to a race.
 
-## Chapter 42 — The management half
+## Chapter 48 — The management half
 
 **N** Grow Nell's factory into a large company, with several separately run parts.
 
@@ -976,7 +1120,7 @@
 
 **N** What he would claim is the use he has put it to.
 
-## Chapter 43 — What is actually being claimed
+## Chapter 49 — What is actually being claimed
 
 **N** This is not a claim that quantitative easing does not work.
 
@@ -1008,4 +1152,4 @@
 
 ---
 
-Total narration: **9809 words** (about 77 minutes at the film's pace of ~128 words a minute).
+Total narration: **11548 words** (about 90 minutes at the film's pace of ~128 words a minute).

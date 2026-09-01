@@ -7,3 +7,9 @@ final/*-novo.mp4
 docs/*.txt
 __pycache__/
 *.pyc
+build/frames/
+build/sheets/
+build/*.ass
+build/*.txt
+build/*-music.wav
+build/silent_*.mp4

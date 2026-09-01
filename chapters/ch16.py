@@ -13,6 +13,9 @@ class Chapter16(Chapter):
     RECAP_ICONS = ["fog", "clock", "risk", "scale"]
 
     def body(self):
+        # the key to the squiggles, before any of them is used again
+        self.symbol_key(["R", "sigma", "mu", "dt", "dR"], region=St.FULL, hold=4.0)
+
         # ------------------------------------------------ the step
         self.heading("A tiny slice of time")
         ax = Axes(x_range=[0, 6, 1], y_range=[0, 4, 1], x_length=6.6, y_length=3.2,
@@ -62,13 +65,13 @@ class Chapter16(Chapter):
         St.place(both, St.FULL, ay=0.35)
         with self.narrate("The paper writes down two facts about it. E square brackets "
                           "means on average. On average, the money drifts by a rate "
-                          "called mu, times where it is now, times the length of the "
-                          "slice."):
+                          "called the drift, times where it is now, times the length "
+                          "of the slice."):
             self.play(Write(one[0]), run_time=1.6)
             self.play(FadeIn(one[1]), run_time=0.6)
         self.beat()
         with self.narrate("And around that average it scatters. The scatter is measured "
-                          "by the choppiness — the sigma from chapter eleven — squared, "
+                          "by the choppiness from chapter eleven, squared, "
                           "times where it is now, squared, times the slice."):
             self.play(Write(two[0]), run_time=1.6)
             self.play(FadeIn(two[1]), run_time=0.6)
@@ -149,7 +152,7 @@ class Chapter16(Chapter):
 
         self.close_chapter([
             "dt is a tiny slice of time; dR the change in it",
-            "on average it drifts by μ; it scatters by σ",
+            "on average it drifts; around that it scatters",
             "a square keeps what an average throws away",
-            "so E[dR²] is σ²R² dt, and nothing else survives",
+            "so the squared step survives, and nothing else does",
         ])

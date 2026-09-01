@@ -11,6 +11,9 @@ FINAL.mkdir(exist_ok=True)
 
 QUAL = os.environ.get("QUAL", "1080p30")
 
+# The film stops dead four times, and the score stops with it.
+SILENCES = {5, 23, 39, 49}
+
 PARTS = {
     "part-one":   (list(range(0, 28)),  "Part One — The Paper",
                    "Avinash Dixit, ‘Investment and Hysteresis’ (1992)",
@@ -93,6 +96,51 @@ def ts(sec):
     return f"{h:02d}:{m:02d}:{s:06.3f}".replace(".", ",")
 
 
+def with_silence(path):
+    """Return a copy of a soundless clip with a silent track added."""
+    has_audio = run(f'ffprobe -v error -select_streams a -show_entries '
+                    f'stream=codec_type -of csv=p=0 "{path}"').strip()
+    if has_audio:
+        return path
+    out = BUILD / f"silent_{path.stem}.mp4"
+    if not out.exists():
+        run(f'ffmpeg -y -v error -i "{path}" -f lavfi -i '
+            f'anullsrc=channel_layout=stereo:sample_rate=48000 -shortest '
+            f'-c:v copy -c:a aac -b:a 192k "{out}"')
+    return out
+
+
+def ass_time(sec):
+    h = int(sec // 3600); m = int(sec % 3600 // 60); s = sec % 60
+    return f"{h:d}:{m:02d}:{s:05.2f}"
+
+
+def build_ass(name, cues, w, h, band):
+    """Write the captions as an ASS script that states its own resolution."""
+    margin_v = max((band - 108) // 2, 18)
+    head = (
+        "[Script Info]\n"
+        "ScriptType: v4.00+\n"
+        f"PlayResX: {w}\nPlayResY: {h}\n"
+        "WrapStyle: 2\nScaledBorderAndShadow: yes\n\n"
+        "[V4+ Styles]\n"
+        "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, "
+        "OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, "
+        "ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, "
+        "Alignment, MarginL, MarginR, MarginV, Encoding\n"
+        "Style: Band,CMU Serif,44,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,"
+        f"0,0,0,0,100,100,0,0,1,0,0,2,140,140,{margin_v},1\n\n"
+        "[Events]\n"
+        "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, "
+        "Effect, Text\n")
+    body = "".join(
+        f"Dialogue: 0,{ass_time(a)},{ass_time(b)},Band,,0,0,0,,"
+        f"{t.replace(chr(10), chr(92) + 'N')}\n" for a, b, t in cues)
+    path = BUILD / f"{name}.ass"
+    path.write_text(head + body)
+    return path
+
+
 def build_part(name):
     chapters, title, subtitle, cues = PARTS[name]
     files = [title_path({"part-one": "titles_one", "part-two": "titles_two",
@@ -106,6 +154,10 @@ def build_part(name):
     if missing:
         print("missing:", missing); sys.exit(1)
 
+    # A title card carries no narration, and concat with -c copy drops audio
+    # entirely if the first input has none. Give each card a silent track.
+    files = [with_silence(f) for f in files]
+
     # ---- concat
     lst = BUILD / f"{name}.txt"
     lst.write_text("".join(f"file '{f}'\n" for f in files))
@@ -113,7 +165,7 @@ def build_part(name):
     run(f'ffmpeg -y -v error -f concat -safe 0 -i "{lst}" -c copy "{novo}"')
 
     # ---- subtitles, with cumulative offsets
-    lines, idx, offset = [], 1, 0.0
+    lines, lines_raw, idx, offset = [], [], 1, 0.0
     head = len(files) - len(chapters) - (1 if name == "part-three" else 0)
     offset = sum(duration(f) for f in files[:head])
     for n, f in zip(chapters, files[head:]):
@@ -124,6 +176,7 @@ def build_part(name):
                 for a, b, txt in split_cue(c["text"], offset + c["start"],
                                            offset + c["end"]):
                     lines.append(f"{idx}\n{ts(a)} --> {ts(b)}\n{txt}\n")
+                    lines_raw.append((a, b, txt))
                     idx += 1
         offset += duration(f)
     srt = FINAL / f"{name}.srt"
@@ -146,18 +199,27 @@ def build_part(name):
         s = starts.get(a, 0.0)
         e = starts.get(b, total) if b in starts else total
         marks.append((cue, s, max(e - s, 1.0)))
-    # where the narration deliberately stops, the music stops with it
+    # Where the narration deliberately stops, the music stops with it. Only
+    # the four scripted silences count: ordinary pauses between lines are not
+    # silences, and muting the bed at every one of them would shred the score.
     gaps = []
     for n, f in zip(chapters, files[head:]):
+        if n not in SILENCES:
+            continue
         cue_file = SUBS / f"ch{n:02d}.json"
         if not cue_file.exists():
             continue
         cues_here = json.loads(cue_file.read_text())["cues"]
         base = starts[n]
+        # the scripted silence is the longest hush in the chapter, and only
+        # that one: the ordinary pauses between lines are not silences
+        best, span = None, 0.0
         for a, b in zip(cues_here[:-1], cues_here[1:]):
             hush = b["start"] - a["end"]
-            if hush >= 2.4:
-                gaps.append((base + a["end"] + 0.25, base + b["start"] - 0.25))
+            if hush > span:
+                best, span = (a["end"], b["start"]), hush
+        if best and span >= 2.8:
+            gaps.append((base + best[0] + 0.25, base + best[1] - 0.25))
 
     inputs = " ".join(f'-i "{MUSIC / (c + ".wav")}"' for c, _, _ in marks)
     fl = []
@@ -189,20 +251,30 @@ def build_part(name):
     # The picture keeps all 1080 of its lines. A 200-pixel band is added
     # underneath it and the captions are drawn into that band, so a caption
     # can never sit on top of a diagram, a label or a figure.
-    sub_out = FINAL / f"{name}-subtitled.mp4"
+    #
+    # The captions are burned from an ASS file rather than the SRT, because
+    # ffmpeg converts an SRT at a script resolution of 384x288 and libass then
+    # scales that up to the frame -- which multiplies any font size by about
+    # four and a half, and puts the text across the picture. Declaring the real
+    # resolution in the script is the only way to size a caption honestly.
     band = 200
-    style = ("FontName=CMU Serif,FontSize=30,PrimaryColour=&H00FFFFFF,"
-             "OutlineColour=&H00000000,BackColour=&H00000000,BorderStyle=1,"
-             "Outline=0,Shadow=0,Alignment=2,MarginV=34,MarginL=90,MarginR=90")
+    ass = build_ass(name, lines_raw, 1920, 1080 + band, band)
+    sub_out = FINAL / f"{name}-subtitled.mp4"
     run(f'ffmpeg -y -v error -i "{out}" -vf '
-        f'"pad=iw:ih+{band}:0:0:color=black,'
-        f'subtitles={srt}:force_style=\'{style}\'" '
+        f'"pad=iw:ih+{band}:0:0:color=black,subtitles={ass}" '
         f'-c:a copy -c:v libx264 -crf 18 -preset medium -pix_fmt yuv420p '
         f'"{sub_out}"')
     return total
 
 
 if __name__ == "__main__":
+    # One part at a time, so the three can be built as three processes while
+    # the last chapters are still rendering.
+    wanted = [a for a in sys.argv[1:] if a in PARTS]
+    if wanted:
+        for name in wanted:
+            print(f"{name}: {build_part(name) / 60:.1f} min")
+        sys.exit(0)
     tot = 0
     for name in PARTS:
         tot += build_part(name)

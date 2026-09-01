@@ -237,6 +237,19 @@ class Chapter(ThreeDScene):
         self.move_camera(zoom=1.0, frame_center=[0, 0, 0], run_time=run_time)
 
     # ------------------------------------------------------------ cards
+    def symbol_key(self, keys, hold=3.4, region=None, ax=0.0, ay=0.0):
+        """Put the key to the symbols back on screen.
+
+        Every Greek letter here is a squiggle standing for an English phrase.
+        The phrase is what gets said out loud, and this is the reminder of
+        which squiggle is which -- shown again whenever a new one joins."""
+        key = cards.symbol_key(keys)
+        St.place(key, region or St.SIDE, ax=ax, ay=ay, fill=False)
+        self.play(S.lag_map(FadeIn, key, shift=RIGHT * 0.2, lag=0.12),
+                  run_time=1.0)
+        self.wait(max(hold - 1.0, 0.4))
+        self.play(FadeOut(key), run_time=0.5)
+
     def define(self, term, definition, icon_kind=None, colour=CHALK,
                narration=None, hold=CARD_HOLD, at=ORIGIN):
         """Every technical term gets a card before it is used in a sentence."""
