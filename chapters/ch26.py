@@ -52,7 +52,7 @@ class Chapter26(Chapter):
                           "drawer, and nothing else moves."):
             self.play(Create(dr), FadeIn(dlab), run_time=0.9)
             self.play(money.animate.move_to(dr.get_center()), run_time=1.1)
-            self.play(FadeOut(money), run_time=0.4)
+            self.play(FadeOut(money), FadeOut(z1), FadeOut(eq), run_time=0.4)
         self.beat()
         self.clear_stage()
         self.define("a liquidity trap", "When extra money is simply held, and nothing "
@@ -141,7 +141,7 @@ class Chapter26(Chapter):
         St.place(pool, St.STAGE, ax=-0.2, ay=0.1)
         plab = St.caption("all the interest-rate risk\nin the bond market",
                           COST, T_SMALL, width=24)
-        plab.next_to(pool, DOWN, buff=0.32)
+        plab.next_to(pool, UP, buff=0.30)
         with self.narrate("Think of all the interest-rate risk in the bond market as "
                           "one pool, which somebody has to carry."):
             self.play(Create(pool), FadeIn(plab), run_time=1.1)
@@ -158,7 +158,12 @@ class Chapter26(Chapter):
                           "else to carry."):
             self.play(Create(bank), run_time=0.8)
             self.play(FadeIn(slice_), run_time=0.9)
-            self.play(slice_.animate.shift(RIGHT * 3.0).scale(0.55), run_time=1.2)
+            self.play(slice_.animate.next_to(bank, DOWN, buff=0.35).scale(0.5),
+                      run_time=1.4)
+            carried = Text("carried by the Bank", font=FONT, font_size=T_SMALL,
+                           color=SRC_BR)
+            carried.next_to(slice_, DOWN, buff=0.22)
+            self.play(FadeIn(carried), run_time=0.6)
 
         fall = St.caption("so the extra return demanded falls", MONEY, T_SUB, width=32)
         St.place(fall, St.FOOT, pad=0.06)

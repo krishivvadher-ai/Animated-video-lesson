@@ -33,8 +33,8 @@ class Chapter33(Chapter):
 
         with self.narrate("It contains two completely different kinds of claim, "
                           "stitched together. Split it in half."):
-            self.play(half1.animate.shift(LEFT * 3.2 + UP * 0.2),
-                      half2.animate.shift(RIGHT * 3.2 + DOWN * 0.2),
+            self.play(half1.animate.shift(LEFT * 3.2),
+                      half2.animate.shift(RIGHT * 3.2 + UP * 0.62),
                       FadeOut(src), run_time=1.4)
         divider = DashedLine(UP * 2.0, DOWN * 2.6, color=MUTED, stroke_width=3)
         self.play(Create(divider), run_time=0.7)
@@ -139,8 +139,8 @@ class Chapter33(Chapter):
                             buff=0.05, stroke_width=5)
             self.play(GrowArrow(arr_in), GrowArrow(arr_out), run_time=0.8)
 
-        fair = St.caption("and simplifications are how anyone thinks",
-                          MUTED, T_SUB, width=40)
+        fair = St.caption("simplifications are how anyone thinks",
+                          MUTED, T_SUB, width=44)
         St.place(fair, St.FOOT, pad=0.06)
         with self.narrate("There is nothing dishonest in that. It is a simplification, "
                           "and simplifications are how anyone thinks about anything "
@@ -149,8 +149,8 @@ class Chapter33(Chapter):
         self.beat()
 
         last = St.caption("but the last link is the one nobody examines",
-                          SRC_KIT, T_SUB, width=42)
-        St.place(last, St.FULL, ay=-0.85)
+                          SRC_KIT, T_SUB, width=46)
+        St.place(last, St.FULL, ay=-0.62)
         with self.narrate("But it does mean that the last link in the chain is the only "
                           "one nobody examines."):
             self.play(FadeIn(last), run_time=0.9)

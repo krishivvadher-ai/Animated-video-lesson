@@ -61,7 +61,7 @@ class Chapter24(Chapter):
                     "ticket", SRC_BR, at=UP * 1.8, hold=4.2)
 
         gilt = W.ticket(SRC_BR, "£5 a year · £100 in 2030", scale=1.0)
-        St.place(gilt, St.STAGE, ax=0.15, ay=0.35)
+        St.place(gilt, St.STAGE, ax=0.62, ay=0.55, fill=False)
         back = W.flow_arrow(gov.get_right() + RIGHT * 0.2 + DOWN * 1.2,
                             saver.get_left() + LEFT * 0.2 + DOWN * 0.6, SRC_BR)
         with self.narrate("And gets back a piece of paper. A promise. Five pounds every "
