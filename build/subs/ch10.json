@@ -1,108 +1,114 @@
 {
  "chapter": 10,
  "title": "The textbook\u2019s line, as a sum",
- "duration": 151.76666666666537,
+ "duration": 153.66666666666592,
  "cues": [
   {
-   "start": 5.799999999999994,
-   "end": 13.689297052154188,
+   "start": 6.333333333333329,
+   "end": 14.222630385487523,
    "text": "Nell is deciding whether to build. There are exactly two amounts, and we can write both of them down.",
    "voice": "n"
   },
   {
-   "start": 14.133333333333322,
-   "end": 31.77514739229024,
-   "text": "What she gets: the money coming in each month, for ever, discounted back. From the last chapter, that is the yearly amount divided by the rate. Call the yearly amount R, and the rate the Greek letter that we will only ever call the cost of capital.",
+   "start": 14.666666666666659,
+   "end": 29.56811791383219,
+   "text": "What she gets: the money coming in each month, for ever, discounted back. From the last chapter, that is the yearly amount divided by the rate. Call the yearly amount R, and the rate the cost of capital.",
    "voice": "n"
   },
   {
-   "start": 32.999999999999986,
-   "end": 37.84557823129251,
+   "start": 30.79999999999999,
+   "end": 35.645578231292504,
    "text": "What she pays: the sunk cost of building it. Call that K.",
    "voice": "n"
   },
   {
-   "start": 41.36666666666654,
-   "end": 48.370022675736834,
-   "text": "Subtract one from the other and you have what the project is worth. Economists call it net worth.",
+   "start": 36.86666666666667,
+   "end": 47.6815873015873,
+   "text": "Three letters, and nothing more. R is the revenue a year. K is the sunk cost. And the third one we will only ever call the cost of capital.",
    "voice": "n"
   },
   {
-   "start": 49.39999999999976,
-   "end": 53.21868480725599,
+   "start": 49.26666666666676,
+   "end": 54.067437641723444,
+   "text": "Subtract one from the other and you have what the project is worth.",
+   "voice": "n"
+  },
+  {
+   "start": 56.20000000000026,
+   "end": 60.01868480725649,
    "text": "net worth. What you get, minus what you pay.",
    "voice": "n"
   },
   {
-   "start": 56.566666666666336,
-   "end": 62.69097505668901,
+   "start": 65.00000000000033,
+   "end": 71.124308390023,
    "text": "The borderline is where the two are exactly equal \u2014 where net worth is nothing at all.",
    "voice": "n"
   },
   {
-   "start": 63.63333333333292,
-   "end": 69.11564625850299,
+   "start": 71.53333333333359,
+   "end": 77.01564625850365,
    "text": "Add K to both sides. What she gets equals what she pays.",
    "voice": "n"
   },
   {
-   "start": 70.03333333333285,
-   "end": 79.90539682539634,
-   "text": "Multiply both sides by the rate. And there is the textbook's line: the yearly revenue has to equal the rate times the sunk cost.",
+   "start": 77.40000000000016,
+   "end": 82.62108843537432,
+   "text": "Multiply both sides by the rate. And there is the textbook's line.",
    "voice": "n"
   },
   {
-   "start": 80.83333333333277,
-   "end": 93.193197278911,
+   "start": 83.86666666666675,
+   "end": 96.22653061224497,
    "text": "That is Marshall's line, and now you know exactly where it comes from. It is the interest on the money she sank into the building \u2014 the normal return on capital, and nothing more.",
    "voice": "n"
   },
   {
-   "start": 95.43333333333263,
-   "end": 103.07854875283375,
+   "start": 99.19999999999986,
+   "end": 106.84521541950099,
    "text": "Dixit's worked example uses a sunk cost of two, and a cost of capital of five per cent.",
    "voice": "n"
   },
   {
-   "start": 103.89999999999922,
-   "end": 110.51337868480648,
+   "start": 107.66666666666647,
+   "end": 114.28004535147373,
    "text": "So the normal return on that capital is nought point nought five times two. A tenth.",
    "voice": "n"
   },
   {
-   "start": 111.33333333333249,
-   "end": 115.67487528344587,
+   "start": 115.0666666666664,
+   "end": 119.40820861677979,
    "text": "And the factory also costs one to run each year.",
    "voice": "n"
   },
   {
-   "start": 116.49999999999909,
-   "end": 128.1473015873007,
-   "text": "Add them: one, plus a tenth. One point one. That is the eleven-tenths you have been staring at since chapter two, and you have just worked it out yourself.",
+   "start": 120.19999999999968,
+   "end": 130.82734693877518,
+   "text": "Add them: one, plus a tenth. One point one. That is the number you have been staring at since chapter two, and you have just worked it out yourself.",
    "voice": "n"
   },
   {
-   "start": 130.76666666666566,
-   "end": 135.03337868480625,
+   "start": 134.46666666666619,
+   "end": 138.73337868480678,
    "text": "what she gets:  R \u00f7 \u03c1",
    "voice": "n"
   },
   {
-   "start": 135.1666666666656,
-   "end": 137.11138321995358,
+   "start": 138.86666666666613,
+   "end": 140.8113832199541,
    "text": "what she pays:  K",
    "voice": "n"
   },
   {
-   "start": 137.2333333333322,
-   "end": 142.18648526076984,
-   "text": "net worth is the difference; the borderline is where it is zero",
+   "start": 140.93333333333274,
+   "end": 144.50344671201753,
+   "text": "the borderline is where net worth is zero",
    "voice": "n"
   },
   {
-   "start": 142.33333333333215,
-   "end": 149.39804988662013,
-   "text": "so the textbook line is  M = C + \u03c1K  =  1.10",
+   "start": 144.59999999999934,
+   "end": 151.4163718820855,
+   "text": "so the textbook line is  M = C + \u03c1K = 1.10",
    "voice": "n"
   }
  ],
@@ -111,32 +117,35 @@
   "CHAPTER10",
   "K",
   "K=2\u03c1=0.05",
+  "K\u2014thesunkcost",
   "M=1+0.1=1.10",
   "PARTONE\u2014THEPAPER",
   "PutDixit\u2019sownnumbersin",
-  "R=0.05\u00d72=0.1",
-  "R=revenueayear\u00b7K=thesunkcost\u00b7\u03c1=thecostofcapital",
   "R=\u03c1\u00d7K",
   "R\u00f7\u03c1",
   "R\u00f7\u03c1=K",
   "R\u00f7\u03c1\u2212K",
   "R\u00f7\u03c1\u2212K=0",
+  "R\u2014revenueayear",
   "Sowhereistheborderline?",
   "Thetextbook\u2019sline,asasum",
   "Twoamounts,sidebyside",
   "Whatwejustestablished",
   "Whatyouget,minuswhatyoupay.",
   "networth",
-  "networthisthedifference;theborderlineiswhereitiszero",
-  "plusarunningcostofC=1",
+  "runningcostC=1",
   "sothetextbooklineisM=C+\u03c1K=1.10",
-  "whatsheGETS",
-  "whatshePAYS",
+  "theborderlineiswherenetworthiszero",
+  "whatshegets",
   "whatshegets:R\u00f7\u03c1",
+  "whatshepays",
   "whatshepays:K",
-  "\u00a3"
+  "\u00a3",
+  "\u03c1\u00d7K=0.05\u00d72=0.1",
+  "\u03c1\u2014thecostofcapital"
  ],
  "collisions": [],
  "low_content": [],
- "too_small": []
+ "too_small": [],
+ "silent_beats": []
 }
