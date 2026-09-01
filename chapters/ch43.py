@@ -14,8 +14,7 @@ class Chapter43(Chapter):
     RECAP_ICONS = ["chain", "scale", "queue", "people"]
 
     def body(self):
-        head = Text("Narrow it down, one line at a time", font=FONT, font_size=T_SUB,
-                    color=CHALK).to_edge(UP, buff=0.8)
+        head = cards.section_title("Narrow it down, one line at a time", color=CHALK, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         n1 = cards.body("This is NOT a claim that quantitative easing does not work.",
@@ -99,8 +98,7 @@ class Chapter43(Chapter):
         self.clear_stage()
 
         # ---------------------------------------------------- the closing thought
-        head3 = Text("And the closing thought — what the whole film has been for",
-                     font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.8)
+        head3 = cards.section_title("And the closing thought — what the whole film has been for", color=CHALK, size=T_SUB)
         self.play(FadeIn(head3), run_time=0.5)
 
         c1 = cards.body("Not a mistake in anybody's reasoning.",

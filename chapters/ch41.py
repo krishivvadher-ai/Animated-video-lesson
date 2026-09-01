@@ -79,8 +79,7 @@ class Chapter41(Chapter):
             kit)
 
         # Kit's three replies, and none of them is a refutation
-        head = Text("Kit has three things to say, and none is a refutation",
-                    font=FONT, font_size=T_SUB, color=SRC_KIT).to_edge(UP, buff=0.7)
+        head = cards.section_title("Kit has three things to say, and none is a refutation", color=SRC_KIT, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
         rep = cards.bullet_list([
             "not exclusive",
@@ -146,8 +145,7 @@ class Chapter41(Chapter):
             kit)
 
         # ---------------------------------------------------- Dixit's own limit
-        head2 = Text("And one more limit — this one is Dixit's own",
-                     font=FONT, font_size=T_SUB, color=SRC_DX).to_edge(UP, buff=0.7)
+        head2 = cards.section_title("And one more limit — this one is Dixit's own", color=SRC_DX, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.5)
         nell = stick.nell(scale=0.85).move_to(LEFT * 3.4 + DOWN * 0.6)
         d = W.door(MONEY, 1.2, 2.4, "one site, one licence").move_to(RIGHT * 1.0 + DOWN * 0.2)

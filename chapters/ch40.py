@@ -87,8 +87,7 @@ class Chapter40(Chapter):
         self.clear_stage()
         kit = stick.kit(scale=0.8).move_to(LEFT * 5.4 + DOWN * 1.8)
         self.play(FadeIn(kit), kit.mood("thinking"), run_time=0.5)
-        head = Text("And carry both caveats", font=FONT, font_size=T_SUB,
-                    color=SRC_KIT).to_edge(UP, buff=0.7)
+        head = cards.section_title("And carry both caveats", color=SRC_KIT, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
         cav = cards.bullet_list([
             "rests on “ruined instantly” — a flagged simplification",

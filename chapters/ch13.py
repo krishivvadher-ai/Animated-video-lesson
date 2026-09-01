@@ -91,8 +91,7 @@ class Chapter13(Chapter):
         self.clear_stage(keep=[ava])
 
         # ------------------------------------------------ steepness -> multiplier
-        head2 = Text("And now turn the steepness into the multiplier",
-                     font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
+        head2 = cards.section_title("And now turn the steepness into the multiplier", color=CHALK, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.5)
 
         f = VGroup(
@@ -123,8 +122,7 @@ class Chapter13(Chapter):
         self.clear_stage(keep=[ava])
 
         # ------------------------------------------------ turn the dials, by hand
-        head3 = Text("Now do the other two, yourself", font=FONT, font_size=T_SUB,
-                     color=CHALK).to_edge(UP, buff=0.7)
+        head3 = cards.section_title("Now do the other two, yourself", color=CHALK, size=T_SUB)
         self.play(FadeIn(head3), run_time=0.5)
 
         rows = VGroup(
@@ -168,8 +166,7 @@ class Chapter13(Chapter):
 
         # ------------------------------------------------ the limits, and L
         self.clear_stage(keep=[ava])
-        head4 = Text("Two things the formula tells you for free",
-                     font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
+        head4 = cards.section_title("Two things the formula tells you for free", color=CHALK, size=T_SUB)
         self.play(FadeIn(head4), run_time=0.5)
         lim = VGroup(
             Text("choppiness → 0   ⇒   steepness → huge   ⇒   multiplier → 1",

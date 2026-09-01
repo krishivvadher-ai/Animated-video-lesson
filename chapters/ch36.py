@@ -87,8 +87,7 @@ class Chapter36(Chapter):
         self.clear_stage()
         kit = stick.kit(scale=0.8).move_to(LEFT * 5.4 + DOWN * 1.8)
         self.play(FadeIn(kit), run_time=0.5)
-        head = Text("Now be honest about the size of this",
-                    font=FONT, font_size=T_SUB, color=SRC_KIT).to_edge(UP, buff=0.7)
+        head = cards.section_title("Now be honest about the size of this", color=SRC_KIT, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         dirn = cards.body("The direction is not in doubt. The bar does come down.",

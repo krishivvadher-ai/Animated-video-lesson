@@ -18,8 +18,7 @@ class Chapter10(Chapter):
         self.play(FadeIn(nell), run_time=0.5)
 
         # ------------------------------------------------ the two sides
-        head = Text("Two amounts, side by side", font=FONT, font_size=T_SUB,
-                    color=CHALK).to_edge(UP, buff=0.7)
+        head = cards.section_title("Two amounts, side by side", color=CHALK, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         left = VGroup(
@@ -72,8 +71,7 @@ class Chapter10(Chapter):
 
         # ------------------------------------------------ the borderline
         self.clear_stage(keep=[nell])
-        head2 = Text("So where is the borderline?", font=FONT, font_size=T_SUB,
-                     color=CHALK).to_edge(UP, buff=0.7)
+        head2 = cards.section_title("So where is the borderline?", color=CHALK, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.5)
 
         steps = VGroup(
@@ -100,8 +98,7 @@ class Chapter10(Chapter):
 
         # ------------------------------------------------ numbers
         self.clear_stage(keep=[nell])
-        head3 = Text("Put Dixit’s own numbers in", font=FONT, font_size=T_SUB,
-                     color=CHALK).to_edge(UP, buff=0.7)
+        head3 = cards.section_title("Put Dixit’s own numbers in", color=CHALK, size=T_SUB)
         self.play(FadeIn(head3), run_time=0.5)
         rows = VGroup(
             Text("K = 2        ρ = 0.05", font=FONT, font_size=T_SUB, color=MUTED),

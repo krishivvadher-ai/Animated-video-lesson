@@ -29,8 +29,7 @@ class Chapter42(Chapter):
 
         # ---------------------------------------------------- concede Dixit
         self.clear_stage()
-        head = Text("First, concede Dixit — entirely", font=FONT, font_size=T_SUB,
-                    color=SRC_DX).to_edge(UP, buff=0.7)
+        head = cards.section_title("First, concede Dixit — entirely", color=SRC_DX, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
         conc = cards.bullet_list([
             "he explains why it is high",
@@ -109,8 +108,7 @@ class Chapter42(Chapter):
         self.clear_stage()
 
         # ---------------------------------------------------- the yield falls
-        head2 = Text("A minimum return set to solve THAT problem",
-                     font=FONT, font_size=T_SUB, color=SRC_KIT).to_edge(UP, buff=0.7)
+        head2 = cards.section_title("A minimum return set to solve THAT problem", color=SRC_KIT, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.5)
         tied = cards.body("tied to the NEXT project in the queue",
                           size=T_BODY, color=CHALK, width=42)
@@ -148,8 +146,7 @@ class Chapter42(Chapter):
         self.clear_stage()
         kit = stick.kit(scale=0.75).to_corner(DOWN + LEFT, buff=0.62)
         self.play(FadeIn(kit), kit.mood("thinking"), run_time=0.5)
-        head3 = Text("And now the holes — Kit points at them himself",
-                     font=FONT, font_size=T_SUB, color=SRC_KIT).to_edge(UP, buff=0.6)
+        head3 = cards.section_title("And now the holes — Kit points at them himself", color=SRC_KIT, size=T_SUB)
         self.play(FadeIn(head3), run_time=0.5)
 
         holes = [

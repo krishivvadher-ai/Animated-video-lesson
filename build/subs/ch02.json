@@ -162,5 +162,7 @@
   "long-runaveragecost",
   "shareofthebuilding",
   "\u00a3"
- ]
+ ],
+ "collisions": [],
+ "low_content": []
 }

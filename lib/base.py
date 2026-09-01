@@ -65,6 +65,7 @@ class Chapter(ThreeDScene):
         self.screen_text = []
         self.collisions = []
         self.low_content = []
+        self.too_small = []
         self._progress = None
 
     def _record(self, *mobs):
@@ -105,11 +106,13 @@ class Chapter(ThreeDScene):
                     continue
                 if (isinstance(m, VGroup) and 2 < len(m) <= 14
                         and all(_drawable(sub) for sub in m)):
-                    out.append(LaggedStartMap(FadeIn, m, shift=UP * 0.22,
+                    # his `FadeIn(mobs, 0.25 * UP, lag_ratio=0.2)`
+                    out.append(LaggedStartMap(FadeIn, m, shift=UP * 0.25,
                                               lag_ratio=LAG,
                                               **({"run_time": rt} if rt else {})))
                     continue
-                out.append(FadeIn(m, shift=UP * 0.22,
+                # a single thing arrives from further away: his `FadeIn(x, UP)`
+                out.append(FadeIn(m, shift=UP * 0.5,
                                   **({"run_time": rt} if rt else {})))
                 continue
             if type(a) is FadeOut and m is not None:
@@ -158,6 +161,16 @@ class Chapter(ThreeDScene):
             if is_text and b[1] < self.CAPTION_GUARD:
                 self.low_content.append({"t": t, "text": (label or "")[:60],
                                          "bottom": round(b[1], 2)})
+        for label, b, is_text in items:
+            if not is_text or not label:
+                continue
+            lines = max(1, label.count("\n") + 1)
+            per_line = (b[3] - b[1]) / lines
+            # one unit is 135 pixels at 1080; anything under 0.20 units is
+            # smaller than the film's readable minimum
+            if per_line < 0.20:
+                self.too_small.append({"t": t, "text": label[:52],
+                                       "per_line": round(per_line, 3)})
         texts = [(l, b) for l, b, is_text in items if is_text]
         for i, (l1, b1) in enumerate(texts):
             for l2, b2 in texts[i + 1:]:
@@ -323,4 +336,5 @@ class Chapter(ThreeDScene):
              "duration": self.renderer.time, "cues": self.cues,
              "screen_text": sorted(set(self.screen_text)),
              "collisions": self.collisions[:200],
-             "low_content": self.low_content[:200]}, indent=1))
+             "low_content": self.low_content[:200],
+             "too_small": self.too_small[:200]}, indent=1))

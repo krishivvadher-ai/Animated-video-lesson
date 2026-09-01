@@ -38,6 +38,25 @@ def body(text, size=T_BODY, color=CHALK, width=52, weight=None, t2c=None,
                 line_spacing=0.95, t2c=colours, **kw)
 
 
+def section_title(text, color=CHALK, size=T_SUB, width=44, buff=None):
+    """A section heading in his manner: large, at the very top of the frame,
+    with an underline drawn beneath it, and the vocabulary tinted."""
+    from lib.theme import BUFF_TITLE
+    from lib.style import t2c_for
+    wrapped = wrap(text, width)
+    t = Text(wrapped, font=FONT, font_size=size, color=color,
+             line_spacing=0.95, t2c=t2c_for(wrapped))
+    if t.width > 12.2:
+        t.scale(12.2 / t.width)
+    u = Line(t.get_corner(DOWN + LEFT), t.get_corner(DOWN + RIGHT),
+             color=color, stroke_width=3)
+    u.shift(DOWN * 0.16)
+    u.set_opacity(0.75)
+    g = VGroup(t, u)
+    g.to_edge(UP, buff=buff if buff is not None else BUFF_TITLE)
+    return g
+
+
 def title_card(number, title, part=None):
     g = VGroup()
     num = Text(f"CHAPTER {number}", font=FONT, font_size=T_SMALL, color=MUTED)
@@ -188,7 +207,21 @@ def bullet_list(items, color=CHALK, size=T_BODY, width=46, buff=0.36, dotc=None,
         d.align_to(t, UP).shift(DOWN * (0.02 if icons else 0.16))
         rows.add(r)
     rows.arrange(DOWN, buff=buff, aligned_edge=LEFT)
+    # never let a list outgrow the frame
+    if rows.height > 4.6:
+        rows.scale(4.6 / rows.height)
+    if rows.width > 12.2:
+        rows.scale(12.2 / rows.width)
     return rows
+
+
+def fit(mob, max_w=12.2, max_h=4.6):
+    """Shrink something until it sits inside the frame."""
+    if mob.width > max_w:
+        mob.scale(max_w / mob.width)
+    if mob.height > max_h:
+        mob.scale(max_h / mob.height)
+    return mob
 
 
 def recap_panel(items, heading="So far", icons=None):

@@ -60,13 +60,11 @@ class Chapter23(Chapter):
         self.clear_stage()
 
         # ---------------------------------------------------- the cuts
-        head = Text("So they cut, and cut, and cut", font=FONT, font_size=T_SUB,
-                    color=CHALK).to_edge(UP, buff=0.7)
+        head = cards.section_title("So they cut, and cut, and cut", color=CHALK, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         ax = Axes(x_range=[0, 6, 1], y_range=[0, 6, 1], x_length=8.0, y_length=3.6,
-                  axis_config={"color": MUTED, "stroke_width": 2,
-                               "include_ticks": False, "include_tip": False})
+                  axis_config=AXIS)
         ax.shift(DOWN * 0.6)
         yl = Text("the Bank's rate", font=FONT, font_size=T_SMALL, color=MONEY)
         yl.next_to(ax, LEFT, buff=0.2).rotate(PI / 2)
@@ -118,8 +116,7 @@ class Chapter23(Chapter):
 
         # ---------------------------------------------------- what was left
         self.clear_stage()
-        head2 = Text("So what is left when the lever is on the floor?",
-                     font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.8)
+        head2 = cards.section_title("So what is left when the lever is on the floor?", color=CHALK, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.5)
 
         boxes = VGroup(

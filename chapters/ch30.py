@@ -20,8 +20,7 @@ class Chapter30(Chapter):
             pass
 
         # ---------------------------------------------------- the setup
-        head = Text("Start with what everything so far assumed",
-                    font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
+        head = cards.section_title("Start with what everything so far assumed", color=CHALK, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
         a = VGroup(W.ticket(WAIT, "a long gilt", 0.8),
                    Text("risky", font=FONT, font_size=T_SMALL, color=COST))
@@ -40,8 +39,7 @@ class Chapter30(Chapter):
         self.clear_stage()
 
         # ---------------------------------------------------- the objection
-        head2 = Text("But where did the risk actually go?",
-                     font=FONT, font_size=T_SUB, color=COST).to_edge(UP, buff=0.7)
+        head2 = cards.section_title("But where did the risk actually go?", color=COST, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.5)
 
         cb = W.building(SRC_BR, 0.7, "bank", "the central bank").move_to(
@@ -74,8 +72,7 @@ class Chapter30(Chapter):
 
         # ---------------------------------------------------- the concrete example
         self.clear_stage()
-        head3 = Text("The example the authors give", font=FONT, font_size=T_SUB,
-                     color=CHALK).to_edge(UP, buff=0.7)
+        head3 = cards.section_title("The example the authors give", color=CHALK, size=T_SUB)
         self.play(FadeIn(head3), run_time=0.5)
         steps = cards.bullet_list([
             "the bank buys assets tied to house prices",
@@ -113,8 +110,7 @@ class Chapter30(Chapter):
 
         # ---------------------------------------------------- how strong is it
         self.clear_stage()
-        head4 = Text("How much weight will it bear?", font=FONT, font_size=T_SUB,
-                     color=CHALK).to_edge(UP, buff=0.7)
+        head4 = cards.section_title("How much weight will it bear?", color=CHALK, size=T_SUB)
         self.play(FadeIn(head4), run_time=0.5)
         person = stick.StickFigure("a household", CHALK, scale=0.9).move_to(
             LEFT * 4.2 + DOWN * 0.4)
@@ -145,8 +141,7 @@ class Chapter30(Chapter):
 
         # ---------------------------------------------------- what to do instead
         self.clear_stage()
-        head5 = Text("And if you believe it, you do something else instead",
-                     font=FONT, font_size=T_SUB, color=WAIT).to_edge(UP, buff=0.7)
+        head5 = cards.section_title("And if you believe it, you do something else instead", color=WAIT, size=T_SUB)
         self.play(FadeIn(head5), run_time=0.5)
 
         chain = cards.bullet_list([

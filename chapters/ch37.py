@@ -38,8 +38,7 @@ class Chapter37(Chapter):
                     at=UP * 0.4, hold=5.0)
 
         # ------------------------------------------------- the spring
-        head = Text("What QE pushes down", font=FONT, font_size=T_SUB,
-                    color=SRC_BR).to_edge(UP, buff=0.7)
+        head = cards.section_title("What QE pushes down", color=SRC_BR, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
         sp = W.spring(SRC_BR, turns=7, width=5.0, height=1.0).move_to(UP * 0.6)
         wall = Line(LEFT * 3.0 + UP * 1.6, LEFT * 3.0 + DOWN * 0.4, color=MUTED,
@@ -59,8 +58,7 @@ class Chapter37(Chapter):
         # ------------------------------------------------- the other fear
         nell = stick.nell(scale=1.0).move_to(LEFT * 4.0 + DOWN * 0.8)
         self.play(FadeIn(nell), nell.mood("worried"), run_time=0.6)
-        head2 = Text("And now the other fear, inside Nell's head",
-                     font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
+        head2 = cards.section_title("And now the other fear, inside Nell's head", color=CHALK, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.5)
 
         fears = ["Will there still be customers in three years?",
@@ -85,8 +83,7 @@ class Chapter37(Chapter):
         self.clear_stage()
         kit = stick.kit(scale=0.8).move_to(LEFT * 5.4 + DOWN * 1.8)
         self.play(FadeIn(kit), run_time=0.5)
-        head3 = Text("And here Kit narrows his own claim, in writing",
-                     font=FONT, font_size=T_SUB, color=SRC_KIT).to_edge(UP, buff=0.7)
+        head3 = cards.section_title("And here Kit narrows his own claim, in writing", color=SRC_KIT, size=T_SUB)
         self.play(FadeIn(head3), run_time=0.5)
 
         conc = cards.bullet_list([

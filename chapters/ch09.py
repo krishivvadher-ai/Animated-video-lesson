@@ -60,13 +60,11 @@ class Chapter09(Chapter):
         self.clear_stage(keep=[ava])
 
         # ------------------------------------------------ a stream for ever
-        head = Text("Now do it for a stream that never stops",
-                    font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
+        head = cards.section_title("Now do it for a stream that never stops", color=CHALK, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         ax = Axes(x_range=[0, 26, 1], y_range=[0, 6, 1], x_length=10.4, y_length=3.2,
-                  axis_config={"color": MUTED, "stroke_width": 2,
-                               "include_ticks": False, "include_tip": False})
+                  axis_config=AXIS)
         ax.shift(DOWN * 0.4)
         xl = Text("year 1                    5                   10                  15                  20                 25 …",
                   font=FONT, font_size=T_TINY, color=MUTED)

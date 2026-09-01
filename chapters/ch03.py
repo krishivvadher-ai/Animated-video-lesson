@@ -20,8 +20,7 @@ class Chapter03(Chapter):
             self.play(FadeIn(ava), run_time=0.7)
 
         # ------------------------------------------------------- 1 hurdle rates
-        one = Text("One — the bar firms actually use", font=FONT,
-                   font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.8)
+        one = cards.section_title("One — the bar firms actually use", color=CHALK, size=T_SUB)
         self.play(FadeIn(one), run_time=0.5)
 
         self.define("hurdle rate", "What a firm insists a project promises.", "scale", TRIGGER,
@@ -66,8 +65,7 @@ class Chapter03(Chapter):
         self.clear_stage(keep=[ava])
 
         # ------------------------------------------------------- 2 farmers
-        two = Text("Two — the farmers who would not stop", font=FONT,
-                   font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.8)
+        two = cards.section_title("Two — the farmers who would not stop", color=CHALK, size=T_SUB)
         self.play(FadeIn(two), run_time=0.5)
 
         farmer = stick.StickFigure("A farmer", CHALK, hat="flat", scale=1.0)
@@ -104,8 +102,7 @@ class Chapter03(Chapter):
         self.clear_stage(keep=[ava])
 
         # ------------------------------------------------------- 3 dollar
-        three = Text("Three — the dollar and the imports", font=FONT,
-                     font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.8)
+        three = cards.section_title("Three — the dollar and the imports", color=CHALK, size=T_SUB)
         self.play(FadeIn(three), run_time=0.5)
 
         self.define("exchange rate", "How much of one country's money another "
@@ -129,8 +126,7 @@ class Chapter03(Chapter):
             self.play(FadeIn(box), FadeIn(tag), run_time=0.6)
 
         ax = Axes(x_range=[1980, 1990, 1], y_range=[0, 3, 1], x_length=7.4, y_length=2.6,
-                  axis_config={"color": MUTED, "stroke_width": 2,
-                               "include_ticks": False, "include_tip": False})
+                  axis_config=AXIS)
         ax.shift(DOWN * 1.0 + RIGHT * 0.6)
         xl = Text("1980            1983         1985                    1987      1989",
                   font=FONT, font_size=T_TINY, color=MUTED)

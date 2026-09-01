@@ -31,8 +31,7 @@ class Chapter28(Chapter):
         self.clear_stage()
 
         # ---------------------------------------------------- cost of capital
-        head = Text("First — the cost of capital", font=FONT, font_size=T_SUB,
-                    color=MONEY).to_edge(UP, buff=0.7)
+        head = cards.section_title("First — the cost of capital", color=MONEY, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         steps = [
@@ -79,8 +78,7 @@ class Chapter28(Chapter):
         self.clear_stage()
 
         # ---------------------------------------------------- the qualifications
-        head2 = Text("And the authors immediately qualify it — three times",
-                     font=FONT, font_size=T_SUB, color=SRC_BR).to_edge(UP, buff=0.7)
+        head2 = cards.section_title("And the authors immediately qualify it — three times", color=SRC_BR, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.5)
 
         shields = VGroup()
@@ -134,8 +132,7 @@ class Chapter28(Chapter):
         self.clear_stage()
 
         # ---------------------------------------------------- the government
-        head3 = Text("And then they ask about one borrower in particular",
-                     font=FONT, font_size=T_SUB, color=SRC_BR).to_edge(UP, buff=0.7)
+        head3 = cards.section_title("And then they ask about one borrower in particular", color=SRC_BR, size=T_SUB)
         self.play(FadeIn(head3), run_time=0.5)
         gov = stick.StickFigure("the government", CHALK, hat="collar", scale=0.9)
         gov.move_to(LEFT * 4.0 + DOWN * 0.4)
@@ -165,8 +162,7 @@ class Chapter28(Chapter):
         self.clear_stage()
 
         # ---------------------------------------------------- wealth
-        head4 = Text("Second — wealth", font=FONT, font_size=T_SUB,
-                     color=TRIGGER).to_edge(UP, buff=0.7)
+        head4 = cards.section_title("Second — wealth", color=TRIGGER, size=T_SUB)
         self.play(FadeIn(head4), run_time=0.5)
 
         house = VGroup(W.factory(TRIGGER, 0.5))

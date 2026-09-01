@@ -14,8 +14,7 @@ class Chapter27(Chapter):
 
     def body(self):
         # ---------------------------------------------------- signalling
-        head = Text("Channel two — signalling", font=FONT, font_size=T_SUB,
-                    color=WAIT).to_edge(UP, buff=0.7)
+        head = cards.section_title("Channel two — signalling", color=WAIT, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         gov = stick.governor(scale=0.95).move_to(LEFT * 4.4 + DOWN * 0.6)
@@ -55,8 +54,7 @@ class Chapter27(Chapter):
         self.clear_stage()
 
         # ---------------------------------------------------- liquidity
-        head2 = Text("Channel three — liquidity", font=FONT, font_size=T_SUB,
-                     color=MONEY).to_edge(UP, buff=0.7)
+        head2 = cards.section_title("Channel three — liquidity", color=MONEY, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.5)
 
         self.define("liquidity", "How easily you can sell it.", "flow", MONEY, hold=4.2)
@@ -92,8 +90,7 @@ class Chapter27(Chapter):
         self.clear_stage()
 
         # ---------------------------------------------------- what we can see
-        head3 = Text("So which of the three actually did the work?",
-                     font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
+        head3 = cards.section_title("So which of the three actually did the work?", color=CHALK, size=T_SUB)
         self.play(FadeIn(head3), run_time=0.5)
 
         three = VGroup(

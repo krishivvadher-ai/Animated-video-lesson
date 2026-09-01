@@ -20,13 +20,11 @@ class Chapter31(Chapter):
             pass
 
         # ---------------------------------------------------- forward guidance
-        head = Text("One — saying what you will do next",
-                    font=FONT, font_size=T_SUB, color=WAIT).to_edge(UP, buff=0.7)
+        head = cards.section_title("One — saying what you will do next", color=WAIT, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         ax = Axes(x_range=[0, 6, 1], y_range=[0, 4, 1], x_length=8.6, y_length=2.8,
-                  axis_config={"color": MUTED, "stroke_width": 2,
-                               "include_ticks": False, "include_tip": False})
+                  axis_config=AXIS)
         ax.shift(DOWN * 0.4)
         yl = Text("the policy rate", font=FONT, font_size=T_SMALL, color=MUTED)
         yl.next_to(ax, LEFT, buff=0.2).rotate(PI / 2)
@@ -88,8 +86,7 @@ class Chapter31(Chapter):
         self.clear_stage()
 
         # ---------------------------------------------------- liquidity operations
-        head2 = Text("Two — lending to banks that cannot borrow",
-                     font=FONT, font_size=T_SUB, color=MONEY).to_edge(UP, buff=0.7)
+        head2 = cards.section_title("Two — lending to banks that cannot borrow", color=MONEY, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.5)
 
         cb = W.building(SRC_BR, 0.65, "bank", "the central bank").move_to(
@@ -136,8 +133,7 @@ class Chapter31(Chapter):
         self.clear_stage()
 
         # ---------------------------------------------------- credit easing
-        head3 = Text("Three — paying banks to lend", font=FONT, font_size=T_SUB,
-                     color=TRIGGER).to_edge(UP, buff=0.7)
+        head3 = cards.section_title("Three — paying banks to lend", color=TRIGGER, size=T_SUB)
         self.play(FadeIn(head3), run_time=0.5)
 
         with self.narrate("The third group exists because of the wedge from chapter "

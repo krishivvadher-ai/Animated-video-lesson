@@ -54,7 +54,22 @@ T_TINY  = 21
 BEAT      = 0.8
 PAD       = 0.45
 CARD_HOLD = 4.0
-LAG       = 0.15    # 3b1b's staggered-reveal lag
+LAG       = 0.2     # 3b1b's staggered-reveal lag
+
+# ---------------------------------------------------------------- axes
+# His axes carry arrowheads and tick marks, and he adds numbers to them.
+AXIS = {
+    "color": MUTED,
+    "stroke_width": 2,
+    "include_ticks": True,
+    "tick_size": 0.06,
+    "include_tip": True,
+    "tip_width": 0.18,
+    "tip_height": 0.18,
+}
+
+# his MED_SMALL_BUFF / SMALL_BUFF
+BUFF_TITLE = 0.35
 
 # ---------------------------------------------------------------- layout
 SAFE_W = 12.4

@@ -125,8 +125,7 @@ class Chapter19(Chapter):
         self.clear_stage()
 
         # -------------------------------------------------- the warning
-        head = Text("The warning for anyone in charge", font=FONT, font_size=T_SUB,
-                    color=CHALK).to_edge(UP, buff=0.7)
+        head = cards.section_title("The warning for anyone in charge", color=CHALK, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
         warns = cards.bullet_list([
             "profits without entry ≠ monopoly",

@@ -21,7 +21,7 @@ class Chapter04(Chapter):
             self.play(FadeIn(nell), FadeIn(nl), run_time=0.8)
 
         # ------------------------------------------------------ 1 sunk cost
-        head = Text("One", font=FONT, font_size=T_SUB, color=SUNK).to_edge(UP, buff=0.7)
+        head = cards.section_title("One", color=SUNK, size=T_SUB)
         self.play(FadeIn(head), run_time=0.4)
 
         slab = Rectangle(width=3.0, height=0.5, color=SUNK, stroke_width=4,
@@ -66,7 +66,7 @@ class Chapter04(Chapter):
                   FadeOut(head), run_time=0.6)
 
         # ------------------------------------------------------ 2 uncertainty
-        head2 = Text("Two", font=FONT, font_size=T_SUB, color=WAIT).to_edge(UP, buff=0.7)
+        head2 = cards.section_title("Two", color=WAIT, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.4)
 
         future = VGroup(
@@ -96,7 +96,7 @@ class Chapter04(Chapter):
         self.play(FadeOut(cloud), FadeOut(future), FadeOut(head2), run_time=0.6)
 
         # ------------------------------------------------------ 3 the door
-        head3 = Text("Three", font=FONT, font_size=T_SUB, color=MONEY).to_edge(UP, buff=0.7)
+        head3 = cards.section_title("Three", color=MONEY, size=T_SUB)
         self.play(FadeIn(head3), run_time=0.4)
 
         d = W.door(MONEY, 1.3, 2.6, "the chance to build").move_to(RIGHT * 2.4 + UP * 0.1)

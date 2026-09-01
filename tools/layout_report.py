@@ -8,13 +8,15 @@ SUBS = ROOT / "build" / "subs"
 
 
 def main():
-    coll, low = [], []
+    coll, low, small = [], [], []
     for f in sorted(SUBS.glob("ch*.json")):
         d = json.loads(f.read_text())
         for c in d.get("collisions", []):
             coll.append((f.stem, c))
         for c in d.get("low_content", []):
             low.append((f.stem, c))
+        for c in d.get("too_small", []):
+            small.append((f.stem, c))
     # collapse repeats: the same pair recorded on consecutive plays
     seen, uniq = set(), []
     for ch, c in coll:
@@ -38,6 +40,17 @@ def main():
     print(f"\n== drawn under the caption band ==  {len(uniq2)} distinct")
     for ch, c in uniq2[:60]:
         print(f"  {ch}  bottom={c['bottom']}  {c['text']!r}")
+
+    seen3, uniq3 = set(), []
+    for ch, c in small:
+        key = (ch, c["text"])
+        if key in seen3:
+            continue
+        seen3.add(key)
+        uniq3.append((ch, c))
+    print(f"\n== too small to read ==  {len(uniq3)} distinct")
+    for ch, c in uniq3[:60]:
+        print(f"  {ch}  {c['per_line']}  {c['text']!r}")
 
 
 if __name__ == "__main__":

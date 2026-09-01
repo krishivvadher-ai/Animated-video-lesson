@@ -15,8 +15,7 @@ class Chapter15(Chapter):
 
     def body(self):
         # ------------------------------------------------ suspend vs abandon
-        head = Text("Two words that are not the same",
-                    font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
+        head = cards.section_title("Two words that are not the same", color=CHALK, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         self.define("suspending", "Stopping, meaning to start again.",
@@ -114,8 +113,7 @@ class Chapter15(Chapter):
         self.play(FadeOut(obs1), FadeOut(obs2), FadeOut(units), run_time=0.5)
 
         # ------------------------------------------------ comparative statics
-        cs = Text("Now move one thing at a time", font=FONT, font_size=T_SUB,
-                  color=CHALK).to_edge(UP, buff=0.5).shift(RIGHT * 2.8)
+        cs = cards.section_title("Now move one thing at a time", color=CHALK, size=T_SUB).shift(RIGHT * 2.8)
         self.play(FadeIn(cs), run_time=0.5)
 
         bigger = cards.body("A bigger sunk cost.", size=T_SUB, color=SUNK, width=20)

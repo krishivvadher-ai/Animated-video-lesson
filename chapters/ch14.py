@@ -50,8 +50,7 @@ class Chapter14(Chapter):
         self.clear_stage()
 
         # ------------------------------------------------------- 2 first mover
-        head2 = Text("Two — moving first can be worth something",
-                     font=FONT, font_size=T_SUB, color=MONEY).to_edge(UP, buff=0.7)
+        head2 = cards.section_title("Two — moving first can be worth something", color=MONEY, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.5)
         pull = VGroup(
             Arrow(LEFT * 3.6, LEFT * 0.5, color=WAIT, buff=0, stroke_width=6),
@@ -73,8 +72,7 @@ class Chapter14(Chapter):
         self.clear_stage()
 
         # ------------------------------------------------------- 3 watching
-        head3 = Text("Three — firms watching each other",
-                     font=FONT, font_size=T_SUB, color=WAIT).to_edge(UP, buff=0.7)
+        head3 = cards.section_title("Three — firms watching each other", color=WAIT, size=T_SUB)
         self.play(FadeIn(head3), run_time=0.5)
         crowd = stick.crowd(6, spacing=1.5, scale=0.55).shift(DOWN * 0.6)
         with self.narrate("Six firms, each looking at the same opportunity, each with "
@@ -107,8 +105,7 @@ class Chapter14(Chapter):
         self.clear_stage()
 
         # ------------------------------------------------------- 4 bad news
-        head4 = Text("Four — the bad news principle",
-                     font=FONT, font_size=T_SUB, color=TRIGGER).to_edge(UP, buff=0.7)
+        head4 = cards.section_title("Four — the bad news principle", color=TRIGGER, size=T_SUB)
         self.play(FadeIn(head4), run_time=0.5)
         qc = cards.quote_card(
             "of possible future outcomes, only the unfavorable ones have a bearing on "

@@ -59,8 +59,7 @@ class Chapter22(Chapter):
 
         # ------------------------------------------------- 2008
         self.clear_stage()
-        head = Text("2008, in ninety seconds", font=FONT, font_size=T_SUB,
-                    color=CHALK).to_edge(UP, buff=0.7)
+        head = cards.section_title("2008, in ninety seconds", color=CHALK, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         gov = stick.governor(scale=1.1).shift(LEFT * 4.0 + DOWN * 0.3)

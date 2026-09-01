@@ -36,8 +36,7 @@ class Chapter20(Chapter):
         self.play(FadeOut(three), run_time=0.5)
 
         # ------------------------------------------------------- the two flats
-        head = Text("An example the paper tells against economists",
-                    font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
+        head = cards.section_title("An example the paper tells against economists", color=CHALK, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         man = stick.StickFigure("an economist", CHALK, hat="specs", prop="book", scale=0.95)
@@ -75,8 +74,7 @@ class Chapter20(Chapter):
 
         # ------------------------------------------------------- the resolution
         self.clear_stage()
-        head2 = Text("And the paper's resolution is the instructive part",
-                     font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
+        head2 = cards.section_title("And the paper's resolution is the instructive part", color=CHALK, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.5)
 
         wrong = cards.body("not a decision problem — a signalling game", size=T_SUB, color=COST, width=40)

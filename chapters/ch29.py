@@ -19,8 +19,7 @@ class Chapter29(Chapter):
             pass
 
         # ---------------------------------------------------- two kinds of money
-        head = Text("Two kinds of money, and they are not the same",
-                    font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
+        head = cards.section_title("Two kinds of money, and they are not the same", color=CHALK, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         narrow = VGroup(
@@ -55,8 +54,7 @@ class Chapter29(Chapter):
         self.clear_stage()
 
         # ---------------------------------------------------- the money multiplier
-        head2 = Text("The textbook picture, and why it does not apply",
-                     font=FONT, font_size=T_SUB, color=COST).to_edge(UP, buff=0.7)
+        head2 = cards.section_title("The textbook picture, and why it does not apply", color=COST, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.5)
 
         small = Rectangle(width=1.0, height=0.7, color=SRC_BR, stroke_width=3,
@@ -108,8 +106,7 @@ class Chapter29(Chapter):
         self.clear_stage()
 
         # ---------------------------------------------------- reserves cannot be lent out
-        head3 = Text("And the thing everybody says, which is simply wrong",
-                     font=FONT, font_size=T_SUB, color=COST).to_edge(UP, buff=0.7)
+        head3 = cards.section_title("And the thing everybody says, which is simply wrong", color=COST, size=T_SUB)
         self.play(FadeIn(head3), run_time=0.5)
 
         claim = cards.body("“The banks are sitting on all that money instead of lending "

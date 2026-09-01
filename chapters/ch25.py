@@ -95,8 +95,7 @@ class Chapter25(Chapter):
         self.clear_stage()
 
         # ---------------------------------------------------- how it differs
-        head = Text("So how is this different from ordinary monetary policy?",
-                    font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
+        head = cards.section_title("So how is this different from ordinary monetary policy?", color=CHALK, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         left = VGroup(

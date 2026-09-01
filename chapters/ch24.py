@@ -18,8 +18,7 @@ class Chapter24(Chapter):
             pass
 
         # -------------------------------------------------- a bond, from the start
-        head0 = Text("Where a gilt comes from", font=FONT, font_size=T_SUB,
-                     color=CHALK).to_edge(UP, buff=0.6)
+        head0 = cards.section_title("Where a gilt comes from", color=CHALK, size=T_SUB)
         self.play(FadeIn(head0), run_time=0.5)
 
         gov = W.building(SRC_BR, 0.8, "government", "the government").move_to(
@@ -72,8 +71,7 @@ class Chapter24(Chapter):
 
         # -------------------------------------------------- it can change hands
         self.clear_stage()
-        head1 = Text("And it can be sold on", font=FONT, font_size=T_SUB,
-                     color=CHALK).to_edge(UP, buff=0.7)
+        head1 = cards.section_title("And it can be sold on", color=CHALK, size=T_SUB)
         self.play(FadeIn(head1), run_time=0.5)
         a = stick.StickFigure("", CHALK, scale=0.75).move_to(LEFT * 4.2 + DOWN * 0.3)
         b = stick.StickFigure("", CHALK, scale=0.75).move_to(RIGHT * 4.2 + DOWN * 0.3)
@@ -100,8 +98,7 @@ class Chapter24(Chapter):
 
         # -------------------------------------------------- price up, yield down
         self.clear_stage()
-        head = Text("One idea. Everything downstream depends on it.",
-                    font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
+        head = cards.section_title("One idea. Everything downstream depends on it.", color=CHALK, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         tk2 = W.ticket(SRC_BR, "pays £5 a year", 0.95).move_to(LEFT * 4.2 + UP * 0.6)
@@ -150,8 +147,7 @@ class Chapter24(Chapter):
         self.clear_stage()
         gov = stick.governor(scale=1.0).shift(LEFT * 4.6 + DOWN * 0.6)
         self.play(FadeIn(gov), run_time=0.5)
-        head2 = Text("So here is the policy", font=FONT, font_size=T_SUB,
-                     color=CHALK).to_edge(UP, buff=0.7)
+        head2 = cards.section_title("So here is the policy", color=CHALK, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.5)
 
         newmoney = W.money_bag(MONEY, 1.0).move_to(LEFT * 1.4 + UP * 1.4)

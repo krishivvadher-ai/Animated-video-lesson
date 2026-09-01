@@ -24,13 +24,12 @@ class Chapter12(Chapter):
 
         ax = Axes(x_range=[0, 0.34, 0.05], y_range=[-2.6, 3.2, 1],
                   x_length=9.2, y_length=5.0,
-                  axis_config={"color": MUTED, "stroke_width": 2,
-                               "include_ticks": False, "include_tip": False})
+                  axis_config=AXIS)
         ax.shift(RIGHT * 1.6 + DOWN * 0.3).scale(0.86)
         xl = Text("revenue a year →", font=FONT, font_size=T_SMALL, color=MUTED)
         xl.next_to(ax.x_axis, DOWN, buff=0.18).align_to(ax.x_axis, RIGHT)
         yl = Text("value →", font=FONT, font_size=T_SMALL, color=MUTED).rotate(PI / 2)
-        yl.next_to(ax.y_axis, LEFT, buff=0.15).align_to(ax.y_axis, UP)
+        yl.next_to(ax.y_axis, LEFT, buff=0.18).shift(UP * 1.2)
         with self.narrate("Across the bottom, the revenue coming in each year. Up the "
                           "side, what the whole opportunity is worth to Nell."):
             self.play(Create(ax), FadeIn(xl), FadeIn(yl), run_time=1.6)
@@ -75,11 +74,12 @@ class Chapter12(Chapter):
         self.beat()
 
         shape = cards.bullet_list([
-            "revenue very low → almost worthless",
-            "revenue rising → worth more, faster",
-            "close to the trigger → worth what building is worth",
-        ], color=WAIT, width=26, dotc=WAIT)
-        shape.scale(0.82).move_to(LEFT * 4.6 + UP * 1.2)
+            "very low → worthless",
+            "rising → worth more, faster",
+            "near the trigger → worth building",
+        ], color=WAIT, width=20, dotc=WAIT, size=T_SMALL)
+        cards.fit(shape, 5.0, 3.2)
+        shape.move_to(LEFT * 4.3 + UP * 0.9)
         says = ["When revenue is very low, the chance is nearly worthless — things would "
                 "have to improve enormously, and that is a long way off.",
                 "As revenue rises the chance is worth more, and worth more faster. That "
@@ -105,12 +105,12 @@ class Chapter12(Chapter):
         self.beat()
 
         why = cards.bullet_list([
-            "If they crossed, waiting would still be worth more just past the meeting "
-            "point — so she would not build there.",
-            "If the curve stayed below, she would have built sooner.",
-            "Touching, and only touching, is the right place.",
-        ], color=CHALK, width=26, dotc=TRIGGER)
-        why.scale(0.82).move_to(LEFT * 4.6 + UP * 1.2)
+            "crossing → she would not build there",
+            "curve below → she would build sooner",
+            "touching → exactly right",
+        ], color=CHALK, width=20, dotc=TRIGGER, size=T_SMALL)
+        cards.fit(why, 5.0, 3.2)
+        why.move_to(LEFT * 4.3 + UP * 0.9)
         says2 = ["And that touching is doing real work. If the two lines crossed, "
                  "waiting would still be worth more just past the meeting point — so "
                  "she would not build there after all.",

@@ -83,8 +83,7 @@ class Chapter34(Chapter):
         self.play(FadeOut(b), FadeOut(q), FadeOut(reason), run_time=0.6)
 
         # ---------------------------------------------------- and talks himself down
-        head = Text("And then he reads it again", font=FONT, font_size=T_SUB,
-                    color=CHALK).to_edge(UP, buff=0.7)
+        head = cards.section_title("And then he reads it again", color=CHALK, size=T_SUB)
         self.play(FadeIn(head), kit.mood("thinking"), run_time=0.6)
 
         steps = cards.bullet_list([
@@ -113,8 +112,7 @@ class Chapter34(Chapter):
 
         # ---------------------------------------------------- what survives
         self.clear_stage()
-        head2 = Text("What survives is thinner", font=FONT, font_size=T_SUB,
-                     color=SRC_KIT).to_edge(UP, buff=0.8)
+        head2 = cards.section_title("What survives is thinner", color=SRC_KIT, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.5)
 
         surv = cards.body("the decision itself breaks the link — once",

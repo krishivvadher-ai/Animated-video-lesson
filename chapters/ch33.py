@@ -119,8 +119,7 @@ class Chapter33(Chapter):
 
         # -------------------------------------------------- Kit's first reaction
         self.clear_stage()
-        head = Text("And Kit's first reaction is not disagreement",
-                    font=FONT, font_size=T_SUB, color=SRC_KIT).to_edge(UP, buff=0.7)
+        head = cards.section_title("And Kit's first reaction is not disagreement", color=SRC_KIT, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
         first = cards.body("two halves. One kind of trust.", size=T_SUB, color=CHALK, width=40)
         first.move_to(UP * 0.6)
@@ -133,8 +132,7 @@ class Chapter33(Chapter):
 
         # -------------------------------------------------- the diagnosis
         self.play(FadeOut(first), FadeOut(head), run_time=0.5)
-        head2 = Text("And here is the diagnosis — be generous about it",
-                     font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
+        head2 = cards.section_title("And here is the diagnosis — be generous about it", color=CHALK, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.5)
 
         machine = VGroup(

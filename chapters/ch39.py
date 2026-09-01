@@ -95,8 +95,7 @@ class Chapter39(Chapter):
         self.clear_stage()
 
         # ------------------------------------------------- the two-row table
-        head = Text("Two jobs, pulling on the same thing in opposite directions",
-                    font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.6)
+        head = cards.section_title("Two jobs, pulling on the same thing in opposite directions", color=CHALK, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         r1a = cards.body("PREVENTING A COLLAPSE", size=T_BODY, color=MONEY, width=20)

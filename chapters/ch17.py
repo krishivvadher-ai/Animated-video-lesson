@@ -84,8 +84,7 @@ class Chapter17(Chapter):
 
         # ------------------------------------------------------ the physics
         self.clear_stage()
-        head = Text("Why the paper borrows a word from physics",
-                    font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
+        head = cards.section_title("Why the paper borrows a word from physics", color=CHALK, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         bar = W.iron_bar(CHALK).scale(1.2).move_to(UP * 0.6)
@@ -145,13 +144,11 @@ class Chapter17(Chapter):
 
         # ------------------------------------------------------ the payoff
         self.clear_stage()
-        pay = Text("Now go back to chapter three", font=FONT, font_size=T_SUB,
-                   color=CHALK).to_edge(UP, buff=0.8)
+        pay = cards.section_title("Now go back to chapter three", color=CHALK, size=T_SUB)
         self.play(FadeIn(pay), run_time=0.5)
 
         ax = Axes(x_range=[1980, 1990, 1], y_range=[0, 3, 1], x_length=8.4, y_length=3.2,
-                  axis_config={"color": MUTED, "stroke_width": 2,
-                               "include_ticks": False, "include_tip": False})
+                  axis_config=AXIS)
         ax.shift(DOWN * 0.4)
         dollar = ax.plot_line_graph(
             x_values=[1980, 1982, 1984, 1985, 1986, 1987, 1989],

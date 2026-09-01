@@ -54,8 +54,7 @@ class Chapter18(Chapter):
 
         # ------------------------------------------------- why option value fails alone
         self.clear_stage()
-        head = Text("Why the waiting story cannot explain that on its own",
-                    font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.6)
+        head = cards.section_title("Why the waiting story cannot explain that on its own", color=CHALK, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         sc = MasterScale(x=-3.0, y=-0.6, height=4.0)
@@ -83,8 +82,7 @@ class Chapter18(Chapter):
         self.clear_stage()
 
         # ------------------------------------------------- the popular explanation
-        head2 = Text("And the popular explanation fails on its own terms",
-                     font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
+        head2 = cards.section_title("And the popular explanation fails on its own terms", color=CHALK, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.5)
         chain = cards.bullet_list([
             "lifetime employment ⇒ labour quasi-fixed",
@@ -108,8 +106,7 @@ class Chapter18(Chapter):
         self.clear_stage()
 
         # ------------------------------------------------- the resolution
-        head3 = Text("The resolution: their uncertainty was lopsided",
-                     font=FONT, font_size=T_SUB, color=MONEY).to_edge(UP, buff=0.7)
+        head3 = cards.section_title("The resolution: their uncertainty was lopsided", color=MONEY, size=T_SUB)
         self.play(FadeIn(head3), run_time=0.5)
 
         ax = NumberLine(x_range=[-3, 3, 1], length=8.0, color=MUTED,

@@ -19,8 +19,7 @@ class Chapter11(Chapter):
             pass
 
         # ------------------------------------------------ one step
-        head = Text("One step at a time", font=FONT, font_size=T_SUB,
-                    color=CHALK).to_edge(UP, buff=0.7)
+        head = cards.section_title("One step at a time", color=CHALK, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         start = Dot(LEFT * 5.0, radius=0.14, color=MONEY)
@@ -52,8 +51,7 @@ class Chapter11(Chapter):
         self.clear_stage()
 
         # ------------------------------------------------ the tree
-        head2 = Text("Now let it run", font=FONT, font_size=T_SUB,
-                     color=CHALK).to_edge(UP, buff=0.6)
+        head2 = cards.section_title("Now let it run", color=CHALK, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.5)
 
         levels = 6
@@ -115,13 +113,11 @@ class Chapter11(Chapter):
         self.clear_stage()
 
         # ------------------------------------------------ sigma
-        head3 = Text("And one number describes the whole fan",
-                     font=FONT, font_size=T_SUB, color=CHALK).to_edge(UP, buff=0.7)
+        head3 = cards.section_title("And one number describes the whole fan", color=CHALK, size=T_SUB)
         self.play(FadeIn(head3), run_time=0.5)
 
         axes = Axes(x_range=[-3, 3, 1], y_range=[0, 1.2, 1], x_length=8.4, y_length=2.6,
-                    axis_config={"color": MUTED, "stroke_width": 2,
-                                 "include_ticks": False, "include_tip": False})
+                    axis_config=AXIS)
         axes.shift(DOWN * 0.6)
         narrow = axes.plot(lambda x: np.exp(-x * x / (2 * 0.35 ** 2)),
                            color=MONEY, stroke_width=4)

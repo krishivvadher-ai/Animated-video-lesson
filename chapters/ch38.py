@@ -57,8 +57,7 @@ class Chapter38(Chapter):
 
         # ------------------------------------------------- Kit writes it against himself
         self.clear_stage()
-        head = Text("And Kit writes this into his own argument, against himself",
-                    font=FONT, font_size=T_SUB, color=SRC_KIT).to_edge(UP, buff=0.7)
+        head = cards.section_title("And Kit writes this into his own argument, against himself", color=SRC_KIT, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         kit2 = stick.kit(scale=1.0).move_to(LEFT * 4.4 + DOWN * 0.8)

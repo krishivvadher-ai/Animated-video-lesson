@@ -74,8 +74,7 @@ class Chapter21(Chapter):
         self.clear_stage()
 
         # ------------------------------------------------------ what it does NOT claim
-        head = Text("What the paper does not claim", font=FONT, font_size=T_SUB,
-                    color=COST).to_edge(UP, buff=0.8)
+        head = cards.section_title("What the paper does not claim", color=COST, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
         nots = cards.bullet_list([
             "not “firms are irrational”",

@@ -18,8 +18,7 @@ class Chapter26(Chapter):
             pass
 
         # ---------------------------------------------------- perfect substitutes
-        head = Text("First, the case where NOTHING happens",
-                    font=FONT, font_size=T_SUB, color=COST).to_edge(UP, buff=0.7)
+        head = cards.section_title("First, the case where NOTHING happens", color=COST, size=T_SUB)
         self.play(FadeIn(head), run_time=0.5)
 
         a = VGroup(W.ticket(MUTED, "short-dated\ngilt", 0.75),
@@ -53,8 +52,7 @@ class Chapter26(Chapter):
         self.clear_stage()
 
         # ---------------------------------------------------- imperfect substitutes
-        head2 = Text("So buy something that is NOT like money",
-                    font=FONT, font_size=T_SUB, color=MONEY).to_edge(UP, buff=0.7)
+        head2 = cards.section_title("So buy something that is NOT like money", color=MONEY, size=T_SUB)
         self.play(FadeIn(head2), run_time=0.5)
 
         ladder = VGroup()
@@ -105,8 +103,7 @@ class Chapter26(Chapter):
         self.clear_stage()
 
         # ---------------------------------------------------- duration
-        head3 = Text("And a second effect, on risk itself",
-                     font=FONT, font_size=T_SUB, color=TRIGGER).to_edge(UP, buff=0.7)
+        head3 = cards.section_title("And a second effect, on risk itself", color=TRIGGER, size=T_SUB)
         self.play(FadeIn(head3), run_time=0.5)
         self.define("duration", "How much its price swings with rates.", "ticket", TRIGGER, hold=4.4)
         self.define("term premium", "The extra return for bearing that swing.", "risk", TRIGGER, hold=4.4)
@@ -137,8 +134,7 @@ class Chapter26(Chapter):
         self.clear_stage()
 
         # ---------------------------------------------------- the hot potato
-        head4 = Text("And then it spreads", font=FONT, font_size=T_SUB,
-                     color=MONEY).to_edge(UP, buff=0.7)
+        head4 = cards.section_title("And then it spreads", color=MONEY, size=T_SUB)
         self.play(FadeIn(head4), run_time=0.5)
 
         holders = VGroup(*[stick.StickFigure("", CHALK, scale=0.55) for _ in range(5)])
@@ -177,8 +173,7 @@ class Chapter26(Chapter):
         self.clear_stage()
 
         # ---------------------------------------------------- what limits it
-        head5 = Text("And here is what can stop it working",
-                     font=FONT, font_size=T_SUB, color=COST).to_edge(UP, buff=0.7)
+        head5 = cards.section_title("And here is what can stop it working", color=COST, size=T_SUB)
         self.play(FadeIn(head5), run_time=0.5)
         limits = [
             ("risk", "no appetite → nobody climbs the ladder"),
