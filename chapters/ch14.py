@@ -8,135 +8,160 @@ from lib.theme import *
 
 class Chapter14(Chapter):
     CH = 14
-    TITLE = "When this is wrong"
+    TITLE = "How steep is a curve?"
     PART = "PART ONE — THE PAPER"
-    RECAP_ICONS = ["door", "people", "fog", "risk"]
+    RECAP_ICONS = ["scale", "flow", "clock", "money"]
 
     def body(self):
-        with self.narrate("Being honest about the limits is part of the teaching, and "
-                          "it also stops you over-applying the idea. The paper sets out "
-                          "four qualifications.", hold=True):
-            pass
+        # ------------------------------------------------ gradient you know
+        self.heading("You already know this bit")
+        ax = Axes(x_range=[0, 6, 1], y_range=[0, 4, 1], x_length=6.4, y_length=3.4,
+                  axis_config=AXIS)
+        St.place(ax, St.STAGE, ay=0.1, fill=False)
+        line = ax.plot(lambda x: 0.5 + 0.5 * x, x_range=[0, 6], color=WAIT,
+                       stroke_width=5)
+        with self.narrate("Start with a straight line, which you met at school. Its "
+                          "steepness is one number, and it is the same everywhere "
+                          "along it."):
+            self.play(Create(ax), run_time=1.0)
+            self.play(Create(line), run_time=1.4)
 
-        # ---------------------------------------------------- 1 the race
-        self.heading("One — the race")
-        nell = stick.nell(scale=0.95)
-        St.place(nell, St.STAGE, ax=-0.7, ay=-0.2)
-        d = W.door(MONEY, 1.3, 2.6, "one site, one licence")
-        St.place(d, St.STAGE, ax=0.35, ay=-0.05)
-        with self.narrate("Everything so far assumed the chance was Nell's alone. "
-                          "Suppose it is not. Suppose there is one site, or one licence, "
-                          "and several firms want it."):
-            self.play(FadeIn(nell), Create(d), run_time=1.2)
-
-        rival = stick.StickFigure("a rival", CHALK, scale=0.95)
-        rival.move_to(St.SIDE.point(0.7, -0.2))
-        with self.narrate("Nell hesitates, sensibly, to see how things develop."):
-            self.play(nell.pace(1, run_time=1.8))
-            self.play(nell.mood("thinking"), run_time=0.4)
-        with self.narrate("And somebody else walks through the door."):
-            self.play(FadeIn(rival), run_time=0.5)
-            self.play(rival.walk_to(d.get_center() + RIGHT * 0.2, run_time=2.0))
-            self.play(FadeOut(rival), nell.mood("surprised"), run_time=0.6)
-        with self.narrate("When the chance can be snatched, waiting is not possible. "
-                          "And when waiting is not possible, the textbook's trigger is "
-                          "valid again. This is a real limit, and Part Three comes back "
-                          "to it."):
-            self.foot("waiting impossible → the textbook is right", COST)
+        a, b = 1.0, 4.0
+        pa, pb = ax.c2p(a, 0.5 + 0.5 * a), ax.c2p(b, 0.5 + 0.5 * b)
+        run = Line(pa, [pb[0], pa[1], 0], color=MUTED, stroke_width=4)
+        rise = Line([pb[0], pa[1], 0], pb, color=TRIGGER, stroke_width=4)
+        rl = Text("along", font=FONT, font_size=T_SMALL, color=MUTED)
+        rl.next_to(run, DOWN, buff=0.18)
+        ul = Text("up", font=FONT, font_size=T_SMALL, color=TRIGGER)
+        ul.next_to(rise, RIGHT, buff=0.18)
+        with self.narrate("Go along, and go up. Steepness is the up divided by the "
+                          "along. Nothing more than that."):
+            self.play(Create(run), FadeIn(rl), run_time=0.8)
+            self.play(Create(rise), FadeIn(ul), run_time=0.8)
+        frac = VGroup(Text("up", font=FONT, font_size=T_SUB, color=TRIGGER),
+                      Line(LEFT * 0.7, RIGHT * 0.7, color=CHALK, stroke_width=3),
+                      Text("along", font=FONT, font_size=T_SUB, color=MUTED)
+                      ).arrange(DOWN, buff=0.18)
+        St.place(frac, St.SIDE, ay=0.35)
+        self.play(FadeIn(frac), run_time=0.8)
         self.beat()
         self.clear_stage()
 
-        # ---------------------------------------------------- 2 first mover
-        self.heading("Two — moving first can pay")
-        pull = VGroup(
-            Arrow(LEFT * 3.4, LEFT * 0.6, color=WAIT, buff=0, stroke_width=6),
-            Arrow(RIGHT * 3.4, RIGHT * 0.6, color=MONEY, buff=0, stroke_width=6))
-        St.place(pull, St.FULL, ay=0.35)
-        l1 = Text("information says: wait", font=FONT, font_size=T_BODY, color=WAIT)
-        l1.next_to(pull[0], DOWN, buff=0.4)
-        l2 = Text("being first says: go now", font=FONT, font_size=T_BODY, color=MONEY)
-        l2.next_to(pull[1], DOWN, buff=0.4)
-        with self.narrate("Sometimes moving first has a value of its own — you take the "
-                          "best position, and everyone else has to work around you. "
-                          "That pulls the other way."):
-            self.play(GrowArrow(pull[0]), FadeIn(l1), run_time=0.9)
-            self.play(GrowArrow(pull[1]), FadeIn(l2), run_time=0.9)
-        with self.narrate("The right answer balances the two against each other."):
-            self.foot("the right answer balances the two", CHALK)
+        # ------------------------------------------------ a curve has no one answer
+        self.heading("A curve has a different answer everywhere")
+        ax2 = Axes(x_range=[0, 6, 1], y_range=[0, 5, 1], x_length=6.6, y_length=3.6,
+                   axis_config=AXIS)
+        St.place(ax2, St.STAGE, ay=0.1, fill=False)
+        f = lambda x: 0.28 * x ** 2 + 0.3
+        curve = ax2.plot(f, x_range=[0.2, 5.6], color=WAIT, stroke_width=5)
+        with self.narrate("Now bend it. A curve is not equally steep everywhere. Down "
+                          "here it is gentle. Up there it is steep."):
+            self.play(Create(ax2), run_time=0.9)
+            self.play(Create(curve), run_time=1.6)
+        g1 = Line(ax2.c2p(0.6, f(0.6)) + LEFT * 0.5 + DOWN * 0.28,
+                  ax2.c2p(0.6, f(0.6)) + RIGHT * 0.5 + UP * 0.28,
+                  color=MONEY, stroke_width=5)
+        g2 = Line(ax2.c2p(4.8, f(4.8)) + LEFT * 0.4 + DOWN * 1.05,
+                  ax2.c2p(4.8, f(4.8)) + RIGHT * 0.4 + UP * 1.05,
+                  color=COST, stroke_width=5)
+        self.play(Create(g1), run_time=0.7)
+        self.play(Create(g2), run_time=0.7)
         self.beat()
+
+        # ------------------------------------------------ the chord collapses
+        self.heading("So ask at one point only")
+        self.play(FadeOut(g1), FadeOut(g2), run_time=0.4)
+        x0 = 3.0
+        dot = Dot(ax2.c2p(x0, f(x0)), radius=0.09, color=TRIGGER)
+        h = ValueTracker(2.2)
+        chord = always_redraw(lambda: Line(
+            ax2.c2p(x0, f(x0)),
+            ax2.c2p(x0 + h.get_value(), f(x0 + h.get_value())),
+            color=MONEY, stroke_width=5))
+        second = always_redraw(lambda: Dot(
+            ax2.c2p(x0 + h.get_value(), f(x0 + h.get_value())),
+            radius=0.08, color=MONEY))
+        with self.narrate("Take the point you care about, and a second point further "
+                          "along. Join them. That line has a steepness you can work "
+                          "out — up over along, exactly as before."):
+            self.play(FadeIn(dot), run_time=0.5)
+            self.add(chord, second)
+            self.play(FadeIn(second), run_time=0.5)
+        self.beat()
+
+        note = St.caption("now slide the second point in", TRIGGER, T_BODY, width=22)
+        St.place(note, St.SIDE, ay=0.6)
+        with self.narrate("Now slide the second point towards the first, and watch what "
+                          "that line does."):
+            self.play(FadeIn(note), run_time=0.6)
+            self.play(h.animate.set_value(0.05), run_time=4.0,
+                      rate_func=rate_functions.ease_in_out_sine)
+        self.beat()
+
+        tan = ax2.plot(lambda x: f(x0) + 0.56 * x0 * (x - x0), x_range=[1.4, 4.6],
+                       color=TRIGGER, stroke_width=5)
+        with self.narrate("It settles on one line: the line that just touches the curve "
+                          "at that point, and does not cross it. That is the steepness "
+                          "of the curve, there."):
+            self.remove(chord, second)
+            self.play(Create(tan), run_time=1.2)
+            self.play(S.indicate(tan, TRIGGER))
+        self.beat()
+
+        self.define("the gradient", "How steep a curve is at one single point on it.",
+                    "flow", TRIGGER, at=DOWN * 2.6, hold=4.2)
         self.clear_stage()
 
-        # ---------------------------------------------------- 3 watching
-        self.heading("Three — firms watching each other")
-        crowd = stick.crowd(6, spacing=1.6, scale=0.55)
-        St.place(crowd, St.FULL, ay=-0.2)
-        with self.narrate("Six firms, each looking at the same opportunity, each with "
-                          "slightly different information about it."):
-            self.play(S.lag_map(FadeIn, crowd, lag=0.15), run_time=1.4)
-        with self.narrate("Each one looks around, sees that nobody else has moved, and "
-                          "concludes the others must have found something discouraging. "
-                          "So each revises its own view downwards."):
-            self.play(*[f.mood("thinking") for f in crowd], run_time=0.7)
-            self.play(*[f.mood("worried") for f in crowd], run_time=0.7)
-        with self.narrate("And so everybody waits. Not because the opportunity is bad, "
-                          "but because everybody is reading everybody else's silence."):
-            self.foot("everybody waits", MUTED)
-        self.beat()
-        with self.narrate("Then one of them moves."):
-            self.play(crowd[2].animate.shift(UP * 1.1), crowd[2].mood("pleased"),
-                      run_time=0.9)
-        with self.narrate("And now everybody revises upwards — because that firm must "
-                          "have seen something good. Investment arrives in a sudden "
-                          "bunch. Which is why it comes in waves."):
-            self.play(*[f.mood("pleased") for f in crowd], run_time=0.6)
-            self.play(LaggedStart(*[f.animate.shift(UP * 1.1)
-                                    for i, f in enumerate(crowd) if i != 2],
-                                  lag_ratio=0.12), run_time=1.6)
-        self.beat()
-        self.clear_stage()
-
-        # ---------------------------------------------------- 4 bad news
-        self.heading("Four — the bad news principle")
-        q = cards.quote_card(
-            "of possible future outcomes, only the unfavorable ones have a bearing on "
-            "the current propensity to undertake a given project",
-            "Dixit (1992), p. 118, quoting Bernanke (1983)", TRIGGER, width=42)
-        St.place(q, St.FULL, ay=0.72, fill=False)
-        with self.narrate("This one comes with a quotation, because it is the single "
-                          "idea Part Three leans on hardest. Dixit is quoting Bernanke."):
-            self.play(FadeIn(q), run_time=1.2)
-        self.beat()
-        plain = St.caption("when you can wait, the bad futures decide", CHALK, T_SUB,
-                           width=44)
-        St.place(plain, St.FULL, ay=-0.72)
-        with self.narrate("In plain words. When you can wait, it is mainly the bad "
-                          "possible futures that decide whether you build now."):
-            self.play(FadeIn(plain), run_time=0.9)
-        self.beat()
-        with self.narrate("Because the good futures will still be there next year. You "
-                          "have not missed them. Waiting only ever protects you from "
-                          "the bad ones."):
-            self.foot("waiting only guards against bad news", MONEY)
+        # ------------------------------------------------ notation
+        self.heading("And a shorthand for it")
+        v = Text("V(R)", font=FONT, font_size=T_HEAD, color=WAIT)
+        arrow = Arrow(LEFT * 0.7, RIGHT * 0.7, color=MUTED, stroke_width=5, buff=0)
+        vp = Text("V′(R)", font=FONT, font_size=T_HEAD, color=TRIGGER)
+        row = VGroup(v, arrow, vp).arrange(RIGHT, buff=0.7)
+        St.place(row, St.FULL, ay=0.6)
+        under = VGroup(
+            St.caption("the value, at a level of takings", WAIT, T_SMALL, width=26),
+            St.caption("how fast that value changes", TRIGGER, T_SMALL, width=26))
+        under[0].next_to(v, DOWN, buff=0.45)
+        under[1].next_to(vp, DOWN, buff=0.45)
+        with self.narrate("Write the value of something as V of R — the value, when the "
+                          "money coming in is R."):
+            self.play(Write(v), run_time=1.0)
+            self.play(FadeIn(under[0]), run_time=0.6)
+        with self.narrate("Then V, with a dash, means its gradient: how fast that value "
+                          "changes as the money coming in changes. A dash is the whole "
+                          "of the notation. There is nothing else to learn."):
+            self.play(GrowArrow(arrow), run_time=0.5)
+            self.play(Write(vp), run_time=1.0)
+            self.play(FadeIn(under[1]), run_time=0.6)
         self.beat()
 
-        self.play(FadeOut(q), FadeOut(plain), run_time=0.6)
-        qual = St.points(["the total chance still matters",
-                          "the shape of the good outcomes does not"],
-                         colour=CHALK, dot_colour=TRIGGER, size=T_SUB, width=34)
-        St.place(qual, St.FULL, ay=0.25)
-        says = ["Carry the qualification the paper adds in the very next sentence, "
-                "because dropping it changes the meaning. The total chance of ending up "
-                "above the trigger does still matter.",
-                "What does not matter is the shape of the good outcomes beyond it. "
-                "Those are not the same thing, and Part Three needs the difference."]
-        for i, row in enumerate(qual):
-            with self.narrate(says[i]):
-                self.play(FadeIn(row), run_time=0.9)
+        ex = VGroup(
+            Text("R²", font=FONT, font_size=T_SUB, color=WAIT),
+            Text("→", font=FONT, font_size=T_SUB, color=MUTED),
+            Text("2R", font=FONT, font_size=T_SUB, color=TRIGGER)).arrange(RIGHT, buff=0.5)
+        ex2 = VGroup(
+            Text("R³", font=FONT, font_size=T_SUB, color=WAIT),
+            Text("→", font=FONT, font_size=T_SUB, color=MUTED),
+            Text("3R²", font=FONT, font_size=T_SUB, color=TRIGGER)).arrange(RIGHT, buff=0.5)
+        exs = VGroup(ex, ex2).arrange(DOWN, buff=0.5)
+        St.place(exs, St.FULL, ay=-0.6)
+        with self.narrate("And one fact you will need, which you can take on trust or "
+                          "check on paper. R squared has gradient two R. R cubed has "
+                          "gradient three R squared."):
+            self.play(FadeIn(ex), run_time=0.8)
+            self.play(FadeIn(ex2), run_time=0.8)
+        gen = Text("R^x   →   x R^(x−1)", font=FONT, font_size=T_SUB, color=MONEY)
+        St.place(gen, St.FOOT, pad=0.06)
+        with self.narrate("In general: bring the power down in front, and knock one off "
+                          "it. That single rule is all the calculus this film needs."):
+            self.play(Write(gen), run_time=1.6)
+            self.play(S.flash_around(gen, MONEY, run_time=2.0))
         self.beat()
 
         self.close_chapter([
-            "a race → waiting is impossible, textbook right",
-            "moving first can pull the other way",
-            "inaction reads as bad news → bunching",
-            "the bad news principle, with its qualification",
+            "steepness of a line: up over along",
+            "a curve is a different steepness everywhere",
+            "slide two points together → the tangent",
+            "and the rule: R^x has gradient x R^(x−1)",
         ])

@@ -1,113 +1,113 @@
 {
  "chapter": 1,
  "title": "What \u201cinvestment\u201d actually means",
- "duration": 150.03333333333148,
+ "duration": 150.2666666666657,
  "cues": [
   {
-   "start": 6.166666666666658,
-   "end": 11.75700680272108,
+   "start": 6.333333333333329,
+   "end": 11.92367346938775,
    "text": "Start with the simplest picture there is. A factory. Nell's factory.",
    "voice": "n"
   },
   {
-   "start": 12.199999999999985,
-   "end": 18.614557823129235,
+   "start": 12.333333333333321,
+   "end": 18.747891156462572,
    "text": "Every month, money comes in. Customers buy what she makes, and they pay her.",
    "voice": "n"
   },
   {
-   "start": 20.733333333333395,
-   "end": 27.718956916099835,
+   "start": 20.86666666666664,
+   "end": 27.85229024943308,
    "text": "Economists call that revenue. All the money coming in, before anything is taken out of it.",
    "voice": "n"
   },
   {
-   "start": 30.43333333333342,
-   "end": 39.25115646258512,
+   "start": 30.5333333333333,
+   "end": 39.351156462585,
    "text": "Every month, money also goes out. She pays for materials, for electricity, for wages, for the rent.",
    "voice": "n"
   },
   {
-   "start": 41.400000000000006,
-   "end": 45.515782312925175,
+   "start": 41.53333333333344,
+   "end": 45.64911564625861,
    "text": "cost. All the money going out to keep the place running.",
    "voice": "n"
   },
   {
-   "start": 47.99999999999997,
-   "end": 52.522131519274346,
+   "start": 48.13333333333346,
+   "end": 52.655464852607835,
    "text": "The difference between the two is what she actually keeps.",
    "voice": "n"
   },
   {
-   "start": 54.6666666666664,
-   "end": 58.82621315192717,
+   "start": 54.80000000000033,
+   "end": 58.9595464852611,
    "text": "profit. Revenue minus cost. What is left over.",
    "voice": "n"
   },
   {
-   "start": 63.03333333333294,
-   "end": 70.80072562358238,
+   "start": 63.20000000000044,
+   "end": 70.96739229024988,
    "text": "Not all costs behave the same way. The rent is the same whether she makes one chair or a thousand.",
    "voice": "n"
   },
   {
-   "start": 72.93333333333275,
-   "end": 77.65446712018083,
+   "start": 73.13333333333367,
+   "end": 77.85446712018174,
    "text": "fixed cost. A cost that does not change with how much you make.",
    "voice": "n"
   },
   {
-   "start": 79.9999999999994,
-   "end": 86.5928798185935,
+   "start": 80.2000000000003,
+   "end": 86.7928798185944,
    "text": "The wood is different. Make twice as many chairs and she buys twice as much wood.",
    "voice": "n"
   },
   {
-   "start": 88.7333333333325,
-   "end": 94.1476190476182,
+   "start": 88.93333333333338,
+   "end": 94.34761904761909,
    "text": "variable cost. A cost that rises and falls with how much you make.",
    "voice": "n"
   },
   {
-   "start": 98.76666666666567,
-   "end": 104.24902494330966,
+   "start": 98.99999999999989,
+   "end": 104.48235827664388,
    "text": "You may think investment means buying shares in a company. That is not what an economist means by it.",
    "voice": "c"
   },
   {
-   "start": 104.6666666666656,
-   "end": 112.31487528344564,
+   "start": 104.86666666666649,
+   "end": 112.51487528344653,
    "text": "It means this. You spend a large sum of money now, to build something that will produce revenue later.",
    "voice": "n"
   },
   {
-   "start": 114.43333333333196,
-   "end": 120.37664399092833,
+   "start": 114.66666666666617,
+   "end": 120.60997732426254,
    "text": "investment. Spending a large sum now to build something that earns later.",
    "voice": "n"
   },
   {
-   "start": 123.46666666666526,
-   "end": 134.44943310657456,
+   "start": 123.66666666666615,
+   "end": 134.64943310657543,
    "text": "A factory. A shop fitted out. A well drilled. A machine bought. That is investment, and that is the decision this whole film is about.",
    "voice": "n"
   },
   {
-   "start": 137.26666666666503,
-   "end": 140.60458049886458,
+   "start": 137.5333333333326,
+   "end": 140.87124716553214,
    "text": "revenue \u2212 cost = profit",
    "voice": "n"
   },
   {
-   "start": 140.73333333333164,
-   "end": 143.64167800453345,
+   "start": 140.9999999999992,
+   "end": 143.908344671201,
    "text": "fixed stays put \u00b7 variable moves",
    "voice": "n"
   },
   {
-   "start": 143.76666666666492,
-   "end": 147.80117913832024,
+   "start": 143.99999999999915,
+   "end": 148.03451247165447,
    "text": "investment = spend now, earn later",
    "voice": "n"
   }

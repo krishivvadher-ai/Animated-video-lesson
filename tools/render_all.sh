@@ -5,7 +5,7 @@
 # of memory and the kernel killed them mid-frame.
 cd /home/user/Animated-video-lesson
 Q="${Q:--r 1920,1080 --fps 30}"; DIR="${DIR:-1080p30}"; N="${N:-4}"
-LIST="${*:-$(seq -w 0 43)}"
+LIST="${*:-$(seq -w 0 49)}"
 for n in $LIST; do
   while [ "$(jobs -rp | wc -l)" -ge "$N" ]; do wait -n; done
   (

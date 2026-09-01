@@ -13,13 +13,15 @@ used in a sentence, and nothing is used before it is built.
 
 | Part | Chapters | What it teaches |
 |---|---|---|
-| **One — The Paper** | 0–21 | Avinash Dixit, *Investment and Hysteresis*, JEP 6(1), 1992, in full — including its mathematics, built up from GCSE arithmetic |
-| **Two — The Policy** | 22–32 | Bowdler & Radia, *Unconventional monetary policy: the assessment*, OxREP 28(4), 2012, in full |
-| **Three — The Argument** | 33–43 | The author's own argument, built on those two papers plus Martin & Milas (2012) |
+| **One — The Paper** | 0–27 | Avinash Dixit, *Investment and Hysteresis*, JEP 6(1), 1992, in full — including its mathematics, built up from GCSE arithmetic |
+| **Two — The Policy** | 28–38 | Bowdler & Radia, *Unconventional monetary policy: the assessment*, OxREP 28(4), 2012, in full |
+| **Three — The Argument** | 39–49 | The author's own argument, built on those two papers plus Martin & Milas (2012) |
 
 ### The mathematics
 
-Chapters 9–13 do Dixit's mathematics properly, and assume nothing beyond GCSE:
+Chapters 9–19 do Dixit's mathematics in full — the main text *and* the
+appendix, calculus included — and assume nothing beyond GCSE. Nothing is
+asserted: every rule used is built on screen first.
 
 - **9** — discounting, and why a stream that lasts for ever is worth the yearly
   amount divided by the rate.
@@ -33,8 +35,28 @@ Chapters 9–13 do Dixit's mathematics properly, and assume nothing beyond GCSE:
   2.158, turned into the multiplier 1.86, then re-run by hand for the 40 per
   cent and 2 per cent cases, and taken to both its limits.
 
-No calculus is used and no Greek letter is ever read aloud; σ is always "the
-choppiness" and ρ is always "the cost of capital".
+- **14** — what a gradient is: the steepness of a straight line, then the
+  chord of a curve collapsing onto a tangent, and the one rule the film needs,
+  that `R^x` has gradient `x R^(x−1)`.
+- **15** — the second gradient, and why a bend is worth money: for a curve
+  that bends upwards, the average of two values sits above the value of the
+  average, which is chapter five's argument drawn as geometry.
+- **16** — one small random step: `E[dR] = μR dt`, `Var[dR] = σ²R² dt`, and
+  why squaring keeps what averaging throws away — so `E[dR²] = σ²R² dt` once
+  the `dt²` term is dropped.
+- **17** — the expected change in value as a tangent term plus a bend term,
+  set equal to the ordinary return, divided by `dt`, giving the paper's
+  equation A.1: `½σ²R²V″ + μRV′ − ρV = 0`.
+- **18** — solving it: why a power survives, `R^x` factoring out to leave the
+  quadratic A.2, its two roots α and β, why α is discarded, and completing the
+  square to reach `β = ½(1 + √(1 + 8ρ ÷ σ²))`.
+- **19** — the second equation for a running project (`+R`, because it pays a
+  dividend), then value matching and smooth pasting at both triggers: four
+  conditions, four unknowns, and the paper's own admission that they have to
+  be solved numerically.
+
+No Greek letter is ever read aloud: σ is always "the choppiness" and ρ is
+always "the cost of capital".
 
 ## Deliverables
 

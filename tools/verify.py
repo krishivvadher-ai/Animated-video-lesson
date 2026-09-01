@@ -272,9 +272,9 @@ def check_silences():
     """The scripted silences must survive the mix."""
     print("\n== scripted silence check ==")
     want = {5: "the value of waiting lands",
-            17: "the path falls back and she does not close",
-            33: "Kit waits for a third shield",
-            43: "the closing beat, after 'it is a boundary'"}
+            23: "the path falls back and she does not close",
+            39: "Kit waits for a third shield",
+            49: "the closing beat, after 'it is a boundary'"}
     for n, why in want.items():
         f = list((BUILD / "media" / "videos" / f"ch{n:02d}").glob("*/*.mp4"))
         if not f:

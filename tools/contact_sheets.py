@@ -54,7 +54,7 @@ def grab(n, times):
 
 def main():
     tiles = []
-    for n in range(44):
+    for n in range(50):
         for p, t in grab(n, settled_times(n, PER_CHAPTER)):
             tiles.append((n, t, p))
     per = COLS * ROWS

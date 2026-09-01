@@ -8,118 +8,135 @@ from lib.theme import *
 
 class Chapter20(Chapter):
     CH = 20
-    TITLE = "Outside business"
+    TITLE = "When this is wrong"
     PART = "PART ONE — THE PAPER"
-    RECAP_ICONS = ["slab", "door", "signal"]
+    RECAP_ICONS = ["door", "people", "fog", "risk"]
 
     def body(self):
-        # ------------------------------------------------ the three features
-        self.heading("The same three features, elsewhere")
-        icons = VGroup(
-            VGroup(cards.icon("slab", SUNK, 2.0),
-                   St.caption("costly to reverse", SUNK, T_SMALL, width=14)),
-            VGroup(cards.icon("fog", WAIT, 2.0),
-                   St.caption("made under uncertainty", WAIT, T_SMALL, width=14)),
-            VGroup(cards.icon("clock", MONEY, 2.0),
-                   St.caption("the timing is yours", MONEY, T_SMALL, width=14)),
-        )
-        for g in icons:
-            g.arrange(DOWN, buff=0.4)
-        icons.arrange(RIGHT, buff=1.7)
-        St.place(icons, St.FULL, ay=0.35)
-        with self.narrate("The paper closes with an observation that reaches well "
-                          "outside business. Many personal, social and political "
-                          "decisions have exactly the same three features. Costly to "
-                          "reverse. Made under uncertainty. And the timing is yours to "
-                          "choose."):
-            self.play(S.lag_map(FadeIn, icons, shift=UP * 0.3, lag=0.25),
-                      run_time=2.0)
-        with self.narrate("So the same inertia applies to them too."):
-            self.foot("so the same inertia applies", CHALK)
+        with self.narrate("Being honest about the limits is part of the teaching, and "
+                          "it also stops you over-applying the idea. The paper sets out "
+                          "four qualifications.", hold=True):
+            pass
+
+        # ---------------------------------------------------- 1 the race
+        self.heading("One — the race")
+        nell = stick.nell(scale=0.95)
+        St.place(nell, St.STAGE, ax=-0.7, ay=-0.2)
+        d = W.door(MONEY, 1.3, 2.6, "one site, one licence")
+        St.place(d, St.STAGE, ax=0.35, ay=-0.05)
+        with self.narrate("Everything so far assumed the chance was Nell's alone. "
+                          "Suppose it is not. Suppose there is one site, or one licence, "
+                          "and several firms want it."):
+            self.play(FadeIn(nell), Create(d), run_time=1.2)
+
+        rival = stick.StickFigure("a rival", CHALK, scale=0.95)
+        rival.move_to(St.SIDE.point(0.7, -0.2))
+        with self.narrate("Nell hesitates, sensibly, to see how things develop."):
+            self.play(nell.pace(1, run_time=1.8))
+            self.play(nell.mood("thinking"), run_time=0.4)
+        with self.narrate("And somebody else walks through the door."):
+            self.play(FadeIn(rival), run_time=0.5)
+            self.play(rival.walk_to(d.get_center() + RIGHT * 0.2, run_time=2.0))
+            self.play(FadeOut(rival), nell.mood("surprised"), run_time=0.6)
+        with self.narrate("When the chance can be snatched, waiting is not possible. "
+                          "And when waiting is not possible, the textbook's trigger is "
+                          "valid again. This is a real limit, and Part Three comes back "
+                          "to it."):
+            self.foot("waiting impossible → the textbook is right", COST)
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ the two flats
-        self.heading("An example told against economists")
-        man = stick.StickFigure("an economist", CHALK, hat="specs", prop="book",
-                                scale=0.9)
-        St.place(man, St.STAGE, ax=-0.55, ay=-0.2)
-        her = stick.StickFigure("his partner", CHALK, hair=True, scale=0.9)
-        St.place(her, St.SIDE, ax=0.0, ay=-0.2)
-        f1 = W.building(MUTED, 0.42, "house")
-        f2 = W.building(MUTED, 0.42, "house")
-        flats = VGroup(f1, f2).arrange(RIGHT, buff=2.6)
-        St.place(flats, St.FULL, ay=0.72)
-        fl = Text("two rent-controlled flats", font=FONT, font_size=T_SMALL, color=MUTED)
-        fl.next_to(flats, DOWN, buff=0.25)
-        with self.narrate("A man and his partner, in New York, each with a "
-                          "rent-controlled flat. Their relationship reaches the point "
-                          "where she suggests they give one of them up."):
-            self.play(FadeIn(man), FadeIn(her), run_time=0.9)
-            self.play(Create(flats), FadeIn(fl), run_time=1.0)
-
-        b1 = her.say("Let's give one up.", direction=UP, width=3.0)
-        with self.narrate("Let us give one of them up.", v="c"):
-            self.play(FadeIn(b1), run_time=0.6)
-            self.play(FadeOut(b1), run_time=0.35)
-        b2 = man.say("Given a positive\nprobability…", direction=UP, width=3.2)
-        with self.narrate("And he explains to her, at length, the importance of keeping "
-                          "options alive. It is unlikely they would split up, he says, "
-                          "but given a positive probability, and so on."):
-            self.play(FadeIn(b2), man.mood("pleased"), run_time=0.8)
-        self.beat()
-        with self.narrate("She took it very badly, and ended the relationship."):
-            self.play(FadeOut(b2), her.mood("worried"), run_time=0.6)
-            self.play(her.walk_to(St.SIDE.point(1.6, -0.2), run_time=1.8))
-            self.play(FadeOut(her), man.mood("surprised"), run_time=0.6)
+        # ---------------------------------------------------- 2 first mover
+        self.heading("Two — moving first can pay")
+        pull = VGroup(
+            Arrow(LEFT * 3.4, LEFT * 0.6, color=WAIT, buff=0, stroke_width=6),
+            Arrow(RIGHT * 3.4, RIGHT * 0.6, color=MONEY, buff=0, stroke_width=6))
+        St.place(pull, St.FULL, ay=0.35)
+        l1 = Text("information says: wait", font=FONT, font_size=T_BODY, color=WAIT)
+        l1.next_to(pull[0], DOWN, buff=0.4)
+        l2 = Text("being first says: go now", font=FONT, font_size=T_BODY, color=MONEY)
+        l2.next_to(pull[1], DOWN, buff=0.4)
+        with self.narrate("Sometimes moving first has a value of its own — you take the "
+                          "best position, and everyone else has to work around you. "
+                          "That pulls the other way."):
+            self.play(GrowArrow(pull[0]), FadeIn(l1), run_time=0.9)
+            self.play(GrowArrow(pull[1]), FadeIn(l2), run_time=0.9)
+        with self.narrate("The right answer balances the two against each other."):
+            self.foot("the right answer balances the two", CHALK)
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ the resolution
-        self.heading("And the resolution is the instructive part")
-        wrong = St.caption("not a decision under uncertainty —\na signalling game",
-                           COST, T_SUB, width=34)
-        St.place(wrong, St.FULL, ay=0.85)
-        with self.narrate("Financial economists who hear that story say it proves how "
-                          "right he was. The paper says something better. He had "
-                          "misread the situation entirely. It was not a decision "
-                          "problem under uncertainty at all."):
-            self.play(FadeIn(wrong), run_time=1.1)
+        # ---------------------------------------------------- 3 watching
+        self.heading("Three — firms watching each other")
+        crowd = stick.crowd(6, spacing=1.6, scale=0.55)
+        St.place(crowd, St.FULL, ay=-0.2)
+        with self.narrate("Six firms, each looking at the same opportunity, each with "
+                          "slightly different information about it."):
+            self.play(S.lag_map(FadeIn, crowd, lag=0.15), run_time=1.4)
+        with self.narrate("Each one looks around, sees that nobody else has moved, and "
+                          "concludes the others must have found something discouraging. "
+                          "So each revises its own view downwards."):
+            self.play(*[f.mood("thinking") for f in crowd], run_time=0.7)
+            self.play(*[f.mood("worried") for f in crowd], run_time=0.7)
+        with self.narrate("And so everybody waits. Not because the opportunity is bad, "
+                          "but because everybody is reading everybody else's silence."):
+            self.foot("everybody waits", MUTED)
         self.beat()
-        self.define("signalling", "Doing something costly, because the cost is what "
-                    "makes it believable.", "signal", MONEY, at=DOWN * 0.9, hold=5.0)
+        with self.narrate("Then one of them moves."):
+            self.play(crowd[2].animate.shift(UP * 1.1), crowd[2].mood("pleased"),
+                      run_time=0.9)
+        with self.narrate("And now everybody revises upwards — because that firm must "
+                          "have seen something good. Investment arrives in a sudden "
+                          "bunch. Which is why it comes in waves."):
+            self.play(*[f.mood("pleased") for f in crowd], run_time=0.6)
+            self.play(LaggedStart(*[f.animate.shift(UP * 1.1)
+                                    for i, f in enumerate(crowd) if i != 2],
+                                  lag_ratio=0.12), run_time=1.6)
+        self.beat()
+        self.clear_stage()
 
-        expl = St.points(["she was unsure how much he valued her",
-                          "the costly, irreversible step WAS the message",
-                          "he sat on the fence, and fell off"],
-                         colour=CHALK, dot_colour=MONEY, size=T_BODY, width=34)
-        St.place(expl, St.FULL, ay=-0.3)
-        says = ["She was unsure how much he valued her.",
-                "And it was precisely his willingness to take the costly, irreversible "
-                "step of giving up the flat that would have carried the message. "
-                "Anyone can say it. Only someone who means it will pay for it.",
-                "He tried to sit on the fence, and fell off it."]
-        for i, row in enumerate(expl):
+        # ---------------------------------------------------- 4 bad news
+        self.heading("Four — the bad news principle")
+        q = cards.quote_card(
+            "of possible future outcomes, only the unfavorable ones have a bearing on "
+            "the current propensity to undertake a given project",
+            "Dixit (1992), p. 118, quoting Bernanke (1983)", TRIGGER, width=42)
+        St.place(q, St.FULL, ay=0.72, fill=False)
+        with self.narrate("This one comes with a quotation, because it is the single "
+                          "idea Part Three leans on hardest. Dixit is quoting Bernanke."):
+            self.play(FadeIn(q), run_time=1.2)
+        self.beat()
+        plain = St.caption("when you can wait, the bad futures decide", CHALK, T_SUB,
+                           width=44)
+        St.place(plain, St.FULL, ay=-0.72)
+        with self.narrate("In plain words. When you can wait, it is mainly the bad "
+                          "possible futures that decide whether you build now."):
+            self.play(FadeIn(plain), run_time=0.9)
+        self.beat()
+        with self.narrate("Because the good futures will still be there next year. You "
+                          "have not missed them. Waiting only ever protects you from "
+                          "the bad ones."):
+            self.foot("waiting only guards against bad news", MONEY)
+        self.beat()
+
+        self.play(FadeOut(q), FadeOut(plain), run_time=0.6)
+        qual = St.points(["the total chance still matters",
+                          "the shape of the good outcomes does not"],
+                         colour=CHALK, dot_colour=TRIGGER, size=T_SUB, width=34)
+        St.place(qual, St.FULL, ay=0.25)
+        says = ["Carry the qualification the paper adds in the very next sentence, "
+                "because dropping it changes the meaning. The total chance of ending up "
+                "above the trigger does still matter.",
+                "What does not matter is the shape of the good outcomes beyond it. "
+                "Those are not the same thing, and Part Three needs the difference."]
+        for i, row in enumerate(qual):
             with self.narrate(says[i]):
-                self.play(FadeIn(row), run_time=0.8)
-        self.beat()
-        self.clear_stage()
-
-        # ------------------------------------------------ the point
-        self.drop_heading()
-        point = St.caption("sometimes the irreversibility\nIS the message", CHALK,
-                           T_HEAD, width=30)
-        St.place(point, St.WIDE, ay=0.15)
-        with self.narrate("And that gives the chapter a real point rather than a joke. "
-                          "It shows a limit of the whole framework. Option value is not "
-                          "always the right lens. Sometimes the irreversibility is the "
-                          "message."):
-            self.play(Write(point), run_time=2.4)
-            self.play(S.flash_around(point, TRIGGER, run_time=2.0))
+                self.play(FadeIn(row), run_time=0.9)
         self.beat()
 
         self.close_chapter([
-            "the same three features appear elsewhere",
-            "keeping the option open can be the wrong move",
-            "signalling: the cost is the message",
+            "a race → waiting is impossible, textbook right",
+            "moving first can pull the other way",
+            "inaction reads as bad news → bunching",
+            "the bad news principle, with its qualification",
         ])

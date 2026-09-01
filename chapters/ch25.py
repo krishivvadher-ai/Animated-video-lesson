@@ -3,188 +3,135 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from manim import *
 from lib.base import Chapter
 from lib import stick, cards, widgets as W, style as S, stage as St
-from lib.balance import TAccount
+from lib.scale import MasterScale
 from lib.theme import *
 
 
 class Chapter25(Chapter):
     CH = 25
-    TITLE = "Three sets of books"
-    PART = "PART TWO — THE POLICY"
-    RECAP_ICONS = ["slab", "bank", "people", "flow"]
+    TITLE = "What a whole industry looks like"
+    PART = "PART ONE — THE PAPER"
+    RECAP_ICONS = ["people", "scale", "clock", "risk"]
 
     def body(self):
-        self.heading("Follow the money through the books")
-        kit = stick.kit(scale=0.85)
-        St.place(kit, St.STAGE, ax=-0.8, ay=-0.5)
-        with self.narrate("The policy is easy to describe and easy to get wrong. So we "
-                          "are going to follow the money through three sets of books, "
-                          "one at a time.", v="c"):
-            self.play(FadeIn(kit), run_time=0.7)
+        # ------------------------------------------------ entry and exit
+        self.heading("Many firms, between two lines")
+        sc = MasterScale(x=-5.4, y=-0.35, height=4.4)
+        sc.title.become(Text("The price in\nthe market", font=FONT, font_size=T_SMALL,
+                             color=MUTED, line_spacing=0.9).move_to(sc.title))
+        self.play(Create(sc.axis), FadeIn(sc.arrow_head), FadeIn(sc.title), run_time=1.0)
+        h = sc.add_level("H", 1.62, "H — firms enter", TRIGGER, width=3.0, sw=5)
+        l = sc.add_level("L", 0.72, "L — firms leave", TRIGGER, width=3.0, sw=5)
+        m = sc.add_level("M", 1.10, "average cost", COST, width=3.0, dashed=True, sw=3)
 
-        self.define("a balance sheet", "What somebody owns on one side, what they owe "
-                    "on the other.", "slab", CHALK, at=UP * 0.3, hold=4.4)
-        self.clear_stage()
+        crowd = stick.crowd(6, spacing=1.5, scale=0.45)
+        St.place(crowd, St.SIDE, ay=-0.62)
+        with self.narrate("Six similar firms, all facing the same swinging demand."):
+            self.play(S.lag_map(FadeIn, crowd, lag=0.15), run_time=1.2)
 
-        # ------------------------------------------------ who actually sells
-        self.heading("Who actually sells the gilts")
-        who = VGroup(
-            VGroup(cards.icon("people", MONEY, 1.7),
-                   Text("pension funds", font=FONT, font_size=T_SMALL, color=MONEY)
-                   ).arrange(DOWN, buff=0.22),
-            VGroup(cards.icon("shield", MONEY, 1.7),
-                   Text("insurers", font=FONT, font_size=T_SMALL, color=MONEY)
-                   ).arrange(DOWN, buff=0.22),
-        ).arrange(RIGHT, buff=1.6)
-        St.place(who, St.STAGE, ay=0.25)
-        crossed = VGroup(cards.icon("bank", MUTED, 1.7),
-                         Text("not banks", font=FONT, font_size=T_SMALL, color=MUTED)
-                         ).arrange(DOWN, buff=0.22)
-        St.place(crossed, St.SIDE, ay=0.25)
-        with self.narrate("The people who actually sell the gilts are usually not "
-                          "banks. They are pension funds and insurance companies — the "
-                          "non-bank private sector."):
-            self.play(FadeIn(who), run_time=1.0)
-            self.play(FadeIn(crossed), run_time=0.6)
-            x = Cross(crossed[0], stroke_color=COST, stroke_width=6).scale(0.7)
-            self.play(Create(x), run_time=0.6)
+        extra = stick.crowd(2, spacing=1.5, scale=0.45)
+        extra.next_to(crowd, UP, buff=0.5)
+        with self.narrate("When the price rises to the entry line, new firms come in. "
+                          "More supply, and the price stops rising. So it never gets "
+                          "above that line."):
+            self.play(Create(h[0]), FadeIn(h[1]), run_time=1.0)
+            self.play(FadeIn(extra, shift=DOWN * 0.4), run_time=1.0)
+        with self.narrate("And when the price falls to the exit line, firms leave. Less "
+                          "supply, and the price stops falling. So it never gets below "
+                          "that one either."):
+            self.play(Create(l[0]), FadeIn(l[1]), run_time=1.0)
+            self.play(FadeOut(extra, shift=UP * 0.4), run_time=1.0)
+        self.beat()
+        self.play(FadeOut(crowd), run_time=0.4)
+
+        # ------------------------------------------------ why H is above cost
+        self.play(Create(m[0]), FadeIn(m[1]), run_time=0.8)
+        self.side(["cap the price at average cost",
+                   "never better than normal",
+                   "so on average, a loss",
+                   "nobody would ever enter"],
+                  colour=CHALK, dot_colour=TRIGGER, width=18,
+                  spoken=["Why must the entry line sit above average cost? Suppose it "
+                          "did not — suppose entry capped the price exactly at average "
+                          "cost.",
+                          "Then firms could never do better than normal, and bad spells "
+                          "would still push them below it.",
+                          "So on average they would lose. And nobody would enter at all.",
+                          "Which means the entry line has to leave room for the good "
+                          "spells to pay for the bad ones. The same argument upside "
+                          "down holds the exit line below day-to-day cost."])
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ the three T-accounts
-        self.heading("Three sets of books, one entry at a time")
-        seller = TAccount("the seller", width=3.5, height=2.2, colour=MONEY)
-        cb = TAccount("the central bank", width=3.5, height=2.2, colour=SRC_BR)
-        bank = TAccount("the bank in between", width=3.5, height=2.2, colour=WAIT)
-        row = VGroup(seller, cb, bank).arrange(RIGHT, buff=0.55)
-        St.place(row, St.FULL, ay=-0.1)
-        self.play(S.lag_map(FadeIn, VGroup(seller, cb, bank), lag_ratio=0.18),
-                  run_time=1.4)
-
-        e1 = seller.entry("gilts", "L", "−")
-        with self.narrate("The seller hands over its gilts. So its holdings of gilts go "
-                          "down."):
-            self.play(FadeIn(e1, shift=LEFT * 0.3), run_time=0.8)
-        e2 = seller.entry("deposits", "L", "+")
-        with self.narrate("And it gets money instead — not printed notes, but a number "
-                          "credited to its bank account. So its deposits go up."):
-            self.play(FadeIn(e2, shift=RIGHT * 0.3), run_time=0.8)
+        # ------------------------------------------------ the striking result
+        self.heading("The striking part")
+        same = St.caption("the market's two lines are the\nsingle firm's two lines",
+                          CHALK, T_SUB, width=32)
+        St.place(same, St.FULL, ay=0.55)
+        with self.narrate("With these particular assumptions, the market's two lines "
+                          "turn out to be exactly the ones a single firm on its own "
+                          "would have chosen. So every number from chapter twenty-one "
+                          "carries straight over."):
+            self.play(FadeIn(same), run_time=1.1)
         self.beat()
-
-        e3 = cb.entry("gilts", "L", "+")
-        e4 = cb.entry("reserves", "R", "+")
-        with self.narrate("The central bank now owns the gilts. And it pays for them by "
-                          "creating reserves — money that only banks hold, at the "
-                          "central bank."):
-            self.play(FadeIn(e3, shift=LEFT * 0.3), run_time=0.7)
-            self.play(FadeIn(e4, shift=RIGHT * 0.3), run_time=0.7)
-        self.define("reserves", "Money banks hold at the central bank, and nobody "
-                    "else can.", "bank", SRC_BR, at=DOWN * 2.55, hold=4.0)
-
-        e5 = bank.entry("reserves", "L", "+")
-        e6 = bank.entry("deposits", "R", "+")
-        with self.narrate("And the bank in the middle sits between them. It has more "
-                          "reserves on one side, and it owes the seller more deposits "
-                          "on the other. Both sides of its books grow together."):
-            self.play(FadeIn(e5, shift=LEFT * 0.3), run_time=0.7)
-            self.play(FadeIn(e6, shift=RIGHT * 0.3), run_time=0.7)
-        self.beat()
-
-        matched = St.caption("every entry matched by another", TRIGGER, T_SUB, width=32)
-        St.place(matched, St.FOOT, pad=0.06)
-        with self.narrate("Look at that and notice what has not happened. Nobody has "
-                          "been given anything. Every single one of those entries is "
-                          "matched by another one."):
-            self.play(FadeIn(matched), run_time=0.8)
-            self.play(S.flash_around(matched, TRIGGER, run_time=2.0))
-        self.beat()
-        self.play(FadeOut(matched), run_time=0.4)
-        self.clear_stage()
-
-        # ------------------------------------------------ the disturbance
-        self.heading("What the seller is left holding")
-        want = W.ticket(SRC_BR, "gilts", scale=0.9)
-        got = VGroup(*[W.coin(MONEY, 0.22) for _ in range(3)]).arrange(RIGHT, buff=0.14)
-        pairing = VGroup(want, got).arrange(RIGHT, buff=2.0)
-        St.place(pairing, St.FULL, ay=0.2)
-        wl = Text("what it wanted", font=FONT, font_size=T_SMALL, color=SRC_BR)
-        wl.next_to(want, DOWN, buff=0.3)
-        gl = Text("what it now has", font=FONT, font_size=T_SMALL, color=MONEY)
-        gl.next_to(got, DOWN, buff=0.3)
-        self.add(wl, gl)
-        with self.narrate("What has happened is that the seller's portfolio has been "
-                          "disturbed. It wanted gilts, and now it is holding money. And "
-                          "that disturbance is where the whole mechanism starts."):
-            self.play(FadeIn(want), FadeIn(wl), run_time=0.8)
-            self.play(FadeTransform(want.copy(), got), FadeIn(gl), run_time=1.2)
-            self.play(S.pulse(got, MONEY))
+        with self.narrate("Carry the caveat, because it matters later. That result "
+                          "holds for identical, small, price-taking firms, under the "
+                          "paper's particular assumptions. It is not a general truth."):
+            self.foot("identical small price-takers only", MUTED)
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ price versus quantity
-        self.heading("Price of money, or quantity of it")
-        lever = cards.icon("lever", WAIT, 2.4)
-        pile = VGroup(*[W.coin(MONEY, 0.16) for _ in range(9)])
-        pile.arrange_in_grid(3, 3, buff=0.14)
-        cols = VGroup(
-            VGroup(lever, St.caption("normal policy sets\nthe price of money",
-                                     WAIT, T_SMALL, width=22)
-                   ).arrange(DOWN, buff=0.4),
-            VGroup(pile, St.caption("QE sets the quantity\ninstead",
-                                    MONEY, T_SMALL, width=22)
-                   ).arrange(DOWN, buff=0.4),
-        ).arrange(RIGHT, buff=2.4)
-        St.place(cols, St.FULL, ay=0.1)
-        with self.narrate("Ordinary monetary policy sets the price of money. One "
-                          "short-term interest rate, and everything else follows from "
-                          "what people expect that rate to do."):
-            self.play(Create(lever), run_time=0.9)
-            self.play(FadeIn(cols[0][1]), run_time=0.6)
-        with self.narrate("Quantitative easing sets the quantity instead. And it aims "
-                          "directly at longer-term rates, rather than reaching them "
-                          "through expectations."):
-            self.play(S.lag_map(GrowFromCenter, pile, lag=0.08),
-                      run_time=1.2)
-            self.play(FadeIn(cols[1][1]), run_time=0.6)
+        # ------------------------------------------------ the frozen industry
+        self.heading("An industry sitting still")
+        q = cards.quote_card(
+            "significant periods of supernormal profits with no new entry, and of "
+            "operating losses without exit", "Dixit (1992), p. 126", CHALK, width=40)
+        St.place(q, St.FULL, ay=0.72)
+        with self.narrate("So what should we expect to see? In the paper's own words: "
+                          "significant periods of supernormal profits with no new "
+                          "entry, and of operating losses without exit."):
+            self.play(FadeIn(q), run_time=1.2)
+        self.beat()
+
+        firms = stick.crowd(6, spacing=1.7, scale=0.5)
+        St.place(firms, St.FULL, ay=-0.55)
+        tags = VGroup(*[Text(t, font=FONT, font_size=T_SMALL, color=c)
+                        for t, c in [("profit", MONEY), ("profit", MONEY),
+                                     ("profit", MONEY), ("loss", COST),
+                                     ("loss", COST), ("profit", MONEY)]])
+        for tg, f in zip(tags, firms):
+            tg.next_to(f, DOWN, buff=0.22)
+        with self.narrate("An industry sitting perfectly still. Profitable firms not "
+                          "expanding. Loss-making firms not closing. And nothing wrong "
+                          "anywhere."):
+            self.play(S.lag_map(FadeIn, firms, lag=0.12), run_time=1.2)
+            self.play(S.lag_map(FadeIn, tags, lag=0.12), run_time=1.0)
+            self.foot("nothing happens — and nothing is wrong", MUTED)
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ the caveats
-        self.heading("Two careful qualifications")
-        c1 = St.caption("buying assets is not itself unusual", MUTED, T_SUB, width=32)
-        St.place(c1, St.FULL, ay=0.9)
-        c2 = St.caption("what is new: the circumstances, and the scale",
-                        CHALK, T_SUB, width=40)
-        St.place(c2, St.FULL, ay=0.25)
-        with self.narrate("And the authors are careful here. There is nothing unusual "
-                          "about a central bank buying assets at all. What distinguishes "
-                          "these operations is the circumstances they took place in, "
-                          "and their scale."):
-            self.play(FadeIn(c1), run_time=0.7)
-            self.play(FadeIn(c2), run_time=0.7)
-
-        near = VGroup(W.ticket(MUTED, "1-month bill", scale=0.85),
-                      Text("≈ money", font=FONT, font_size=T_SMALL, color=MUTED)
-                      ).arrange(DOWN, buff=0.2)
-        far = VGroup(W.ticket(TRIGGER, "10-year gilt", scale=0.85),
-                     Text("not money", font=FONT, font_size=T_SMALL, color=TRIGGER)
-                     ).arrange(DOWN, buff=0.2)
-        two = VGroup(near, far).arrange(RIGHT, buff=2.6)
-        St.place(two, St.FULL, ay=-0.55)
-        with self.narrate("And one more difference, which matters enormously in the "
-                          "next chapter. What is bought. Short-dated government debt is "
-                          "very nearly the same thing as money."):
-            self.play(FadeIn(near), run_time=0.8)
-        with self.narrate("Long-dated gilts, company debt and mortgage-backed "
-                          "securities are not. The effectiveness of the policy may "
-                          "depend on what is bought, as well as how much."):
-            self.play(FadeIn(far), run_time=0.8)
-            self.play(S.flash_around(far, TRIGGER))
+        # ------------------------------------------------ the warning
+        self.heading("The warning for anyone in charge")
+        self.side(["profits without entry ≠ monopoly",
+                   "selling below cost ≠ predation",
+                   "a price cap ⇒ less entry ⇒ HIGHER long-run price",
+                   "propping firms up draws extra entry"],
+                  colour=CHALK, dot_colour=COST, width=26, region=St.FULL,
+                  spoken=["A snapshot misleads. Firms making good profits with no new "
+                          "entrants is not proof of monopoly.",
+                          "Firms selling below day-to-day cost is not proof of "
+                          "predatory pricing.",
+                          "And there is a sting. An action aimed at those profits — an "
+                          "antitrust case, a price cap — depresses entry. And the "
+                          "reduced supply can actually raise the long-run average price.",
+                          "And a government that props firms up in bad times will be "
+                          "anticipated. That draws in extra entry, which makes the "
+                          "losses worse when the bad times actually arrive."])
         self.beat()
 
         self.close_chapter([
-            "the sellers are pension funds, not banks",
-            "three sets of books, every entry matched",
-            "QE sets a quantity, not a price",
-            "and what is bought matters, not just how much",
+            "entry caps at H · exit floors at L",
+            "H above average cost, or nobody enters",
+            "profits without entry · losses without exit",
+            "so a snapshot misleads",
         ])

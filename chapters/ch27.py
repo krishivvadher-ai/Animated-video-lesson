@@ -3,123 +3,125 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from manim import *
 from lib.base import Chapter
 from lib import stick, cards, widgets as W, style as S, stage as St
+from lib.scale import MasterScale
 from lib.theme import *
+
+RUNGS = [
+    ("investment: spend now, earn later", "slab"),
+    ("some of it is sunk — never got back", "slab"),
+    ("the future arrives a bit at a time", "fog"),
+    ("the chance usually keeps", "door"),
+    ("so waiting pays: bad half cut, good half kept", "clock"),
+    ("not about disliking risk", "people"),
+    ("waiting costs profit ⇒ a level to act at", "clock"),
+    ("the trigger sits above the textbook line", "scale"),
+    ("how far: choppiness and the cost of money", "fog"),
+    ("base case ≈ double · rough trade > 3×", "money"),
+    ("cheaper money RAISES it", "money"),
+    ("in reverse: absorb losses before quitting", "door"),
+    ("the do-nothing band ≈ 9× wider", "scale"),
+    ("up and back down — the effect stays", "magnet"),
+    ("cushion the downside ⇒ early in", "shield"),
+    ("many firms ⇒ an industry that looks frozen", "people"),
+]
 
 
 class Chapter27(Chapter):
     CH = 27
-    TITLE = "Channels two and three"
-    PART = "PART TWO — THE POLICY"
-    RECAP_ICONS = ["signal", "flow", "clock", "fog"]
+    TITLE = "Everything, in order"
+    PART = "PART ONE — THE PAPER"
+    RECAP_ICONS = ["scale", "door", "chain"]
 
     def body(self):
-        # ------------------------------------------------ channel two: saying so
-        self.heading("Channel two: saying so")
-        gov = stick.governor(scale=0.9)
-        St.place(gov, St.STAGE, ax=-0.75, ay=-0.3)
-        with self.narrate("The second channel does not need the money to go anywhere at "
-                          "all. It works purely through what the action tells "
-                          "everybody."):
-            self.play(FadeIn(gov), FadeIn(gov.label()), run_time=0.8)
+        # ------------------------------------------------ the ladder
+        self.heading("The whole ladder, in order")
+        page = 4
+        for start in range(0, len(RUNGS), page):
+            chunk = RUNGS[start:start + page]
+            rows = St.points([t for t, _ in chunk], colour=CHALK,
+                             icons=[i for _, i in chunk], dot_colour=TRIGGER,
+                             size=T_BODY, width=40, buff=0.7)
+            St.place(rows, St.FULL, ay=0.0)
+            step = Text(f"{start + 1}–{start + len(chunk)} of {len(RUNGS)}",
+                        font=FONT, font_size=T_TINY, color=MUTED)
+            step.to_corner(UL, buff=0.55)
+            self.play(FadeIn(step), run_time=0.3)
+            for k, (t, _) in enumerate(chunk):
+                with self.narrate(t, pad=0.22):
+                    self.play(FadeIn(rows[k]), run_time=0.6)
+            self.wait(0.4)
+            self.play(FadeOut(rows), FadeOut(step), run_time=0.5)
 
-        waves = VGroup(*[Arc(radius=r, start_angle=-PI / 3, angle=2 * PI / 3,
-                             color=SRC_BR, stroke_width=4 - i * 0.5)
-                         for i, r in enumerate((1.0, 1.6, 2.2, 2.8))])
-        waves.move_to(gov.get_right() + RIGHT * 0.1)
-        msg = St.caption("we are serious, and\nwe are not finished", SRC_BR,
-                         T_BODY, width=22)
-        St.place(msg, St.SIDE, ay=0.55)
-        with self.narrate("A very large purchase is a signal. It says the central bank "
-                          "is serious about getting the economy going, and that it will "
-                          "keep rates low for a long time yet."):
-            self.play(S.lag_map(Create, waves, lag=0.18), run_time=1.6)
-            self.play(FadeIn(msg), run_time=0.7)
-
-        crowd = stick.crowd(4, spacing=1.0, scale=0.42)
-        St.place(crowd, St.FULL, ay=-0.82)
-        with self.narrate("And if everybody believes that, they act on it now, before "
-                          "anything else has happened at all."):
-            self.play(FadeIn(crowd), run_time=0.8)
-            self.play(S.pulse(crowd, SRC_BR))
-        self.beat()
-
-        anchor = St.caption("expectations of inflation, held down", TRIGGER,
-                            T_SUB, width=36)
-        St.place(anchor, St.FOOT, pad=0.06)
-        with self.narrate("Which helps keep people's expectations of future inflation "
-                          "anchored. And expectations, as a later chapter will show, "
-                          "are themselves a lever."):
-            self.play(FadeIn(anchor), run_time=0.8)
+        # ------------------------------------------------ the final scale
+        self.heading("The master scale, in its final form")
+        sc = MasterScale(x=-3.0, y=-0.45, height=4.8)
+        self.play(Create(sc.axis), FadeIn(sc.arrow_head), FadeIn(sc.title), run_time=0.9)
+        for k, v, t, c, sw in [("L", 0.72, "0.72  give up", TRIGGER, 5),
+                               ("C", 1.00, "1.00  day-to-day cost", SUNK, 3),
+                               ("M", 1.10, "1.10  textbook", COST, 3),
+                               ("H", 1.62, "1.62  build", TRIGGER, 5)]:
+            g = sc.add_level(k, v, t, c, width=3.0, sw=sw)
+            self.play(Create(g[0]), FadeIn(g[1]), run_time=0.45)
+        band = sc.band(0.72, 1.62, TRIGGER, 0.14, width=3.0)
+        with self.narrate("Give up at nought point seven two. Build at one point six "
+                          "two. And in between, a wide stretch where the right thing to "
+                          "do is nothing."):
+            self.play(FadeIn(band), run_time=1.0)
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ channel three: liquidity
-        self.heading("Channel three: oiling the wheels")
-        self.define("liquidity", "How easily a thing can be sold without moving its "
-                    "price.", "flow", WAIT, hold=4.2)
-
-        market = Rectangle(width=5.0, height=2.6, color=MUTED, stroke_width=3)
-        St.place(market, St.STAGE, ax=-0.1, ay=0.15)
-        mlab = Text("the market", font=FONT, font_size=T_SMALL, color=MUTED)
-        mlab.next_to(market, UP, buff=0.2)
-        ice = W.fog(width=4.8, height=2.4, n=8, color=WAIT, opacity=0.5)
-        ice.move_to(market.get_center())
-        buyers = VGroup(*[stick.StickFigure("", CHALK, scale=0.4) for _ in range(3)])
-        buyers.arrange(RIGHT, buff=0.9).move_to(market.get_center())
-        with self.narrate("When markets seize up, you may not be able to find a buyer "
-                          "at all. So investors demand a higher return to compensate "
-                          "them for that risk."):
-            self.play(Create(market), FadeIn(mlab), run_time=0.8)
-            self.play(FadeIn(ice), run_time=1.0)
-
-        prem = W.Bar(1.9, color=COST, width=0.8)
-        St.place(prem, St.SIDE, ay=-0.25)
-        pl = Text("extra return\ndemanded", font=FONT, font_size=T_TINY, color=COST,
-                  line_spacing=0.9)
-        pl.next_to(prem, DOWN, buff=0.2)
-        St.collapse_bars(VGroup(prem))
-        self.play(St.grow_bars(VGroup(prem)), FadeIn(pl))
-
-        with self.narrate("A central bank buying on a very large scale is, among other "
-                          "things, a buyer. It puts trading back into the market, and "
-                          "that premium comes down."):
-            self.play(FadeOut(ice), FadeIn(buyers), run_time=1.2)
-            self.play(prem.rect.animate.stretch_to_fit_height(0.55).move_to(
-                prem.rect.get_bottom() + UP * 0.275), run_time=1.2)
+        # ------------------------------------------------ what it does not claim
+        self.heading("What the paper does NOT claim")
+        self.side(["not “firms are irrational”",
+                   "not “waiting is always right”",
+                   "not where a rival can snatch it"],
+                  colour=CHALK, dot_colour=COST, width=26, region=St.FULL,
+                  spoken=["It does not say firms are irrational. It says the opposite.",
+                          "It does not say waiting is always right.",
+                          "And it does not apply where a rival can snatch the "
+                          "opportunity away from you."])
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ the caveats
-        self.heading("And the authors' own hedges")
-        hedges = [("clock", "probably only while the buying goes on", MUTED),
-                  ("flow", "gilt markets are very liquid anyway", MUTED),
-                  ("fog", "so this one may be small", COST)]
-        cols = VGroup()
-        for kind, text, col in hedges:
-            cols.add(VGroup(cards.icon(kind, col, 1.5),
-                            St.caption(text, col, T_SMALL, width=18)
-                            ).arrange(DOWN, buff=0.3))
-        cols.arrange(RIGHT, buff=1.1)
-        St.place(cols, St.FULL, ay=0.15)
-        says = ["But the authors are careful about this one. The effect probably lasts "
-                "only while the purchases are going on.",
-                "And in gilt markets, which are normally very liquid anyway,",
-                "it may be small."]
-        for i, c in enumerate(cols):
-            with self.narrate(says[i]):
-                self.play(FadeIn(c, shift=UP * 0.25), run_time=0.8)
+        # ------------------------------------------------ back to chapter 0
+        self.heading("Back to the two we opened with")
+        nell = stick.nell(scale=1.0)
+        St.place(nell, St.STAGE, ax=-0.7, ay=-0.2)
+        self.play(FadeIn(nell), run_time=0.6)
+        f = St.caption("closing is final — staying keeps\nthe good years possible",
+                       CHALK, T_BODY, width=26)
+        St.place(f, St.SIDE, ay=0.5)
+        with self.narrate("The farmer keeps going because closing is final. Staying "
+                          "open keeps the good years possible, and that is worth more "
+                          "to him than the losses are costing him."):
+            self.play(FadeIn(f), run_time=1.0)
         self.beat()
+        n = St.caption("building is final too — this year\nis not yet good enough",
+                       CHALK, T_BODY, width=26)
+        St.place(n, St.SIDE, ay=-0.3)
+        with self.narrate("And I do not build, because building is final too. Waiting "
+                          "another year is worth something, and this year's numbers are "
+                          "not yet good enough to pay for it."):
+            self.play(FadeIn(n), nell.mood("pleased"), run_time=1.0)
+        self.beat()
+        self.clear_stage()
 
-        disp = St.caption("how big, and for how long — disputed", MUTED, T_SUB, width=36)
-        St.place(disp, St.FOOT, pad=0.06)
-        with self.narrate("There is also disagreement about how big those effects were "
-                          "and how long they lasted. And the effects on wider classes "
-                          "of assets are less marked than on company bonds."):
-            self.play(FadeIn(disp), run_time=0.8)
+        # ------------------------------------------------ the hook
+        self.drop_heading()
+        hook = St.caption("a government spent billions\nassuming none of this", CHALK, T_HEAD, width=30)
+        St.place(hook, St.WIDE, ay=0.2)
+        with self.narrate("One more thing before we stop. A government somewhere spent "
+                          "hundreds of billions of pounds on a policy that assumed none "
+                          "of this was true."):
+            self.play(Write(hook), run_time=2.6)
         self.beat()
+        nxt = Text("Part Two", font=FONT, font_size=T_SUB, color=MUTED)
+        St.place(nxt, St.FOOT, pad=0.06)
+        self.play(FadeIn(nxt), run_time=0.7)
+        self.wait(1.4)
 
         self.close_chapter([
-            "channel two works purely through the signal",
-            "channel three puts trading back in a frozen market",
-            "and the authors hedge channel three hard",
+            "the whole ladder, in order",
+            "not irrational · not always right",
+            "next: a policy that assumed none of it",
         ])

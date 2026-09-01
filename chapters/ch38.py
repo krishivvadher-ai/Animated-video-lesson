@@ -3,98 +3,114 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from manim import *
 from lib.base import Chapter
 from lib import stick, cards, widgets as W, style as S, stage as St
+from lib.chain import Chain
 from lib.theme import *
 
 
 class Chapter38(Chapter):
     CH = 38
-    TITLE = "The concession that hurts most"
-    PART = "PART THREE — THE ARGUMENT"
-    RECAP_ICONS = ["shield", "risk", "people", "scale"]
+    TITLE = "The chain"
+    PART = "PART TWO — THE POLICY"
+    RECAP_ICONS = ["chain", "flow", "door", "people"]
 
     def body(self):
-        kit = stick.kit(scale=0.85)
-        St.place(kit, St.STAGE, ax=-0.7, ay=-0.4)
-        with self.narrate("This chapter exists because Kit's own source damages him, "
-                          "and that is what intellectual honesty looks like.", v="c"):
-            self.heading("A concession that costs him")
-            self.play(FadeIn(kit), run_time=0.7)
-            self.play(kit.mood("worried"), run_time=0.4)
-        self.play(FadeOut(kit), run_time=0.4)
+        # ------------------------------------------------ the authors
+        self.heading("The two people who wrote it down")
+        pair = VGroup(stick.StickFigure("Bowdler", SRC_BR, scale=0.8),
+                      stick.StickFigure("Radia", SRC_BR, scale=0.8)
+                      ).arrange(RIGHT, buff=2.2)
+        St.place(pair, St.STAGE, ay=-0.3)
+        with self.narrate("Two economists, writing in twenty-twelve, set out how the "
+                          "policy is supposed to work. Christopher Bowdler and Amar "
+                          "Radia."):
+            self.play(FadeIn(pair[0]), FadeIn(pair[0].label()), run_time=0.7)
+            self.play(FadeIn(pair[1]), FadeIn(pair[1].label()), run_time=0.7)
 
-        # ------------------------------------------------ the Japan replay
-        self.heading("The cushioned downside, again")
-        kenji = stick.kenji(scale=0.85)
-        St.place(kenji, St.STAGE, ax=-0.75, ay=-0.35)
-        cush = W.shield(SUNK, "the downside cushioned", scale=1.0)
-        St.place(cush, St.STAGE, ax=0.5, ay=0.1)
-        with self.narrate("Replay the two countries. Japanese firms invested boldly and "
-                          "hung on through losses, because their downside was "
-                          "cushioned."):
-            self.play(FadeIn(kenji), FadeIn(kenji.label()), run_time=0.8)
-            self.play(FadeIn(cush), run_time=0.9)
+        tag = cards.source_tag("their colour, from here on", SRC_BR)
+        St.place(tag, St.SIDE, ay=0.3)
+        with self.narrate("They are careful, serious people, and nothing in this film "
+                          "is an attack on them. Their colour, from here on, is red."):
+            self.play(FadeIn(tag), run_time=0.8)
+            self.play(S.flash_around(tag, SRC_BR))
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ which half?
-        self.heading("So which half does the policy work on?")
-        curve = VMobject(color=WAIT, stroke_width=4)
-        pts = [np.array([x, 1.7 * np.exp(-x * x / 1.8) - 1.4, 0])
-               for x in np.linspace(-3.2, 3.2, 44)]
-        curve.set_points_smoothly(pts)
-        St.place(curve, St.FULL, ay=0.35)
-        floor = Line(curve.get_left(), curve.get_right(), color=MUTED, stroke_width=2)
-        floor.move_to(curve.get_bottom())
-        mid = DashedLine(curve.get_top() + UP * 0.15, floor.get_center(),
-                         color=MUTED, stroke_width=2)
-        mid.move_to([curve.get_center()[0], mid.get_center()[1], 0])
-        self.play(Create(curve), Create(floor), run_time=1.4)
-        self.play(Create(mid), run_time=0.6)
-        lo = Text("bad half", font=FONT, font_size=T_SMALL, color=COST)
-        lo.next_to(floor.get_left(), UP, buff=0.25).shift(RIGHT * 1.1)
-        hi = Text("good half", font=FONT, font_size=T_SMALL, color=MONEY)
-        hi.next_to(floor.get_right(), UP, buff=0.25).shift(LEFT * 1.1)
-        self.play(FadeIn(lo), FadeIn(hi), run_time=0.7)
+        # ------------------------------------------------ the chain
+        self.heading("They set it out as a chain")
+        chain = Chain(y=0.0, width=13.0)
+        St.place(chain, St.FULL, ay=0.25)
+        with self.narrate("And the chain is the picture Part Two is built on, exactly "
+                          "as the vertical scale was Part One's."):
+            self.play(S.lag_map(FadeIn, chain.boxes, shift=UP * 0.2, lag=0.14),
+                      run_time=2.2)
+            self.play(S.lag_map(Create, chain.arrows, lag=0.1), run_time=1.2)
 
-        with self.narrate("Which half of that spread does a policy that props up prices "
-                          "and signals that the authorities will act actually work on?"):
-            self.play(S.pulse(curve, TRIGGER))
+        why = St.caption("each link can be examined on its own", CHALK, T_SUB, width=38)
+        St.place(why, St.FOOT, pad=0.06)
+        with self.narrate("Why a chain? Because it is honest. Each link can be examined "
+                          "on its own."):
+            self.play(FadeIn(why), run_time=0.8)
 
-        good = Rectangle(width=curve.width / 2, height=curve.height + 0.2,
-                         color=MONEY, stroke_width=4, fill_color=MONEY,
-                         fill_opacity=0.16)
-        good.align_to(mid, LEFT).align_to(floor, DOWN)
-        with self.narrate("This half. Which is exactly the right half for keeping a "
-                          "struggling firm from closing."):
-            self.play(FadeIn(good), run_time=1.0)
-            self.play(S.flash_around(good, MONEY, run_time=2.0))
+        with self.narrate("And if any single link fails, the whole thing stops there."):
+            self.play(chain.highlight(3, COST), run_time=0.6)
+            brk = Cross(chain.link(3)[0], stroke_color=COST, stroke_width=6).scale(0.5)
+            self.play(Create(brk), run_time=0.6)
+            self.play(*[chain.boxes[i][0].animate.set_stroke(MUTED, width=2)
+                        for i in (4, 5)], run_time=0.9)
         self.beat()
-        self.clear_stage()
+        self.play(FadeOut(brk), chain.highlight(3, SRC_BR), run_time=0.6)
+        self.play(*[chain.boxes[i][0].animate.set_stroke(SRC_BR, width=3)
+                    for i in (4, 5)], FadeOut(why), run_time=0.6)
 
-        # ------------------------------------------------ the cost to him
-        self.heading("And that hands the policy a mechanism")
-        cost = St.caption("a mechanism for the thing he meant\nto explain another way",
-                          COST, T_SUB, width=36)
-        St.place(cost, St.FULL, ay=0.4)
-        with self.narrate("A policy that props up the upside is aimed at exactly the "
-                          "right half of the distribution for keeping firms alive. "
-                          "Which hands the policy a mechanism for the very thing he was "
-                          "going to explain another way."):
-            self.play(FadeIn(cost), run_time=1.2)
-            self.play(S.flash_around(cost, COST, run_time=2.0))
+        # ------------------------------------------------ two legs
+        self.heading("The authors split it into two legs")
+        b1 = Brace(VGroup(*chain.boxes[0:3]), DOWN, color=WAIT)
+        t1 = Text("leg one", font=FONT, font_size=T_BODY, color=WAIT)
+        t1.next_to(b1, DOWN, buff=0.16)
+        with self.narrate("The authors themselves split the chain into two legs. From "
+                          "the purchases to the price of assets."):
+            self.play(GrowFromCenter(b1), FadeIn(t1), run_time=1.0)
+        b2 = Brace(VGroup(*chain.boxes[3:6]), DOWN, color=TRIGGER)
+        t2 = Text("leg two", font=FONT, font_size=T_BODY, color=TRIGGER)
+        t2.next_to(b2, DOWN, buff=0.16)
+        with self.narrate("And from the price of assets to what anybody actually "
+                          "spends."):
+            self.play(GrowFromCenter(b2), FadeIn(t2), run_time=1.0)
         self.beat()
 
-        why = St.caption("because it is what his own source says", SRC_KIT,
-                         T_SUB, width=40)
-        St.place(why, St.FULL, ay=-0.5)
-        with self.narrate("Why include something that damages you? Because it is what "
-                          "his own source says. The discomfort is the point.", v="c"):
-            self.play(FadeIn(why), run_time=1.0)
+        # ------------------------------------------------ Kit's disclaimer
+        kit = stick.kit(scale=0.7)
+        St.place(kit, St.FOOT, ax=-0.85, ay=0.0, pad=0.02, strict=False)
+        with self.narrate("And Kit wants to say this out loud, now, before anything "
+                          "else. He is only ever disputing the second leg. Not the "
+                          "first.", v="c"):
+            self.play(FadeIn(kit), run_time=0.6)
+            self.play(*[chain.boxes[i][0].animate.set_stroke(MUTED, width=2)
+                        for i in range(3)], run_time=0.9)
+        with self.narrate("The first leg is the part everybody argues about, and he is "
+                          "not arguing about it.", v="c"):
+            self.play(S.flash_around(VGroup(*chain.boxes[3:6]), TRIGGER,
+                                     run_time=2.0))
+        self.beat()
+        self.play(FadeOut(b1), FadeOut(t1), FadeOut(b2), FadeOut(t2), FadeOut(kit),
+                  run_time=0.6)
+
+        # ------------------------------------------------ link five
+        self.heading("And one link inside it")
+        with self.narrate("And within that second leg, one link is going to matter more "
+                          "than all the others."):
+            self.play(*[chain.boxes[i][0].animate.set_stroke(MUTED, width=2)
+                        for i in (3, 5)], run_time=0.8)
+        with self.narrate("Link five. The firm decides to build. Keep your eye on it "
+                          "for the rest of the film."):
+            self.play(chain.highlight(4, SRC_KIT), run_time=0.7)
+            self.play(chain.link(4).animate.scale(1.22), run_time=0.9)
+            self.play(S.flash_around(chain.link(4), SRC_KIT, run_time=2.0))
         self.beat()
 
         self.close_chapter([
-            "a cushioned downside keeps firms invested",
-            "the policy props up the good half",
-            "which is the right half for keeping firms alive",
-            "so his own source hands the policy a mechanism",
+            "Bowdler and Radia set the policy out as a chain",
+            "leg one: purchases → the price of assets",
+            "leg two: prices → what anybody spends",
+            "and link five is where a firm decides",
         ])

@@ -8,105 +8,192 @@ from lib.theme import *
 
 class Chapter37(Chapter):
     CH = 37
-    TITLE = "Two different kinds of fear"
-    PART = "PART THREE — THE ARGUMENT"
-    RECAP_ICONS = ["fog", "risk", "money", "people"]
+    TITLE = "The other tools in the drawer"
+    PART = "PART TWO — THE POLICY"
+    RECAP_ICONS = ["signal", "bank", "door", "money"]
 
     def body(self):
-        # ------------------------------------------------ replay the principle
-        self.heading("What decides whether she builds")
-        dist = VMobject(color=WAIT, stroke_width=4)
-        pts = [np.array([x, 1.5 * np.exp(-x * x / 1.6) - 1.2, 0])
-               for x in np.linspace(-3.0, 3.0, 40)]
-        dist.set_points_smoothly(pts)
-        St.place(dist, St.STAGE, ay=0.2)
-        bad = Polygon(*[p for p in pts if p[0] <= 0.0],
-                      np.array([0.0, -1.2, 0]), np.array([-3.0, -1.2, 0]),
-                      color=COST, fill_color=COST, fill_opacity=0.28, stroke_width=0)
-        bad.move_to(dist.get_center() + LEFT * dist.width / 4 + DOWN * 0.0)
-        with self.narrate("Replay the bad news principle. When you can wait, it is "
-                          "mainly the bad possible outcomes that decide whether you "
-                          "build now."):
-            self.play(Create(dist), run_time=1.4)
-            self.play(FadeIn(bad), run_time=0.9)
-            self.play(S.flash_around(bad, COST))
-        self.beat()
-
-        q = St.caption("so what does the policy compress?", TRIGGER, T_SUB, width=36)
-        St.place(q, St.FOOT, pad=0.06)
-        with self.narrate("So the question to ask is: what does this policy actually "
-                          "compress?"):
-            self.play(FadeIn(q), run_time=0.9)
+        self.heading("Three more things they did")
+        tools = VGroup()
+        for kind, name, col in (("signal", "saying what\ncomes next", SRC_BR),
+                                ("bank", "lending to\nbanks in a panic", WAIT),
+                                ("door", "cheap funding,\nif you lend it on", MONEY)):
+            tools.add(VGroup(cards.icon(kind, col, 1.6),
+                             St.caption(name, col, T_SMALL, width=18)
+                             ).arrange(DOWN, buff=0.3))
+        tools.arrange(RIGHT, buff=1.2)
+        St.place(tools, St.FULL, ay=0.15)
+        with self.narrate("Buying assets was not the only thing central banks did. The "
+                          "authors group the rest into three, and each one is worth "
+                          "knowing, because Part Three has to be fair about what else "
+                          "was going on."):
+            self.play(S.lag_map(FadeIn, tools, shift=UP * 0.25, lag=0.2), run_time=1.8)
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ the spring
-        self.heading("What it reaches directly")
-        sp = W.spring(COST, turns=8, width=3.2, height=1.0, compressed=0.0)
-        St.place(sp, St.STAGE, ay=0.4)
-        sl = St.caption("the price at which risk trades", COST, T_BODY, width=24)
-        sl.next_to(sp, DOWN, buff=0.45)
-        with self.narrate("In financial markets, there is a price for carrying risk. "
-                          "Quantitative easing pushes that price down. Squeeze the "
-                          "spring."):
-            self.play(Create(sp), FadeIn(sl), run_time=1.2)
-            sp2 = W.spring(COST, turns=8, width=3.2, height=1.0, compressed=0.85)
-            sp2.move_to(sp)
-            self.play(Transform(sp, sp2), run_time=1.6)
+        # ------------------------------------------------ 1: guidance
+        self.heading("One — saying what comes next")
+        ax = Axes(x_range=[0, 6, 1], y_range=[0, 3, 1], x_length=6.4, y_length=2.8,
+                  axis_config=AXIS)
+        St.place(ax, St.STAGE, ay=0.15)
+        xl = Text("time →", font=FONT, font_size=T_TINY, color=MUTED)
+        xl.next_to(ax, DOWN, buff=0.2).align_to(ax, RIGHT)
+        yl = Text("the rate", font=FONT, font_size=T_TINY, color=MUTED)
+        yl.next_to(ax, UP, buff=0.16).align_to(ax, LEFT)
+        self.play(Create(ax), FadeIn(xl), FadeIn(yl), run_time=1.0)
+
+        expect = ax.plot(lambda x: 0.35 + 0.42 * max(x - 1.2, 0), x_range=[0, 6],
+                         color=COST, stroke_width=5)
+        el = Text("what people expect", font=FONT, font_size=T_TINY, color=COST)
+        el.next_to(expect.get_end(), UP, buff=0.18).shift(LEFT * 1.0)
+        with self.narrate("Left to themselves, people expect a rate that has been cut "
+                          "to nothing to start rising again fairly soon."):
+            self.play(Create(expect), FadeIn(el), run_time=1.5)
+
+        gov = stick.governor(scale=0.6)
+        St.place(gov, St.SIDE, ay=0.85, fill=False)
+        flat = ax.plot(lambda x: 0.35, x_range=[0, 6], color=SRC_BR, stroke_width=6)
+        fl = Text("held flat, by announcement", font=FONT, font_size=T_SMALL,
+                  color=SRC_BR)
+        fl.next_to(flat, DOWN, buff=0.42)
+        with self.narrate("So the central bank simply tells them otherwise. It says the "
+                          "rate will stay where it is for a long time yet."):
+            self.play(FadeIn(gov), run_time=0.6)
+            self.play(Transform(expect, flat), FadeOut(el), FadeIn(fl), run_time=1.8)
+        self.beat()
+
+        hedge = St.points(["it did move expectations",
+                           "but markets never fully priced it in",
+                           "and it was not the promise the theory wants"],
+                          colour=MUTED, dot_colour=SUNK, size=T_SMALL, width=22)
+        St.place(hedge, St.SIDE, ay=-0.25)
+        says = ["And the authors are careful about how well it worked. It did move "
+                "expectations.",
+                "But markets never fully priced in the cuts the announcements implied.",
+                "And none of it was quite the promise to be irresponsible later that "
+                "the theory in the last chapter actually calls for."]
+        for i, row in enumerate(hedge):
+            with self.narrate(says[i]):
+                self.play(FadeIn(row), run_time=0.7)
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ the other fear
-        self.heading("And what it does not reach")
-        nell = stick.nell(scale=0.85)
-        St.place(nell, St.STAGE, ax=-0.7, ay=-0.45)
-        bubble = nell.think("will anyone\nstill be buying\nin three years?",
-                            direction=UP, width=3.4)
-        with self.narrate("But the doubt inside a firm is a different thing. Will "
-                          "anyone still be buying in three years? Will this factory "
-                          "still make sense?"):
-            self.play(FadeIn(nell), run_time=0.7)
-            self.play(FadeIn(bubble), run_time=1.0)
-            self.play(nell.mood("worried"), run_time=0.4)
+        # ------------------------------------------------ 2: lender of last resort
+        self.heading("Two — the oldest job there is")
+        bank = W.building(WAIT, size=0.7, kind="bank")
+        St.place(bank, St.STAGE, ax=-0.6, ay=0.2)
+        cb = cards.icon("bank", SRC_BR, 1.8)
+        St.place(cb, St.SIDE, ay=0.5)
+        arrow = W.flow_arrow(cb.get_left() + LEFT * 0.2, bank.get_right() + RIGHT * 0.3,
+                             MONEY)
+        terms = St.points(["at a penal rate", "against good collateral"],
+                          colour=CHALK, dot_colour=MONEY, size=T_SMALL, width=20)
+        St.place(terms, St.SIDE, ay=-0.55)
+        with self.narrate("This one is the oldest job a central bank has, and it is not "
+                          "really monetary policy at all. When a sound bank cannot "
+                          "borrow simply because everyone has panicked, the central "
+                          "bank lends to it — at a penal rate, and against good "
+                          "collateral."):
+            self.play(Create(bank), run_time=0.9)
+            self.play(Create(cb), run_time=0.7)
+            self.play(Create(arrow), run_time=0.6)
+            self.play(S.flow_along(arrow, MONEY))
+            self.play(FadeIn(terms), run_time=0.8)
 
-        gap = St.caption("reached only indirectly, if at all", MUTED, T_SUB, width=30)
-        St.place(gap, St.SIDE, ay=-0.5)
-        with self.narrate("Those are different worries entirely. A central bank buying "
-                          "government bonds reaches them only indirectly, if at all."):
-            self.play(FadeIn(gap), run_time=0.9)
-        self.beat()
-
-        honest = St.caption("so the claim is about how directly — not whether",
-                            SRC_KIT, T_SUB, width=46)
-        St.place(honest, St.FOOT, pad=0.06)
-        with self.narrate("So the honest version of his claim is about how directly, "
-                          "not about whether.", v="c"):
-            self.play(FadeIn(honest), run_time=0.9)
-            self.play(S.flash_around(honest, SRC_KIT))
+        euro = VGroup(
+            Text("over €1 trillion", font=FONT, font_size=T_SUB, color=TRIGGER),
+            Text("two operations, late 2011 and early 2012", font=FONT,
+                 font_size=T_TINY, color=MUTED),
+            Text("three-year money", font=FONT, font_size=T_TINY, color=MUTED),
+        ).arrange(DOWN, buff=0.18)
+        St.place(euro, St.STAGE, ax=-0.1, ay=-0.72)
+        with self.narrate("And in the euro area, two operations in late twenty-eleven "
+                          "and early twenty-twelve lent over a trillion euros for three "
+                          "years — aimed, their central bank argued, at repairing the "
+                          "transmission mechanism itself."):
+            self.play(FadeIn(euro), run_time=1.1)
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ the two-row summary
-        self.drop_heading()
-        rows = VGroup(
-            VGroup(cards.icon("money", MONEY, 1.5),
-                   St.caption("the price of risk\n— reached directly", MONEY,
-                              T_SMALL, width=20)).arrange(DOWN, buff=0.28),
-            VGroup(cards.icon("fog", COST, 1.5),
-                   St.caption("the doubt itself\n— at one or two removes", COST,
-                              T_SMALL, width=22)).arrange(DOWN, buff=0.28),
-        ).arrange(RIGHT, buff=2.6)
-        St.place(rows, St.WIDE, ay=0.15)
-        with self.narrate("What a central bank reaches directly is the price at which "
-                          "risk trades."):
-            self.play(FadeIn(rows[0]), run_time=0.9)
-        with self.narrate("What it reaches at one or two removes is the doubt itself."):
-            self.play(FadeIn(rows[1]), run_time=0.9)
+        # ------------------------------------------------ 3: the wedge again
+        self.heading("Three — going straight at the wedge")
+        wedge = DoubleArrow(LEFT * 1.6, RIGHT * 1.6, color=COST, stroke_width=6,
+                            buff=0)
+        St.place(wedge, St.STAGE, ay=0.85)
+        wl = St.caption("banks looked risky, so what they charged stayed high",
+                        COST, T_SMALL, width=30)
+        wl.next_to(wedge, DOWN, buff=0.3)
+        with self.narrate("The third group exists because of the wedge from an earlier "
+                          "chapter. Banks looked risky, so their own funding was dear, "
+                          "so what they charged households and firms stayed high."):
+            self.play(GrowFromCenter(wedge), run_time=0.9)
+            self.play(FadeIn(wl), run_time=0.7)
+
+        g1 = VGroup(
+            Text("£20bn", font=FONT, font_size=T_SUB, color=MONEY),
+            St.caption("of bank debt guaranteed", MUTED, T_SMALL, width=20),
+        ).arrange(DOWN, buff=0.2)
+        St.place(g1, St.STAGE, ax=-0.55, ay=-0.6)
+        with self.narrate("The first was a guarantee. The government stands behind up "
+                          "to twenty billion pounds of bank debt, so an investor buying "
+                          "it faces the same risk as buying a gilt. And the bank gets "
+                          "that funding at a discount if it agrees to cut what it "
+                          "charges smaller companies."):
+            self.play(FadeIn(g1), run_time=1.0)
+
+        small = St.caption("about 8% of a year's lending to small firms", SUNK,
+                           T_SMALL, width=26)
+        St.place(small, St.SIDE, ay=0.1)
+        with self.narrate("Though twenty billion is only about eight per cent of a "
+                          "year's lending to small firms by the largest banks. Limited "
+                          "in scale, as the authors put it."):
+            self.play(FadeIn(small), run_time=0.9)
+        self.beat()
+        self.clear_stage()
+
+        # ------------------------------------------------ the funding scheme
+        self.heading("And one that pays you to lend")
+        g2 = VGroup(
+            Text("≈ £80bn", font=FONT, font_size=T_SUB, color=MONEY),
+            St.caption("four-year funding, 5% of the loan book", MUTED,
+                       T_SMALL, width=26),
+        ).arrange(DOWN, buff=0.2)
+        St.place(g2, St.SIDE, ay=0.7)
+        with self.narrate("The second was bigger, and cleverer. Four-year funding, of "
+                          "at least five per cent of a bank's existing loan book — "
+                          "around eighty billion pounds across the eligible banks."):
+            self.play(FadeIn(g2), run_time=1.0)
+
+        b1 = W.Bar(0.35, color=MONEY, width=1.1)
+        b2 = W.Bar(2.1, color=COST, width=1.1)
+        pair = VGroup(b1, b2).arrange(RIGHT, buff=2.2, aligned_edge=DOWN)
+        St.place(pair, St.FULL, ay=-0.05, fill=False)
+        l1 = VGroup(Text("0.25%", font=FONT, font_size=T_BODY, color=MONEY),
+                    St.caption("lending steady or growing", MUTED, T_SMALL, width=18)
+                    ).arrange(DOWN, buff=0.16)
+        l1.next_to(b1, DOWN, buff=0.24)
+        l2 = VGroup(Text("1.5%", font=FONT, font_size=T_BODY, color=COST),
+                    St.caption("lending shrinking by 5%", MUTED, T_SMALL, width=18)
+                    ).arrange(DOWN, buff=0.16)
+        l2.next_to(b2, DOWN, buff=0.24)
+        base = Line(pair.get_left() + LEFT * 0.5, pair.get_right() + RIGHT * 0.5,
+                    color=MUTED, stroke_width=2).move_to(pair.get_bottom())
+        St.collapse_bars(pair)
+        with self.narrate("And every extra pound a bank lent raised the amount it could "
+                          "borrow under the scheme."):
+            self.play(Create(base), run_time=0.5)
+        with self.narrate("A bank holding its lending steady or growing it paid a "
+                          "quarter of one per cent."):
+            self.play(Restore(b1), FadeIn(l1), run_time=1.0)
+        with self.narrate("A bank shrinking its lending by five per cent paid one and a "
+                          "half — six times as much, on the whole amount."):
+            self.play(Restore(b2), FadeIn(l2), run_time=1.3)
+            self.play(S.flash_around(b2, COST))
         self.beat()
 
         self.close_chapter([
-            "the bad half decides whether she builds now",
-            "the policy squeezes the price of risk directly",
-            "the doubt inside a firm, only indirectly",
-            "so the claim is about how directly, not whether",
+            "guidance: the rate path, held flat by announcement",
+            "lending in a panic: penal rate, good collateral",
+            "and schemes aimed straight at the wedge",
+            "one of which charged 6× more for shrinking lending",
         ])

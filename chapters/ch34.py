@@ -8,141 +8,169 @@ from lib.theme import *
 
 class Chapter34(Chapter):
     CH = 34
-    TITLE = "The exception on page 613"
-    PART = "PART THREE — THE ARGUMENT"
-    RECAP_ICONS = ["money", "clock", "door", "scale"]
+    TITLE = "Leg two: cheaper money, and feeling richer"
+    PART = "PART TWO — THE POLICY"
+    RECAP_ICONS = ["money", "shield", "people", "door"]
 
     def body(self):
-        # ------------------------------------------------ the question
-        self.heading("A page later, they ask about somebody else")
-        gov = W.building(SRC_BR, size=0.75, kind="government")
-        St.place(gov, St.STAGE, ax=-0.5, ay=0.0)
-        with self.narrate("A page later, the authors ask a question about somebody "
-                          "else. What does the government do when its own borrowing "
-                          "gets cheaper?"):
-            self.play(Create(gov), run_time=1.2)
-
-        note = St.caption("gilts are exactly what was bought", SRC_BR, T_BODY, width=22)
-        St.place(note, St.SIDE, ay=0.55)
-        with self.narrate("And notice what they open with. The government's borrowing "
-                          "cost is now lower. Gilts are exactly what the Bank had been "
-                          "buying. So if anyone got the cheaper price, the government "
-                          "did."):
-            self.play(FadeIn(note), run_time=0.9)
-
-        arrive = W.flow_arrow(St.SIDE.point(-0.9, -0.3), gov.get_right() + RIGHT * 0.25,
-                              MONEY)
-        cheap = Text("cheaper money", font=FONT, font_size=T_SMALL, color=MONEY)
-        cheap.next_to(arrive, DOWN, buff=0.2)
-        with self.narrate("The money definitely arrives."):
-            self.play(Create(arrive), FadeIn(cheap), run_time=0.8)
-            self.play(S.flow_along(arrive, MONEY))
+        # ------------------------------------------------ two routes
+        self.heading("From market prices to actual spending")
+        routes = VGroup(
+            VGroup(cards.icon("money", MONEY, 1.8),
+                   St.caption("borrowing gets cheaper", MONEY, T_SMALL, width=18)
+                   ).arrange(DOWN, buff=0.3),
+            VGroup(cards.icon("people", TRIGGER, 1.8),
+                   St.caption("owners feel richer", TRIGGER, T_SMALL, width=18)
+                   ).arrange(DOWN, buff=0.3),
+        ).arrange(RIGHT, buff=2.6)
+        St.place(routes, St.FULL, ay=0.15)
+        with self.narrate("Leg one moved the prices of things in financial markets. Leg "
+                          "two has to turn that into somebody actually spending money. "
+                          "And it does it in two ways."):
+            self.play(FadeIn(routes[0]), run_time=0.8)
+            self.play(FadeIn(routes[1]), run_time=0.8)
         self.beat()
+        self.clear_stage()
 
-        nothing = St.caption("and nothing happens", COST, T_HEAD, width=24)
-        St.place(nothing, St.FOOT, pad=0.06)
-        with self.narrate("And nothing happens."):
-            self.play(FadeIn(nothing), run_time=1.0)
+        # ------------------------------------------------ the hinge sentence
+        self.heading("The sentence the policy rests on")
+        q = cards.quote_card("This fall in the cost of capital should boost consumption "
+                             "and investment by increasing incentives to borrow and "
+                             "reducing incentives to save.",
+                             "Bowdler & Radia, p. 612", SRC_BR)
+        St.place(q, St.FULL, ay=0.1)
+        with self.narrate("And that gives the sentence the whole policy rests on. Their "
+                          "words: this fall in the cost of capital should boost "
+                          "consumption and investment, by increasing incentives to "
+                          "borrow and reducing incentives to save."):
+            self.play(FadeIn(q), run_time=1.6)
         self.wait(1.6)
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ their words
-        self.heading("Their words for why")
-        q = cards.quote_card("Their spending plans should therefore be unaffected by "
-                             "cyclical movements in interest rates.",
-                             "Bowdler & Radia, p. 613", SRC_BR)
-        St.place(q, St.FULL, ay=0.35)
-        with self.narrate("Here is what the authors say, in their own words. Their "
+        # ------------------------------------------------ the hedges
+        self.heading("And they hedge it, three times")
+        firm = W.building(CHALK, size=0.55, kind="office")
+        St.place(firm, St.STAGE, ax=-0.75, ay=-0.15)
+        flab = Text("a small firm", font=FONT, font_size=T_SMALL, color=MUTED)
+        flab.next_to(firm, DOWN, buff=0.28)
+        self.play(Create(firm), FadeIn(flab), run_time=1.0)
+
+        hedges = ["banks impaired",
+                  "no market access",
+                  "may not benefit"]
+        says = ["Banks were badly damaged, so any route through them was likely "
+                "impaired.",
+                "Households and smaller companies have no access to capital markets at "
+                "all.",
+                "So they may not directly benefit from this channel."]
+        shields = VGroup()
+        for i, h in enumerate(hedges):
+            shields.add(W.shield(SUNK, h, scale=0.9))
+        shields.arrange(DOWN, buff=0.32)
+        St.place(shields, St.SIDE, ay=0.05)
+        for i, sh in enumerate(shields):
+            with self.narrate(says[i]):
+                self.play(FadeIn(sh, shift=UP * 0.3), run_time=0.8)
+        self.beat()
+
+        three = St.caption("hedged three times", SUNK, T_SUB, width=24)
+        St.place(three, St.FOOT, pad=0.06)
+        self.play(FadeIn(three), S.flash_around(shields, SUNK), run_time=1.4)
+        self.beat()
+        self.clear_stage()
+
+        # ------------------------------------------------ the fair-minded part
+        self.heading("And they name three ways round it")
+        others = [("chain", "supply chains", MONEY),
+                  ("border", "a cheaper pound\nhelps exporters", MONEY),
+                  ("bank", "banks passing on\nlower rates", MONEY)]
+        cols = VGroup()
+        for kind, text, col in others:
+            cols.add(VGroup(cards.icon(kind, col, 1.5),
+                            St.caption(text, col, T_SMALL, width=18)
+                            ).arrange(DOWN, buff=0.3))
+        cols.arrange(RIGHT, buff=1.1)
+        St.place(cols, St.FULL, ay=0.15)
+        with self.narrate("And be fair to them, because they do not leave it there. "
+                          "They name three further routes by which small firms might "
+                          "still benefit."):
+            self.play(S.lag_map(FadeIn, cols, shift=UP * 0.25, lag=0.2),
+                      run_time=1.6)
+        self.beat()
+        self.clear_stage()
+
+        # ------------------------------------------------ the government
+        self.heading("What about the government's own borrowing?")
+        gov = W.building(SRC_BR, size=0.7, kind="government")
+        St.place(gov, St.STAGE, ax=-0.5, ay=0.1)
+        ax = Axes(x_range=[0, 6, 1], y_range=[0, 4, 1], x_length=4.4, y_length=2.2,
+                  axis_config=AXIS)
+        St.place(ax, St.SIDE, ay=0.3)
+        curve = ax.plot(lambda x: 3.2 - 0.34 * x, x_range=[0, 6], color=TRIGGER,
+                        stroke_width=5)
+        cl = Text("gilt yields", font=FONT, font_size=T_TINY, color=TRIGGER)
+        cl.next_to(ax, DOWN, buff=0.18)
+        with self.narrate("An obvious implication of a fall in gilt yields is that the "
+                          "government's own cost of borrowing is now lower. Gilts are "
+                          "exactly what was bought."):
+            self.play(Create(gov), run_time=1.0)
+            self.play(Create(ax), FadeIn(cl), run_time=0.8)
+            self.play(Create(curve), run_time=1.2)
+
+        ans = St.caption("plans unaffected —\ngovernments take a\nlonger-term view",
+                         MUTED, T_BODY, width=20)
+        St.place(ans, St.SIDE, ay=-0.65)
+        with self.narrate("And their answer is that it will not change what the "
+                          "government does. Governments take a longer-term view. Their "
                           "spending plans should therefore be unaffected by cyclical "
                           "movements in interest rates."):
-            self.play(FadeIn(q), run_time=1.6)
-        self.wait(1.8)
-
-        why = VGroup(
-            VGroup(cards.icon("door", MUTED, 1.4),
-                   St.caption("not about access", MUTED, T_SMALL, width=16)
-                   ).arrange(DOWN, buff=0.25),
-            VGroup(cards.icon("clock", TRIGGER, 1.4),
-                   St.caption("about the horizon", TRIGGER, T_SMALL, width=16)
-                   ).arrange(DOWN, buff=0.25),
-        ).arrange(RIGHT, buff=2.4)
-        St.place(why, St.FULL, ay=-0.75)
-        with self.narrate("And look at the reason. It has nothing to do with access. "
-                          "The money arrives."):
-            self.play(FadeIn(why[0]), run_time=0.8)
-            x = Cross(why[0][0], stroke_color=COST, stroke_width=5).scale(0.6)
-            self.play(Create(x), run_time=0.6)
-        with self.narrate("The reason is about the horizon the decision is taken over. "
-                          "Governments plan a long way ahead."):
-            self.play(FadeIn(why[1]), run_time=0.8)
-            self.play(S.flash_around(why[1], TRIGGER))
+            self.play(FadeIn(ans), run_time=0.9)
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ Kit's overreach
-        self.heading("Kit gets ahead of himself")
-        kit = stick.kit(scale=0.95)
-        St.place(kit, St.STAGE, ax=-0.65, ay=-0.35)
-        self.play(FadeIn(kit), run_time=0.6)
-        claim = St.caption("so they admit my whole point!", SRC_KIT, T_SUB, width=24)
-        St.place(claim, St.SIDE, ay=0.4)
-        with self.narrate("Kit gets excited. They have admitted, he says, that a feature "
-                          "of how the decision is made can break the whole chain.",
-                          v="c"):
-            self.play(kit.mood("happy"), run_time=0.4)
-            self.play(FadeIn(claim), run_time=0.8)
-            self.play(kit.pace(1, run_time=1.6))
+        # ------------------------------------------------ wealth
+        self.heading("The other route: feeling richer")
+        house = W.building(TRIGGER, size=0.8, kind="house")
+        St.place(house, St.STAGE, ax=-0.7, ay=-0.1)
+        bar = W.Bar(1.0, color=TRIGGER, width=1.0)
+        St.place(bar, St.STAGE, ax=0.55, ay=-0.45)
+        blab = Text("what they own", font=FONT, font_size=T_SMALL, color=TRIGGER)
+        blab.next_to(bar, DOWN, buff=0.24)
+        with self.narrate("When asset prices go up, the people who own those assets are "
+                          "richer. And higher wealth should mean more spending."):
+            self.play(Create(house), run_time=0.9)
+            self.play(FadeIn(bar), FadeIn(blab), run_time=0.7)
+            self.play(bar.rect.animate.stretch_to_fit_height(2.3).move_to(
+                bar.rect.get_bottom() + UP * 1.15), run_time=1.3)
+
+        nums = VGroup(
+            Text("£375bn", font=FONT, font_size=T_HEAD, color=SRC_BR),
+            Text("of announced purchases", font=FONT, font_size=T_TINY, color=MUTED),
+            Text("+30%", font=FONT, font_size=T_HEAD, color=MONEY),
+            Text("net financial wealth", font=FONT, font_size=T_TINY, color=MUTED),
+        ).arrange(DOWN, buff=0.18)
+        St.place(nums, St.SIDE, ay=0.1)
+        with self.narrate("They put a number on it. Three hundred and seventy-five "
+                          "billion pounds of announced purchases will eventually boost "
+                          "British households' net financial wealth by about thirty per "
+                          "cent."):
+            self.play(FadeIn(nums[0]), FadeIn(nums[1]), run_time=0.9)
+            self.play(FadeIn(nums[2]), FadeIn(nums[3]), run_time=0.9)
         self.beat()
 
-        with self.narrate("And then he reads it again, and crosses his own conclusion "
-                          "out. That is the first of several times he will do that.",
-                          v="c"):
-            strike = Line(claim.get_left(), claim.get_right(), color=COST,
-                          stroke_width=5)
-            self.play(Create(strike), run_time=0.9)
-            self.play(kit.mood("worried"), run_time=0.4)
-        self.beat()
-        self.play(FadeOut(claim), FadeOut(strike), run_time=0.5)
-
-        survives = St.points(["one feature of a decision",
-                              "breaks the link, once",
-                              "and nobody asks what else could"],
-                             colour=CHALK, dot_colour=SRC_KIT, size=T_BODY, width=22)
-        St.place(survives, St.SIDE, ay=0.0)
-        says = ["What survives is this, and it is thinner than he first thought. A "
-                "feature of the decision itself is allowed, once,",
-                "to break the link between a cheaper price and more spending.",
-                "And nobody then asks whether anything else about how a decision gets "
-                "made could do the same."]
-        for i, row in enumerate(survives):
-            with self.narrate(says[i]):
-                self.play(FadeIn(row), run_time=0.7)
-        self.beat()
-        self.clear_stage()
-
-        # ------------------------------------------------ the standard
-        self.drop_heading()
-        std = St.caption("a reason to go and look —\nnot evidence about what you find",
-                         CHALK, T_HEAD, width=34)
-        St.place(std, St.WIDE, ay=0.25)
-        with self.narrate("That is a reason to go and look. It is not evidence about "
-                          "what you find."):
-            self.play(Write(std), run_time=2.6)
-        self.wait(2.2)
-        under = St.caption("everything Kit says has to meet that", SRC_KIT,
-                           T_SUB, width=38)
-        St.place(under, St.FOOT, pad=0.06)
-        with self.narrate("That sentence is the intellectual standard the rest of the "
-                          "film is held to. Everything Kit says from here has to meet "
-                          "it."):
-            self.play(FadeIn(under), run_time=0.9)
-            self.play(S.flash_around(under, SRC_KIT, run_time=2.0))
+        wl = St.caption("largely to those holding the most", MUTED, T_SUB, width=34)
+        St.place(wl, St.FOOT, pad=0.06)
+        with self.narrate("Those gains went largely to the households holding the most "
+                          "financial assets — in particular older and more affluent "
+                          "ones. As with all monetary policy, they say, there are "
+                          "winners and losers."):
+            self.play(FadeIn(wl), run_time=0.9)
         self.beat()
 
         self.close_chapter([
-            "the government gets the cheaper money for certain",
-            "and its plans are unaffected — their words",
-            "the reason is the horizon, not access",
-            "which is a reason to look, not a finding",
+            "cheaper borrowing, and owners feeling richer",
+            "the cost-of-capital sentence, hedged three times",
+            "and three named ways round the hedge",
+            "£375bn → about +30% of net financial wealth",
         ])

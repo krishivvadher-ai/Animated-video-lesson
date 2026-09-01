@@ -3,163 +3,167 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from manim import *
 from lib.base import Chapter
 from lib import stick, cards, widgets as W, style as S, stage as St
-from lib.scale import MasterScale
 from lib.theme import *
 
 
 class Chapter18(Chapter):
     CH = 18
-    TITLE = "Two countries"
+    TITLE = "Solving it with a guess"
     PART = "PART ONE — THE PAPER"
-    RECAP_ICONS = ["people", "scale", "shield", "signal"]
+    RECAP_ICONS = ["scale", "flow", "money", "door"]
 
     def body(self):
-        # ------------------------------------------------ the observation
-        self.heading("A detective story")
-        nell = stick.nell(scale=0.9)
-        St.place(nell, St.STAGE, ax=-0.55, ay=0.55, fill=False)
-        nl = Text("an American firm", font=FONT, font_size=T_SMALL, color=MUTED)
-        nl.next_to(nell, DOWN, buff=0.25)
-        kenji = stick.kenji(scale=0.9)
-        St.place(kenji, St.SIDE, ax=-0.1, ay=0.55, fill=False)
-        kl = Text("a Japanese firm", font=FONT, font_size=T_SMALL, color=MUTED)
-        kl.next_to(kenji, DOWN, buff=0.25)
-        with self.narrate("Here is Nell, in America. And here is Kenji, running a "
-                          "similar factory in Japan."):
-            self.play(FadeIn(nell), FadeIn(nl), run_time=0.8)
-            self.play(FadeIn(kenji), FadeIn(kl), run_time=0.8)
+        # ------------------------------------------------ why a power
+        self.heading("Why guess a power?")
+        eq = Text("½ σ²R² V″  +  μR V′  −  ρV  =  0", font=FONT, font_size=T_SUB,
+                  color=TRIGGER)
+        St.place(eq, St.FULL, ay=0.9)
+        self.play(Write(eq), run_time=1.8)
 
-        us = St.points(["demanded very high returns", "quit after short losses"],
-                       colour=COST, dot_colour=COST, size=T_BODY, width=18)
-        St.place(us, St.STAGE, ax=-0.5, ay=-0.9, fill=False)
-        jp = St.points(["invested aggressively", "hung on through losses"],
-                       colour=MONEY, dot_colour=MONEY, size=T_BODY, width=18)
-        St.place(jp, St.SIDE, ax=-0.1, ay=-0.9, fill=False)
-        with self.narrate("American firms of the period demanded very high returns "
-                          "before they would build — and then abandoned whole fields "
-                          "after short stretches of losses. Colour televisions. Video "
-                          "recorders. Semiconductors."):
-            self.play(S.lag_map(FadeIn, us, lag=0.25), nell.mood("worried"),
-                      run_time=1.4)
-        with self.narrate("Japanese firms did the opposite on both counts. They "
-                          "invested aggressively, and they hung on."):
-            self.play(S.lag_map(FadeIn, jp, lag=0.25), run_time=1.2)
+        obs = St.caption("R² sits with V″ · R sits with V′", MUTED, T_BODY, width=34)
+        St.place(obs, St.FULL, ay=0.35)
+        with self.narrate("Look at the shape of it. Wherever there are two dashes there "
+                          "is an R squared, and wherever there is one dash there is a "
+                          "single R. Each differentiation is paid for with exactly one "
+                          "R."):
+            self.play(FadeIn(obs), run_time=0.9)
+            self.play(S.indicate(eq, TRIGGER))
+
+        pw = VGroup(
+            Text("V = R^x", font=FONT, font_size=T_SUB, color=WAIT),
+            Text("V′ = x R^(x−1)", font=FONT, font_size=T_SUB, color=MONEY),
+            Text("R V′ = x R^x", font=FONT, font_size=T_SUB, color=MONEY),
+        ).arrange(DOWN, buff=0.4, aligned_edge=LEFT)
+        St.place(pw, St.FULL, ay=-0.5)
+        with self.narrate("So try a power. Using the rule from chapter fourteen, the "
+                          "gradient of R to the x is x times R to the x minus one."):
+            self.play(Write(pw[0]), run_time=1.0)
+            self.play(Write(pw[1]), run_time=1.4)
+        with self.narrate("Multiply that by the R sitting next to it, and the power "
+                          "comes straight back to what it was. The shape survives. That "
+                          "is why a power is the right guess."):
+            self.play(Write(pw[2]), run_time=1.4)
+            self.play(S.flash_around(pw[2], MONEY))
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ why waiting fails alone
-        self.heading("Why the waiting story cannot explain that")
-        sc = MasterScale(x=-4.2, y=-0.5, height=3.8)
-        self.play(Create(sc.axis), FadeIn(sc.arrow_head), run_time=0.6)
-        h = sc.add_level("H", 1.45, "build-line", TRIGGER, width=2.4, sw=5)
-        l = sc.add_level("L", 0.85, "quit-line", TRIGGER, width=2.4, sw=5)
-        self.play(Create(h[0]), FadeIn(h[1]), Create(l[0]), FadeIn(l[1]), run_time=1.0)
-        with self.narrate("Remember what uncertainty does to the two lines. It raises "
-                          "the build-line and lowers the quit-line. Together. It cannot "
-                          "do one without the other."):
-            self.play(h.animate.shift(UP * 0.55), l.animate.shift(DOWN * 0.55),
-                      run_time=1.8)
+        # ------------------------------------------------ substitute
+        self.heading("Substitute, and watch it collapse")
+        rows = VGroup(
+            Text("V  =  R^x", font=FONT, font_size=T_BODY, color=WAIT),
+            Text("R V′  =  x R^x", font=FONT, font_size=T_BODY, color=MONEY),
+            Text("R² V″  =  x(x − 1) R^x", font=FONT, font_size=T_BODY, color=COST),
+        ).arrange(DOWN, buff=0.45, aligned_edge=LEFT)
+        St.place(rows, St.FULL, ay=0.75)
+        says = ["The value itself is R to the x.",
+                "R times its gradient is x, times R to the x.",
+                "And R squared times the second gradient is x, times x minus one, "
+                "times R to the x. Every one of them is the same R to the x, with a "
+                "different number in front."]
+        for i, row in enumerate(rows):
+            with self.narrate(says[i]):
+                self.play(Write(row), run_time=1.3)
         self.beat()
-        contra = St.caption("hesitant to enter ⇒ MORE willing to stay", COST, T_BODY,
-                            width=22)
-        St.place(contra, St.SIDE, ay=0.4)
-        with self.narrate("So a firm too hesitant to invest should be more willing to "
-                          "ride out bad periods, not less. The American firms were the "
-                          "opposite on both counts. The story does not fit."):
-            self.play(FadeIn(contra), run_time=1.0)
-            self.play(S.flash_around(contra, COST))
+
+        sub = Text("[ ½σ² x(x−1)  +  μx  −  ρ ]  R^x  =  0", font=FONT,
+                   font_size=T_SUB, color=CHALK)
+        St.place(sub, St.FULL, ay=-0.1)
+        with self.narrate("Put them into the equation and the whole R to the x factors "
+                          "out of every term."):
+            self.play(Write(sub), run_time=2.2)
+
+        quad = Text("½σ² x(x−1)  +  μx  −  ρ  =  0", font=FONT, font_size=T_SUB,
+                    color=TRIGGER)
+        St.place(quad, St.FULL, ay=-0.75)
+        with self.narrate("R to the x is never zero, so the bracket must be. And the "
+                          "bracket is a quadratic — the thing you solved at school. "
+                          "That is equation A two."):
+            self.play(Write(quad), run_time=2.0)
+            self.play(S.flash_around(quad, TRIGGER, run_time=2.0))
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ the popular explanation
-        self.heading("And the usual explanation fails too")
-        self.side(["lifetime employment ⇒ labour quasi-fixed",
-                   "lower variable cost ⇒ quit later ✓",
-                   "but bigger sunk stakes ⇒ reluctant to enter ✗",
-                   "they were the opposite"],
-                  colour=CHALK, dot_colour=COST, width=24, region=St.FULL,
-                  spoken=["The usual explanation is lifetime employment, which makes "
-                          "labour a cost you carry whether you use it or not.",
-                          "Lower day-to-day costs do mean revenue has to fall further "
-                          "before quitting makes sense. So far so good.",
-                          "But larger fixed and sunk commitments should make those same "
-                          "firms reluctant investors.",
-                          "And they were the opposite. Particularly aggressive ones. So "
-                          "that explanation does not work either."])
+        # ------------------------------------------------ two roots
+        self.heading("A quadratic has two answers")
+        ax = Axes(x_range=[-2, 4, 1], y_range=[-2, 3, 1], x_length=6.4, y_length=3.4,
+                  axis_config=AXIS)
+        St.place(ax, St.STAGE, ay=0.1, fill=False)
+        q = lambda x: 0.5 * 0.04 * x * (x - 1) * 25 - 0.05 * 25
+        para = ax.plot(lambda x: 0.42 * (x - 1.0) ** 2 - 1.35, x_range=[-1.6, 3.6],
+                       color=WAIT, stroke_width=5)
+        self.play(Create(ax), run_time=0.8)
+        self.play(Create(para), run_time=1.4)
+        r1 = Dot(ax.c2p(-0.79, 0), radius=0.10, color=COST)
+        r2 = Dot(ax.c2p(2.79, 0), radius=0.10, color=MONEY)
+        la = Text("α", font=FONT, font_size=T_SUB, color=COST)
+        la.next_to(r1, DOWN, buff=0.2)
+        lb = Text("β", font=FONT, font_size=T_SUB, color=MONEY)
+        lb.next_to(r2, DOWN, buff=0.2)
+        with self.narrate("A quadratic crosses zero twice. The paper calls the two "
+                          "answers alpha and beta. One of them is negative. The other "
+                          "is bigger than one."):
+            self.play(FadeIn(r1), FadeIn(la), run_time=0.8)
+            self.play(FadeIn(r2), FadeIn(lb), run_time=0.8)
+        self.beat()
+
+        gen = Text("V(R)  =  A R^α  +  B R^β", font=FONT, font_size=T_SUB, color=CHALK)
+        St.place(gen, St.SIDE, ay=0.55)
+        with self.narrate("So the general answer is a bit of each, with two unknown "
+                          "amounts A and B."):
+            self.play(Write(gen), run_time=1.6)
+
+        kill = St.caption("waiting is worth nothing\nwhen there is nothing coming in",
+                          COST, T_SMALL, width=24)
+        St.place(kill, St.SIDE, ay=-0.35)
+        with self.narrate("Now one piece of economics kills half of it. If the money "
+                          "coming in falls to nothing, the chance to build is worth "
+                          "nothing. But R to a negative power blows up as R goes to "
+                          "zero. So A has to be zero."):
+            self.play(FadeIn(kill), run_time=0.9)
+            strike = Line(gen.get_left() + RIGHT * 2.0, gen.get_left() + RIGHT * 3.5,
+                          color=COST, stroke_width=5)
+            self.play(Create(strike), run_time=0.9)
+        left = Text("V(R)  =  B R^β", font=FONT, font_size=T_SUB, color=TRIGGER)
+        St.place(left, St.FOOT, pad=0.06)
+        with self.narrate("What is left is the paper's equation two, which chapter "
+                          "twelve drew as a curve without ever saying where it came "
+                          "from."):
+            self.play(Write(left), run_time=1.6)
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ the resolution
-        self.heading("Their uncertainty was lopsided")
-        ax = NumberLine(x_range=[-3, 3, 1], length=7.4, color=MUTED,
-                        include_numbers=False, include_ticks=False)
-        St.place(ax, St.STAGE, ay=-0.35)
-        curve = FunctionGraph(lambda x: 1.5 * np.exp(-x * x / 1.4), x_range=[-3, 3],
-                              color=WAIT, stroke_width=5)
-        curve.move_to(ax.get_center() + UP * 0.75)
-        bad = Text("bad", font=FONT, font_size=T_SMALL, color=COST)
-        bad.next_to(ax, LEFT, buff=0.22)
-        good = Text("good", font=FONT, font_size=T_SMALL, color=MONEY)
-        good.next_to(ax, RIGHT, buff=0.22)
-        with self.narrate("Here is the spread of possible futures for a firm. Bad ones "
-                          "to the left, good ones to the right."):
-            self.play(Create(ax), FadeIn(bad), FadeIn(good), run_time=0.9)
-            self.play(Create(curve), run_time=1.4)
-
-        cut = Line(ax.n2p(-1.6) + DOWN * 0.35, ax.n2p(-1.6) + UP * 2.3, color=SUNK,
-                   stroke_width=6)
-        ctext = St.caption("government support,\ntolerated cartels", SUNK, T_BODY,
-                           width=18)
-        St.place(ctext, St.SIDE, ay=0.55)
-        with self.narrate("For the Japanese firms, the bad half was cushioned. "
-                          "Government support, and cartels tolerated in recessions, cut "
-                          "off the worst outcomes."):
-            self.play(Create(cut), FadeIn(ctext), run_time=1.3)
-            self.play(curve.animate.set_stroke(opacity=0.35), run_time=0.6)
-        self.beat()
-
-        e1 = St.caption("less bad news ⇒ less waiting ⇒ early in", MONEY, T_BODY,
-                        width=22)
-        St.place(e1, St.SIDE, ay=-0.1)
-        with self.narrate("Now use the bad news principle. Waiting is worth less when "
-                          "there is less bad news to wait out. So they entered early."):
-            self.play(FadeIn(e1), run_time=0.9)
-        self.beat()
-        self.play(FadeOut(ctext), run_time=0.3)
-        self.define("the good news principle", "Staying is governed by the good "
-                    "possible outcomes.", "signal", MONEY, at=UP * 1.5, hold=4.4)
-        e2 = St.caption("upside worth more ⇒ late out", MONEY, T_BODY, width=22)
-        St.place(e2, St.SIDE, ay=-0.6)
-        with self.narrate("And because the upside mattered relatively more for them, "
-                          "they stayed late as well. One lopsided distribution, both "
-                          "puzzles solved."):
-            self.play(FadeIn(e2), run_time=0.9)
-        self.beat()
-        self.clear_stage()
-
-        # ------------------------------------------------ the two rules
-        self.heading("Two rules, for two different jobs")
-        r1 = St.caption("to get investment: cut the downside", MONEY, T_SUB, width=32)
-        r2 = St.caption("to stop exit: lift the upside", WAIT, T_SUB, width=32)
-        rules = VGroup(r1, r2).arrange(DOWN, buff=1.1)
-        St.place(rules, St.FULL, ay=0.15)
-        with self.narrate("Which gives two rules, and they are probably the most "
-                          "practically useful sentences in the whole article. To get "
-                          "firms to invest sooner, reduce the downside risk."):
-            self.play(FadeIn(r1), run_time=0.9)
-        self.beat()
-        with self.narrate("To stop firms leaving, improve the upside."):
-            self.play(FadeIn(r2), run_time=0.9)
-        self.beat()
-        with self.narrate("Different instruments, for different jobs. Remember that. "
-                          "Part Three is built on it."):
-            self.foot("different jobs, different instruments", CHALK)
-            self.play(S.flash_around(rules, TRIGGER, run_time=2.0))
-        self.beat()
+        # ------------------------------------------------ completing the square
+        self.heading("And with no drift, school algebra finishes it")
+        steps = VGroup(
+            Text("μ = 0:      ½σ² x(x−1)  =  ρ", font=FONT, font_size=T_BODY,
+                 color=CHALK),
+            Text("x(x−1)  =  2ρ ÷ σ²", font=FONT, font_size=T_BODY, color=CHALK),
+            Text("x² − x  =  2ρ ÷ σ²", font=FONT, font_size=T_BODY, color=CHALK),
+            Text("(x − ½)²  =  ¼ + 2ρ ÷ σ²", font=FONT, font_size=T_BODY, color=MONEY),
+            Text("(x − ½)²  =  [1 + 8ρ ÷ σ²] ÷ 4", font=FONT, font_size=T_BODY,
+                 color=MONEY),
+            Text("β  =  ½ [ 1 + √(1 + 8ρ ÷ σ²) ]", font=FONT, font_size=T_SUB,
+                 color=TRIGGER),
+        ).arrange(DOWN, buff=0.34, aligned_edge=LEFT)
+        St.place(steps, St.FULL, ay=0.0)
+        says = ["Set the drift to zero, as the main text does.",
+                "Divide through by a half sigma squared.",
+                "Multiply out the bracket.",
+                "Now complete the square — add a quarter to both sides, which is "
+                "exactly what you were taught to do.",
+                "Tidy the right-hand side over a common denominator of four.",
+                "Square-root both sides, take the bigger answer, and there is the "
+                "formula from chapter thirteen. Every symbol in it has now been "
+                "derived on screen."]
+        for i, row in enumerate(steps):
+            with self.narrate(says[i]):
+                self.play(Write(row), run_time=1.2)
+        self.play(S.flash_around(steps[5], TRIGGER, run_time=2.4))
+        self.wait(1.6)
 
         self.close_chapter([
-            "US: late in, early out · Japan: the reverse",
-            "option value moves both lines together",
-            "cushioned downside ⇒ early in, late out",
-            "downside → entry · upside → staying",
+            "each dash is paid for with exactly one R",
+            "so a power survives, and R^x factors out",
+            "leaving a quadratic with roots α and β",
+            "complete the square, and β is the formula",
         ])

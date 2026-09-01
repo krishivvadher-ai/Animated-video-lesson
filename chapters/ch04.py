@@ -133,7 +133,7 @@ class Chapter04(Chapter):
             self.play(S.flash_around(payoff, TRIGGER))
         self.beat()
         with self.narrate("And when any one of them is missing, it is not. Remember "
-                          "that — in chapter fourteen we take the third one away, and "
+                          "that — in chapter twenty we take the third one away, and "
                           "the whole conclusion flips over."):
             self.play(S.pulse(icons[2], COST, run_time=1.6))
         self.beat()

@@ -85,7 +85,7 @@ BUFF_TITLE = 0.35
 SAFE_W = 12.4
 SAFE_H = 6.8
 
-TOTAL_CHAPTERS = 44   # 0..43
+TOTAL_CHAPTERS = 50   # 0..49
 
 
 def apply():

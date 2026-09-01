@@ -3,106 +3,153 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from manim import *
 from lib.base import Chapter
 from lib import stick, cards, widgets as W, style as S, stage as St
-from lib.scale import MasterScale
 from lib.theme import *
 
 
 class Chapter16(Chapter):
     CH = 16
-    TITLE = "The zone of inaction"
+    TITLE = "One small random step"
     PART = "PART ONE — THE PAPER"
-    RECAP_ICONS = ["scale", "fog", "slab", "people"]
+    RECAP_ICONS = ["fog", "clock", "risk", "scale"]
 
     def body(self):
-        # ------------------------------------------------ narrow, then wide
-        self.heading("A narrow band, and a wide one")
-        sc = MasterScale(x=-3.2, y=-0.45, height=4.8)
-        self.play(Create(sc.axis), FadeIn(sc.arrow_head), FadeIn(sc.title), run_time=1.0)
-        c = sc.add_level("C", 1.00, "1.00", SUNK, width=2.6, sw=3)
-        m = sc.add_level("M", 1.10, "1.10", COST, width=2.6, sw=3)
-        with self.narrate("Take away the uncertainty for a moment, and leave only the "
-                          "sunk cost. The textbook still has a small band where doing "
-                          "nothing is right — from one, to one point one."):
-            self.play(Create(c[0]), FadeIn(c[1]), Create(m[0]), FadeIn(m[1]),
-                      run_time=1.3)
-        narrow = sc.band(1.00, 1.10, MUTED, 0.5, width=2.6)
-        nb = sc.brace_between(1.00, 1.10, "0.10 wide", MUTED)
-        with self.narrate("That is the whole of it. A band nought point one wide."):
-            self.play(FadeIn(narrow), FadeIn(nb), run_time=1.0)
+        # ------------------------------------------------ the step
+        self.heading("A tiny slice of time")
+        ax = Axes(x_range=[0, 6, 1], y_range=[0, 4, 1], x_length=6.6, y_length=3.2,
+                  axis_config=AXIS)
+        St.place(ax, St.STAGE, ay=0.15, fill=False)
+        path = ax.plot_line_graph(
+            x_values=[0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0],
+            y_values=[2.0, 2.3, 2.1, 2.5, 2.35, 2.7, 2.55],
+            line_color=WAIT, add_vertex_dots=False, stroke_width=4)
+        with self.narrate("Here is the money coming in, wandering about as it does. Cut "
+                          "out one tiny slice of time from it."):
+            self.play(Create(ax), run_time=0.8)
+            self.play(Create(path), run_time=1.6)
+
+        band = Rectangle(width=0.7, height=2.4, color=TRIGGER, stroke_width=3,
+                         fill_color=TRIGGER, fill_opacity=0.12)
+        band.move_to(ax.c2p(3.0, 2.0))
+        dt = Text("dt", font=FONT, font_size=T_SUB, color=TRIGGER)
+        dt.next_to(band, DOWN, buff=0.25)
+        with self.narrate("Call the length of that slice d t. The d is just shorthand "
+                          "for a change in something, so d t is a change in time — a "
+                          "very small one."):
+            self.play(FadeIn(band), FadeIn(dt), run_time=0.9)
         self.beat()
 
-        l = sc.add_level("L", 0.72, "0.72", TRIGGER, width=2.6, sw=5)
-        h = sc.add_level("H", 1.62, "1.62", TRIGGER, width=2.6, sw=5)
-        with self.narrate("Now put the uncertainty back in."):
-            self.play(Create(l[0]), FadeIn(l[1]), Create(h[0]), FadeIn(h[1]),
-                      run_time=1.5)
-        wide = sc.band(0.72, 1.62, TRIGGER, 0.16, width=2.6)
-        wb = sc.brace_between(0.72, 1.62, "0.90 wide", TRIGGER)
-        with self.narrate("Nought point seven two, to one point six two. Nought point "
-                          "nine wide."):
-            self.play(FadeOut(nb), FadeIn(wide), FadeIn(wb), run_time=1.2)
-        self.beat()
-
-        nine = St.caption("about nine times wider", TRIGGER, T_SUB, width=18)
-        St.place(nine, St.SIDE, ay=0.6)
-        deriv = St.caption("0.90 ÷ 0.10 — ours, not the paper's", MUTED, T_SMALL,
-                           width=22)
-        St.place(deriv, St.SIDE, ay=0.1)
-        with self.narrate("About nine times wider. That comparison is ours, not the "
-                          "paper's — the paper prints the four levels and calls the "
-                          "difference quite a dramatic difference. We did the division."):
-            self.play(FadeIn(nine), run_time=0.8)
-            self.play(FadeIn(deriv), run_time=0.7)
-        self.beat()
-        name = St.caption("where doing nothing is right", CHALK, T_BODY, width=20)
-        St.place(name, St.SIDE, ay=-0.45)
-        with self.narrate("This band has a name. The zone of inaction. The stretch "
-                          "where the right thing to do is nothing at all."):
-            self.play(FadeIn(name), run_time=0.8)
+        dr = VGroup(Text("dR", font=FONT, font_size=T_SUB, color=WAIT),
+                    St.caption("the change in the money\ncoming in, over that slice",
+                               MUTED, T_SMALL, width=24)).arrange(DOWN, buff=0.25)
+        St.place(dr, St.SIDE, ay=0.4)
+        with self.narrate("And d R is the change in the money coming in over that same "
+                          "slice. Nobody knows which way it will go."):
+            self.play(FadeIn(dr), run_time=0.9)
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ consequences
-        self.heading("Two consequences the paper draws")
-        one = St.caption("small frictions → large rigidities", CHALK, T_SUB, width=34)
-        St.place(one, St.FULL, ay=0.6)
-        with self.narrate("First. Small frictions can produce much larger rigidities "
-                          "than models which ignore gradually-arriving information "
-                          "would ever suggest. A little stickiness goes a very long way."):
-            self.play(FadeIn(one), run_time=1.0)
+        # ------------------------------------------------ two facts
+        self.heading("Two facts about that step")
+        one = VGroup(
+            Text("E[dR]  =  μ R dt", font=FONT, font_size=T_SUB, color=MONEY),
+            St.caption("on average it drifts, at rate μ", MUTED, T_SMALL, width=30),
+        ).arrange(DOWN, buff=0.22)
+        two = VGroup(
+            Text("Var[dR]  =  σ² R² dt", font=FONT, font_size=T_SUB, color=COST),
+            St.caption("and it scatters, by the choppiness σ", MUTED, T_SMALL, width=32),
+        ).arrange(DOWN, buff=0.22)
+        both = VGroup(one, two).arrange(DOWN, buff=0.9)
+        St.place(both, St.FULL, ay=0.35)
+        with self.narrate("The paper writes down two facts about it. E square brackets "
+                          "means on average. On average, the money drifts by a rate "
+                          "called mu, times where it is now, times the length of the "
+                          "slice."):
+            self.play(Write(one[0]), run_time=1.6)
+            self.play(FadeIn(one[1]), run_time=0.6)
         self.beat()
-        self.play(FadeOut(one), run_time=0.4)
+        with self.narrate("And around that average it scatters. The scatter is measured "
+                          "by the choppiness — the sigma from chapter eleven — squared, "
+                          "times where it is now, squared, times the slice."):
+            self.play(Write(two[0]), run_time=1.6)
+            self.play(FadeIn(two[1]), run_time=0.6)
+        self.beat()
+        self.clear_stage()
 
-        boss = stick.StickFigure("an employer", CHALK, hat="specs", scale=0.85)
-        St.place(boss, St.STAGE, ax=-0.75, ay=-0.15)
-        workers = stick.crowd(4, spacing=1.5, scale=0.5)
-        St.place(workers, St.STAGE, ax=0.35, ay=-0.15)
-        with self.narrate("Second, and this one reaches outside the firm altogether. "
-                          "Hiring and firing cost money. So exactly the same logic "
-                          "applies to jobs."):
-            self.play(FadeIn(boss), S.lag_map(FadeIn, workers, lag=0.2),
-                      run_time=1.4)
-        self.side(["employers hoard labour in downturns",
-                   "and are slow to hire in upturns",
-                   "so a worker can sit above the wage — or below it"],
-                  colour=CHALK, dot_colour=WAIT, width=20,
-                  spoken=["Employers hoard labour in downturns.",
-                          "And they are slow to hire in upturns.",
-                          "So what a worker adds to the business can sit well above "
-                          "the wage without anybody being hired — and well below it "
-                          "without anybody being let go."])
-        self.play(*[w.mood("worried") for w in workers], run_time=0.5)
+        # ------------------------------------------------ why the square survives
+        self.heading("Why the square does not cancel")
+        up = VGroup(Text("+2", font=FONT, font_size=T_HEAD, color=MONEY),
+                    Text("−2", font=FONT, font_size=T_HEAD, color=COST)
+                    ).arrange(RIGHT, buff=1.4)
+        St.place(up, St.STAGE, ay=0.85)
+        avg1 = Text("average  =  0", font=FONT, font_size=T_SUB, color=MUTED)
+        avg1.next_to(up, DOWN, buff=0.5)
+        with self.narrate("Here is the thing that makes all of this work. Take a step "
+                          "up and a step down, equally likely. Add them and average. "
+                          "They cancel to nothing."):
+            self.play(FadeIn(up), run_time=0.8)
+            self.play(Write(avg1), run_time=1.0)
         self.beat()
-        with self.narrate("And the paper draws a conclusion from that which is worth "
-                          "hearing. The popular worry about loss of jobs — the one "
-                          "economists usually wave away — may have more justification "
-                          "than the textbook allows."):
-            self.foot("“loss of jobs” may be better founded than we allow", CHALK)
+
+        sq = VGroup(Text("(+2)² = 4", font=FONT, font_size=T_HEAD, color=MONEY),
+                    Text("(−2)² = 4", font=FONT, font_size=T_HEAD, color=MONEY)
+                    ).arrange(RIGHT, buff=1.0)
+        St.place(sq, St.STAGE, ay=-0.35)
+        avg2 = Text("average  =  4", font=FONT, font_size=T_SUB, color=TRIGGER)
+        avg2.next_to(sq, DOWN, buff=0.5)
+        with self.narrate("Now square them first. Minus two squared is four, the same "
+                          "as plus two squared. Squaring throws the minus sign away, so "
+                          "the average of the squares is not nothing at all."):
+            self.play(FadeIn(sq), run_time=1.0)
+            self.play(Write(avg2), run_time=1.0)
+            self.play(S.indicate(avg2, TRIGGER))
+        self.beat()
+
+        key = St.caption("randomness vanishes on average — but not when squared",
+                         TRIGGER, T_SUB, width=54)
+        St.place(key, St.FOOT, pad=0.06)
+        with self.narrate("Randomness disappears when you average it, and survives when "
+                          "you square it first. That is the whole reason a second "
+                          "gradient — which multiplies a square — has anything to say "
+                          "here."):
+            self.play(FadeIn(key), run_time=1.0)
+            self.play(S.flash_around(key, TRIGGER, run_time=2.0))
+        self.beat()
+        self.clear_stage()
+
+        # ------------------------------------------------ E[dR^2]
+        self.heading("So work out the square")
+        l1 = Text("E[dR²]  =  (E[dR])²  +  Var[dR]", font=FONT, font_size=T_SUB,
+                  color=CHALK)
+        l2 = Text("=  μ²R² dt²  +  σ²R² dt", font=FONT, font_size=T_SUB, color=CHALK)
+        l3 = Text("≈  σ²R² dt", font=FONT, font_size=T_SUB, color=TRIGGER)
+        lines = VGroup(l1, l2, l3).arrange(DOWN, buff=0.55, aligned_edge=LEFT)
+        St.place(lines, St.FULL, ay=0.25)
+        with self.narrate("The average of the square is the square of the average, plus "
+                          "the scatter. That is a standard fact about averages, and it "
+                          "is the only one we borrow."):
+            self.play(Write(l1), run_time=1.8)
+        with self.narrate("Put the two facts in, and you get a d t squared term and a d "
+                          "t term."):
+            self.play(Write(l2), run_time=1.8)
+        self.beat()
+
+        tiny = St.caption("dt is tiny — so dt² is tinier still", MUTED, T_BODY, width=34)
+        St.place(tiny, St.FOOT, pad=0.06)
+        with self.narrate("And now the step that makes the whole thing tractable. If d "
+                          "t is a hundredth, d t squared is a ten-thousandth. Make the "
+                          "slice small enough and the squared term is nothing next to "
+                          "the other one. So drop it."):
+            self.play(FadeIn(tiny), run_time=0.9)
+            strike = Line(l2.get_left() + RIGHT * 1.15, l2.get_left() + RIGHT * 3.4,
+                          color=COST, stroke_width=4)
+            self.play(Create(strike), run_time=0.8)
+            self.play(Write(l3), run_time=1.4)
+            self.play(S.flash_around(l3, TRIGGER))
         self.beat()
 
         self.close_chapter([
-            "sunk costs alone: 1.00 – 1.10",
-            "with uncertainty: 0.72 – 1.62",
-            "small frictions → large rigidities",
-            "and the same logic applies to jobs",
+            "dt is a tiny slice of time; dR the change in it",
+            "on average it drifts by μ; it scatters by σ",
+            "a square keeps what an average throws away",
+            "so E[dR²] is σ²R² dt, and nothing else survives",
         ])

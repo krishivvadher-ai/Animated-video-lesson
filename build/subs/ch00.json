@@ -1,101 +1,101 @@
 {
  "chapter": 0,
  "title": "Two things that should not happen",
- "duration": 118.59999999999906,
+ "duration": 118.79999999999956,
  "cues": [
   {
-   "start": 6.166666666666658,
-   "end": 10.985668934240355,
+   "start": 6.333333333333329,
+   "end": 11.152335600907024,
    "text": "Here is a farmer. For four years running, his farm has lost money.",
    "voice": "n"
   },
   {
-   "start": 11.43333333333332,
-   "end": 18.250975056689327,
+   "start": 11.599999999999989,
+   "end": 18.417641723356,
    "text": "Every year, more money went out of the farm than came in. And every year the hole got deeper.",
    "voice": "n"
   },
   {
-   "start": 18.699999999999974,
-   "end": 24.801088435374126,
+   "start": 18.866666666666646,
+   "end": 24.967755102040798,
    "text": "Anybody watching would tell him to stop. He does not stop. He keeps farming.",
    "voice": "n"
   },
   {
-   "start": 28.3333333333335,
-   "end": 35.31678004535164,
+   "start": 28.533333333333296,
+   "end": 35.51678004535144,
    "text": "And here is Nell. Nell owns a small factory, and she has the chance to build a second one.",
    "voice": "n"
   },
   {
-   "start": 35.76666666666692,
-   "end": 44.41061224489822,
+   "start": 35.93333333333329,
+   "end": 44.577278911564576,
    "text": "The sums say the new factory would earn her far more than her money is costing her. On paper, she should build it tomorrow.",
    "voice": "n"
   },
   {
-   "start": 44.83333333333343,
-   "end": 49.866303854875376,
+   "start": 45.00000000000009,
+   "end": 50.03297052154204,
    "text": "She refuses. Not this year. Perhaps not next year either.",
    "voice": "n"
   },
   {
-   "start": 52.69999999999994,
-   "end": 55.06267573696139,
+   "start": 52.933333333333564,
+   "end": 55.296009070295014,
    "text": "Both of them look irrational.",
    "voice": "n"
   },
   {
-   "start": 55.89999999999989,
-   "end": 59.759546485260664,
+   "start": 56.1333333333336,
+   "end": 59.992879818594375,
    "text": "Both of them are, in fact, behaving correctly.",
    "voice": "n"
   },
   {
-   "start": 60.599999999999845,
-   "end": 67.50294784580484,
+   "start": 60.80000000000031,
+   "end": 67.7029478458053,
    "text": "And by the end of this film, you will be able to say exactly why \u2014 in your own words.",
    "voice": "n"
   },
   {
-   "start": 70.3999999999997,
-   "end": 79.93528344671171,
+   "start": 70.6666666666669,
+   "end": 80.20195011337891,
    "text": "Nell makes the decisions. She owns the factory. Every choice in this film is hers, and she is sensible \u2014 not timid.",
    "voice": "n"
   },
   {
-   "start": 80.36666666666628,
-   "end": 90.24743764172297,
+   "start": 80.60000000000014,
+   "end": 90.48077097505683,
    "text": "Marshall carries the textbook. He always gives the standard answer. He is right when the world is calm, and badly wrong when it is not.",
    "voice": "n"
   },
   {
-   "start": 90.66666666666617,
-   "end": 95.87251700680223,
+   "start": 90.8666666666667,
+   "end": 96.07251700680276,
    "text": "And Ava asks the questions you would ask. She never lets Marshall get away with anything.",
    "voice": "c"
   },
   {
-   "start": 96.29999999999941,
-   "end": 102.828480725623,
+   "start": 96.4666666666666,
+   "end": 102.99514739229018,
    "text": "We start from nothing at all. No economics is assumed. Not one word of it.",
    "voice": "n"
   },
   {
-   "start": 105.66666666666598,
-   "end": 109.52802721088366,
+   "start": 105.86666666666649,
+   "end": 109.72802721088418,
    "text": "a farmer absorbs losses, and will not shut",
    "voice": "n"
   },
   {
-   "start": 109.66666666666592,
-   "end": 113.42253968253894,
+   "start": 109.86666666666642,
+   "end": 113.62253968253944,
    "text": "an owner refuses a project the sums approve",
    "voice": "n"
   },
   {
-   "start": 113.56666666666585,
-   "end": 116.35274376417152,
+   "start": 113.73333333333302,
+   "end": 116.51941043083869,
    "text": "both are correct \u2014 that is the film",
    "voice": "n"
   }

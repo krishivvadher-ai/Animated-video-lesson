@@ -1,131 +1,131 @@
 {
  "chapter": 18,
  "title": "Two countries",
- "duration": 206.06666666666547,
+ "duration": 212.63333333333148,
  "cues": [
   {
-   "start": 6.333333333333329,
-   "end": 13.311700680272104,
+   "start": 6.166666666666658,
+   "end": 13.145034013605434,
    "text": "Here is Nell, in America. And here is Kenji, running a similar factory in Japan.",
    "voice": "n"
   },
   {
-   "start": 13.733333333333324,
-   "end": 29.727301587301575,
+   "start": 13.566666666666652,
+   "end": 29.560634920634904,
    "text": "American firms of the period demanded very high returns before they would build \u2014 and then abandoned whole fields after short stretches of losses. Colour televisions. Video recorders. Semiconductors.",
    "voice": "n"
   },
   {
-   "start": 30.13333333333332,
-   "end": 37.67197278911563,
+   "start": 29.99999999999998,
+   "end": 37.53863945578229,
    "text": "Japanese firms did the opposite on both counts. They invested aggressively, and they hung on.",
    "voice": "n"
   },
   {
-   "start": 42.200000000000145,
-   "end": 53.137097505669075,
+   "start": 42.666666666666515,
+   "end": 53.603764172335445,
    "text": "Remember what uncertainty does to the two lines. It raises the build-line and lowers the quit-line. Together. It cannot do one without the other.",
    "voice": "n"
   },
   {
-   "start": 54.33333333333356,
-   "end": 67.53564625850363,
+   "start": 55.433333333333074,
+   "end": 68.63564625850314,
    "text": "So a firm too hesitant to invest should be more willing to ride out bad periods, not less. The American firms were the opposite on both counts. The story does not fit.",
    "voice": "n"
   },
   {
-   "start": 70.46666666666692,
-   "end": 79.06390022675762,
+   "start": 72.16666666666617,
+   "end": 80.76390022675687,
    "text": "The usual explanation is lifetime employment, which makes labour a cost you carry whether you use it or not.",
    "voice": "n"
   },
   {
-   "start": 79.46666666666688,
-   "end": 87.70399092970543,
+   "start": 81.19999999999946,
+   "end": 89.43732426303801,
    "text": "Lower day-to-day costs do mean revenue has to fall further before quitting makes sense. So far so good.",
    "voice": "n"
   },
   {
-   "start": 88.13333333333351,
-   "end": 95.1529251700682,
+   "start": 89.86666666666609,
+   "end": 96.88625850340078,
    "text": "But larger fixed and sunk commitments should make those same firms reluctant investors.",
    "voice": "n"
   },
   {
-   "start": 95.60000000000014,
-   "end": 103.06108843537429,
+   "start": 97.33333333333272,
+   "end": 104.79442176870687,
    "text": "And they were the opposite. Particularly aggressive ones. So that explanation does not work either.",
    "voice": "n"
   },
   {
-   "start": 105.99999999999999,
-   "end": 113.33551020408161,
+   "start": 108.33333333333259,
+   "end": 115.66884353741422,
    "text": "Here is the spread of possible futures for a firm. Bad ones to the left, good ones to the right.",
    "voice": "n"
   },
   {
-   "start": 113.73333333333319,
-   "end": 124.4018594104307,
+   "start": 116.09999999999913,
+   "end": 126.76852607709664,
    "text": "For the Japanese firms, the bad half was cushioned. Government support, and cartels tolerated in recessions, cut off the worst outcomes.",
    "voice": "n"
   },
   {
-   "start": 125.59999999999975,
-   "end": 134.77401360544192,
+   "start": 128.59999999999903,
+   "end": 137.7740136054412,
    "text": "Now use the bad news principle. Waiting is worth less when there is less bad news to wait out. So they entered early.",
    "voice": "n"
   },
   {
-   "start": 138.06666666666626,
-   "end": 143.7288888888885,
+   "start": 141.59999999999886,
+   "end": 147.26222222222108,
    "text": "the good news principle. Staying is governed by the good possible outcomes.",
    "voice": "n"
   },
   {
-   "start": 146.66666666666623,
-   "end": 156.86571428571386,
+   "start": 150.79999999999882,
+   "end": 160.99904761904645,
    "text": "And because the upside mattered relatively more for them, they stayed late as well. One lopsided distribution, both puzzles solved.",
    "voice": "n"
   },
   {
-   "start": 159.79999999999941,
-   "end": 172.0775963718815,
+   "start": 164.533333333332,
+   "end": 176.81092970521408,
    "text": "Which gives two rules, and they are probably the most practically useful sentences in the whole article. To get firms to invest sooner, reduce the downside risk.",
    "voice": "n"
   },
   {
-   "start": 173.26666666666603,
-   "end": 177.01092970521478,
+   "start": 178.63333333333196,
+   "end": 182.3775963718807,
    "text": "To stop firms leaving, improve the upside.",
    "voice": "n"
   },
   {
-   "start": 178.1999999999993,
-   "end": 184.99151927437572,
+   "start": 184.1999999999986,
+   "end": 190.991519274375,
    "text": "Different instruments, for different jobs. Remember that. Part Three is built on it.",
    "voice": "n"
   },
   {
-   "start": 187.26666666666577,
-   "end": 191.9977777777769,
+   "start": 193.83333333333172,
+   "end": 198.56444444444284,
    "text": "US: late in, early out \u00b7 Japan: the reverse",
    "voice": "n"
   },
   {
-   "start": 192.13333333333236,
-   "end": 195.51768707482896,
+   "start": 198.69999999999834,
+   "end": 202.08435374149494,
    "text": "option value moves both lines together",
    "voice": "n"
   },
   {
-   "start": 195.66666666666563,
-   "end": 199.36598639455678,
+   "start": 202.23333333333161,
+   "end": 205.93265306122277,
    "text": "cushioned downside \u21d2 early in, late out",
    "voice": "n"
   },
   {
-   "start": 199.46666666666556,
-   "end": 203.81464852607598,
+   "start": 206.0666666666649,
+   "end": 210.41464852607533,
    "text": "downside \u2192 entry \u00b7 upside \u2192 staying",
    "voice": "n"
   }

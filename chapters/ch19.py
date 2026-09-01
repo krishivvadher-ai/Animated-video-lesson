@@ -3,135 +3,156 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from manim import *
 from lib.base import Chapter
 from lib import stick, cards, widgets as W, style as S, stage as St
-from lib.scale import MasterScale
 from lib.theme import *
 
 
 class Chapter19(Chapter):
     CH = 19
-    TITLE = "What a whole industry looks like"
+    TITLE = "Two curves, and where they touch"
     PART = "PART ONE — THE PAPER"
-    RECAP_ICONS = ["people", "scale", "clock", "risk"]
+    RECAP_ICONS = ["scale", "door", "flow", "money"]
 
     def body(self):
-        # ------------------------------------------------ entry and exit
-        self.heading("Many firms, between two lines")
-        sc = MasterScale(x=-5.4, y=-0.35, height=4.4)
-        sc.title.become(Text("The price in\nthe market", font=FONT, font_size=T_SMALL,
-                             color=MUTED, line_spacing=0.9).move_to(sc.title))
-        self.play(Create(sc.axis), FadeIn(sc.arrow_head), FadeIn(sc.title), run_time=1.0)
-        h = sc.add_level("H", 1.62, "H — firms enter", TRIGGER, width=3.0, sw=5)
-        l = sc.add_level("L", 0.72, "L — firms leave", TRIGGER, width=3.0, sw=5)
-        m = sc.add_level("M", 1.10, "average cost", COST, width=3.0, dashed=True, sw=3)
+        # ------------------------------------------------ the second equation
+        self.heading("A live project pays you while you hold it")
+        wait_ = VGroup(cards.icon("clock", WAIT, 1.6),
+                       St.caption("waiting pays nothing", WAIT, T_SMALL, width=20)
+                       ).arrange(DOWN, buff=0.28)
+        live = VGroup(cards.icon("money", MONEY, 1.6),
+                      St.caption("a built project pays R", MONEY, T_SMALL, width=20)
+                      ).arrange(DOWN, buff=0.28)
+        two = VGroup(wait_, live).arrange(RIGHT, buff=3.0)
+        St.place(two, St.FULL, ay=0.55)
+        with self.narrate("Everything so far was about the chance to build, which pays "
+                          "you nothing while you hold it."):
+            self.play(FadeIn(wait_), run_time=0.9)
+        with self.narrate("A project that has actually been built is different. It "
+                          "hands you the money coming in, every year, while you own "
+                          "it. So the balance has one more thing on it."):
+            self.play(FadeIn(live), run_time=0.9)
 
-        crowd = stick.crowd(6, spacing=1.5, scale=0.45)
-        St.place(crowd, St.SIDE, ay=-0.62)
-        with self.narrate("Six similar firms, all facing the same swinging demand."):
-            self.play(S.lag_map(FadeIn, crowd, lag=0.15), run_time=1.2)
-
-        extra = stick.crowd(2, spacing=1.5, scale=0.45)
-        extra.next_to(crowd, UP, buff=0.5)
-        with self.narrate("When the price rises to the entry line, new firms come in. "
-                          "More supply, and the price stops rising. So it never gets "
-                          "above that line."):
-            self.play(Create(h[0]), FadeIn(h[1]), run_time=1.0)
-            self.play(FadeIn(extra, shift=DOWN * 0.4), run_time=1.0)
-        with self.narrate("And when the price falls to the exit line, firms leave. Less "
-                          "supply, and the price stops falling. So it never gets below "
-                          "that one either."):
-            self.play(Create(l[0]), FadeIn(l[1]), run_time=1.0)
-            self.play(FadeOut(extra, shift=UP * 0.4), run_time=1.0)
-        self.beat()
-        self.play(FadeOut(crowd), run_time=0.4)
-
-        # ------------------------------------------------ why H is above cost
-        self.play(Create(m[0]), FadeIn(m[1]), run_time=0.8)
-        self.side(["cap the price at average cost",
-                   "never better than normal",
-                   "so on average, a loss",
-                   "nobody would ever enter"],
-                  colour=CHALK, dot_colour=TRIGGER, width=18,
-                  spoken=["Why must the entry line sit above average cost? Suppose it "
-                          "did not — suppose entry capped the price exactly at average "
-                          "cost.",
-                          "Then firms could never do better than normal, and bad spells "
-                          "would still push them below it.",
-                          "So on average they would lose. And nobody would enter at all.",
-                          "Which means the entry line has to leave room for the good "
-                          "spells to pay for the bad ones. The same argument upside "
-                          "down holds the exit line below day-to-day cost."])
+        eq = Text("½σ²R² V₁″  +  μR V₁′  −  ρV₁  +  R  =  0", font=FONT,
+                  font_size=T_SUB, color=MONEY)
+        St.place(eq, St.FULL, ay=-0.35)
+        with self.narrate("Which is the same equation with a single extra R on the "
+                          "end — the revenue it pays out. That is equation A five."):
+            self.play(Write(eq), run_time=2.2)
+        sol = Text("V₁(R)  =  R ÷ (ρ − μ)  +  A R^α", font=FONT, font_size=T_SUB,
+                   color=MONEY)
+        St.place(sol, St.FOOT, pad=0.06)
+        with self.narrate("Its answer is the plain worth of the revenue stream, plus a "
+                          "term that is the value of the option to give up. That option "
+                          "is worthless when takings are enormous, which is what fixes "
+                          "which power survives this time."):
+            self.play(Write(sol), run_time=2.2)
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ the striking result
-        self.heading("The striking part")
-        same = St.caption("the market's two lines are the\nsingle firm's two lines",
-                          CHALK, T_SUB, width=32)
-        St.place(same, St.FULL, ay=0.55)
-        with self.narrate("With these particular assumptions, the market's two lines "
-                          "turn out to be exactly the ones a single firm on its own "
-                          "would have chosen. So every number from chapter fifteen "
-                          "carries straight over."):
-            self.play(FadeIn(same), run_time=1.1)
+        # ------------------------------------------------ the two curves
+        self.heading("Now draw both, on one picture")
+        ax = Axes(x_range=[0, 6, 1], y_range=[-1, 5, 1], x_length=7.0, y_length=4.0,
+                  axis_config=AXIS)
+        St.place(ax, St.STAGE, ay=0.0, fill=False)
+        xl = Text("money coming in →", font=FONT, font_size=T_TINY, color=MUTED)
+        xl.next_to(ax, DOWN, buff=0.18)
+        self.play(Create(ax), FadeIn(xl), run_time=0.9)
+
+        v0 = ax.plot(lambda x: 0.055 * x ** 2.6, x_range=[0.2, 4.4], color=WAIT,
+                     stroke_width=5)
+        v0l = Text("waiting", font=FONT, font_size=T_SMALL, color=WAIT)
+        v0l.next_to(ax.c2p(2.2, 0.055 * 2.2 ** 2.6), UP, buff=0.3)
+        with self.narrate("Here is what waiting is worth: B times R to the beta, the "
+                          "curve we just derived."):
+            self.play(Create(v0), FadeIn(v0l), run_time=1.6)
+
+        v1 = ax.plot(lambda x: 1.05 * x - 1.15 - 0.5 / max(x, 0.35),
+                     x_range=[0.6, 5.6], color=MONEY, stroke_width=5)
+        v1l = Text("built, and running", font=FONT, font_size=T_SMALL, color=MONEY)
+        v1l.next_to(ax.c2p(4.9, 1.05 * 4.9 - 1.15 - 0.5 / 4.9), UP, buff=0.3)
+        with self.narrate("And here is what a running project is worth, once you allow "
+                          "it to be abandoned. Nearly a straight line when takings are "
+                          "high, bending away as they fall."):
+            self.play(Create(v1), FadeIn(v1l), run_time=1.8)
         self.beat()
-        with self.narrate("Carry the caveat, because it matters later. That result "
-                          "holds for identical, small, price-taking firms, under the "
-                          "paper's particular assumptions. It is not a general truth."):
-            self.foot("identical small price-takers only", MUTED)
+
+        # ------------------------------------------------ value matching
+        self.heading("Two conditions, at each end")
+        H = 4.1
+        dh0 = Dot(ax.c2p(H, 0.055 * H ** 2.6), radius=0.09, color=TRIGGER)
+        dh1 = Dot(ax.c2p(H, 1.05 * H - 1.15 - 0.5 / H), radius=0.09, color=TRIGGER)
+        gap = DoubleArrow(dh0.get_center(), dh1.get_center(), color=TRIGGER,
+                          stroke_width=4, buff=0.02, tip_length=0.14)
+        kl = Text("K", font=FONT, font_size=T_SUB, color=TRIGGER)
+        kl.next_to(gap, RIGHT, buff=0.2)
+        with self.narrate("At the level where she builds, stepping from one curve to "
+                          "the other must be worth exactly the cost of building. Not "
+                          "more, or she would have built sooner. Not less, or she would "
+                          "not build at all."):
+            self.play(FadeIn(dh0), FadeIn(dh1), run_time=0.7)
+            self.play(GrowFromCenter(gap), FadeIn(kl), run_time=0.9)
+        vm = Text("V₁(H) − V₀(H)  =  K", font=FONT, font_size=T_BODY, color=TRIGGER)
+        St.place(vm, St.SIDE, ay=0.75)
+        self.play(Write(vm), run_time=1.4)
+        self.beat()
+
+        sp = Text("V₁′(H) − V₀′(H)  =  0", font=FONT, font_size=T_BODY, color=MONEY)
+        St.place(sp, St.SIDE, ay=0.25)
+        with self.narrate("And a second condition, which is the subtle one. The two "
+                          "curves must not just be the right distance apart — they must "
+                          "have the same steepness there. They meet tangentially."):
+            self.play(Write(sp), run_time=1.6)
+
+        why = St.caption("a kink would mean money\nleft on the table", MUTED,
+                         T_SMALL, width=22)
+        St.place(why, St.SIDE, ay=-0.35)
+        with self.narrate("Because a corner would mean the trigger was in the wrong "
+                          "place: nudge it either way and you would do better. Only "
+                          "where the slopes agree is there nothing left to gain. "
+                          "Economists call it smooth pasting."):
+            self.play(FadeIn(why), run_time=0.9)
+            self.play(S.indicate(sp, MONEY))
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ the frozen industry
-        self.heading("An industry sitting still")
-        q = cards.quote_card(
-            "significant periods of supernormal profits with no new entry, and of "
-            "operating losses without exit", "Dixit (1992), p. 126", CHALK, width=40)
-        St.place(q, St.FULL, ay=0.72)
-        with self.narrate("So what should we expect to see? In the paper's own words: "
-                          "significant periods of supernormal profits with no new "
-                          "entry, and of operating losses without exit."):
-            self.play(FadeIn(q), run_time=1.2)
+        # ------------------------------------------------ four equations
+        self.heading("Four conditions, four unknowns")
+        rows = St.points(["V₁(H) − V₀(H) = K", "V₁′(H) − V₀′(H) = 0",
+                          "V₁(L) − V₀(L) = 0", "V₁′(L) − V₀′(L) = 0"],
+                         colour=CHALK, dot_colour=TRIGGER, size=T_BODY, width=26)
+        St.place(rows, St.STAGE, ay=0.1)
+        unk = St.points(["A", "B", "H", "L"], colour=MUTED, dot_colour=MUTED,
+                        size=T_BODY, width=12)
+        St.place(unk, St.SIDE, ay=0.1)
+        ul = Text("the unknowns", font=FONT, font_size=T_SMALL, color=MUTED)
+        ul.next_to(unk, UP, buff=0.4)
+        says = ["At the build line, the step up is worth the cost.",
+                "And the slopes agree there.",
+                "At the give-up line, the step is worth nothing at all — she simply "
+                "walks away.",
+                "And the slopes agree there too."]
+        for i, row in enumerate(rows):
+            with self.narrate(says[i]):
+                self.play(FadeIn(row), run_time=0.7)
+        with self.narrate("Four conditions. Four unknowns: the two amounts, and the two "
+                          "levels."):
+            self.play(FadeIn(ul), FadeIn(unk), run_time=0.9)
         self.beat()
 
-        firms = stick.crowd(6, spacing=1.7, scale=0.5)
-        St.place(firms, St.FULL, ay=-0.55)
-        tags = VGroup(*[Text(t, font=FONT, font_size=T_SMALL, color=c)
-                        for t, c in [("profit", MONEY), ("profit", MONEY),
-                                     ("profit", MONEY), ("loss", COST),
-                                     ("loss", COST), ("profit", MONEY)]])
-        for tg, f in zip(tags, firms):
-            tg.next_to(f, DOWN, buff=0.22)
-        with self.narrate("An industry sitting perfectly still. Profitable firms not "
-                          "expanding. Loss-making firms not closing. And nothing wrong "
-                          "anywhere."):
-            self.play(S.lag_map(FadeIn, firms, lag=0.12), run_time=1.2)
-            self.play(S.lag_map(FadeIn, tags, lag=0.12), run_time=1.0)
-            self.foot("nothing happens — and nothing is wrong", MUTED)
-        self.beat()
-        self.clear_stage()
-
-        # ------------------------------------------------ the warning
-        self.heading("The warning for anyone in charge")
-        self.side(["profits without entry ≠ monopoly",
-                   "selling below cost ≠ predation",
-                   "a price cap ⇒ less entry ⇒ HIGHER long-run price",
-                   "propping firms up draws extra entry"],
-                  colour=CHALK, dot_colour=COST, width=26, region=St.FULL,
-                  spoken=["A snapshot misleads. Firms making good profits with no new "
-                          "entrants is not proof of monopoly.",
-                          "Firms selling below day-to-day cost is not proof of "
-                          "predatory pricing.",
-                          "And there is a sting. An action aimed at those profits — an "
-                          "antitrust case, a price cap — depresses entry. And the "
-                          "reduced supply can actually raise the long-run average price.",
-                          "And a government that props firms up in bad times will be "
-                          "anticipated. That draws in extra entry, which makes the "
-                          "losses worse when the bad times actually arrive."])
+        honest = St.caption("no formula exists — it is solved numerically", SUNK,
+                            T_SUB, width=48)
+        St.place(honest, St.FOOT, pad=0.06)
+        with self.narrate("And the paper is honest about what happens next. There is no "
+                          "formula. The four have to be solved together on a computer. "
+                          "Which is exactly why the two numbers chapter thirteen ended "
+                          "on were printed rather than derived: nought point seven two, "
+                          "and one point six two."):
+            self.play(FadeIn(honest), run_time=1.0)
+            self.play(S.flash_around(honest, SUNK, run_time=2.0))
         self.beat()
 
         self.close_chapter([
-            "entry caps at H · exit floors at L",
-            "H above average cost, or nobody enters",
-            "profits without entry · losses without exit",
-            "so a snapshot misleads",
+            "a running project pays R, so its equation gains +R",
+            "at H the step between curves is worth K",
+            "and the slopes must agree: smooth pasting",
+            "four conditions, four unknowns, solved by computer",
         ])

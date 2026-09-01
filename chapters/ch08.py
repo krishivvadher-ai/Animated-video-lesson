@@ -250,7 +250,7 @@ class Chapter08(Chapter):
             with self.narrate(say):
                 self.play(FadeIn(dot), FadeIn(mark), run_time=0.9)
         self.beat()
-        with self.narrate("Hold that picture. In chapter thirty-five we come back to "
+        with self.narrate("Hold that picture. In chapter forty-one we come back to "
                           "this exact sheet, and watch a firm walked across it — in the "
                           "wrong direction."):
             self.move_camera(phi=62 * DEGREES, theta=-160 * DEGREES, run_time=4.0)

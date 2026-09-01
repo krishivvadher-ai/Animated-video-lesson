@@ -8,158 +8,118 @@ from lib.theme import *
 
 class Chapter33(Chapter):
     CH = 33
-    TITLE = "One sentence, two different kinds of claim"
-    PART = "PART THREE — THE ARGUMENT"
-    RECAP_ICONS = ["shield", "scale", "door", "people"]
+    TITLE = "Channels two and three"
+    PART = "PART TWO — THE POLICY"
+    RECAP_ICONS = ["signal", "flow", "clock", "fog"]
 
     def body(self):
-        # ------------------------------------------------ the sentence
-        self.heading("The sentence Part Two turns on")
-        half1 = Text("this fall in the cost of capital", font=FONT,
-                     font_size=T_BODY, color=WAIT)
-        half2 = Text("should boost consumption\nand investment", font=FONT,
-                     font_size=T_BODY, color=TRIGGER, line_spacing=0.95)
-        sentence = VGroup(half1, half2).arrange(DOWN, buff=0.3)
-        St.place(sentence, St.FULL, ay=0.9)
-        src = cards.source_tag("Bowdler & Radia, p. 612", SRC_BR)
-        src.next_to(sentence, DOWN, buff=0.45)
-        with self.narrate("Here is the sentence the whole of Part Two turns on. It is "
-                          "on page six hundred and twelve, and these are the authors' "
-                          "exact words."):
-            self.play(Write(half1), run_time=1.5)
-            self.play(Write(half2), run_time=1.8)
-            self.play(FadeIn(src), run_time=0.5)
-        self.wait(1.4)
+        # ------------------------------------------------ channel two: saying so
+        self.heading("Channel two: saying so")
+        gov = stick.governor(scale=0.9)
+        St.place(gov, St.STAGE, ax=-0.75, ay=-0.3)
+        with self.narrate("The second channel does not need the money to go anywhere at "
+                          "all. It works purely through what the action tells "
+                          "everybody."):
+            self.play(FadeIn(gov), FadeIn(gov.label()), run_time=0.8)
 
-        with self.narrate("It contains two completely different kinds of claim, "
-                          "stitched together. Split it in half."):
-            self.play(half1.animate.shift(LEFT * 3.2),
-                      half2.animate.shift(RIGHT * 3.2 + UP * 0.62),
-                      FadeOut(src), run_time=1.4)
-        divider = DashedLine(UP * 2.0, DOWN * 2.6, color=MUTED, stroke_width=3)
-        self.play(Create(divider), run_time=0.7)
+        waves = VGroup(*[Arc(radius=r, start_angle=-PI / 3, angle=2 * PI / 3,
+                             color=SRC_BR, stroke_width=4 - i * 0.5)
+                         for i, r in enumerate((1.0, 1.6, 2.2, 2.8))])
+        waves.move_to(gov.get_right() + RIGHT * 0.1)
+        msg = St.caption("we are serious, and\nwe are not finished", SRC_BR,
+                         T_BODY, width=22)
+        St.place(msg, St.SIDE, ay=0.55)
+        with self.narrate("A very large purchase is a signal. It says the central bank "
+                          "is serious about getting the economy going, and that it will "
+                          "keep rates low for a long time yet."):
+            self.play(S.lag_map(Create, waves, lag=0.18), run_time=1.6)
+            self.play(FadeIn(msg), run_time=0.7)
 
-        q1 = St.caption("does cheaper money arrive?", WAIT, T_BODY, width=20)
-        q1.next_to(half1, DOWN, buff=0.5)
-        with self.narrate("The first half is a question about prices. Does the cheaper "
-                          "money actually arrive at a firm? You can go and check that."):
-            self.play(FadeIn(q1), run_time=0.8)
-        q2 = St.caption("what does a firm then do?", TRIGGER, T_BODY, width=20)
-        q2.next_to(half2, DOWN, buff=0.5)
-        with self.narrate("The second half is a question about behaviour. What does a "
-                          "firm do once the money has arrived? That is a different sort "
-                          "of question entirely."):
-            self.play(FadeIn(q2), run_time=0.8)
+        crowd = stick.crowd(4, spacing=1.0, scale=0.42)
+        St.place(crowd, St.FULL, ay=-0.82)
+        with self.narrate("And if everybody believes that, they act on it now, before "
+                          "anything else has happened at all."):
+            self.play(FadeIn(crowd), run_time=0.8)
+            self.play(S.pulse(crowd, SRC_BR))
         self.beat()
 
-        # ------------------------------------------------ the shields
-        shields = VGroup()
-        for t in ("banks impaired", "no market access", "may not benefit"):
-            sh = W.shield(SUNK, None, scale=0.55)
-            lab = Text(t, font=FONT, font_size=T_SMALL, color=SUNK)
-            lab.next_to(sh, RIGHT, buff=0.24)
-            shields.add(VGroup(sh, lab))
-        shields.arrange(DOWN, buff=0.24, aligned_edge=LEFT)
-        shields.next_to(q1, DOWN, buff=0.4)
-        says = ["The first half gets hedged. Banks were impaired.",
-                "Households and smaller companies have no access to capital markets.",
-                "So they may not directly benefit."]
-        for i, sh in enumerate(shields):
+        anchor = St.caption("expectations of inflation, held down", TRIGGER,
+                            T_SUB, width=36)
+        St.place(anchor, St.FOOT, pad=0.06)
+        with self.narrate("Which helps keep people's expectations of future inflation "
+                          "anchored. And expectations, as a later chapter will show, "
+                          "are themselves a lever."):
+            self.play(FadeIn(anchor), run_time=0.8)
+        self.beat()
+        self.clear_stage()
+
+        # ------------------------------------------------ channel three: liquidity
+        self.heading("Channel three: oiling the wheels")
+        self.define("liquidity", "How easily a thing can be sold without moving its "
+                    "price.", "flow", WAIT, hold=4.2)
+
+        market = Rectangle(width=5.0, height=2.6, color=MUTED, stroke_width=3)
+        St.place(market, St.STAGE, ax=-0.1, ay=0.15)
+        mlab = Text("the market", font=FONT, font_size=T_SMALL, color=MUTED)
+        mlab.next_to(market, UP, buff=0.2)
+        ice = W.fog(width=4.8, height=2.4, n=8, color=WAIT, opacity=0.5)
+        ice.move_to(market.get_center())
+        buyers = VGroup(*[stick.StickFigure("", CHALK, scale=0.4) for _ in range(3)])
+        buyers.arrange(RIGHT, buff=0.9).move_to(market.get_center())
+        with self.narrate("When markets seize up, you may not be able to find a buyer "
+                          "at all. So investors demand a higher return to compensate "
+                          "them for that risk."):
+            self.play(Create(market), FadeIn(mlab), run_time=0.8)
+            self.play(FadeIn(ice), run_time=1.0)
+
+        prem = W.Bar(1.9, color=COST, width=0.8)
+        St.place(prem, St.SIDE, ay=-0.25)
+        pl = Text("extra return\ndemanded", font=FONT, font_size=T_TINY, color=COST,
+                  line_spacing=0.9)
+        pl.next_to(prem, DOWN, buff=0.2)
+        St.collapse_bars(VGroup(prem))
+        self.play(St.grow_bars(VGroup(prem)), FadeIn(pl))
+
+        with self.narrate("A central bank buying on a very large scale is, among other "
+                          "things, a buyer. It puts trading back into the market, and "
+                          "that premium comes down."):
+            self.play(FadeOut(ice), FadeIn(buyers), run_time=1.2)
+            self.play(prem.rect.animate.stretch_to_fit_height(0.55).move_to(
+                prem.rect.get_bottom() + UP * 0.275), run_time=1.2)
+        self.beat()
+        self.clear_stage()
+
+        # ------------------------------------------------ the caveats
+        self.heading("And the authors' own hedges")
+        hedges = [("clock", "probably only while the buying goes on", MUTED),
+                  ("flow", "gilt markets are very liquid anyway", MUTED),
+                  ("fog", "so this one may be small", COST)]
+        cols = VGroup()
+        for kind, text, col in hedges:
+            cols.add(VGroup(cards.icon(kind, col, 1.5),
+                            St.caption(text, col, T_SMALL, width=18)
+                            ).arrange(DOWN, buff=0.3))
+        cols.arrange(RIGHT, buff=1.1)
+        St.place(cols, St.FULL, ay=0.15)
+        says = ["But the authors are careful about this one. The effect probably lasts "
+                "only while the purchases are going on.",
+                "And in gilt markets, which are normally very liquid anyway,",
+                "it may be small."]
+        for i, c in enumerate(cols):
             with self.narrate(says[i]):
-                self.play(FadeIn(sh, shift=UP * 0.2), run_time=0.7)
-
-        with self.narrate("And be fair to them. These are honest, careful "
-                          "qualifications. They also name several other routes by which "
-                          "small firms might still benefit — through supply chains, "
-                          "through a cheaper currency helping exporters, and through "
-                          "banks passing on lower rates. All of that is in the article."):
-            self.play(S.flash_around(shields, SUNK, run_time=2.4))
-
-        kit = stick.kit(scale=0.55)
-        kit.next_to(q2, DOWN, buff=0.9)
-        with self.narrate("Now Kit waits for the same thing to happen to the other "
-                          "half.", v="c"):
-            self.play(FadeIn(kit), run_time=0.6)
-            self.play(kit.mood("thinking"), run_time=0.4)
-        # the film's scripted silence
-        self.wait(3.4)
-
-        count = St.caption("three hedges  ·  none", CHALK, T_SUB, width=26)
-        St.place(count, St.FOOT, pad=0.06)
-        with self.narrate("One half of that sentence is hedged three times. The other "
-                          "half is not hedged once."):
-            self.play(FadeIn(count), run_time=0.9)
-            self.play(S.flash_around(count, SRC_KIT, run_time=2.0))
-        self.beat()
-        self.clear_stage()
-
-        # ------------------------------------------------ what Kit actually says
-        self.heading("And notice what he is not saying")
-        not_this = St.caption("not: the sentence is wrong", MUTED, T_SUB, width=26)
-        St.place(not_this, St.FULL, ay=0.85)
-        but_this = St.caption("but: two halves, one level of trust",
-                              SRC_KIT, T_SUB, width=34)
-        St.place(but_this, St.FULL, ay=0.25)
-        with self.narrate("His first reaction is not disagreement, and that matters for "
-                          "everything that follows.", v="c"):
-            self.play(FadeIn(not_this), run_time=0.8)
-        with self.narrate("His first reaction is that two halves of one sentence are "
-                          "not the same kind of statement, and are being given the same "
-                          "amount of trust.", v="c"):
-            self.play(FadeIn(but_this), run_time=0.9)
-        self.beat()
-        self.clear_stage()
-
-        # ------------------------------------------------ the machine
-        self.heading("Why the second half goes unexamined")
-        market = VGroup(cards.icon("flow", SRC_BR, 1.7),
-                        St.caption("markets: modelled in\nenormous detail",
-                                   SRC_BR, T_SMALL, width=20)
-                        ).arrange(DOWN, buff=0.3)
-        machine = VGroup(
-            Rectangle(width=2.0, height=1.5, color=MUTED, stroke_width=3),
-            Text("the firm", font=FONT, font_size=T_SMALL, color=MUTED))
-        machine[1].move_to(machine[0].get_center())
-        box = VGroup(machine, St.caption("a machine: numbers in,\ndecision out",
-                                         MUTED, T_SMALL, width=20)
-                     ).arrange(DOWN, buff=0.3)
-        two = VGroup(market, box).arrange(RIGHT, buff=2.4)
-        St.place(two, St.FULL, ay=0.2)
-        with self.narrate("This is not carelessness. It is what a certain kind of "
-                          "economics does by construction. It models markets in "
-                          "enormous detail, and it treats a firm as a machine. Numbers "
-                          "in. Decision out."):
-            self.play(FadeIn(market), run_time=0.9)
-            self.play(FadeIn(box), run_time=0.9)
-            arr_in = Arrow(machine[0].get_left() + LEFT * 1.0,
-                           machine[0].get_left(), color=WAIT, buff=0.05,
-                           stroke_width=5)
-            arr_out = Arrow(machine[0].get_right(),
-                            machine[0].get_right() + RIGHT * 1.0, color=MONEY,
-                            buff=0.05, stroke_width=5)
-            self.play(GrowArrow(arr_in), GrowArrow(arr_out), run_time=0.8)
-
-        fair = St.caption("simplifications are how anyone thinks",
-                          MUTED, T_SUB, width=44)
-        St.place(fair, St.FOOT, pad=0.06)
-        with self.narrate("There is nothing dishonest in that. It is a simplification, "
-                          "and simplifications are how anyone thinks about anything "
-                          "complicated."):
-            self.play(FadeIn(fair), run_time=0.9)
+                self.play(FadeIn(c, shift=UP * 0.25), run_time=0.8)
         self.beat()
 
-        last = St.caption("but the last link is the one nobody examines",
-                          SRC_KIT, T_SUB, width=46)
-        St.place(last, St.FULL, ay=-0.62)
-        with self.narrate("But it does mean that the last link in the chain is the only "
-                          "one nobody examines."):
-            self.play(FadeIn(last), run_time=0.9)
-            self.play(S.flash_around(last, SRC_KIT, run_time=2.0))
+        disp = St.caption("how big, and for how long — disputed", MUTED, T_SUB, width=36)
+        St.place(disp, St.FOOT, pad=0.06)
+        with self.narrate("There is also disagreement about how big those effects were "
+                          "and how long they lasted. And the effects on wider classes "
+                          "of assets are less marked than on company bonds."):
+            self.play(FadeIn(disp), run_time=0.8)
         self.beat()
 
         self.close_chapter([
-            "one sentence, two different kinds of claim",
-            "the price half is hedged three times",
-            "the behaviour half is not hedged once",
-            "because a firm is modelled as a machine",
+            "channel two works purely through the signal",
+            "channel three puts trading back in a frozen market",
+            "and the authors hedge channel three hard",
         ])

@@ -8,152 +8,166 @@ from lib.theme import *
 
 class Chapter36(Chapter):
     CH = 36
-    TITLE = "The instrument that fights itself"
-    PART = "PART THREE — THE ARGUMENT"
-    RECAP_ICONS = ["scale", "clock", "money", "risk"]
+    TITLE = "The result that says none of it works"
+    PART = "PART TWO — THE POLICY"
+    RECAP_ICONS = ["risk", "people", "signal", "clock"]
 
     def body(self):
-        # ------------------------------------------------ two arrows, one bar
-        self.heading("Cheap money pulls two ways")
-        build = VGroup(cards.icon("slab", MONEY, 1.6),
-                       St.caption("building looks\nmore attractive", MONEY,
-                                  T_SMALL, width=18)).arrange(DOWN, buff=0.28)
-        wait_ = VGroup(cards.icon("clock", WAIT, 1.6),
-                       St.caption("waiting also gets\ncheaper", WAIT,
-                                  T_SMALL, width=18)).arrange(DOWN, buff=0.28)
-        two = VGroup(build, wait_).arrange(RIGHT, buff=2.8)
-        St.place(two, St.FULL, ay=0.4)
-        with self.narrate("Cheap money is meant to make building attractive."):
-            self.play(FadeIn(build), run_time=0.9)
-        with self.narrate("But cheap money also makes waiting cheaper."):
-            self.play(FadeIn(wait_), run_time=0.9)
-
-        why = St.caption("holding off costs the return\nthe money would have earned",
-                         MUTED, T_BODY, width=32)
-        St.place(why, St.FULL, ay=-0.75)
-        with self.narrate("Because the cost of holding off for a year is the return the "
-                          "money would have earned meanwhile. Make that return small, "
-                          "and holding off hurts less."):
-            self.play(FadeIn(why), run_time=1.0)
-        self.beat()
-        self.clear_stage()
-
-        # ------------------------------------------------ Dixit's own figures
-        self.heading("Dixit's own figures, on one scale")
-        b1 = W.Bar(1.86, color=TRIGGER, width=1.1)
-        b2 = W.Bar(2.61, color=COST, width=1.1)
-        pair = VGroup(b1, b2).arrange(RIGHT, buff=2.4, aligned_edge=DOWN)
-        St.place(pair, St.STAGE, ay=-0.25)
-        base = Line(pair.get_left() + LEFT * 0.5, pair.get_right() + RIGHT * 0.5,
-                    color=MUTED, stroke_width=2).move_to(pair.get_bottom())
-        l1 = VGroup(Text("1.86", font=FONT, font_size=T_BODY, color=TRIGGER),
-                    St.caption("money at 5%", MUTED, T_SMALL, width=14)
-                    ).arrange(DOWN, buff=0.14)
-        l1.next_to(b1, DOWN, buff=0.22)
-        l2 = VGroup(Text("2.61", font=FONT, font_size=T_BODY, color=COST),
-                    St.caption("money at 2%", MUTED, T_SMALL, width=14)
-                    ).arrange(DOWN, buff=0.14)
-        l2.next_to(b2, DOWN, buff=0.22)
-        St.collapse_bars(pair)
-        self.play(Create(base), run_time=0.5)
-        with self.narrate("At a five per cent cost of capital, the multiplier is one "
-                          "point eight six."):
-            self.play(Restore(b1), FadeIn(l1), run_time=1.1)
-        with self.narrate("At two per cent, it is two point six one."):
-            self.play(Restore(b2), FadeIn(l2), run_time=1.3)
-            self.play(S.flash_around(b2, COST))
-        self.beat()
-        self.clear_stage()
-
-        # ------------------------------------------------ the bar in two pieces
-        self.heading("So split the bar into two pieces")
-        parts = W.stacked_cost_bar([(1.2, WAIT, "break-even"),
-                                    (1.3, TRIGGER, "what waiting adds")],
-                                   x=-1.6, width=1.3, base_y=-1.6)
-        St.place(parts, St.STAGE, ay=-0.1)
-        with self.narrate("Think of a firm's bar as two pieces. The break-even level, "
-                          "and the mark-up that waiting adds on top of it."):
-            self.play(FadeIn(parts), run_time=1.2)
-
-        down = Arrow(UP * 0.5, DOWN * 0.5, color=MONEY, buff=0, stroke_width=7,
-                     max_tip_length_to_length_ratio=0.4)
-        down.next_to(parts[0], LEFT, buff=0.5)
-        with self.narrate("The policy pushes the bottom piece down."):
-            self.play(GrowArrow(down), run_time=0.7)
-            self.play(parts[0][0].animate.stretch_to_fit_height(0.8).align_to(
-                parts[0][0], DOWN), run_time=1.1)
-
-        up = Arrow(DOWN * 0.5, UP * 0.5, color=COST, buff=0, stroke_width=7,
-                   max_tip_length_to_length_ratio=0.4)
-        up.next_to(parts[1], RIGHT, buff=1.6)
-        with self.narrate("And at the same time it fattens the piece on top."):
-            self.play(GrowArrow(up), run_time=0.7)
-            self.play(parts[1][0].animate.stretch_to_fit_height(1.9).align_to(
-                parts[1][0], DOWN), run_time=1.1)
-        self.beat()
-
-        honest = St.caption("the bar does come down — the first effect wins",
-                            MONEY, T_SUB, width=44)
-        St.place(honest, St.FOOT, pad=0.06)
-        with self.narrate("The direction is not in doubt. The bar does come down. The "
-                          "first effect wins."):
-            self.play(FadeIn(honest), run_time=0.9)
-        self.beat()
-        self.clear_stage()
-
-        # ------------------------------------------------ the withdrawn claim
-        self.heading("And a claim Kit has withdrawn")
         kit = stick.kit(scale=0.85)
-        St.place(kit, St.STAGE, ax=-0.75, ay=-0.4)
-        sharper = St.caption("it comes down by less\nthan you would expect",
-                             SRC_KIT, T_SUB, width=22)
-        St.place(sharper, St.SIDE, ay=0.6)
-        with self.narrate("What Kit originally wanted to say was sharper. That it comes "
-                          "down by less than you would expect.", v="c"):
-            self.play(FadeIn(kit), run_time=0.6)
-            self.play(FadeIn(sharper), run_time=0.8)
-        with self.narrate("He has withdrawn it. Because whether that is true depends "
-                          "entirely on how you measure it.", v="c"):
-            strike = Line(sharper.get_left(), sharper.get_right(), color=COST,
-                          stroke_width=5)
-            self.play(Create(strike), run_time=0.9)
-            self.play(kit.mood("worried"), run_time=0.4)
+        St.place(kit, St.STAGE, ax=-0.75, ay=-0.45)
+        with self.narrate("The authors do something in this section that a less honest "
+                          "article would have left out. They set out, at length, a "
+                          "well-known result which says the whole policy does nothing "
+                          "at all.", v="c"):
+            self.heading("A result that says none of it works")
+            self.play(FadeIn(kit), run_time=0.7)
+            self.play(kit.mood("surprised"), run_time=0.4)
+        self.play(FadeOut(kit), run_time=0.4)
 
-        m1 = VGroup(Text("in points", font=FONT, font_size=T_SMALL,
-                         color=MONEY),
-                    Text("falls by more", font=FONT, font_size=T_BODY, color=MONEY)
-                    ).arrange(DOWN, buff=0.16)
-        m2 = VGroup(Text("as proportions", font=FONT, font_size=T_SMALL,
-                         color=COST),
-                    Text("falls by less", font=FONT, font_size=T_BODY, color=COST)
-                    ).arrange(DOWN, buff=0.16)
-        both = VGroup(m1, m2).arrange(DOWN, buff=0.45)
-        St.place(both, St.SIDE, ay=-0.45)
-        with self.narrate("Compare the two figures as percentage points, and the bar "
-                          "falls by more than the cost of money does."):
-            self.play(FadeIn(m1), run_time=0.8)
-        with self.narrate("Compare them as proportions, and it falls by less."):
-            self.play(FadeIn(m2), run_time=0.8)
-        with self.narrate("Both sums are correct. Neither of them is the true one. So "
-                          "he declines to pick.", v="c"):
-            self.play(kit.shrug(), run_time=1.0)
+        # ------------------------------------------------ the swap again
+        self.heading("Every channel assumed one thing")
+        seller = stick.StickFigure("the seller", MONEY, scale=0.75)
+        St.place(seller, St.STAGE, ax=-0.8, ay=-0.4)
+        risky = W.ticket(COST, "risky", scale=0.9)
+        safe = VGroup(*[W.coin(MONEY, 0.19) for _ in range(3)]).arrange(RIGHT, buff=0.12)
+        swap = VGroup(risky, safe).arrange(RIGHT, buff=1.6)
+        St.place(swap, St.STAGE, ax=0.35, ay=0.45)
+        with self.narrate("The seller hands over something risky and gets back "
+                          "something safe. Every channel so far has assumed that "
+                          "changes how much risk the private sector is carrying."):
+            self.play(FadeIn(seller), FadeIn(seller.label()), run_time=0.8)
+            self.play(FadeIn(risky), run_time=0.7)
+            self.play(FadeTransform(risky.copy(), safe), run_time=1.1)
         self.beat()
         self.clear_stage()
 
-        # ------------------------------------------------ what survives
-        self.drop_heading()
-        claim = St.caption("part of the policy is spent\nmaking patience more attractive",
-                           CHALK, T_HEAD, width=34)
-        St.place(claim, St.WIDE, ay=0.2)
-        with self.narrate("The claim he is entitled to is the plain one. Part of the "
-                          "policy is spent making patience more attractive."):
-            self.play(Write(claim), run_time=2.8)
-        self.wait(1.8)
+        # ------------------------------------------------ risk moves round a circle
+        self.heading("But follow the risk all the way round")
+        nodes = []
+        names = [("the private\nsector", MONEY), ("the central\nbank", SRC_BR),
+                 ("the government", TRIGGER), ("households,\nin taxes", COST)]
+        ring = VGroup()
+        radius = 1.75
+        for i, (name, col) in enumerate(names):
+            ang = PI / 2 - i * TAU / 4
+            c = Circle(radius=0.52, color=col, stroke_width=4,
+                       fill_color=col, fill_opacity=0.16)
+            c.move_to(radius * np.array([np.cos(ang), np.sin(ang), 0]) * 1.25)
+            t = Text(name, font=FONT, font_size=T_SMALL, color=col,
+                     line_spacing=0.92)
+            t.next_to(c, DOWN if i in (2,) else UP, buff=0.22)
+            if i == 1:
+                t.next_to(c, RIGHT, buff=0.22)
+            if i == 3:
+                t.next_to(c, LEFT, buff=0.22)
+            nodes.append(c)
+            ring.add(VGroup(c, t))
+        St.place(ring, St.FULL, ay=0.05)
+
+        blob = Dot(nodes[0].get_center(), radius=0.2, color=COST)
+        with self.narrate("Start with the risk sitting in the private sector."):
+            self.play(FadeIn(ring[0]), run_time=0.7)
+            self.play(GrowFromCenter(blob), run_time=0.5)
+
+        says = ["It did not disappear. It moved onto the central bank's own books.",
+                "And who owns the central bank? The government.",
+                "And who pays for the government? Households, through the taxes they "
+                "will pay in future."]
+        for i in range(1, 4):
+            with self.narrate(says[i - 1]):
+                self.play(FadeIn(ring[i]), run_time=0.6)
+                self.play(blob.animate.move_to(nodes[i].get_center()), run_time=0.9)
+                self.play(S.spark(blob, COST), run_time=0.4)
+
+        with self.narrate("And households are the private sector. The risk has gone all "
+                          "the way round and come back to exactly where it started."):
+            self.play(blob.animate.move_to(nodes[0].get_center()), run_time=1.2)
+            self.play(S.flash_around(ring[0], COST))
+
+        nothing = St.caption("nothing to rebalance, so nothing happens",
+                             COST, T_SUB, width=44)
+        St.place(nothing, St.FOOT, pad=0.06)
+        with self.narrate("So the household's risk, taken as a whole, has not changed. "
+                          "There is nothing to rebalance. And the policy does nothing "
+                          "at all."):
+            self.play(FadeIn(nothing), run_time=0.9)
+        self.beat()
+        self.clear_stage()
+
+        # ------------------------------------------------ the assumptions
+        self.heading("It rests on very strong assumptions")
+        assumptions = St.points(["people see through to the state's books",
+                                 "no limits on who can hold what",
+                                 "taxes fall on the very same people"],
+                                colour=CHALK, dot_colour=MUTED, size=T_BODY, width=34)
+        St.place(assumptions, St.FULL, ay=0.4)
+        says = ["People have to see straight through to the state's own books.",
+                "There must be no limits on who can hold what.",
+                "And the future taxes must fall on the very same people."]
+        for i, row in enumerate(assumptions):
+            with self.narrate(says[i]):
+                self.play(FadeIn(row), run_time=0.7)
+        strong = St.caption("their words: very strong", SUNK, T_SUB, width=26)
+        St.place(strong, St.FOOT, pad=0.06)
+        with self.narrate("And the authors say it plainly. Those assumptions are very "
+                          "strong."):
+            self.play(FadeIn(strong), run_time=0.8)
+        self.beat()
+        self.clear_stage()
+
+        # ------------------------------------------------ the way out
+        self.heading("The way out, and the catch in it")
+        gov = stick.governor(scale=0.85)
+        St.place(gov, St.STAGE, ax=-0.7, ay=-0.35)
+        promise = gov.say("rates stay low\nlonger than you think", direction=UP,
+                          width=3.4)
+        with self.narrate("There is one way out of it, and it is a promise. The central "
+                          "bank says it will hold rates low for longer than it "
+                          "otherwise would — even once things have recovered."):
+            self.play(FadeIn(gov), run_time=0.7)
+            self.play(FadeIn(promise), run_time=0.9)
+
+        believed = St.caption("but it has to be believed", TRIGGER, T_SUB, width=26)
+        St.place(believed, St.SIDE, ay=0.7)
+        with self.narrate("And here is the catch, which the authors are careful about. "
+                          "The promise has to be believed."):
+            self.play(FadeIn(believed), run_time=0.8)
+
+        gone = St.caption("recovery removes the reason to keep it", COST,
+                          T_BODY, width=24)
+        St.place(gone, St.SIDE, ay=-0.2)
+        with self.narrate("But once the economy has recovered — precisely because "
+                          "everyone believed the promise — the central bank has no "
+                          "reason left to keep it."):
+            self.play(FadeOut(promise), run_time=0.5)
+            self.play(FadeIn(gone), run_time=0.8)
+        self.beat()
+
+        self.clear_stage()
+        line = St.caption("a promise nobody must keep\nis a promise nobody believes",
+                          CHALK, T_HEAD, width=30)
+        St.place(line, St.FULL, ay=0.15)
+        with self.narrate("A promise nobody has to keep is a promise nobody believes."):
+            self.play(Write(line), run_time=2.0)
+        self.beat()
+        self.clear_stage()
+
+        self.heading("Which leaves the action itself")
+        act = VGroup(cards.icon("signal", SRC_BR, 2.2),
+                     St.caption("an action, not a promise", SRC_BR, T_SUB, width=26)
+                     ).arrange(DOWN, buff=0.35)
+        St.place(act, St.FULL, ay=0.2)
+        with self.narrate("Which is why one reading of quantitative easing is that its "
+                          "real job was the signalling all along — an action, rather "
+                          "than a promise, and actions are harder to take back."):
+            self.play(Create(act[0]), run_time=1.0)
+            self.play(FadeIn(act[1]), run_time=0.8)
+            self.play(S.flash_around(act, SRC_BR, run_time=2.0))
         self.beat()
 
         self.close_chapter([
-            "cheap money makes building and waiting both cheaper",
-            "1.86 at 5% · 2.61 at 2% — Dixit's own figures",
-            "the bar does fall: the first effect wins",
-            "but part of the policy is spent on patience",
+            "risk moved to the state and back through taxes",
+            "so in that world the policy does nothing",
+            "the assumptions behind it are very strong",
+            "and the way out is a promise nobody must keep",
         ])
