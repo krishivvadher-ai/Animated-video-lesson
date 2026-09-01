@@ -173,6 +173,6 @@ class Chapter13(Chapter):
         self.close_chapter([
             "one square root gives the steepness: 2.158",
             "steepness ÷ (steepness − 1) = 1.86",
-            "40% choppiness → 3.30 · 2% money → 2.62",
+            "40% choppiness → 3.32 · 2% money → 2.61",
             "both dials shrink it, so both raise the bar",
         ])

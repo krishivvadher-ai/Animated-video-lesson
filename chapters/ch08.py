@@ -23,7 +23,7 @@ class Chapter08(Chapter):
                           "or is it a curiosity?", v="c"):
             self.play(FadeIn(ava), run_time=0.6)
 
-        box = RoundedRectangle(width=5.6, height=2.4, corner_radius=0.18,
+        box = RoundedRectangle(width=7.0, height=2.6, corner_radius=0.18,
                                color=MUTED, stroke_width=3)
         St.place(box, St.STAGE, ax=0.15, ay=0.35, fill=False)
         blab = Text("the machine", font=FONT, font_size=T_SMALL, color=MUTED)
@@ -36,7 +36,9 @@ class Chapter08(Chapter):
         d1 = W.Dial("how choppy the\nrevenue is", "20% a year", frac=0.4, color=WAIT,
                     r=0.68)
         d2 = W.Dial("the cost of\ncapital", "5% a year", frac=0.35, color=MONEY, r=0.68)
-        dials = VGroup(d1, d2).arrange(RIGHT, buff=1.1)
+        dials = VGroup(d1, d2).arrange(RIGHT, buff=0.7)
+        if dials.width > box.width - 0.5:
+            dials.scale((box.width - 0.5) / dials.width)
         dials.move_to(box.get_center())
         with self.narrate("Dial one. How choppy the revenue is — how much the money "
                           "coming in swings around in a typical year."):
@@ -71,7 +73,7 @@ class Chapter08(Chapter):
         self.heading("The numbers, on the scale")
         # moved, not shrunk: shrinking a dial takes its label below legibility
         stacked = dials.copy().arrange(DOWN, buff=0.35)
-        stacked.move_to(St.STAGE.point(-0.82, 0.0))
+        stacked.move_to(St.STAGE.point(-0.55, 0.0))
         self.play(Transform(dials, stacked), run_time=1.0)
         sc = MasterScale(x=-1.3, y=-0.45, height=4.6, lo=0.0, hi=3.7)
         self.play(Create(sc.axis), FadeIn(sc.arrow_head), run_time=0.9)

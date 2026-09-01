@@ -173,8 +173,8 @@ def grow(mob, region, pad=0.25):
     max_h = region.height - 2 * pad
     if mob.width < 1e-6 or mob.height < 1e-6:
         return mob
-    if _is_all_text(mob):
-        return mob           # captions are sized by the type scale, not the box
+    if _is_all_text(mob) or getattr(mob, "_no_grow", False):
+        return mob           # captions and characters are sized deliberately
     k = min(GROW_TARGET * max_w / mob.width,
             GROW_TARGET * max_h / mob.height, GROW_CAP)
     if k > GROW_FROM:

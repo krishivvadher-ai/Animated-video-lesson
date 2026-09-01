@@ -140,6 +140,7 @@ class StickFigure(VGroup):
                      color=self.accent, stroke_width=3)
         self.face.become(VGroup(el, er, bl, br, m))
         self._mood = mood
+        self._no_grow = True   # a character's size is continuity, not layout
 
     def set_mood(self, mood):
         """Change expression in place. Returns self so it chains."""
