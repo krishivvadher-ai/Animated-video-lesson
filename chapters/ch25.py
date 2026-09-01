@@ -2,7 +2,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from manim import *
 from lib.base import Chapter
-from lib import stick, cards, widgets as W
+from lib import stick, cards, widgets as W, style as S
 from lib.balance import TAccount
 from lib.theme import *
 
@@ -89,7 +89,7 @@ class Chapter25(Chapter):
                           "disturbed. It wanted gilts, and now it is holding money. And "
                           "that disturbance is where the whole mechanism starts."):
             self.play(FadeOut(key), FadeIn(start), run_time=1.0)
-            self.play(Circumscribe(t1.box, color=TRIGGER, buff=0.15, stroke_width=4),
+            self.play(S.flash_around(t1.box, color=TRIGGER, buff=0.15, stroke_width=4),
                       run_time=1.4)
         self.beat()
         self.clear_stage()

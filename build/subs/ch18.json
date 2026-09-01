@@ -1,121 +1,177 @@
 {
  "chapter": 18,
- "title": "Why cutting the rate was not enough",
- "duration": 185.79999999999936,
+ "title": "Two countries",
+ "duration": 214.86666666666588,
  "cues": [
   {
-   "start": 3.0000000000000018,
-   "end": 10.655646258503403,
-   "text": "Before the new policy, you need to see exactly what went wrong with the old one. And it is one picture.",
+   "start": 4.866666666666667,
+   "end": 15.84734693877551,
+   "text": "This is a detective story, so let us tell it as one. Here is Nell, in America. And here is Kenji, running a similar factory in Japan.",
    "voice": "n"
   },
   {
-   "start": 12.066666666666665,
-   "end": 21.57845804988662,
-   "text": "In normal times the Bank's rate travels down this line, through a bank, and comes out as the rate an ordinary firm pays.",
+   "start": 16.799999999999994,
+   "end": 32.793968253968245,
+   "text": "American firms of the period demanded very high returns before they would build \u2014 and then abandoned whole fields after short stretches of losses. Colour televisions. Video recorders. Semiconductors.",
    "voice": "n"
   },
   {
-   "start": 21.999999999999993,
-   "end": 33.82526077097505,
-   "text": "Then, in two thousand and seven and eight, banks stopped trusting each other. Lenders would provide funds to a bank only at a much higher price \u2014 if at all.",
+   "start": 33.19999999999999,
+   "end": 40.738639455782305,
+   "text": "Japanese firms did the opposite on both counts. They invested aggressively, and they hung on.",
    "voice": "n"
   },
   {
-   "start": 35.66666666666672,
-   "end": 43.6876190476191,
-   "text": "credit spread. The wedge between the central bank's rate and the rate a household or a firm actually pays.",
+   "start": 44.600000000000165,
+   "end": 55.537097505669095,
+   "text": "Remember what uncertainty does to the two lines. It raises the build-line and lowers the quit-line. Together. It cannot do one without the other.",
    "voice": "n"
   },
   {
-   "start": 47.00000000000008,
-   "end": 54.859455782313006,
-   "text": "A wedge opened up. The Bank's rate went down. The rate a firm actually paid did not follow it.",
+   "start": 56.733333333333576,
+   "end": 69.93564625850364,
+   "text": "So a firm too hesitant to invest should be more willing to ride out bad periods, not less. The American firms were the opposite on both counts. The story does not fit.",
    "voice": "n"
   },
   {
-   "start": 58.13333333333356,
-   "end": 73.48956916099796,
-   "text": "On the eighth of October two thousand and eight, central banks in Canada, China, the euro area, Sweden, Switzerland, the United Kingdom and the United States all cut their rates on the same day.",
+   "start": 72.20000000000023,
+   "end": 80.79723356009093,
+   "text": "The usual explanation is lifetime employment, which makes labour a cost you carry whether you use it or not.",
    "voice": "n"
   },
   {
-   "start": 73.93333333333361,
-   "end": 82.4653968253971,
-   "text": "In Britain, the Bank cut its rate by three percentage points in the last three months of two thousand and eight.",
+   "start": 81.2000000000002,
+   "end": 89.43732426303875,
+   "text": "Lower day-to-day costs do mean revenue has to fall further before quitting makes sense. So far so good.",
    "voice": "n"
   },
   {
-   "start": 82.86666666666684,
-   "end": 90.43061224489814,
-   "text": "And by a further one and a half percentage points in the first three months of two thousand and nine.",
+   "start": 89.86666666666683,
+   "end": 96.88625850340152,
+   "text": "But larger fixed and sunk commitments should make those same firms reluctant investors.",
    "voice": "n"
   },
   {
-   "start": 90.86666666666676,
-   "end": 95.04049886621324,
-   "text": "And there it stopped, at nought point five per cent.",
+   "start": 97.33333333333346,
+   "end": 104.79442176870761,
+   "text": "And they were the opposite. Particularly aggressive ones. So that explanation does not work either.",
    "voice": "n"
   },
   {
-   "start": 97.06666666666665,
-   "end": 111.21886621315191,
-   "text": "And note that they stopped just above zero, not at it. Because of worries about what extremely low rates would do to banks' own profits, and to the working of the money markets themselves.",
+   "start": 108.46666666666661,
+   "end": 115.80217687074824,
+   "text": "Here is the spread of possible futures for a firm. Bad ones to the left, good ones to the right.",
    "voice": "n"
   },
   {
-   "start": 113.06666666666655,
-   "end": 119.40829931972777,
-   "text": "the zero lower bound. The point where a central bank cannot cut its rate any further.",
+   "start": 116.19999999999995,
+   "end": 126.86852607709746,
+   "text": "For the Japanese firms, the bad half was cushioned. Government support, and cartels tolerated in recessions, cut off the worst outcomes.",
    "voice": "n"
   },
   {
-   "start": 123.19999999999979,
-   "end": 129.23034013605422,
-   "text": "They could lend to banks that were short of cash \u2014 the oldest job a central bank has.",
+   "start": 128.06666666666652,
+   "end": 137.2406802721087,
+   "text": "Now use the bad news principle. Waiting is worth less when there is less bad news to wait out. So they entered early.",
    "voice": "n"
   },
   {
-   "start": 129.6666666666664,
-   "end": 138.3246712018138,
-   "text": "They could buy assets with money they created. That is the one this film is about, and the next chapter builds it.",
+   "start": 139.06666666666644,
+   "end": 151.73759637188186,
+   "text": "And its mirror image, which the paper names. The good news principle. The decision to stay is governed by the good possible outcomes \u2014 because staying is what preserves them.",
    "voice": "n"
   },
   {
-   "start": 138.733333333333,
-   "end": 147.77501133786816,
-   "text": "Or they could simply say something about what they intended to do in future \u2014 which turns out to matter more than you would think.",
+   "start": 154.99999999999974,
+   "end": 165.19904761904735,
+   "text": "And because the upside mattered relatively more for them, they stayed late as well. One lopsided distribution, both puzzles solved.",
    "voice": "n"
   },
   {
-   "start": 148.99999999999963,
-   "end": 154.75170068027174,
-   "text": "All of that together goes by one name. Unconventional monetary policy.",
+   "start": 166.933333333333,
+   "end": 174.72947845804956,
+   "text": "Which gives two rules, and they are probably the most practically useful sentences in the whole article.",
    "voice": "n"
   },
   {
-   "start": 157.0666666666662,
-   "end": 163.53927437641678,
-   "text": "In the crisis, lenders would only fund banks at a much higher price, if at all.",
+   "start": 175.13333333333298,
+   "end": 180.0502040816323,
+   "text": "To get firms to invest sooner, reduce the downside risk.",
    "voice": "n"
   },
   {
-   "start": 163.66666666666617,
-   "end": 169.60244897959134,
-   "text": "A credit spread opened up between the Bank's rate and the rate a firm pays.",
+   "start": 181.26666666666628,
+   "end": 185.01092970521503,
+   "text": "To stop firms leaving, improve the upside.",
    "voice": "n"
   },
   {
-   "start": 169.7333333333328,
-   "end": 177.6988662131514,
-   "text": "Rates were cut 3 points, then 1.5 more \u2014 stopping at 0.5, not zero.",
+   "start": 186.1999999999996,
+   "end": 193.00739229024902,
+   "text": "Different instruments, for different jobs. Remember that. Part Two is built on it.",
    "voice": "n"
   },
   {
-   "start": 177.79999999999944,
-   "end": 183.43492063492008,
-   "text": "What is left at that point is called unconventional monetary policy.",
+   "start": 195.26666666666617,
+   "end": 199.9977777777773,
+   "text": "US: late in, early out \u00b7 Japan: the reverse",
+   "voice": "n"
+  },
+  {
+   "start": 200.13333333333276,
+   "end": 203.51768707482935,
+   "text": "option value moves both lines together",
+   "voice": "n"
+  },
+  {
+   "start": 203.66666666666603,
+   "end": 208.0226303854869,
+   "text": "cushioned downside \u2192 early in, late out",
+   "voice": "n"
+  },
+  {
+   "start": 208.13333333333264,
+   "end": 212.48131519274307,
+   "text": "downside \u2192 entry \u00b7 upside \u2192 staying",
    "voice": "n"
   }
+ ],
+ "screen_text": [
+  "18/43",
+  "Andthepopularexplanationfailsonitsownterms",
+  "CHAPTER18",
+  "PARTONE\u2014THEPAPER",
+  "Thedecisiontostayisgovernedbythegoodpossibleoutcomes\u2014becausestayingiswhatpreservesthem.",
+  "Theobservationothersmadeabouttheperiod",
+  "Theresolution:theiruncertaintywaslopsided",
+  "Twocountries",
+  "US:latein,earlyout\u00b7Japan:thereverse",
+  "Whatwejustestablished",
+  "Whythewaitingstorycannotexplainthatonitsown",
+  "aJapanesefirm",
+  "anAmericanfirm",
+  "andhungonthroughlosses",
+  "badfutures",
+  "build-line",
+  "butbiggersunkstakes\u21d2reluctanttoenter\u2717",
+  "cushioneddownside\u2192earlyin,lateout",
+  "demandedveryhighreturnsbeforebuilding",
+  "differentjobs,differentinstruments",
+  "downside\u2192entry\u00b7upside\u2192staying",
+  "goodfutures",
+  "governmentsupport,toleratedcartelsinrecessions",
+  "hesitanttoenter\u21d2MOREwillingtostay.Notless.",
+  "investedaggressively",
+  "lessbadnews\u21d2lesswaiting\u21d2earlyin",
+  "lifetimeemployment\u21d2labourquasi-fixed",
+  "lowervariablecost\u21d2quitlater\u2713",
+  "optionvaluemovesbothlinestogether",
+  "quit-line",
+  "quitaftershortlosses",
+  "thegoodnewsprinciple",
+  "theyweretheopposite",
+  "togetinvestment:cutthedownside",
+  "tostopexit:lifttheupside",
+  "upsideworthmore\u21d2lateout"
  ]
 }

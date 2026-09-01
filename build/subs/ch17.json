@@ -1,103 +1,174 @@
 {
  "chapter": 17,
- "title": "Money, and who is in charge of it",
- "duration": 167.66666666666595,
+ "title": "Hysteresis",
+ "duration": 175.06666666666683,
  "cues": [
   {
-   "start": 3.0000000000000018,
-   "end": 17.987891156462588,
-   "text": "Part Two starts from nothing again. Nothing here assumes you know what a central bank is, or an interest rate, or a bond. We build all of them from scratch, exactly as we built cost and revenue.",
+   "start": 7.3999999999999915,
+   "end": 14.755873015873007,
+   "text": "This is the chapter the paper is named after. Watch one path, and watch what it leaves behind.",
    "voice": "n"
   },
   {
-   "start": 18.400000000000006,
-   "end": 38.583945578231294,
-   "text": "And there is one new person. This is Kit. He is a student, and the argument in this half of the film is his. He notices things, gets excited about them, and then talks himself down when the evidence will not carry him. That last part is the whole point of Part Two.",
+   "start": 15.59999999999999,
+   "end": 23.549387755102032,
+   "text": "She starts at one. Money coming in is exactly covering the day-to-day costs. Nothing is built.",
    "voice": "n"
   },
   {
-   "start": 39.60000000000003,
-   "end": 47.05451247165536,
-   "text": "central bank. The public body that looks after a country's money. The Bank of England is ours.",
+   "start": 23.99999999999996,
+   "end": 32.24290249433103,
+   "text": "It rises. It crosses one point one \u2014 the textbook's build-line \u2014 and nothing happens. She does not build.",
    "voice": "n"
   },
   {
-   "start": 50.80000000000008,
-   "end": 56.39002267573704,
-   "text": "interest. The extra a borrower pays a lender for the use of the money.",
+   "start": 32.7333333333333,
+   "end": 38.045124716553254,
+   "text": "It keeps rising. And at one point six two, she builds.",
    "voice": "n"
   },
   {
-   "start": 59.13333333333344,
-   "end": 70.45056689342414,
-   "text": "Here is what an interest rate means, with numbers. Borrow a hundred pounds at five per cent, and you pay back a hundred and five after a year.",
+   "start": 39.26666666666696,
+   "end": 47.01519274376446,
+   "text": "Now the money coming in starts to fall. Back past one point six two. Back past one point one.",
    "voice": "n"
   },
   {
-   "start": 72.26666666666686,
-   "end": 77.22997732426323,
-   "text": "interest rate. How much extra, as a percentage per year.",
+   "start": 47.466666666667365,
+   "end": 51.95115646258573,
+   "text": "All the way back down to one \u2014 exactly where it started.",
    "voice": "n"
   },
   {
-   "start": 80.73333333333343,
-   "end": 88.7451700680273,
-   "text": "monetary policy. The things a central bank does to make borrowing easier or harder across the whole country.",
+   "start": 57.46666666666786,
+   "end": 61.948253968255166,
+   "text": "The cause has completely reversed. The effect has not.",
    "voice": "n"
   },
   {
-   "start": 93.06666666666668,
-   "end": 105.96258503401361,
-   "text": "Meet the Governor. He runs the central bank. He is well-meaning, he holds the levers, and he is genuinely trying to help. He is not the villain of this film. There isn't one.",
+   "start": 64.26666666666817,
+   "end": 68.01591836734845,
+   "text": "Take an iron bar, and loop a wire around it.",
    "voice": "n"
   },
   {
-   "start": 107.3999999999999,
-   "end": 119.00421768707474,
-   "text": "After the crash of two thousand and eight, the Bank wanted people and businesses to spend and build. So it did the usual thing. It cut the rate.",
+   "start": 68.40000000000144,
+   "end": 74.10634920635064,
+   "text": "Pass an electric current through the wire, and the iron becomes magnetic.",
    "voice": "n"
   },
   {
-   "start": 119.39999999999978,
-   "end": 122.32866213151905,
-   "text": "And it cut it again. And again.",
+   "start": 74.53333333333468,
+   "end": 76.86077097505803,
+   "text": "Now switch the current off.",
    "voice": "n"
   },
   {
-   "start": 122.73333333333296,
-   "end": 132.46272108843502,
-   "text": "And by two thousand and nine the rate was almost at zero. The lever had hit the floor. You cannot cut much below nothing.",
+   "start": 77.26666666666796,
+   "end": 85.18739229025073,
+   "text": "The magnetism does not go away. Some of it stays. The cause was temporary. The effect lasted.",
    "voice": "n"
   },
   {
-   "start": 133.66666666666623,
-   "end": 140.02793650793606,
-   "text": "So they needed something else. That something else is the subject of the next chapter.",
+   "start": 87.0000000000012,
+   "end": 96.12122448979711,
+   "text": "Hysteresis. When the cause is reversed and the effect stays behind. The paper borrows the word directly.",
    "voice": "n"
   },
   {
-   "start": 142.3333333333328,
-   "end": 147.80671201814005,
-   "text": "A central bank is the public body that looks after a country's money.",
+   "start": 100.33333333333444,
+   "end": 102.25482993197389,
+   "text": "push down \u21d2 she quits",
    "voice": "n"
   },
   {
-   "start": 147.93333333333277,
-   "end": 153.54222222222165,
-   "text": "Interest is what a borrower pays for the use of money; the rate says how much.",
+   "start": 102.66666666666774,
+   "end": 107.14544217687182,
+   "text": "Now let it recover, all the way back to where it started.",
    "voice": "n"
   },
   {
-   "start": 153.66666666666606,
-   "end": 159.62512471655268,
-   "text": "Monetary policy is what a central bank does to make borrowing easier or harder.",
+   "start": 107.53333333333437,
+   "end": 109.46643990929809,
+   "text": "she does not come back",
    "voice": "n"
   },
   {
-   "start": 159.7333333333327,
-   "end": 165.28054421768644,
-   "text": "By 2009 the rate was nearly zero, and could go no lower.",
+   "start": 110.66666666666767,
+   "end": 120.88095238095337,
+   "text": "And the paper's own careful point. Sunk costs alone can produce some of this. Adding uncertainty magnifies it dramatically.",
+   "voice": "n"
+  },
+  {
+   "start": 123.13333333333422,
+   "end": 131.4519274376426,
+   "text": "The dollar rose, and foreign firms poured into America \u2014 years late, because they were waiting to be sure.",
+   "voice": "n"
+  },
+  {
+   "start": 131.86666666666733,
+   "end": 142.8612698412705,
+   "text": "Then the dollar fell back to where it had been. And they did not leave. They had paid to get in, and leaving would mean paying to get back in again later.",
+   "voice": "n"
+  },
+  {
+   "start": 144.06666666666726,
+   "end": 152.77682539682598,
+   "text": "The cause reversed. The effect stayed. That is all hysteresis is \u2014 and now you have watched it happen twice.",
+   "voice": "n"
+  },
+  {
+   "start": 155.06666666666715,
+   "end": 161.51605442176918,
+   "text": "up past 1.10, nothing \u00b7 past 1.62, she builds",
+   "voice": "n"
+  },
+  {
+   "start": 161.60000000000042,
+   "end": 166.27591836734737,
+   "text": "back to 1.00 \u2014 and she does not close",
+   "voice": "n"
+  },
+  {
+   "start": 166.40000000000035,
+   "end": 168.5420861678008,
+   "text": "the bar stays magnetic",
+   "voice": "n"
+  },
+  {
+   "start": 168.66666666666694,
+   "end": 172.71278911564653,
+   "text": "hysteresis explains the dollar and the imports",
    "voice": "n"
   }
+ ],
+ "screen_text": [
+  "0.72",
+  "1.10",
+  "1.62",
+  "17/43",
+  "Anditworksinreverse.",
+  "CHAPTER17",
+  "Causereversed.Effectstayed.",
+  "Causereversed.Effectstays.",
+  "Hysteresis",
+  "Moneycomingineachmonth",
+  "Nowgobacktochapterthree",
+  "PARTONE\u2014THEPAPER",
+  "Shedoesnotclose.",
+  "Whatwejustestablished",
+  "Whythepaperborrowsawordfromphysics",
+  "backto1.00\u2014andshedoesnotclose",
+  "currenton",
+  "hysteresis",
+  "hysteresisexplainsthedollarandtheimports",
+  "imports",
+  "letitrecover,alltheway",
+  "pushfarenoughdown\u2192shequits",
+  "shedoesnotcomeback",
+  "sunkcostsalone:someuncertainty:farmore",
+  "thebarstaysmagnetic",
+  "thedollar",
+  "uppast1.10,nothing\u00b7past1.62,shebuilds"
  ]
 }

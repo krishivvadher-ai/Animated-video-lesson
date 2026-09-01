@@ -2,7 +2,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from manim import *
 from lib.base import Chapter
-from lib import stick, cards, widgets as W
+from lib import stick, cards, widgets as W, style as S
 from lib.scale import MasterScale
 from lib.theme import *
 
@@ -117,7 +117,7 @@ class Chapter05(Chapter):
         with self.narrate("But look at that again, because everything turns on it. She "
                           "gains nothing — and she loses nothing."):
             self.play(FadeIn(key), run_time=0.8)
-            self.play(Circumscribe(key, color=WAIT, buff=0.2), run_time=1.4)
+            self.play(S.flash_around(key, color=WAIT, buff=0.2), run_time=1.4)
         self.beat()
 
         # -------------------------------------------------- the arithmetic

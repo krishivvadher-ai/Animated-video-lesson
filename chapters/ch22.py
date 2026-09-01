@@ -2,7 +2,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from manim import *
 from lib.base import Chapter
-from lib import stick, cards, widgets as W
+from lib import stick, cards, widgets as W, style as S
 from lib.theme import *
 
 class Chapter22(Chapter):

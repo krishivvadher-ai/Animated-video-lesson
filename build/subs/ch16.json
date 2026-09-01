@@ -1,181 +1,129 @@
 {
  "chapter": 16,
- "title": "Everything, in order",
- "duration": 207.53333333333234,
+ "title": "The zone of inaction",
+ "duration": 136.4666666666662,
  "cues": [
   {
-   "start": 3.0000000000000018,
-   "end": 8.159138321995467,
-   "text": "One rung at a time, from the bottom. Everything Part One has built.",
+   "start": 5.866666666666664,
+   "end": 18.203083900226755,
+   "text": "Take away the uncertainty for a moment, and leave only the sunk cost. The textbook still has a small band where doing nothing is right \u2014 from one, to one point one.",
    "voice": "n"
   },
   {
-   "start": 8.933333333333334,
-   "end": 13.766485260770974,
-   "text": "Investment means spending a large sum now for revenue later.",
+   "start": 18.599999999999994,
+   "end": 22.9485260770975,
+   "text": "That is the whole of it. A band nought point one wide.",
    "voice": "n"
   },
   {
-   "start": 13.999999999999998,
-   "end": 18.79251700680272,
-   "text": "Some of that money can never be got back. That is a sunk cost.",
+   "start": 24.133333333333326,
+   "end": 27.169387755102033,
+   "text": "Now put the uncertainty back in.",
    "voice": "n"
   },
   {
-   "start": 18.999999999999996,
-   "end": 23.688616780045347,
-   "text": "The future is uncertain, and you learn about it a little at a time.",
+   "start": 27.599999999999987,
+   "end": 33.793968253968245,
+   "text": "Nought point seven two, to one point six two. Nought point nine wide.",
    "voice": "n"
   },
   {
-   "start": 23.93333333333333,
-   "end": 29.442312925170064,
-   "text": "The chance to build usually keeps \u2014 you can decide next year instead.",
+   "start": 34.99999999999998,
+   "end": 48.27387755102039,
+   "text": "About nine times wider. That comparison is ours, not the paper's \u2014 the paper prints the four levels and calls the difference quite a dramatic difference. We did the sum.",
    "voice": "n"
   },
   {
-   "start": 30.933333333333323,
-   "end": 36.612335600907016,
-   "text": "So waiting has value: it cuts off the bad half and keeps the good half.",
+   "start": 49.46666666666672,
+   "end": 56.65482993197284,
+   "text": "This band has a name. The zone of inaction. The stretch where the right thing to do is nothing at all.",
    "voice": "n"
   },
   {
-   "start": 36.79999999999999,
-   "end": 40.05664399092969,
-   "text": "None of that is about disliking risk.",
+   "start": 58.93333333333348,
+   "end": 72.85741496598654,
+   "text": "First. Small frictions can produce much larger rigidities than models which ignore gradually-arriving information would ever suggest. A little stickiness goes a very long way.",
    "voice": "n"
   },
   {
-   "start": 40.26666666666668,
-   "end": 46.112335600907045,
-   "text": "Waiting costs you the profit you give up, so there is a level high enough to act.",
+   "start": 74.46666666666684,
+   "end": 85.24149659863963,
+   "text": "Second, and this one reaches outside the firm altogether. Hiring and firing cost money. So exactly the same logic applies to jobs.",
    "voice": "n"
   },
   {
-   "start": 46.33333333333337,
-   "end": 50.414285714285754,
-   "text": "That level \u2014 the trigger \u2014 sits above the textbook's line.",
+   "start": 85.66666666666679,
+   "end": 89.06825396825408,
+   "text": "Employers hoard labour in downturns.",
    "voice": "n"
   },
   {
-   "start": 51.866666666666774,
-   "end": 57.216235827664505,
-   "text": "How far above depends on how choppy revenue is and what money costs.",
+   "start": 89.46666666666673,
+   "end": 92.59378684807263,
+   "text": "And they are slow to hire in upturns.",
    "voice": "n"
   },
   {
-   "start": 57.400000000000134,
-   "end": 63.23111111111125,
-   "text": "In the base case, nearly double. In a rough trade, over three times.",
+   "start": 93.00000000000003,
+   "end": 97.35959183673472,
+   "text": "above the wage, no hiring \u00b7 below it, no firing",
    "voice": "n"
   },
   {
-   "start": 63.466666666666825,
-   "end": 68.62734693877567,
-   "text": "Cheaper money raises the trigger, because information is worth more.",
+   "start": 99.1333333333333,
+   "end": 113.76149659863943,
+   "text": "And the paper draws a conclusion from that which is worth hearing. The popular worry about loss of jobs \u2014 the one economists usually wave away \u2014 may have more justification than the textbook allows.",
    "voice": "n"
   },
   {
-   "start": 68.86666666666684,
-   "end": 74.77038548752853,
-   "text": "The same logic in reverse means she absorbs real losses before quitting.",
+   "start": 116.0666666666665,
+   "end": 121.68013605442161,
+   "text": "sunk costs alone: 1.00 \u2013 1.10",
    "voice": "n"
   },
   {
-   "start": 76.26666666666677,
-   "end": 82.57673469387765,
-   "text": "So the band where doing nothing is right is about nine times wider than the textbook's.",
+   "start": 121.79999999999977,
+   "end": 126.8097505668932,
+   "text": "with uncertainty: 0.72 \u2013 1.62",
    "voice": "n"
   },
   {
-   "start": 82.80000000000007,
-   "end": 88.73854875283453,
-   "text": "Walk revenue up through the band and back down, and the effect stays behind.",
+   "start": 126.93333333333304,
+   "end": 130.86335600907,
+   "text": "small frictions \u2192 large rigidities",
    "voice": "n"
   },
   {
-   "start": 88.93333333333337,
-   "end": 94.5351927437642,
-   "text": "That is hysteresis, and it explains the dollar and the imports.",
-   "voice": "n"
-  },
-  {
-   "start": 94.73333333333333,
-   "end": 101.90253968253968,
-   "text": "Cushion a firm's downside and it invests early; protect its upside and it stays.",
-   "voice": "n"
-  },
-  {
-   "start": 103.39999999999992,
-   "end": 109.35097505668926,
-   "text": "Put many such firms together and the whole industry looks frozen \u2014 correctly.",
-   "voice": "n"
-  },
-  {
-   "start": 112.93333333333307,
-   "end": 126.08485260770948,
-   "text": "And the master scale in its final form. Give up at nought point seven two. Build at one point six two. And in between, a wide stretch where the right thing to do is nothing.",
-   "voice": "n"
-  },
-  {
-   "start": 128.3999999999996,
-   "end": 133.05297052154157,
-   "text": "It does not say firms are irrational. It says the opposite.",
-   "voice": "n"
-  },
-  {
-   "start": 133.46666666666624,
-   "end": 136.94866213151886,
-   "text": "It does not say waiting is always right.",
-   "voice": "n"
-  },
-  {
-   "start": 137.3333333333329,
-   "end": 142.8385034013601,
-   "text": "And it does not apply where a rival can snatch the opportunity away from you.",
-   "voice": "n"
-  },
-  {
-   "start": 145.19999999999948,
-   "end": 150.40712018140536,
-   "text": "So go back to the two people we opened with, and let Nell explain them.",
-   "voice": "n"
-  },
-  {
-   "start": 150.79999999999947,
-   "end": 161.6582766439904,
-   "text": "The farmer keeps going because closing is final. Staying open keeps the good years possible, and that is worth more to him than the losses are costing him.",
-   "voice": "n"
-  },
-  {
-   "start": 162.8666666666661,
-   "end": 174.17623582766385,
-   "text": "And I do not build, because building is final too. Waiting another year is worth something, and this year's numbers are not yet good enough to pay for it.",
-   "voice": "n"
-  },
-  {
-   "start": 175.93333333333268,
-   "end": 185.9120181405889,
-   "text": "One more thing before we stop. A government somewhere spent hundreds of billions of pounds on a policy that assumed none of this was true.",
-   "voice": "n"
-  },
-  {
-   "start": 190.33333333333246,
-   "end": 193.72244897959098,
-   "text": "Everything in Part One, in one ladder.",
-   "voice": "n"
-  },
-  {
-   "start": 193.86666666666576,
-   "end": 199.7001814058948,
-   "text": "The paper does not say firms are irrational, or that waiting is always right.",
-   "voice": "n"
-  },
-  {
-   "start": 199.79999999999907,
-   "end": 205.18126984126891,
-   "text": "Part Two uses all of it on a policy that cost hundreds of billions.",
+   "start": 130.99999999999966,
+   "end": 134.10571428571396,
+   "text": "and the same logic applies to jobs",
    "voice": "n"
   }
+ ],
+ "screen_text": [
+  "0.10wide",
+  "0.72",
+  "0.90wide",
+  "1.00",
+  "1.10",
+  "1.62",
+  "16/43",
+  "Aboutninetimeswider.",
+  "Andareslowtohireinupturns.",
+  "CHAPTER16",
+  "Employershoardlabourindownturns.",
+  "Moneycomingineachmonth",
+  "PARTONE\u2014THEPAPER",
+  "Thezoneofinaction",
+  "Twoconsequencesthepaperdraws",
+  "Whatwejustestablished",
+  "abovethewage,nohiring\u00b7belowit,nofiring",
+  "andthesamelogicappliestojobs",
+  "derived:0.90\u00f70.10\u2014ours,notthepaper's",
+  "smallfrictions\u2192largerigidities",
+  "sunkcostsalone:1.00\u20131.10",
+  "wheredoingnothingisright",
+  "withuncertainty:0.72\u20131.62",
+  "\u201clossofjobs\u201d\u2014betterfoundedthanthetextbookallows"
  ]
 }

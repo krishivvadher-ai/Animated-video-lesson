@@ -6,7 +6,7 @@ from manim import (
     Write, Create, GrowFromCenter, DEGREES,
 )
 from lib.theme import (
-    BG, CHALK, MUTED, MONEY, COST, SUNK, WAIT, TRIGGER, FONT,
+    BG, CHALK, MUTED, MONEY, COST, SUNK, WAIT, TRIGGER, FONT, GREY_A,
     T_HEAD, T_SUB, T_BODY, T_SMALL, T_TINY, SAFE_W, TOTAL_CHAPTERS,
 )
 
@@ -25,9 +25,17 @@ def wrap(text, width=52):
     return "\n".join(lines)
 
 
-def body(text, size=T_BODY, color=CHALK, width=52, weight=None, **kw):
-    return Text(wrap(text, width), font=FONT, font_size=size, color=color,
-                line_spacing=0.95, **kw)
+def body(text, size=T_BODY, color=CHALK, width=52, weight=None, t2c=None,
+         plain=False, **kw):
+    """Body text. The words that name things on screen are coloured, the way
+    3Blue1Brown colours the symbols in an expression."""
+    wrapped = wrap(text, width)
+    colours = {}
+    if not plain:
+        from lib.style import t2c_for
+        colours = t2c_for(wrapped, t2c)
+    return Text(wrapped, font=FONT, font_size=size, color=color,
+                line_spacing=0.95, t2c=colours, **kw)
 
 
 def title_card(number, title, part=None):
@@ -134,17 +142,21 @@ def icon(kind, color=CHALK, size=1.0):
 def definition_card(term, definition, icon_kind=None, color=CHALK, width=40):
     """The word, a one-line plain definition, and its recurring icon."""
     head = Text(term, font=FONT, font_size=T_SUB, color=color)
+    head_rule = Line(LEFT * head.width / 2, RIGHT * head.width / 2,
+                     color=color, stroke_width=2)
     dfn = Text(wrap(definition, width), font=FONT, font_size=T_BODY, color=CHALK,
                line_spacing=0.95)
-    inner = VGroup(head, dfn).arrange(DOWN, buff=0.28, aligned_edge=LEFT)
+    head_rule.next_to(head, DOWN, buff=0.10).align_to(head, LEFT)
+    headg = VGroup(head, head_rule)
+    inner = VGroup(headg, dfn).arrange(DOWN, buff=0.30, aligned_edge=LEFT)
     if icon_kind:
         ic = icon(icon_kind, color, 1.5)
         row = VGroup(ic, inner).arrange(RIGHT, buff=0.55)
     else:
         row = inner
     box = RoundedRectangle(width=row.width + 1.0, height=row.height + 0.9,
-                           corner_radius=0.18, color=color, stroke_width=3,
-                           fill_color=BG, fill_opacity=0.96)
+                           corner_radius=0.14, color=color, stroke_width=3,
+                           fill_color=BG, fill_opacity=1.0)
     row.move_to(box.get_center())
     tag = Text("DEFINITION", font=FONT, font_size=T_TINY, color=MUTED)
     tag.next_to(box.get_top(), DOWN, buff=0.02).align_to(box, LEFT).shift(RIGHT * 0.35)
@@ -190,12 +202,14 @@ def recap_panel(items, heading="So far", icons=None):
 
 def progress(chapter):
     """A small persistent indicator: where we are in the thirty-one chapters."""
-    w = 3.2
-    track = Line(LEFT * w / 2, RIGHT * w / 2, color=MUTED, stroke_width=2)
+    w = 2.6
+    track = Line(LEFT * w / 2, RIGHT * w / 2, color=MUTED, stroke_width=1.5)
+    track.set_opacity(0.45)
     frac = chapter / (TOTAL_CHAPTERS - 1)
     fill = Line(LEFT * w / 2, LEFT * w / 2 + RIGHT * w * frac,
-                color=CHALK, stroke_width=4)
+                color=GREY_A, stroke_width=3)
     lab = Text(f"{chapter}/43", font=FONT, font_size=T_TINY, color=MUTED)
+    lab.set_opacity(0.7)
     lab.next_to(track, LEFT, buff=0.24)
     g = VGroup(track, fill, lab)
     g.to_corner(DOWN + RIGHT, buff=0.34)

@@ -2,7 +2,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from manim import *
 from lib.base import Chapter
-from lib import stick, cards, widgets as W
+from lib import stick, cards, widgets as W, style as S
 from lib.theme import *
 
 RHO, K = 0.05, 2.0
@@ -100,7 +100,7 @@ class Chapter12(Chapter):
         with self.narrate("They meet here. And they do not cross — they touch, and run "
                           "off in the same direction."):
             self.play(FadeIn(h_dot), FadeIn(h_lab), run_time=1.0)
-            self.play(Circumscribe(h_dot, color=TRIGGER, buff=0.12, stroke_width=4),
+            self.play(S.flash_around(h_dot, color=TRIGGER, buff=0.12, stroke_width=4),
                       run_time=1.4)
         self.beat()
 

@@ -1,41 +1,63 @@
 """Single source of truth for colour, type, timing and layout.
 
-Nothing in chapters/ may define a colour literal. Colour always means the
-same thing: see the table in the brief, section 5.4.
+The visual system is 3Blue1Brown's, taken from his own manim configuration
+(`3b1b/manim`, `manimlib/default_config.yml`): a dark neutral ground at
+#333333, 1920x1080 at 30 frames a second, a frame eight units high, and his
+published colour table. The type is CMU Serif -- the Computer Modern face his
+LaTeX text is set in.
+
+Each colour keeps one meaning for the whole film. If money is green in chapter
+one it is green in chapter forty-three.
 """
-from manim import config, WHITE
+from manim import config
 
-# ---------------------------------------------------------------- palette
-BG      = "#0E1420"   # background
-CHALK   = "#F2F0E9"   # figures, main text, axis labels
-MUTED   = "#7A8296"   # axes, gridlines, secondary text
-MONEY   = "#4CC38A"   # revenue, good outcomes, profit
-COST    = "#E5484D"   # costs, losses, bad outcomes
-SUNK    = "#F5A524"   # sunk cost, irreversibility
-WAIT    = "#7C89F5"   # option value, waiting, uncertainty
-TRIGGER = "#B44BE8"   # the two trigger lines H and L
+# ---------------------------------------------------------------- 3b1b palette
+# hex values from manimlib/default_config.yml
+BLUE_E, BLUE_D, BLUE_C, BLUE_B, BLUE_A = "#1C758A", "#29ABCA", "#58C4DD", "#9CDCEB", "#C7E9F1"
+TEAL_E, TEAL_D, TEAL_C = "#49A88F", "#55C1A7", "#5CD0B3"
+GREEN_E, GREEN_D, GREEN_C, GREEN_B = "#699C52", "#77B05D", "#83C167", "#A6CF8C"
+YELLOW_E, YELLOW_D, YELLOW_C, YELLOW_B = "#E8C11C", "#F4D345", "#FFFF00", "#FFEA94"
+GOLD_E, GOLD_D, GOLD_C, GOLD_B = "#C78D46", "#E1A158", "#F0AC5F", "#F9B775"
+RED_E, RED_D, RED_C, RED_B = "#CF5044", "#E65A4C", "#FC6255", "#FF8080"
+MAROON_D, MAROON_C, MAROON_B = "#A24D61", "#C55F73", "#EC92AB"
+PURPLE_E, PURPLE_D, PURPLE_C, PURPLE_B = "#644172", "#715582", "#9A72AC", "#B189C6"
+GREY_E, GREY_D, GREY_C, GREY_B, GREY_A = "#222222", "#444444", "#888888", "#BBBBBB", "#DDDDDD"
+PURE_WHITE, PURE_BLACK = "#FFFFFF", "#000000"
+PINK, ORANGE = "#D147BD", "#FF862F"
 
-# Part Two attribution colours -- whose claim is on screen, readable at a glance
-SRC_BR  = "#E5484D"   # Bowdler & Radia -- the theory under examination
-SRC_DX  = "#4A9EDA"   # Dixit -- the alternative
-SRC_MM  = "#2FA37A"   # Martin & Milas -- the evidence
-SRC_KIT = "#B44BE8"   # Kit's own additions and conjectures
+# ---------------------------------------------------------------- what things mean
+BG      = "#2B2B2B"    # the ground: 3b1b's dark neutral, a shade under his #333333
+CHALK   = PURE_WHITE   # figures, main text
+MUTED   = GREY_B       # axes, gridlines, secondary text
+MONEY   = GREEN_C      # revenue, good outcomes, profit
+COST    = RED_C        # costs, losses, bad outcomes
+SUNK    = GOLD_C       # sunk cost, irreversibility
+WAIT    = BLUE_C       # option value, waiting, uncertainty
+TRIGGER = YELLOW_D     # the two trigger lines, and the bar they set
+
+# Part Three attribution -- whose claim is on screen, readable at a glance
+SRC_BR  = RED_C        # Bowdler & Radia -- the theory under examination
+SRC_DX  = BLUE_D       # Dixit -- the alternative
+SRC_MM  = TEAL_C       # Martin & Milas -- the evidence
+SRC_KIT = YELLOW_D     # Kit's own additions -- deliberately the trigger colour
 
 # ---------------------------------------------------------------- type
-FONT = "DejaVu Sans"
-T_HEAD  = 44   # headings
-T_SUB   = 34
-T_BODY  = 30   # minimum body size
-T_SMALL = 26   # footnotes / page refs only, never a term or a number
-T_TINY  = 20   # progress indicator
+FONT = "CMU Serif"          # Computer Modern: the face LaTeX, and 3b1b, set text in
+FONT_MONO = "CMU Typewriter Text"
+T_HEAD  = 46
+T_SUB   = 36
+T_BODY  = 32
+T_SMALL = 27
+T_TINY  = 21
 
 # ---------------------------------------------------------------- timing
-BEAT      = 0.8    # the pause after a new term or a number
-PAD       = 0.45   # tail of silence after every narrated line
-CARD_HOLD = 4.0    # a definition card stays up at least this long
+BEAT      = 0.8
+PAD       = 0.45
+CARD_HOLD = 4.0
+LAG       = 0.15    # 3b1b's staggered-reveal lag
 
 # ---------------------------------------------------------------- layout
-SAFE_W = 12.4      # usable width in manim units (screen is 14.22)
+SAFE_W = 12.4
 SAFE_H = 6.8
 
 TOTAL_CHAPTERS = 44   # 0..43

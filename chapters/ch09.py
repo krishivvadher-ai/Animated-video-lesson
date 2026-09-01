@@ -2,7 +2,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from manim import *
 from lib.base import Chapter
-from lib import stick, cards, widgets as W
+from lib import stick, cards, widgets as W, style as S
 from lib.theme import *
 
 
@@ -151,7 +151,7 @@ class Chapter09(Chapter):
             self.beat(0.5)
         with self.narrate("Hold on to the middle one. It is going to matter enormously "
                           "in chapter thirteen."):
-            self.play(Circumscribe(check[1], color=WAIT, buff=0.2, stroke_width=4),
+            self.play(S.flash_around(check[1], color=WAIT, buff=0.2, stroke_width=4),
                       run_time=1.4)
         self.beat()
 

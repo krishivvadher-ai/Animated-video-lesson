@@ -2,7 +2,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from manim import *
 from lib.base import Chapter
-from lib import stick, cards, widgets as W
+from lib import stick, cards, widgets as W, style as S
 from lib.scale import MasterScale
 from lib.theme import *
 
@@ -94,7 +94,7 @@ class Chapter10(Chapter):
         with self.narrate("That is Marshall's line, and now you know exactly where it "
                           "comes from. It is the interest on the money she sank into "
                           "the building — the normal return on capital, and nothing more."):
-            self.play(Circumscribe(steps[2], color=COST, buff=0.2, stroke_width=4),
+            self.play(S.flash_around(steps[2], color=COST, buff=0.2, stroke_width=4),
                       run_time=1.6)
         self.beat()
 

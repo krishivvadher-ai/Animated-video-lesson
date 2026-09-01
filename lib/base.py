@@ -67,20 +67,38 @@ class Chapter(ThreeDScene):
 
     # ------------------------------------------------------------ house style
     def play(self, *anims, **kw):
-        """House style: words are written on, outlines are drawn on.
+        """3Blue1Brown's defaults, applied to every animation in the film.
 
-        Nothing pops into existence fully formed if it can be built instead.
+        Short labels are written on. Outlines are drawn on. Anything with
+        several parts arrives staggered rather than all at once. Everything
+        that fades drifts a little as it goes -- his `FadeIn(mob, UP)`.
         """
+        from manim import LaggedStartMap
+        from lib.theme import LAG
         out = []
+        rt = kw.get("run_time")
         for a in anims:
             m = getattr(a, "mobject", None)
             if type(a) is FadeIn and m is not None:
-                if _all_text(m) and len(str(getattr(m, "text", "x" * 200))) <= 160:
-                    out.append(Write(m))
+                short = _all_text(m) and len(str(getattr(m, "text", "x" * 200))) <= 90
+                if short:
+                    out.append(Write(m, run_time=rt) if rt else Write(m))
                     continue
                 if _outline_only(m):
-                    out.append(Create(m))
+                    out.append(Create(m, run_time=rt) if rt else Create(m))
                     continue
+                if isinstance(m, VGroup) and 2 < len(m) <= 14:
+                    out.append(LaggedStartMap(FadeIn, m, shift=UP * 0.22,
+                                              lag_ratio=LAG,
+                                              **({"run_time": rt} if rt else {})))
+                    continue
+                out.append(FadeIn(m, shift=UP * 0.22,
+                                  **({"run_time": rt} if rt else {})))
+                continue
+            if type(a) is FadeOut and m is not None:
+                out.append(FadeOut(m, shift=DOWN * 0.12,
+                                   **({"run_time": rt} if rt else {})))
+                continue
             out.append(a)
         self._record(*[getattr(a, "mobject", None) for a in out])
         return super().play(*out, **kw)
@@ -114,10 +132,16 @@ class Chapter(ThreeDScene):
 
     # ------------------------------------------------------------ furniture
     def open_chapter(self, subtitle=None):
+        from manim import Write, GrowFromCenter, Line, LEFT, RIGHT
         card = cards.title_card(self.CH, self.TITLE, self.PART)
-        self.play(FadeIn(card, shift=UP * 0.3), run_time=1.0)
-        self.wait(1.4)
-        self.play(FadeOut(card), run_time=0.6)
+        num, rule, title = card[0], card[1], card[2]
+        self.play(FadeIn(num, shift=DOWN * 0.2), run_time=0.6)
+        self.play(GrowFromCenter(rule), run_time=0.5)
+        self.play(Write(title), run_time=1.4)
+        if len(card) > 3:
+            self.play(FadeIn(card[3]), run_time=0.5)
+        self.wait(1.1)
+        self.play(FadeOut(card, shift=UP * 0.25), run_time=0.7)
         self._progress = cards.progress(self.CH)
         self.add(self._progress)
         # the indicator belongs to the screen, not to the scene's 3D space
@@ -132,10 +156,12 @@ class Chapter(ThreeDScene):
         panel.move_to(ORIGIN)
         if panel.height > 5.4:
             panel.scale(5.4 / panel.height)
-        self.play(FadeIn(panel[0]), run_time=0.5)
+        from manim import GrowFromCenter, Write
+        self.play(FadeIn(panel[0], shift=DOWN * 0.2), run_time=0.5)
         for i, row in enumerate(panel[1]):
             with self.narrate(bullets[i], pad=0.15):
-                self.play(FadeIn(row, shift=RIGHT * 0.3), run_time=0.6)
+                self.play(GrowFromCenter(row[0]), run_time=0.35)
+                self.play(Write(row[1]), run_time=0.7)
         self.wait(0.9)
         self.play(FadeOut(panel), run_time=0.7)
         if self._progress:
@@ -150,6 +176,20 @@ class Chapter(ThreeDScene):
 
     def pull_back(self, run_time=1.4):
         self.move_camera(zoom=1.0, frame_center=[0, 0, 0], run_time=run_time)
+
+    def spotlight(self, keep, run_time=0.7, dim=0.22):
+        """Dim everything except one thing -- the house move for a hard beat."""
+        keep_ids = {id(m) for m in (keep if isinstance(keep, (list, tuple)) else [keep])}
+        if self._progress is not None:
+            keep_ids.add(id(self._progress))
+        others = [m for m in self.mobjects if id(m) not in keep_ids]
+        if others:
+            self.play(*[m.animate.set_opacity(dim) for m in others], run_time=run_time)
+        return others
+
+    def unspotlight(self, others, run_time=0.6):
+        if others:
+            self.play(*[m.animate.set_opacity(1.0) for m in others], run_time=run_time)
 
     def flash(self, mob, color=None, run_time=1.2):
         """Draw the eye to something already on screen."""

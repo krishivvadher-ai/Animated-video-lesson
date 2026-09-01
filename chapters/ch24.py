@@ -2,7 +2,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from manim import *
 from lib.base import Chapter
-from lib import stick, cards, widgets as W
+from lib import stick, cards, widgets as W, style as S
 from lib.theme import *
 
 
@@ -93,7 +93,7 @@ class Chapter24(Chapter):
                           "year printed on it never changes. That one fact is the whole "
                           "of the next section."):
             self.play(FadeIn(fix), run_time=0.9)
-            self.play(Circumscribe(fix, color=SRC_BR, buff=0.2, stroke_width=4),
+            self.play(S.flash_around(fix, color=SRC_BR, buff=0.2, stroke_width=4),
                       run_time=1.4)
         self.beat()
         self.clear_stage()

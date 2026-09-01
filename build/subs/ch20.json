@@ -1,115 +1,115 @@
 {
  "chapter": 20,
- "title": "Three balance sheets",
- "duration": 208.79999999999933,
+ "title": "Outside business",
+ "duration": 149.66666666666634,
  "cues": [
   {
-   "start": 3.0000000000000018,
-   "end": 12.83950113378685,
-   "text": "The policy is easy to describe and easy to get wrong. So we are going to follow the money through three sets of books, one at a time.",
+   "start": 4.866666666666667,
+   "end": 16.96666666666667,
+   "text": "The paper closes with an observation that reaches well outside business. Many personal, social and political decisions have exactly the same three features.",
    "voice": "n"
   },
   {
-   "start": 13.866666666666665,
-   "end": 20.689977324263037,
-   "text": "balance sheet. A list of what somebody owns on one side, and what they owe on the other.",
+   "start": 17.4,
+   "end": 27.303356009070292,
+   "text": "Costly to reverse. Made under uncertainty. And the timing is yours to choose. So the same inertia applies to them too.",
    "voice": "n"
   },
   {
-   "start": 23.666666666666664,
-   "end": 33.959002267573695,
-   "text": "The people who actually sell the gilts are usually not banks. They are pension funds and insurance companies \u2014 the non-bank private sector.",
+   "start": 29.599999999999998,
+   "end": 40.57691609977324,
+   "text": "A man and his partner, in New York, each with a rent-controlled flat. Their relationship reaches the point where she suggests they give one of them up.",
    "voice": "n"
   },
   {
-   "start": 35.00000000000002,
-   "end": 45.39387755102043,
-   "text": "the non-bank private sector. Everybody who holds financial assets and is not a bank \u2014 pension funds, insurers, ordinary savers.",
+   "start": 40.99999999999999,
+   "end": 42.828616780045344,
+   "text": "Let us give one of them up.",
+   "voice": "c"
+  },
+  {
+   "start": 43.60000000000004,
+   "end": 56.0904308390023,
+   "text": "And he explains to her, at length, the importance of keeping options alive. It is unlikely they would split up, he says, but given a positive probability, and so on.",
    "voice": "n"
   },
   {
-   "start": 51.26666666666685,
-   "end": 57.216825396825584,
-   "text": "The seller hands over its gilts. So its holdings of gilts go down.",
+   "start": 57.33333333333341,
+   "end": 61.43605442176878,
+   "text": "She took it very badly, and ended the relationship.",
    "voice": "n"
   },
   {
-   "start": 57.66666666666689,
-   "end": 66.62448979591859,
-   "text": "And it gets money instead \u2014 not printed notes, but a number credited to its bank account. So its deposits go up.",
+   "start": 63.733333333333604,
+   "end": 79.03206349206377,
+   "text": "Financial economists who hear that story say it proves how right he was. The paper says something better. He had misread the situation entirely. It was not a decision problem under uncertainty at all.",
    "voice": "n"
   },
   {
-   "start": 67.86666666666693,
-   "end": 77.95269841269868,
-   "text": "The central bank now owns the gilts. And it pays for them by creating reserves \u2014 money that only banks hold, at the central bank.",
+   "start": 80.86666666666687,
+   "end": 93.3704761904764,
+   "text": "It was a signalling game. And signalling is a genuinely useful idea, so here is the definition. Doing something costly, because the cost is what makes it believable.",
    "voice": "n"
   },
   {
-   "start": 79.20000000000017,
-   "end": 91.99378684807273,
-   "text": "And the bank in the middle sits between them. It has more reserves on one side, and it owes the seller more deposits on the other. Both sides of its books grow together.",
+   "start": 97.13333333333351,
+   "end": 113.74390022675755,
+   "text": "She was unsure how much he valued her. And it was precisely his willingness to take the costly, irreversible step of giving up the flat that would have carried the message. Anyone can say it. Only someone who means it will pay for it.",
    "voice": "n"
   },
   {
-   "start": 93.20000000000009,
-   "end": 103.42117913832209,
-   "text": "Look at that and notice what has not happened. Nobody has been given anything. Every single one of those entries is matched by another one.",
+   "start": 114.93333333333344,
+   "end": 119.02589569161007,
+   "text": "He tried to sit on the fence, and fell off it.",
    "voice": "n"
   },
   {
-   "start": 104.6666666666667,
-   "end": 117.65292517006806,
-   "text": "What has happened is that the seller's portfolio has been disturbed. It wanted gilts, and now it is holding money. And that disturbance is where the whole mechanism starts.",
+   "start": 120.80000000000003,
+   "end": 135.09700680272113,
+   "text": "And that gives the chapter a real point rather than a joke. It shows a limit of the whole framework. Option value is not always the right lens. Sometimes the irreversibility is the message.",
    "voice": "n"
   },
   {
-   "start": 119.93333333333317,
-   "end": 131.52721088435356,
-   "text": "Ordinary monetary policy sets the price of money. One short-term interest rate, and everything else follows from what people expect that rate to do.",
+   "start": 137.39999999999992,
+   "end": 140.42027210884345,
+   "text": "the same three features appear elsewhere",
    "voice": "n"
   },
   {
-   "start": 131.9333333333331,
-   "end": 143.09836734693855,
-   "text": "Quantitative easing sets the quantity instead. And it aims directly at longer-term rates, rather than reaching them through expectations.",
+   "start": 140.5333333333332,
+   "end": 144.26598639455767,
+   "text": "keeping the option open can be the wrong move",
    "voice": "n"
   },
   {
-   "start": 144.33333333333306,
-   "end": 158.72004535147366,
-   "text": "And the authors are careful here. There is nothing unusual about a central bank buying assets at all. What distinguishes these operations is the circumstances they took place in, and their scale.",
-   "voice": "n"
-  },
-  {
-   "start": 160.33333333333297,
-   "end": 182.8975510204078,
-   "text": "And one more difference, which matters enormously in the next chapter. What is bought. Short-dated government debt is very nearly the same thing as money. Long-dated gilts, company debt and mortgage-backed securities are not. The effectiveness of the policy may depend on what is bought, as well as how much.",
-   "voice": "n"
-  },
-  {
-   "start": 185.1999999999995,
-   "end": 190.48848072562308,
-   "text": "The sellers are usually pension funds and insurers, not banks.",
-   "voice": "n"
-  },
-  {
-   "start": 190.59999999999948,
-   "end": 196.704988662131,
-   "text": "The seller swaps gilts for deposits; the central bank swaps reserves for gilts.",
-   "voice": "n"
-  },
-  {
-   "start": 196.79999999999944,
-   "end": 201.06671201814004,
-   "text": "Every entry is matched \u2014 nobody is handed anything.",
-   "voice": "n"
-  },
-  {
-   "start": 201.19999999999942,
-   "end": 206.41873015872957,
-   "text": "What changes is that the seller is now holding money it did not want.",
+   "start": 144.39999999999978,
+   "end": 147.28512471655307,
+   "text": "signalling: the cost is the message",
    "voice": "n"
   }
+ ],
+ "screen_text": [
+  "20/43",
+  "Andthepaper'sresolutionistheinstructivepart",
+  "Anexamplethepapertellsagainsteconomists",
+  "CHAPTER20",
+  "Costly,andthatiswhatmakesitbelievable.",
+  "Hesatonthefence,andfelloff.",
+  "It'sunlikelywe'dsplitup.Butgivenapositiveprobability\u2026",
+  "Let'sgiveoneup.",
+  "Outsidebusiness",
+  "PARTONE\u2014THEPAPER",
+  "Whatwejustestablished",
+  "costlytoreverse",
+  "keepingtheoptionopencanbethewrongmove",
+  "madeunderuncertainty",
+  "notadecisionproblem\u2014asignallinggame",
+  "signalling",
+  "signalling:thecostisthemessage",
+  "sometimestheirreversibilityISthemessage",
+  "thecostly,irreversiblestepWASthemessage",
+  "thesamethreefeaturesappearelsewhere",
+  "thetimingisachoice",
+  "tworent-controlledflats"
  ]
 }

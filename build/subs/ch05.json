@@ -1,145 +1,40 @@
 {
  "chapter": 5,
- "title": "Why waiting is worth money",
- "duration": 190.7333333333325,
+ "title": "Style test",
+ "duration": 28.53333333333327,
  "cues": [
   {
-   "start": 3.0000000000000018,
-   "end": 13.819954648526078,
-   "text": "Put Nell exactly on Marshall's line. Exactly on it. The money coming in is precisely enough to cover everything, including the cost of her money.",
+   "start": 18.26666666666662,
+   "end": 21.16340136054417,
+   "text": "revenue minus cost is profit",
    "voice": "n"
   },
   {
-   "start": 14.866666666666664,
-   "end": 22.232925170068025,
-   "text": "Marshall says she should be indifferent. Build, or do not build. It makes no difference either way.",
+   "start": 21.266666666666616,
+   "end": 22.979183673469336,
+   "text": "waiting has value",
    "voice": "n"
   },
   {
-   "start": 22.66666666666666,
-   "end": 26.987936507936503,
-   "text": "Hang on. There is a third thing she could do, and neither of those is it.",
-   "voice": "c"
-  },
-  {
-   "start": 27.399999999999988,
-   "end": 36.49714285714285,
-   "text": "Give her one very simple plan. It is not even the best plan \u2014 it is just a plan, and it is enough to make the point.",
-   "voice": "n"
-  },
-  {
-   "start": 36.93333333333332,
-   "end": 46.28938775510203,
-   "text": "Wait a fixed stretch of time. Then look at the money coming in. If it is above the line, build. If it is not, never build.",
-   "voice": "n"
-  },
-  {
-   "start": 48.13333333333341,
-   "end": 57.475192743764254,
-   "text": "Now watch what the future might do, starting from that point. Here are five futures. Nobody knows which one happens.",
-   "voice": "n"
-  },
-  {
-   "start": 57.866666666666774,
-   "end": 64.24145124716564,
-   "text": "Some of them end up high. Some end up low. That is what uncertainty looks like.",
-   "voice": "n"
-  },
-  {
-   "start": 64.66666666666693,
-   "end": 73.68371882086194,
-   "text": "In the two futures that end up high, she looks, she sees the money is well above the line, and she builds. She gains.",
-   "voice": "n"
-  },
-  {
-   "start": 74.13333333333355,
-   "end": 81.12077097505691,
-   "text": "In the two futures that end up low, she looks, and she does not build. She gains nothing.",
-   "voice": "n"
-  },
-  {
-   "start": 81.5333333333335,
-   "end": 89.39913832199564,
-   "text": "But look at that again, because everything turns on it. She gains nothing \u2014 and she loses nothing.",
-   "voice": "n"
-  },
-  {
-   "start": 91.13333333333334,
-   "end": 100.0556462585034,
-   "text": "So do the sum. Mix together some positive outcomes and some zeros, and weigh each by how likely it is.",
-   "voice": "n"
-  },
-  {
-   "start": 100.46666666666663,
-   "end": 105.36031746031742,
-   "text": "The answer is bigger than nothing. It cannot be anything else.",
-   "voice": "n"
-  },
-  {
-   "start": 106.5999999999999,
-   "end": 118.03219954648516,
-   "text": "Which means waiting beats acting, at the very point where the textbook says she should not care either way. So the textbook's line is in the wrong place.",
-   "voice": "n"
-  },
-  {
-   "start": 119.7999999999998,
-   "end": 128.1209977324261,
-   "text": "Here is the sentence. Waiting lets her avoid the downside over that stretch of time, while keeping the upside.",
-   "voice": "n"
-  },
-  {
-   "start": 131.73333333333298,
-   "end": 139.93260770975022,
-   "text": "That selective removal of risk \u2014 cutting off the bad half and keeping the good half \u2014 is what waiting is worth.",
-   "voice": "n"
-  },
-  {
-   "start": 141.86666666666622,
-   "end": 149.2353287981855,
-   "text": "One more thing, and it is the most counter-intuitive part of the chapter, so I am going to say it twice.",
-   "voice": "n"
-  },
-  {
-   "start": 149.66666666666617,
-   "end": 153.95659863945528,
-   "text": "This has nothing whatsoever to do with disliking risk.",
-   "voice": "n"
-  },
-  {
-   "start": 155.19999999999948,
-   "end": 163.50571428571376,
-   "text": "Nell is assumed not to mind risk at all. She would take a fair gamble without blinking. And she still waits.",
-   "voice": "n"
-  },
-  {
-   "start": 164.73333333333278,
-   "end": 173.3302040816321,
-   "text": "The trade she is making is between risk now and risk later. It is not about nerves. It is about timing.",
-   "voice": "n"
-  },
-  {
-   "start": 175.59999999999934,
-   "end": 178.72893424036215,
-   "text": "start exactly on the textbook's line",
-   "voice": "n"
-  },
-  {
-   "start": 178.86666666666596,
-   "end": 182.2742403628111,
-   "text": "good futures pay \u00b7 bad ones cost nothing",
-   "voice": "n"
-  },
-  {
-   "start": 182.39999999999927,
-   "end": 184.84394557823055,
-   "text": "gains + zeros > nothing",
-   "voice": "n"
-  },
-  {
-   "start": 184.93333333333257,
-   "end": 188.31768707482917,
-   "text": "None of this is about disliking risk.",
+   "start": 23.066666666666613,
+   "end": 26.172380952380898,
+   "text": "the trigger sits above the textbook line",
    "voice": "n"
   }
+ ],
+ "screen_text": [
+  "1.00",
+  "1.86",
+  "5/43",
+  "CHAPTER5",
+  "Nell",
+  "PARTONE\u2014THEPAPER",
+  "Styletest",
+  "Waitinghasvaluebecausethedownsideiscutoffandtheupsideiskept\u2014sothetriggersitsabovecost.",
+  "Whatwejustestablished",
+  "revenue",
+  "revenueminuscostisprofit",
+  "thetriggersitsabovethetextbookline",
+  "waitinghasvalue"
  ]
 }

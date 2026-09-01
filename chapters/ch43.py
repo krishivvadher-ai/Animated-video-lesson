@@ -2,7 +2,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from manim import *
 from lib.base import Chapter
-from lib import stick, cards, widgets as W
+from lib import stick, cards, widgets as W, style as S
 from lib.chain import Chain
 from lib.theme import *
 
@@ -64,7 +64,7 @@ class Chapter43(Chapter):
         with self.narrate("Except one. The stage where a quantity finally has to "
                           "change, because somebody in a room has to say yes."):
             self.play(ch.highlight(4, SRC_KIT), FadeIn(t5), run_time=1.2)
-            self.play(Circumscribe(ch.boxes[4], color=SRC_KIT, buff=0.15,
+            self.play(S.flash_around(ch.boxes[4], color=SRC_KIT, buff=0.15,
                                    stroke_width=5), run_time=1.6)
         self.beat()
 

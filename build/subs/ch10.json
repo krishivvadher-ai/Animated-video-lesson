@@ -1,107 +1,107 @@
 {
  "chapter": 10,
  "title": "The textbook\u2019s line, as a sum",
- "duration": 149.9999999999997,
+ "duration": 151.86666666666613,
  "cues": [
   {
-   "start": 4.066666666666671,
-   "end": 11.955963718820865,
+   "start": 5.93333333333333,
+   "end": 13.822630385487525,
    "text": "Nell is deciding whether to build. There are exactly two amounts, and we can write both of them down.",
    "voice": "n"
   },
   {
-   "start": 12.4,
-   "end": 30.041814058956916,
+   "start": 14.266666666666659,
+   "end": 31.908480725623576,
    "text": "What she gets: the money coming in each month, for ever, discounted back. From the last chapter, that is the yearly amount divided by the rate. Call the yearly amount R, and the rate the Greek letter that we will only ever call the cost of capital.",
    "voice": "n"
   },
   {
-   "start": 31.266666666666662,
-   "end": 36.11224489795918,
+   "start": 33.13333333333332,
+   "end": 37.97891156462583,
    "text": "What she pays: the sunk cost of building it. Call that K.",
    "voice": "n"
   },
   {
-   "start": 39.66666666666673,
-   "end": 46.67002267573702,
+   "start": 41.533333333333424,
+   "end": 48.53668934240372,
    "text": "Subtract one from the other and you have what the project is worth. Economists call it net worth.",
    "voice": "n"
   },
   {
-   "start": 47.66666666666683,
-   "end": 51.48535147392306,
+   "start": 49.53333333333352,
+   "end": 53.352018140589756,
    "text": "net worth. What you get, minus what you pay.",
    "voice": "n"
   },
   {
-   "start": 54.93333333333357,
-   "end": 61.05764172335625,
+   "start": 56.80000000000027,
+   "end": 62.924308390022944,
    "text": "The borderline is where the two are exactly equal \u2014 where net worth is nothing at all.",
    "voice": "n"
   },
   {
-   "start": 61.93333333333364,
-   "end": 67.41564625850371,
+   "start": 63.80000000000034,
+   "end": 69.2823129251704,
    "text": "Add K to both sides. What she gets equals what she pays.",
    "voice": "n"
   },
   {
-   "start": 68.26666666666705,
-   "end": 78.13873015873054,
+   "start": 70.13333333333361,
+   "end": 80.0053968253971,
    "text": "Multiply both sides by the rate. And there is the textbook's line: the yearly revenue has to equal the rate times the sunk cost.",
    "voice": "n"
   },
   {
-   "start": 79.00000000000031,
-   "end": 91.35986394557854,
+   "start": 80.86666666666687,
+   "end": 93.2265306122451,
    "text": "That is Marshall's line, and now you know exactly where it comes from. It is the interest on the money she sank into the building \u2014 the normal return on capital, and nothing more.",
    "voice": "n"
   },
   {
-   "start": 93.66666666666683,
-   "end": 101.31188208616796,
+   "start": 95.53333333333339,
+   "end": 103.17854875283452,
    "text": "Dixit's worked example uses a sunk cost of two, and a cost of capital of five per cent.",
    "voice": "n"
   },
   {
-   "start": 102.13333333333343,
-   "end": 108.74671201814068,
+   "start": 103.99999999999999,
+   "end": 110.61337868480724,
    "text": "So the normal return on that capital is nought point nought five times two. A tenth.",
    "voice": "n"
   },
   {
-   "start": 109.53333333333336,
-   "end": 113.87487528344674,
+   "start": 111.39999999999992,
+   "end": 115.7415419501133,
    "text": "And the factory also costs one to run each year.",
    "voice": "n"
   },
   {
-   "start": 114.66666666666663,
-   "end": 126.31396825396821,
+   "start": 116.53333333333319,
+   "end": 128.1806349206348,
    "text": "Add them: one, plus a tenth. One point one. That is the eleven-tenths you have been staring at since chapter two, and you have just worked it out yourself.",
    "voice": "n"
   },
   {
-   "start": 128.99999999999986,
-   "end": 133.26671201814045,
+   "start": 130.86666666666642,
+   "end": 135.133378684807,
    "text": "what she gets:  R \u00f7 \u03c1",
    "voice": "n"
   },
   {
-   "start": 133.39999999999984,
-   "end": 135.3447165532878,
+   "start": 135.26666666666637,
+   "end": 137.21138321995434,
    "text": "what she pays:  K",
    "voice": "n"
   },
   {
-   "start": 135.46666666666647,
-   "end": 140.4198185941041,
+   "start": 137.33333333333297,
+   "end": 142.2864852607706,
    "text": "net worth is the difference; the borderline is where it is zero",
    "voice": "n"
   },
   {
-   "start": 140.5333333333331,
-   "end": 147.59804988662108,
+   "start": 142.39999999999958,
+   "end": 149.46471655328756,
    "text": "so the textbook line is  M = C + \u03c1K  =  1.10",
    "voice": "n"
   }

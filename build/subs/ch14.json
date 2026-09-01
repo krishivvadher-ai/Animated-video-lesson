@@ -1,133 +1,154 @@
 {
  "chapter": 14,
- "title": "What a whole industry looks like",
- "duration": 205.066666666666,
+ "title": "When this is wrong",
+ "duration": 193.19999999999925,
  "cues": [
   {
-   "start": 3.0000000000000018,
-   "end": 11.154421768707484,
-   "text": "Everything so far has been about one firm. Now put a lot of them in one market and see what the market does.",
+   "start": 4.866666666666667,
+   "end": 17.369523809523812,
+   "text": "Being honest about the limits is part of the teaching, and it also stops you over-applying the idea. The paper sets out four qualifications, and every one of them matters.",
    "voice": "n"
   },
   {
-   "start": 12.599999999999998,
-   "end": 17.284671201814056,
-   "text": "Six similar firms, all facing the same swinging demand.",
+   "start": 18.333333333333332,
+   "end": 30.49410430839002,
+   "text": "Everything so far assumed the chance was Nell's alone. Suppose it is not. Suppose there is one site, or one licence, and several firms want it.",
    "voice": "n"
   },
   {
-   "start": 17.733333333333327,
-   "end": 28.331655328798178,
-   "text": "When the price rises to the entry line, new firms come in. More supply, and the price stops rising. So the price never gets above that line.",
+   "start": 30.93333333333333,
+   "end": 35.60312925170068,
+   "text": "Nell hesitates, sensibly, to see how things develop.",
    "voice": "n"
   },
   {
-   "start": 28.73333333333332,
-   "end": 39.24512471655328,
-   "text": "And when the price falls to the exit line, firms leave. Less supply, and the price stops falling. So it never gets below that one either.",
+   "start": 36.00000000000006,
+   "end": 39.03605442176877,
+   "text": "And somebody else walks through the door.",
    "voice": "n"
   },
   {
-   "start": 39.66666666666664,
-   "end": 45.37106575963716,
-   "text": "Why does the entry line have to sit above average cost? Why not exactly at it?",
-   "voice": "c"
-  },
-  {
-   "start": 46.200000000000045,
-   "end": 51.151065759637234,
-   "text": "Suppose entry capped the price exactly at average cost.",
+   "start": 39.46666666666688,
+   "end": 54.413287981859625,
+   "text": "When the chance can be snatched, waiting is no longer possible. And when waiting is not possible, the textbook's trigger is valid again. This is a real limit, and we will come back to it in Part Two.",
    "voice": "n"
   },
   {
-   "start": 51.60000000000007,
-   "end": 58.25619047619055,
-   "text": "Then firms could never do better than normal \u2014 and bad spells would still push them below it.",
+   "start": 56.66666666666698,
+   "end": 67.1298866213155,
+   "text": "Sometimes moving first has a value of its own \u2014 you take the best position, and everyone else has to work around you. That pulls the other way.",
    "voice": "n"
   },
   {
-   "start": 58.66666666666677,
-   "end": 63.69963718820872,
-   "text": "So on average they would lose. And nobody would enter at all.",
+   "start": 67.53333333333372,
+   "end": 71.41600907029516,
+   "text": "The right answer balances the two against each other.",
    "voice": "n"
   },
   {
-   "start": 64.13333333333347,
-   "end": 77.1537868480727,
-   "text": "Which means the entry line has to leave room for the good spells to pay for the bad ones. The same argument, upside down, holds the exit line below day-to-day cost.",
+   "start": 73.66666666666694,
+   "end": 81.60444444444472,
+   "text": "Six firms, each looking at the same opportunity, each with slightly different information about it.",
    "voice": "n"
   },
   {
-   "start": 78.93333333333341,
-   "end": 95.40666666666674,
-   "text": "And here is the striking part. With these particular assumptions, the market's two lines turn out to be exactly the ones a single firm on its own would have chosen. So every number from chapter ten carries straight over.",
+   "start": 82.00000000000023,
+   "end": 94.90970521541973,
+   "text": "Each one looks around, sees that nobody else has moved, and concludes that the others must have found something discouraging. So each one revises its own view downwards.",
    "voice": "n"
   },
   {
-   "start": 96.60000000000001,
-   "end": 110.28739229024944,
-   "text": "Carry the caveat, because it matters later. That result holds for identical, small, price-taking firms, under the paper's particular assumptions. It is not a general truth.",
+   "start": 95.33333333333347,
+   "end": 105.17111111111124,
+   "text": "And so everybody waits. Not because the opportunity is bad, but because everybody is reading everybody else's silence.",
    "voice": "n"
   },
   {
-   "start": 112.06666666666659,
-   "end": 123.9896598639455,
-   "text": "So what should we expect to see? In the paper's own words: significant periods of supernormal profits with no new entry, and of operating losses without exit.",
+   "start": 106.40000000000009,
+   "end": 108.57292517006812,
+   "text": "Then one of them moves.",
    "voice": "n"
   },
   {
-   "start": 125.19999999999986,
-   "end": 135.83201814058944,
-   "text": "An industry sitting perfectly still. Profitable firms not expanding. Loss-making firms not closing. And nothing wrong anywhere.",
+   "start": 109.00000000000004,
+   "end": 118.45782312925175,
+   "text": "And now everybody revises upwards \u2014 because that firm must have seen something good. Investment arrives in a sudden bunch.",
    "voice": "n"
   },
   {
-   "start": 138.13333333333304,
-   "end": 145.70462585033985,
-   "text": "A snapshot misleads. Firms making good profits with no new entrants is not proof of monopoly.",
+   "start": 121.46666666666651,
+   "end": 131.3921995464851,
+   "text": "This one comes with a quotation, because it is the single idea Part Two leans on hardest. Dixit is quoting Bernanke.",
    "voice": "n"
   },
   {
-   "start": 146.133333333333,
-   "end": 151.6069841269838,
-   "text": "Firms selling below day-to-day cost is not proof of predatory pricing.",
+   "start": 132.5999999999998,
+   "end": 141.37138321995445,
+   "text": "In plain words. When you can wait, it is mainly the bad possible futures that decide whether you build now.",
    "voice": "n"
   },
   {
-   "start": 151.99999999999966,
-   "end": 165.74176870748266,
-   "text": "And there is a sting. An action aimed at those profits \u2014 an antitrust case, a price cap \u2014 depresses entry. And the reduced supply can actually raise the long-run average price.",
+   "start": 142.59999999999974,
+   "end": 151.91342403628093,
+   "text": "Because the good futures will still be there next year. You have not missed them. Waiting only ever protects you from the bad ones.",
    "voice": "n"
   },
   {
-   "start": 166.13333333333296,
-   "end": 178.98820861677967,
-   "text": "And a government that props firms up in bad times will be anticipated. That draws in extra entry, which makes the losses worse when the bad times actually arrive.",
+   "start": 153.733333333333,
+   "end": 175.57047619047586,
+   "text": "And carry the qualification the paper adds in the very next sentence, because dropping it changes the meaning. The total chance of ending up above the trigger does still matter. What does not matter is the shape of the good outcomes beyond it. Those are not the same thing, and Part Two needs the difference.",
    "voice": "n"
   },
   {
-   "start": 181.2666666666662,
-   "end": 186.24158730158683,
-   "text": "Entry caps the price at H; exit floors it at L.",
+   "start": 177.86666666666622,
+   "end": 181.26263038548709,
+   "text": "a race \u2192 the textbook is right",
    "voice": "n"
   },
   {
-   "start": 186.33333333333283,
-   "end": 191.24557823129203,
-   "text": "H must sit above average cost, or nobody would ever enter.",
+   "start": 181.3999999999995,
+   "end": 184.47088435374098,
+   "text": "first-mover value pulls the other way",
    "voice": "n"
   },
   {
-   "start": 191.3333333333328,
-   "end": 197.04195011337816,
-   "text": "Expect long spells of profits without entry, and losses without exit.",
+   "start": 184.59999999999943,
+   "end": 188.84349206349148,
+   "text": "inaction reads as bad news \u2192 bunching",
    "voice": "n"
   },
   {
-   "start": 197.13333333333276,
-   "end": 202.6921995464847,
-   "text": "So a snapshot of an industry can mislead anyone trying to regulate it.",
+   "start": 188.93333333333268,
+   "end": 190.81999999999934,
+   "text": "bad news principle",
    "voice": "n"
   }
+ ],
+ "screen_text": [
+  "14/43",
+  "CHAPTER14",
+  "Dixit(1992),p.118,quotingBernanke(1983)",
+  "Four\u2014thebadnewsprinciple",
+  "One\u2014therace",
+  "PARTONE\u2014THEPAPER",
+  "Therightanswerbalancesthetwo.",
+  "Three\u2014firmswatchingeachother",
+  "Two\u2014movingfirstcanbeworthsomething",
+  "Whatwejustestablished",
+  "Whenthisiswrong",
+  "Whichiswhyinvestmentcomesinwaves.",
+  "arace\u2192thetextbookisright",
+  "badnewsprinciple",
+  "beingfirstsays:gonow",
+  "everybodywaits",
+  "first-movervaluepullstheotherway",
+  "goodfutureskeep\u00b7waitingguardsthebadones",
+  "inactionreadsasbadnews\u2192bunching",
+  "informationsays:wait",
+  "onesite,onelicence",
+  "thebadfuturesdecide",
+  "totalchance:mattersshapeofthegoodones:doesnot",
+  "waitingimpossible\u2192textbookvalid",
+  "\u201cofpossiblefutureoutcomes,onlytheunfavorableoneshaveabearingonthecurrentpropensitytoundertakeagivenproject\u201d"
  ]
 }
