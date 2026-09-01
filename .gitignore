@@ -3,6 +3,8 @@ build/media/
 audio/lines/
 voices/
 final/*.mp4
+!final/*.mp4.part??
+!final/*.sha256
 final/*-novo.mp4
 docs/*.txt
 __pycache__/
