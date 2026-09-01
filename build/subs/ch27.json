@@ -1,138 +1,119 @@
 {
  "chapter": 27,
- "title": "Channels two and three: saying so, and oiling the wheels",
- "duration": 161.79999999999905,
+ "title": "Channels two and three",
+ "duration": 131.2666666666661,
  "cues": [
   {
-   "start": 5.899999999999993,
-   "end": 14.70621315192743,
+   "start": 6.333333333333329,
+   "end": 15.139546485260766,
    "text": "The second channel does not need the money to go anywhere at all. It works purely through what the action tells everybody.",
    "voice": "n"
   },
   {
-   "start": 15.133333333333326,
-   "end": 22.917868480725616,
-   "text": "By loosening policy this much, the Bank is saying it expects to keep rates low for a long time yet.",
+   "start": 15.533333333333326,
+   "end": 27.361950113378676,
+   "text": "A very large purchase is a signal. It says the central bank is serious about getting the economy going, and that it will keep rates low for a long time yet.",
    "voice": "n"
   },
   {
-   "start": 23.366666666666656,
-   "end": 27.981678004535137,
-   "text": "It is revealing its own reading of how bad things are.",
+   "start": 27.799999999999986,
+   "end": 34.69056689342402,
+   "text": "And if everybody believes that, they act on it now, before anything else has happened at all.",
    "voice": "n"
   },
   {
-   "start": 28.400000000000034,
-   "end": 38.42417233560094,
-   "text": "And by acting at all, it is showing that it is still committed to its target, and still confident it can hit it \u2014 even down at the floor.",
+   "start": 35.93333333333331,
+   "end": 46.88807256235825,
+   "text": "Which helps keep people's expectations of future inflation anchored. And expectations, as a later chapter will show, are themselves a lever.",
    "voice": "n"
   },
   {
-   "start": 39.66666666666674,
-   "end": 51.79333333333341,
-   "text": "Which helps keep people's expectations of future inflation anchored. And expectations, as chapter twenty-five will show, are themselves a lever.",
+   "start": 51.200000000000166,
+   "end": 56.7739229024945,
+   "text": "liquidity. How easily a thing can be sold without moving its price.",
    "voice": "n"
   },
   {
-   "start": 54.633333333333255,
-   "end": 58.1150113378684,
-   "text": "liquidity. How easily you can sell it.",
-   "voice": "n"
-  },
-  {
-   "start": 61.033333333333225,
-   "end": 71.39528344671191,
+   "start": 59.53333333333352,
+   "end": 69.89528344671221,
    "text": "When markets seize up, you may not be able to find a buyer at all. So investors demand a higher return to compensate them for that risk.",
    "voice": "n"
   },
   {
-   "start": 72.4333333333331,
-   "end": 78.15129251700657,
-   "text": "liquidity premium. The extra return for maybe not being able to sell.",
-   "voice": "n"
-  },
-  {
-   "start": 81.29999999999974,
-   "end": 93.12358276643965,
+   "start": 72.3333333333335,
+   "end": 84.15691609977341,
    "text": "A central bank buying on a very large scale is, among other things, a buyer. It puts trading back into the market, and that premium comes down.",
    "voice": "n"
   },
   {
-   "start": 94.36666666666635,
-   "end": 108.17573696145092,
-   "text": "But the authors are careful about this one. The effect probably lasts only while the purchases are going on. And in gilt markets, which are normally very liquid anyway, it may be small.",
+   "start": 87.13333333333325,
+   "end": 94.77999999999992,
+   "text": "But the authors are careful about this one. The effect probably lasts only while the purchases are going on.",
    "voice": "n"
   },
   {
-   "start": 111.3999999999995,
-   "end": 121.80362811791332,
-   "text": "Here is what the research can see. Government bond yields fell after the purchases. Company bond yields fell. Share prices rose.",
+   "start": 95.19999999999987,
+   "end": 100.14653061224477,
+   "text": "And in gilt markets, which are normally very liquid anyway,",
    "voice": "n"
   },
   {
-   "start": 122.23333333333278,
-   "end": 131.8858503401355,
-   "text": "And here is what it cannot see. Which of those three channels did it. They are very hard to tell apart, and the authors say so.",
+   "start": 100.53333333333316,
+   "end": 102.14136054421752,
+   "text": "it may be small.",
    "voice": "n"
   },
   {
-   "start": 133.13333333333276,
-   "end": 145.83455782312868,
+   "start": 103.33333333333312,
+   "end": 116.03455782312903,
    "text": "There is also disagreement about how big those effects were and how long they lasted. And the effects on wider classes of assets are less marked than on company bonds.",
    "voice": "n"
   },
   {
-   "start": 148.06666666666598,
-   "end": 150.7544217687068,
-   "text": "signalling: the act is the message",
+   "start": 118.333333333333,
+   "end": 121.50870748299286,
+   "text": "channel two works purely through the signal",
    "voice": "n"
   },
   {
-   "start": 150.89999999999927,
-   "end": 153.73501133786775,
-   "text": "liquidity: a very large buyer",
+   "start": 121.59999999999961,
+   "end": 125.76199546485222,
+   "text": "channel three puts trading back in a frozen market",
    "voice": "n"
   },
   {
-   "start": 153.86666666666588,
-   "end": 156.82145124716473,
-   "text": "yields fell \u00b7 share prices rose",
-   "voice": "n"
-  },
-  {
-   "start": 156.96666666666582,
-   "end": 159.42222222222136,
-   "text": "which channel? hard to tell",
+   "start": 125.86666666666622,
+   "end": 128.98362811791338,
+   "text": "and the authors hedge channel three hard",
    "voice": "n"
   }
  ],
  "screen_text": [
   "27/43",
+  "Andtheauthors'ownhedges",
   "CHAPTER27",
-  "Channelstwoandthree:sayingso,andoilingthewheels",
-  "Channelthree\u2014liquidity",
-  "Channeltwo\u2014signalling",
-  "Howeasilyyoucansellit.",
+  "Channelstwoandthree",
+  "Channelthree:oilingthewheels",
+  "Channeltwo:sayingso",
+  "Howeasilyathingcanbesoldwithoutmovingitsprice.",
   "PARTTWO\u2014THEPOLICY",
-  "Sowhichofthethreeactuallydidthework?",
-  "Theextrareturnformaybenotbeingabletosell.",
+  "TheGovernor",
   "Whatwejustestablished",
-  "expectationsstayanchored",
+  "andtheauthorshedgechannelthreehard",
+  "channelthreeputstradingbackinafrozenmarket",
+  "channeltwoworkspurelythroughthesignal",
+  "expectationsofinflation,helddown",
+  "extrareturndemanded",
+  "giltmarketsareveryliquidanyway",
+  "howbig,andforhowlong\u2014disputed",
   "liquidity",
-  "liquidity:averylargebuyer",
-  "liquiditypremium",
-  "nobuyers",
-  "portfoliorebalancing",
-  "probablyonlywhilethebuyinglasts",
-  "seen:yieldsfell,sharepricesrose",
-  "signalling",
-  "signalling:theactisthemessage",
-  "sizeandpersistence:disputed",
-  "unseen:whichchanneldidit",
-  "whichchannel?hardtotell",
-  "yieldsfell\u00b7sharepricesrose",
-  "\u201cAndwearecommittedtohittingourtarget,evendownhere.\u201d",
-  "\u201cHereisourreadingofhowbadthingsare.\u201d",
-  "\u201cWeexpecttokeeprateslowforalongtimeyet.\u201d"
- ]
+  "probablyonlywhilethebuyinggoeson",
+  "sothisonemaybesmall",
+  "themarket",
+  "weareserious,andwearenotfinished"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "too_small": [],
+ "silent_beats": []
 }

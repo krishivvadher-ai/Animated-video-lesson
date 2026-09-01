@@ -80,7 +80,7 @@ class Chapter16(Chapter):
         with self.narrate("Second, and this one reaches outside the firm altogether. "
                           "Hiring and firing cost money. So exactly the same logic "
                           "applies to jobs."):
-            self.play(FadeIn(boss), LaggedStartMap(FadeIn, workers, lag_ratio=0.2),
+            self.play(FadeIn(boss), S.lag_map(FadeIn, workers, lag=0.2),
                       run_time=1.4)
         self.side(["employers hoard labour in downturns",
                    "and are slow to hire in upturns",

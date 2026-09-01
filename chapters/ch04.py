@@ -123,7 +123,7 @@ class Chapter04(Chapter):
         St.place(icons, St.FULL, ay=0.35)
         with self.narrate("Money you cannot get back. A future you learn about slowly. "
                           "And a chance that keeps."):
-            self.play(LaggedStartMap(FadeIn, icons, shift=UP * 0.3, lag_ratio=0.25),
+            self.play(S.lag_map(FadeIn, icons, shift=UP * 0.3, lag=0.25),
                       run_time=1.8)
 
         payoff = St.caption("waiting is worth money", TRIGGER, T_HEAD, width=26)

@@ -25,7 +25,7 @@ class Chapter13(Chapter):
         St.place(inner, St.FULL, ay=0.72)
         with self.narrate("Start inside. Eight, times the cost of capital, divided by "
                           "the choppiness multiplied by itself."):
-            self.play(LaggedStartMap(FadeIn, inner, shift=UP * 0.25, lag_ratio=0.18),
+            self.play(S.lag_map(FadeIn, inner, shift=UP * 0.25, lag=0.18),
                       run_time=1.6)
         self.beat()
 

@@ -50,7 +50,7 @@ class Chapter08(Chapter):
                           "revenue that moves with exchange rates. Twenty-five to forty "
                           "for an oil well or a copper mine. The base case sits between, "
                           "at twenty."):
-            self.play(LaggedStartMap(FadeIn, anchors, lag_ratio=0.25), run_time=1.8)
+            self.play(S.lag_map(FadeIn, anchors, lag=0.25), run_time=1.8)
         self.beat()
         self.play(FadeOut(anchors), run_time=0.5)
         with self.narrate("Dial two is the cost of capital, from chapter two. What the "
@@ -189,7 +189,7 @@ class Chapter08(Chapter):
         self.remove(col)
         with self.narrate("Along one way, the revenue gets choppier. Along the other, "
                           "the money gets cheaper. And upwards is a higher bar."):
-            self.play(LaggedStartMap(FadeIn, col, lag_ratio=0.25), run_time=1.2)
+            self.play(S.lag_map(FadeIn, col, lag=0.25), run_time=1.2)
 
         sheet = SF.sheet(ax3)
         with self.narrate("And here is the shape."):

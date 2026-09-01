@@ -72,7 +72,7 @@ class Chapter14(Chapter):
         St.place(crowd, St.FULL, ay=-0.2)
         with self.narrate("Six firms, each looking at the same opportunity, each with "
                           "slightly different information about it."):
-            self.play(LaggedStartMap(FadeIn, crowd, lag_ratio=0.15), run_time=1.4)
+            self.play(S.lag_map(FadeIn, crowd, lag=0.15), run_time=1.4)
         with self.narrate("Each one looks around, sees that nobody else has moved, and "
                           "concludes the others must have found something discouraging. "
                           "So each revises its own view downwards."):

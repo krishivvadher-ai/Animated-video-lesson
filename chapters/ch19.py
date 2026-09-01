@@ -27,7 +27,7 @@ class Chapter19(Chapter):
         crowd = stick.crowd(6, spacing=1.5, scale=0.45)
         St.place(crowd, St.SIDE, ay=-0.62)
         with self.narrate("Six similar firms, all facing the same swinging demand."):
-            self.play(LaggedStartMap(FadeIn, crowd, lag_ratio=0.15), run_time=1.2)
+            self.play(S.lag_map(FadeIn, crowd, lag=0.15), run_time=1.2)
 
         extra = stick.crowd(2, spacing=1.5, scale=0.45)
         extra.next_to(crowd, UP, buff=0.5)
@@ -104,8 +104,8 @@ class Chapter19(Chapter):
         with self.narrate("An industry sitting perfectly still. Profitable firms not "
                           "expanding. Loss-making firms not closing. And nothing wrong "
                           "anywhere."):
-            self.play(LaggedStartMap(FadeIn, firms, lag_ratio=0.12), run_time=1.2)
-            self.play(LaggedStartMap(FadeIn, tags, lag_ratio=0.12), run_time=1.0)
+            self.play(S.lag_map(FadeIn, firms, lag=0.12), run_time=1.2)
+            self.play(S.lag_map(FadeIn, tags, lag=0.12), run_time=1.0)
             self.foot("nothing happens — and nothing is wrong", MUTED)
         self.beat()
         self.clear_stage()

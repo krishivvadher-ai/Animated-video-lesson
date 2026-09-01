@@ -1,156 +1,150 @@
 {
  "chapter": 24,
  "title": "What quantitative easing actually is",
- "duration": 225.23333333333156,
+ "duration": 209.86666666666466,
  "cues": [
   {
-   "start": 4.799999999999997,
-   "end": 12.698049886621313,
+   "start": 6.333333333333329,
+   "end": 14.231383219954644,
    "text": "This is the chapter where it would be easiest to lose you, so we go slowly, and we do the key sum three times.",
    "voice": "n"
   },
   {
-   "start": 13.63333333333333,
-   "end": 20.76770975056689,
+   "start": 14.666666666666657,
+   "end": 21.80104308390022,
    "text": "A government wants to spend more this year than it collects in tax. So it needs to borrow.",
    "voice": "n"
   },
   {
-   "start": 21.199999999999992,
-   "end": 29.124399092970513,
+   "start": 22.99999999999998,
+   "end": 30.9243990929705,
    "text": "And here is somebody with money they would like to put somewhere safe \u2014 a pension fund, an insurer, a saver.",
    "voice": "n"
   },
   {
-   "start": 29.5666666666667,
-   "end": 32.88834467120184,
+   "start": 31.333333333333307,
+   "end": 34.65501133786845,
    "text": "The saver hands over a hundred pounds.",
    "voice": "n"
   },
   {
-   "start": 33.333333333333464,
-   "end": 42.644761904762035,
+   "start": 36.933333333333515,
+   "end": 41.65623582766458,
+   "text": "a gilt. A piece of British government debt, bought and sold.",
+   "voice": "n"
+  },
+  {
+   "start": 44.400000000000205,
+   "end": 53.711428571428776,
    "text": "And gets back a piece of paper. A promise. Five pounds every year, and then the hundred pounds back on a fixed date.",
    "voice": "n"
   },
   {
-   "start": 43.06666666666667,
-   "end": 50.28639455782313,
+   "start": 56.73333333333375,
+   "end": 63.95306122449021,
    "text": "Year after year, the five pounds arrives. It never changes. That is the whole point of it.",
    "voice": "n"
   },
   {
-   "start": 51.533333333333225,
-   "end": 56.355238095237986,
+   "start": 64.40000000000052,
+   "end": 69.22190476190528,
    "text": "And on the date printed on it, the hundred pounds comes back.",
    "voice": "n"
   },
   {
-   "start": 58.19999999999981,
-   "end": 66.28721088435356,
-   "text": "government bond, or gilt. A promise the government has already sold, to pay fixed amounts on fixed dates.",
-   "voice": "n"
-  },
-  {
-   "start": 71.49999999999967,
-   "end": 82.46566893424003,
+   "start": 72.93333333333365,
+   "end": 83.89900226757402,
    "text": "The saver does not have to keep it until then. There is a market, and the gilt can be sold on to somebody else, at whatever price the two of them agree.",
    "voice": "n"
   },
   {
-   "start": 82.89999999999955,
-   "end": 93.10956916099728,
+   "start": 84.33333333333347,
+   "end": 94.5429024943312,
    "text": "But whatever price it changes hands at, the five pounds a year printed on it never changes. That one fact is the whole of the next section.",
    "voice": "n"
   },
   {
-   "start": 96.13333333333264,
-   "end": 104.74598639455714,
+   "start": 98.79999999999983,
+   "end": 105.15650793650777,
+   "text": "yield. What the fixed payments are worth, as a percentage of today's price.",
+   "voice": "n"
+  },
+  {
+   "start": 108.13333333333313,
+   "end": 116.74598639455762,
    "text": "The payments printed on the ticket never change. Whatever happens, it pays five pounds a year. Hold on to that.",
    "voice": "n"
   },
   {
-   "start": 105.16666666666592,
-   "end": 111.71247165532805,
-   "text": "Pay a hundred pounds for it, and you get five pounds a year. That is five per cent.",
+   "start": 117.13333333333303,
+   "end": 125.53696145124687,
+   "text": "Pay a hundred and twenty-five for exactly the same ticket, and the same five pounds is only four per cent.",
    "voice": "n"
   },
   {
-   "start": 112.63333333333254,
-   "end": 124.82399092970442,
-   "text": "Now suppose lots of buyers appear and the price goes up to a hundred and twenty-five. You are paying more for exactly the same five pounds. Four per cent.",
+   "start": 125.93333333333295,
+   "end": 132.59904761904724,
+   "text": "Pay two hundred, and it is two and a half. Same ticket. Same five pounds.",
    "voice": "n"
   },
   {
-   "start": 125.76666666666583,
-   "end": 134.95047619047534,
-   "text": "Push the price to two hundred, and it is two and a half per cent. Same ticket. Same five pounds. Half the return.",
-   "voice": "n"
-  },
-  {
-   "start": 135.89999999999912,
-   "end": 144.07092970521455,
+   "start": 133.79999999999956,
+   "end": 141.97092970521499,
    "text": "Price up, return down. Always. There is no way round it, because the payments on the ticket are fixed.",
    "voice": "n"
   },
   {
-   "start": 145.89999999999904,
-   "end": 153.66276643990832,
-   "text": "That return has a name. The yield. The return on a bond, as a percentage of what you paid for it.",
-   "voice": "n"
-  },
-  {
-   "start": 158.09999999999891,
-   "end": 161.240544217686,
+   "start": 146.13333333333253,
+   "end": 149.2738775510196,
    "text": "The central bank creates new money.",
    "voice": "n"
   },
   {
-   "start": 161.66666666666555,
-   "end": 166.6732879818583,
+   "start": 149.6666666666658,
+   "end": 154.67328798185855,
    "text": "And uses it to buy these tickets. In enormous quantities.",
    "voice": "n"
   },
   {
-   "start": 167.09999999999877,
-   "end": 176.7012244897947,
+   "start": 155.06666666666564,
+   "end": 164.66789115646156,
    "text": "So many buyers appear that the price of gilts rises. And therefore, by the sum we just did three times, the yield falls.",
    "voice": "n"
   },
   {
-   "start": 178.53333333333202,
-   "end": 183.92684807256106,
-   "text": "quantitative easing. New money, buying government bonds in bulk.",
+   "start": 168.39999999999876,
+   "end": 183.6705668934228,
+   "text": "One careful sentence about creating money, because it is the thing everyone misunderstands. The Bank credits the seller's account with money that did not exist before, and takes the bond in exchange.",
    "voice": "n"
   },
   {
-   "start": 187.73333333333198,
-   "end": 208.31011337868347,
-   "text": "One careful sentence about creating money, because it is the thing everyone misunderstands. The Bank credits the seller's account with money that did not exist before, and takes the bond in exchange. Nothing is printed, and nothing is given away. An asset is swapped for money.",
+   "start": 184.06666666666516,
+   "end": 189.9552834467105,
+   "text": "Nothing is printed, and nothing is given away. An asset is swapped for money.",
    "voice": "n"
   },
   {
-   "start": 210.53333333333185,
-   "end": 214.20793650793502,
-   "text": "a gilt: fixed payments, fixed dates",
+   "start": 192.26666666666495,
+   "end": 196.09219954648353,
+   "text": "a gilt: fixed payments, on a fixed date",
    "voice": "n"
   },
   {
-   "start": 214.33333333333178,
-   "end": 217.7096145124701,
-   "text": "payments fixed \u21d2 price up, return down",
+   "start": 196.19999999999823,
+   "end": 200.01392290249257,
+   "text": "price up \u2192 yield down, always",
    "voice": "n"
   },
   {
-   "start": 217.83333333333172,
-   "end": 220.23083900226595,
-   "text": "That return is the yield.",
+   "start": 200.1333333333315,
+   "end": 203.76149659863762,
+   "text": "the Bank creates money and buys gilts",
    "voice": "n"
   },
   {
-   "start": 220.366666666665,
-   "end": 222.88027210884187,
-   "text": "QE: new money buys gilts",
+   "start": 203.86666666666477,
+   "end": 207.61092970521352,
+   "text": "an asset swap \u2014 not a gift, not printing",
    "voice": "n"
   }
  ],
@@ -161,41 +155,51 @@
   "2029",
   "2030",
   "24/43",
-  "Anditcanbesoldon",
-  "Apromisethegovernmenthasalreadysold,topayfixedamountsonfixeddates.",
+  "=5%",
+  "ApieceofBritishgovernmentdebt,boughtandsold.",
+  "Butitcanbesoldon",
   "CHAPTER24",
-  "Newmoney,buyinggovernmentbondsinbulk.",
-  "Oneidea.Everythingdownstreamdependsonit.",
+  "Nothingisprinted,nothingisgivenaway",
   "PARTTWO\u2014THEPOLICY",
-  "Priceup,returndown.Always.",
-  "QE:newmoneybuysgilts",
-  "Sohereisthepolicy",
-  "Thatreturnistheyield.",
-  "Thereturn,asashareofwhatyoupaid.",
+  "SotheBankstepsintothatmarket",
+  "Theonesum,donethreetimes",
+  "Thepaymentsneverchange",
   "Whatquantitativeeasingactuallyis",
+  "Whatthefixedpaymentsareworth,asapercentageoftoday'sprice.",
   "Whatwejustestablished",
-  "Whereagiltcomesfrom",
-  "agilt:fixedpayments,fixeddates",
-  "anassetisswappedformoney\u2014nothingisprinted,nothinggivenaway",
-  "asaver",
-  "butthe\u00a35ayearneverchanges",
-  "gilt",
-  "governmentbond,orgilt",
-  "paymentsfixed\u21d2priceup,returndown",
-  "priceup\u21d2yielddown",
-  "quantitativeeasing",
+  "Whyagovernmentborrowsatall",
+  "agilt",
+  "agilt:fixedpayments,onafixeddate",
+  "anassetswappedformoney",
+  "anassetswap\u2014notagift,notprinting",
+  "apensionfund",
+  "buyer",
+  "holder",
+  "money",
+  "paymentsprintedontheticketneverchange",
+  "priceup\u2192yielddown",
+  "priceup\u2192yielddown,always",
+  "price\u2191",
+  "spending",
+  "taxin",
+  "theBank",
+  "theBankcreatesmoneyandbuysgilts",
+  "thebond",
+  "thecentralbank",
   "thegovernment",
-  "thisneverchanges",
+  "theseller",
   "yield",
-  "youpay\u00a3100",
-  "youpay\u00a3125",
-  "youpay\u00a3200",
+  "yield\u2193",
   "\u00a3",
   "\u00a3100",
+  "\u00a3100back",
+  "\u00a35",
   "\u00a35ayear",
-  "\u00a35ayearthen\u00a3100in2030",
-  "\u00a35\u00f7\u00a3100=5%",
-  "\u00a35\u00f7\u00a3125=4%",
-  "\u00a35\u00f7\u00a3200=2.5%"
- ]
+  "\u00a35ayear\u00b7\u00a3100in2030",
+  "\u00a35ayear\u2014whateveritsellsfor"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "too_small": [],
+ "silent_beats": []
 }

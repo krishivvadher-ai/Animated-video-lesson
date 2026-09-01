@@ -128,9 +128,8 @@ class Chapter(ThreeDScene):
                     continue
                 if (isinstance(m, VGroup) and 2 < len(m) <= 14
                         and all(_drawable(sub) for sub in m)):
-                    out.append(LaggedStartMap(FadeIn, m, shift=UP * 0.25,
-                                              lag_ratio=_LAG,
-                                              **({"run_time": rt} if rt else {})))
+                    out.append(S.lag_map(FadeIn, m, shift=UP * 0.25, lag=_LAG,
+                                         run_time=rt))
                     continue
                 out.append(FadeIn(m, shift=UP * 0.5,
                                   **({"run_time": rt} if rt else {})))

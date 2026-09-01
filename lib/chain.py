@@ -15,38 +15,39 @@ from lib.theme import (
 from lib.cards import wrap
 
 LINKS = [
-    "The Bank creates\nmoney and buys gilts",
-    "Gilt prices rise,\nyields fall",
-    "Other borrowing\nrates follow down",
-    "The cheaper price\nreaches a firm",
-    "The firm decides\nto build",
-    "Investment and\noutput rise",
+    "money\nbuys gilts",
+    "prices up\nyields down",
+    "other rates\nfall too",
+    "cheaper\nfor a firm",
+    "the firm\ndecides",
+    "output\nrises",
 ]
 
 
 class Chain(VGroup):
     """Six labelled links running across the screen, with arrows between."""
 
-    def __init__(self, y=0.0, width=12.6, color=SRC_BR, **kw):
+    def __init__(self, y=0.0, width=13.6, color=SRC_BR, **kw):
         super().__init__(**kw)
         self.boxes = VGroup()
         self.arrows = VGroup()
         self.color = color
-        bw = (width - 5 * 0.42) / 6
+        bw = (width - 5 * 0.30) / 6
         for i, text in enumerate(LINKS):
-            t = Text(text, font=FONT, font_size=20, color=CHALK,
+            t = Text(text, font=FONT, font_size=23, color=CHALK,
                      line_spacing=0.92)
             if t.width > bw - 0.24:
                 t.scale((bw - 0.24) / t.width)
             box = RoundedRectangle(width=bw, height=1.34, corner_radius=0.14,
                                    color=color, stroke_width=3,
                                    fill_color=BG, fill_opacity=1)
-            num = Text(str(i + 1), font=FONT, font_size=18, color=MUTED)
+            num = Text(str(i + 1), font=FONT, font_size=19, color=MUTED)
+            num._stage_ignore = True
             g = VGroup(box, t, num)
             t.move_to(box.get_center() + DOWN * 0.06)
             num.move_to(box.get_top() + DOWN * 0.20)
             self.boxes.add(g)
-        self.boxes.arrange(RIGHT, buff=0.42)
+        self.boxes.arrange(RIGHT, buff=0.30)
         self.boxes.move_to(UP * y)
         for a, b in zip(self.boxes[:-1], self.boxes[1:]):
             self.arrows.add(Line(a.get_right() + RIGHT * 0.06,

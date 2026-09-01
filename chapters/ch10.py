@@ -53,7 +53,7 @@ class Chapter10(Chapter):
         with self.narrate("Three letters, and nothing more. R is the revenue a year. K "
                           "is the sunk cost. And the third one we will only ever call "
                           "the cost of capital."):
-            self.play(LaggedStartMap(FadeIn, key, lag_ratio=0.25), run_time=1.5)
+            self.play(S.lag_map(FadeIn, key, lag=0.25), run_time=1.5)
         self.beat()
         self.play(FadeOut(key), run_time=0.4)
 

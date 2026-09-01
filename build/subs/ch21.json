@@ -1,179 +1,161 @@
 {
  "chapter": 21,
  "title": "Everything, in order",
- "duration": 169.06666666666538,
+ "duration": 152.799999999999,
  "cues": [
   {
-   "start": 4.799999999999997,
-   "end": 9.95913832199546,
-   "text": "One rung at a time, from the bottom. Everything Part One has built.",
-   "voice": "n"
-  },
-  {
-   "start": 10.699999999999996,
-   "end": 14.134965986394553,
+   "start": 6.666666666666661,
+   "end": 10.101632653061218,
    "text": "investment: spend now, earn later",
    "voice": "n"
   },
   {
-   "start": 14.36666666666666,
-   "end": 17.21696145124716,
+   "start": 10.266666666666659,
+   "end": 13.116961451247157,
    "text": "some of it is sunk \u2014 never got back",
    "voice": "n"
   },
   {
-   "start": 17.466666666666658,
-   "end": 20.351791383219947,
+   "start": 13.333333333333323,
+   "end": 16.21845804988661,
    "text": "the future arrives a bit at a time",
    "voice": "n"
   },
   {
-   "start": 20.600000000000016,
-   "end": 22.811746031746047,
+   "start": 16.399999999999988,
+   "end": 18.61174603174602,
    "text": "the chance usually keeps",
    "voice": "n"
   },
   {
-   "start": 24.233333333333412,
-   "end": 28.581315192743844,
+   "start": 20.06666666666665,
+   "end": 24.41464852607708,
    "text": "so waiting pays: bad half cut, good half kept",
    "voice": "n"
   },
   {
-   "start": 28.800000000000104,
-   "end": 31.325215419501237,
+   "start": 24.59999999999998,
+   "end": 27.125215419501114,
    "text": "not about disliking risk",
    "voice": "n"
   },
   {
-   "start": 31.566666666666794,
-   "end": 35.12517006802734,
+   "start": 27.33333333333331,
+   "end": 30.891836734693854,
    "text": "waiting costs profit \u21d2 a level to act at",
    "voice": "n"
   },
   {
-   "start": 35.36666666666681,
-   "end": 38.472380952381094,
+   "start": 31.06666666666664,
+   "end": 34.17238095238093,
    "text": "the trigger sits above the textbook line",
    "voice": "n"
   },
   {
-   "start": 39.90000000000007,
-   "end": 43.13342403628125,
+   "start": 35.600000000000016,
+   "end": 38.833424036281194,
    "text": "how far: choppiness and the cost of money",
    "voice": "n"
   },
   {
-   "start": 43.36666666666671,
-   "end": 48.20226757369619,
+   "start": 39.00000000000004,
+   "end": 43.83560090702952,
    "text": "base case \u2248 double \u00b7 rough trade > 3\u00d7",
    "voice": "n"
   },
   {
-   "start": 48.43333333333335,
-   "end": 50.52897959183675,
+   "start": 44.00000000000007,
+   "end": 46.09564625850347,
    "text": "cheaper money RAISES it",
    "voice": "n"
   },
   {
-   "start": 50.76666666666666,
-   "end": 54.49931972789115,
+   "start": 46.266666666666765,
+   "end": 49.999319727891255,
    "text": "in reverse: absorb losses before quitting",
    "voice": "n"
   },
   {
-   "start": 55.93333333333325,
-   "end": 60.08394557823121,
+   "start": 51.46666666666684,
+   "end": 55.617278911564796,
    "text": "the do-nothing band \u2248 9\u00d7 wider",
    "voice": "n"
   },
   {
-   "start": 60.33333333333322,
-   "end": 63.406802721088326,
+   "start": 55.8000000000002,
+   "end": 58.87346938775531,
    "text": "up and back down \u2014 the effect stays",
    "voice": "n"
   },
   {
-   "start": 63.63333333333319,
-   "end": 67.10866213151913,
-   "text": "hysteresis \u2014 the dollar and the imports",
+   "start": 59.0666666666669,
+   "end": 61.81247165532903,
+   "text": "cushion the downside \u21d2 early in",
    "voice": "n"
   },
   {
-   "start": 67.33333333333317,
-   "end": 72.25020408163249,
-   "text": "cushion the downside \u21d2 early in; lift the upside \u21d2 late out",
-   "voice": "n"
-  },
-  {
-   "start": 73.69999999999978,
-   "end": 77.47909297052132,
+   "start": 62.00000000000026,
+   "end": 65.7790929705218,
    "text": "many firms \u21d2 an industry that looks frozen",
    "voice": "n"
   },
   {
-   "start": 80.99999999999959,
-   "end": 94.151519274376,
-   "text": "And the master scale in its final form. Give up at nought point seven two. Build at one point six two. And in between, a wide stretch where the right thing to do is nothing.",
+   "start": 70.8666666666667,
+   "end": 81.1716099773243,
+   "text": "Give up at nought point seven two. Build at one point six two. And in between, a wide stretch where the right thing to do is nothing.",
    "voice": "n"
   },
   {
-   "start": 96.39999999999947,
-   "end": 101.05297052154141,
+   "start": 84.13333333333321,
+   "end": 88.78630385487516,
    "text": "It does not say firms are irrational. It says the opposite.",
    "voice": "n"
   },
   {
-   "start": 101.49999999999943,
-   "end": 104.98199546485203,
+   "start": 89.19999999999983,
+   "end": 92.68199546485243,
    "text": "It does not say waiting is always right.",
    "voice": "n"
   },
   {
-   "start": 105.3999999999994,
-   "end": 110.9051700680266,
+   "start": 93.06666666666646,
+   "end": 98.57183673469368,
    "text": "And it does not apply where a rival can snatch the opportunity away from you.",
    "voice": "n"
   },
   {
-   "start": 113.23333333333262,
-   "end": 118.44045351473852,
-   "text": "So go back to the two people we opened with, and let Nell explain them.",
-   "voice": "n"
-  },
-  {
-   "start": 118.86666666666596,
-   "end": 129.7249433106569,
+   "start": 102.13333333333296,
+   "end": 112.99160997732389,
    "text": "The farmer keeps going because closing is final. Staying open keeps the good years possible, and that is worth more to him than the losses are costing him.",
    "voice": "n"
   },
   {
-   "start": 130.96666666666593,
-   "end": 142.27623582766367,
+   "start": 114.19999999999956,
+   "end": 125.5095691609973,
    "text": "And I do not build, because building is final too. Waiting another year is worth something, and this year's numbers are not yet good enough to pay for it.",
    "voice": "n"
   },
   {
-   "start": 143.99999999999918,
-   "end": 153.9786848072554,
+   "start": 127.79999999999944,
+   "end": 137.77868480725567,
    "text": "One more thing before we stop. A government somewhere spent hundreds of billions of pounds on a policy that assumed none of this was true.",
    "voice": "n"
   },
   {
-   "start": 158.29999999999896,
-   "end": 160.46530612244794,
+   "start": 142.19999999999922,
+   "end": 144.3653061224482,
    "text": "the whole ladder, in order",
    "voice": "n"
   },
   {
-   "start": 160.5999999999989,
-   "end": 163.27614512471544,
+   "start": 144.46666666666582,
+   "end": 147.14281179138237,
    "text": "not irrational \u00b7 not always right",
    "voice": "n"
   },
   {
-   "start": 163.3999999999988,
-   "end": 166.70308390022558,
+   "start": 147.26666666666574,
+   "end": 150.5697505668925,
    "text": "next: a policy that assumed none of it",
    "voice": "n"
   }
@@ -183,25 +165,28 @@
   "1.00day-to-daycost",
   "1.10textbook",
   "1.62build",
-  "13\u201316of17",
-  "17\u201317of17",
-  "1\u20134of17",
+  "13\u201316of16",
+  "1\u20134of16",
   "21/43",
-  "5\u20138of17",
-  "9\u201312of17",
-  "Agovernmentspenthundredsofbillionsassumingnoneofthis.",
+  "5\u20138of16",
+  "9\u201312of16",
+  "Backtothetwoweopenedwith",
   "CHAPTER21",
   "Everything,inorder",
   "Moneycomingineachmonth",
   "PARTONE\u2014THEPAPER",
   "PartTwo",
-  "Whatthepaperdoesnotclaim",
+  "Themasterscale,initsfinalform",
+  "Thewholeladder,inorder",
+  "WhatthepaperdoesNOTclaim",
   "Whatwejustestablished",
+  "agovernmentspentbillionsassumingnoneofthis",
   "basecase\u2248double\u00b7roughtrade>3\u00d7",
+  "buildingisfinaltoo\u2014thisyearisnotyetgoodenough",
   "cheapermoneyRAISESit",
-  "cushionthedownside\u21d2earlyin;lifttheupside\u21d2lateout",
+  "closingisfinal\u2014stayingkeepsthegoodyearspossible",
+  "cushionthedownside\u21d2earlyin",
   "howfar:choppinessandthecostofmoney",
-  "hysteresis\u2014thedollarandtheimports",
   "inreverse:absorblossesbeforequitting",
   "investment:spendnow,earnlater",
   "manyfirms\u21d2anindustrythatlooksfrozen",
@@ -220,7 +205,10 @@
   "thewholeladder,inorder",
   "upandbackdown\u2014theeffectstays",
   "waitingcostsprofit\u21d2aleveltoactat",
-  "\u201cBuildingisfinaltoo.Thisyearisnotyetgoodenoughtopayforwaiting.\u201d",
-  "\u201cClosingisfinal.Stayingkeepsthegoodyearspossible.\u201d"
- ]
+  "\u00a3"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "too_small": [],
+ "silent_beats": []
 }

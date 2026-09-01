@@ -39,7 +39,7 @@ class Chapter00(Chapter):
 
         with self.narrate("Every year, more money went out of the farm than came in. "
                           "And every year the hole got deeper."):
-            self.play(LaggedStartMap(FadeIn, VGroup(*[g[1] for g in bars]),
+            self.play(S.lag_map(FadeIn, VGroup(*[g[1] for g in bars]),
                                      lag_ratio=0.2), run_time=1.0)
             self.play(St.grow_bars(VGroup(*[g[0] for g in bars])))
             self.play(farmer.mood("worried"), run_time=0.4)

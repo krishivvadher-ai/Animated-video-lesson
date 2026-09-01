@@ -1,119 +1,113 @@
 {
  "chapter": 23,
  "title": "Why cutting the rate was not enough",
- "duration": 159.56666666666538,
+ "duration": 163.0666666666658,
  "cues": [
   {
-   "start": 4.799999999999997,
-   "end": 12.4556462585034,
-   "text": "Before the new policy, you need to see exactly what went wrong with the old one. And it is one picture.",
-   "voice": "n"
-  },
-  {
-   "start": 13.899999999999993,
-   "end": 23.41179138321995,
+   "start": 7.333333333333325,
+   "end": 16.84512471655328,
    "text": "In normal times the Bank's rate travels down this line, through a bank, and comes out as the rate an ordinary firm pays.",
    "voice": "n"
   },
   {
-   "start": 23.83333333333332,
-   "end": 35.65859410430838,
+   "start": 17.26666666666664,
+   "end": 29.091927437641697,
    "text": "Then, in two thousand and seven and eight, banks stopped trusting each other. Lenders would provide funds to a bank only at a much higher price \u2014 if at all.",
    "voice": "n"
   },
   {
-   "start": 37.49999999999996,
-   "end": 45.52095238095234,
-   "text": "credit spread. The wedge between the central bank's rate and the rate a household or a firm actually pays.",
-   "voice": "n"
-  },
-  {
-   "start": 48.833333333333265,
-   "end": 56.69278911564619,
+   "start": 29.533333333333303,
+   "end": 37.39278911564623,
    "text": "A wedge opened up. The Bank's rate went down. The rate a firm actually paid did not follow it.",
    "voice": "n"
   },
   {
-   "start": 59.933333333333096,
-   "end": 75.2895691609975,
-   "text": "On the eighth of October two thousand and eight, central banks in Canada, China, the euro area, Sweden, Switzerland, the United Kingdom and the United States all cut their rates on the same day.",
+   "start": 39.13333333333337,
+   "end": 44.62956916099777,
+   "text": "credit spread. The wedge between the Bank's rate and the rate a firm pays.",
    "voice": "n"
   },
   {
-   "start": 75.73333333333304,
-   "end": 84.26539682539652,
-   "text": "In Britain, the Bank cut its rate by three percentage points in the last three months of two thousand and eight.",
+   "start": 50.333333333333535,
+   "end": 64.93433106575984,
+   "text": "On the eighth of October two thousand and eight, central banks in Canada, China, the euro area, Sweden, Switzerland, the United Kingdom and the United States all cut on the same day.",
    "voice": "n"
   },
   {
-   "start": 84.6999999999996,
-   "end": 92.2639455782309,
+   "start": 65.3333333333336,
+   "end": 72.42920634920661,
+   "text": "In Britain, the Bank cut its rate by three percentage points in the last three months of that year.",
+   "voice": "n"
+  },
+  {
+   "start": 72.86666666666684,
+   "end": 80.43061224489814,
    "text": "And by a further one and a half percentage points in the first three months of two thousand and nine.",
    "voice": "n"
   },
   {
-   "start": 92.69999999999952,
-   "end": 96.873832199546,
+   "start": 80.86666666666676,
+   "end": 85.04049886621324,
    "text": "And there it stopped, at nought point five per cent.",
    "voice": "n"
   },
   {
-   "start": 98.89999999999941,
-   "end": 113.05219954648467,
-   "text": "And note that they stopped just above zero, not at it. Because of worries about what extremely low rates would do to banks' own profits, and to the working of the money markets themselves.",
+   "start": 86.26666666666668,
+   "end": 99.75206349206351,
+   "text": "And note that they stopped just above zero, not at it \u2014 because of worries about what extremely low rates would do to banks' own profits, and to the working of the money markets themselves.",
    "voice": "n"
   },
   {
-   "start": 114.89999999999931,
-   "end": 121.24163265306053,
-   "text": "the zero lower bound. The point where a central bank cannot cut its rate any further.",
+   "start": 102.73333333333316,
+   "end": 108.63464852607693,
+   "text": "the zero lower bound. The point where a central bank cannot cut any further.",
    "voice": "n"
   },
   {
-   "start": 124.96666666666589,
-   "end": 127.68925170067949,
-   "text": "lend to banks short of cash",
+   "start": 112.86666666666636,
+   "end": 118.89700680272078,
+   "text": "They could lend to banks that were short of cash \u2014 the oldest job a central bank has.",
    "voice": "n"
   },
   {
-   "start": 128.1333333333325,
-   "end": 130.39151927437558,
-   "text": "buy assets with new money",
+   "start": 119.33333333333297,
+   "end": 127.99133786848037,
+   "text": "They could buy assets with money they created. That is the one this film is about, and the next chapter builds it.",
    "voice": "n"
   },
   {
-   "start": 130.83333333333246,
-   "end": 133.1031292516998,
-   "text": "say what you intend to do",
+   "start": 128.39999999999958,
+   "end": 137.44167800453474,
+   "text": "Or they could simply say something about what they intended to do in future \u2014 which turns out to matter more than you would think.",
    "voice": "n"
   },
   {
-   "start": 134.33333333333243,
-   "end": 140.08503401360454,
+   "start": 137.8666666666662,
+   "end": 143.6183673469383,
    "text": "All of that together goes by one name. Unconventional monetary policy.",
    "voice": "n"
   },
   {
-   "start": 142.33333333333235,
-   "end": 145.74090702947748,
+   "start": 145.93333333333277,
+   "end": 149.3409070294779,
    "text": "lenders would fund banks only dearly",
    "voice": "n"
   },
   {
-   "start": 145.86666666666562,
-   "end": 147.99265306122345,
+   "start": 149.46666666666604,
+   "end": 151.59265306122387,
    "text": "a credit spread opened up",
    "voice": "n"
   },
   {
-   "start": 148.13333333333222,
-   "end": 153.744036281178,
+   "start": 151.73333333333264,
+   "end": 157.34403628117843,
    "text": "cut 3 points, then 1.5 \u2014 stop at 0.5",
    "voice": "n"
   },
   {
-   "start": 153.86666666666548,
-   "end": 157.2161904761893,
+   "start": 157.4666666666659,
+   "end": 160.81619047618972,
    "text": "what is left: unconventional policy",
    "voice": "n"
   }
@@ -125,26 +119,29 @@
   "CHAPTER23",
   "PARTTWO\u2014THEPOLICY",
   "Sotheycut,andcut,andcut",
-  "Sowhatisleftwhentheleverisonthefloor?",
-  "Thepointwhereacentralbankcannotcutitsrateanyfurther.",
-  "Thewedgebetweenthecentralbank'srateandtherateahouseholdorafirmactuallypays.",
+  "Thepointwhereacentralbankcannotcutanyfurther.",
+  "ThewedgebetweentheBank'srateandtherateafirmpays.",
+  "Whatisleftwhentheleverisdown",
   "Whatwejustestablished",
+  "Wheretherateissupposedtotravel",
   "Whycuttingtheratewasnotenough",
   "abank",
   "acreditspreadopenedup",
   "afirm",
-  "buyassetswithnewlycreatedmoney",
+  "buyassetswithnewmoney",
   "creditspread",
   "cut3points,then1.5\u2014stopat0.5",
   "lenderswouldfundbanksonlydearly",
-  "lendtobanksthatareshortofcash",
-  "saysomethingaboutthefuture",
+  "lendtobanksshortofcash",
+  "saywhatyouintendtodo",
   "theBank'srate",
-  "therateafirmpays",
-  "thewedgeopens",
   "thezerolowerbound",
   "unconventionalmonetarypolicy",
   "whatisleft:unconventionalpolicy",
   "zero"
- ]
+ ],
+ "collisions": [],
+ "low_content": [],
+ "too_small": [],
+ "silent_beats": []
 }

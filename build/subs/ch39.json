@@ -1,144 +1,130 @@
 {
  "chapter": 39,
  "title": "The evidence, read twice",
- "duration": 174.06666666666587,
+ "duration": 153.79999999999944,
  "cues": [
   {
-   "start": 4.866666666666667,
-   "end": 18.754421768707484,
+   "start": 6.333333333333329,
+   "end": 20.221088435374146,
    "text": "A third article, and a third pair of authors. Christopher Martin and Costas Milas. Their job was to gather up the studies of what the policy actually achieved. Their colour is green.",
    "voice": "n"
   },
   {
-   "start": 20.533333333333328,
-   "end": 29.002675736961447,
-   "text": "It increased the country's rate of growth by around one to three per cent, with a similar effect on prices.",
+   "start": 22.399999999999984,
+   "end": 31.695464852607692,
+   "text": "Their conclusion is that the policy was effective at preventing a deeper crisis, and less effective at promoting recovery.",
    "voice": "n"
   },
   {
-   "start": 29.39999999999999,
-   "end": 34.1311111111111,
-   "text": "It has proved effective in limiting the scale of the downturn.",
-   "voice": "n"
-  },
-  {
-   "start": 34.533333333333324,
-   "end": 40.0408163265306,
-   "text": "But, by itself, it is not strong enough to spark an economic recovery.",
-   "voice": "n"
-  },
-  {
-   "start": 40.4666666666667,
-   "end": 47.47537414965989,
-   "text": "And carry this last word, because it is theirs. Of course, this conclusion is tentative.",
-   "voice": "n"
-  },
-  {
-   "start": 50.13333333333347,
-   "end": 58.93505668934254,
+   "start": 33.333333333333314,
+   "end": 40.171836734693855,
    "text": "The first time Kit read that, he treated it as a result. Here is what the numbers say. Write it down, move on.",
-   "voice": "n"
+   "voice": "c"
   },
   {
-   "start": 60.13333333333351,
-   "end": 65.28240362811809,
+   "start": 40.60000000000001,
+   "end": 44.378548752834476,
    "text": "Reading it again, after Dixit, he cannot let it alone.",
-   "voice": "n"
+   "voice": "c"
   },
   {
-   "start": 65.66666666666688,
-   "end": 72.4381859410433,
+   "start": 44.800000000000026,
+   "end": 51.57151927437644,
    "text": "Why would one policy be good at stopping a fall and bad at starting a rise? Those are not obviously different jobs.",
    "voice": "c"
   },
   {
-   "start": 73.66666666666683,
-   "end": 84.68884353741512,
+   "start": 52.00000000000008,
+   "end": 60.560907029478535,
    "text": "And he is uncomfortable. Not with the article \u2014 with himself, for having read that sentence once already and never asked whether there was a reason behind it.",
-   "voice": "n"
+   "voice": "c"
   },
   {
-   "start": 87.00000000000001,
-   "end": 106.4364172335601,
+   "start": 63.533333333333545,
+   "end": 82.96975056689364,
    "text": "Preventing a collapse needs markets that keep working and the upside held up. And by the good news principle, that is exactly what stops a struggling firm closing. It is strongest when things are frightening, because there is most to repair and most upside to restore.",
    "voice": "n"
   },
   {
-   "start": 107.39999999999989,
-   "end": 124.12730158730147,
+   "start": 83.40000000000018,
+   "end": 100.12730158730176,
    "text": "Starting a recovery needs firms to commit money they cannot get back. By the bad news principle, that turns on the downside \u2014 which is exactly what fear makes them least willing to face. It is strongest when things are calm.",
    "voice": "n"
   },
   {
-   "start": 125.86666666666643,
-   "end": 134.05755102040794,
+   "start": 102.40000000000003,
+   "end": 110.59088435374153,
    "text": "So the policy is used in exactly the state where the first job is easiest and the second is hardest.",
    "voice": "n"
   },
   {
-   "start": 135.2666666666664,
-   "end": 137.58326530612217,
+   "start": 110.99999999999997,
+   "end": 113.31659863945575,
    "text": "It steadies without starting.",
    "voice": "n"
   },
   {
-   "start": 139.33333333333294,
-   "end": 156.84662131519235,
+   "start": 115.53333333333319,
+   "end": 133.0466213151926,
    "text": "And flag clearly which parts of that are Kit's and not Dixit's. That propping up the upside works best when things are frightening, and that the two jobs therefore pull apart, are steps Kit has added. Dixit's own text does not contain them.",
    "voice": "n"
   },
   {
-   "start": 159.1333333333328,
-   "end": 162.4944671201809,
-   "text": "1\u20133% growth \u00b7 downturn limited",
+   "start": 135.3333333333331,
+   "end": 139.79741496598615,
+   "text": "their verdict: prevents a crisis, less so a recovery",
    "voice": "n"
   },
   {
-   "start": 162.59999999999943,
-   "end": 166.1817233560085,
-   "text": "not enough to spark a recovery \u2014 tentative",
+   "start": 139.93333333333302,
+   "end": 143.5498866213149,
+   "text": "the two jobs need opposite halves of the spread",
    "voice": "n"
   },
   {
-   "start": 166.26666666666603,
-   "end": 169.15179138321932,
-   "text": "the two jobs pull opposite ways",
+   "start": 143.6666666666663,
+   "end": 146.85365079365042,
+   "text": "and opposite conditions to work in",
    "voice": "n"
   },
   {
-   "start": 169.26666666666597,
-   "end": 171.65256235827596,
-   "text": "it steadies without starting",
+   "start": 146.99999999999955,
+   "end": 151.52213151927393,
+   "text": "it steadies without starting \u2014 Kit's step, not Dixit's",
    "voice": "n"
   }
  ],
  "screen_text": [
-  "1\u20133%growth\u00b7downturnlimited",
   "39/43",
+  "Athirdarticle,athirdpair",
   "CHAPTER39",
-  "Goodatstoppingafall.Badatstartingarise.Why?",
-  "Itsteadieswithoutstarting.",
-  "KIT'S,notDixit's:\u00b7\u201cbestwhenfrightening\u201d\u00b7\u201cthejobspullapart\u201d",
-  "Martin&Milas(2012)",
-  "Martin&Milas(2012),p.762",
+  "Martin",
+  "Milas",
   "PARTTHREE\u2014THEARGUMENT",
-  "PREVENTINGACOLLAPSE",
-  "STARTINGARECOVERY",
   "Theevidence,readtwice",
-  "Twojobs,pullingonthesamethinginoppositedirections",
+  "Theirverdict,inoneline",
+  "Twojobs,pullingapart",
   "Whatwejustestablished",
-  "firstreading:aresult.Moveon.",
+  "andoppositeconditionstoworkin",
   "itsteadieswithoutstarting",
-  "notenoughtosparkarecovery\u2014tentative",
-  "secondreading:hecannotletitalone",
-  "theDOWNSIDEfaced(badnewsprinciple)strongestwhencalm",
-  "theUPSIDEheldup(goodnewsprinciple)strongestwhenfrightening",
-  "thetwojobspulloppositeways",
-  "uncomfortablewithhimself",
-  "usedwherejoboneiseasiestandjobtwohardest",
-  "\u201cOfcourse,thisconclusionistentative.\u201d",
-  "\u201cQE,byitself,isnotstrongenoughtosparkaneconomicrecovery\u201d",
-  "\u201chasprovedeffectiveinlimitingthescaleofthedownturn\u201d",
-  "\u201cincreasedGDPgrowthbyaround1\u20133percentwithasimilareffectoninflation\u201d"
- ]
+  "itsteadieswithoutstarting\u2014Kit'sstep,notDixit's",
+  "marketsthatkeepworking",
+  "moneyyoucannotgetback",
+  "preventsacrisis\u2014lessgoodatstartingarecovery",
+  "startingarecovery",
+  "stoppingacollapse",
+  "strongestwhencalm",
+  "strongestwhenfrightening",
+  "theirverdict:preventsacrisis,lesssoarecovery",
+  "thelasttwostepsareKit's,notDixit's",
+  "thetwojobsneedoppositehalvesofthespread",
+  "theupsideheldup",
+  "turnsonthedownside",
+  "usedwherejoboneiseasiestandjobtwoishardest",
+  "whywouldonepolicybegoodatoneandbadattheother?"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "too_small": [],
+ "silent_beats": []
 }

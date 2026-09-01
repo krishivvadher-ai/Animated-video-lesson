@@ -107,15 +107,16 @@ def effective_font_size(mob):
     with no ascenders -- "now" -- has a box barely half the height of one with
     them, and the box would flag it wrongly.
 
+    Manim's own ``Text.font_size`` is derived from the mobject's current
+    height, so it already reflects every scale() applied to it. Multiplying by
+    the staging scale on top of that would count the shrink twice.
+
     A one- or two-character glyph is decoration, not a caption.
     """
     txt = getattr(mob, "text", None)
     if not isinstance(txt, str) or len(txt.strip()) < 3:
         return None
-    fs = getattr(mob, "font_size", None)
-    if fs is None:
-        return None
-    return fs * getattr(mob, "_stage_scale", 1.0)
+    return getattr(mob, "font_size", None)
 
 
 def fit(mob, region, pad=0.25, strict=True):
@@ -219,8 +220,13 @@ def collapse_bars(bars):
 
 
 def grow_bars(bars, lag=0.12, run_time=1.8):
-    """His bar growth: restore from the collapsed state, staggered."""
-    return LaggedStartMap(Restore, bars, lag_ratio=lag, run_time=run_time)
+    """His bar growth: restore from the collapsed state, staggered.
+
+    Built by hand rather than with LaggedStartMap, because that helper splats
+    each submobject into the animation's constructor -- which quietly restores
+    a group's first child instead of the group itself."""
+    return LaggedStart(*(Restore(b) for b in bars),
+                       lag_ratio=lag, run_time=run_time)
 
 
 def park(mob, corner=UL, height=1.9, run_time=1.2):

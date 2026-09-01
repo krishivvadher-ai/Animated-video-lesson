@@ -86,7 +86,7 @@ class Chapter05(Chapter):
         with self.narrate("Now watch what the future might do, starting from that "
                           "point. Here are five futures. Nobody knows which one "
                           "happens. Some end high. Some end low."):
-            self.play(LaggedStartMap(Create, paths, lag_ratio=0.12), run_time=2.8)
+            self.play(S.lag_map(Create, paths, lag=0.12), run_time=2.8)
             self.play(FadeIn(dots), run_time=0.5)
 
         gains = VGroup(*[Text("builds — gains", font=FONT, font_size=T_SMALL,
@@ -128,7 +128,7 @@ class Chapter05(Chapter):
         with self.narrate("Two outcomes that pay something. Three that pay nothing at "
                           "all — but cost nothing either."):
             self.play(Create(base), run_time=0.5)
-            self.play(LaggedStartMap(FadeIn, row, lag_ratio=0.15), run_time=1.6)
+            self.play(S.lag_map(FadeIn, row, lag=0.15), run_time=1.6)
 
         avg = Line(row.get_left() + LEFT * 0.3, row.get_right() + RIGHT * 0.3,
                    color=TRIGGER, stroke_width=5)

@@ -1,142 +1,147 @@
 {
  "chapter": 34,
  "title": "The exception on page 613",
- "duration": 165.666666666666,
+ "duration": 144.99999999999915,
  "cues": [
   {
-   "start": 5.399999999999999,
-   "end": 14.209523809523809,
+   "start": 6.333333333333329,
+   "end": 15.142857142857139,
    "text": "A page later, the authors ask a question about somebody else. What does the government do when its own borrowing gets cheaper?",
    "voice": "n"
   },
   {
-   "start": 14.599999999999998,
-   "end": 27.892335600907025,
+   "start": 15.533333333333324,
+   "end": 28.825668934240355,
    "text": "And notice what they open with. The government's borrowing cost is now lower. Gilts are exactly what the Bank had been buying. So if anyone got the cheaper price, the government did.",
    "voice": "n"
   },
   {
-   "start": 28.333333333333325,
-   "end": 30.928208616780037,
+   "start": 29.266666666666655,
+   "end": 31.861541950113367,
    "text": "The money definitely arrives.",
    "voice": "n"
   },
   {
-   "start": 32.13333333333332,
-   "end": 34.139092970521524,
+   "start": 33.06666666666664,
+   "end": 35.07242630385485,
    "text": "And nothing happens.",
    "voice": "n"
   },
   {
-   "start": 35.933333333333415,
-   "end": 46.73083900226766,
+   "start": 39.60000000000011,
+   "end": 50.39750566893435,
    "text": "Here is what the authors say, in their own words. Their spending plans should therefore be unaffected by cyclical movements in interest rates.",
    "voice": "n"
   },
   {
-   "start": 47.93333333333347,
-   "end": 61.280000000000136,
-   "text": "And look at the reason. It has nothing to do with access. The money arrives. The reason is about the horizon the decision is taken over. Governments plan a long way ahead.",
+   "start": 52.600000000000186,
+   "end": 58.486031746031934,
+   "text": "And look at the reason. It has nothing to do with access. The money arrives.",
    "voice": "n"
   },
   {
-   "start": 62.46666666666686,
-   "end": 70.95573696145144,
-   "text": "Kit gets excited. Animate the excitement, because there is about to be a correction and you need to have seen the before.",
+   "start": 58.93333333333359,
+   "end": 66.32154195011364,
+   "text": "The reason is about the horizon the decision is taken over. Governments plan a long way ahead.",
    "voice": "n"
   },
   {
-   "start": 73.40000000000012,
-   "end": 76.85650793650805,
-   "text": "Cyclical means short-term and temporary.",
+   "start": 69.86666666666692,
+   "end": 76.77700680272133,
+   "text": "Kit gets excited. They have admitted, he says, that a feature of how the decision is made can break the whole chain.",
+   "voice": "c"
+  },
+  {
+   "start": 78.00000000000009,
+   "end": 84.34698412698421,
+   "text": "And then he reads it again, and crosses his own conclusion out. That is the first of several times he will do that.",
+   "voice": "c"
+  },
+  {
+   "start": 86.06666666666665,
+   "end": 94.79709750566892,
+   "text": "What survives is this, and it is thinner than he first thought. A feature of the decision itself is allowed, once,",
    "voice": "n"
   },
   {
-   "start": 77.26666666666675,
-   "end": 86.11931972789124,
-   "text": "And economists have a standard idea that a long-term planner responds to lasting changes and ignores passing ones.",
+   "start": 95.19999999999995,
+   "end": 99.46521541950108,
+   "text": "to break the link between a cheaper price and more spending.",
    "voice": "n"
   },
   {
-   "start": 86.53333333333339,
-   "end": 96.97655328798191,
-   "text": "So this is very likely an ordinary technical point about how governments budget. Not a claim about how organisations behave at all.",
+   "start": 99.86666666666657,
+   "end": 106.65274376417224,
+   "text": "And nobody then asks whether anything else about how a decision gets made could do the same.",
    "voice": "n"
   },
   {
-   "start": 98.20000000000002,
-   "end": 108.69895691609979,
-   "text": "So Kit crosses his own conclusion out. That is the first of several times he will do that, and they are the best moments in this half of the film.",
-   "voice": "n"
-  },
-  {
-   "start": 110.99999999999989,
-   "end": 130.78204081632643,
-   "text": "What survives is this, and it is thinner than he first thought. A feature of the decision itself is allowed, once, to break the link between a cheaper price and more spending. And nobody then asks whether anything else about how a decision gets made could do the same.",
-   "voice": "n"
-  },
-  {
-   "start": 131.99999999999983,
-   "end": 137.7179591836733,
+   "start": 108.93333333333314,
+   "end": 114.65129251700661,
    "text": "That is a reason to go and look. It is not evidence about what you find.",
    "voice": "n"
   },
   {
-   "start": 138.93333333333305,
-   "end": 147.82281179138295,
+   "start": 117.26666666666632,
+   "end": 126.1561451247162,
    "text": "That sentence is the intellectual standard the rest of the film is held to. Everything Kit says from here has to meet it.",
    "voice": "n"
   },
   {
-   "start": 150.13333333333296,
-   "end": 153.07650793650757,
-   "text": "the government DOES get the cheaper price",
+   "start": 128.4666666666661,
+   "end": 132.0367800453509,
+   "text": "the government gets the cheaper money for certain",
    "voice": "n"
   },
   {
-   "start": 153.19999999999956,
-   "end": 156.0386848072558,
-   "text": "and its plans should not change",
+   "start": 132.1333333333327,
+   "end": 135.68022675736898,
+   "text": "and its plans are unaffected \u2014 their words",
    "voice": "n"
   },
   {
-   "start": 156.13333333333284,
-   "end": 159.47814058956868,
+   "start": 135.7999999999993,
+   "end": 139.14480725623514,
    "text": "the reason is the horizon, not access",
    "voice": "n"
   },
   {
-   "start": 159.59999999999945,
-   "end": 163.29782312925116,
-   "text": "\u201ccyclical\u201d \u21d2 a reason to look, not evidence",
+   "start": 139.2666666666659,
+   "end": 142.76712018140515,
+   "text": "which is a reason to look, not a finding",
    "voice": "n"
   }
  ],
  "screen_text": [
   "34/43",
-  "AfeatureoftheDECISIONbreaksthelink!",
-  "Andthenhereadsitagain",
-  "Areasontolook.Notevidence.",
-  "Bowdler&Radia(2012),p.613",
+  "Apagelater,theyaskaboutsomebodyelse",
+  "Bowdler&Radia,p.613",
   "CHAPTER34",
+  "Kitgetsaheadofhimself",
   "PARTTHREE\u2014THEARGUMENT",
   "Theexceptiononpage613",
-  "Whatsurvivesisthinner",
+  "Theirwordsforwhy",
   "Whatwejustestablished",
-  "anditsborrowingIScheaper\u2014giltsarewhatwasbought",
-  "anditsplansshouldnotchange",
+  "aboutthehorizon",
+  "anditsplansareunaffected\u2014theirwords",
+  "andnobodyaskswhatelsecould",
   "andnothinghappens",
-  "anordinarypointaboutbudgeting",
-  "longplannersignorepassingchanges",
-  "notaccess\u2014theHORIZONofthedecision",
-  "thedecisionitselfbreaksthelink\u2014once",
-  "thegovernment",
-  "thegovernmentDOESgetthecheaperprice",
+  "areasontogoandlook\u2014notevidenceaboutwhatyoufind",
+  "breaksthelink,once",
+  "cheapermoney",
+  "everythingKitsayshastomeetthat",
+  "giltsareexactlywhatwasbought",
+  "notaboutaccess",
+  "onefeatureofadecision",
+  "sotheyadmitmywholepoint!",
+  "thegovernmentgetsthecheapermoneyforcertain",
   "thereasonisthehorizon,notaccess",
-  "thestandardforeverythingthatfollows",
+  "whichisareasontolook,notafinding",
   "\u00a3",
-  "\u201cCyclical\u201dmeansshort-termandtemporary.",
-  "\u201cTheirspendingplansshouldthereforebeunaffectedbycyclicalmovementsininterestrates.\u201d",
-  "\u201ccyclical\u201d\u21d2areasontolook,notevidence"
- ]
+  "\u201cTheirspendingplansshouldthereforebeunaffectedbycyclicalmovementsininterestrates.\u201d"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "too_small": [],
+ "silent_beats": []
 }

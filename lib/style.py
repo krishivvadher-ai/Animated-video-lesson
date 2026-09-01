@@ -78,6 +78,19 @@ def t2c_for(text, extra=None):
 
 
 # ---------------------------------------------------------------- reveals
+def lag_map(anim_class, group, lag=LAG, run_time=None, lag_ratio=None, **kw):
+    """What LaggedStartMap should do.
+
+    Manim's own LaggedStartMap passes each submobject to the animation as
+    ``*args``, which silently unpacks a group into its children -- so a group
+    of two-part coins becomes ``GrowFromCenter(circle, text)``. This builds the
+    animations one at a time instead."""
+    anims = [anim_class(m, **kw) for m in group]
+    extra = {"run_time": run_time} if run_time else {}
+    return LaggedStart(*anims, lag_ratio=lag if lag_ratio is None else lag_ratio,
+                       **extra)
+
+
 def reveal(mob, direction=UP, lag=LAG, run_time=None):
     """His commonest move: a staggered fade in, drifting a little."""
     if isinstance(mob, VGroup) and len(mob) > 1:

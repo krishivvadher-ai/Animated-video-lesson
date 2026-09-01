@@ -39,11 +39,11 @@ class Chapter18(Chapter):
                           "before they would build — and then abandoned whole fields "
                           "after short stretches of losses. Colour televisions. Video "
                           "recorders. Semiconductors."):
-            self.play(LaggedStartMap(FadeIn, us, lag_ratio=0.25), nell.mood("worried"),
+            self.play(S.lag_map(FadeIn, us, lag=0.25), nell.mood("worried"),
                       run_time=1.4)
         with self.narrate("Japanese firms did the opposite on both counts. They "
                           "invested aggressively, and they hung on."):
-            self.play(LaggedStartMap(FadeIn, jp, lag_ratio=0.25), run_time=1.2)
+            self.play(S.lag_map(FadeIn, jp, lag=0.25), run_time=1.2)
         self.beat()
         self.clear_stage()
 

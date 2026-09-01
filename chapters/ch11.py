@@ -78,7 +78,7 @@ class Chapter11(Chapter):
         more = VGroup(*[walk(s + 20, WAIT, 2.5) for s in range(12)])
         with self.narrate("And here are a dozen more. Nobody knows which one happens. "
                           "All anybody knows is the shape of the fan."):
-            self.play(LaggedStartMap(Create, more, lag_ratio=0.12), run_time=3.0)
+            self.play(S.lag_map(Create, more, lag=0.12), run_time=3.0)
         self.beat()
         self.define("a random walk", "Each step is up or down, and you cannot tell "
                     "which.", "fog", WAIT, at=DOWN * 2.4, hold=4.0)

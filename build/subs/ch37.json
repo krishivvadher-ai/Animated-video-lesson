@@ -1,143 +1,105 @@
 {
  "chapter": 37,
  "title": "Two different kinds of fear",
- "duration": 123.06666666666626,
+ "duration": 95.19999999999985,
  "cues": [
   {
-   "start": 4.866666666666667,
-   "end": 15.787074829931973,
-   "text": "Replay the bad news principle from chapter nine. When you can wait, it is mainly the bad possible outcomes that decide whether you build now.",
+   "start": 6.333333333333329,
+   "end": 15.987074829931968,
+   "text": "Replay the bad news principle. When you can wait, it is mainly the bad possible outcomes that decide whether you build now.",
    "voice": "n"
   },
   {
-   "start": 16.999999999999996,
-   "end": 21.914195011337867,
+   "start": 17.19999999999998,
+   "end": 22.11419501133785,
    "text": "So the question to ask is: what does this policy actually compress?",
    "voice": "n"
   },
   {
-   "start": 24.26666666666666,
-   "end": 28.219909297052148,
-   "text": "the price of risk. Extra return, for the worry.",
+   "start": 25.066666666666638,
+   "end": 34.46748299319725,
+   "text": "In financial markets, there is a price for carrying risk. Quantitative easing pushes that price down. Squeeze the spring.",
    "voice": "n"
   },
   {
-   "start": 32.533333333333346,
-   "end": 39.44911564625852,
-   "text": "In financial markets, quantitative easing pushes that price down. Squeeze the spring.",
+   "start": 36.86666666666669,
+   "end": 46.17809523809526,
+   "text": "But the doubt inside a firm is a different thing. Will anyone still be buying in three years? Will this factory still make sense?",
    "voice": "n"
   },
   {
-   "start": 42.33333333333358,
-   "end": 44.858775510204325,
-   "text": "Will there still be customers in three years?",
-   "voice": "c"
-  },
-  {
-   "start": 45.26666666666695,
-   "end": 48.765986394558105,
-   "text": "Will the euro survive, or will countries start leaving it?",
-   "voice": "c"
-  },
-  {
-   "start": 49.20000000000032,
-   "end": 51.93419501133819,
-   "text": "Will this whole industry still exist?",
-   "voice": "c"
-  },
-  {
-   "start": 53.133333333333695,
-   "end": 62.14045351473959,
+   "start": 46.60000000000013,
+   "end": 55.607120181406025,
    "text": "Those are different worries entirely. A central bank buying government bonds reaches them only indirectly, if at all.",
    "voice": "n"
   },
   {
-   "start": 64.93333333333372,
-   "end": 69.08394557823168,
-   "text": "He cannot say the policy fails to touch that fear.",
-   "voice": "n"
-  },
-  {
-   "start": 69.53333333333369,
-   "end": 74.15995464852644,
-   "text": "Higher share and property prices do make some owners spend more.",
-   "voice": "n"
-  },
-  {
-   "start": 74.60000000000032,
-   "end": 81.00294784580531,
-   "text": "And one company's customers are other people's spending. So the fear is thinned a little.",
-   "voice": "n"
-  },
-  {
-   "start": 81.40000000000029,
-   "end": 88.67569160997762,
-   "text": "And buying government bonds is obviously aimed at doubts about governments in the first place.",
-   "voice": "n"
-  },
-  {
-   "start": 90.40000000000022,
-   "end": 95.98857142857165,
+   "start": 56.800000000000175,
+   "end": 61.764263038548926,
    "text": "So the honest version of his claim is about how directly, not about whether.",
+   "voice": "c"
+  },
+  {
+   "start": 64.066666666667,
+   "end": 70.09174603174637,
+   "text": "What a central bank reaches directly is the price at which risk trades.",
    "voice": "n"
   },
   {
-   "start": 97.20000000000009,
-   "end": 108.04897959183683,
-   "text": "What a central bank reaches directly is the price at which risk trades. What it reaches at one or two removes is the doubt itself.",
+   "start": 70.53333333333362,
+   "end": 75.32249433106604,
+   "text": "What it reaches at one or two removes is the doubt itself.",
    "voice": "n"
   },
   {
-   "start": 110.33333333333327,
-   "end": 112.21999999999994,
-   "text": "bad news principle",
+   "start": 77.60000000000016,
+   "end": 81.55324263038565,
+   "text": "the bad half decides whether she builds now",
    "voice": "n"
   },
   {
-   "start": 112.3333333333332,
-   "end": 114.93981859410418,
-   "text": "QE squeezes the price of risk",
+   "start": 81.66666666666677,
+   "end": 85.32965986394568,
+   "text": "the policy squeezes the price of risk directly",
    "voice": "n"
   },
   {
-   "start": 115.06666666666646,
-   "end": 118.18399092970502,
-   "text": "a different fear: will there be customers?",
+   "start": 85.46666666666671,
+   "end": 89.10662131519278,
+   "text": "the doubt inside a firm, only indirectly",
    "voice": "n"
   },
   {
-   "start": 118.33333333333307,
-   "end": 120.66988662131493,
-   "text": "how DIRECTLY \u2014 not whether",
+   "start": 89.19999999999997,
+   "end": 92.94326530612243,
+   "text": "so the claim is about how directly, not whether",
    "voice": "n"
   }
  ],
  "screen_text": [
   "37/43",
-  "ATONEREMOVE:thedoubtitself",
-  "AndhereKitnarrowshisownclaim,inwriting",
-  "Andnowtheotherfear,insideNell'shead",
+  "Andwhatitdoesnotreach",
   "CHAPTER37",
-  "DIRECTLY:thepriceofrisk",
-  "Differentworriesentirely.",
-  "Dixit(1992),p.118,quotingBernanke(1983)",
-  "Extrareturn,fortheworry.",
   "PARTTHREE\u2014THEARGUMENT",
-  "QEsqueezesthepriceofrisk",
-  "Soaskwhatthispolicyactuallycompresses.",
-  "SothehonestversionisabouthowDIRECTLY,notaboutwhether.",
   "Twodifferentkindsoffear",
-  "WhatQEpushesdown",
+  "Whatdecideswhethershebuilds",
+  "Whatitreachesdirectly",
   "Whatwejustestablished",
-  "adifferentfear:willtherebecustomers?",
-  "andgiltsaimatdoubtsaboutgovernments",
-  "badnewsprinciple",
-  "howDIRECTLY\u2014notwhether",
-  "itdoestouchthatfear",
-  "onefirm'scustomersareothers'spending",
-  "richerownersspendmore",
-  "thepriceofrisk",
-  "thepriceofriskinfinancialmarkets",
-  "\u201cofpossiblefutureoutcomes,onlytheunfavorableoneshaveabearingonthecurrentpropensitytoundertakeagivenproject\u201d"
- ]
+  "reachedonlyindirectly,ifatall",
+  "sotheclaimisabouthowdirectly,notwhether",
+  "sotheclaimisabouthowdirectly\u2014notwhether",
+  "sowhatdoesthepolicycompress?",
+  "thebadhalfdecideswhethershebuildsnow",
+  "thedoubtinsideafirm,onlyindirectly",
+  "thedoubtitself\u2014atoneortworemoves",
+  "thepolicysqueezesthepriceofriskdirectly",
+  "thepriceatwhichrisktrades",
+  "thepriceofrisk\u2014reacheddirectly",
+  "willanyonestillbebuyinginthreeyears?",
+  "\u00a3"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "too_small": [],
+ "silent_beats": []
 }
