@@ -1,7 +1,7 @@
 {
  "chapter": 11,
  "title": "How the future is modelled",
- "duration": 133.13333333333307,
+ "duration": 133.53333333333308,
  "cues": [
   {
    "start": 6.333333333333329,
@@ -34,56 +34,56 @@
    "voice": "n"
   },
   {
-   "start": 62.733333333333874,
-   "end": 68.24521541950168,
+   "start": 63.133333333333894,
+   "end": 68.6452154195017,
    "text": "a random walk. Each step is up or down, and you cannot tell which.",
    "voice": "n"
   },
   {
-   "start": 73.40000000000036,
-   "end": 81.70222222222259,
+   "start": 73.80000000000038,
+   "end": 82.10222222222261,
    "text": "Take a typical year and ask how far revenue moved. In a calm trade, not far. The outcomes bunch up.",
    "voice": "n"
   },
   {
-   "start": 82.13333333333361,
-   "end": 87.10158730158759,
+   "start": 82.53333333333363,
+   "end": 87.50158730158759,
    "text": "In a rough trade \u2014 oil, metals \u2014 they spread right out.",
    "voice": "n"
   },
   {
-   "start": 88.33333333333353,
-   "end": 105.26213151927458,
+   "start": 88.73333333333355,
+   "end": 105.6621315192746,
    "text": "The width of that spread is the number the paper calls the choppiness. It is the size of a typical yearly swing, as a percentage. Ten per cent with exchange rates. Twenty-five to forty for an oil well. And the base case at twenty.",
    "voice": "n"
   },
   {
-   "start": 106.4666666666668,
-   "end": 114.66988662131533,
+   "start": 106.8666666666668,
+   "end": 115.06988662131533,
    "text": "The paper writes it as a Greek letter. This film never will. It is the choppiness, and it is a percentage.",
    "voice": "n"
   },
   {
-   "start": 116.93333333333335,
-   "end": 120.92140589569163,
+   "start": 117.33333333333336,
+   "end": 121.32140589569164,
    "text": "each year: up or down by a fixed percentage",
    "voice": "n"
   },
   {
-   "start": 121.06666666666662,
-   "end": 124.50907029478454,
+   "start": 121.46666666666663,
+   "end": 124.90907029478454,
    "text": "run it forward and the futures fan out",
    "voice": "n"
   },
   {
-   "start": 124.5999999999999,
-   "end": 127.9372335600906,
+   "start": 124.9999999999999,
+   "end": 128.3372335600906,
    "text": "nobody knows the path, only the fan",
    "voice": "n"
   },
   {
-   "start": 128.0666666666665,
-   "end": 130.85891156462569,
+   "start": 128.4666666666665,
+   "end": 131.2589115646257,
    "text": "the width of the fan is the choppiness",
    "voice": "n"
   }
@@ -114,6 +114,7 @@
  ],
  "collisions": [],
  "low_content": [],
+ "off_frame": [],
  "too_small": [],
  "silent_beats": []
 }

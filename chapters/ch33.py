@@ -16,9 +16,9 @@ class Chapter33(Chapter):
         # ------------------------------------------------ the sentence
         self.heading("The sentence Part Two turns on")
         half1 = Text("this fall in the cost of capital", font=FONT,
-                     font_size=T_SUB, color=WAIT)
-        half2 = Text("should boost consumption and investment", font=FONT,
-                     font_size=T_SUB, color=TRIGGER)
+                     font_size=T_BODY, color=WAIT)
+        half2 = Text("should boost consumption\nand investment", font=FONT,
+                     font_size=T_BODY, color=TRIGGER, line_spacing=0.95)
         sentence = VGroup(half1, half2).arrange(DOWN, buff=0.3)
         St.place(sentence, St.FULL, ay=0.9)
         src = cards.source_tag("Bowdler & Radia, p. 612", SRC_BR)
@@ -33,8 +33,8 @@ class Chapter33(Chapter):
 
         with self.narrate("It contains two completely different kinds of claim, "
                           "stitched together. Split it in half."):
-            self.play(half1.animate.shift(LEFT * 3.0 + UP * 0.2),
-                      half2.animate.shift(RIGHT * 3.0 + DOWN * 0.2),
+            self.play(half1.animate.shift(LEFT * 3.2 + UP * 0.2),
+                      half2.animate.shift(RIGHT * 3.2 + DOWN * 0.2),
                       FadeOut(src), run_time=1.4)
         divider = DashedLine(UP * 2.0, DOWN * 2.6, color=MUTED, stroke_width=3)
         self.play(Create(divider), run_time=0.7)

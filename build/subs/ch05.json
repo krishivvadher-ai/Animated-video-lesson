@@ -164,6 +164,7 @@
  ],
  "collisions": [],
  "low_content": [],
+ "off_frame": [],
  "too_small": [],
  "silent_beats": []
 }

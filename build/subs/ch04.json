@@ -1,7 +1,7 @@
 {
  "chapter": 4,
  "title": "The three ingredients",
- "duration": 153.66666666666558,
+ "duration": 154.86666666666554,
  "cues": [
   {
    "start": 4.800000000000001,
@@ -22,92 +22,92 @@
    "voice": "n"
   },
   {
-   "start": 39.73333333333338,
-   "end": 44.52784580498871,
+   "start": 40.1333333333334,
+   "end": 44.92784580498873,
    "text": "sunk cost. Money that cannot be got back if you change your mind.",
    "voice": "n"
   },
   {
-   "start": 47.26666666666674,
-   "end": 58.62349206349214,
+   "start": 47.66666666666676,
+   "end": 59.02349206349216,
    "text": "And be careful. Sunk is not the same as expensive. A lorry is expensive and you can sell it again. A hole in the ground is cheap, and you cannot.",
    "voice": "n"
   },
   {
-   "start": 61.60000000000027,
-   "end": 70.0836281179141,
+   "start": 62.00000000000029,
+   "end": 70.48362811791412,
    "text": "Second ingredient. Nell does not know what next year holds. Will there be customers? How many? At what price?",
    "voice": "n"
   },
   {
-   "start": 70.53333333333369,
-   "end": 77.54453514739265,
+   "start": 70.9333333333337,
+   "end": 77.94453514739266,
    "text": "But the fog thins. Every month that passes tells her a little more than she knew the month before.",
    "voice": "n"
   },
   {
-   "start": 79.26666666666678,
-   "end": 85.3655328798187,
+   "start": 80.06666666666678,
+   "end": 86.1655328798187,
    "text": "ongoing uncertainty. You do not know what is coming, and you learn a little at a time.",
    "voice": "n"
   },
   {
-   "start": 89.86666666666665,
-   "end": 98.03990929705213,
+   "start": 90.66666666666664,
+   "end": 98.83990929705213,
    "text": "Third. If she does not build this year, the chance is generally still there next year. The door stays open.",
    "voice": "n"
   },
   {
-   "start": 98.46666666666658,
-   "end": 103.6086621315192,
+   "start": 99.26666666666658,
+   "end": 104.4086621315192,
    "text": "This year. Next year. The year after that. Still open.",
    "voice": "n"
   },
   {
-   "start": 105.6666666666664,
-   "end": 111.57274376417207,
+   "start": 106.86666666666638,
+   "end": 112.77274376417205,
    "text": "the chance keeps. The opportunity does not vanish if you do not take it today.",
    "voice": "n"
   },
   {
-   "start": 115.3999999999996,
-   "end": 122.03278911564585,
+   "start": 116.59999999999957,
+   "end": 123.23278911564583,
    "text": "Money you cannot get back. A future you learn about slowly. And a chance that keeps.",
    "voice": "n"
   },
   {
-   "start": 122.46666666666616,
-   "end": 126.05455782312875,
+   "start": 123.66666666666613,
+   "end": 127.25455782312872,
    "text": "When all three are true, waiting is worth money.",
    "voice": "n"
   },
   {
-   "start": 127.26666666666601,
-   "end": 137.93387755101975,
+   "start": 128.466666666666,
+   "end": 139.13387755101974,
    "text": "And when any one of them is missing, it is not. Remember that \u2014 in chapter fourteen we take the third one away, and the whole conclusion flips over.",
    "voice": "n"
   },
   {
-   "start": 140.19999999999922,
-   "end": 143.16639455782234,
+   "start": 141.39999999999918,
+   "end": 144.3663945578223,
    "text": "sunk cost: money you cannot get back",
    "voice": "n"
   },
   {
-   "start": 143.26666666666583,
-   "end": 146.0240816326522,
+   "start": 144.4666666666658,
+   "end": 147.22408163265217,
    "text": "a future you learn a bit at a time",
    "voice": "n"
   },
   {
-   "start": 146.13333333333242,
-   "end": 148.1709297052145,
+   "start": 147.33333333333238,
+   "end": 149.37092970521445,
    "text": "a chance that keeps",
    "voice": "n"
   },
   {
-   "start": 148.26666666666569,
-   "end": 151.3956009070285,
+   "start": 149.46666666666565,
+   "end": 152.59560090702846,
    "text": "all three \u2192 waiting pays",
    "voice": "n"
   }
@@ -150,6 +150,7 @@
  ],
  "collisions": [],
  "low_content": [],
+ "off_frame": [],
  "too_small": [],
  "silent_beats": []
 }

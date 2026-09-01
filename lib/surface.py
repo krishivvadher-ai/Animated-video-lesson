@@ -31,7 +31,7 @@ def multiplier(sigma, rho):
 def axes():
     return ThreeDAxes(
         x_range=[0, 1, 0.25], y_range=[0, 1, 0.25], z_range=[0, 1, 0.25],
-        x_length=5.2, y_length=5.2, z_length=3.2,
+        x_length=5.4, y_length=5.4, z_length=4.2,
         axis_config={"color": MUTED, "stroke_width": 2, "include_ticks": False,
                      "include_tip": False},
     )

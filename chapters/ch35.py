@@ -77,7 +77,7 @@ class Chapter35(Chapter):
             pass
 
         ax3 = SF.axes()
-        self.set_camera_orientation(phi=66 * DEGREES, theta=-46 * DEGREES, zoom=0.95)
+        self.set_camera_orientation(phi=62 * DEGREES, theta=-48 * DEGREES, zoom=0.88)
         self.play(Create(ax3), run_time=1.2)
         col = VGroup(
             Text("a higher bar", font=FONT, font_size=T_SMALL, color=TRIGGER),
@@ -124,7 +124,7 @@ class Chapter35(Chapter):
                           "same moment, the firm is dragged the other way too — into "
                           "the choppiest part of the sheet."):
             self.play(Transform(d, d3), FadeTransform(read2, read3), run_time=2.2)
-            self.move_camera(phi=58 * DEGREES, theta=-150 * DEGREES, run_time=3.0)
+            self.move_camera(phi=64 * DEGREES, theta=-142 * DEGREES, run_time=3.0)
         self.beat()
 
         both = Text("both movements push the bar up", font=FONT, font_size=T_SUB,

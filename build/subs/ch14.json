@@ -157,45 +157,9 @@
   "whenyoucanwait,thebadfuturesdecide",
   "\u201cofpossiblefutureoutcomes,onlytheunfavorableoneshaveabearingonthecurrentpropensitytoundertakeagivenproject\u201d"
  ],
- "collisions": [
-  {
-   "t": 135.8,
-   "a": "\u201cofpossiblefutureoutcomes,onlytheunfavorable",
-   "b": "whenyoucanwait,thebadfuturesdecide",
-   "overlap": 0.41
-  },
-  {
-   "t": 144.07,
-   "a": "\u201cofpossiblefutureoutcomes,onlytheunfavorable",
-   "b": "whenyoucanwait,thebadfuturesdecide",
-   "overlap": 0.41
-  },
-  {
-   "t": 144.87,
-   "a": "\u201cofpossiblefutureoutcomes,onlytheunfavorable",
-   "b": "whenyoucanwait,thebadfuturesdecide",
-   "overlap": 0.41
-  },
-  {
-   "t": 145.67,
-   "a": "\u201cofpossiblefutureoutcomes,onlytheunfavorable",
-   "b": "whenyoucanwait,thebadfuturesdecide",
-   "overlap": 0.41
-  },
-  {
-   "t": 154.6,
-   "a": "\u201cofpossiblefutureoutcomes,onlytheunfavorable",
-   "b": "whenyoucanwait,thebadfuturesdecide",
-   "overlap": 0.41
-  },
-  {
-   "t": 155.4,
-   "a": "\u201cofpossiblefutureoutcomes,onlytheunfavorable",
-   "b": "whenyoucanwait,thebadfuturesdecide",
-   "overlap": 0.41
-  }
- ],
+ "collisions": [],
  "low_content": [],
+ "off_frame": [],
  "too_small": [],
  "silent_beats": []
 }

@@ -81,12 +81,13 @@ class Chapter17(Chapter):
         mag.next_to(bar, DOWN, buff=0.55)
         with self.narrate("Pass an electric current through the wire, and the iron "
                           "becomes magnetic."):
-            self.play(FadeIn(cur), bar[1].animate.set_stroke(SUNK, width=7), run_time=1.0)
+            self.play(FadeIn(cur), bar[2].animate.set_stroke(TRIGGER, width=7),
+                      run_time=1.0)
             self.play(Create(mag), run_time=0.8)
         off = St.caption("current off", MUTED, T_SUB, width=16)
         St.place(off, St.SIDE, ay=0.55)
         with self.narrate("Now switch the current off."):
-            self.play(FadeTransform(cur, off), bar[1].animate.set_stroke(MUTED, width=3),
+            self.play(FadeTransform(cur, off), bar[2].animate.set_stroke(SUNK, width=4),
                       run_time=1.1)
         with self.narrate("The magnetism does not go away. Some of it stays. The cause "
                           "was temporary. The effect lasted."):

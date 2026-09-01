@@ -79,7 +79,7 @@ class Chapter20(Chapter):
         self.heading("And the resolution is the instructive part")
         wrong = St.caption("not a decision under uncertainty —\na signalling game",
                            COST, T_SUB, width=34)
-        St.place(wrong, St.FULL, ay=0.6)
+        St.place(wrong, St.FULL, ay=0.85)
         with self.narrate("Financial economists who hear that story say it proves how "
                           "right he was. The paper says something better. He had "
                           "misread the situation entirely. It was not a decision "
@@ -93,7 +93,7 @@ class Chapter20(Chapter):
                           "the costly, irreversible step WAS the message",
                           "he sat on the fence, and fell off"],
                          colour=CHALK, dot_colour=MONEY, size=T_BODY, width=34)
-        St.place(expl, St.FULL, ay=-0.15)
+        St.place(expl, St.FULL, ay=-0.3)
         says = ["She was unsure how much he valued her.",
                 "And it was precisely his willingness to take the costly, irreversible "
                 "step of giving up the flat that would have carried the message. "

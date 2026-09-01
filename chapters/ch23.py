@@ -54,9 +54,9 @@ class Chapter23(Chapter):
         self.heading("So they cut, and cut, and cut")
         ax = Axes(x_range=[0, 6, 1], y_range=[0, 6, 1], x_length=8.0, y_length=3.4,
                   axis_config=AXIS)
-        St.place(ax, St.STAGE, ay=-0.05)
+        St.place(ax, St.STAGE, ay=-0.05, fill=False)
         yl = Text("the Bank's rate", font=FONT, font_size=T_SMALL, color=MONEY)
-        yl.next_to(ax, LEFT, buff=0.2).rotate(PI / 2)
+        yl.rotate(PI / 2).next_to(ax, LEFT, buff=0.18)
         xl = Text("2008                    2009", font=FONT, font_size=T_TINY,
                   color=MUTED)
         xl.next_to(ax, DOWN, buff=0.2)

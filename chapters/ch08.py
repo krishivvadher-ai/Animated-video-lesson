@@ -25,7 +25,7 @@ class Chapter08(Chapter):
 
         box = RoundedRectangle(width=5.6, height=2.4, corner_radius=0.18,
                                color=MUTED, stroke_width=3)
-        St.place(box, St.STAGE, ax=0.15, ay=0.35)
+        St.place(box, St.STAGE, ax=0.15, ay=0.35, fill=False)
         blab = Text("the machine", font=FONT, font_size=T_SMALL, color=MUTED)
         blab.next_to(box, UP, buff=0.22)
         with self.narrate("The paper answers that with arithmetic. There is mathematics "
@@ -178,7 +178,7 @@ class Chapter08(Chapter):
                           "one number out. That is a shape.", hold=True):
             pass
         ax3 = SF.axes()
-        self.set_camera_orientation(phi=68 * DEGREES, theta=-52 * DEGREES, zoom=0.95)
+        self.set_camera_orientation(phi=62 * DEGREES, theta=-48 * DEGREES, zoom=0.88)
         self.play(Create(ax3), run_time=1.3)
         xl = Text("choppier revenue →", font=FONT, font_size=T_SMALL, color=WAIT)
         yl = Text("cheaper money →", font=FONT, font_size=T_SMALL, color=MONEY)
@@ -206,7 +206,7 @@ class Chapter08(Chapter):
         with self.narrate("Now follow it away from that corner. Every step towards "
                           "choppier revenue, and every step towards cheaper money, "
                           "lifts the sheet. The two effects do not cancel. They add."):
-            self.move_camera(phi=58 * DEGREES, theta=-110 * DEGREES, run_time=4.0)
+            self.move_camera(phi=64 * DEGREES, theta=-104 * DEGREES, run_time=4.0)
         self.beat()
 
         d_base = Dot3D(SF.point(ax3, 0.20, 0.05), radius=0.10, color=CHALK)

@@ -74,6 +74,7 @@ class Chapter(ThreeDScene):
         self.screen_text = []
         self.collisions = []
         self.low_content = []
+        self.off_frame = []
         self.too_small = []
         self.silent_beats = []
         self._progress = None
@@ -349,6 +350,10 @@ class Chapter(ThreeDScene):
             if b[1] < -3.98:
                 self.low_content.append({"t": t, "text": label[:60],
                                          "bottom": round(b[1], 2)})
+            # anything reaching past the edge of the frame is being cut in half
+            if b[0] < -7.02 or b[2] > 7.02 or b[3] > 4.02:
+                self.off_frame.append({"t": t, "text": label[:60],
+                                       "box": [round(v, 2) for v in b]})
         for m in self.mobjects:
             if self._progress is not None and m is self._progress:
                 continue   # the corner indicator is furniture, not a caption
@@ -384,5 +389,6 @@ class Chapter(ThreeDScene):
              "screen_text": sorted(set(self.screen_text)),
              "collisions": self.collisions[:200],
              "low_content": self.low_content[:200],
+             "off_frame": self.off_frame[:200],
              "too_small": self.too_small[:200],
              "silent_beats": self.silent_beats[:200]}, indent=1))

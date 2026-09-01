@@ -1,7 +1,7 @@
 {
  "chapter": 27,
  "title": "Channels two and three",
- "duration": 131.2666666666661,
+ "duration": 131.66666666666615,
  "cues": [
   {
    "start": 6.333333333333329,
@@ -28,62 +28,62 @@
    "voice": "n"
   },
   {
-   "start": 51.200000000000166,
-   "end": 56.7739229024945,
+   "start": 51.600000000000186,
+   "end": 57.17392290249452,
    "text": "liquidity. How easily a thing can be sold without moving its price.",
    "voice": "n"
   },
   {
-   "start": 59.53333333333352,
-   "end": 69.89528344671221,
+   "start": 59.93333333333354,
+   "end": 70.29528344671223,
    "text": "When markets seize up, you may not be able to find a buyer at all. So investors demand a higher return to compensate them for that risk.",
    "voice": "n"
   },
   {
-   "start": 72.3333333333335,
-   "end": 84.15691609977341,
+   "start": 72.73333333333352,
+   "end": 84.55691609977343,
    "text": "A central bank buying on a very large scale is, among other things, a buyer. It puts trading back into the market, and that premium comes down.",
    "voice": "n"
   },
   {
-   "start": 87.13333333333325,
-   "end": 94.77999999999992,
+   "start": 87.53333333333329,
+   "end": 95.17999999999995,
    "text": "But the authors are careful about this one. The effect probably lasts only while the purchases are going on.",
    "voice": "n"
   },
   {
-   "start": 95.19999999999987,
-   "end": 100.14653061224477,
+   "start": 95.59999999999991,
+   "end": 100.54653061224481,
    "text": "And in gilt markets, which are normally very liquid anyway,",
    "voice": "n"
   },
   {
-   "start": 100.53333333333316,
-   "end": 102.14136054421752,
+   "start": 100.9333333333332,
+   "end": 102.54136054421755,
    "text": "it may be small.",
    "voice": "n"
   },
   {
-   "start": 103.33333333333312,
-   "end": 116.03455782312903,
+   "start": 103.73333333333315,
+   "end": 116.43455782312907,
    "text": "There is also disagreement about how big those effects were and how long they lasted. And the effects on wider classes of assets are less marked than on company bonds.",
    "voice": "n"
   },
   {
-   "start": 118.333333333333,
-   "end": 121.50870748299286,
+   "start": 118.73333333333304,
+   "end": 121.9087074829929,
    "text": "channel two works purely through the signal",
    "voice": "n"
   },
   {
-   "start": 121.59999999999961,
-   "end": 125.76199546485222,
+   "start": 121.99999999999964,
+   "end": 126.16199546485225,
    "text": "channel three puts trading back in a frozen market",
    "voice": "n"
   },
   {
-   "start": 125.86666666666622,
-   "end": 128.98362811791338,
+   "start": 126.26666666666625,
+   "end": 129.38362811791342,
    "text": "and the authors hedge channel three hard",
    "voice": "n"
   }
@@ -114,6 +114,7 @@
  ],
  "collisions": [],
  "low_content": [],
+ "off_frame": [],
  "too_small": [],
  "silent_beats": []
 }

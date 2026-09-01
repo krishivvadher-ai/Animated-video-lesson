@@ -1,7 +1,7 @@
 {
  "chapter": 23,
  "title": "Why cutting the rate was not enough",
- "duration": 163.0666666666658,
+ "duration": 163.86666666666582,
  "cues": [
   {
    "start": 7.333333333333325,
@@ -22,92 +22,92 @@
    "voice": "n"
   },
   {
-   "start": 39.13333333333337,
-   "end": 44.62956916099777,
+   "start": 39.53333333333339,
+   "end": 45.02956916099779,
    "text": "credit spread. The wedge between the Bank's rate and the rate a firm pays.",
    "voice": "n"
   },
   {
-   "start": 50.333333333333535,
-   "end": 64.93433106575984,
+   "start": 50.733333333333555,
+   "end": 65.33433106575986,
    "text": "On the eighth of October two thousand and eight, central banks in Canada, China, the euro area, Sweden, Switzerland, the United Kingdom and the United States all cut on the same day.",
    "voice": "n"
   },
   {
-   "start": 65.3333333333336,
-   "end": 72.42920634920661,
+   "start": 65.73333333333362,
+   "end": 72.82920634920663,
    "text": "In Britain, the Bank cut its rate by three percentage points in the last three months of that year.",
    "voice": "n"
   },
   {
-   "start": 72.86666666666684,
-   "end": 80.43061224489814,
+   "start": 73.26666666666688,
+   "end": 80.83061224489818,
    "text": "And by a further one and a half percentage points in the first three months of two thousand and nine.",
    "voice": "n"
   },
   {
-   "start": 80.86666666666676,
-   "end": 85.04049886621324,
+   "start": 81.2666666666668,
+   "end": 85.44049886621328,
    "text": "And there it stopped, at nought point five per cent.",
    "voice": "n"
   },
   {
-   "start": 86.26666666666668,
-   "end": 99.75206349206351,
+   "start": 86.66666666666671,
+   "end": 100.15206349206355,
    "text": "And note that they stopped just above zero, not at it \u2014 because of worries about what extremely low rates would do to banks' own profits, and to the working of the money markets themselves.",
    "voice": "n"
   },
   {
-   "start": 102.73333333333316,
-   "end": 108.63464852607693,
+   "start": 103.53333333333318,
+   "end": 109.43464852607694,
    "text": "the zero lower bound. The point where a central bank cannot cut any further.",
    "voice": "n"
   },
   {
-   "start": 112.86666666666636,
-   "end": 118.89700680272078,
+   "start": 113.66666666666637,
+   "end": 119.6970068027208,
    "text": "They could lend to banks that were short of cash \u2014 the oldest job a central bank has.",
    "voice": "n"
   },
   {
-   "start": 119.33333333333297,
-   "end": 127.99133786848037,
+   "start": 120.13333333333298,
+   "end": 128.79133786848038,
    "text": "They could buy assets with money they created. That is the one this film is about, and the next chapter builds it.",
    "voice": "n"
   },
   {
-   "start": 128.39999999999958,
-   "end": 137.44167800453474,
+   "start": 129.1999999999996,
+   "end": 138.24167800453475,
    "text": "Or they could simply say something about what they intended to do in future \u2014 which turns out to matter more than you would think.",
    "voice": "n"
   },
   {
-   "start": 137.8666666666662,
-   "end": 143.6183673469383,
+   "start": 138.6666666666662,
+   "end": 144.4183673469383,
    "text": "All of that together goes by one name. Unconventional monetary policy.",
    "voice": "n"
   },
   {
-   "start": 145.93333333333277,
-   "end": 149.3409070294779,
+   "start": 146.73333333333278,
+   "end": 150.14090702947792,
    "text": "lenders would fund banks only dearly",
    "voice": "n"
   },
   {
-   "start": 149.46666666666604,
-   "end": 151.59265306122387,
+   "start": 150.26666666666605,
+   "end": 152.39265306122388,
    "text": "a credit spread opened up",
    "voice": "n"
   },
   {
-   "start": 151.73333333333264,
-   "end": 157.34403628117843,
+   "start": 152.53333333333265,
+   "end": 158.14403628117844,
    "text": "cut 3 points, then 1.5 \u2014 stop at 0.5",
    "voice": "n"
   },
   {
-   "start": 157.4666666666659,
-   "end": 160.81619047618972,
+   "start": 158.2666666666659,
+   "end": 161.61619047618973,
    "text": "what is left: unconventional policy",
    "voice": "n"
   }
@@ -142,6 +142,168 @@
  ],
  "collisions": [],
  "low_content": [],
+ "off_frame": [
+  {
+   "t": 50.73,
+   "text": "theBank'srate",
+   "box": [
+    -8.1,
+    -1.55,
+    -7.83,
+    0.89
+   ]
+  },
+  {
+   "t": 52.13,
+   "text": "theBank'srate",
+   "box": [
+    -8.1,
+    -1.55,
+    -7.83,
+    0.89
+   ]
+  },
+  {
+   "t": 65.73,
+   "text": "theBank'srate",
+   "box": [
+    -8.1,
+    -1.55,
+    -7.83,
+    0.89
+   ]
+  },
+  {
+   "t": 67.13,
+   "text": "theBank'srate",
+   "box": [
+    -8.1,
+    -1.55,
+    -7.83,
+    0.89
+   ]
+  },
+  {
+   "t": 73.27,
+   "text": "theBank'srate",
+   "box": [
+    -8.1,
+    -1.55,
+    -7.83,
+    0.89
+   ]
+  },
+  {
+   "t": 74.67,
+   "text": "theBank'srate",
+   "box": [
+    -8.1,
+    -1.55,
+    -7.83,
+    0.89
+   ]
+  },
+  {
+   "t": 81.27,
+   "text": "theBank'srate",
+   "box": [
+    -8.1,
+    -1.55,
+    -7.83,
+    0.89
+   ]
+  },
+  {
+   "t": 82.67,
+   "text": "theBank'srate",
+   "box": [
+    -8.1,
+    -1.55,
+    -7.83,
+    0.89
+   ]
+  },
+  {
+   "t": 85.87,
+   "text": "theBank'srate",
+   "box": [
+    -8.1,
+    -1.55,
+    -7.83,
+    0.89
+   ]
+  },
+  {
+   "t": 86.67,
+   "text": "theBank'srate",
+   "box": [
+    -8.1,
+    -1.55,
+    -7.83,
+    0.89
+   ]
+  },
+  {
+   "t": 87.47,
+   "text": "theBank'srate",
+   "box": [
+    -8.1,
+    -1.55,
+    -7.83,
+    0.89
+   ]
+  },
+  {
+   "t": 88.2,
+   "text": "theBank'srate",
+   "box": [
+    -8.1,
+    -1.55,
+    -7.83,
+    0.89
+   ]
+  },
+  {
+   "t": 100.6,
+   "text": "theBank'srate",
+   "box": [
+    -8.1,
+    -1.55,
+    -7.83,
+    0.89
+   ]
+  },
+  {
+   "t": 101.4,
+   "text": "theBank'srate",
+   "box": [
+    -8.1,
+    -1.55,
+    -7.83,
+    0.89
+   ]
+  },
+  {
+   "t": 101.8,
+   "text": "theBank'srate",
+   "box": [
+    -8.1,
+    -1.55,
+    -7.83,
+    0.89
+   ]
+  },
+  {
+   "t": 111.93,
+   "text": "theBank'srate",
+   "box": [
+    -8.1,
+    -1.55,
+    -7.83,
+    0.89
+   ]
+  }
+ ],
  "too_small": [],
  "silent_beats": []
 }

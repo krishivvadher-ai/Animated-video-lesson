@@ -1,7 +1,7 @@
 {
  "chapter": 22,
  "title": "Money, and who is in charge of it",
- "duration": 149.99999999999926,
+ "duration": 151.19999999999925,
  "cues": [
   {
    "start": 6.333333333333329,
@@ -22,80 +22,80 @@
    "voice": "n"
   },
   {
-   "start": 48.333333333333506,
-   "end": 53.00671201814076,
+   "start": 48.733333333333526,
+   "end": 53.40671201814078,
    "text": "interest. The extra a borrower pays for the use of money.",
    "voice": "n"
   },
   {
-   "start": 57.06666666666697,
-   "end": 64.37519274376447,
+   "start": 57.46666666666699,
+   "end": 64.77519274376449,
    "text": "Borrow a hundred pounds at five per cent, and you pay back a hundred and five after a year.",
    "voice": "n"
   },
   {
-   "start": 66.93333333333374,
-   "end": 71.8966439909301,
+   "start": 67.73333333333373,
+   "end": 72.6966439909301,
    "text": "interest rate. How much extra, as a percentage per year.",
    "voice": "n"
   },
   {
-   "start": 75.66666666666694,
-   "end": 81.57414965986422,
+   "start": 76.86666666666692,
+   "end": 82.7741496598642,
    "text": "monetary policy. What a central bank does to make borrowing easier or harder.",
    "voice": "n"
   },
   {
-   "start": 85.5333333333335,
-   "end": 98.42925170068044,
+   "start": 86.73333333333348,
+   "end": 99.62925170068041,
    "text": "Meet the Governor. He runs the central bank. He is well-meaning, he holds the levers, and he is genuinely trying to help. He is not the villain of this film. There isn't one.",
    "voice": "n"
   },
   {
-   "start": 100.00000000000004,
-   "end": 111.60421768707488,
+   "start": 101.20000000000002,
+   "end": 112.80421768707484,
    "text": "After the crash of two thousand and eight, the Bank wanted people and businesses to spend and build. So it did the usual thing. It cut the rate.",
    "voice": "n"
   },
   {
-   "start": 111.99999999999991,
-   "end": 114.92866213151919,
+   "start": 113.19999999999989,
+   "end": 116.12866213151916,
    "text": "And it cut it again. And again.",
    "voice": "n"
   },
   {
-   "start": 115.3333333333331,
-   "end": 125.06272108843514,
+   "start": 116.53333333333308,
+   "end": 126.26272108843511,
    "text": "And by two thousand and nine the rate was almost at zero. The lever had hit the floor. You cannot cut much below nothing.",
    "voice": "n"
   },
   {
-   "start": 126.26666666666634,
-   "end": 132.88167800453482,
+   "start": 127.46666666666631,
+   "end": 134.0816780045348,
    "text": "So they needed something else. That something else is the subject of the next two chapters.",
    "voice": "n"
   },
   {
-   "start": 135.1333333333329,
-   "end": 138.18099773242588,
+   "start": 136.3333333333329,
+   "end": 139.38099773242587,
    "text": "central bank: looks after the money",
    "voice": "n"
   },
   {
-   "start": 138.26666666666617,
-   "end": 141.22349206349156,
+   "start": 139.46666666666616,
+   "end": 142.42349206349155,
    "text": "interest, and the rate, per year",
    "voice": "n"
   },
   {
-   "start": 141.33333333333277,
-   "end": 143.91578231292462,
+   "start": 142.53333333333276,
+   "end": 145.1157823129246,
    "text": "monetary policy: the lever",
    "voice": "n"
   },
   {
-   "start": 143.99999999999937,
-   "end": 147.7558730158724,
+   "start": 145.19999999999936,
+   "end": 148.95587301587238,
    "text": "by 2009 the lever hit the floor",
    "voice": "n"
   }
@@ -132,6 +132,7 @@
  ],
  "collisions": [],
  "low_content": [],
+ "off_frame": [],
  "too_small": [],
  "silent_beats": []
 }

@@ -1,7 +1,7 @@
 {
  "chapter": 17,
  "title": "Hysteresis",
- "duration": 175.1333333333333,
+ "duration": 175.5333333333333,
  "cues": [
   {
    "start": 9.133333333333319,
@@ -64,74 +64,74 @@
    "voice": "n"
   },
   {
-   "start": 81.8000000000011,
-   "end": 88.14489795918477,
+   "start": 82.20000000000108,
+   "end": 88.54489795918475,
    "text": "hysteresis. When the cause is reversed and the effect stays behind.",
    "voice": "n"
   },
   {
-   "start": 92.80000000000098,
-   "end": 97.24947845805086,
+   "start": 93.20000000000095,
+   "end": 97.64947845805084,
    "text": "Push the money coming in far enough down, and she quits for good.",
    "voice": "n"
   },
   {
-   "start": 97.6666666666676,
-   "end": 102.14544217687168,
+   "start": 98.06666666666757,
+   "end": 102.54544217687166,
    "text": "Now let it recover, all the way back to where it started.",
    "voice": "n"
   },
   {
-   "start": 102.53333333333421,
-   "end": 108.9541043083909,
+   "start": 102.93333333333419,
+   "end": 109.35410430839087,
    "text": "She does not come back. Because coming back means paying the whole sunk cost over again.",
    "voice": "n"
   },
   {
-   "start": 110.20000000000083,
-   "end": 120.41428571428654,
+   "start": 110.6000000000008,
+   "end": 120.81428571428651,
    "text": "And the paper's own careful point. Sunk costs alone can produce some of this. Adding uncertainty magnifies it dramatically.",
    "voice": "n"
   },
   {
-   "start": 123.33333333333401,
-   "end": 131.6519274376424,
+   "start": 123.73333333333399,
+   "end": 132.05192743764238,
    "text": "The dollar rose, and foreign firms poured into America \u2014 years late, because they were waiting to be sure.",
    "voice": "n"
   },
   {
-   "start": 132.0666666666671,
-   "end": 143.06126984127027,
+   "start": 132.4666666666671,
+   "end": 143.46126984127028,
    "text": "Then the dollar fell back to where it had been. And they did not leave. They had paid to get in, and leaving would mean paying to get back in again later.",
    "voice": "n"
   },
   {
-   "start": 144.26666666666702,
-   "end": 152.97682539682575,
+   "start": 144.66666666666703,
+   "end": 153.37682539682575,
    "text": "The cause reversed. The effect stayed. That is all hysteresis is \u2014 and now you have watched it happen twice.",
    "voice": "n"
   },
   {
-   "start": 155.26666666666694,
-   "end": 161.71605442176897,
+   "start": 155.66666666666694,
+   "end": 162.11605442176898,
    "text": "up past 1.10, nothing \u00b7 past 1.62, she builds",
    "voice": "n"
   },
   {
-   "start": 161.8000000000002,
-   "end": 166.47591836734716,
+   "start": 162.20000000000022,
+   "end": 166.87591836734717,
    "text": "back to 1.00 \u2014 and she does not close",
    "voice": "n"
   },
   {
-   "start": 166.60000000000014,
-   "end": 168.74208616780058,
+   "start": 167.00000000000014,
+   "end": 169.14208616780058,
    "text": "the bar stays magnetic",
    "voice": "n"
   },
   {
-   "start": 168.86666666666673,
-   "end": 172.91278911564632,
+   "start": 169.26666666666674,
+   "end": 173.31278911564632,
    "text": "hysteresis explains the dollar and the imports",
    "voice": "n"
   }
@@ -168,6 +168,7 @@
  ],
  "collisions": [],
  "low_content": [],
+ "off_frame": [],
  "too_small": [],
  "silent_beats": []
 }

@@ -1,7 +1,7 @@
 {
  "chapter": 10,
  "title": "The textbook\u2019s line, as a sum",
- "duration": 153.66666666666592,
+ "duration": 154.0666666666659,
  "cues": [
   {
    "start": 6.333333333333329,
@@ -34,80 +34,80 @@
    "voice": "n"
   },
   {
-   "start": 56.20000000000026,
-   "end": 60.01868480725649,
+   "start": 56.60000000000028,
+   "end": 60.41868480725651,
    "text": "net worth. What you get, minus what you pay.",
    "voice": "n"
   },
   {
-   "start": 65.00000000000033,
-   "end": 71.124308390023,
+   "start": 65.4000000000003,
+   "end": 71.52430839002298,
    "text": "The borderline is where the two are exactly equal \u2014 where net worth is nothing at all.",
    "voice": "n"
   },
   {
-   "start": 71.53333333333359,
-   "end": 77.01564625850365,
+   "start": 71.93333333333356,
+   "end": 77.41564625850363,
    "text": "Add K to both sides. What she gets equals what she pays.",
    "voice": "n"
   },
   {
-   "start": 77.40000000000016,
-   "end": 82.62108843537432,
+   "start": 77.80000000000014,
+   "end": 83.0210884353743,
    "text": "Multiply both sides by the rate. And there is the textbook's line.",
    "voice": "n"
   },
   {
-   "start": 83.86666666666675,
-   "end": 96.22653061224497,
+   "start": 84.26666666666672,
+   "end": 96.62653061224495,
    "text": "That is Marshall's line, and now you know exactly where it comes from. It is the interest on the money she sank into the building \u2014 the normal return on capital, and nothing more.",
    "voice": "n"
   },
   {
-   "start": 99.19999999999986,
-   "end": 106.84521541950099,
+   "start": 99.59999999999984,
+   "end": 107.24521541950097,
    "text": "Dixit's worked example uses a sunk cost of two, and a cost of capital of five per cent.",
    "voice": "n"
   },
   {
-   "start": 107.66666666666647,
-   "end": 114.28004535147373,
+   "start": 108.06666666666645,
+   "end": 114.68004535147371,
    "text": "So the normal return on that capital is nought point nought five times two. A tenth.",
    "voice": "n"
   },
   {
-   "start": 115.0666666666664,
-   "end": 119.40820861677979,
+   "start": 115.46666666666638,
+   "end": 119.80820861677977,
    "text": "And the factory also costs one to run each year.",
    "voice": "n"
   },
   {
-   "start": 120.19999999999968,
-   "end": 130.82734693877518,
+   "start": 120.59999999999965,
+   "end": 131.22734693877516,
    "text": "Add them: one, plus a tenth. One point one. That is the number you have been staring at since chapter two, and you have just worked it out yourself.",
    "voice": "n"
   },
   {
-   "start": 134.46666666666619,
-   "end": 138.73337868480678,
+   "start": 134.86666666666616,
+   "end": 139.13337868480676,
    "text": "what she gets:  R \u00f7 \u03c1",
    "voice": "n"
   },
   {
-   "start": 138.86666666666613,
-   "end": 140.8113832199541,
+   "start": 139.2666666666661,
+   "end": 141.2113832199541,
    "text": "what she pays:  K",
    "voice": "n"
   },
   {
-   "start": 140.93333333333274,
-   "end": 144.50344671201753,
+   "start": 141.33333333333272,
+   "end": 144.9034467120175,
    "text": "the borderline is where net worth is zero",
    "voice": "n"
   },
   {
-   "start": 144.59999999999934,
-   "end": 151.4163718820855,
+   "start": 144.99999999999932,
+   "end": 151.8163718820855,
    "text": "so the textbook line is  M = C + \u03c1K = 1.10",
    "voice": "n"
   }
@@ -146,6 +146,7 @@
  ],
  "collisions": [],
  "low_content": [],
+ "off_frame": [],
  "too_small": [],
  "silent_beats": []
 }

@@ -1,7 +1,7 @@
 {
  "chapter": 20,
  "title": "Outside business",
- "duration": 146.66666666666595,
+ "duration": 147.06666666666592,
  "cues": [
   {
    "start": 6.333333333333329,
@@ -46,50 +46,50 @@
    "voice": "n"
   },
   {
-   "start": 83.93333333333338,
-   "end": 89.96476190476196,
+   "start": 84.33333333333336,
+   "end": 90.36476190476193,
    "text": "signalling. Doing something costly, because the cost is what makes it believable.",
    "voice": "n"
   },
   {
-   "start": 93.46666666666668,
-   "end": 96.61882086167802,
+   "start": 93.86666666666666,
+   "end": 97.018820861678,
    "text": "She was unsure how much he valued her.",
    "voice": "n"
   },
   {
-   "start": 97.06666666666663,
-   "end": 111.11623582766437,
+   "start": 97.46666666666661,
+   "end": 111.51623582766435,
    "text": "And it was precisely his willingness to take the costly, irreversible step of giving up the flat that would have carried the message. Anyone can say it. Only someone who means it will pay for it.",
    "voice": "n"
   },
   {
-   "start": 111.53333333333326,
-   "end": 115.6258956916099,
+   "start": 111.93333333333324,
+   "end": 116.02589569160988,
    "text": "He tried to sit on the fence, and fell off it.",
    "voice": "n"
   },
   {
-   "start": 117.93333333333315,
-   "end": 132.23034013605425,
+   "start": 118.33333333333313,
+   "end": 132.63034013605423,
    "text": "And that gives the chapter a real point rather than a joke. It shows a limit of the whole framework. Option value is not always the right lens. Sometimes the irreversibility is the message.",
    "voice": "n"
   },
   {
-   "start": 134.53333333333285,
-   "end": 137.55360544217638,
+   "start": 134.93333333333283,
+   "end": 137.95360544217635,
    "text": "the same three features appear elsewhere",
    "voice": "n"
   },
   {
-   "start": 137.66666666666612,
-   "end": 141.3993197278906,
+   "start": 138.0666666666661,
+   "end": 141.79931972789058,
    "text": "keeping the option open can be the wrong move",
    "voice": "n"
   },
   {
-   "start": 141.5333333333327,
-   "end": 144.418458049886,
+   "start": 141.93333333333268,
+   "end": 144.81845804988598,
    "text": "signalling: the cost is the message",
    "voice": "n"
   }
@@ -121,51 +121,9 @@
   "thetimingisyours",
   "tworent-controlledflats"
  ],
- "collisions": [
-  {
-   "t": 94.27,
-   "a": "notadecisionunderuncertainty\u2014asignallinggame",
-   "b": "shewasunsurehowmuchhevaluedher",
-   "overlap": 0.67
-  },
-  {
-   "t": 97.07,
-   "a": "notadecisionunderuncertainty\u2014asignallinggame",
-   "b": "shewasunsurehowmuchhevaluedher",
-   "overlap": 0.67
-  },
-  {
-   "t": 97.87,
-   "a": "notadecisionunderuncertainty\u2014asignallinggame",
-   "b": "shewasunsurehowmuchhevaluedher",
-   "overlap": 0.67
-  },
-  {
-   "t": 111.53,
-   "a": "notadecisionunderuncertainty\u2014asignallinggame",
-   "b": "shewasunsurehowmuchhevaluedher",
-   "overlap": 0.67
-  },
-  {
-   "t": 112.33,
-   "a": "notadecisionunderuncertainty\u2014asignallinggame",
-   "b": "shewasunsurehowmuchhevaluedher",
-   "overlap": 0.67
-  },
-  {
-   "t": 116.07,
-   "a": "notadecisionunderuncertainty\u2014asignallinggame",
-   "b": "shewasunsurehowmuchhevaluedher",
-   "overlap": 0.67
-  },
-  {
-   "t": 116.87,
-   "a": "notadecisionunderuncertainty\u2014asignallinggame",
-   "b": "shewasunsurehowmuchhevaluedher",
-   "overlap": 0.67
-  }
- ],
+ "collisions": [],
  "low_content": [],
+ "off_frame": [],
  "too_small": [],
  "silent_beats": []
 }

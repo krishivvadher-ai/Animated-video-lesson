@@ -16,7 +16,7 @@ class Chapter16(Chapter):
     def body(self):
         # ------------------------------------------------ narrow, then wide
         self.heading("A narrow band, and a wide one")
-        sc = MasterScale(x=-4.4, y=-0.45, height=4.8)
+        sc = MasterScale(x=-3.2, y=-0.45, height=4.8)
         self.play(Create(sc.axis), FadeIn(sc.arrow_head), FadeIn(sc.title), run_time=1.0)
         c = sc.add_level("C", 1.00, "1.00", SUNK, width=2.6, sw=3)
         m = sc.add_level("M", 1.10, "1.10", COST, width=2.6, sw=3)

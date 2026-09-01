@@ -1,7 +1,7 @@
 {
  "chapter": 25,
  "title": "Three sets of books",
- "duration": 204.2666666666653,
+ "duration": 205.06666666666527,
  "cues": [
   {
    "start": 6.333333333333329,
@@ -10,110 +10,110 @@
    "voice": "c"
   },
   {
-   "start": 15.599999999999987,
-   "end": 21.64285714285713,
+   "start": 15.999999999999986,
+   "end": 22.04285714285713,
    "text": "a balance sheet. What somebody owns on one side, what they owe on the other.",
    "voice": "n"
   },
   {
-   "start": 26.333333333333314,
-   "end": 36.625668934240345,
+   "start": 26.733333333333313,
+   "end": 37.02566893424034,
    "text": "The people who actually sell the gilts are usually not banks. They are pension funds and insurance companies \u2014 the non-bank private sector.",
    "voice": "n"
   },
   {
-   "start": 41.00000000000013,
-   "end": 46.95015873015886,
+   "start": 41.40000000000013,
+   "end": 47.35015873015885,
    "text": "The seller hands over its gilts. So its holdings of gilts go down.",
    "voice": "n"
   },
   {
-   "start": 47.40000000000017,
-   "end": 56.35782312925187,
+   "start": 47.80000000000017,
+   "end": 56.75782312925187,
    "text": "And it gets money instead \u2014 not printed notes, but a number credited to its bank account. So its deposits go up.",
    "voice": "n"
   },
   {
-   "start": 57.60000000000021,
-   "end": 67.68603174603196,
+   "start": 58.000000000000206,
+   "end": 68.08603174603195,
    "text": "The central bank now owns the gilts. And it pays for them by creating reserves \u2014 money that only banks hold, at the central bank.",
    "voice": "n"
   },
   {
-   "start": 69.46666666666687,
-   "end": 75.3459410430841,
+   "start": 70.26666666666685,
+   "end": 76.14594104308408,
    "text": "reserves. Money banks hold at the central bank, and nobody else can.",
    "voice": "n"
   },
   {
-   "start": 77.80000000000017,
-   "end": 90.59378684807272,
+   "start": 78.60000000000015,
+   "end": 91.39378684807271,
    "text": "And the bank in the middle sits between them. It has more reserves on one side, and it owes the seller more deposits on the other. Both sides of its books grow together.",
    "voice": "n"
   },
   {
-   "start": 91.80000000000008,
-   "end": 102.02117913832208,
+   "start": 92.60000000000007,
+   "end": 102.82117913832207,
    "text": "Look at that and notice what has not happened. Nobody has been given anything. Every single one of those entries is matched by another one.",
    "voice": "n"
   },
   {
-   "start": 105.39999999999979,
-   "end": 118.38625850340115,
+   "start": 106.19999999999978,
+   "end": 119.18625850340113,
    "text": "What has happened is that the seller's portfolio has been disturbed. It wanted gilts, and now it is holding money. And that disturbance is where the whole mechanism starts.",
    "voice": "n"
   },
   {
-   "start": 121.33333333333285,
-   "end": 132.92721088435326,
+   "start": 122.13333333333283,
+   "end": 133.72721088435324,
    "text": "Ordinary monetary policy sets the price of money. One short-term interest rate, and everything else follows from what people expect that rate to do.",
    "voice": "n"
   },
   {
-   "start": 133.33333333333275,
-   "end": 144.49836734693818,
+   "start": 134.13333333333273,
+   "end": 145.29836734693816,
    "text": "Quantitative easing sets the quantity instead. And it aims directly at longer-term rates, rather than reaching them through expectations.",
    "voice": "n"
   },
   {
-   "start": 147.4666666666659,
-   "end": 161.8533786848065,
+   "start": 148.26666666666588,
+   "end": 162.65337868480648,
    "text": "And the authors are careful here. There is nothing unusual about a central bank buying assets at all. What distinguishes these operations is the circumstances they took place in, and their scale.",
    "voice": "n"
   },
   {
-   "start": 162.26666666666583,
-   "end": 173.4523356009062,
+   "start": 163.0666666666658,
+   "end": 174.25233560090618,
    "text": "And one more difference, which matters enormously in the next chapter. What is bought. Short-dated government debt is very nearly the same thing as money.",
    "voice": "n"
   },
   {
-   "start": 173.8666666666658,
-   "end": 185.27165532879732,
+   "start": 174.66666666666578,
+   "end": 186.0716553287973,
    "text": "Long-dated gilts, company debt and mortgage-backed securities are not. The effectiveness of the policy may depend on what is bought, as well as how much.",
    "voice": "n"
   },
   {
-   "start": 187.53333333333228,
-   "end": 191.23115646258398,
+   "start": 188.33333333333226,
+   "end": 192.03115646258397,
    "text": "the sellers are pension funds, not banks",
    "voice": "n"
   },
   {
-   "start": 191.3333333333322,
-   "end": 194.8348752834456,
+   "start": 192.1333333333322,
+   "end": 195.63487528344558,
    "text": "three sets of books, every entry matched",
    "voice": "n"
   },
   {
-   "start": 194.93333333333214,
-   "end": 198.15514739228905,
+   "start": 195.73333333333213,
+   "end": 198.95514739228904,
    "text": "QE sets a quantity, not a price",
    "voice": "n"
   },
   {
-   "start": 198.2666666666654,
-   "end": 202.01092970521415,
+   "start": 199.06666666666538,
+   "end": 202.81092970521414,
    "text": "and what is bought matters, not just how much",
    "voice": "n"
   }
@@ -164,57 +164,9 @@
   "\u2212gilts",
   "\u2248money"
  ],
- "collisions": [
-  {
-   "t": 148.93,
-   "a": "buyingassetsisnotitselfunusual",
-   "b": "whatisnew:thecircumstances,andthescale",
-   "overlap": 0.4
-  },
-  {
-   "t": 162.27,
-   "a": "buyingassetsisnotitselfunusual",
-   "b": "whatisnew:thecircumstances,andthescale",
-   "overlap": 0.4
-  },
-  {
-   "t": 163.07,
-   "a": "buyingassetsisnotitselfunusual",
-   "b": "whatisnew:thecircumstances,andthescale",
-   "overlap": 0.4
-  },
-  {
-   "t": 173.87,
-   "a": "buyingassetsisnotitselfunusual",
-   "b": "whatisnew:thecircumstances,andthescale",
-   "overlap": 0.4
-  },
-  {
-   "t": 174.67,
-   "a": "buyingassetsisnotitselfunusual",
-   "b": "whatisnew:thecircumstances,andthescale",
-   "overlap": 0.4
-  },
-  {
-   "t": 176.27,
-   "a": "buyingassetsisnotitselfunusual",
-   "b": "whatisnew:thecircumstances,andthescale",
-   "overlap": 0.4
-  },
-  {
-   "t": 185.67,
-   "a": "buyingassetsisnotitselfunusual",
-   "b": "whatisnew:thecircumstances,andthescale",
-   "overlap": 0.4
-  },
-  {
-   "t": 186.47,
-   "a": "buyingassetsisnotitselfunusual",
-   "b": "whatisnew:thecircumstances,andthescale",
-   "overlap": 0.4
-  }
- ],
+ "collisions": [],
  "low_content": [],
+ "off_frame": [],
  "too_small": [],
  "silent_beats": []
 }

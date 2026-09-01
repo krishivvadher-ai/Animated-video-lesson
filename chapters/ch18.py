@@ -17,11 +17,11 @@ class Chapter18(Chapter):
         # ------------------------------------------------ the observation
         self.heading("A detective story")
         nell = stick.nell(scale=0.9)
-        St.place(nell, St.STAGE, ax=-0.55, ay=0.35, fill=False)
+        St.place(nell, St.STAGE, ax=-0.55, ay=0.55, fill=False)
         nl = Text("an American firm", font=FONT, font_size=T_SMALL, color=MUTED)
         nl.next_to(nell, DOWN, buff=0.25)
         kenji = stick.kenji(scale=0.9)
-        St.place(kenji, St.SIDE, ax=-0.1, ay=0.35, fill=False)
+        St.place(kenji, St.SIDE, ax=-0.1, ay=0.55, fill=False)
         kl = Text("a Japanese firm", font=FONT, font_size=T_SMALL, color=MUTED)
         kl.next_to(kenji, DOWN, buff=0.25)
         with self.narrate("Here is Nell, in America. And here is Kenji, running a "
@@ -31,10 +31,10 @@ class Chapter18(Chapter):
 
         us = St.points(["demanded very high returns", "quit after short losses"],
                        colour=COST, dot_colour=COST, size=T_BODY, width=18)
-        St.place(us, St.STAGE, ax=-0.5, ay=-0.72)
+        St.place(us, St.STAGE, ax=-0.5, ay=-0.9, fill=False)
         jp = St.points(["invested aggressively", "hung on through losses"],
                        colour=MONEY, dot_colour=MONEY, size=T_BODY, width=18)
-        St.place(jp, St.SIDE, ax=-0.1, ay=-0.72)
+        St.place(jp, St.SIDE, ax=-0.1, ay=-0.9, fill=False)
         with self.narrate("American firms of the period demanded very high returns "
                           "before they would build — and then abandoned whole fields "
                           "after short stretches of losses. Colour televisions. Video "

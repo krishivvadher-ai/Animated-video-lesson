@@ -195,12 +195,29 @@ def door(color=CHALK, w=1.0, h=2.0, label=None):
 
 
 def iron_bar(color=CHALK):
-    bar = Rectangle(width=3.0, height=0.5, color=color, stroke_width=4,
+    """An iron bar with a wire wound round it.
+
+    The coil is drawn as a real helix -- each turn passing in front of the bar
+    and back behind it -- rather than as a row of overlapping rings, which read
+    as a smear rather than as a wire."""
+    bar = Rectangle(width=3.4, height=0.62, color=color, stroke_width=4,
                     fill_color=color, fill_opacity=0.10)
-    coils = VGroup(*[Arc(radius=0.42, start_angle=-PI / 2.2, angle=PI * 1.4,
-                         color=SUNK, stroke_width=4).move_to(RIGHT * x)
-                     for x in np.linspace(-1.0, 1.0, 6)])
-    return VGroup(bar, coils)
+    turns = 7
+    front, back = VGroup(), VGroup()
+    for i, x in enumerate(np.linspace(-1.30, 1.30, turns)):
+        f = Arc(radius=0.46, start_angle=-PI / 2 + 0.28, angle=PI - 0.56,
+                color=SUNK, stroke_width=5)
+        f.rotate(PI).move_to(RIGHT * x)
+        b = Arc(radius=0.46, start_angle=PI / 2 + 0.28, angle=PI - 0.56,
+                color=SUNK, stroke_width=3, stroke_opacity=0.45)
+        b.rotate(PI).move_to(RIGHT * (x + 0.20))
+        back.add(b)
+        front.add(f)
+    lead_l = Line(back[0].get_start() + LEFT * 0.5, back[0].get_start(),
+                  color=SUNK, stroke_width=4)
+    lead_r = Line(front[-1].get_end(), front[-1].get_end() + RIGHT * 0.5,
+                  color=SUNK, stroke_width=4)
+    return VGroup(bar, back, front, lead_l, lead_r)
 
 
 def ticket(color=CHALK, label="£100 in 2030", scale=1.0):
