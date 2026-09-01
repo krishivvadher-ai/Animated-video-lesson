@@ -1,149 +1,149 @@
 {
  "chapter": 13,
  "title": "The one formula in the film",
- "duration": 273.66666666666555,
+ "duration": 273.43333333333436,
  "cues": [
   {
-   "start": 6.333333333333329,
-   "end": 14.55537414965986,
+   "start": 6.166666666666658,
+   "end": 14.38870748299319,
    "text": "Start inside. Eight, times the cost of capital, divided by the choppiness multiplied by itself.",
    "voice": "n"
   },
   {
-   "start": 15.79999999999999,
-   "end": 22.985442176870738,
+   "start": 15.633333333333319,
+   "end": 22.818775510204066,
    "text": "Add one to it. Take the square root. Add one again, and halve it. That is the whole formula.",
    "voice": "n"
   },
   {
-   "start": 24.199999999999985,
-   "end": 34.93773242630384,
+   "start": 24.06666666666673,
+   "end": 34.804399092970584,
    "text": "The paper calls the answer beta. This film calls it the steepness, because that is what it measures \u2014 how steeply the value of waiting curves upward.",
    "voice": "n"
   },
   {
-   "start": 37.86666666666673,
-   "end": 43.78199546485267,
+   "start": 37.733333333333334,
+   "end": 43.64866213151927,
    "text": "The choppiness is nought point two. Times itself, nought point nought four.",
    "voice": "n"
   },
   {
-   "start": 44.53333333333346,
-   "end": 52.422267573696274,
+   "start": 44.39999999999994,
+   "end": 52.28893424036276,
    "text": "Eight times nought point nought five is nought point four. Divided by nought point nought four, that is ten.",
    "voice": "n"
   },
   {
-   "start": 53.20000000000019,
-   "end": 59.21056689342422,
+   "start": 53.06666666666655,
+   "end": 59.07723356009058,
    "text": "One plus ten is eleven. The square root of eleven is three point three one seven.",
    "voice": "n"
   },
   {
-   "start": 59.93333333333358,
-   "end": 66.80068027210909,
+   "start": 59.83333333333316,
+   "end": 66.70068027210867,
    "text": "One plus that is four point three one seven. Halve it. Two point one five eight.",
    "voice": "n"
   },
   {
-   "start": 67.53333333333363,
-   "end": 73.86757369614543,
+   "start": 67.46666666666643,
+   "end": 73.80090702947822,
    "text": "The paper prints two point one five. That is your answer, with the paper's own rounding.",
    "voice": "n"
   },
   {
-   "start": 76.8000000000001,
-   "end": 80.33528344671211,
+   "start": 76.7333333333329,
+   "end": 80.26861678004491,
    "text": "Divide the steepness by itself-minus-one.",
    "voice": "n"
   },
   {
-   "start": 80.73333333333339,
-   "end": 93.52294784580505,
+   "start": 80.69999999999952,
+   "end": 93.48961451247118,
    "text": "Two point one five eight, divided by one point one five eight. One point eight six. There is the multiplier from chapter eight \u2014 and you have just derived it.",
    "voice": "n"
   },
   {
-   "start": 94.73333333333319,
-   "end": 99.65904761904748,
+   "start": 94.73333333333265,
+   "end": 99.65904761904694,
    "text": "Multiply the textbook's line by it, and you have the real trigger.",
    "voice": "n"
   },
   {
-   "start": 100.06666666666648,
-   "end": 108.248117913832,
+   "start": 100.09999999999927,
+   "end": 108.2814512471648,
    "text": "Or multiply the cost of capital by it, and you have the corrected hurdle rate. Nine point three per cent.",
    "voice": "n"
   },
   {
-   "start": 111.19999999999966,
-   "end": 133.05265306122416,
+   "start": 111.19999999999912,
+   "end": 133.05265306122362,
    "text": "Turn the choppiness up to forty per cent. Nought point four times itself is nought point one six. Eight times nought point nought five over that is two and a half. One plus that is three and a half; its square root is one point eight seven. Halve one plus that: one point four three five.",
    "voice": "n"
   },
   {
-   "start": 133.73333333333295,
-   "end": 143.34272108843498,
+   "start": 133.79999999999907,
+   "end": 143.4093877551011,
    "text": "Divide by itself-minus-one: three point three. The paper prints three point three two, because it rounds the steepness first.",
    "voice": "n"
   },
   {
-   "start": 143.99999999999957,
-   "end": 161.86761904761863,
+   "start": 144.13333333333236,
+   "end": 162.00095238095142,
    "text": "Now put the choppiness back to twenty and drop the cost of capital to two per cent. That gives four inside; one plus four is five; the square root of five is two point two three six. Halve one plus that: one point six one eight.",
    "voice": "n"
   },
   {
-   "start": 162.53333333333285,
-   "end": 168.26344671201767,
+   "start": 162.7333333333323,
+   "end": 168.46344671201712,
    "text": "And divide: two point six two. The paper prints two point six one.",
    "voice": "n"
   },
   {
-   "start": 168.9333333333328,
-   "end": 184.61392290249378,
+   "start": 169.1999999999989,
+   "end": 184.8805895691599,
    "text": "And now you can see why both dials push the same way. More choppiness, or cheaper money, both make the number inside the square root smaller. That makes the steepness smaller. And a smaller steepness gives a bigger multiplier.",
    "voice": "n"
   },
   {
-   "start": 187.53333333333268,
-   "end": 203.01859410430774,
+   "start": 187.7999999999988,
+   "end": 203.28526077097385,
    "text": "Let the choppiness shrink to nothing. The number inside the square root grows without limit, the steepness grows with it, and the multiplier settles on one. The textbook is exactly right in a certain world.",
    "voice": "n"
   },
   {
-   "start": 203.86666666666596,
-   "end": 218.63850340135986,
+   "start": 204.13333333333208,
+   "end": 218.90517006802594,
    "text": "Let the cost of capital fall to nothing instead. The steepness goes to one, and the multiplier goes off to infinity. Which is the paper's own line: the textbook analysis becomes totally misleading.",
    "voice": "n"
   },
   {
-   "start": 219.46666666666593,
-   "end": 245.0737414965979,
+   "start": 219.73333333333204,
+   "end": 245.34040816326402,
    "text": "One honest note to finish on. All of that works because the project, once built, always makes money. Once you let it make losses and allow her to give up, the two lines have to be found together, and there is no formula \u2014 it needs four equations and a computer. The paper does that, and prints the answers: nought point seven two, and one point six two.",
    "voice": "n"
   },
   {
-   "start": 247.3333333333325,
-   "end": 252.3430839002259,
+   "start": 247.5666666666653,
+   "end": 252.57641723355871,
    "text": "one square root gives the steepness: 2.158",
    "voice": "n"
   },
   {
-   "start": 252.46666666666576,
-   "end": 258.53292517006713,
+   "start": 252.69999999999857,
+   "end": 258.7662585033999,
    "text": "steepness \u00f7 (steepness \u2212 1) = 1.86",
    "voice": "n"
   },
   {
-   "start": 258.6666666666657,
-   "end": 267.27551020408066,
-   "text": "40% choppiness \u2192 3.30 \u00b7 2% money \u2192 2.62",
+   "start": 258.8999999999985,
+   "end": 267.04444444444295,
+   "text": "40% choppiness \u2192 3.32 \u00b7 2% money \u2192 2.61",
    "voice": "n"
   },
   {
-   "start": 267.399999999999,
-   "end": 271.43451247165433,
+   "start": 267.166666666666,
+   "end": 271.2011791383213,
    "text": "both dials shrink it, so both raise the bar",
    "voice": "n"
   }
@@ -156,7 +156,7 @@
   "1.618\u00f70.618=2.62thepaperprints2.61",
   "13/43",
   "2.158\u00f71.158=1.86",
-  "40%choppiness\u21923.30\u00b72%money\u21922.62",
+  "40%choppiness\u21923.32\u00b72%money\u21922.61",
   "8",
   "8\u00d70.05=0.40.4\u00f70.04=10",
   "Basecase:costofcapital5%,choppiness20%",

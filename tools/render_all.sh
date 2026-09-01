@@ -4,7 +4,7 @@
 # file the other is still using. Four at a time at 1080p: eight ran the box out
 # of memory and the kernel killed them mid-frame.
 cd /home/user/Animated-video-lesson
-Q="${Q:--qh}"; DIR="${DIR:-1080p30}"; N="${N:-4}"
+Q="${Q:--r 1920,1080 --fps 30}"; DIR="${DIR:-1080p30}"; N="${N:-4}"
 LIST="${*:-$(seq -w 0 43)}"
 for n in $LIST; do
   while [ "$(jobs -rp | wc -l)" -ge "$N" ]; do wait -n; done

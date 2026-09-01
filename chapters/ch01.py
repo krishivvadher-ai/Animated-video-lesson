@@ -88,7 +88,7 @@ class Chapter01(Chapter):
         # ------------------------------------------------ investment
         self.heading("The word this film turns on")
         ava = stick.ava(scale=0.95)
-        St.place(ava, St.STAGE, ax=-0.78, ay=-0.2)
+        St.place(ava, St.STAGE, ax=-0.52, ay=-0.2)
         self.play(FadeIn(ava), run_time=0.6)
         q = ava.say("Isn't that buying shares?", direction=UP, width=3.4)
         with self.narrate("You may think investment means buying shares in a company. "

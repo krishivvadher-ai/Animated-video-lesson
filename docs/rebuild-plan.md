@@ -65,3 +65,43 @@ Rules the API enforces, by raising rather than by shrinking:
 4. **Render** all 44 in parallel at 1920x1080, 30fps.
 5. **Audit** — layout, frames, prose, terms, numbers, sync, silence, loudness.
 6. **Assemble** — concat, subtitle, score, mix, deliver.
+
+## What the rebuild found
+
+Four defects turned up during the rebuild that no amount of care would have
+caught by reading, because in each case the code was quietly wrong rather than
+loudly broken. They are recorded here because each one had been silently
+distorting the film for some time before anything noticed.
+
+**1. `LaggedStartMap` splats a group into its children.**
+Manim's helper passes each submobject to the animation constructor as `*args`.
+A `Mobject` is iterable, so a group is unpacked. `FadeIn` takes `*mobjects`
+and so survives this; `Restore` takes exactly one, so `Restore(bar)` silently
+became `Restore(bar.rect)` -- restoring a rectangle whose state had never been
+saved. Replaced everywhere by `style.lag_map`, which builds the animations one
+at a time.
+
+**2. The legibility check counted every shrink twice.**
+Manim derives `Text.font_size` from the mobject's current height, so it already
+reflects every `scale()` applied to it. The checker multiplied that by its own
+record of the staging scale, so a caption rendered at 22.6 was reported as 14
+and rejected. Every layout that passed was genuinely legible, so nothing bad
+shipped -- but the film was being squeezed into a bar far tighter than the one
+it was supposed to meet.
+
+**3. Nothing checked that a thing was inside the picture.**
+The auditor measured overlap and legibility and text height, and never once
+asked whether a mobject was on screen. A dial's label sat at x = -7.36 and was
+cut in half, in a chapter reporting zero problems. The check now records
+anything reaching past the frame, and found four chapters doing it.
+
+**4. Verification that never ran.**
+`verify.py` referenced an undefined name in its second check, so every run
+crashed after the first one and the crash looked like the end of the output.
+It also matched excluded author names as substrings -- "Farmers absorb years of
+losses" reading as the economist Farmer -- and compared permitted verbatim
+quotations against text whose spacing Manim had stripped, so all four hinge
+quotations looked like forbidden paragraphs.
+
+The lesson each of them shares: a check that cannot fail is worse than no check,
+because it is mistaken for one.

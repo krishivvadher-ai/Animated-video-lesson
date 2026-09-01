@@ -1,113 +1,119 @@
 {
  "chapter": 9,
  "title": "Money later is worth less than money now",
- "duration": 170.99999999999935,
+ "duration": 179.23333333333179,
  "cues": [
   {
-   "start": 4.800000000000001,
-   "end": 15.757823129251701,
+   "start": 4.699999999999997,
+   "end": 15.657823129251696,
    "text": "The next five chapters do the mathematics. Properly, and from the beginning. Nothing beyond square roots, fractions and percentages is used, and everything is built in front of you.",
    "voice": "c"
   },
   {
-   "start": 17.733333333333327,
-   "end": 23.735056689342397,
+   "start": 17.566666666666734,
+   "end": 23.568390022675803,
    "text": "A hundred pounds today, and a hundred pounds in a year. Which would you rather have?",
    "voice": "n"
   },
   {
-   "start": 24.133333333333326,
-   "end": 31.527755102040807,
+   "start": 24.000000000000117,
+   "end": 31.394421768707602,
    "text": "Today, obviously. Because you could put today's hundred to work, and have more than a hundred by next year.",
    "voice": "n"
   },
   {
-   "start": 32.73333333333332,
-   "end": 39.326394557823114,
+   "start": 32.63333333333349,
+   "end": 39.22639455782328,
    "text": "Put a hundred pounds somewhere paying five per cent, and in a year you have a hundred and five.",
    "voice": "n"
   },
   {
-   "start": 39.73333333333338,
-   "end": 49.00394557823134,
+   "start": 39.66666666666676,
+   "end": 48.93727891156472,
    "text": "Run that backwards, and it is a division. Divide by one point nought five, and you have turned money later into money now.",
    "voice": "n"
   },
   {
-   "start": 51.933333333333536,
-   "end": 57.30471655328819,
+   "start": 51.86666666666657,
+   "end": 56.54004535147382,
+   "text": "interest. The extra a borrower pays for the use of money.",
+   "voice": "n"
+  },
+  {
+   "start": 60.133333333333105,
+   "end": 65.50471655328775,
    "text": "discounting. Turning money you get later into what it is worth today.",
    "voice": "n"
   },
   {
-   "start": 62.666666666667034,
-   "end": 70.89219954648563,
+   "start": 70.79999999999959,
+   "end": 79.02553287981817,
    "text": "A factory that earns five pounds a year, for ever. Here is the five pounds, arriving year after year.",
    "voice": "n"
   },
   {
-   "start": 71.3333333333337,
-   "end": 89.20208616780081,
+   "start": 79.46666666666611,
+   "end": 97.33541950113323,
    "text": "But each one has to be discounted back. Year one is divided once. Year two, twice. Year twenty, twenty times. So the far-off ones shrink away almost to nothing \u2014 and that is why the total does not run off to infinity.",
    "voice": "n"
   },
   {
-   "start": 90.40000000000022,
-   "end": 102.54376417233581,
+   "start": 98.56666666666597,
+   "end": 110.71043083900156,
    "text": "Add up every one of them, all the way out to for ever, and the sum is astonishingly simple. Five pounds, divided by nought point nought five. A hundred pounds.",
    "voice": "n"
   },
   {
-   "start": 103.7333333333334,
-   "end": 117.41120181405903,
+   "start": 111.93333333333248,
+   "end": 125.6112018140581,
    "text": "That is the only piece of machinery you need. The value of a stream that goes on for ever is the yearly amount divided by the rate. And the rate we divide by is the cost of capital.",
    "voice": "n"
   },
   {
-   "start": 120.33333333333326,
-   "end": 124.82063492063484,
+   "start": 128.53333333333234,
+   "end": 133.02063492063394,
    "text": "Five pounds a year at five per cent is worth a hundred.",
    "voice": "n"
   },
   {
-   "start": 125.66666666666654,
-   "end": 136.04802721088424,
+   "start": 133.86666666666562,
+   "end": 144.24802721088332,
    "text": "The same five pounds, when the rate is only two per cent, is worth two hundred and fifty. Cheaper money makes future income worth more.",
    "voice": "n"
   },
   {
-   "start": 136.8666666666665,
-   "end": 144.24104308390005,
+   "start": 145.06666666666558,
+   "end": 152.44104308389913,
    "text": "And at ten per cent it is worth only fifty. Expensive money makes future income worth less.",
    "voice": "n"
   },
   {
-   "start": 145.06666666666646,
-   "end": 151.14453514739208,
+   "start": 153.26666666666554,
+   "end": 159.34453514739116,
    "text": "Hold on to the middle one. It is going to matter enormously in chapter thirteen.",
    "voice": "n"
   },
   {
-   "start": 153.39999999999964,
-   "end": 156.72462585033978,
+   "start": 161.56666666666538,
+   "end": 164.89129251700552,
    "text": "money later is worth less than money now",
    "voice": "n"
   },
   {
-   "start": 156.86666666666625,
-   "end": 160.62253968253927,
+   "start": 165.033333333332,
+   "end": 168.78920634920502,
    "text": "discounting turns later money into today's",
    "voice": "n"
   },
   {
-   "start": 160.73333333333284,
-   "end": 165.23224489795868,
+   "start": 168.93333333333194,
+   "end": 173.4322448979578,
    "text": "a stream for ever = amount \u00f7 the rate",
    "voice": "n"
   },
   {
-   "start": 165.33333333333277,
-   "end": 168.7757369614507,
+   "start": 173.5666666666652,
+   "end": 177.00907029478313,
    "text": "cheaper money makes future income worth MORE",
    "voice": "n"
   }
@@ -122,12 +128,14 @@
   "Checkitthreetimes",
   "Moneylaterisworthlessthanmoneynow",
   "PARTONE\u2014THEPAPER",
+  "Theextraaborrowerpaysfortheuseofmoney.",
   "Turningmoneyyougetlaterintowhatitisworthtoday.",
   "Whatwejustestablished",
   "astreamforever=amount\u00f7therate",
   "cheapermoneymakesfutureincomeworthMORE",
   "discounting",
   "discountingturnslatermoneyintotoday's",
+  "interest",
   "moneylaterisworthlessthanmoneynow",
   "value=yearlyamount\u00f7therate",
   "year11020\u2026",

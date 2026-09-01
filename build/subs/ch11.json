@@ -1,89 +1,89 @@
 {
  "chapter": 11,
  "title": "How the future is modelled",
- "duration": 133.53333333333308,
+ "duration": 133.3333333333319,
  "cues": [
   {
-   "start": 6.333333333333329,
-   "end": 20.796553287981855,
+   "start": 6.166666666666658,
+   "end": 20.629886621315183,
    "text": "Every number in the next two chapters rests on one assumption about how revenue moves. Each year, revenue does one of two things. It goes up by a fixed percentage, or down by one.",
    "voice": "n"
   },
   {
-   "start": 21.99999999999999,
-   "end": 33.097006802721076,
+   "start": 21.86666666666665,
+   "end": 32.963673469387736,
    "text": "Percentages rather than pounds, because a big firm swings by big amounts and a small one by small amounts. That is the only realistic way to do it.",
    "voice": "n"
   },
   {
-   "start": 36.066666666666734,
-   "end": 43.93732426303862,
+   "start": 35.89999999999992,
+   "end": 43.770657596371805,
    "text": "Do that again the next year, and the next. Every point splits in two, and the possibilities fan out.",
    "voice": "n"
   },
   {
-   "start": 45.13333333333357,
-   "end": 51.3969614512474,
+   "start": 44.99999999999973,
+   "end": 51.26362811791356,
    "text": "Watch one possible path through it. That is one future \u2014 one thing that might happen.",
    "voice": "n"
   },
   {
-   "start": 51.80000000000033,
-   "end": 60.171156462585365,
+   "start": 51.69999999999962,
+   "end": 60.07115646258465,
    "text": "And here are a dozen more. Nobody knows which one happens. All anybody knows is the shape of the fan.",
    "voice": "n"
   },
   {
-   "start": 63.133333333333894,
-   "end": 68.6452154195017,
+   "start": 62.999999999999346,
+   "end": 68.51188208616715,
    "text": "a random walk. Each step is up or down, and you cannot tell which.",
    "voice": "n"
   },
   {
-   "start": 73.80000000000038,
-   "end": 82.10222222222261,
+   "start": 73.59999999999917,
+   "end": 81.9022222222214,
    "text": "Take a typical year and ask how far revenue moved. In a calm trade, not far. The outcomes bunch up.",
    "voice": "n"
   },
   {
-   "start": 82.53333333333363,
-   "end": 87.50158730158759,
+   "start": 82.33333333333242,
+   "end": 87.30158730158638,
    "text": "In a rough trade \u2014 oil, metals \u2014 they spread right out.",
    "voice": "n"
   },
   {
-   "start": 88.73333333333355,
-   "end": 105.6621315192746,
+   "start": 88.53333333333234,
+   "end": 105.46213151927338,
    "text": "The width of that spread is the number the paper calls the choppiness. It is the size of a typical yearly swing, as a percentage. Ten per cent with exchange rates. Twenty-five to forty for an oil well. And the base case at twenty.",
    "voice": "n"
   },
   {
-   "start": 106.8666666666668,
-   "end": 115.06988662131533,
+   "start": 106.69999999999894,
+   "end": 114.90321995464747,
    "text": "The paper writes it as a Greek letter. This film never will. It is the choppiness, and it is a percentage.",
    "voice": "n"
   },
   {
-   "start": 117.33333333333336,
-   "end": 121.32140589569164,
+   "start": 117.13333333333216,
+   "end": 121.12140589569044,
    "text": "each year: up or down by a fixed percentage",
    "voice": "n"
   },
   {
-   "start": 121.46666666666663,
-   "end": 124.90907029478454,
+   "start": 121.26666666666543,
+   "end": 124.70907029478334,
    "text": "run it forward and the futures fan out",
    "voice": "n"
   },
   {
-   "start": 124.9999999999999,
-   "end": 128.3372335600906,
+   "start": 124.83333333333204,
+   "end": 128.17056689342274,
    "text": "nobody knows the path, only the fan",
    "voice": "n"
   },
   {
-   "start": 128.4666666666665,
-   "end": 131.2589115646257,
+   "start": 128.29999999999865,
+   "end": 131.09224489795784,
    "text": "the width of the fan is the choppiness",
    "voice": "n"
   }
