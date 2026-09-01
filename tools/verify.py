@@ -216,3 +216,62 @@ if __name__ == "__main__":
     check_terms(spoken)
     check_numbers()
     check_sync()
+    check_durations()
+    check_silences()
+    check_audio()
+
+
+def check_durations():
+    print("\n== durations ==")
+    total = 0.0
+    parts = {"PART ONE": (0, 16), "PART TWO": (17, 27), "PART THREE": (28, 38)}
+    for label, (a, b) in parts.items():
+        sub = 0.0
+        for n in range(a, b + 1):
+            f = list((BUILD / "media" / "videos" / f"ch{n:02d}").glob("*/*.mp4"))
+            if not f:
+                print(f"  ch{n:02d}  MISSING")
+                continue
+            d = float(subprocess.run(
+                f'ffprobe -v error -show_entries format=duration -of csv=p=0 "{f[0]}"',
+                shell=True, capture_output=True, text=True).stdout.strip())
+            print(f"  ch{n:02d}  {d/60:5.2f} min")
+            sub += d
+        print(f"  --- {label}: {sub/60:.1f} min")
+        total += sub
+    print(f"  === TOTAL (chapters only): {total/60:.1f} min")
+    return total
+
+
+def check_audio():
+    print("\n== audio levels ==")
+    for name in ("part-one", "part-two", "part-three"):
+        f = FINAL / f"{name}.mp4"
+        if not f.exists():
+            print(f"  {name}: not built yet")
+            continue
+        out = subprocess.run(f'ffmpeg -v info -i "{f}" -af ebur128 -f null - 2>&1 | tail -22',
+                             shell=True, capture_output=True, text=True).stdout
+        i = re.search(r"I:\s+(-?[\d.]+) LUFS", out)
+        p = re.search(r"Peak:\s+(-?[\d.]+) dBFS", out)
+        print(f"  {name}: integrated {i.group(1) if i else '?'} LUFS, "
+              f"true peak {p.group(1) if p else '?'} dBFS")
+
+
+def check_silences():
+    """The three scripted silences must survive the mix."""
+    print("\n== scripted silence check ==")
+    want = {5: "the value of waiting lands",
+            12: "the path falls back and she does not close",
+            28: "Kit waits for a third shield"}
+    for n, why in want.items():
+        f = list((BUILD / "media" / "videos" / f"ch{n:02d}").glob("*/*.mp4"))
+        if not f:
+            print(f"  ch{n:02d}: not rendered"); continue
+        out = subprocess.run(
+            f'ffmpeg -v info -i "{f[0]}" -af silencedetect=n=-45dB:d=2.4 -f null - 2>&1 '
+            f'| grep silence_duration | head -4', shell=True,
+            capture_output=True, text=True).stdout.strip()
+        found = len(out.splitlines())
+        print(f"  ch{n:02d} ({why}): {found} silence(s) of 2.4 s or more "
+              f"{'PASS' if found else 'CHECK'}")
