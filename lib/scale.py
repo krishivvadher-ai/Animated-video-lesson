@@ -74,6 +74,15 @@ class MasterScale(VGroup):
             lab.next_to(ln, RIGHT, buff=0.28)
             if lab.get_right()[0] > 6.85:
                 lab.shift(LEFT * (lab.get_right()[0] - 6.85))
+        # two lines a tenth of a unit apart put their labels on top of each
+        # other; nudge a new one clear of every label already on the scale
+        for other in self.labels.values():
+            prev = other[1]
+            gap = abs(lab.get_center()[1] - prev.get_center()[1])
+            need = (lab.height + prev.height) / 2 + 0.18
+            if gap < need:
+                up = lab.get_center()[1] >= prev.get_center()[1]
+                lab.shift(UP * (need - gap) if up else DOWN * (need - gap))
         grp = VGroup(ln, lab)
         if number is not None:
             num = Text(number, font=FONT, font_size=T_SMALL, color=color)

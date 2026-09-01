@@ -18,7 +18,7 @@ class Chapter00(Chapter):
         farmer = stick.StickFigure("A farmer", CHALK, hat="flat", scale=1.05)
         St.place(farmer, St.STAGE, ax=-0.30, ay=-0.10)
         field = Line(LEFT * 2.4, RIGHT * 2.4, color=MUTED, stroke_width=3)
-        field.next_to(farmer, DOWN, buff=0.32)
+        field.next_to(farmer, DOWN, buff=0.05)   # ground, under his feet
 
         with self.narrate("Here is a farmer. For four years running, his farm has "
                           "lost money."):

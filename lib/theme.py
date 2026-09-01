@@ -26,7 +26,7 @@ PURE_WHITE, PURE_BLACK = "#FFFFFF", "#000000"
 PINK, ORANGE = "#D147BD", "#FF862F"
 
 # ---------------------------------------------------------------- what things mean
-BG      = "#2B2B2B"    # the ground: 3b1b's dark neutral, a shade under his #333333
+BG      = "#1C1C1C"    # the ground: a dark, calm neutral
 CHALK   = PURE_WHITE   # figures, main text
 MUTED   = GREY_B       # axes, gridlines, secondary text
 MONEY   = GREEN_C      # revenue, good outcomes, profit
@@ -51,16 +51,23 @@ T_SMALL = 27
 T_TINY  = 22   # the film's smallest text is exactly the readable minimum
 
 # ---------------------------------------------------------------- timing
-BEAT      = 0.8
+BEAT      = 1.4     # a reveal is allowed to land before the next one starts
 PAD       = 0.45
 CARD_HOLD = 4.0
 LAG       = 0.2     # 3b1b's staggered-reveal lag
 
 # ---------------------------------------------------------------- axes
 # His axes carry arrowheads and tick marks, and he adds numbers to them.
+# Three layers of attention: what is being said now, what it is being said
+# against, and the structure both sit on.
+OPACITY_PRIMARY = 1.00
+OPACITY_CONTEXT = 0.40
+OPACITY_GRID    = 0.15
+
 AXIS = {
     "color": MUTED,
     "stroke_width": 2,
+    "stroke_opacity": 0.55,
     "include_ticks": True,
     "tick_size": 0.06,
     "include_tip": True,

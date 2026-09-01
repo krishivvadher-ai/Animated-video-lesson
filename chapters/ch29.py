@@ -96,10 +96,10 @@ class Chapter29(Chapter):
         # ------------------------------------------------ where it leaked
         self.heading("And they say where it leaked away")
         pipe = Line(LEFT * 4.4, RIGHT * 3.6, color=MONEY, stroke_width=10)
-        St.place(pipe, St.FULL, ay=1.0)
+        St.place(pipe, St.FULL, ay=0.72, fill=False)
         pl = Text("broad money: under +£200bn in the first round",
                   font=FONT, font_size=T_SMALL, color=MONEY)
-        pl.next_to(pipe, UP, buff=0.25)
+        pl.next_to(pipe, UP, buff=0.45)
         with self.narrate("Broad money grew by less than two hundred billion pounds "
                           "during the first round."):
             self.play(Create(pipe), FadeIn(pl), run_time=1.1)

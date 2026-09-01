@@ -66,11 +66,13 @@ class Chapter02(Chapter):
         self.beat()
 
         build = sc.add_level("M", 1.10, "BUILD above", COST, width=3.0)
+
         with self.narrate("Marshall's first half. If the money coming in clears the "
                           "long-run average cost, then build. Expand. Enter the trade."):
             self.play(Create(build[0]), FadeIn(build[1]), run_time=1.1)
 
         quit_ = sc.add_level("C", 1.00, "SHUT DOWN below", SUNK, width=3.0)
+
         with self.narrate("Marshall's second half. If the money coming in drops below "
                           "the average variable cost — if a chair no longer covers even "
                           "the wood and the wages — then stop."):
@@ -85,7 +87,7 @@ class Chapter02(Chapter):
             self.play(FadeIn(brace), run_time=0.8)
         self.beat()
         self.play(FadeOut(band), FadeOut(brace), run_time=0.5)
-        self.park(sc, corner=UL, height=2.6)
+        self.play(FadeOut(sc), run_time=0.6)
 
         # ------------------------------------------------ cost of capital
         self.heading("What her money costs her")

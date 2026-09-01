@@ -1,95 +1,95 @@
 {
  "chapter": 7,
  "title": "A right, but not an obligation",
- "duration": 124.43333333333186,
+ "duration": 124.73333333333245,
  "cues": [
   {
-   "start": 6.766666666666656,
-   "end": 22.289569160997722,
+   "start": 6.9333333333333265,
+   "end": 22.456235827664393,
    "text": "Forget factories for two minutes. Somebody gives Nell a voucher. It says: you may buy this bicycle for forty pounds, on any day you like. It never expires. And it never forces you to buy anything.",
    "voice": "n"
   },
   {
-   "start": 23.53333333333332,
-   "end": 27.32113378684806,
+   "start": 23.666666666666654,
+   "end": 27.45446712018139,
    "text": "Question. Is the voucher worth anything before she uses it?",
    "voice": "c"
   },
   {
-   "start": 28.566666666666695,
-   "end": 39.88063492063495,
+   "start": 28.66666666666665,
+   "end": 39.980634920634905,
    "text": "Of course it is. Somebody would buy it off her. It gives her a right she would not otherwise have, and it never obliges her to do anything at all.",
    "voice": "n"
   },
   {
-   "start": 41.100000000000065,
-   "end": 52.509387755102104,
+   "start": 41.199999999999974,
+   "end": 52.60938775510201,
    "text": "And here is the point. The moment she uses it, the voucher is gone. She has a bicycle instead. She cannot use it again, and she cannot sell it on.",
    "voice": "n"
   },
   {
-   "start": 55.4333333333332,
-   "end": 58.306848072562225,
+   "start": 55.53333333333347,
+   "end": 58.4068480725625,
    "text": "The voucher is the chance to build.",
    "voice": "n"
   },
   {
-   "start": 58.733333333333114,
-   "end": 63.7546938775508,
+   "start": 58.80000000000022,
+   "end": 63.8213605442179,
    "text": "The forty pounds is the sunk cost \u2014 the money she cannot get back.",
    "voice": "n"
   },
   {
-   "start": 64.19999999999969,
-   "end": 68.76857142857112,
+   "start": 64.26666666666696,
+   "end": 68.8352380952384,
    "text": "And the bicycle is all the revenue the factory will ever earn.",
    "voice": "n"
   },
   {
-   "start": 73.39999999999941,
-   "end": 78.2411791383214,
+   "start": 73.53333333333335,
+   "end": 78.37451247165534,
    "text": "intrinsic value. What using the chance right now would give you.",
    "voice": "n"
   },
   {
-   "start": 82.43333333333261,
-   "end": 86.50231292516935,
+   "start": 82.59999999999988,
+   "end": 86.66897959183662,
    "text": "holding premium. What the waiting itself is worth.",
    "voice": "n"
   },
   {
-   "start": 90.23333333333252,
-   "end": 98.79755102040735,
+   "start": 90.46666666666646,
+   "end": 99.03088435374129,
    "text": "Which gives the rule, in one line. Use the chance when the holding premium has fallen to zero. Not before.",
    "voice": "n"
   },
   {
-   "start": 100.0333333333324,
-   "end": 107.10965986394464,
+   "start": 100.26666666666632,
+   "end": 107.34299319727857,
    "text": "Before that point, waiting is still worth something, and building throws it away for nothing.",
    "voice": "n"
   },
   {
-   "start": 109.33333333333218,
-   "end": 112.14879818593988,
+   "start": 109.59999999999944,
+   "end": 112.41546485260714,
    "text": "a right, not an obligation",
    "voice": "n"
   },
   {
-   "start": 112.26666666666544,
-   "end": 114.94258503401238,
+   "start": 112.5333333333327,
+   "end": 115.20925170067964,
    "text": "worth something before it is used",
    "voice": "n"
   },
   {
-   "start": 115.06666666666538,
-   "end": 118.07950113378557,
+   "start": 115.33333333333265,
+   "end": 118.34616780045283,
    "text": "intrinsic value: using it now",
    "voice": "n"
   },
   {
-   "start": 118.19999999999865,
-   "end": 122.21492063491928,
+   "start": 118.46666666666592,
+   "end": 122.48158730158656,
    "text": "holding premium \u2192 zero, then build",
    "voice": "n"
   }

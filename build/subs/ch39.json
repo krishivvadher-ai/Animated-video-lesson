@@ -1,7 +1,7 @@
 {
  "chapter": 39,
  "title": "The evidence, read twice",
- "duration": 153.79999999999944,
+ "duration": 197.7333333333322,
  "cues": [
   {
    "start": 6.333333333333329,
@@ -11,101 +11,125 @@
   },
   {
    "start": 22.399999999999984,
-   "end": 31.695464852607692,
-   "text": "Their conclusion is that the policy was effective at preventing a deeper crisis, and less effective at promoting recovery.",
+   "end": 33.563038548752814,
+   "text": "Across the studies they gathered, quantitative easing raised growth by somewhere between one and three per cent, with a similar effect on inflation.",
    "voice": "n"
   },
   {
-   "start": 33.333333333333314,
-   "end": 40.171836734693855,
+   "start": 36.53333333333339,
+   "end": 51.9428571428572,
+   "text": "And here is their verdict, in their own words. Quantitative easing has proved effective in limiting the scale of the downturn. However, by itself, it is not strong enough to spark an economic recovery.",
+   "voice": "n"
+  },
+  {
+   "start": 53.93333333333348,
+   "end": 65.34058956916114,
+   "text": "And they hedge it themselves. This conclusion, they say, is tentative. There is relatively little evidence, and most of it uses the same method.",
+   "voice": "n"
+  },
+  {
+   "start": 68.26666666666675,
+   "end": 75.87396825396834,
+   "text": "In one line: effective at preventing a deeper crisis, less effective at promoting recovery.",
+   "voice": "n"
+  },
+  {
+   "start": 77.26666666666662,
+   "end": 84.10517006802716,
    "text": "The first time Kit read that, he treated it as a result. Here is what the numbers say. Write it down, move on.",
    "voice": "c"
   },
   {
-   "start": 40.60000000000001,
-   "end": 44.378548752834476,
+   "start": 84.53333333333326,
+   "end": 88.31188208616773,
    "text": "Reading it again, after Dixit, he cannot let it alone.",
    "voice": "c"
   },
   {
-   "start": 44.800000000000026,
-   "end": 51.57151927437644,
+   "start": 88.73333333333323,
+   "end": 95.50485260770965,
    "text": "Why would one policy be good at stopping a fall and bad at starting a rise? Those are not obviously different jobs.",
    "voice": "c"
   },
   {
-   "start": 52.00000000000008,
-   "end": 60.560907029478535,
+   "start": 95.93333333333318,
+   "end": 104.49424036281164,
    "text": "And he is uncomfortable. Not with the article \u2014 with himself, for having read that sentence once already and never asked whether there was a reason behind it.",
    "voice": "c"
   },
   {
-   "start": 63.533333333333545,
-   "end": 82.96975056689364,
+   "start": 107.46666666666636,
+   "end": 126.90308390022645,
    "text": "Preventing a collapse needs markets that keep working and the upside held up. And by the good news principle, that is exactly what stops a struggling firm closing. It is strongest when things are frightening, because there is most to repair and most upside to restore.",
    "voice": "n"
   },
   {
-   "start": 83.40000000000018,
-   "end": 100.12730158730176,
+   "start": 127.33333333333294,
+   "end": 144.06063492063453,
    "text": "Starting a recovery needs firms to commit money they cannot get back. By the bad news principle, that turns on the downside \u2014 which is exactly what fear makes them least willing to face. It is strongest when things are calm.",
    "voice": "n"
   },
   {
-   "start": 102.40000000000003,
-   "end": 110.59088435374153,
+   "start": 146.3333333333328,
+   "end": 154.5242176870743,
    "text": "So the policy is used in exactly the state where the first job is easiest and the second is hardest.",
    "voice": "n"
   },
   {
-   "start": 110.99999999999997,
-   "end": 113.31659863945575,
+   "start": 154.93333333333274,
+   "end": 157.24993197278852,
    "text": "It steadies without starting.",
    "voice": "n"
   },
   {
-   "start": 115.53333333333319,
-   "end": 133.0466213151926,
+   "start": 159.46666666666596,
+   "end": 176.97995464852536,
    "text": "And flag clearly which parts of that are Kit's and not Dixit's. That propping up the upside works best when things are frightening, and that the two jobs therefore pull apart, are steps Kit has added. Dixit's own text does not contain them.",
    "voice": "n"
   },
   {
-   "start": 135.3333333333331,
-   "end": 139.79741496598615,
+   "start": 179.26666666666586,
+   "end": 183.73074829931892,
    "text": "their verdict: prevents a crisis, less so a recovery",
    "voice": "n"
   },
   {
-   "start": 139.93333333333302,
-   "end": 143.5498866213149,
+   "start": 183.8666666666658,
+   "end": 187.48321995464767,
    "text": "the two jobs need opposite halves of the spread",
    "voice": "n"
   },
   {
-   "start": 143.6666666666663,
-   "end": 146.85365079365042,
+   "start": 187.59999999999906,
+   "end": 190.78698412698319,
    "text": "and opposite conditions to work in",
    "voice": "n"
   },
   {
-   "start": 146.99999999999955,
-   "end": 151.52213151927393,
+   "start": 190.9333333333323,
+   "end": 195.4554648526067,
    "text": "it steadies without starting \u2014 Kit's step, not Dixit's",
    "voice": "n"
   }
  ],
  "screen_text": [
+  "1%",
+  "3%",
   "39/43",
   "Athirdarticle,athirdpair",
   "CHAPTER39",
   "Martin",
+  "Martin&Milas(2012)",
   "Milas",
   "PARTTHREE\u2014THEARGUMENT",
   "Theevidence,readtwice",
   "Theirverdict,inoneline",
+  "Theirverdict,intheirownwords",
   "Twojobs,pullingapart",
+  "Whatthestudiesactuallyfound",
   "Whatwejustestablished",
   "andoppositeconditionstoworkin",
+  "extraGDPgrowth",
   "itsteadieswithoutstarting",
   "itsteadieswithoutstarting\u2014Kit'sstep,notDixit's",
   "marketsthatkeepworking",
@@ -115,13 +139,15 @@
   "stoppingacollapse",
   "strongestwhencalm",
   "strongestwhenfrightening",
+  "theirownword:tentative",
   "theirverdict:preventsacrisis,lesssoarecovery",
   "thelasttwostepsareKit's,notDixit's",
   "thetwojobsneedoppositehalvesofthespread",
   "theupsideheldup",
   "turnsonthedownside",
   "usedwherejoboneiseasiestandjobtwoishardest",
-  "whywouldonepolicybegoodatoneandbadattheother?"
+  "whywouldonepolicybegoodatoneandbadattheother?",
+  "\u201cQEhasprovedeffectiveinlimitingthescaleofthedownturn.However,QE,byitself,isnotstrongenoughtosparkaneconomicrecovery.\u201d"
  ],
  "collisions": [],
  "low_content": [],

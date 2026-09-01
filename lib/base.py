@@ -24,6 +24,7 @@ from lib import cards, voice, stage as St
 from lib import style as S
 from lib.theme import (
     BG, CHALK, MUTED, FONT, T_BODY, T_SUB, BEAT, PAD, CARD_HOLD, LAG, apply,
+    OPACITY_CONTEXT,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -210,7 +211,10 @@ class Chapter(ThreeDScene):
                 self.play(*[FadeOut(x) for x in labels], run_time=0.45)
                 for x in labels:
                     x._stage_ignore = True    # no longer on screen to be read
-        self.play(St.park(mob, corner, height, run_time))
+        # a parked diagram is context now, not the thing being said, so it
+        # sits back to the contextual layer rather than competing at full weight
+        self.play(St.park(mob, corner, height, run_time),
+                  mob.animate.set_stroke(opacity=OPACITY_CONTEXT))
         return mob
 
     def clear_stage(self, keep=None):
@@ -243,6 +247,17 @@ class Chapter(ThreeDScene):
         card.move_to(at)
         behind = [m for m in self.mobjects
                   if m is not self._progress and m not in card.get_family()]
+        # set_opacity() sets fill as well as stroke, so an outline drawing that
+        # is dimmed and then restored to 1.0 comes back as a filled silhouette.
+        # Remember what each piece actually had, and put exactly that back.
+        was = []
+        for m in behind:
+            for sub in m.get_family():
+                try:
+                    was.append((sub, sub.get_fill_opacity(),
+                                sub.get_stroke_opacity()))
+                except Exception:
+                    pass          # a bare Mobject has neither
         if behind:
             self.play(*[m.animate.set_opacity(DIMMED) for m in behind],
                       run_time=0.4)
@@ -257,7 +272,9 @@ class Chapter(ThreeDScene):
             self.wait(rest)
         if behind:
             self.play(FadeOut(card),
-                      *[m.animate.set_opacity(1.0) for m in behind], run_time=0.5)
+                      *[sub.animate.set_fill(opacity=fo).set_stroke(opacity=so)
+                        for sub, fo, so in was if sub.get_num_points()],
+                      run_time=0.5)
         else:
             self.play(FadeOut(card), run_time=0.5)
 

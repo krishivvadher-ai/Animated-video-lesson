@@ -1,119 +1,119 @@
 {
  "chapter": 2,
  "title": "The textbook rule",
- "duration": 183.49999999999864,
+ "duration": 182.59999999999928,
  "cues": [
   {
-   "start": 6.166666666666658,
-   "end": 18.660181405895685,
+   "start": 6.333333333333329,
+   "end": 18.826848072562356,
    "text": "Marshall has a rule. It is the rule in every textbook, and it is worth stating fairly, because for most of the last century it was simply what everybody believed.",
    "voice": "n"
   },
   {
-   "start": 19.099999999999984,
-   "end": 28.713061224489778,
+   "start": 19.266666666666655,
+   "end": 28.87972789115645,
    "text": "Take everything she spends that moves with output \u2014 the wood, the power, the wages \u2014 and divide it by the number of chairs she makes.",
    "voice": "n"
   },
   {
-   "start": 30.83333333333349,
-   "end": 36.17519274376433,
+   "start": 30.999999999999975,
+   "end": 36.341859410430814,
    "text": "average variable cost. What each extra chair costs her to make.",
    "voice": "n"
   },
   {
-   "start": 38.06666666666679,
-   "end": 46.84231292517019,
+   "start": 38.199999999999996,
+   "end": 46.975646258503396,
    "text": "Now add a share of the cost of the building itself \u2014 the factory that had to be paid for before a single chair was made.",
    "voice": "n"
   },
   {
-   "start": 48.9666666666666,
-   "end": 54.48122448979585,
+   "start": 49.1333333333335,
+   "end": 54.647891156462755,
    "text": "long-run average cost. Everything a chair costs, the building included.",
    "voice": "n"
   },
   {
-   "start": 58.06666666666647,
-   "end": 71.48131519274357,
+   "start": 58.26666666666694,
+   "end": 71.68131519274404,
    "text": "This is the most important picture in the film, so we build it slowly. One line, running up the screen. Low down, the money coming in each month is poor. High up, it is good.",
    "voice": "n"
   },
   {
-   "start": 72.6999999999997,
-   "end": 81.85374149659835,
+   "start": 72.86666666666703,
+   "end": 82.02040816326567,
    "text": "Marshall's first half. If the money coming in clears the long-run average cost, then build. Expand. Enter the trade.",
    "voice": "n"
   },
   {
-   "start": 82.29999999999964,
-   "end": 94.08036281179102,
+   "start": 82.46666666666697,
+   "end": 94.24702947845834,
    "text": "Marshall's second half. If the money coming in drops below the average variable cost \u2014 if a chair no longer covers even the wood and the wages \u2014 then stop.",
    "voice": "n"
   },
   {
-   "start": 94.49999999999957,
-   "end": 107.58725623582724,
+   "start": 94.6666666666669,
+   "end": 107.75392290249457,
    "text": "Notice how close together those two lines are. Between them is a narrow band where the right thing to do is nothing at all. Hold that thought. It is going to get very much wider.",
    "voice": "n"
   },
   {
-   "start": 112.19999999999929,
-   "end": 125.06498866213082,
+   "start": 111.33333333333334,
+   "end": 124.19832199546487,
    "text": "One definition left, and it is the single most important one in this film. Nell needs a large sum to build. It comes from one of two places, and usually both.",
    "voice": "n"
   },
   {
-   "start": 125.49999999999923,
-   "end": 130.20444444444368,
+   "start": 124.59999999999995,
+   "end": 129.30444444444439,
    "text": "She borrows it, and then she has to pay extra for the use of it.",
    "voice": "n"
   },
   {
-   "start": 130.63333333333253,
-   "end": 138.21891156462505,
+   "start": 129.73333333333323,
+   "end": 137.31891156462575,
    "text": "Or it is her own money, and by putting it into this factory she gives up whatever else she could have done with it.",
    "voice": "n"
   },
   {
-   "start": 138.66666666666583,
-   "end": 144.65637188208532,
+   "start": 137.7333333333332,
+   "end": 143.7230385487527,
    "text": "Either way, the money has a price. Blend the two together and you get one number.",
    "voice": "n"
   },
   {
-   "start": 146.799999999999,
-   "end": 152.36684807256134,
+   "start": 145.86666666666636,
+   "end": 151.4335147392287,
    "text": "cost of capital. The yearly percentage her money must earn to be worth using.",
    "voice": "n"
   },
   {
-   "start": 155.86666666666565,
-   "end": 165.68911564625748,
+   "start": 154.933333333333,
+   "end": 164.75578231292482,
    "text": "Earn less than that, and she would have done better leaving the money where it was. Every number later in this film is measured against it.",
    "voice": "n"
   },
   {
-   "start": 167.93333333333223,
-   "end": 171.41056689342292,
+   "start": 167.06666666666624,
+   "end": 170.54390022675693,
    "text": "AVC: what one more chair costs",
    "voice": "n"
   },
   {
-   "start": 171.53333333333217,
-   "end": 174.36040816326414,
+   "start": 170.66666666666617,
+   "end": 173.49374149659815,
    "text": "LRAC: plus a share of the building",
    "voice": "n"
   },
   {
-   "start": 174.49999999999878,
-   "end": 177.93079365079242,
+   "start": 173.59999999999945,
+   "end": 177.0307936507931,
    "text": "build above LRAC \u00b7 shut below AVC",
    "voice": "n"
   },
   {
-   "start": 178.06666666666538,
-   "end": 181.26526077097378,
+   "start": 177.13333333333273,
+   "end": 180.33192743764113,
    "text": "cost of capital: what money must earn",
    "voice": "n"
   }

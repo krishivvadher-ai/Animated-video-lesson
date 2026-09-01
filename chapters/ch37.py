@@ -54,13 +54,14 @@ class Chapter37(Chapter):
             sp2.move_to(sp)
             self.play(Transform(sp, sp2), run_time=1.6)
         self.beat()
+        self.clear_stage()
 
         # ------------------------------------------------ the other fear
         self.heading("And what it does not reach")
         nell = stick.nell(scale=0.85)
         St.place(nell, St.STAGE, ax=-0.7, ay=-0.45)
         bubble = nell.think("will anyone\nstill be buying\nin three years?",
-                            direction=UR, width=3.4)
+                            direction=UP, width=3.4)
         with self.narrate("But the doubt inside a firm is a different thing. Will "
                           "anyone still be buying in three years? Will this factory "
                           "still make sense?"):

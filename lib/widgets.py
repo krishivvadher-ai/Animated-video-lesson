@@ -41,12 +41,13 @@ def factory(color=CHALK, size=1.0, label=None):
     roof = Polygon(LEFT * 1.0 + UP * 0.52, LEFT * 0.35 + UP * 0.95,
                    RIGHT * 0.30 + UP * 0.95, RIGHT * 1.0 + UP * 0.52,
                    color=color, stroke_width=3)
-    ch = Rectangle(width=0.24, height=0.66, color=color, stroke_width=3)
-    ch.move_to(RIGHT * 0.62 + UP * 1.05)
-    door = Rectangle(width=0.34, height=0.48, color=color, stroke_width=3)
-    door.move_to(DOWN * 0.28)
+    # the chimney rises from the roof slope, not through it
+    ch = Rectangle(width=0.24, height=0.62, color=color, stroke_width=3)
+    ch.move_to(RIGHT * 0.62 + UP * 1.06)
+    door = Rectangle(width=0.34, height=0.46, color=color, stroke_width=3)
+    door.move_to(RIGHT * 0.45 + DOWN * 0.29)
     win = VGroup(*[Square(side_length=0.22, color=color, stroke_width=2)
-                   .move_to(LEFT * x + UP * 0.08) for x in (0.30, 0.70)])
+                   .move_to(LEFT * x + UP * 0.05) for x in (0.20, 0.62)])
     g = VGroup(base, roof, ch, door, win).scale(size)
     if label:
         t = Text(label, font=FONT, font_size=T_SMALL, color=MUTED)

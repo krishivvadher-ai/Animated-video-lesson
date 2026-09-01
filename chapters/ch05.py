@@ -17,7 +17,7 @@ class Chapter05(Chapter):
         # ------------------------------------------------ on the line
         self.heading("Stand her exactly on the line")
         sc = MasterScale(x=-5.6, y=-0.3, height=4.2)
-        line = sc.add_level("M", 1.10, "", COST, width=10.6)
+        line = sc.add_level("M", 1.10, "", COST, width=7.4)
         mtxt = Text("Marshall's line", font=FONT, font_size=T_SMALL, color=COST)
         mtxt.next_to(line[0], UP, buff=0.18).align_to(line[0], RIGHT).shift(LEFT * 0.2)
         line[1].become(mtxt)

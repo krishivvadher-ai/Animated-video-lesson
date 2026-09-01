@@ -37,7 +37,7 @@ class Chapter31(Chapter):
                   axis_config=AXIS)
         St.place(ax, St.STAGE, ay=0.15)
         xl = Text("time →", font=FONT, font_size=T_TINY, color=MUTED)
-        xl.next_to(ax, DOWN, buff=0.2)
+        xl.next_to(ax, DOWN, buff=0.2).align_to(ax, RIGHT)
         yl = Text("the rate", font=FONT, font_size=T_TINY, color=MUTED)
         yl.next_to(ax, UP, buff=0.16).align_to(ax, LEFT)
         self.play(Create(ax), FadeIn(xl), FadeIn(yl), run_time=1.0)
@@ -51,11 +51,11 @@ class Chapter31(Chapter):
             self.play(Create(expect), FadeIn(el), run_time=1.5)
 
         gov = stick.governor(scale=0.6)
-        St.place(gov, St.SIDE, ay=0.6)
+        St.place(gov, St.SIDE, ay=0.85, fill=False)
         flat = ax.plot(lambda x: 0.35, x_range=[0, 6], color=SRC_BR, stroke_width=6)
-        fl = Text("held flat, by announcement", font=FONT, font_size=T_TINY,
+        fl = Text("held flat, by announcement", font=FONT, font_size=T_SMALL,
                   color=SRC_BR)
-        fl.next_to(flat, DOWN, buff=0.18)
+        fl.next_to(flat, DOWN, buff=0.42)
         with self.narrate("So the central bank simply tells them otherwise. It says the "
                           "rate will stay where it is for a long time yet."):
             self.play(FadeIn(gov), run_time=0.6)
@@ -66,7 +66,7 @@ class Chapter31(Chapter):
                            "but markets never fully priced it in",
                            "and it was not the promise the theory wants"],
                           colour=MUTED, dot_colour=SUNK, size=T_SMALL, width=22)
-        St.place(hedge, St.SIDE, ay=-0.4)
+        St.place(hedge, St.SIDE, ay=-0.25)
         says = ["And the authors are careful about how well it worked. It did move "
                 "expectations.",
                 "But markets never fully priced in the cuts the announcements implied.",
@@ -158,7 +158,7 @@ class Chapter31(Chapter):
             St.caption("four-year funding, 5% of the loan book", MUTED,
                        T_SMALL, width=26),
         ).arrange(DOWN, buff=0.2)
-        St.place(g2, St.STAGE, ax=-0.3, ay=0.85)
+        St.place(g2, St.SIDE, ay=0.7)
         with self.narrate("The second was bigger, and cleverer. Four-year funding, of "
                           "at least five per cent of a bank's existing loan book — "
                           "around eighty billion pounds across the eligible banks."):
@@ -167,7 +167,7 @@ class Chapter31(Chapter):
         b1 = W.Bar(0.35, color=MONEY, width=1.1)
         b2 = W.Bar(2.1, color=COST, width=1.1)
         pair = VGroup(b1, b2).arrange(RIGHT, buff=2.2, aligned_edge=DOWN)
-        St.place(pair, St.FULL, ay=-0.55)
+        St.place(pair, St.FULL, ay=-0.05, fill=False)
         l1 = VGroup(Text("0.25%", font=FONT, font_size=T_BODY, color=MONEY),
                     St.caption("lending steady or growing", MUTED, T_SMALL, width=18)
                     ).arrange(DOWN, buff=0.16)
