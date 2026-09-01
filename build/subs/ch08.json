@@ -1,0 +1,205 @@
+{
+ "chapter": 8,
+ "title": "Putting numbers on it",
+ "duration": 340.6666666666641,
+ "cues": [
+  {
+   "start": 3.0000000000000018,
+   "end": 8.35197278911565,
+   "text": "So far this is a story. Is the effect big enough to matter, or is it a curiosity?",
+   "voice": "c"
+  },
+  {
+   "start": 8.800000000000004,
+   "end": 21.45977324263039,
+   "text": "The paper answers that with arithmetic. There is mathematics behind it, and we are going to leave the mathematics sealed in a box. Two dials go in. One number comes out.",
+   "voice": "n"
+  },
+  {
+   "start": 21.866666666666667,
+   "end": 29.16358276643991,
+   "text": "Dial one. How choppy the revenue is \u2014 how much the money coming in swings around in a typical year.",
+   "voice": "n"
+  },
+  {
+   "start": 29.599999999999998,
+   "end": 44.79519274376417,
+   "text": "The paper gives anchors. About ten per cent a year for revenue that moves with exchange rates. Twenty-five to forty per cent for an oil well or a copper mine. The base case sits between them, at twenty.",
+   "voice": "n"
+  },
+  {
+   "start": 46.40000000000001,
+   "end": 54.37814058956917,
+   "text": "Dial two is the cost of capital, which we defined in chapter two. What the money has to earn to be worth using.",
+   "voice": "n"
+  },
+  {
+   "start": 54.80000000000006,
+   "end": 58.80163265306128,
+   "text": "And out of the box comes one number. A multiplier.",
+   "voice": "n"
+  },
+  {
+   "start": 59.20000000000011,
+   "end": 66.89886621315203,
+   "text": "The money coming in must reach the multiplier times the break-even level before building is the right move.",
+   "voice": "n"
+  },
+  {
+   "start": 71.46666666666663,
+   "end": 80.39229024943306,
+   "text": "Base case. Cost of capital five per cent, choppiness twenty per cent. The multiplier is one point eight six.",
+   "voice": "n"
+  },
+  {
+   "start": 81.59999999999988,
+   "end": 87.34117913832188,
+   "text": "The money coming in must nearly double the break-even level before she should build.",
+   "voice": "n"
+  },
+  {
+   "start": 88.53333333333316,
+   "end": 97.4324263038547,
+   "text": "Said the other way round, that is a hurdle rate of nine point three per cent, against a true cost of capital of five.",
+   "voice": "n"
+  },
+  {
+   "start": 99.06666666666642,
+   "end": 108.43342403628094,
+   "text": "Now turn the choppiness dial up. Forty per cent a year \u2014 an oil well, a copper mine, a trade where prices swing hard.",
+   "voice": "n"
+  },
+  {
+   "start": 108.86666666666635,
+   "end": 116.13201814058925,
+   "text": "The multiplier jumps to three point three two. The hurdle rate to sixteen point six per cent.",
+   "voice": "n"
+  },
+  {
+   "start": 119.86666666666613,
+   "end": 128.53242630385435,
+   "text": "Now turn the other dial. Not up \u2014 down. Make money cheaper. Cost of capital two per cent instead of five.",
+   "voice": "n"
+  },
+  {
+   "start": 128.9333333333327,
+   "end": 137.03619047618986,
+   "text": "And the multiplier goes up. Two point six one. Cheaper money makes her more reluctant to build, not less.",
+   "voice": "n"
+  },
+  {
+   "start": 138.59999999999928,
+   "end": 146.54970521541878,
+   "text": "Say that again, because it is the strangest result in the paper. Cheaper money makes waiting more attractive.",
+   "voice": "n"
+  },
+  {
+   "start": 147.73333333333258,
+   "end": 162.00331065759562,
+   "text": "Here is why. When money is cheap, the future matters more to you. And if the future matters more, then finding things out about the future is worth more. So waiting to find out is worth more.",
+   "voice": "n"
+  },
+  {
+   "start": 163.7333333333325,
+   "end": 176.05678004535065,
+   "text": "Two extremes are worth knowing. If the world is very certain, or the future is barely valued at all, the multiplier collapses to one \u2014 and Marshall is simply right.",
+   "voice": "n"
+  },
+  {
+   "start": 176.4666666666658,
+   "end": 189.32099773242544,
+   "text": "And as uncertainty grows, or money becomes nearly free, the multiplier grows without limit. In the paper's own words, the textbook analysis becomes totally misleading.",
+   "voice": "n"
+  },
+  {
+   "start": 190.9333333333324,
+   "end": 212.37120181405803,
+   "text": "One footnote, worth a moment. If the revenue is also growing \u2014 say two per cent a year \u2014 two things pull against each other, and the waiting effect wins. The hurdle rate goes from nine point three to thirteen point six per cent, and the trigger to three point nine times break-even.",
+   "voice": "n"
+  },
+  {
+   "start": 214.53333333333225,
+   "end": 230.25909297052047,
+   "text": "One last way of seeing all of that at once. The multiplier depends on two things and two things only \u2014 how choppy the revenue is, and what the money costs. Two things in, one number out. That is a shape.",
+   "voice": "n"
+  },
+  {
+   "start": 232.0666666666655,
+   "end": 240.21551020408046,
+   "text": "Along this way, the revenue gets choppier. Along that way, the money gets cheaper. And upwards is a higher bar.",
+   "voice": "n"
+  },
+  {
+   "start": 240.59999999999877,
+   "end": 242.48666666666543,
+   "text": "And here is the shape.",
+   "voice": "n"
+  },
+  {
+   "start": 244.3999999999986,
+   "end": 257.57015873015735,
+   "text": "Look at the corner nearest us. Calm revenue, expensive money. The sheet is almost flat, and the multiplier is almost one. That is Marshall's world, and in it he is right.",
+   "voice": "n"
+  },
+  {
+   "start": 258.7999999999985,
+   "end": 272.45532879818444,
+   "text": "Now follow it away from that corner. Every step towards choppier revenue, and every step towards cheaper money, lifts the sheet. The two effects do not cancel. They add.",
+   "voice": "n"
+  },
+  {
+   "start": 273.6666666666649,
+   "end": 279.93378684807084,
+   "text": "The three numbers we just watched are three points on this one sheet. The base case.",
+   "voice": "n"
+  },
+  {
+   "start": 280.33333333333155,
+   "end": 282.8585487528327,
+   "text": "Choppier revenue \u2014 further along.",
+   "voice": "n"
+  },
+  {
+   "start": 283.26666666666483,
+   "end": 286.8716099773224,
+   "text": "And cheaper money \u2014 further along the other way.",
+   "voice": "n"
+  },
+  {
+   "start": 288.0666666666648,
+   "end": 299.3631292516988,
+   "text": "Hold that picture. In chapter twenty-two we come back to this exact sheet, and we watch a central bank walk a firm across it \u2014 in the wrong direction.",
+   "voice": "n"
+  },
+  {
+   "start": 302.13333333333117,
+   "end": 315.0521088435352,
+   "text": "And that resolves the first of our three puzzles out loud. Firms demanding fifteen per cent when their money costs them five are not being short-sighted. They are being correct.",
+   "voice": "n"
+  },
+  {
+   "start": 317.333333333331,
+   "end": 320.3693877550997,
+   "text": "two dials \u2192 one multiplier",
+   "voice": "n"
+  },
+  {
+   "start": 320.4666666666643,
+   "end": 327.5313832199523,
+   "text": "base case 1.86\u00d7 \u00b7 9.3% vs a true 5%",
+   "voice": "n"
+  },
+  {
+   "start": 327.6666666666643,
+   "end": 334.22054421768473,
+   "text": "choppier \u2192 3.32 \u00b7 cheaper money \u2192 2.61",
+   "voice": "n"
+  },
+  {
+   "start": 334.3333333333309,
+   "end": 338.2863945578207,
+   "text": "15% is arithmetic, not stupidity",
+   "voice": "n"
+  }
+ ]
+}

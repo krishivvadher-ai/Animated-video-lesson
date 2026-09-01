@@ -1,0 +1,147 @@
+{
+ "chapter": 4,
+ "title": "The three ingredients",
+ "duration": 150.46666666666567,
+ "cues": [
+  {
+   "start": 2.999999999999998,
+   "end": 17.048072562358275,
+   "text": "Everything that follows rests on three things being true at once. Three ingredients. Each one gets a picture, and each one gets an icon you will see again whenever it is in play.",
+   "voice": "n"
+  },
+  {
+   "start": 17.86666666666668,
+   "end": 26.17319727891158,
+   "text": "Nell pays for the concrete foundation of her new factory. The money leaves her hands, and the slab appears.",
+   "voice": "n"
+  },
+  {
+   "start": 26.600000000000115,
+   "end": 36.37927437641735,
+   "text": "Now she changes her mind. She tries to sell the foundation back. And nobody wants a hole in a field with concrete in it.",
+   "voice": "n"
+  },
+  {
+   "start": 37.400000000000176,
+   "end": 43.54616780045369,
+   "text": "That is a sunk cost. Money that cannot be got back if you change your mind later.",
+   "voice": "n"
+  },
+  {
+   "start": 46.46666666666681,
+   "end": 57.82349206349221,
+   "text": "And be careful. Sunk is not the same as expensive. A lorry is expensive and you can sell it again. A hole in the ground is cheap, and you cannot.",
+   "voice": "n"
+  },
+  {
+   "start": 60.066666666666706,
+   "end": 68.55029478458054,
+   "text": "Second ingredient. Nell does not know what next year holds. Will there be customers? How many? At what price?",
+   "voice": "n"
+  },
+  {
+   "start": 68.99999999999994,
+   "end": 78.74371882086162,
+   "text": "But \u2014 and this is the part that matters \u2014 the fog thins. Every month that passes tells her a little more than she knew the month before.",
+   "voice": "n"
+  },
+  {
+   "start": 79.76666666666642,
+   "end": 89.54952380952356,
+   "text": "Ongoing uncertainty, with information arriving gradually. You do not know what is coming, and you learn a little more as time passes.",
+   "voice": "n"
+  },
+  {
+   "start": 93.46666666666634,
+   "end": 101.63990929705183,
+   "text": "Third. If she does not build this year, the chance is generally still there next year. The door stays open.",
+   "voice": "n"
+  },
+  {
+   "start": 102.06666666666626,
+   "end": 107.20866213151888,
+   "text": "This year. Next year. The year after that. Still open.",
+   "voice": "n"
+  },
+  {
+   "start": 108.23333333333281,
+   "end": 113.29791383219901,
+   "text": "The opportunity does not usually vanish if you do not take it today.",
+   "voice": "n"
+  },
+  {
+   "start": 116.13333333333274,
+   "end": 118.10126984126926,
+   "text": "Put those three together.",
+   "voice": "n"
+  },
+  {
+   "start": 118.53333333333269,
+   "end": 122.12122448979528,
+   "text": "When all three are true, waiting is worth money.",
+   "voice": "n"
+  },
+  {
+   "start": 123.36666666666598,
+   "end": 134.3504761904755,
+   "text": "And when any one of them is missing, it is not. Remember that, because in chapter nine we take the third one away, and the whole conclusion flips over.",
+   "voice": "n"
+  },
+  {
+   "start": 136.5999999999992,
+   "end": 140.2049433106568,
+   "text": "Sunk cost: money that cannot be got back.",
+   "voice": "n"
+  },
+  {
+   "start": 140.3333333333325,
+   "end": 143.09074829931888,
+   "text": "a future you learn a bit at a time",
+   "voice": "n"
+  },
+  {
+   "start": 143.23333333333247,
+   "end": 144.84136054421683,
+   "text": "the chance keeps",
+   "voice": "n"
+  },
+  {
+   "start": 144.96666666666576,
+   "end": 148.09560090702857,
+   "text": "all three \u2192 waiting pays",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "4/38",
+  "CHAPTER4",
+  "Moneyyoucannotgetback.",
+  "Nell",
+  "One",
+  "PARTONE\u2014THEPAPER",
+  "Sunkcost:moneythatcannotbegotback.",
+  "Theopportunitydoesnotusuallyvanishifyoudonottakeittoday.",
+  "Thethreeingredients",
+  "Three",
+  "Two",
+  "Whatwejustestablished",
+  "Whenallthreearetrue,waitingisworthmoney.",
+  "Youdonotknowwhatiscoming\u2014andyoulearnalittlemoreastimepasses.",
+  "achancethatkeeps",
+  "afutureyoulearnabitatatime",
+  "afutureyoulearnaboutslowly",
+  "allthree\u2192waitingpays",
+  "concretefoundation",
+  "moneyyoucannotgetback",
+  "nextyear",
+  "nextyear'scustomers",
+  "ongoinguncertainty",
+  "sunkcost",
+  "sunk\u2260expensive",
+  "thechancekeeps",
+  "thechancetobuild",
+  "theyearafter",
+  "thisyear",
+  "\u00a3"
+ ]
+}

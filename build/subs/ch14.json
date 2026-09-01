@@ -1,0 +1,133 @@
+{
+ "chapter": 14,
+ "title": "What a whole industry looks like",
+ "duration": 205.066666666666,
+ "cues": [
+  {
+   "start": 3.0000000000000018,
+   "end": 11.154421768707484,
+   "text": "Everything so far has been about one firm. Now put a lot of them in one market and see what the market does.",
+   "voice": "n"
+  },
+  {
+   "start": 12.599999999999998,
+   "end": 17.284671201814056,
+   "text": "Six similar firms, all facing the same swinging demand.",
+   "voice": "n"
+  },
+  {
+   "start": 17.733333333333327,
+   "end": 28.331655328798178,
+   "text": "When the price rises to the entry line, new firms come in. More supply, and the price stops rising. So the price never gets above that line.",
+   "voice": "n"
+  },
+  {
+   "start": 28.73333333333332,
+   "end": 39.24512471655328,
+   "text": "And when the price falls to the exit line, firms leave. Less supply, and the price stops falling. So it never gets below that one either.",
+   "voice": "n"
+  },
+  {
+   "start": 39.66666666666664,
+   "end": 45.37106575963716,
+   "text": "Why does the entry line have to sit above average cost? Why not exactly at it?",
+   "voice": "c"
+  },
+  {
+   "start": 46.200000000000045,
+   "end": 51.151065759637234,
+   "text": "Suppose entry capped the price exactly at average cost.",
+   "voice": "n"
+  },
+  {
+   "start": 51.60000000000007,
+   "end": 58.25619047619055,
+   "text": "Then firms could never do better than normal \u2014 and bad spells would still push them below it.",
+   "voice": "n"
+  },
+  {
+   "start": 58.66666666666677,
+   "end": 63.69963718820872,
+   "text": "So on average they would lose. And nobody would enter at all.",
+   "voice": "n"
+  },
+  {
+   "start": 64.13333333333347,
+   "end": 77.1537868480727,
+   "text": "Which means the entry line has to leave room for the good spells to pay for the bad ones. The same argument, upside down, holds the exit line below day-to-day cost.",
+   "voice": "n"
+  },
+  {
+   "start": 78.93333333333341,
+   "end": 95.40666666666674,
+   "text": "And here is the striking part. With these particular assumptions, the market's two lines turn out to be exactly the ones a single firm on its own would have chosen. So every number from chapter ten carries straight over.",
+   "voice": "n"
+  },
+  {
+   "start": 96.60000000000001,
+   "end": 110.28739229024944,
+   "text": "Carry the caveat, because it matters later. That result holds for identical, small, price-taking firms, under the paper's particular assumptions. It is not a general truth.",
+   "voice": "n"
+  },
+  {
+   "start": 112.06666666666659,
+   "end": 123.9896598639455,
+   "text": "So what should we expect to see? In the paper's own words: significant periods of supernormal profits with no new entry, and of operating losses without exit.",
+   "voice": "n"
+  },
+  {
+   "start": 125.19999999999986,
+   "end": 135.83201814058944,
+   "text": "An industry sitting perfectly still. Profitable firms not expanding. Loss-making firms not closing. And nothing wrong anywhere.",
+   "voice": "n"
+  },
+  {
+   "start": 138.13333333333304,
+   "end": 145.70462585033985,
+   "text": "A snapshot misleads. Firms making good profits with no new entrants is not proof of monopoly.",
+   "voice": "n"
+  },
+  {
+   "start": 146.133333333333,
+   "end": 151.6069841269838,
+   "text": "Firms selling below day-to-day cost is not proof of predatory pricing.",
+   "voice": "n"
+  },
+  {
+   "start": 151.99999999999966,
+   "end": 165.74176870748266,
+   "text": "And there is a sting. An action aimed at those profits \u2014 an antitrust case, a price cap \u2014 depresses entry. And the reduced supply can actually raise the long-run average price.",
+   "voice": "n"
+  },
+  {
+   "start": 166.13333333333296,
+   "end": 178.98820861677967,
+   "text": "And a government that props firms up in bad times will be anticipated. That draws in extra entry, which makes the losses worse when the bad times actually arrive.",
+   "voice": "n"
+  },
+  {
+   "start": 181.2666666666662,
+   "end": 186.24158730158683,
+   "text": "Entry caps the price at H; exit floors it at L.",
+   "voice": "n"
+  },
+  {
+   "start": 186.33333333333283,
+   "end": 191.24557823129203,
+   "text": "H must sit above average cost, or nobody would ever enter.",
+   "voice": "n"
+  },
+  {
+   "start": 191.3333333333328,
+   "end": 197.04195011337816,
+   "text": "Expect long spells of profits without entry, and losses without exit.",
+   "voice": "n"
+  },
+  {
+   "start": 197.13333333333276,
+   "end": 202.6921995464847,
+   "text": "So a snapshot of an industry can mislead anyone trying to regulate it.",
+   "voice": "n"
+  }
+ ]
+}

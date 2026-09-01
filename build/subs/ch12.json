@@ -1,0 +1,145 @@
+{
+ "chapter": 12,
+ "title": "Hysteresis",
+ "duration": 186.00000000000037,
+ "cues": [
+  {
+   "start": 5.533333333333332,
+   "end": 12.889206349206347,
+   "text": "This is the chapter the paper is named after. Watch one path, and watch what it leaves behind.",
+   "voice": "n"
+  },
+  {
+   "start": 13.73333333333333,
+   "end": 21.682721088435372,
+   "text": "She starts at one. Money coming in is exactly covering the day-to-day costs. Nothing is built.",
+   "voice": "n"
+  },
+  {
+   "start": 22.1333333333333,
+   "end": 30.376235827664367,
+   "text": "It rises. It crosses one point one \u2014 the textbook's build-line \u2014 and nothing happens. She does not build.",
+   "voice": "n"
+  },
+  {
+   "start": 30.866666666666603,
+   "end": 36.17845804988656,
+   "text": "It keeps rising. And at one point six two, she builds.",
+   "voice": "n"
+  },
+  {
+   "start": 37.4000000000002,
+   "end": 45.1485260770977,
+   "text": "Now the money coming in starts to fall. Back past one point six two. Back past one point one.",
+   "voice": "n"
+  },
+  {
+   "start": 45.600000000000605,
+   "end": 50.08448979591897,
+   "text": "All the way back down to one \u2014 exactly where it started.",
+   "voice": "n"
+  },
+  {
+   "start": 55.6000000000011,
+   "end": 60.08158730158841,
+   "text": "The cause has completely reversed. The effect has not.",
+   "voice": "n"
+  },
+  {
+   "start": 62.40000000000144,
+   "end": 66.14925170068172,
+   "text": "Take an iron bar, and loop a wire around it.",
+   "voice": "n"
+  },
+  {
+   "start": 66.53333333333484,
+   "end": 72.23968253968404,
+   "text": "Pass an electric current through the wire, and the iron becomes magnetic.",
+   "voice": "n"
+  },
+  {
+   "start": 72.66666666666808,
+   "end": 74.99410430839143,
+   "text": "Now switch the current off.",
+   "voice": "n"
+  },
+  {
+   "start": 75.40000000000136,
+   "end": 83.32072562358412,
+   "text": "The magnetism does not go away. Some of it stays. The cause was temporary. The effect lasted.",
+   "voice": "n"
+  },
+  {
+   "start": 85.13333333333459,
+   "end": 94.25455782313051,
+   "text": "Hysteresis. When the cause is reversed and the effect stays behind. The paper borrows the word directly.",
+   "voice": "n"
+  },
+  {
+   "start": 98.46666666666783,
+   "end": 102.91614512471772,
+   "text": "Push the money coming in far enough down, and she quits for good.",
+   "voice": "n"
+  },
+  {
+   "start": 103.33333333333447,
+   "end": 107.81210884353855,
+   "text": "Now let it recover, all the way back to where it started.",
+   "voice": "n"
+  },
+  {
+   "start": 108.2000000000011,
+   "end": 114.62077097505778,
+   "text": "She does not come back. Because coming back means paying the whole sunk cost over again.",
+   "voice": "n"
+  },
+  {
+   "start": 115.86666666666773,
+   "end": 126.08095238095343,
+   "text": "And the paper's own careful point. Sunk costs alone can produce some of this. Adding uncertainty magnifies it dramatically.",
+   "voice": "n"
+  },
+  {
+   "start": 128.33333333333428,
+   "end": 136.65192743764268,
+   "text": "The dollar rose, and foreign firms poured into America \u2014 years late, because they were waiting to be sure.",
+   "voice": "n"
+  },
+  {
+   "start": 137.0666666666674,
+   "end": 148.0612698412706,
+   "text": "Then the dollar fell back to where it had been. And they did not leave. They had paid to get in, and leaving would mean paying to get back in again later.",
+   "voice": "n"
+  },
+  {
+   "start": 149.26666666666733,
+   "end": 157.97682539682606,
+   "text": "The cause reversed. The effect stayed. That is all hysteresis is \u2014 and now you have watched it happen twice.",
+   "voice": "n"
+  },
+  {
+   "start": 160.26666666666722,
+   "end": 168.33283446712073,
+   "text": "Revenue rose past the textbook line with nothing happening, then past 1.62 \u2014 and she built.",
+   "voice": "n"
+  },
+  {
+   "start": 168.46666666666718,
+   "end": 172.412653061225,
+   "text": "It fell all the way back, and she did not close.",
+   "voice": "n"
+  },
+  {
+   "start": 172.53333333333381,
+   "end": 178.11197278911612,
+   "text": "The iron bar keeps its magnetism after the current is switched off.",
+   "voice": "n"
+  },
+  {
+   "start": 178.20000000000044,
+   "end": 183.5917913832204,
+   "text": "That is hysteresis \u2014 and it explains the dollar and the imports.",
+   "voice": "n"
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+.venv/
+build/media/
+audio/lines/
+voices/
+final/*.mp4
+final/*-novo.mp4
+docs/*.txt
+__pycache__/
+*.pyc

@@ -1,0 +1,103 @@
+{
+ "chapter": 24,
+ "title": "Money, and what banks can\u2019t do with reserves",
+ "duration": 174.6666666666663,
+ "cues": [
+  {
+   "start": 3.0000000000000018,
+   "end": 14.426984126984129,
+   "text": "There is a second way of telling the same story, and it clears up the thing almost everybody gets wrong about this policy. So it is worth four minutes.",
+   "voice": "n"
+  },
+  {
+   "start": 15.4,
+   "end": 22.95342403628118,
+   "text": "Narrow money is reserves \u2014 the money banks hold at the central bank. Nobody else can touch it.",
+   "voice": "n"
+  },
+  {
+   "start": 23.4,
+   "end": 31.456961451247164,
+   "text": "Broad money is deposits \u2014 the money in everybody else's bank account. That is the one that gets spent.",
+   "voice": "n"
+  },
+  {
+   "start": 32.66666666666666,
+   "end": 41.75709750566892,
+   "text": "And the transmission of this policy runs through broad money. Not narrow money. The Bank of England has said so explicitly.",
+   "voice": "n"
+  },
+  {
+   "start": 44.066666666666755,
+   "end": 55.36902494331075,
+   "text": "The textbook says that reserves multiply. Put a pound of reserves into the system and broad money rises by ten or fifteen times as much.",
+   "voice": "n"
+  },
+  {
+   "start": 56.6000000000002,
+   "end": 59.21238095238115,
+   "text": "In Britain, it was less than one.",
+   "voice": "n"
+  },
+  {
+   "start": 60.40000000000025,
+   "end": 77.52548752834491,
+   "text": "And the authors say plainly that this is not evidence the policy failed. On their own account, the right thing to expect was about one, not fifteen. The failure of broad money to explode is exactly what their theory predicts.",
+   "voice": "n"
+  },
+  {
+   "start": 78.73333333333363,
+   "end": 100.8805895691613,
+   "text": "They also explain where it leaked away. Broad money grew by less than two hundred billion pounds during the first round. Banks swapped short-term deposits for long-term debt. And large companies raised money by issuing bonds instead of borrowing from banks. Both of those reduce broad money.",
+   "voice": "n"
+  },
+  {
+   "start": 103.13333333333348,
+   "end": 109.52467120181421,
+   "text": "You will hear it said that the banks are sitting on all that money instead of lending it out.",
+   "voice": "n"
+  },
+  {
+   "start": 110.73333333333342,
+   "end": 123.72371882086176,
+   "text": "The banking system cannot do that. The amount of reserves in the system is decided by how the central bank chose to fund its purchases \u2014 not by any bank's own decision.",
+   "voice": "n"
+  },
+  {
+   "start": 124.9333333333333,
+   "end": 132.87922902494327,
+   "text": "Reserves went up a lot because of how the purchases were paid for. That is arithmetic, not a choice.",
+   "voice": "n"
+  },
+  {
+   "start": 134.06666666666658,
+   "end": 148.38761904761895,
+   "text": "The only way more reserves can lead to more lending is if they change a bank's incentive to lend \u2014 for instance by making the bank's own funding cheaper. Which is a completely different mechanism.",
+   "voice": "n"
+  },
+  {
+   "start": 150.66666666666646,
+   "end": 156.18253968253947,
+   "text": "Narrow money is bank reserves; broad money is everybody's deposits.",
+   "voice": "n"
+  },
+  {
+   "start": 156.26666666666642,
+   "end": 161.07895691609954,
+   "text": "The policy works through broad money, and the multiplier was under one.",
+   "voice": "n"
+  },
+  {
+   "start": 161.19999999999973,
+   "end": 165.8846712018138,
+   "text": "That is what the theory predicts \u2014 not evidence of failure.",
+   "voice": "n"
+  },
+  {
+   "start": 165.9999999999997,
+   "end": 172.2590476190473,
+   "text": "And the banking system cannot \u201clend out\u201d reserves; the quantity is not its choice.",
+   "voice": "n"
+  }
+ ]
+}
