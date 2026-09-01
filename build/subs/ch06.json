@@ -1,95 +1,89 @@
 {
  "chapter": 6,
  "title": "So how high is high enough?",
- "duration": 116.23333333333242,
+ "duration": 108.26666666666644,
  "cues": [
   {
-   "start": 4.799999999999997,
-   "end": 9.805487528344669,
+   "start": 6.333333333333329,
+   "end": 11.338820861678,
    "text": "If waiting is worth money, why does she ever build at all? Why not wait for ever?",
    "voice": "c"
   },
   {
-   "start": 10.233333333333327,
-   "end": 18.043446712018135,
+   "start": 11.733333333333327,
+   "end": 19.543446712018135,
    "text": "Because waiting is not free. Every month she waits, she gives up a month of profit she could have been making.",
    "voice": "n"
   },
   {
-   "start": 19.266666666666655,
-   "end": 28.653378684807244,
-   "text": "So there is some level of money coming in that is high enough that waiting any longer stops being worth it. That level has a name.",
+   "start": 22.599999999999977,
+   "end": 28.21600907029476,
+   "text": "the trigger. The level the money coming in must reach before building is right.",
    "voice": "n"
   },
   {
-   "start": 30.200000000000042,
-   "end": 37.29215419501138,
-   "text": "The trigger. The level the money coming in must reach before building is actually the right thing to do.",
-   "voice": "n"
-  },
-  {
-   "start": 41.73333333333326,
-   "end": 45.35464852607703,
+   "start": 33.13333333333336,
+   "end": 36.754648526077126,
    "text": "Here is Marshall's line again, where we left it.",
    "voice": "n"
   },
   {
-   "start": 45.799999999999876,
-   "end": 56.67514739229013,
+   "start": 37.200000000000074,
+   "end": 48.075147392290326,
    "text": "Marshall's line stays exactly where it is. It is not wrong about arithmetic. But the line where Nell should actually build slides up above it.",
    "voice": "n"
   },
   {
-   "start": 57.89999999999975,
-   "end": 65.78231292516982,
+   "start": 49.26666666666685,
+   "end": 57.14897959183692,
    "text": "And that gap has a meaning. It is the value of the chance to wait \u2014 the thing she destroys the moment she builds.",
    "voice": "n"
   },
   {
-   "start": 66.99999999999969,
-   "end": 74.89664399092939,
+   "start": 58.33333333333364,
+   "end": 66.22997732426334,
    "text": "Build now, and the chance to wait is gone for ever. She has to be paid for that, and the gap is the price.",
    "voice": "n"
   },
   {
-   "start": 76.53333333333295,
-   "end": 82.7110657596368,
-   "text": "There is a mirror image of this on the way down, and chapter ten builds it properly.",
+   "start": 67.46666666666701,
+   "end": 74.05750566893458,
+   "text": "There is a mirror image of this on the way down, and chapter fifteen builds it properly.",
    "voice": "n"
   },
   {
-   "start": 83.1333333333329,
-   "end": 88.95578231292474,
+   "start": 74.46666666666697,
+   "end": 80.28911564625881,
    "text": "Marshall says: shut down when the money stops covering the day-to-day costs.",
    "voice": "n"
   },
   {
-   "start": 89.39999999999951,
-   "end": 99.94408163265257,
+   "start": 80.73333333333358,
+   "end": 91.27741496598664,
    "text": "The right answer is lower. She should absorb real losses before she gives up \u2014 because giving up throws away the chance of things getting better.",
    "voice": "n"
   },
   {
-   "start": 102.16666666666605,
-   "end": 104.7315192743758,
-   "text": "waiting costs forgone profit",
+   "start": 93.53333333333343,
+   "end": 96.28947845804998,
+   "text": "waiting costs the profit given up",
    "voice": "n"
   },
   {
-   "start": 104.86666666666599,
-   "end": 108.00721088435307,
-   "text": "a trigger: high enough to stop waiting",
+   "start": 96.40000000000003,
+   "end": 99.62181405895694,
+   "text": "so there is a trigger: high enough to act",
    "voice": "n"
   },
   {
-   "start": 108.1333333333326,
-   "end": 110.65854875283374,
-   "text": "trigger above the textbook line",
+   "start": 99.7333333333333,
+   "end": 102.83904761904759,
+   "text": "the trigger sits above the textbook line",
    "voice": "n"
   },
   {
-   "start": 110.7999999999992,
-   "end": 113.87088435374069,
+   "start": 102.93333333333324,
+   "end": 106.00421768707473,
    "text": "and the mirror image on the way down",
    "voice": "n"
   }
@@ -97,70 +91,30 @@
  "screen_text": [
   "6/43",
   "?",
-  "Andthereisamirrorimageonthewaydown.",
-  "Buildnow\u2192thechanceisgone.",
   "CHAPTER6",
   "Marshall'sline",
   "Marshall'squit-line",
   "Moneycomingineachmonth",
   "PARTONE\u2014THEPAPER",
   "Sohowhighishighenough?",
-  "Thelevelthatmakesbuildingright.",
-  "Waitingcostsamonthofprofit.",
+  "Thelevelthemoneycominginmustreachbeforebuildingisright.",
+  "Thereallineishigher",
+  "Waitingisnotfree",
   "Whatwejustestablished",
+  "andthemirrorimage,downwards",
   "andthemirrorimageonthewaydown",
-  "atrigger:highenoughtostopwaiting",
+  "buildnow,andthechanceisgone",
+  "everymonthofwaitingisamonthofprofitgivenup",
+  "sothereisatrigger:highenoughtoact",
   "thegap",
   "therealbuild-line",
   "therealquit-line",
   "thetrigger",
-  "triggerabovethetextbookline",
-  "waitingcostsforgoneprofit"
+  "thetriggersitsabovethetextbookline",
+  "waitingcoststheprofitgivenup"
  ],
- "collisions": [
-  {
-   "t": 77.33,
-   "a": "therealbuild-line",
-   "b": "Andthereisamirrorimageonthewaydown.",
-   "overlap": 1.0
-  },
-  {
-   "t": 83.13,
-   "a": "therealbuild-line",
-   "b": "Andthereisamirrorimageonthewaydown.",
-   "overlap": 1.0
-  },
-  {
-   "t": 84.03,
-   "a": "therealbuild-line",
-   "b": "Andthereisamirrorimageonthewaydown.",
-   "overlap": 1.0
-  },
-  {
-   "t": 89.4,
-   "a": "therealbuild-line",
-   "b": "Andthereisamirrorimageonthewaydown.",
-   "overlap": 1.0
-  },
-  {
-   "t": 90.6,
-   "a": "therealbuild-line",
-   "b": "Andthereisamirrorimageonthewaydown.",
-   "overlap": 1.0
-  },
-  {
-   "t": 100.37,
-   "a": "therealbuild-line",
-   "b": "Andthereisamirrorimageonthewaydown.",
-   "overlap": 1.0
-  },
-  {
-   "t": 101.17,
-   "a": "therealbuild-line",
-   "b": "Andthereisamirrorimageonthewaydown.",
-   "overlap": 1.0
-  }
- ],
+ "collisions": [],
  "low_content": [],
- "too_small": []
+ "too_small": [],
+ "silent_beats": []
 }

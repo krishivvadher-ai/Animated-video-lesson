@@ -1,107 +1,95 @@
 {
  "chapter": 7,
  "title": "A right, but not an obligation",
- "duration": 130.4333333333322,
+ "duration": 123.9333333333325,
  "cues": [
   {
-   "start": 4.799999999999997,
-   "end": 13.223083900226754,
-   "text": "Here is a way of holding the idea that makes it easy to carry around. Forget factories for two minutes.",
+   "start": 6.9333333333333265,
+   "end": 22.456235827664393,
+   "text": "Forget factories for two minutes. Somebody gives Nell a voucher. It says: you may buy this bicycle for forty pounds, on any day you like. It never expires. And it never forces you to buy anything.",
    "voice": "n"
   },
   {
-   "start": 13.66666666666666,
-   "end": 26.330476190476183,
-   "text": "Somebody gives Nell a voucher. It says: you may buy this bicycle for forty pounds, on any day you like. It never expires. And it never forces you to buy anything.",
-   "voice": "n"
-  },
-  {
-   "start": 27.56666666666666,
-   "end": 31.354467120181397,
+   "start": 23.666666666666654,
+   "end": 27.45446712018139,
    "text": "Question. Is the voucher worth anything before she uses it?",
    "voice": "c"
   },
   {
-   "start": 32.60000000000003,
-   "end": 43.913968253968285,
+   "start": 28.66666666666665,
+   "end": 39.980634920634905,
    "text": "Of course it is. Somebody would buy it off her. It gives her a right she would not otherwise have, and it never obliges her to do anything at all.",
    "voice": "n"
   },
   {
-   "start": 44.73333333333331,
-   "end": 56.14272108843535,
+   "start": 41.199999999999974,
+   "end": 52.60938775510201,
    "text": "And here is the point. The moment she uses it, the voucher is gone. She has a bicycle instead. She cannot use it again, and she cannot sell it on.",
    "voice": "n"
   },
   {
-   "start": 57.866666666666525,
-   "end": 61.552879818593965,
-   "text": "Now map it across, one line at a time.",
-   "voice": "n"
-  },
-  {
-   "start": 61.99999999999984,
-   "end": 64.87351473922887,
+   "start": 55.53333333333347,
+   "end": 58.4068480725625,
    "text": "The voucher is the chance to build.",
    "voice": "n"
   },
   {
-   "start": 65.29999999999976,
-   "end": 66.86158730158705,
-   "text": "the sunk cost",
+   "start": 58.80000000000022,
+   "end": 63.8213605442179,
+   "text": "The forty pounds is the sunk cost \u2014 the money she cannot get back.",
    "voice": "n"
   },
   {
-   "start": 67.29999999999968,
-   "end": 69.33124716553256,
-   "text": "all the revenue, later",
+   "start": 64.26666666666696,
+   "end": 68.8352380952384,
+   "text": "And the bicycle is all the revenue the factory will ever earn.",
    "voice": "n"
   },
   {
-   "start": 71.76666666666621,
-   "end": 79.80553287981814,
-   "text": "Two words for two different values. Intrinsic value is what she would get by using the chance right now.",
+   "start": 73.13333333333337,
+   "end": 77.97451247165536,
+   "text": "intrinsic value. What using the chance right now would give you.",
    "voice": "n"
   },
   {
-   "start": 83.13333333333281,
-   "end": 90.25124716553236,
-   "text": "And the holding premium \u2014 some people call it time value \u2014 is what the waiting itself is worth.",
+   "start": 81.79999999999993,
+   "end": 85.86897959183666,
+   "text": "holding premium. What the waiting itself is worth.",
    "voice": "n"
   },
   {
-   "start": 93.89999999999942,
-   "end": 102.5668934240357,
-   "text": "And that gives the rule, in one line. Use the chance when the holding premium has fallen to zero. Not before.",
+   "start": 89.6666666666665,
+   "end": 98.23088435374133,
+   "text": "Which gives the rule, in one line. Use the chance when the holding premium has fallen to zero. Not before.",
    "voice": "n"
   },
   {
-   "start": 103.7999999999993,
-   "end": 110.87632653061155,
+   "start": 99.46666666666637,
+   "end": 106.54299319727862,
    "text": "Before that point, waiting is still worth something, and building throws it away for nothing.",
    "voice": "n"
   },
   {
-   "start": 115.19999999999916,
-   "end": 118.01546485260687,
+   "start": 108.79999999999949,
+   "end": 111.61546485260719,
    "text": "a right, not an obligation",
    "voice": "n"
   },
   {
-   "start": 118.13333333333243,
-   "end": 120.80925170067937,
+   "start": 111.73333333333275,
+   "end": 114.40925170067969,
    "text": "worth something before it is used",
    "voice": "n"
   },
   {
-   "start": 120.93333333333237,
-   "end": 123.94616780045256,
+   "start": 114.53333333333269,
+   "end": 117.54616780045288,
    "text": "intrinsic value: using it now",
    "voice": "n"
   },
   {
-   "start": 124.06666666666564,
-   "end": 128.08158730158627,
+   "start": 117.66666666666596,
+   "end": 121.6815873015866,
    "text": "holding premium \u2192 zero, then build",
    "voice": "n"
   }
@@ -109,32 +97,36 @@
  "screen_text": [
   "7/43",
   "Aright,butnotanobligation",
+  "Avoucher,andwhatitisworth",
   "CHAPTER7",
-  "Isthevoucherworthanythingbeforesheusesit?",
+  "Nowmapitacross",
   "PARTONE\u2014THEPAPER",
-  "Themomentsheusesit,thevoucherisgone.",
-  "Useitwhentheholdingpremiumhitszero.",
+  "Twovalues,notone",
   "Whatthewaitingitselfisworth.",
-  "Whatusingitnowwouldgiveyou.",
+  "Whatusingthechancerightnowwouldgiveyou.",
   "Whatwejustestablished",
-  "alltherevenuethefactorywillearn",
   "aright,notanobligation",
+  "beforethat,buildingthrowsitaway",
   "holdingpremium",
   "holdingpremium\u2192zero,thenbuild",
   "intrinsicvalue",
   "intrinsicvalue:usingitnow",
+  "isitworthanythingbeforesheusesit?",
+  "ofcourse\u2014somebodywouldbuyit",
   "thebicycle",
   "thechancetobuild",
-  "themathematicsisinthepaper'sappendix",
+  "therevenue,later",
   "thesunkcost",
   "thevoucher",
   "the\u00a340price",
-  "waitingstillpays\u00b7buildingthrowsitaway",
+  "useit,anditisgone",
+  "useitwhentheholdingpremiumhasfallentozero",
   "worthsomethingbeforeitisused",
   "\u00a3",
   "\u00a340forthisbicycle,anydayyoulike"
  ],
  "collisions": [],
  "low_content": [],
- "too_small": []
+ "too_small": [],
+ "silent_beats": []
 }
