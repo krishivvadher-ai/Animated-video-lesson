@@ -33,7 +33,8 @@ from lib import style as S
 from lib.cards import wrap
 
 MAX_CAPTION = 60      # characters; longer is narration, not a caption
-MIN_LINE = 0.21       # manim units per line of text: the readable minimum
+MAX_DEFINITION = 84   # a definition card is allowed one full line
+MIN_FONT = 22         # the readable minimum, in Manim font-size units
 
 
 class Region:
@@ -90,21 +91,31 @@ class NothingHappened(ValueError):
     pass
 
 
-def check_caption(text):
+def check_caption(text, limit=MAX_CAPTION):
     flat = " ".join(str(text).split())
-    if len(flat) > MAX_CAPTION:
+    if len(flat) > limit:
         raise CaptionTooLong(
-            f"{len(flat)} characters on screen; the limit is {MAX_CAPTION}. "
-            f"Put it in the narration instead: {flat[:80]!r}")
+            f"{len(flat)} characters on screen; the limit is {limit}. "
+            f"Put it in the narration instead: {flat[:90]!r}")
     return flat
 
 
-def _line_height(mob):
+def effective_font_size(mob):
+    """The size a caption is actually rendered at, after any scaling.
+
+    Measured from the font size rather than the bounding box, because a word
+    with no ascenders -- "now" -- has a box barely half the height of one with
+    them, and the box would flag it wrongly.
+
+    A one- or two-character glyph is decoration, not a caption.
+    """
     txt = getattr(mob, "text", None)
-    if not isinstance(txt, str):
+    if not isinstance(txt, str) or len(txt.strip()) < 3:
         return None
-    lines = max(1, txt.count("\n") + 1)
-    return mob.height / lines
+    fs = getattr(mob, "font_size", None)
+    if fs is None:
+        return None
+    return fs * getattr(mob, "_stage_scale", 1.0)
 
 
 def fit(mob, region, pad=0.25, strict=True):
@@ -112,17 +123,23 @@ def fit(mob, region, pad=0.25, strict=True):
     too small to read raises instead of shrinking."""
     max_w = region.width - 2 * pad
     max_h = region.height - 2 * pad
+    k = 1.0
     if mob.width > max_w:
+        k *= max_w / mob.width
         mob.scale(max_w / mob.width)
     if mob.height > max_h:
+        k *= max_h / mob.height
         mob.scale(max_h / mob.height)
+    if k < 1.0:
+        for sub in mob.get_family():
+            sub._stage_scale = getattr(sub, "_stage_scale", 1.0) * k
     if strict:
-        for sub in ([mob] if not isinstance(mob, VGroup) else mob.get_family()):
-            lh = _line_height(sub)
-            if lh is not None and lh < MIN_LINE:
+        for sub in mob.get_family():
+            fs = effective_font_size(sub)
+            if fs is not None and fs < MIN_FONT:
                 raise TextTooSmall(
-                    f"{lh:.3f} units a line in {region.name!r}; the minimum is "
-                    f"{MIN_LINE}. There is too much text: "
+                    f"{fs:.0f} in {region.name!r}; the readable minimum is "
+                    f"{MIN_FONT}. There is too much text: "
                     f"{str(getattr(sub, 'text', ''))[:60]!r}")
     return mob
 

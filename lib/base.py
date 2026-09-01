@@ -221,7 +221,7 @@ class Chapter(ThreeDScene):
     def define(self, term, definition, icon_kind=None, colour=CHALK,
                narration=None, hold=CARD_HOLD, at=ORIGIN):
         """Every technical term gets a card before it is used in a sentence."""
-        St.check_caption(definition)
+        St.check_caption(definition, St.MAX_DEFINITION)
         card = cards.definition_card(term, definition, icon_kind, colour)
         if card.width > 12.2:
             card.scale(12.2 / card.width)
@@ -318,14 +318,18 @@ class Chapter(ThreeDScene):
         for label, b, is_text in items:
             if not is_text or not label or len(label.strip()) < 3:
                 continue
-            lines = max(1, label.count("\n") + 1)
-            per_line = (b[3] - b[1]) / lines
-            if per_line < St.MIN_LINE - 0.01:
-                self.too_small.append({"t": t, "text": label[:52],
-                                       "per_line": round(per_line, 3)})
             if b[1] < -3.98:
                 self.low_content.append({"t": t, "text": label[:60],
                                          "bottom": round(b[1], 2)})
+        for m in self.mobjects:
+            if self._progress is not None and m is self._progress:
+                continue   # the corner indicator is furniture, not a caption
+            for sub in m.get_family():
+                fs = St.effective_font_size(sub)
+                if fs is not None and fs < St.MIN_FONT:
+                    self.too_small.append(
+                        {"t": t, "text": str(getattr(sub, "text", ""))[:52],
+                         "font_size": round(fs, 1)})
         texts = [(l, b) for l, b, is_text in items
                  if is_text and l and len(l.strip()) >= 3]
         for i, (l1, b1) in enumerate(texts):
