@@ -194,6 +194,8 @@ class Chapter08(Chapter):
         sheet = SF.sheet(ax3)
         with self.narrate("And here is the shape."):
             self.play(Create(sheet), run_time=3.0)
+        mesh = SF.gridlines(ax3)
+        self.play(Create(mesh), run_time=1.6)
         self.beat()
 
         with self.narrate("Look at the near corner. Calm revenue, expensive money. The "
@@ -232,7 +234,7 @@ class Chapter08(Chapter):
                           "wrong direction."):
             self.move_camera(phi=62 * DEGREES, theta=-160 * DEGREES, run_time=4.0)
         self.beat()
-        self.play(FadeOut(sheet), FadeOut(ax3), FadeOut(d_base), FadeOut(d_chop),
+        self.play(FadeOut(sheet), FadeOut(mesh), FadeOut(ax3), FadeOut(d_base), FadeOut(d_chop),
                   FadeOut(d_cheap), FadeOut(marks), FadeOut(col), run_time=1.0)
         self.set_camera_orientation(phi=0, theta=-90 * DEGREES, zoom=1.0)
 

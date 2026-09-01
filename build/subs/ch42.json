@@ -1,222 +1,141 @@
 {
  "chapter": 42,
- "title": "The management half: a queue, not a calculation",
- "duration": 321.46666666666505,
+ "title": "The management half",
+ "duration": 138.399999999999,
  "cues": [
   {
-   "start": 4.866666666666667,
-   "end": 10.94453514739229,
+   "start": 6.333333333333329,
+   "end": 12.411201814058952,
    "text": "Grow Nell's factory into a large company, with several separately run parts.",
    "voice": "n"
   },
   {
-   "start": 13.333333333333325,
-   "end": 16.65650793650793,
-   "text": "division. A separately run part of a company.",
-   "voice": "n"
-  },
-  {
-   "start": 19.99999999999999,
-   "end": 23.542675736961442,
-   "text": "capital budget. The pot a board shares out.",
-   "voice": "n"
-  },
-  {
-   "start": 26.866666666666653,
-   "end": 32.162811791383206,
-   "text": "hurdle rate, as an object. A minimum return, written down.",
-   "voice": "n"
-  },
-  {
-   "start": 37.40000000000006,
-   "end": 42.686984126984186,
-   "text": "Dixit already explains why that number is high, and he does it well.",
-   "voice": "n"
-  },
-  {
-   "start": 43.13333333333343,
-   "end": 53.79414965986405,
-   "text": "In his model it is worked out from things outside the company. The cost of its money, how choppy its market is, how fast that market is growing.",
-   "voice": "n"
-  },
-  {
-   "start": 54.20000000000014,
-   "end": 61.87287981859424,
-   "text": "It is an outside price wearing a disguise. And if the outside price moves, the number moves.",
-   "voice": "n"
-  },
-  {
-   "start": 63.06666666666684,
-   "end": 74.405986394558,
+   "start": 13.599999999999984,
+   "end": 22.034920634920617,
    "text": "So say this explicitly, because it is easy to miss. Kit's dispute is not about how high the number is. It is about what kind of number it is.",
-   "voice": "n"
+   "voice": "c"
   },
   {
-   "start": 76.93333333333347,
-   "end": 82.65859410430852,
+   "start": 24.999999999999968,
+   "end": 30.725260770975027,
    "text": "And here is the mechanism, as an actual queue of projects at the boardroom door.",
    "voice": "n"
   },
   {
-   "start": 83.06666666666669,
-   "end": 94.98634920634923,
+   "start": 31.133333333333294,
+   "end": 43.05301587301584,
    "text": "State the assumption openly, because it is doing a lot of work and it might be wrong. In a large company the thing that runs out first is not money. It is management.",
    "voice": "n"
   },
   {
-   "start": 96.59999999999992,
-   "end": 102.10956916099765,
-   "text": "There are always more ideas than there are people capable of running them properly.",
+   "start": 44.26666666666665,
+   "end": 55.08975056689341,
+   "text": "A minimum return set to solve that problem is tied to the next project in the queue \u2014 the best thing the company would have to drop in order to take this one on.",
    "voice": "n"
   },
   {
-   "start": 102.53333333333322,
-   "end": 112.17977324263028,
-   "text": "Divisional managers push their own projects, and present them optimistically, because that is what advocating for your division looks like.",
+   "start": 55.533333333333445,
+   "end": 66.10027210884365,
+   "text": "And that is an internal quantity. It depends on how many good ideas the business is generating, and how many capable people it has spare.",
    "voice": "n"
   },
   {
-   "start": 112.59999999999985,
-   "end": 116.29782312925155,
-   "text": "And the board cannot verify what it is told.",
-   "voice": "n"
-  },
-  {
-   "start": 116.73333333333315,
-   "end": 124.58281179138304,
-   "text": "So the board's real problem is not working out what each project is worth. It is choosing between them.",
-   "voice": "n"
-  },
-  {
-   "start": 126.86666666666639,
-   "end": 148.3498866213149,
-   "text": "A minimum return set to solve that problem is tied to the next project in the queue \u2014 the best thing the company would have to drop in order to take this one on. And that is an internal quantity. It depends on how many good ideas the business is generating, and how many capable people it has spare.",
-   "voice": "n"
-  },
-  {
-   "start": 149.533333333333,
-   "end": 155.54154195011304,
+   "start": 69.06666666666673,
+   "end": 75.07487528344677,
    "text": "A fall in the return on government debt does not lengthen anybody's working week.",
    "voice": "n"
   },
   {
-   "start": 155.93333333333288,
-   "end": 159.6970975056685,
+   "start": 75.46666666666661,
+   "end": 79.23043083900221,
    "text": "The yield falls. And the queue does not move.",
    "voice": "n"
   },
   {
-   "start": 162.53333333333273,
-   "end": 187.12399092970463,
-   "text": "Here is the first hole. What is actually scarce, on his own account, is his managers' time. But the tool the company uses to ration it is a percentage return on money. Those are not the same thing at all. A large simple purchase can swallow a lot of money and very little management. A small fiddly reorganisation can do the reverse.",
-   "voice": "n"
-  },
-  {
-   "start": 188.66666666666598,
-   "end": 208.41356009070225,
-   "text": "He thinks the crudeness is telling rather than damning. A rule a board can apply to proposals it cannot verify has to be simple, uniform and hard to argue with. But a critic could read exactly the same fact the other way, and conclude he has named the wrong scarce thing.",
-   "voice": "n"
-  },
-  {
-   "start": 209.93333333333254,
-   "end": 239.1268934240355,
-   "text": "Second hole, and it is worse. He cannot name a single observation that would tell his version apart from a much simpler story. That any published rule is slow to change, whatever it was based on, because a number that moves every month stops being a rule and becomes something to argue about. On that story the threshold could be exactly what Dixit says it is, and still sit still for years.",
-   "voice": "n"
-  },
-  {
-   "start": 240.66666666666578,
-   "end": 258.9209070294776,
-   "text": "And a third. If the queue is ranked by how valuable each project is, then a fall in the cost of money lifts every project a bit, and reshuffles the order. So the next project in the queue is not quite independent of interest rates after all.",
-   "voice": "n"
-  },
-  {
-   "start": 260.99999999999903,
-   "end": 271.51451247165437,
+   "start": 82.19999999999973,
+   "end": 89.90335600907002,
    "text": "So here is the version he can defend. Not that the number never moves. But that it moves on the company's clock rather than the central bank's.",
-   "voice": "n"
+   "voice": "c"
   },
   {
-   "start": 272.7333333333322,
-   "end": 289.4183219954637,
+   "start": 90.33333333333297,
+   "end": 103.31346938775474,
    "text": "Changing as the pipeline of ideas and the stock of managers change, over years. For a policy meant to work inside a downturn, that is close enough to failure to matter. But it is not the same as never, and he will not say never.",
+   "voice": "c"
+  },
+  {
+   "start": 106.26666666666615,
+   "end": 114.13247165532829,
+   "text": "Treating a hurdle rate as a rationing device rather than a calculation is not an idea Kit invented.",
    "voice": "n"
   },
   {
-   "start": 291.1999999999988,
-   "end": 304.9500680272097,
-   "text": "And the attribution, stated plainly. Treating a hurdle rate as a rationing device rather than a calculation is not an idea Kit invented. What he would claim is the use he has put it to.",
+   "start": 114.53333333333276,
+   "end": 117.78997732426247,
+   "text": "What he would claim is the use he has put it to.",
    "voice": "n"
   },
   {
-   "start": 307.26666666666534,
-   "end": 309.93120181405766,
-   "text": "Dixit's account: conceded",
+   "start": 120.06666666666598,
+   "end": 124.1360090702941,
+   "text": "a big company rations management, not money",
    "voice": "n"
   },
   {
-   "start": 310.0666666666653,
-   "end": 312.882131519273,
-   "text": "what KIND of number, not how high",
+   "start": 124.26666666666591,
+   "end": 128.3127891156455,
+   "text": "so the bar is tied to the next project in the queue",
    "voice": "n"
   },
   {
-   "start": 312.9999999999986,
-   "end": 316.1521541950099,
-   "text": "it rations management, not money",
+   "start": 128.39999999999918,
+   "end": 132.08621315192661,
+   "text": "the yield falls, and the queue does not move",
    "voice": "n"
   },
   {
-   "start": 316.2666666666652,
-   "end": 319.0705215419486,
-   "text": "three holes, pointed at by him",
+   "start": 132.1999999999991,
+   "end": 136.1532426303846,
+   "text": "it moves on the company's clock, not the Bank's",
    "voice": "n"
   }
  ],
  "screen_text": [
+  "1",
+  "2",
+  "3",
+  "4",
   "42/43",
-  "Aminimumreturn,writtendown.",
-  "AminimumreturnsettosolveTHATproblem",
-  "Andnowtheholes\u2014Kitpointsatthemhimself",
-  "Aseparatelyrunpartofacompany.",
+  "5",
+  "Andtheattribution,plainly",
+  "Aqueueattheboardroomdoor",
   "CHAPTER42",
-  "Dixit'saccount:conceded",
-  "First,concedeDixit\u2014entirely",
-  "ItmovesontheCOMPANY'sclock,nottheBANK's.",
+  "Growthefactoryintoacompany",
   "PARTTHREE\u2014THEARGUMENT",
-  "Themanagementhalf:aqueue,notacalculation",
-  "Thepotaboardsharesout.",
+  "Sodroptheyield,andwatch",
+  "Themanagementhalf",
+  "Theversionhecandefend",
   "Whatwejustestablished",
-  "anoutsidepriceindisguise",
-  "capitalbudget",
-  "cheapermoneyreshufflesthequeue",
-  "crudeonpurpose\u2014orthewrongscarcething?",
-  "division",
-  "heexplainswhyitishigh",
-  "hurdlerate,asanobject",
-  "itrationsmanagement,notmoney",
-  "managersarguefortheirown",
-  "moreideasthancapablepeople",
-  "noobservationtellsitapartfrom\u201crulesareslow\u201d",
-  "notHOWHIGH\u2014whatKIND",
-  "project1",
-  "project2",
-  "project3",
-  "project4",
-  "project5",
-  "scarce:TIME.rationedby:MONEY.",
-  "theIDEAisnotKit's.TheUSEis.",
-  "theboardcannotcheck",
-  "theboardroom",
-  "theproblemisCHOOSING",
-  "thequeue",
-  "thequeuedoesnotmove",
-  "thereturnongovernmentdebt",
-  "threeholes,pointedatbyhim",
-  "tiedtotheNEXTprojectinthequeue",
-  "whatKINDofnumber,nothowhigh",
-  "whatrunsoutfirstisMANAGEMENT,notmoney",
-  "workedoutfromOUTSIDEthings",
-  "years,notmonths",
-  "\u00a3"
- ]
+  "abigcompanyrationsmanagement,notmoney",
+  "ahurdlerateasrationing",
+  "closeenoughtofailuretomatter\u2014butnotnever",
+  "giltyield",
+  "itmovesonthecompany'sclock,nottheBank's",
+  "managementis",
+  "moneyisnotwhatrunsout",
+  "notKit'sidea",
+  "nothowhighthenumberis\u2014whatkindofnumberitis",
+  "sothebaristiedtothenextprojectinthequeue",
+  "thatishis",
+  "thebaristiedtothenextprojectinthequeue",
+  "theboard",
+  "thecentralbank'sclock:months",
+  "thecompany'sclock:years",
+  "theusehehasputitto",
+  "theyieldfalls,andthequeuedoesnotmove"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "too_small": [],
+ "silent_beats": []
 }

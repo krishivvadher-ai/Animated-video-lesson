@@ -17,11 +17,11 @@ class Chapter18(Chapter):
         # ------------------------------------------------ the observation
         self.heading("A detective story")
         nell = stick.nell(scale=0.9)
-        St.place(nell, St.STAGE, ax=-0.55, ay=0.1)
+        St.place(nell, St.STAGE, ax=-0.55, ay=0.35, fill=False)
         nl = Text("an American firm", font=FONT, font_size=T_SMALL, color=MUTED)
         nl.next_to(nell, DOWN, buff=0.25)
         kenji = stick.kenji(scale=0.9)
-        St.place(kenji, St.SIDE, ax=-0.1, ay=0.1)
+        St.place(kenji, St.SIDE, ax=-0.1, ay=0.35, fill=False)
         kl = Text("a Japanese firm", font=FONT, font_size=T_SMALL, color=MUTED)
         kl.next_to(kenji, DOWN, buff=0.25)
         with self.narrate("Here is Nell, in America. And here is Kenji, running a "

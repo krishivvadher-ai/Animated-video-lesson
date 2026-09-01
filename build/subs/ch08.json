@@ -1,7 +1,7 @@
 {
  "chapter": 8,
  "title": "Putting numbers on it",
- "duration": 330.1333333333307,
+ "duration": 331.7333333333306,
  "cues": [
   {
    "start": 6.333333333333329,
@@ -130,68 +130,68 @@
    "voice": "n"
   },
   {
-   "start": 236.0666666666653,
-   "end": 249.08911564625714,
+   "start": 237.6666666666652,
+   "end": 250.68911564625705,
    "text": "Look at the near corner. Calm revenue, expensive money. The sheet is almost flat, and the multiplier is almost one. That is Marshall's world, and in it he is right.",
    "voice": "n"
   },
   {
-   "start": 250.3333333333318,
-   "end": 263.98866213151774,
+   "start": 251.93333333333172,
+   "end": 265.58866213151765,
    "text": "Now follow it away from that corner. Every step towards choppier revenue, and every step towards cheaper money, lifts the sheet. The two effects do not cancel. They add.",
    "voice": "n"
   },
   {
-   "start": 265.1999999999983,
-   "end": 271.5321088435357,
+   "start": 266.7999999999982,
+   "end": 273.1321088435356,
    "text": "The three numbers you just watched are three points on this one sheet. The base case.",
    "voice": "n"
   },
   {
-   "start": 271.9333333333316,
-   "end": 274.4585487528327,
+   "start": 273.5333333333315,
+   "end": 276.0585487528326,
    "text": "Choppier revenue \u2014 further along.",
    "voice": "n"
   },
   {
-   "start": 274.86666666666486,
-   "end": 278.47160997732243,
+   "start": 276.46666666666476,
+   "end": 280.07160997732234,
    "text": "And cheaper money \u2014 further along the other way.",
    "voice": "n"
   },
   {
-   "start": 279.6666666666648,
-   "end": 290.00975056689157,
+   "start": 281.2666666666647,
+   "end": 291.6097505668915,
    "text": "Hold that picture. In chapter thirty-five we come back to this exact sheet, and watch a firm walked across it \u2014 in the wrong direction.",
    "voice": "n"
   },
   {
-   "start": 292.1999999999979,
-   "end": 304.4988208616759,
+   "start": 293.7999999999978,
+   "end": 306.0988208616758,
    "text": "And that resolves the first of our three puzzles. Firms demanding fifteen per cent when their money costs them five are not being short-sighted. They are being correct.",
    "voice": "n"
   },
   {
-   "start": 306.7999999999977,
-   "end": 309.8360544217664,
+   "start": 308.3999999999976,
+   "end": 311.4360544217663,
    "text": "two dials \u2192 one multiplier",
    "voice": "n"
   },
   {
-   "start": 309.93333333333095,
-   "end": 317.1721995464829,
+   "start": 311.53333333333086,
+   "end": 318.7721995464828,
    "text": "base case 1.86\u00d7 \u00b7 9.3% against a true 5%",
    "voice": "n"
   },
   {
-   "start": 317.2666666666642,
-   "end": 323.82054421768464,
+   "start": 318.8666666666641,
+   "end": 325.42054421768455,
    "text": "choppier \u2192 3.32 \u00b7 cheaper money \u2192 2.61",
    "voice": "n"
   },
   {
-   "start": 323.93333333333084,
-   "end": 327.8863945578206,
+   "start": 325.53333333333075,
+   "end": 329.4863945578205,
    "text": "15% is arithmetic, not stupidity",
    "voice": "n"
   }

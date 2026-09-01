@@ -164,7 +164,56 @@
   "\u2212gilts",
   "\u2248money"
  ],
- "collisions": [],
+ "collisions": [
+  {
+   "t": 148.93,
+   "a": "buyingassetsisnotitselfunusual",
+   "b": "whatisnew:thecircumstances,andthescale",
+   "overlap": 0.4
+  },
+  {
+   "t": 162.27,
+   "a": "buyingassetsisnotitselfunusual",
+   "b": "whatisnew:thecircumstances,andthescale",
+   "overlap": 0.4
+  },
+  {
+   "t": 163.07,
+   "a": "buyingassetsisnotitselfunusual",
+   "b": "whatisnew:thecircumstances,andthescale",
+   "overlap": 0.4
+  },
+  {
+   "t": 173.87,
+   "a": "buyingassetsisnotitselfunusual",
+   "b": "whatisnew:thecircumstances,andthescale",
+   "overlap": 0.4
+  },
+  {
+   "t": 174.67,
+   "a": "buyingassetsisnotitselfunusual",
+   "b": "whatisnew:thecircumstances,andthescale",
+   "overlap": 0.4
+  },
+  {
+   "t": 176.27,
+   "a": "buyingassetsisnotitselfunusual",
+   "b": "whatisnew:thecircumstances,andthescale",
+   "overlap": 0.4
+  },
+  {
+   "t": 185.67,
+   "a": "buyingassetsisnotitselfunusual",
+   "b": "whatisnew:thecircumstances,andthescale",
+   "overlap": 0.4
+  },
+  {
+   "t": 186.47,
+   "a": "buyingassetsisnotitselfunusual",
+   "b": "whatisnew:thecircumstances,andthescale",
+   "overlap": 0.4
+  }
+ ],
  "low_content": [],
  "too_small": [],
  "silent_beats": []

@@ -1,105 +1,110 @@
 {
  "chapter": 40,
  "title": "And the ones that did not come back",
- "duration": 121.40000000000082,
+ "duration": 91.5999999999999,
  "cues": [
   {
-   "start": 4.866666666666667,
-   "end": 16.389614512471656,
-   "text": "You will recognise this picture instantly, because it is the one from chapter twelve. Same scale, same lines. Only the direction is different.",
+   "start": 7.333333333333325,
+   "end": 18.484761904761896,
+   "text": "You will recognise this picture instantly, because it is the hysteresis one. Same scale, same lines. Only the direction is different.",
    "voice": "n"
   },
   {
-   "start": 19.333333333333325,
-   "end": 25.37637188208616,
-   "text": "A firm that is already running. The crisis arrives, and its takings fall.",
+   "start": 18.933333333333316,
+   "end": 21.45854875283445,
+   "text": "A firm that is already running.",
    "voice": "n"
   },
   {
-   "start": 25.866666666666635,
-   "end": 35.99260770975054,
+   "start": 21.866666666666646,
+   "end": 25.703809523809504,
+   "text": "The crisis arrives, and its takings fall.",
+   "voice": "n"
+  },
+  {
+   "start": 26.133333333333308,
+   "end": 36.25927437641721,
    "text": "Down past the level where the textbook would have closed it. And still it holds on, because holding on keeps the chance of recovery alive.",
    "voice": "n"
   },
   {
-   "start": 36.46666666666683,
-   "end": 40.05823129251717,
+   "start": 36.66666666666663,
+   "end": 40.25823129251697,
    "text": "And then through the quit line. It closes.",
    "voice": "n"
   },
   {
-   "start": 41.8666666666671,
-   "end": 49.21374149659907,
+   "start": 41.466666666666754,
+   "end": 48.81374149659872,
    "text": "Now the policy works. Conditions come back up to normal. All the way back to where they started.",
    "voice": "n"
   },
   {
-   "start": 50.46666666666753,
-   "end": 57.60249433106662,
+   "start": 50.00000000000021,
+   "end": 57.13582766439931,
    "text": "The firm does not come back. Because coming back means paying the whole set-up cost over again.",
    "voice": "n"
   },
   {
-   "start": 59.400000000001306,
-   "end": 72.03750566893555,
-   "text": "State it plainly. What the policy stops from happening does not need explaining. What needs explaining is why, for the firms it did not reach in time, nothing came back.",
+   "start": 59.40000000000039,
+   "end": 65.44303854875322,
+   "text": "State it plainly. What the policy stops from happening does not need explaining.",
    "voice": "n"
   },
   {
-   "start": 74.86666666666795,
-   "end": 91.3521088435387,
-   "text": "This limb rests on Dixit's assumption that a stopped business is ruined instantly, which he flags himself as a simplification. Where a firm really can mothball a factory and restart it cheaply, this argument gets weaker.",
+   "start": 65.8666666666671,
+   "end": 72.88494331065803,
+   "text": "What needs explaining is why, for the firms it did not reach in time, nothing came back.",
    "voice": "n"
   },
   {
-   "start": 91.80000000000123,
-   "end": 106.59986394557947,
-   "text": "And chapter twenty-five's concession means the policy plausibly held some firms above the quit line who would otherwise have crossed it. So the group this applies to is smaller than Kit first supposed.",
+   "start": 76.80000000000022,
+   "end": 80.38081632653083,
+   "text": "a firm absorbs losses, then closes",
    "voice": "n"
   },
   {
-   "start": 108.8666666666678,
-   "end": 111.5666666666678,
-   "text": "through the quit line \u21d2 closed for good",
+   "start": 80.46666666666682,
+   "end": 83.09637188208633,
+   "text": "conditions recover all the way",
    "voice": "n"
   },
   {
-   "start": 111.66666666666774,
-   "end": 114.6562811791394,
-   "text": "restored \u2014 and it does not return",
+   "start": 83.20000000000009,
+   "end": 85.84131519274385,
+   "text": "and the firm does not come back",
    "voice": "n"
   },
   {
-   "start": 114.800000000001,
-   "end": 117.2439455782323,
-   "text": "explain what never returned",
-   "voice": "n"
-  },
-  {
-   "start": 117.33333333333428,
-   "end": 119.04671201814153,
-   "text": "two caveats carried",
+   "start": 85.93333333333335,
+   "end": 89.35251700680274,
+   "text": "because coming back costs the set-up again",
    "voice": "n"
   }
  ],
  "screen_text": [
-  "0.72",
-  "1.10",
-  "1.62",
   "40/43",
-  "Andcarrybothcaveats",
   "Andtheonesthatdidnotcomeback",
   "CHAPTER40",
+  "Marshall'sline",
+  "Marshall'squit-line",
   "Moneycomingineachmonth",
   "PARTTHREE\u2014THEARGUMENT",
-  "Thefirmdoesnotcomeback.",
-  "Whatitpreventedneedsnoexplaining.Whatnevercamebackdoes.",
+  "Thesamepicture,downwards",
   "Whatwejustestablished",
-  "andthepolicykeptsomeofthemalive",
-  "explainwhatneverreturned",
-  "restored\u2014anditdoesnotreturn",
-  "restson\u201cruinedinstantly\u201d\u2014aflaggedsimplification",
-  "throughthequitline\u21d2closedforgood",
-  "twocaveatscarried"
- ]
+  "afirmabsorbslosses,thencloses",
+  "andthefirmdoesnotcomeback",
+  "becausecomingbackcoststheset-upagain",
+  "conditionsrecoveralltheway",
+  "stillopen\u2014holdingonkeepsthechancealive",
+  "thebuild-line",
+  "thefirmdoesnotcomeback",
+  "therealquit-line",
+  "whatthepolicystoppedneedsnoexplaining",
+  "whynothingcamebackfortherest\u2014does"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "too_small": [],
+ "silent_beats": []
 }

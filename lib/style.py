@@ -7,6 +7,7 @@ that name things on screen.
 """
 import numpy as np
 from manim import (
+    Indicate, Circle, Succession, Uncreate, ApplyWave, AnimationGroup,
     VGroup, VMobject, Text, Mobject, Line, DashedLine, Arrow, DoubleArrow,
     Circle, Rectangle, RoundedRectangle, Polygon, Dot, SurroundingRectangle,
     Underline, ValueTracker, always_redraw,
@@ -130,6 +131,35 @@ def flash_around(mob, colour=None, run_time=1.6, buff=0.14, color=None,
     r = SurroundingRectangle(mob, color=c, buff=buff, stroke_width=stroke_width,
                              corner_radius=0.06)
     return ShowPassingFlash(r, time_width=0.6, run_time=run_time)
+
+
+def indicate(mob, colour=YELLOW_D, run_time=1.0, scale=1.14):
+    """His Indicate: a quick swell and colour flash, then back."""
+    return Indicate(mob, color=colour, scale_factor=scale, run_time=run_time)
+
+
+def circle_around(mob, colour=YELLOW_D, run_time=1.2, buff=0.16):
+    """His CircleIndicate: a ring drawn round a thing, then taken away."""
+    ring = Circle(color=colour, stroke_width=4)
+    ring.surround(mob, buffer_factor=1.0).scale(1 + buff)
+    return Succession(Create(ring, run_time=run_time * 0.55),
+                      Uncreate(ring, run_time=run_time * 0.45))
+
+
+def wave(mob, run_time=1.2, amplitude=0.18):
+    """His ApplyWave, for a thing that should look alive rather than static."""
+    return ApplyWave(mob, amplitude=amplitude, run_time=run_time)
+
+
+def dim(mobs, opacity=0.28, run_time=0.6):
+    """Push everything else back so the eye goes where it is wanted."""
+    return AnimationGroup(*[m.animate.set_opacity(opacity) for m in mobs],
+                          run_time=run_time)
+
+
+def undim(mobs, run_time=0.6):
+    return AnimationGroup(*[m.animate.set_opacity(1.0) for m in mobs],
+                          run_time=run_time)
 
 
 def underline(mob, colour=YELLOW_D, run_time=0.8):

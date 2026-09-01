@@ -121,7 +121,50 @@
   "thetimingisyours",
   "tworent-controlledflats"
  ],
- "collisions": [],
+ "collisions": [
+  {
+   "t": 94.27,
+   "a": "notadecisionunderuncertainty\u2014asignallinggame",
+   "b": "shewasunsurehowmuchhevaluedher",
+   "overlap": 0.67
+  },
+  {
+   "t": 97.07,
+   "a": "notadecisionunderuncertainty\u2014asignallinggame",
+   "b": "shewasunsurehowmuchhevaluedher",
+   "overlap": 0.67
+  },
+  {
+   "t": 97.87,
+   "a": "notadecisionunderuncertainty\u2014asignallinggame",
+   "b": "shewasunsurehowmuchhevaluedher",
+   "overlap": 0.67
+  },
+  {
+   "t": 111.53,
+   "a": "notadecisionunderuncertainty\u2014asignallinggame",
+   "b": "shewasunsurehowmuchhevaluedher",
+   "overlap": 0.67
+  },
+  {
+   "t": 112.33,
+   "a": "notadecisionunderuncertainty\u2014asignallinggame",
+   "b": "shewasunsurehowmuchhevaluedher",
+   "overlap": 0.67
+  },
+  {
+   "t": 116.07,
+   "a": "notadecisionunderuncertainty\u2014asignallinggame",
+   "b": "shewasunsurehowmuchhevaluedher",
+   "overlap": 0.67
+  },
+  {
+   "t": 116.87,
+   "a": "notadecisionunderuncertainty\u2014asignallinggame",
+   "b": "shewasunsurehowmuchhevaluedher",
+   "overlap": 0.67
+  }
+ ],
  "low_content": [],
  "too_small": [],
  "silent_beats": []

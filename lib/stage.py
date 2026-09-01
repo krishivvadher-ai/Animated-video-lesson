@@ -19,6 +19,7 @@ into their successors, and labels that cross-fade one after another.
 """
 import numpy as np
 from manim import (
+    MarkupText,
     VGroup, VMobject, Text, Line, Rectangle, RoundedRectangle, Dot,
     FadeIn, FadeOut, Write, Create, Transform, ReplacementTransform,
     TransformFromCopy, FadeTransform, LaggedStart, LaggedStartMap, Restore,
@@ -147,8 +148,44 @@ def fit(mob, region, pad=0.25, strict=True):
     return mob
 
 
-def place(mob, region, ax=0.0, ay=0.0, pad=0.25, strict=True):
+GROW_CAP = 1.60       # never enlarge anything by more than this
+GROW_TARGET = 0.80    # fill this share of the region it was given
+GROW_FROM = 1.08      # and do not bother for anything under this much growth
+
+
+def _is_all_text(m):
+    if isinstance(m, (Text, MarkupText)):
+        return True
+    subs = getattr(m, "submobjects", None)
+    if subs:
+        return all(_is_all_text(x) for x in subs)
+    return False
+
+
+def grow(mob, region, pad=0.25):
+    """Fill the frame the way he does.
+
+    A small diagram dropped into a large region leaves most of the screen
+    empty, which reads as unfinished. When a thing is much smaller than the
+    space it has been given, enlarge it -- bounded, so nothing is ever blown
+    up past the region or past a third again its drawn size."""
+    max_w = region.width - 2 * pad
+    max_h = region.height - 2 * pad
+    if mob.width < 1e-6 or mob.height < 1e-6:
+        return mob
+    if _is_all_text(mob):
+        return mob           # captions are sized by the type scale, not the box
+    k = min(GROW_TARGET * max_w / mob.width,
+            GROW_TARGET * max_h / mob.height, GROW_CAP)
+    if k > GROW_FROM:
+        mob.scale(k)
+    return mob
+
+
+def place(mob, region, ax=0.0, ay=0.0, pad=0.25, strict=True, fill=True):
     """Fit a thing to a region and put it there."""
+    if fill:
+        grow(mob, region, pad)
     fit(mob, region, pad, strict)
     mob.move_to(region.point(ax, ay))
     # keep it inside even after the offset

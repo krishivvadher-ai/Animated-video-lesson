@@ -152,10 +152,10 @@ class Chapter25(Chapter):
         # ------------------------------------------------ the caveats
         self.heading("Two careful qualifications")
         c1 = St.caption("buying assets is not itself unusual", MUTED, T_SUB, width=32)
-        St.place(c1, St.FULL, ay=0.85)
+        St.place(c1, St.FULL, ay=0.9)
         c2 = St.caption("what is new: the circumstances, and the scale",
                         CHALK, T_SUB, width=40)
-        St.place(c2, St.FULL, ay=0.35)
+        St.place(c2, St.FULL, ay=0.25)
         with self.narrate("And the authors are careful here. There is nothing unusual "
                           "about a central bank buying assets at all. What distinguishes "
                           "these operations is the circumstances they took place in, "

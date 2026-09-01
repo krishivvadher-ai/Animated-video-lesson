@@ -28,6 +28,8 @@ from lib.theme import (
 
 ROOT = Path(__file__).resolve().parent.parent
 SUBDIR = ROOT / "build" / "subs"
+
+DIMMED = 0.22          # what the rest of the scene fades to behind a card
 SUBDIR.mkdir(parents=True, exist_ok=True)
 
 apply()
@@ -238,6 +240,11 @@ class Chapter(ThreeDScene):
         if card.width > 12.2:
             card.scale(12.2 / card.width)
         card.move_to(at)
+        behind = [m for m in self.mobjects
+                  if m is not self._progress and m not in card.get_family()]
+        if behind:
+            self.play(*[m.animate.set_opacity(DIMMED) for m in behind],
+                      run_time=0.4)
         self.play(DrawBorderThenFill(card[0]), run_time=0.7)
         self.play(FadeIn(card[1]), run_time=0.6)
         spoken = narration or f"{term}. {definition}"
@@ -247,7 +254,11 @@ class Chapter(ThreeDScene):
         rest = hold - 3.2
         if rest > 1e-3:
             self.wait(rest)
-        self.play(FadeOut(card), run_time=0.5)
+        if behind:
+            self.play(FadeOut(card),
+                      *[m.animate.set_opacity(1.0) for m in behind], run_time=0.5)
+        else:
+            self.play(FadeOut(card), run_time=0.5)
 
     # ------------------------------------------------------------ furniture
     def open_chapter(self):
@@ -314,6 +325,11 @@ class Chapter(ThreeDScene):
                     c = sub.get_center()
                 except Exception:
                     continue
+                try:
+                    if max(sub.get_stroke_opacity(), sub.get_fill_opacity()) < 0.35:
+                        continue
+                except Exception:
+                    pass
                 txt = getattr(sub, "text", None)
                 if txt is None and isinstance(sub, VGroup):
                     parts = [getattr(x, "text", None) for x in sub]

@@ -1,108 +1,114 @@
 {
  "chapter": 43,
  "title": "What is actually being claimed",
- "duration": 151.26666666666603,
+ "duration": 157.13333333333273,
  "cues": [
   {
-   "start": 5.399999999999999,
-   "end": 10.173696145124715,
+   "start": 6.333333333333329,
+   "end": 11.107029478458045,
    "text": "This is not a claim that quantitative easing does not work.",
    "voice": "n"
   },
   {
-   "start": 11.399999999999995,
-   "end": 21.509251700680267,
+   "start": 11.533333333333324,
+   "end": 21.642585034013596,
    "text": "Kit has not disputed that it moved prices in financial markets, which is the best-established finding in the whole body of research.",
    "voice": "n"
   },
   {
-   "start": 22.733333333333324,
-   "end": 26.03641723356008,
+   "start": 22.066666666666652,
+   "end": 25.36975056689341,
    "text": "It is not a claim that the theory is false.",
    "voice": "n"
   },
   {
-   "start": 27.266666666666655,
-   "end": 32.677324263038535,
+   "start": 25.799999999999983,
+   "end": 31.210657596371867,
    "text": "It is a claim that the theory is incomplete, in one specific place.",
    "voice": "n"
   },
   {
-   "start": 34.400000000000006,
-   "end": 37.62181405895692,
+   "start": 35.33333333333339,
+   "end": 38.55514739229031,
    "text": "So rebuild the chain one final time.",
    "voice": "n"
   },
   {
-   "start": 38.06666666666674,
-   "end": 42.93709750566901,
+   "start": 39.000000000000206,
+   "end": 43.87043083900247,
    "text": "Careful reasoning about what can go wrong at every stage.",
    "voice": "n"
   },
   {
-   "start": 43.3333333333335,
-   "end": 51.62539682539699,
+   "start": 44.266666666666964,
+   "end": 52.558730158730455,
    "text": "Except one. The stage where a quantity finally has to change, because somebody in a room has to say yes.",
    "voice": "n"
   },
   {
-   "start": 53.80000000000035,
-   "end": 84.93170068027246,
-   "text": "The first is Dixit's, and Kit is mostly reporting it. When spending cannot be undone and the future is unknown, the bar is higher than the textbook says. And it rises as the world becomes more frightening. So a policy used in frightening times is working against the largest version of that bar. That is well-established economics, published in a general economics journal, and simply absent from the article he began with.",
+   "start": 56.266666666667284,
+   "end": 71.76013605442239,
+   "text": "The first is Dixit's, and Kit is mostly reporting it. When spending cannot be undone and the future is unknown, the bar is higher than the textbook says. And it rises as the world becomes more frightening.",
    "voice": "n"
   },
   {
-   "start": 86.66666666666707,
-   "end": 94.2517006802725,
-   "text": "The second is Kit's. And he holds it loosely, for all the reasons chapter twenty-nine gave.",
+   "start": 72.20000000000068,
+   "end": 88.83133786848141,
+   "text": "So a policy used in frightening times is working against the largest version of that bar. That is well-established economics, published in a general economics journal, and simply absent from the article he began with.",
    "voice": "n"
   },
   {
-   "start": 96.53333333333362,
-   "end": 100.40530612244926,
+   "start": 89.26666666666722,
+   "end": 96.56557823129307,
+   "text": "The second is Kit's. And he holds it loosely, for all the reasons the four open doors gave.",
+   "voice": "n"
+  },
+  {
+   "start": 98.86666666666709,
+   "end": 102.73863945578273,
    "text": "The gap is not a mistake in anybody's reasoning.",
    "voice": "n"
   },
   {
-   "start": 101.60000000000022,
-   "end": 103.34734693877573,
+   "start": 103.1333333333337,
+   "end": 104.8806802721092,
    "text": "It is a boundary.",
    "voice": "n"
   },
   {
-   "start": 104.53333333333346,
-   "end": 120.74671201814071,
+   "start": 108.26666666666694,
+   "end": 124.48004535147419,
    "text": "A model of the whole economy hands off to a decision it does not model. And the study of how that decision actually gets made sits in a different journal, on a different reading list, and in the other half of the same degree.",
    "voice": "n"
   },
   {
-   "start": 124.46666666666655,
-   "end": 131.6578684807255,
+   "start": 128.0,
+   "end": 135.19120181405896,
    "text": "And the last shot is all of them, standing either side of the chain, at the link nobody examined.",
    "voice": "n"
   },
   {
-   "start": 135.133333333333,
-   "end": 138.2042176870745,
-   "text": "not \u201cit fails\u201d \u00b7 not \u201cthe theory is false\u201d",
+   "start": 138.66666666666634,
+   "end": 142.95659863945545,
+   "text": "not that the policy fails, or the theory is false",
    "voice": "n"
   },
   {
-   "start": 138.33333333333294,
-   "end": 142.18208616780007,
-   "text": "incomplete at the link where somebody says yes",
+   "start": 143.0666666666663,
+   "end": 146.61356009070258,
+   "text": "that the theory is incomplete in one place",
    "voice": "n"
   },
   {
-   "start": 142.26666666666623,
-   "end": 146.03446712018098,
-   "text": "Dixit's half: established, and absent",
+   "start": 146.7333333333329,
+   "end": 150.84911564625807,
+   "text": "the bar rises exactly when the policy is used",
    "voice": "n"
   },
   {
-   "start": 146.1333333333328,
-   "end": 148.89070294784528,
-   "text": "Kit's half: his own, held loosely",
+   "start": 150.93333333333283,
+   "end": 154.88657596371831,
+   "text": "and the last link is a boundary, not a mistake",
    "voice": "n"
   }
  ],
@@ -115,33 +121,40 @@
   "5",
   "6",
   "?",
-  "Andtheclosingthought\u2014whatthewholefilmhasbeenfor",
   "CHAPTER43",
-  "DIXIT'S:thebarishigherandriseswithfear",
-  "Dixit'shalf:established,andabsent",
-  "Giltpricesrise,yieldsfall",
-  "INCOMPLETE\u2014inoneplace",
-  "Investmentandoutputrise",
-  "ItisNOTaclaimthatthetheoryisfalse.",
-  "ItisaBOUNDARY.",
-  "KIT'S:heldloosely",
-  "Kit'shalf:hisown,heldloosely",
-  "Narrowitdown,onelineatatime",
-  "Nell\u00b7Marshall\u00b7Ava\u00b7Kit\u00b7theGovernor\u00b7theAuthors",
-  "Notamistakeinanybody'sreasoning.",
-  "Otherborrowingratesfollowdown",
+  "First,whatitisnot",
+  "Kit'sown,andheldloosely",
   "PARTTHREE\u2014THEARGUMENT",
-  "TheBankcreatesmoneyandbuysgilts",
-  "Thecheaperpricereachesafirm",
-  "Thefirmdecidestobuild",
-  "ThisisNOTaclaimthatquantitativeeasingdoesnotwork.",
-  "Twothingsbelongthere",
+  "So:twoclaims,helddifferently",
+  "Thechain,onelasttime",
   "Whatisactuallybeingclaimed",
   "Whatwejustestablished",
-  "incompleteatthelinkwheresomebodysaysyes",
-  "not\u201citfails\u201d\u00b7not\u201cthetheoryisfalse\u201d",
-  "onemodelhandsofftoadecisionitdoesnotmodel",
-  "pricesinfinancialmarketsDIDmove",
-  "\u2713"
- ]
+  "adecisionisaqueue,notacalculation",
+  "amodelofthewholeeconomy",
+  "anditrisesastheworldfrightens",
+  "andthelastlinkisaboundary,notamistake",
+  "but:incomplete,inoneplace",
+  "carefulreasoningateverystage",
+  "cheaperforafirm",
+  "howthedecisiongetsmade",
+  "itisaboundary",
+  "moneybuysgilts",
+  "mostlyDixit's,andhereportsit",
+  "not:thepolicydoesnotwork",
+  "not:thetheoryisfalse",
+  "notthatthepolicyfails,orthetheoryisfalse",
+  "otherratesfalltoo",
+  "outputrises",
+  "pricesupyieldsdown",
+  "sothepolicyfightsthelargestbar",
+  "thatthetheoryisincompleteinoneplace",
+  "thebarishigherthanthetextbooksays",
+  "thebarrisesexactlywhenthepolicyisused",
+  "thefirmdecides",
+  "thegapisnotamistake"
+ ],
+ "collisions": [],
+ "low_content": [],
+ "too_small": [],
+ "silent_beats": []
 }

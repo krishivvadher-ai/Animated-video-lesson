@@ -40,8 +40,8 @@ class Chapter35(Chapter):
 
         # ------------------------------------------------ the reminder
         self.heading("Fifteen seconds of the multiplier")
-        base = W.Bar(1.0, color=WAIT, width=1.0)
-        tall = W.Bar(1.86, color=TRIGGER, width=1.0)
+        base = W.Bar(1.5, color=WAIT, width=1.3)
+        tall = W.Bar(2.79, color=TRIGGER, width=1.3)
         pair = VGroup(base, tall).arrange(RIGHT, buff=2.2, aligned_edge=DOWN)
         St.place(pair, St.STAGE, ay=-0.3)
         l1 = VGroup(Text("1.00", font=FONT, font_size=T_BODY, color=WAIT),
@@ -64,8 +64,8 @@ class Chapter35(Chapter):
         with self.narrate("And the multiplier grows as the world becomes more "
                           "uncertain."):
             self.play(FadeIn(grows), run_time=0.8)
-            self.play(tall.rect.animate.stretch_to_fit_height(3.3).move_to(
-                tall.rect.get_bottom() + UP * 1.65), run_time=1.4)
+            self.play(tall.rect.animate.stretch_to_fit_height(4.2).move_to(
+                tall.rect.get_bottom() + UP * 2.1), run_time=1.4)
         self.beat()
         self.clear_stage()
 
@@ -89,6 +89,8 @@ class Chapter35(Chapter):
         self.play(S.lag_map(FadeIn, col, lag=0.25), run_time=1.0)
         sheet = SF.sheet(ax3)
         self.play(Create(sheet), run_time=2.6)
+        mesh = SF.gridlines(ax3)
+        self.play(Create(mesh), run_time=1.6)
 
         d = Dot3D(SF.point(ax3, 0.20, 0.05), radius=0.11, color=CHALK)
         read = Text("1.86", font=FONT, font_size=T_SUB, color=CHALK)
@@ -134,7 +136,7 @@ class Chapter35(Chapter):
                           "Both up."):
             self.play(FadeIn(both), run_time=1.0)
         self.beat()
-        self.play(FadeOut(sheet), FadeOut(ax3), FadeOut(d), FadeOut(read3),
+        self.play(FadeOut(sheet), FadeOut(mesh), FadeOut(ax3), FadeOut(d), FadeOut(read3),
                   FadeOut(col), FadeOut(both), run_time=1.0)
         self.set_camera_orientation(phi=0, theta=-90 * DEGREES, zoom=1.0)
 

@@ -196,9 +196,9 @@ class Chapter24(Chapter):
 
         tix = VGroup(*[W.ticket(SRC_BR, "£5 a year", scale=0.85) for _ in range(3)])
         tix.arrange(RIGHT, buff=0.22)
-        St.place(tix, St.STAGE, ax=0.55, ay=-0.35)
-        buy = W.flow_arrow(bank.get_right() + RIGHT * 0.2,
-                           tix.get_left() + LEFT * 0.2, MONEY)
+        St.place(tix, St.STAGE, ax=0.55, ay=-0.7, fill=False)
+        buy = W.flow_arrow(bank.get_bottom() + DOWN * 0.15 + RIGHT * 0.2,
+                           tix.get_top() + UP * 0.2 + LEFT * 0.2, MONEY)
         with self.narrate("And uses it to buy these tickets. In enormous quantities."):
             self.play(FadeIn(tix), run_time=0.8)
             self.play(Create(buy), run_time=0.6)

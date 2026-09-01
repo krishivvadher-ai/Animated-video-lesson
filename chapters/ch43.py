@@ -63,9 +63,7 @@ class Chapter43(Chapter):
             self.play(chain.link(4).animate.scale(1.2), run_time=0.8)
             self.play(S.flash_around(chain.link(4), SRC_KIT, run_time=2.0))
         self.beat()
-        self.play(FadeOut(care), run_time=0.4)
-        self.play(St.park(chain, UP, height=1.1), run_time=1.0)
-        self.play(FadeOut(chain), run_time=0.5)
+        self.play(FadeOut(care), FadeOut(chain), run_time=0.7)
         self.clear_stage()
 
         # ------------------------------------------------ two claims
@@ -132,7 +130,7 @@ class Chapter43(Chapter):
         self.clear_stage()
 
         # ------------------------------------------------ the last shot
-        chain2 = Chain(y=0.0, width=12.4)
+        chain2 = Chain(y=0.0, width=13.0)
         St.place(chain2, St.FULL, ay=0.9)
         self.play(FadeIn(chain2), run_time=1.2)
         self.play(chain2.highlight(4, SRC_KIT), run_time=0.6)

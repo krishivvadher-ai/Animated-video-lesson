@@ -169,7 +169,38 @@
   "tostopexit:lifttheupside",
   "upsideworthmore\u21d2lateout"
  ],
- "collisions": [],
+ "collisions": [
+  {
+   "t": 15.13,
+   "a": "anAmericanfirm",
+   "b": "quitaftershortlosses",
+   "overlap": 0.94
+  },
+  {
+   "t": 30.13,
+   "a": "anAmericanfirm",
+   "b": "quitaftershortlosses",
+   "overlap": 0.94
+  },
+  {
+   "t": 31.33,
+   "a": "anAmericanfirm",
+   "b": "quitaftershortlosses",
+   "overlap": 0.94
+  },
+  {
+   "t": 38.07,
+   "a": "anAmericanfirm",
+   "b": "quitaftershortlosses",
+   "overlap": 0.94
+  },
+  {
+   "t": 38.87,
+   "a": "anAmericanfirm",
+   "b": "quitaftershortlosses",
+   "overlap": 0.94
+  }
+ ],
  "low_content": [],
  "too_small": [],
  "silent_beats": []

@@ -101,14 +101,14 @@ class Chapter14(Chapter):
             "of possible future outcomes, only the unfavorable ones have a bearing on "
             "the current propensity to undertake a given project",
             "Dixit (1992), p. 118, quoting Bernanke (1983)", TRIGGER, width=42)
-        St.place(q, St.FULL, ay=0.55)
+        St.place(q, St.FULL, ay=0.72, fill=False)
         with self.narrate("This one comes with a quotation, because it is the single "
                           "idea Part Three leans on hardest. Dixit is quoting Bernanke."):
             self.play(FadeIn(q), run_time=1.2)
         self.beat()
         plain = St.caption("when you can wait, the bad futures decide", CHALK, T_SUB,
                            width=44)
-        St.place(plain, St.FULL, ay=-0.45)
+        St.place(plain, St.FULL, ay=-0.72)
         with self.narrate("In plain words. When you can wait, it is mainly the bad "
                           "possible futures that decide whether you build now."):
             self.play(FadeIn(plain), run_time=0.9)

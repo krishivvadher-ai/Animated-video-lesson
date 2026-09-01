@@ -148,7 +148,32 @@
   "wood,power,wages",
   "\u00a3"
  ],
- "collisions": [],
+ "collisions": [
+  {
+   "t": 48.33,
+   "a": "ashareofthebuilding",
+   "b": "Everythingachaircosts,thebuildingincluded.",
+   "overlap": 1.0
+  },
+  {
+   "t": 54.27,
+   "a": "ashareofthebuilding",
+   "b": "Everythingachaircosts,thebuildingincluded.",
+   "overlap": 1.0
+  },
+  {
+   "t": 55.07,
+   "a": "ashareofthebuilding",
+   "b": "Everythingachaircosts,thebuildingincluded.",
+   "overlap": 1.0
+  },
+  {
+   "t": 55.2,
+   "a": "ashareofthebuilding",
+   "b": "Everythingachaircosts,thebuildingincluded.",
+   "overlap": 1.0
+  }
+ ],
  "low_content": [],
  "too_small": [],
  "silent_beats": []

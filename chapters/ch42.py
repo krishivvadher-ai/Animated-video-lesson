@@ -87,9 +87,10 @@ class Chapter42(Chapter):
 
         # ------------------------------------------------ the yield falls
         self.heading("So drop the yield, and watch")
+        self.play(FadeOut(assume), FadeOut(tied), run_time=0.5)
         ax = Axes(x_range=[0, 6, 1], y_range=[0, 3, 1], x_length=3.4, y_length=1.7,
                   axis_config=AXIS)
-        St.place(ax, St.SIDE, ay=0.72)
+        St.place(ax, St.SIDE, ay=0.55, fill=False)
         curve = ax.plot(lambda x: 2.4 - 0.3 * x, x_range=[0, 6], color=SRC_BR,
                         stroke_width=5)
         cl = Text("gilt yield", font=FONT, font_size=T_TINY, color=SRC_BR)

@@ -27,13 +27,13 @@ class Chapter00(Chapter):
 
         bars = VGroup()
         for i, h in enumerate([0.8, 1.1, 1.5, 1.9]):
-            b = Rectangle(width=0.72, height=h, color=COST, stroke_width=3,
+            b = Rectangle(width=0.62, height=h, color=COST, stroke_width=3,
                           fill_color=COST, fill_opacity=0.30)
             lab = Text(f"year {i + 1}", font=FONT, font_size=T_TINY, color=MUTED)
             g = VGroup(b, lab)
             lab.next_to(b, DOWN, buff=0.18)
             bars.add(g)
-        bars.arrange(RIGHT, buff=0.5, aligned_edge=DOWN)
+        bars.arrange(RIGHT, buff=0.34, aligned_edge=DOWN)
         St.place(bars, St.SIDE, ay=-0.1)
         St.collapse_bars(VGroup(*[g[0] for g in bars]))
 

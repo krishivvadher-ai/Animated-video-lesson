@@ -12,6 +12,7 @@ viewer never sees them -- only the shape they make.
 """
 import numpy as np
 from manim import (
+    VMobject, VGroup,
     Surface, ThreeDAxes, VGroup, Text, Dot3D, Line3D, Line, Sphere,
     UP, DOWN, LEFT, RIGHT, OUT, IN, ORIGIN, DEGREES, color_gradient,
 )
@@ -52,7 +53,7 @@ def point(ax, sigma, rho):
     return ax.c2p(_u(sigma), _v(rho), _w(multiplier(sigma, rho)))
 
 
-def sheet(ax, resolution=22):
+def sheet(ax, resolution=32):
     def f(u, v):
         sigma = SIG_LO + u * (SIG_HI - SIG_LO)
         rho = RHO_LO + v * (RHO_HI - RHO_LO)
@@ -60,7 +61,7 @@ def sheet(ax, resolution=22):
 
     s = Surface(f, u_range=[0, 1], v_range=[0, 1],
                 resolution=(resolution, resolution),
-                fill_opacity=0.75, stroke_width=0.6, stroke_color=MUTED,
+                fill_opacity=0.82, stroke_width=0.9, stroke_color=MUTED,
                 checkerboard_colors=[WAIT, TRIGGER])
     s.set_fill_by_value(axes=ax, colorscale=[(WAIT, 0.0), (TRIGGER, 0.55),
                                              (MONEY, 1.0)], axis=2)
@@ -72,3 +73,22 @@ def labels(ax):
     y = Text("cheaper money →", font=FONT, font_size=T_SMALL, color=MONEY)
     z = Text("higher bar", font=FONT, font_size=T_SMALL, color=TRIGGER)
     return VGroup(x, y, z)
+
+
+def gridlines(ax, n=7, colour=MUTED, opacity=0.35):
+    """The faint wireframe he lays over a surface so the eye can read its shape."""
+    lines = VGroup()
+    for i in range(n + 1):
+        t = i / n
+        along_u = VMobject(color=colour, stroke_width=1.6, stroke_opacity=opacity)
+        along_u.set_points_smoothly([
+            ax.c2p(u, t, _w(multiplier(SIG_LO + u * (SIG_HI - SIG_LO),
+                                      RHO_LO + t * (RHO_HI - RHO_LO))))
+            for u in np.linspace(0, 1, 24)])
+        along_v = VMobject(color=colour, stroke_width=1.6, stroke_opacity=opacity)
+        along_v.set_points_smoothly([
+            ax.c2p(t, v, _w(multiplier(SIG_LO + t * (SIG_HI - SIG_LO),
+                                       RHO_LO + v * (RHO_HI - RHO_LO))))
+            for v in np.linspace(0, 1, 24)])
+        lines.add(along_u, along_v)
+    return lines
