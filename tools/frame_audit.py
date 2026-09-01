@@ -10,7 +10,10 @@ BUILD = ROOT / "build" / "media" / "videos"
 OUT = ROOT / "build" / "frames"
 OUT.mkdir(parents=True, exist_ok=True)
 
-BG = (14, 20, 32)
+import sys as _sys
+_sys.path.insert(0, str(ROOT))
+from lib.theme import BG as _BG_HEX
+BG = tuple(int(_BG_HEX.lstrip("#")[i:i + 2], 16) for i in (0, 2, 4))
 
 
 def frames_for(mp4, n=5):
@@ -30,8 +33,8 @@ def frames_for(mp4, n=5):
 def audit(p):
     im = np.asarray(Image.open(p).convert("RGB")).astype(int)
     h, w, _ = im.shape
-    diff = np.abs(im - np.array(BG)).sum(axis=2)
-    ink = diff > 40
+    diff = np.abs(im - np.array(BG)).max(axis=2)
+    ink = diff > 26
     m = max(2, int(w * 0.012))
     edges = {
         "left": ink[:, :m].sum(), "right": ink[:, -m:].sum(),

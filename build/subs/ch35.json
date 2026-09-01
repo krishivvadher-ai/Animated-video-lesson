@@ -1,0 +1,154 @@
+{
+ "chapter": 35,
+ "title": "Bringing Part One back",
+ "duration": 174.1333333333323,
+ "cues": [
+  {
+   "start": 5.399999999999999,
+   "end": 14.758004535147391,
+   "text": "Kit puts the two articles side by side, and notices they are arguing about the same quantity from opposite sides.",
+   "voice": "n"
+  },
+  {
+   "start": 15.199999999999996,
+   "end": 20.392789115646252,
+   "text": "One of them asserts that a lower cost of capital raises investment.",
+   "voice": "n"
+  },
+  {
+   "start": 20.799999999999994,
+   "end": 30.27959183673469,
+   "text": "And the other spends a whole article showing that the number standing between the cost of capital and the decision is not the cost of capital.",
+   "voice": "n"
+  },
+  {
+   "start": 34.40000000000006,
+   "end": 43.44458049886627,
+   "text": "Fifteen seconds of chapter eight, so it is fresh. The bar a project must clear is the textbook bar, multiplied.",
+   "voice": "n"
+  },
+  {
+   "start": 43.8666666666668,
+   "end": 48.585759637188346,
+   "text": "And the multiplier grows as the world becomes more uncertain.",
+   "voice": "n"
+  },
+  {
+   "start": 50.93333333333359,
+   "end": 57.1022675736964,
+   "text": "Now watch the Governor reach for quantitative easing, and ask when he does that.",
+   "voice": "n"
+  },
+  {
+   "start": 57.53333333333365,
+   "end": 61.1847165532883,
+   "text": "Only when rates have already been cut to nothing.",
+   "voice": "n"
+  },
+  {
+   "start": 61.60000000000035,
+   "end": 64.7836734693881,
+   "text": "And when does that happen? Only in a crisis.",
+   "voice": "n"
+  },
+  {
+   "start": 65.20000000000039,
+   "end": 68.94113378684845,
+   "text": "And what is a crisis? Maximum uncertainty.",
+   "voice": "n"
+  },
+  {
+   "start": 70.66666666666698,
+   "end": 79.26390022675768,
+   "text": "Which means we can go back to the sheet from chapter eight, and watch what the policy actually does to a firm's bar.",
+   "voice": "n"
+  },
+  {
+   "start": 83.6000000000001,
+   "end": 94.96281179138332,
+   "text": "Here is a firm in ordinary times. Twenty per cent choppiness, money at five per cent. Its bar is one point eight six times break-even.",
+   "voice": "n"
+  },
+  {
+   "start": 96.20000000000005,
+   "end": 106.03188208616784,
+   "text": "The policy makes money cheaper. So the firm slides this way \u2014 and the sheet under it goes up, not down. Two point six one.",
+   "voice": "n"
+  },
+  {
+   "start": 107.26666666666658,
+   "end": 118.91732426303847,
+   "text": "But the policy is only ever used in a crisis. So at the very same moment, the firm is dragged the other way too \u2014 into the choppiest part of the sheet.",
+   "voice": "n"
+  },
+  {
+   "start": 120.13333333333294,
+   "end": 125.83528344671163,
+   "text": "Both movements push the bar up. Not one up and one down. Both up.",
+   "voice": "n"
+  },
+  {
+   "start": 128.06666666666618,
+   "end": 142.44566893423988,
+   "text": "Which gives the sentence this chapter exists for. Quantitative easing is not a weaker version of a rate cut. It is a rate cut delivered in the one situation that blunts rate cuts.",
+   "voice": "n"
+  },
+  {
+   "start": 143.66666666666603,
+   "end": 154.9596825396819,
+   "text": "And be clear about whose is whose. The bar, and the fact that it rises with uncertainty, is Dixit's. Putting it next to this policy is Kit's.",
+   "voice": "n"
+  },
+  {
+   "start": 157.26666666666594,
+   "end": 160.9180498866206,
+   "text": "one: cheaper capital raises investment",
+   "voice": "n"
+  },
+  {
+   "start": 161.06666666666587,
+   "end": 164.54222222222143,
+   "text": "the other: the number in between is not that",
+   "voice": "n"
+  },
+  {
+   "start": 164.6666666666658,
+   "end": 168.7708390022667,
+   "text": "QE \u21d2 zero bound \u21d2 crisis \u21d2 maximum uncertainty",
+   "voice": "n"
+  },
+  {
+   "start": 168.86666666666574,
+   "end": 171.75179138321903,
+   "text": "the bar is highest exactly then",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "35/43",
+  "Andwhatisacrisis?Maximumuncertainty.",
+  "Andwhendoesthathappen?Onlyinacrisis.",
+  "BothmovementspushthebarUP.",
+  "Bowdler&Radia",
+  "BringingPartOneback",
+  "CHAPTER35",
+  "Dixit",
+  "Moneycomingineachmonth",
+  "Onlywhenrateshavealreadybeencuttonothing.",
+  "PARTTHREE\u2014THEARGUMENT",
+  "QEisaratecutdeliveredintheonesituationthatbluntsratecuts.",
+  "QE\u21d2zerobound\u21d2crisis\u21d2maximumuncertainty",
+  "Whatwejustestablished",
+  "Whendoeshereachforthispolicy?",
+  "alowercostofcapitalraisesinvestment",
+  "break-even",
+  "cheapermoney\u2192",
+  "choppierrevenue\u2192",
+  "one:cheapercapitalraisesinvestment",
+  "thebar:Dixit\u00b7thepairing:Kit",
+  "thebarishighestexactlythen",
+  "thenumberinbetweenisNOTthecostofcapital",
+  "theother:thenumberinbetweenisnotthat",
+  "therealbar"
+ ]
+}

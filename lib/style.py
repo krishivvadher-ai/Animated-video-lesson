@@ -44,12 +44,34 @@ T2C = {
 
 
 def t2c_for(text, extra=None):
-    """The colour map for one string: only the words it actually contains, so
-    Manim never has to search for terms that are not there."""
+    """Colour ranges for one string.
+
+    Longest match first, and never overlapping, so "cost" inside "costs" can
+    never fight with it. Returned as explicit index ranges, which is the form
+    Manim colours exactly.
+    """
     table = dict(T2C)
     if extra:
         table.update(extra)
-    return {w: c for w, c in table.items() if w in text}
+    words = sorted(table, key=len, reverse=True)
+    taken = [False] * len(text)
+    out = {}
+    for w in words:
+        start = 0
+        while True:
+            i = text.find(w, start)
+            if i < 0:
+                break
+            j = i + len(w)
+            # whole words only, and not already coloured
+            before_ok = i == 0 or not (text[i - 1].isalpha())
+            after_ok = j >= len(text) or not (text[j].isalpha())
+            if before_ok and after_ok and not any(taken[i:j]):
+                out[f"[{i}:{j}]"] = table[w]
+                for k in range(i, j):
+                    taken[k] = True
+            start = j
+    return out
 
 
 

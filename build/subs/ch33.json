@@ -1,0 +1,144 @@
+{
+ "chapter": 33,
+ "title": "One sentence, two different kinds of claim",
+ "duration": 194.06666666666572,
+ "cues": [
+  {
+   "start": 5.399999999999999,
+   "end": 15.697913832199545,
+   "text": "Here is the sentence the whole of Part Two turns on. It is on page six hundred and twelve, and these are the authors' exact words.",
+   "voice": "n"
+  },
+  {
+   "start": 16.933333333333326,
+   "end": 24.392789115646252,
+   "text": "It contains two completely different kinds of claim, stitched together. Split it in half.",
+   "voice": "n"
+  },
+  {
+   "start": 24.79999999999999,
+   "end": 33.802040816326524,
+   "text": "The first half is a question about prices. Does the cheaper money actually arrive at a firm? You can go and check that.",
+   "voice": "n"
+  },
+  {
+   "start": 34.19999999999999,
+   "end": 44.73623582766439,
+   "text": "The second half is a question about behaviour. What does a firm do once the money has arrived? That is a different sort of question entirely.",
+   "voice": "n"
+  },
+  {
+   "start": 45.93333333333338,
+   "end": 60.38476190476195,
+   "text": "Watch what the authors do to that first half. They attach a qualification to it. The banking sector was badly damaged when the policy was used, so anything travelling through it may be impaired.",
+   "voice": "n"
+  },
+  {
+   "start": 60.800000000000125,
+   "end": 72.00575963718833,
+   "text": "A second one. Households and smaller companies cannot borrow by selling bonds to investors, so they may not benefit from that route directly.",
+   "voice": "n"
+  },
+  {
+   "start": 72.4000000000002,
+   "end": 82.11310657596393,
+   "text": "And a third. If banks are short of capital of their own, a cheaper funding cost may barely move the price of the credit they charge.",
+   "voice": "n"
+  },
+  {
+   "start": 83.33333333333344,
+   "end": 103.6514739229026,
+   "text": "And be fair to them. These are honest, careful qualifications. They also name several other routes by which small firms might still benefit \u2014 through supply chains, through a cheaper currency helping exporters, and through banks passing on lower rates. All of that is in the article.",
+   "voice": "n"
+  },
+  {
+   "start": 105.4,
+   "end": 108.99333333333334,
+   "text": "Now Kit waits for the same thing to happen to the other half.",
+   "voice": "c"
+  },
+  {
+   "start": 116.53333333333323,
+   "end": 123.63147392290239,
+   "text": "One half of that sentence is hedged three times. The other half is not hedged once.",
+   "voice": "n"
+  },
+  {
+   "start": 125.9333333333331,
+   "end": 141.55804988662106,
+   "text": "His first reaction is not disagreement, and that matters for everything that follows. His first reaction is that two halves of one sentence are not the same kind of statement, and are being given the same amount of trust.",
+   "voice": "n"
+  },
+  {
+   "start": 143.8666666666663,
+   "end": 159.46494331065725,
+   "text": "This is not carelessness. It is what a certain kind of economics does by construction. It models markets in enormous detail, and it treats a firm as a machine. Numbers in. Decision out.",
+   "voice": "n"
+  },
+  {
+   "start": 159.8666666666662,
+   "end": 170.26657596371834,
+   "text": "There is nothing dishonest in that. It is a simplification, and simplifications are how anyone thinks about anything complicated.",
+   "voice": "n"
+  },
+  {
+   "start": 171.46666666666616,
+   "end": 177.58249433106525,
+   "text": "But it does mean that the last link in the chain is the only one nobody examines.",
+   "voice": "n"
+  },
+  {
+   "start": 179.86666666666605,
+   "end": 182.99560090702886,
+   "text": "one sentence, two kinds of claim",
+   "voice": "n"
+  },
+  {
+   "start": 183.13333333333264,
+   "end": 186.1229478458043,
+   "text": "\u201cdoes it arrive?\u201d \u2014 hedged 3 times",
+   "voice": "n"
+  },
+  {
+   "start": 186.2666666666659,
+   "end": 188.99333333333257,
+   "text": "\u201cwhat does a firm do?\u201d \u2014 not hedged",
+   "voice": "n"
+  },
+  {
+   "start": 189.1333333333325,
+   "end": 191.65854875283364,
+   "text": "a firm modelled as a machine",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "33/43",
+  "AndKit'sfirstreactionisnotdisagreement",
+  "Andhereisthediagnosis\u2014begenerousaboutit",
+  "Bowdler&Radia(2012),p.612",
+  "CHAPTER33",
+  "DoescheapermoneyARRIVEatafirm?",
+  "Kitwaitsforoneontheotherhalf.",
+  "Noneappears.",
+  "Onesentence,twodifferentkindsofclaim",
+  "PARTTHREE\u2014THEARGUMENT",
+  "WhatdoesafirmDOonceithas?",
+  "Whatwejustestablished",
+  "adamagedbankingsector",
+  "afirm",
+  "afirmmodelledasamachine",
+  "asimplification,notafault",
+  "aweakbankpasseslittleon",
+  "decisionout",
+  "numbersin",
+  "onesentence,twokindsofclaim",
+  "smallfirmscannotsellbonds",
+  "sothelastlinkisneverexamined",
+  "threefurtherroutesarenamed",
+  "twohalves.Onekindoftrust.",
+  "\u201cThisfallinthecostofcapitalshouldboostconsumptionandinvestmentbyincreasingincentivestoborrowandreducingincentivestosave.\u201d",
+  "\u201cdoesitarrive?\u201d\u2014hedged3times",
+  "\u201cwhatdoesafirmdo?\u201d\u2014nothedged"
+ ]
+}

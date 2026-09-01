@@ -1,0 +1,105 @@
+{
+ "chapter": 40,
+ "title": "And the ones that did not come back",
+ "duration": 121.40000000000082,
+ "cues": [
+  {
+   "start": 4.866666666666667,
+   "end": 16.389614512471656,
+   "text": "You will recognise this picture instantly, because it is the one from chapter twelve. Same scale, same lines. Only the direction is different.",
+   "voice": "n"
+  },
+  {
+   "start": 19.333333333333325,
+   "end": 25.37637188208616,
+   "text": "A firm that is already running. The crisis arrives, and its takings fall.",
+   "voice": "n"
+  },
+  {
+   "start": 25.866666666666635,
+   "end": 35.99260770975054,
+   "text": "Down past the level where the textbook would have closed it. And still it holds on, because holding on keeps the chance of recovery alive.",
+   "voice": "n"
+  },
+  {
+   "start": 36.46666666666683,
+   "end": 40.05823129251717,
+   "text": "And then through the quit line. It closes.",
+   "voice": "n"
+  },
+  {
+   "start": 41.8666666666671,
+   "end": 49.21374149659907,
+   "text": "Now the policy works. Conditions come back up to normal. All the way back to where they started.",
+   "voice": "n"
+  },
+  {
+   "start": 50.46666666666753,
+   "end": 57.60249433106662,
+   "text": "The firm does not come back. Because coming back means paying the whole set-up cost over again.",
+   "voice": "n"
+  },
+  {
+   "start": 59.400000000001306,
+   "end": 72.03750566893555,
+   "text": "State it plainly. What the policy stops from happening does not need explaining. What needs explaining is why, for the firms it did not reach in time, nothing came back.",
+   "voice": "n"
+  },
+  {
+   "start": 74.86666666666795,
+   "end": 91.3521088435387,
+   "text": "This limb rests on Dixit's assumption that a stopped business is ruined instantly, which he flags himself as a simplification. Where a firm really can mothball a factory and restart it cheaply, this argument gets weaker.",
+   "voice": "n"
+  },
+  {
+   "start": 91.80000000000123,
+   "end": 106.59986394557947,
+   "text": "And chapter twenty-five's concession means the policy plausibly held some firms above the quit line who would otherwise have crossed it. So the group this applies to is smaller than Kit first supposed.",
+   "voice": "n"
+  },
+  {
+   "start": 108.8666666666678,
+   "end": 111.5666666666678,
+   "text": "through the quit line \u21d2 closed for good",
+   "voice": "n"
+  },
+  {
+   "start": 111.66666666666774,
+   "end": 114.6562811791394,
+   "text": "restored \u2014 and it does not return",
+   "voice": "n"
+  },
+  {
+   "start": 114.800000000001,
+   "end": 117.2439455782323,
+   "text": "explain what never returned",
+   "voice": "n"
+  },
+  {
+   "start": 117.33333333333428,
+   "end": 119.04671201814153,
+   "text": "two caveats carried",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "0.72",
+  "1.10",
+  "1.62",
+  "40/43",
+  "Andcarrybothcaveats",
+  "Andtheonesthatdidnotcomeback",
+  "CHAPTER40",
+  "Moneycomingineachmonth",
+  "PARTTHREE\u2014THEARGUMENT",
+  "Thefirmdoesnotcomeback.",
+  "Whatitpreventedneedsnoexplaining.Whatnevercamebackdoes.",
+  "Whatwejustestablished",
+  "andthepolicykeptsomeofthemalive",
+  "explainwhatneverreturned",
+  "restored\u2014anditdoesnotreturn",
+  "restson\u201cruinedinstantly\u201d\u2014aflaggedsimplification",
+  "throughthequitline\u21d2closedforgood",
+  "twocaveatscarried"
+ ]
+}

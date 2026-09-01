@@ -1,0 +1,132 @@
+{
+ "chapter": 32,
+ "title": "The chain",
+ "duration": 129.46666666666624,
+ "cues": [
+  {
+   "start": 4.866666666666667,
+   "end": 20.83482993197279,
+   "text": "Two economists, writing in twenty-twelve, set out how the policy is supposed to work. They set it out as a chain. And the chain is the picture Part Two is built on, exactly as the vertical scale was Part One's.",
+   "voice": "n"
+  },
+  {
+   "start": 21.266666666666666,
+   "end": 32.52793650793651,
+   "text": "Christopher Bowdler and Amar Radia. They are careful, serious people, and nothing in this film is an attack on them. Their colour, from here on, is red.",
+   "voice": "n"
+  },
+  {
+   "start": 34.53333333333337,
+   "end": 38.7163718820862,
+   "text": "One. The Bank creates money and buys gilts.",
+   "voice": "n"
+  },
+  {
+   "start": 39.1333333333334,
+   "end": 42.821315192743825,
+   "text": "Two. Gilt prices rise, and yields fall.",
+   "voice": "n"
+  },
+  {
+   "start": 43.26666666666678,
+   "end": 46.85632653061236,
+   "text": "Three. Other borrowing rates follow them down.",
+   "voice": "n"
+  },
+  {
+   "start": 47.26666666666682,
+   "end": 51.38244897959199,
+   "text": "Four. The cheaper price reaches an ordinary firm.",
+   "voice": "n"
+  },
+  {
+   "start": 51.8000000000002,
+   "end": 55.12630385487549,
+   "text": "Five. The firm decides to build.",
+   "voice": "n"
+  },
+  {
+   "start": 55.53333333333358,
+   "end": 59.041814058957165,
+   "text": "Six. Investment and output rise.",
+   "voice": "n"
+  },
+  {
+   "start": 60.26666666666696,
+   "end": 70.16956916099802,
+   "text": "Why a chain? Because it is honest. Each link can be examined on its own. And if any single link fails, the whole thing stops there.",
+   "voice": "n"
+  },
+  {
+   "start": 71.80000000000031,
+   "end": 79.06757369614543,
+   "text": "The authors themselves split the chain into two legs. From the purchases to the price of assets.",
+   "voice": "n"
+  },
+  {
+   "start": 79.46666666666692,
+   "end": 84.66217687074855,
+   "text": "And from the price of assets to what anybody actually spends.",
+   "voice": "n"
+  },
+  {
+   "start": 85.86666666666687,
+   "end": 98.74566893424057,
+   "text": "And Kit wants to say this out loud, now, before anything else. He is only ever disputing the second leg. Not the first. The first leg is the part everybody argues about, and he is not arguing about it.",
+   "voice": "c"
+  },
+  {
+   "start": 100.46666666666677,
+   "end": 106.04530612244908,
+   "text": "And within that second leg, one link is going to matter more than all the others.",
+   "voice": "n"
+  },
+  {
+   "start": 106.46666666666667,
+   "end": 112.99419501133787,
+   "text": "Link five. The firm decides to build. Keep your eye on it for the rest of the film.",
+   "voice": "n"
+  },
+  {
+   "start": 115.26666666666655,
+   "end": 117.54807256235816,
+   "text": "a chain of six links",
+   "voice": "n"
+  },
+  {
+   "start": 117.66666666666649,
+   "end": 120.62145124716535,
+   "text": "one link fails \u21d2 everything stops",
+   "voice": "n"
+  },
+  {
+   "start": 120.73333333333309,
+   "end": 123.99365079365056,
+   "text": "two legs: to prices, then to spending",
+   "voice": "n"
+  },
+  {
+   "start": 124.13333333333303,
+   "end": 127.09972789115616,
+   "text": "Kit disputes the second leg only",
+   "voice": "n"
+  }
+ ],
+ "screen_text": [
+  "32/43",
+  "Bowdler&Radia(2012)",
+  "CHAPTER32",
+  "I'monlyeverdisputingthesecondleg.",
+  "Kitdisputesthesecondlegonly",
+  "Linkfive.Thefirmdecidestobuild.",
+  "PARTTWO\u2014THEPOLICY",
+  "Thechain",
+  "Whatwejustestablished",
+  "achainofsixlinks",
+  "examineeachlinkonitsown",
+  "legone:purchases\u2192assetprices",
+  "legtwo:assetprices\u2192spending",
+  "onelinkfails\u21d2everythingstops",
+  "twolegs:toprices,thentospending"
+ ]
+}

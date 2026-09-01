@@ -1,175 +1,130 @@
 {
  "chapter": 29,
- "title": "The management half: a queue, not a calculation",
- "duration": 348.73333333333164,
+ "title": "Money, and what banks can\u2019t do with reserves",
+ "duration": 166.73333333333284,
  "cues": [
   {
-   "start": 3.0000000000000018,
-   "end": 9.077868480725625,
-   "text": "Grow Nell's factory into a large company, with several separately run parts.",
+   "start": 4.866666666666667,
+   "end": 16.293650793650794,
+   "text": "There is a second way of telling the same story, and it clears up the thing almost everybody gets wrong about this policy. So it is worth four minutes.",
    "voice": "n"
   },
   {
-   "start": 11.466666666666663,
-   "end": 18.452789115646254,
-   "text": "division. A separately run part of a large company, with someone in charge of arguing for it.",
+   "start": 17.266666666666666,
+   "end": 24.820090702947844,
+   "text": "Narrow money is reserves \u2014 the money banks hold at the central bank. Nobody else can touch it.",
    "voice": "n"
   },
   {
-   "start": 21.799999999999994,
-   "end": 27.962857142857136,
-   "text": "capital budget. The pot of money a board shares out between projects each year.",
+   "start": 25.266666666666662,
+   "end": 33.32362811791383,
+   "text": "Broad money is deposits \u2014 the money in everybody else's bank account. That is the one that gets spent.",
    "voice": "n"
   },
   {
-   "start": 31.33333333333332,
-   "end": 47.098049886621304,
-   "text": "hurdle rate, as an object. A minimum return written into a policy document, applied by a board to proposals it cannot check for itself \u2014 and sitting far above what the company's money actually costs.",
+   "start": 34.533333333333324,
+   "end": 43.62376417233559,
+   "text": "And the transmission of this policy runs through broad money. Not narrow money. The Bank of England has said so explicitly.",
    "voice": "n"
   },
   {
-   "start": 52.33333333333339,
-   "end": 57.62031746031752,
-   "text": "Dixit already explains why that number is high, and he does it well.",
+   "start": 45.93333333333342,
+   "end": 57.235691609977415,
+   "text": "The textbook says that reserves multiply. Put a pound of reserves into the system and broad money rises by ten or fifteen times as much.",
    "voice": "n"
   },
   {
-   "start": 58.06666666666676,
-   "end": 68.72748299319737,
-   "text": "In his model it is worked out from things outside the company. The cost of its money, how choppy its market is, how fast that market is growing.",
+   "start": 58.46666666666687,
+   "end": 61.07904761904782,
+   "text": "In Britain, it was less than one.",
    "voice": "n"
   },
   {
-   "start": 69.13333333333347,
-   "end": 76.80621315192758,
-   "text": "It is an outside price wearing a disguise. And if the outside price moves, the number moves.",
+   "start": 62.266666666666914,
+   "end": 79.39215419501159,
+   "text": "And the authors say plainly that this is not evidence the policy failed. On their own account, the right thing to expect was about one, not fifteen. The failure of broad money to explode is exactly what their theory predicts.",
    "voice": "n"
   },
   {
-   "start": 78.00000000000009,
-   "end": 89.33931972789124,
-   "text": "So say this explicitly, because it is easy to miss. Kit's dispute is not about how high the number is. It is about what kind of number it is.",
+   "start": 80.6000000000003,
+   "end": 102.74725623582798,
+   "text": "They also explain where it leaked away. Broad money grew by less than two hundred billion pounds during the first round. Banks swapped short-term deposits for long-term debt. And large companies raised money by issuing bonds instead of borrowing from banks. Both of those reduce broad money.",
    "voice": "n"
   },
   {
-   "start": 91.86666666666662,
-   "end": 97.59192743764167,
-   "text": "And here is the mechanism, as an actual queue of projects at the boardroom door.",
+   "start": 105.00000000000016,
+   "end": 111.39133786848089,
+   "text": "You will hear it said that the banks are sitting on all that money instead of lending it out.",
    "voice": "n"
   },
   {
-   "start": 97.99999999999983,
-   "end": 109.91968253968237,
-   "text": "State the assumption openly, because it is doing a lot of work and it might be wrong. In a large company the thing that runs out first is not money. It is management.",
+   "start": 112.6000000000001,
+   "end": 125.59038548752844,
+   "text": "The banking system cannot do that. The amount of reserves in the system is decided by how the central bank chose to fund its purchases \u2014 not by any bank's own decision.",
    "voice": "n"
   },
   {
-   "start": 111.53333333333306,
-   "end": 117.04290249433079,
-   "text": "There are always more ideas than there are people capable of running them properly.",
+   "start": 126.79999999999997,
+   "end": 134.74589569160995,
+   "text": "Reserves went up a lot because of how the purchases were paid for. That is arithmetic, not a choice.",
    "voice": "n"
   },
   {
-   "start": 117.46666666666636,
-   "end": 127.11310657596341,
-   "text": "Divisional managers push their own projects, and present them optimistically, because that is what advocating for your division looks like.",
+   "start": 135.93333333333325,
+   "end": 150.25428571428563,
+   "text": "The only way more reserves can lead to more lending is if they change a bank's incentive to lend \u2014 for instance by making the bank's own funding cheaper. Which is a completely different mechanism.",
    "voice": "n"
   },
   {
-   "start": 127.53333333333299,
-   "end": 131.2311564625847,
-   "text": "And the board cannot verify what it is told.",
+   "start": 152.53333333333313,
+   "end": 156.8697052154193,
+   "text": "narrow = reserves \u00b7 broad = deposits",
    "voice": "n"
   },
   {
-   "start": 131.6666666666663,
-   "end": 139.51614512471616,
-   "text": "So the board's real problem is not working out what each project is worth. It is choosing between them.",
+   "start": 156.99999999999974,
+   "end": 159.15369614512446,
+   "text": "multiplier: under one",
    "voice": "n"
   },
   {
-   "start": 141.79999999999953,
-   "end": 163.28321995464805,
-   "text": "A minimum return set to solve that problem is tied to the next project in the queue \u2014 the best thing the company would have to drop in order to take this one on. And that is an internal quantity. It depends on how many good ideas the business is generating, and how many capable people it has spare.",
+   "start": 159.26666666666634,
+   "end": 161.61773242630352,
+   "text": "predicted \u2014 not a failure",
    "voice": "n"
   },
   {
-   "start": 164.46666666666613,
-   "end": 170.47487528344618,
-   "text": "A fall in the return on government debt does not lengthen anybody's working week.",
-   "voice": "n"
-  },
-  {
-   "start": 170.86666666666602,
-   "end": 174.63043083900163,
-   "text": "The yield falls. And the queue does not move.",
-   "voice": "n"
-  },
-  {
-   "start": 177.46666666666587,
-   "end": 202.05732426303774,
-   "text": "Here is the first hole. What is actually scarce, on his own account, is his managers' time. But the tool the company uses to ration it is a percentage return on money. Those are not the same thing at all. A large simple purchase can swallow a lot of money and very little management. A small fiddly reorganisation can do the reverse.",
-   "voice": "n"
-  },
-  {
-   "start": 203.5999999999991,
-   "end": 223.3468934240354,
-   "text": "He thinks the crudeness is telling rather than damning. A rule a board can apply to proposals it cannot verify has to be simple, uniform and hard to argue with. But a critic could read exactly the same fact the other way, and conclude he has named the wrong scarce thing.",
-   "voice": "n"
-  },
-  {
-   "start": 224.86666666666568,
-   "end": 254.06022675736864,
-   "text": "Second hole, and it is worse. He cannot name a single observation that would tell his version apart from a much simpler story. That any published rule is slow to change, whatever it was based on, because a number that moves every month stops being a rule and becomes something to argue about. On that story the threshold could be exactly what Dixit says it is, and still sit still for years.",
-   "voice": "n"
-  },
-  {
-   "start": 255.59999999999891,
-   "end": 273.8542403628107,
-   "text": "And a third. If the queue is ranked by how valuable each project is, then a fall in the cost of money lifts every project a bit, and reshuffles the order. So the next project in the queue is not quite independent of interest rates after all.",
-   "voice": "n"
-  },
-  {
-   "start": 275.9333333333322,
-   "end": 286.44784580498754,
-   "text": "So here is the version he can defend. Not that the number never moves. But that it moves on the company's clock rather than the central bank's.",
-   "voice": "n"
-  },
-  {
-   "start": 287.6666666666654,
-   "end": 304.3516553287969,
-   "text": "Changing as the pipeline of ideas and the stock of managers change, over years. For a policy meant to work inside a downturn, that is close enough to failure to matter. But it is not the same as never, and he will not say never.",
-   "voice": "n"
-  },
-  {
-   "start": 306.13333333333196,
-   "end": 319.88340136054285,
-   "text": "And the attribution, stated plainly. Treating a hurdle rate as a rationing device rather than a calculation is not an idea Kit invented. What he would claim is the use he has put it to.",
-   "voice": "n"
-  },
-  {
-   "start": 322.1999999999985,
-   "end": 327.46675736961305,
-   "text": "Dixit's account of why the number is high is conceded entirely.",
-   "voice": "n"
-  },
-  {
-   "start": 327.5999999999985,
-   "end": 332.8651700680257,
-   "text": "Kit's dispute is about what kind of number it is, not how high.",
-   "voice": "n"
-  },
-  {
-   "start": 332.99999999999847,
-   "end": 339.40417233559936,
-   "text": "His claim: it rations management, not money \u2014 so a lower yield does not move it.",
-   "voice": "n"
-  },
-  {
-   "start": 339.53333333333177,
-   "end": 346.33591836734536,
-   "text": "And he points at three holes in that himself; the defensible version is much smaller.",
+   "start": 161.73333333333295,
+   "end": 164.32820861677968,
+   "text": "reserves cannot be lent out",
    "voice": "n"
   }
+ ],
+ "screen_text": [
+  "29/43",
+  "Andthethingeverybodysays,whichissimplywrong",
+  "BROADMONEYdepositsheldbyeverybodyelse",
+  "CHAPTER29",
+  "Money,andwhatbankscan\u2019tdowithreserves",
+  "NARROWMONEYreservesbanksholdatthecentralbank",
+  "PARTTWO\u2014THEPOLICY",
+  "Thetextbookpicture,andwhyitdoesnotapply",
+  "Twokindsofmoney,andtheyarenotthesame",
+  "Whatwejustestablished",
+  "actually:lessthanone",
+  "arithmetic,notachoice",
+  "broadmoney",
+  "broadmoney,notnarrow",
+  "broadmoneygrew<\u00a3200bn\u2014theleaks",
+  "multiplier:underone",
+  "narrow=reserves\u00b7broad=deposits",
+  "onlyviatheincentivetolend",
+  "predicted\u2014notafailure",
+  "reserves",
+  "reservescannotbelentout",
+  "underoneiswhatthetheorypredicts",
+  "\u00a3",
+  "\u00d710to15",
+  "\u201cThebanksaresittingonallthatmoneyinsteadoflendingitout.\u201d"
  ]
 }

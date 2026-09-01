@@ -1,107 +1,107 @@
 {
  "chapter": 7,
  "title": "A right, but not an obligation",
- "duration": 128.66666666666615,
+ "duration": 130.53333333333265,
  "cues": [
   {
-   "start": 3.0000000000000018,
-   "end": 11.423083900226759,
+   "start": 4.866666666666667,
+   "end": 13.289750566893424,
    "text": "Here is a way of holding the idea that makes it easy to carry around. Forget factories for two minutes.",
    "voice": "n"
   },
   {
-   "start": 11.866666666666669,
-   "end": 24.530476190476193,
+   "start": 13.73333333333333,
+   "end": 26.397142857142853,
    "text": "Somebody gives Nell a voucher. It says: you may buy this bicycle for forty pounds, on any day you like. It never expires. And it never forces you to buy anything.",
    "voice": "n"
   },
   {
-   "start": 25.73333333333333,
-   "end": 29.52113378684807,
+   "start": 27.599999999999994,
+   "end": 31.387800453514735,
    "text": "Question. Is the voucher worth anything before she uses it?",
    "voice": "c"
   },
   {
-   "start": 30.733333333333327,
-   "end": 42.04730158730158,
+   "start": 32.59999999999999,
+   "end": 43.91396825396824,
    "text": "Of course it is. Somebody would buy it off her. It gives her a right she would not otherwise have, and it never obliges her to do anything at all.",
    "voice": "n"
   },
   {
-   "start": 42.866666666666674,
-   "end": 54.27605442176871,
+   "start": 44.73333333333336,
+   "end": 56.1427210884354,
    "text": "And here is the point. The moment she uses it, the voucher is gone. She has a bicycle instead. She cannot use it again, and she cannot sell it on.",
    "voice": "n"
   },
   {
-   "start": 56.000000000000114,
-   "end": 59.686213151927554,
+   "start": 57.8666666666668,
+   "end": 61.55287981859424,
    "text": "Now map it across, one line at a time.",
    "voice": "n"
   },
   {
-   "start": 60.13333333333347,
-   "end": 63.00684807256249,
+   "start": 62.000000000000156,
+   "end": 64.87351473922918,
    "text": "The voucher is the chance to build.",
    "voice": "n"
   },
   {
-   "start": 63.4000000000002,
-   "end": 64.9615873015875,
+   "start": 65.2666666666669,
+   "end": 66.82825396825419,
    "text": "the sunk cost",
    "voice": "n"
   },
   {
-   "start": 65.40000000000019,
-   "end": 67.43124716553307,
+   "start": 67.26666666666682,
+   "end": 69.2979138321997,
    "text": "all the revenue, later",
    "voice": "n"
   },
   {
-   "start": 69.86666666666672,
-   "end": 77.90553287981865,
+   "start": 71.73333333333335,
+   "end": 79.77219954648527,
    "text": "Two words for two different values. Intrinsic value is what she would get by using the chance right now.",
    "voice": "n"
   },
   {
-   "start": 81.26666666666665,
-   "end": 88.3845804988662,
+   "start": 83.13333333333328,
+   "end": 90.25124716553283,
    "text": "And the holding premium \u2014 some people call it time value \u2014 is what the waiting itself is worth.",
    "voice": "n"
   },
   {
-   "start": 92.06666666666659,
-   "end": 100.73356009070287,
+   "start": 93.93333333333322,
+   "end": 102.60022675736951,
    "text": "And that gives the rule, in one line. Use the chance when the holding premium has fallen to zero. Not before.",
    "voice": "n"
   },
   {
-   "start": 101.93333333333314,
-   "end": 109.00965986394539,
+   "start": 103.79999999999977,
+   "end": 110.87632653061202,
    "text": "Before that point, waiting is still worth something, and building throws it away for nothing.",
    "voice": "n"
   },
   {
-   "start": 113.39999999999966,
-   "end": 116.21546485260737,
+   "start": 115.2666666666663,
+   "end": 118.082131519274,
    "text": "a right, not an obligation",
    "voice": "n"
   },
   {
-   "start": 116.33333333333296,
-   "end": 119.0092517006799,
+   "start": 118.19999999999956,
+   "end": 120.8759183673465,
    "text": "worth something before it is used",
    "voice": "n"
   },
   {
-   "start": 119.13333333333293,
-   "end": 122.14616780045311,
+   "start": 120.9999999999995,
+   "end": 124.01283446711969,
    "text": "intrinsic value: using it now",
    "voice": "n"
   },
   {
-   "start": 122.26666666666623,
-   "end": 126.28158730158685,
+   "start": 124.13333333333277,
+   "end": 128.1482539682534,
    "text": "holding premium \u2192 zero, then build",
    "voice": "n"
   }

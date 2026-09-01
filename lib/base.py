@@ -20,6 +20,16 @@ def _all_text(m):
     return False
 
 
+def _drawable(m):
+    """True if this mobject actually has something to fade in."""
+    try:
+        if m.get_num_points() > 0:
+            return True
+        return any(sub.get_num_points() > 0 for sub in m.get_family())
+    except Exception:
+        return False
+
+
 def _outline_only(m):
     """A stroked shape with no fill -- the kind that reads well drawn on."""
     if isinstance(m, (Line, DashedLine, Arrow)):
@@ -87,7 +97,8 @@ class Chapter(ThreeDScene):
                 if _outline_only(m):
                     out.append(Create(m, run_time=rt) if rt else Create(m))
                     continue
-                if isinstance(m, VGroup) and 2 < len(m) <= 14:
+                if (isinstance(m, VGroup) and 2 < len(m) <= 14
+                        and all(_drawable(sub) for sub in m)):
                     out.append(LaggedStartMap(FadeIn, m, shift=UP * 0.22,
                                               lag_ratio=LAG,
                                               **({"run_time": rt} if rt else {})))
