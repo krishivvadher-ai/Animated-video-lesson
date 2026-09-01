@@ -146,13 +146,32 @@ def build_part(name):
         s = starts.get(a, 0.0)
         e = starts.get(b, total) if b in starts else total
         marks.append((cue, s, max(e - s, 1.0)))
+    # where the narration deliberately stops, the music stops with it
+    gaps = []
+    for n, f in zip(chapters, files[head:]):
+        cue_file = SUBS / f"ch{n:02d}.json"
+        if not cue_file.exists():
+            continue
+        cues_here = json.loads(cue_file.read_text())["cues"]
+        base = starts[n]
+        for a, b in zip(cues_here[:-1], cues_here[1:]):
+            hush = b["start"] - a["end"]
+            if hush >= 2.4:
+                gaps.append((base + a["end"] + 0.25, base + b["start"] - 0.25))
+
     inputs = " ".join(f'-i "{MUSIC / (c + ".wav")}"' for c, _, _ in marks)
     fl = []
     for i, (c, s, d) in enumerate(marks):
         fl.append(f"[{i}:a]aloop=loop=-1:size=2e9,atrim=0:{d:.2f},"
                   f"afade=t=in:st=0:d=3,afade=t=out:st={max(d-4,0):.2f}:d=4[m{i}]")
     fl.append("".join(f"[m{i}]" for i in range(len(marks))) +
-              f"concat=n={len(marks)}:v=0:a=1[bed]")
+              f"concat=n={len(marks)}:v=0:a=1[joined]")
+    if gaps:
+        cond = "+".join(f"between(t,{a:.2f},{b:.2f})" for a, b in gaps)
+        fl.append(f"[joined]volume=0:enable='{cond}'[bed]")
+        print(f"  {len(gaps)} scripted silence(s) in {name}")
+    else:
+        fl.append("[joined]anull[bed]")
     run(f'ffmpeg -y -v error {inputs} -filter_complex "{";".join(fl)}" '
         f'-map "[bed]" -ac 2 -ar 44100 "{bed}"')
 

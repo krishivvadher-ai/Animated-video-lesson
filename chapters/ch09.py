@@ -54,6 +54,8 @@ class Chapter09(Chapter):
             self.play(TransformFromCopy(sums[0], sums[1], path_arc=PI / 3),
                       run_time=1.6)
         self.beat()
+        self.define("interest", "The extra a borrower pays for the use of money.",
+                    "money", MONEY, hold=3.4)
         self.define("discounting", "Turning money you get later into what it is worth "
                     "today.", "clock", WAIT, at=UP * 1.4, hold=4.0)
         self.clear_stage(keep=[ava])

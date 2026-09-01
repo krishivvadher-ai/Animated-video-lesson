@@ -7,6 +7,7 @@ CH = ROOT / "chapters"
 DOCS = ROOT / "docs"
 BUILD = ROOT / "build"
 FINAL = ROOT / "final"
+SUBS = BUILD / "subs"
 
 EXCLUDED = ["Sharpe", "Suarez", "Penrose", "Wallace", "Jagannathan",
             "Reserve Bank of Australia", "Gormsen", "Huber", "Fabo", "De Luigi",
@@ -55,9 +56,12 @@ def check_attribution(spoken, shown):
     text = spoken + "\n" + shown
     hits = []
     for name in EXCLUDED:
-        for m in re.finditer(re.escape(name), text):
+        # whole words only: "Farmers absorb years of losses" is the occupation,
+        # not the economist, and "Miller" must not fire on "Millers"
+        pat = re.escape(name) if not name[-1].isalpha() \
+            else r"\b" + re.escape(name) + r"\b"
+        if re.search(pat, text):
             hits.append(name)
-            break
     print("\n== attribution check ==")
     if hits:
         print("  EXCLUDED NAMES PRESENT:", sorted(set(hits)))
@@ -85,7 +89,8 @@ def check_screen_prose():
         "of possible future outcomes",                  # hinge quotation 1
         "This fall in the cost of capital",             # hinge quotation 2
         "Their spending plans should therefore",        # hinge quotation 3
-        "increased GDP growth by around",               # hinge quotation 4
+        "QE has proved effective in limiting",          # hinge quotation 4
+        "increased GDP growth by around",
         "has proved effective in limiting",
         "QE, by itself, is not strong enough",
         "significant periods of supernormal",
@@ -96,7 +101,12 @@ def check_screen_prose():
         data = json.loads(f.read_text())
         for t in data.get("screen_text", []):
             flat = " ".join(t.split())
-            if len(flat) > LIMIT and not flat.startswith(ALLOWED):
+            # Manim reports a Text's content with its spaces stripped, so the
+            # comparison has to ignore spacing on both sides
+            squashed = re.sub(r"\s+", "", flat).lstrip("\u201c\u2018\"'")
+            allowed = tuple(re.sub(r"\s+", "", a).lstrip("\u201c\u2018\"'")
+                            for a in ALLOWED)
+            if len(flat) > LIMIT and not squashed.startswith(allowed):
                 bad.append((f.stem, flat[:74]))
     print("\n== on-screen prose check ==")
     print(f"  captions over {LIMIT} characters on screen: {len(bad)}")
@@ -259,11 +269,12 @@ def check_audio():
 
 
 def check_silences():
-    """The three scripted silences must survive the mix."""
+    """The scripted silences must survive the mix."""
     print("\n== scripted silence check ==")
     want = {5: "the value of waiting lands",
             17: "the path falls back and she does not close",
-            33: "Kit waits for a third shield"}
+            33: "Kit waits for a third shield",
+            43: "the closing beat, after 'it is a boundary'"}
     for n, why in want.items():
         f = list((BUILD / "media" / "videos" / f"ch{n:02d}").glob("*/*.mp4"))
         if not f:
