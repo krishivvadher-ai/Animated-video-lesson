@@ -4,6 +4,7 @@ audio/lines/
 voices/
 final/*.mp4
 !final/film-complete-1080p.mp4
+!final/film-complete-1080p-captioned.mp4
 !final/*.mp4.part??
 !final/*.sha256
 final/*-novo.mp4
