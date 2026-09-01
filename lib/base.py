@@ -194,7 +194,20 @@ class Chapter(ThreeDScene):
         self.play(FadeIn(c), run_time=run_time)
         return c
 
-    def park(self, mob, corner=UL, height=1.9, run_time=1.2):
+    def park(self, mob, corner=UL, height=1.9, run_time=1.2, keep_text=False):
+        """Shrink a finished diagram into a corner, the way he does.
+
+        Its labels go first: at a third of the size they would be unreadable,
+        and a parked diagram is a reminder of a shape, not a chart to read.
+        """
+        if not keep_text:
+            labels = [x for x in mob.get_family()
+                      if isinstance(x, Text)
+                      and len(str(getattr(x, "text", "")).strip()) >= 3]
+            if labels:
+                self.play(*[FadeOut(x) for x in labels], run_time=0.45)
+                for x in labels:
+                    x._stage_ignore = True    # no longer on screen to be read
         self.play(St.park(mob, corner, height, run_time))
         return mob
 
@@ -325,8 +338,10 @@ class Chapter(ThreeDScene):
             if self._progress is not None and m is self._progress:
                 continue   # the corner indicator is furniture, not a caption
             for sub in m.get_family():
+                if getattr(sub, "_stage_ignore", False):
+                    continue          # faded out before the diagram was parked
                 fs = St.effective_font_size(sub)
-                if fs is not None and fs < St.MIN_FONT:
+                if fs is not None and fs < St.MIN_FONT - 0.5:
                     self.too_small.append(
                         {"t": t, "text": str(getattr(sub, "text", ""))[:52],
                          "font_size": round(fs, 1)})

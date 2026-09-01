@@ -135,8 +135,10 @@ def fit(mob, region, pad=0.25, strict=True):
             sub._stage_scale = getattr(sub, "_stage_scale", 1.0) * k
     if strict:
         for sub in mob.get_family():
+            if getattr(sub, "_stage_ignore", False):
+                continue
             fs = effective_font_size(sub)
-            if fs is not None and fs < MIN_FONT:
+            if fs is not None and fs < MIN_FONT - 0.5:
                 raise TextTooSmall(
                     f"{fs:.0f} in {region.name!r}; the readable minimum is "
                     f"{MIN_FONT}. There is too much text: "

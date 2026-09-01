@@ -1,125 +1,137 @@
 {
  "chapter": 3,
  "title": "Three facts that don\u2019t fit",
- "duration": 196.59999999999846,
+ "duration": 191.33333333333206,
  "cues": [
   {
-   "start": 4.799999999999997,
-   "end": 14.867210884353739,
+   "start": 4.800000000000001,
+   "end": 14.867210884353742,
    "text": "Marshall's rule is clear, and it is wrong. Here are three facts that do not fit it. All three come straight out of the paper we are following.",
    "voice": "n"
   },
   {
-   "start": 16.400000000000013,
-   "end": 25.36244897959185,
-   "text": "First, a new term. A hurdle rate is the return a firm insists a project must promise before it will pay for it.",
+   "start": 18.133333333333322,
+   "end": 23.669342403628107,
+   "text": "hurdle rate. The return a firm insists a project must promise.",
    "voice": "n"
   },
   {
-   "start": 28.100000000000037,
-   "end": 31.252154195011375,
+   "start": 26.133333333333322,
+   "end": 29.28548752834466,
    "text": "Here is what a firm's money costs it.",
    "voice": "n"
   },
   {
-   "start": 31.70000000000008,
-   "end": 39.948934240362895,
-   "text": "And here is what they insist a project promises before they will build it. Three or four times as much.",
+   "start": 29.73333333333332,
+   "end": 38.1796371882086,
+   "text": "And here is what firms insist a project promises before they will build it. Three or four times as much.",
    "voice": "n"
   },
   {
-   "start": 41.16666666666667,
-   "end": 51.71691609977324,
-   "text": "Asked directly, firms named rates from eight to thirty per cent. The middle answer was fifteen per cent. The average was seventeen.",
+   "start": 39.39999999999998,
+   "end": 49.223401360544194,
+   "text": "Asked directly, firms named rates from eight to thirty per cent. The middle answer was fifteen. The average was seventeen.",
    "voice": "n"
   },
   {
-   "start": 52.966666666666626,
-   "end": 61.2790929705215,
+   "start": 50.46666666666669,
+   "end": 58.77909297052157,
    "text": "And the safe cost of their money at the time? A nominal rate of four per cent, and a real rate close to zero.",
    "voice": "n"
   },
   {
-   "start": 63.49999999999986,
-   "end": 72.16530612244884,
+   "start": 61.73333333333357,
+   "end": 70.39863945578254,
    "text": "Second. In the middle of the nineteen-eighties, American farmers stayed open through long stretches of losses.",
    "voice": "n"
   },
   {
-   "start": 72.5999999999998,
-   "end": 80.6283446712016,
-   "text": "In nineteen eighty-three the average net income for a farm operator was six thousand dollars for the year.",
+   "start": 70.8000000000003,
+   "end": 79.18825396825426,
+   "text": "In nineteen eighty-three the average net income for a farm operator was six thousand dollars. For the year.",
    "voice": "n"
   },
   {
-   "start": 81.86666666666639,
-   "end": 94.4658956916097,
-   "text": "Even if you leave out the rent on the land and the mortgage payments altogether, it only rises to thirteen and a half thousand. For a year's work, for a whole family.",
+   "start": 80.40000000000023,
+   "end": 92.72748299319751,
+   "text": "Even leaving out the rent on the land and the mortgage payments altogether, it only rises to thirteen and a half thousand. For a whole family, for a year's work.",
    "voice": "n"
   },
   {
-   "start": 95.69999999999966,
-   "end": 99.75587301587268,
+   "start": 93.9333333333335,
+   "end": 97.98920634920651,
    "text": "Marshall's rule says: stop. They did not stop.",
    "voice": "n"
   },
   {
-   "start": 101.79999999999947,
-   "end": 109.67369614512418,
-   "text": "Two terms first. An exchange rate is how much of one country's money another country's money will buy.",
+   "start": 101.46666666666655,
+   "end": 106.5851700680271,
+   "text": "exchange rate. How much of one country's money another's will buy.",
    "voice": "n"
   },
   {
-   "start": 112.5999999999994,
-   "end": 117.05247165532819,
-   "text": "And imports are simply goods made abroad and sold here.",
+   "start": 109.99999999999977,
+   "end": 113.74489795918345,
+   "text": "imports. Goods made abroad and sold here.",
    "voice": "n"
   },
   {
-   "start": 118.99999999999937,
-   "end": 130.55777777777715,
-   "text": "A strong dollar makes foreign goods cheap in America. From nineteen-eighty to the end of nineteen eighty-four, the dollar rose by about fifty per cent.",
+   "start": 116.59999999999967,
+   "end": 133.99024943310624,
+   "text": "Here is the dollar. Up sharply to the end of nineteen eighty-four \u2014 it rose by about fifty per cent \u2014 then falling from early nineteen eighty-five, until by the end of eighty-seven it was almost back where it had been in seventy-eight.",
    "voice": "n"
   },
   {
-   "start": 132.4999999999992,
-   "end": 148.64507936507857,
-   "text": "Here is the dollar. Up sharply to the end of nineteen eighty-four, then falling from early nineteen eighty-five, until by the end of nineteen eighty-seven it was almost back where it had been in nineteen seventy-eight.",
+   "start": 134.39999999999952,
+   "end": 146.38108843537367,
+   "text": "And here are the imports. Flat for three years while the dollar climbed. Then rising \u2014 and still rising, long after the reason for it had gone away.",
    "voice": "n"
   },
   {
-   "start": 149.06666666666572,
-   "end": 166.45333333333238,
-   "text": "And here are the imports. Flat for three years while the dollar climbed. Then rising \u2014 and still rising, long after the reason for it had gone away. They did not fall for another two years, and if anything they rose a little.",
+   "start": 147.59999999999937,
+   "end": 154.29764172335538,
+   "text": "The paper gives that level two different ways on two different pages. We use the first.",
    "voice": "n"
   },
   {
-   "start": 170.59999999999883,
-   "end": 178.14947845804872,
-   "text": "Put the three together. On the textbook's own terms, all three of these are firms behaving stupidly.",
+   "start": 157.2666666666659,
+   "end": 161.47941043083824,
+   "text": "Firms turn down work that is profitable on paper.",
    "voice": "n"
   },
   {
-   "start": 178.5666666666654,
-   "end": 182.09700680271985,
-   "text": "They are not. And the next four chapters explain why.",
+   "start": 161.86666666666588,
+   "end": 166.04049886621237,
+   "text": "Farmers absorb years of losses rather than shut.",
+   "voice": "n"
+  },
+  {
+   "start": 166.46666666666584,
+   "end": 171.3370975056681,
+   "text": "And imports arrive years late, then refuse to leave.",
+   "voice": "n"
+  },
+  {
+   "start": 171.73333333333247,
+   "end": 176.1201814058948,
+   "text": "They are not being stupid. The next four chapters explain why.",
    "voice": "c"
   },
   {
-   "start": 183.533333333332,
-   "end": 187.84648526076964,
+   "start": 178.39999999999895,
+   "end": 182.7131519274366,
    "text": "hurdle rates: 3\u20134\u00d7 the cost of capital",
    "voice": "n"
   },
   {
-   "start": 187.96666666666528,
-   "end": 190.9104761904748,
+   "start": 182.7999999999989,
+   "end": 185.74380952380844,
    "text": "farmers absorbed years of losses",
    "voice": "n"
   },
   {
-   "start": 191.03333333333188,
-   "end": 194.23192743764028,
+   "start": 185.8666666666655,
+   "end": 189.0652607709739,
    "text": "imports arrived late \u2014 and stayed",
    "voice": "n"
   }
@@ -127,39 +139,41 @@
  "screen_text": [
   "$13,500",
   "$6,000",
-  "19801983198519871989",
+  "198019841988",
   "3/43",
   "8\u201330%median15mean17",
   "?",
-  "Allthreelooklikestupidity.",
-  "America",
+  "Allthreelooklikestupidity",
   "CHAPTER3",
   "Goodsmadeabroadandsoldhere.",
-  "Howmuchofonecountry'smoneyanothercountry'smoneywillbuy.",
+  "Howmuchofonecountry'smoneyanother'swillbuy.",
   "One\u2014thebarfirmsactuallyuse",
   "PARTONE\u2014THEPAPER",
+  "Thereturnafirminsistsaprojectmustpromise.",
   "Threefactsthatdon\u2019tfit",
   "Three\u2014thedollarandtheimports",
   "Two\u2014thefarmerswhowouldnotstop",
-  "Whatafirminsistsaprojectpromises.",
   "Whatwejustestablished",
-  "abroad",
-  "averageincomeperfarm,1983",
-  "evenleavingoutrentandmortgage",
+  "ayear,1983",
   "exchangerate",
   "farmersabsorbedyearsoflosses",
+  "farmersabsorbyearsoflosses",
+  "firmsturndownprofitablework",
   "hurdlerate",
   "hurdlerates:3\u20134\u00d7thecostofcapital",
   "imports",
   "importsarrivedlate\u2014andstayed",
-  "p.108:\u201c1978level\u201d\u00b7p.122:\u201c1980level\u201d",
-  "safecostofcapital:4%nominal,~0%real",
+  "importsarrivelate,andstay",
+  "p.108says1978\u00b7p.122says1980",
+  "rentandmortgageleftout",
+  "safecostofmoneyabout4%",
   "thedollar",
-  "whatthemoneycoststhem",
-  "whattheyinsistaprojectpromises",
+  "whatmoneycosts",
+  "whattheydemand",
   "\u00a3"
  ],
  "collisions": [],
  "low_content": [],
- "too_small": []
+ "too_small": [],
+ "silent_beats": []
 }

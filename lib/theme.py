@@ -48,7 +48,7 @@ T_HEAD  = 46
 T_SUB   = 36
 T_BODY  = 32
 T_SMALL = 27
-T_TINY  = 21
+T_TINY  = 22   # the film's smallest text is exactly the readable minimum
 
 # ---------------------------------------------------------------- timing
 BEAT      = 0.8
