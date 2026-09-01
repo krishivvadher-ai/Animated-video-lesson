@@ -1,89 +1,89 @@
 {
  "chapter": 20,
  "title": "Outside business",
- "duration": 149.66666666666634,
+ "duration": 149.36666666666588,
  "cues": [
   {
-   "start": 4.866666666666667,
-   "end": 16.96666666666667,
+   "start": 4.799999999999997,
+   "end": 16.9,
    "text": "The paper closes with an observation that reaches well outside business. Many personal, social and political decisions have exactly the same three features.",
    "voice": "n"
   },
   {
-   "start": 17.4,
-   "end": 27.303356009070292,
+   "start": 17.33333333333333,
+   "end": 27.236689342403622,
    "text": "Costly to reverse. Made under uncertainty. And the timing is yours to choose. So the same inertia applies to them too.",
    "voice": "n"
   },
   {
-   "start": 29.599999999999998,
-   "end": 40.57691609977324,
+   "start": 29.466666666666715,
+   "end": 40.44358276643996,
    "text": "A man and his partner, in New York, each with a rent-controlled flat. Their relationship reaches the point where she suggests they give one of them up.",
    "voice": "n"
   },
   {
-   "start": 40.99999999999999,
-   "end": 42.828616780045344,
+   "start": 40.866666666666795,
+   "end": 42.695283446712146,
    "text": "Let us give one of them up.",
    "voice": "c"
   },
   {
-   "start": 43.60000000000004,
-   "end": 56.0904308390023,
+   "start": 43.43333333333341,
+   "end": 55.92376417233567,
    "text": "And he explains to her, at length, the importance of keeping options alive. It is unlikely they would split up, he says, but given a positive probability, and so on.",
    "voice": "n"
   },
   {
-   "start": 57.33333333333341,
-   "end": 61.43605442176878,
+   "start": 57.16666666666669,
+   "end": 61.269387755102066,
    "text": "She took it very badly, and ended the relationship.",
    "voice": "n"
   },
   {
-   "start": 63.733333333333604,
-   "end": 79.03206349206377,
+   "start": 63.499999999999794,
+   "end": 78.79873015872995,
    "text": "Financial economists who hear that story say it proves how right he was. The paper says something better. He had misread the situation entirely. It was not a decision problem under uncertainty at all.",
    "voice": "n"
   },
   {
-   "start": 80.86666666666687,
-   "end": 93.3704761904764,
+   "start": 80.63333333333304,
+   "end": 93.13714285714256,
    "text": "It was a signalling game. And signalling is a genuinely useful idea, so here is the definition. Doing something costly, because the cost is what makes it believable.",
    "voice": "n"
   },
   {
-   "start": 97.13333333333351,
-   "end": 113.74390022675755,
+   "start": 96.86666666666635,
+   "end": 113.47723356009038,
    "text": "She was unsure how much he valued her. And it was precisely his willingness to take the costly, irreversible step of giving up the flat that would have carried the message. Anyone can say it. Only someone who means it will pay for it.",
    "voice": "n"
   },
   {
-   "start": 114.93333333333344,
-   "end": 119.02589569161007,
+   "start": 114.6999999999996,
+   "end": 118.79256235827624,
    "text": "He tried to sit on the fence, and fell off it.",
    "voice": "n"
   },
   {
-   "start": 120.80000000000003,
-   "end": 135.09700680272113,
+   "start": 120.53333333333286,
+   "end": 134.83034013605396,
    "text": "And that gives the chapter a real point rather than a joke. It shows a limit of the whole framework. Option value is not always the right lens. Sometimes the irreversibility is the message.",
    "voice": "n"
   },
   {
-   "start": 137.39999999999992,
-   "end": 140.42027210884345,
+   "start": 137.0666666666661,
+   "end": 140.08693877550962,
    "text": "the same three features appear elsewhere",
    "voice": "n"
   },
   {
-   "start": 140.5333333333332,
-   "end": 144.26598639455767,
+   "start": 140.2333333333327,
+   "end": 143.96598639455718,
    "text": "keeping the option open can be the wrong move",
    "voice": "n"
   },
   {
-   "start": 144.39999999999978,
-   "end": 147.28512471655307,
+   "start": 144.0999999999993,
+   "end": 146.9851247165526,
    "text": "signalling: the cost is the message",
    "voice": "n"
   }

@@ -1,131 +1,131 @@
 {
  "chapter": 19,
  "title": "What a whole industry looks like",
- "duration": 199.3333333333326,
+ "duration": 199.36666666666574,
  "cues": [
   {
-   "start": 4.866666666666667,
-   "end": 13.02108843537415,
+   "start": 4.799999999999997,
+   "end": 12.95442176870748,
    "text": "Everything so far has been about one firm. Now put a lot of them in one market and see what the market does.",
    "voice": "n"
   },
   {
-   "start": 14.466666666666663,
-   "end": 19.151337868480724,
+   "start": 14.399999999999993,
+   "end": 19.084671201814054,
    "text": "Six similar firms, all facing the same swinging demand.",
    "voice": "n"
   },
   {
-   "start": 19.599999999999994,
-   "end": 30.198321995464845,
+   "start": 19.533333333333324,
+   "end": 30.131655328798175,
    "text": "When the price rises to the entry line, new firms come in. More supply, and the price stops rising. So the price never gets above that line.",
    "voice": "n"
   },
   {
-   "start": 30.599999999999987,
-   "end": 41.11179138321994,
+   "start": 30.56666666666675,
+   "end": 41.078458049886706,
    "text": "And when the price falls to the exit line, firms leave. Less supply, and the price stops falling. So it never gets below that one either.",
    "voice": "n"
   },
   {
-   "start": 41.53333333333334,
-   "end": 47.23773242630386,
+   "start": 41.50000000000013,
+   "end": 47.20439909297065,
    "text": "Why does the entry line have to sit above average cost? Why not exactly at it?",
    "voice": "c"
   },
   {
-   "start": 48.06666666666674,
-   "end": 53.01773242630393,
+   "start": 48.03333333333339,
+   "end": 52.98439909297058,
    "text": "Suppose entry capped the price exactly at average cost.",
    "voice": "n"
   },
   {
-   "start": 53.46666666666677,
-   "end": 60.12285714285724,
+   "start": 53.43333333333335,
+   "end": 60.089523809523826,
    "text": "Then firms could never do better than normal \u2014 and bad spells would still push them below it.",
    "voice": "n"
   },
   {
-   "start": 60.533333333333466,
-   "end": 65.56630385487541,
+   "start": 60.53333333333332,
+   "end": 65.56630385487527,
    "text": "So on average they would lose. And nobody would enter at all.",
    "voice": "n"
   },
   {
-   "start": 66.00000000000016,
-   "end": 79.02045351473939,
+   "start": 65.99999999999994,
+   "end": 79.02045351473917,
    "text": "Which means the entry line has to leave room for the good spells to pay for the bad ones. The same argument, upside down, holds the exit line below day-to-day cost.",
    "voice": "n"
   },
   {
-   "start": 80.80000000000008,
-   "end": 97.27333333333341,
+   "start": 80.76666666666655,
+   "end": 97.23999999999988,
    "text": "And here is the striking part. With these particular assumptions, the market's two lines turn out to be exactly the ones a single firm on its own would have chosen. So every number from chapter ten carries straight over.",
    "voice": "n"
   },
   {
-   "start": 98.46666666666668,
-   "end": 112.15405895691612,
+   "start": 98.46666666666648,
+   "end": 112.15405895691592,
    "text": "Carry the caveat, because it matters later. That result holds for identical, small, price-taking firms, under the paper's particular assumptions. It is not a general truth.",
    "voice": "n"
   },
   {
-   "start": 113.93333333333327,
-   "end": 125.85632653061218,
+   "start": 113.89999999999974,
+   "end": 125.82299319727865,
    "text": "So what should we expect to see? In the paper's own words: significant periods of supernormal profits with no new entry, and of operating losses without exit.",
    "voice": "n"
   },
   {
-   "start": 127.06666666666653,
-   "end": 137.69868480725611,
+   "start": 127.06666666666634,
+   "end": 137.69868480725592,
    "text": "An industry sitting perfectly still. Profitable firms not expanding. Loss-making firms not closing. And nothing wrong anywhere.",
    "voice": "n"
   },
   {
-   "start": 139.99999999999974,
-   "end": 147.57129251700655,
+   "start": 139.93333333333288,
+   "end": 147.5046258503397,
    "text": "A snapshot misleads. Firms making good profits with no new entrants is not proof of monopoly.",
    "voice": "n"
   },
   {
-   "start": 147.99999999999972,
-   "end": 153.4736507936505,
+   "start": 147.93333333333285,
+   "end": 153.40698412698364,
    "text": "Firms selling below day-to-day cost is not proof of predatory pricing.",
    "voice": "n"
   },
   {
-   "start": 153.86666666666636,
-   "end": 167.60843537414937,
+   "start": 153.83333333333283,
+   "end": 167.57510204081584,
    "text": "And there is a sting. An action aimed at those profits \u2014 an antitrust case, a price cap \u2014 depresses entry. And the reduced supply can actually raise the long-run average price.",
    "voice": "n"
   },
   {
-   "start": 167.99999999999966,
-   "end": 180.85487528344638,
+   "start": 167.99999999999946,
+   "end": 180.85487528344618,
    "text": "And a government that props firms up in bad times will be anticipated. That draws in extra entry, which makes the losses worse when the bad times actually arrive.",
    "voice": "n"
   },
   {
-   "start": 183.1333333333329,
-   "end": 187.15623582766398,
+   "start": 183.09999999999937,
+   "end": 187.12290249433045,
    "text": "entry caps at H \u00b7 exit floors at L",
    "voice": "n"
   },
   {
-   "start": 187.26666666666617,
-   "end": 191.12702947845756,
+   "start": 187.26666666666597,
+   "end": 191.12702947845736,
    "text": "H above average cost, or nobody enters",
    "voice": "n"
   },
   {
-   "start": 191.2666666666661,
-   "end": 194.7634920634915,
+   "start": 191.2666666666659,
+   "end": 194.7634920634913,
    "text": "profits without entry \u00b7 losses without exit",
    "voice": "n"
   },
   {
-   "start": 194.86666666666605,
-   "end": 196.9507029478452,
+   "start": 194.89999999999918,
+   "end": 196.98403628117833,
    "text": "a snapshot misleads",
    "voice": "n"
   }
@@ -148,11 +148,9 @@
   "averagecost",
   "entrycapsatH\u00b7exitfloorsatL",
   "identicalsmallprice-takersonly",
-  "loss",
   "neverbetterthannormal\u00b7sometimesworse",
   "nothinghappens",
   "onaverage:aloss\u21d2nobodyenters",
-  "profit",
   "profitswithoutentry\u00b7losseswithoutexit",
   "profitswithoutentry\u2260monopoly",
   "proppingupisanticipated\u21d2extraentry\u21d2worselosses",

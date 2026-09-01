@@ -1,143 +1,143 @@
 {
  "chapter": 15,
  "title": "When to give up",
- "duration": 198.66666666666566,
+ "duration": 198.73333333333198,
  "cues": [
   {
-   "start": 5.9999999999999964,
-   "end": 9.535283446712015,
+   "start": 5.899999999999993,
+   "end": 9.435283446712011,
    "text": "suspending. Stopping, meaning to start again.",
    "voice": "n"
   },
   {
-   "start": 12.199999999999994,
-   "end": 14.818095238095232,
+   "start": 12.133333333333324,
+   "end": 14.751428571428562,
    "text": "abandoning. Stopping for good.",
    "voice": "n"
   },
   {
-   "start": 16.79999999999999,
-   "end": 31.919092970521532,
+   "start": 16.700000000000017,
+   "end": 31.81909297052156,
    "text": "To make the point sharp, the paper assumes that idle machinery rusts. Totally, and immediately. So pausing and quitting become the same thing, and starting again means paying the whole sunk cost over again.",
    "voice": "n"
   },
   {
-   "start": 33.13333333333332,
-   "end": 48.741723356009054,
+   "start": 33.066666666666734,
+   "end": 48.67505668934247,
    "text": "And the paper flags that itself, as a deliberate simplification. Where a firm really can mothball a factory and restart it cheaply, this half of the argument gets weaker. Hold on to that \u2014 Part Two needs it.",
    "voice": "n"
   },
   {
-   "start": 51.066666666666755,
-   "end": 54.06789115646267,
+   "start": 50.99999999999994,
+   "end": 54.00122448979586,
    "text": "Nell is losing money this month.",
    "voice": "n"
   },
   {
-   "start": 54.46666666666678,
-   "end": 56.306893424036396,
+   "start": 54.433333333333245,
+   "end": 56.27356009070286,
    "text": "closing is final",
    "voice": "n"
   },
   {
-   "start": 56.733333333333476,
-   "end": 61.406394557823276,
+   "start": 56.699999999999875,
+   "end": 61.373061224489675,
    "text": "Staying open keeps alive the chance that trade recovers.",
    "voice": "n"
   },
   {
-   "start": 61.800000000000175,
-   "end": 64.47614512471672,
+   "start": 61.79999999999984,
+   "end": 64.4761451247164,
    "text": "so she absorbs real losses",
    "voice": "n"
   },
   {
-   "start": 67.80000000000008,
-   "end": 74.86471655328806,
+   "start": 67.79999999999968,
+   "end": 74.86471655328766,
    "text": "Down here, at nought point seven two, she finally gives up. That is the real quit-line.",
    "voice": "n"
   },
   {
-   "start": 75.73333333333335,
-   "end": 82.82126984126985,
+   "start": 75.79999999999963,
+   "end": 82.88793650793613,
    "text": "At one, her day-to-day costs are exactly covered. That is where the textbook says stop.",
    "voice": "n"
   },
   {
-   "start": 83.73333333333329,
-   "end": 92.37537414965982,
+   "start": 83.8333333333329,
+   "end": 92.47537414965943,
    "text": "At one point one, the textbook says build \u2014 day-to-day costs plus the normal return on the money sunk into the building.",
    "voice": "n"
   },
   {
-   "start": 93.26666666666657,
-   "end": 97.82362811791373,
+   "start": 93.39999999999951,
+   "end": 97.95696145124667,
    "text": "And at one point six two, she should actually build.",
    "voice": "n"
   },
   {
-   "start": 98.73333333333316,
-   "end": 113.07963718820845,
+   "start": 98.89999999999945,
+   "end": 113.24630385487474,
    "text": "Two observations the paper makes about these numbers. At the true build point her operating profit is nought point six two \u2014 more than six times the normal return on the money she has sunk in.",
    "voice": "n"
   },
   {
-   "start": 114.26666666666644,
-   "end": 123.76566893424014,
+   "start": 114.46666666666606,
+   "end": 123.96566893423976,
    "text": "And at the quit point she is absorbing losses of nearly a third of her day-to-day costs, month after month, before she gives up.",
    "voice": "n"
   },
   {
-   "start": 126.06666666666632,
-   "end": 133.22489795918332,
+   "start": 126.19999999999928,
+   "end": 133.35823129251628,
    "text": "Suppose the building costs more to put up. A bigger sunk cost. What happens to the two lines?",
    "voice": "n"
   },
   {
-   "start": 133.6666666666663,
-   "end": 138.1075283446708,
+   "start": 133.79999999999924,
+   "end": 138.24086167800377,
    "text": "The build-line goes up. She is more reluctant to start.",
    "voice": "n"
   },
   {
-   "start": 138.53333333333288,
-   "end": 143.04816326530567,
+   "start": 138.66666666666583,
+   "end": 143.18149659863863,
    "text": "And the quit-line goes down. She is more reluctant to stop.",
    "voice": "n"
   },
   {
-   "start": 144.26666666666614,
-   "end": 158.39931972789063,
+   "start": 144.3999999999991,
+   "end": 158.53265306122358,
    "text": "Say that one twice, because it is not obvious. A bigger stake to keep alive makes her slower to start and slower to stop. Both at once, and for the same reason \u2014 there is more to protect.",
    "voice": "n"
   },
   {
-   "start": 160.13333333333273,
-   "end": 176.15755102040757,
+   "start": 160.26666666666569,
+   "end": 176.29088435374052,
    "text": "One more. If leaving is itself expensive \u2014 redundancy payments, restoring the site of a mine \u2014 then the build-line rises further still. She is more cautious about entering something she may have to pay to escape.",
    "voice": "n"
   },
   {
-   "start": 178.46666666666596,
-   "end": 182.33863945578162,
+   "start": 178.53333333333225,
+   "end": 182.4053061224479,
    "text": "stopping = ruin (a flagged simplification)",
    "voice": "n"
   },
   {
-   "start": 182.4666666666659,
-   "end": 185.1892517006795,
+   "start": 182.5333333333322,
+   "end": 185.2559183673458,
    "text": "staying keeps recovery alive",
    "voice": "n"
   },
   {
-   "start": 185.3333333333325,
-   "end": 192.33999999999915,
+   "start": 185.3999999999988,
+   "end": 192.40666666666547,
    "text": "0.72 \u00b7 1.00 \u00b7 1.10 \u00b7 1.62",
    "voice": "n"
   },
   {
-   "start": 192.46666666666576,
-   "end": 196.31541950113288,
+   "start": 192.53333333333208,
+   "end": 196.3820861677992,
    "text": "bigger sunk cost \u2192 slower both ways",
    "voice": "n"
   }

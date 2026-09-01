@@ -1,115 +1,230 @@
 {
  "chapter": 26,
- "title": "The evidence, read twice",
- "duration": 186.33333333333263,
+ "title": "Channel one: the hot potato",
+ "duration": 278.50000000000335,
  "cues": [
   {
-   "start": 3.0000000000000018,
-   "end": 16.88775510204082,
-   "text": "A third article, and a third pair of authors. Christopher Martin and Costas Milas. Their job was to gather up the studies of what the policy actually achieved. Their colour is green.",
+   "start": 4.799999999999997,
+   "end": 13.592290249433104,
+   "text": "Leg one of the chain has three channels, and this is the big one. The one the Bank of England itself puts first.",
    "voice": "n"
   },
   {
-   "start": 18.66666666666667,
-   "end": 27.13600907029479,
-   "text": "It increased the country's rate of growth by around one to three per cent, with a similar effect on prices.",
+   "start": 14.533333333333328,
+   "end": 26.105804988662126,
+   "text": "At the zero lower bound, money pays nothing. And a piece of government debt that matures next month, at a rate of practically zero, also pays nothing.",
    "voice": "n"
   },
   {
-   "start": 27.533333333333335,
-   "end": 32.26444444444444,
-   "text": "It has proved effective in limiting the scale of the downturn.",
+   "start": 27.13333333333336,
+   "end": 33.00603174603177,
+   "text": "perfect substitutes. Two things a holder simply does not care between.",
    "voice": "n"
   },
   {
-   "start": 32.666666666666664,
-   "end": 38.17414965986394,
-   "text": "But, by itself, it is not strong enough to spark an economic recovery.",
+   "start": 35.73333333333333,
+   "end": 46.4491156462585,
+   "text": "If the seller does not care which of those two it holds, the story ends right there. It takes the money, puts it in a drawer, and nothing else moves.",
    "voice": "n"
   },
   {
-   "start": 38.60000000000004,
-   "end": 45.60870748299323,
-   "text": "And carry this last word, because it is theirs. Of course, this conclusion is tentative.",
+   "start": 46.8666666666666,
+   "end": 64.54077097505663,
+   "text": "Economists have a name for that. And buying short-dated debt with money \u2014 what is sometimes called pure quantitative easing \u2014 can run straight into it. Japan did exactly that between two thousand and one and two thousand and six.",
    "voice": "n"
   },
   {
-   "start": 48.26666666666681,
-   "end": 57.06839002267588,
-   "text": "The first time Kit read that, he treated it as a result. Here is what the numbers say. Write it down, move on.",
+   "start": 66.76666666666647,
+   "end": 73.90104308390002,
+   "text": "Line up the things somebody can hold, from the safest at the bottom to the riskiest at the top.",
    "voice": "n"
   },
   {
-   "start": 58.26666666666685,
-   "end": 63.41573696145143,
-   "text": "Reading it again, after Dixit, he cannot let it alone.",
+   "start": 74.33333333333299,
+   "end": 83.69682539682505,
+   "text": "A ten-year gilt pays more than money. Sell it and hold the money instead, and the return on your whole portfolio drops.",
    "voice": "n"
   },
   {
-   "start": 63.80000000000023,
-   "end": 70.57151927437666,
-   "text": "Why would one policy be good at stopping a fall and bad at starting a rise? Those are not obviously different jobs.",
-   "voice": "c"
-  },
-  {
-   "start": 71.8000000000002,
-   "end": 82.82217687074849,
-   "text": "And he is uncomfortable. Not with the article \u2014 with himself, for having read that sentence once already and never asked whether there was a reason behind it.",
+   "start": 84.13333333333291,
+   "end": 98.5796371882082,
+   "text": "And there is a second reason. A pension fund likes to hold long-dated assets, so that they mature at about the time it has to pay its pensioners. Economists call that its preferred habitat.",
    "voice": "n"
   },
   {
-   "start": 85.13333333333338,
-   "end": 104.56975056689348,
-   "text": "Preventing a collapse needs markets that keep working and the upside held up. And by the good news principle, that is exactly what stops a struggling firm closing. It is strongest when things are frightening, because there is most to repair and most upside to restore.",
+   "start": 98.99999999999955,
+   "end": 102.96485260770929,
+   "text": "Selling its gilts moves it away from that habitat.",
    "voice": "n"
   },
   {
-   "start": 105.53333333333326,
-   "end": 122.26063492063484,
-   "text": "Starting a recovery needs firms to commit money they cannot get back. By the bad news principle, that turns on the downside \u2014 which is exactly what fear makes them least willing to face. It is strongest when things are calm.",
+   "start": 103.39999999999951,
+   "end": 117.81278911564577,
+   "text": "And because the central bank has taken long gilts out of the market, there are fewer left. The price of the ones remaining rises, and their yield falls. That is called a local supply effect.",
    "voice": "n"
   },
   {
-   "start": 123.9999999999998,
-   "end": 132.1908843537413,
-   "text": "So the policy is used in exactly the state where the first job is easiest and the second is hardest.",
+   "start": 120.63333333333271,
+   "end": 124.8071655328792,
+   "text": "duration. How much its price swings with rates.",
    "voice": "n"
   },
   {
-   "start": 133.39999999999975,
-   "end": 135.71659863945553,
-   "text": "It steadies without starting.",
+   "start": 128.53333333333265,
+   "end": 132.92775510204012,
+   "text": "term premium. The extra return for bearing that swing.",
    "voice": "n"
   },
   {
-   "start": 137.4666666666663,
-   "end": 154.9799546485257,
-   "text": "And flag clearly which parts of that are Kit's and not Dixit's. That propping up the upside works best when things are frightening, and that the two jobs therefore pull apart, are steps Kit has added. Dixit's own text does not contain them.",
+   "start": 136.06666666666598,
+   "end": 143.38680272108775,
+   "text": "Think of all the interest-rate risk in the bond market as one pool, which somebody has to carry.",
    "voice": "n"
   },
   {
-   "start": 157.26666666666617,
-   "end": 164.7185941043079,
-   "text": "Martin and Milas: QE raised growth by around 1\u20133 per cent and limited the downturn.",
+   "start": 143.8333333333326,
+   "end": 154.23111111111038,
+   "text": "When the central bank buys long-dated bonds, it carries some of that risk itself. So there is less left for everybody else to carry.",
    "voice": "n"
   },
   {
-   "start": 164.86666666666613,
-   "end": 171.40294784580445,
-   "text": "But by itself it was not strong enough to spark a recovery \u2014 and that is tentative.",
+   "start": 154.66666666666583,
+   "end": 168.988344671201,
+   "text": "And so the extra return they demand for carrying it falls, which pushes longer-term real interest rates down. That is the thinking behind the American programme nicknamed operation twist.",
    "voice": "n"
   },
   {
-   "start": 171.53333333333276,
-   "end": 177.17682539682482,
-   "text": "Kit's answer: the two jobs pull on the same thing in opposite directions.",
+   "start": 172.03333333333234,
+   "end": 182.15056689342305,
+   "text": "The seller has money it did not want. So it goes looking for something else to hold \u2014 something a little riskier, which is now relatively cheap.",
    "voice": "n"
   },
   {
-   "start": 177.26666666666605,
-   "end": 183.9598639455776,
-   "text": "It steadies without starting \u2014 and the two extra steps in that are his, not Dixit's.",
+   "start": 182.59999999999894,
+   "end": 188.17641723355902,
+   "text": "It buys company debt. Now whoever sold that has money it did not want.",
+   "voice": "n"
+  },
+  {
+   "start": 188.5999999999989,
+   "end": 196.46068027210774,
+   "text": "That one buys foreign government bonds. Which, by the way, pushes the pound down and helps exporters.",
+   "voice": "n"
+  },
+  {
+   "start": 196.8999999999988,
+   "end": 199.06122448979474,
+   "text": "That one buys shares.",
+   "voice": "n"
+  },
+  {
+   "start": 199.49999999999875,
+   "end": 208.64716553287857,
+   "text": "And it carries on until every price has moved far enough that, taken together, everybody is content to hold what there is.",
+   "voice": "n"
+  },
+  {
+   "start": 209.86666666666537,
+   "end": 217.08920634920506,
+   "text": "The authors call it passing the money around like a hot potato. Nobody wants to be left holding it.",
+   "voice": "n"
+  },
+  {
+   "start": 219.33333333333195,
+   "end": 230.63986394557685,
+   "text": "If investors have no appetite for risk, they simply will not climb the ladder. And money flowed away from risky assets in this period, not towards them.",
+   "voice": "n"
+  },
+  {
+   "start": 231.06666666666524,
+   "end": 241.85818594104165,
+   "text": "In a panic, people pay extra for things that are safe and easy to sell. A safety premium, which works directly against the whole idea.",
+   "voice": "n"
+  },
+  {
+   "start": 242.29999999999853,
+   "end": 249.72462585033867,
+   "text": "Heightened uncertainty about what shares will pay makes them a worse substitute for gilts, not a better one.",
+   "voice": "n"
+  },
+  {
+   "start": 250.16666666666515,
+   "end": 260.59827664398944,
+   "text": "And rules facing pension funds and insurers can require them to hold government debt \u2014 so they cannot move even if they would like to.",
+   "voice": "n"
+  },
+  {
+   "start": 262.8333333333326,
+   "end": 265.9042176870741,
+   "text": "same thing to the holder \u21d2 nothing happens",
+   "voice": "n"
+  },
+  {
+   "start": 266.0333333333334,
+   "end": 270.05623582766447,
+   "text": "so buy long gilts, company debt, mortgages",
+   "voice": "n"
+  },
+  {
+   "start": 270.20000000000095,
+   "end": 273.60757369614606,
+   "text": "the hot potato, until prices adjust",
+   "voice": "n"
+  },
+  {
+   "start": 273.7333333333351,
+   "end": 276.11900226757547,
+   "text": "fear and rules can stop it",
    "voice": "n"
   }
+ ],
+ "screen_text": [
+  "10-yeargilt",
+  "26/43",
+  "Andasecondeffect,onriskitself",
+  "Andhereiswhatcanstopitworking",
+  "Andthenitspreads",
+  "CHAPTER26",
+  "Channelone:thehotpotato",
+  "First,thecasewhereNOTHINGhappens",
+  "Howmuchitspriceswingswithrates.",
+  "PARTTWO\u2014THEPOLICY",
+  "SobuysomethingthatisNOTlikemoney",
+  "Theextrareturnforbearingthatswing.",
+  "Twothingsaholdersimplydoesnotcarebetween.",
+  "Whatwejustestablished",
+  "ahotpotato",
+  "alltheinterest-rateriskinthemarket",
+  "asafetypremiumworksagainstit",
+  "atrap",
+  "buyscorporatebonds",
+  "buysforeignbonds",
+  "buysshares",
+  "corporatebond",
+  "duration",
+  "fearandrulescanstopit",
+  "fewerleft\u21d2priceup,yielddown",
+  "itspreferredhabitat",
+  "lessrisktocarry\u21d2lowerlongrates",
+  "money",
+  "money\u2014paysnothing",
+  "noappetite\u2192nobodyclimbstheladder",
+  "paysalmostnothing",
+  "perfectsubstitutes",
+  "pricesadjust",
+  "pushedoutofthathabitat",
+  "riskier",
+  "rulescanforcethemtoholdgilts",
+  "samethingtotheholder\u21d2nothinghappens",
+  "sellsgilts",
+  "shares",
+  "short-datedgilt",
+  "shortgilt",
+  "sobuylonggilts,companydebt,mortgages",
+  "termpremium",
+  "thehotpotato,untilpricesadjust",
+  "uncertaintymakessharesaworsesubstitute",
+  "\u00a3",
+  "\u2248"
  ]
 }

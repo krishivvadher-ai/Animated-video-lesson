@@ -1,161 +1,161 @@
 {
  "chapter": 30,
  "title": "The result that says none of it works",
- "duration": 215.5333333333325,
+ "duration": 217.26666666666497,
  "cues": [
   {
-   "start": 3.0000000000000018,
-   "end": 16.283492063492066,
+   "start": 4.799999999999997,
+   "end": 18.08349206349206,
    "text": "The authors do something in this section that a less honest article would have left out. They set out, at length, a well-known result which says the whole policy does nothing at all.",
    "voice": "n"
   },
   {
-   "start": 17.266666666666666,
-   "end": 29.423854875283446,
+   "start": 19.033333333333356,
+   "end": 31.190521541950137,
    "text": "The seller hands over something risky and gets back something safe. Every channel so far has assumed that changes how much risk the private sector is carrying.",
    "voice": "n"
   },
   {
-   "start": 31.733333333333324,
-   "end": 37.40448979591836,
+   "start": 33.43333333333336,
+   "end": 39.10448979591839,
    "text": "It did not disappear. It moved onto the central bank's own books.",
    "voice": "n"
   },
   {
-   "start": 38.60000000000009,
-   "end": 48.135646258503485,
+   "start": 40.33333333333322,
+   "end": 49.86897959183662,
    "text": "And who owns the central bank? The government. And who pays for the government? Households, through the taxes they will pay in future.",
    "voice": "n"
   },
   {
-   "start": 50.40000000000023,
-   "end": 55.42480725623606,
+   "start": 52.099999999999724,
+   "end": 57.12480725623555,
    "text": "Suppose the central bank buys assets tied to house prices.",
    "voice": "n"
   },
   {
-   "start": 55.86666666666693,
-   "end": 58.94916099773269,
+   "start": 57.56666666666636,
+   "end": 60.64916099773212,
    "text": "Now suppose house prices crash.",
    "voice": "n"
   },
   {
-   "start": 59.33333333333363,
-   "end": 61.900453514739525,
+   "start": 61.06666666666632,
+   "end": 63.63378684807222,
    "text": "The central bank earns less.",
    "voice": "n"
   },
   {
-   "start": 62.333333333333655,
-   "end": 65.3080725623586,
+   "start": 64.0666666666663,
+   "end": 67.04140589569124,
    "text": "So it hands less over to the Treasury.",
    "voice": "n"
   },
   {
-   "start": 65.73333333333369,
-   "end": 75.72040816326566,
+   "start": 67.46666666666626,
+   "end": 77.45374149659823,
    "text": "So taxes end up higher. And the household is worse off in the crash either way \u2014 whether it held those assets or the central bank did.",
    "voice": "n"
   },
   {
-   "start": 76.93333333333365,
-   "end": 86.18176870748331,
+   "start": 78.69999999999955,
+   "end": 87.94843537414921,
    "text": "So the household's risk, taken as a whole, has not changed. There is nothing to rebalance. And the policy does nothing at all.",
    "voice": "n"
   },
   {
-   "start": 88.00000000000023,
-   "end": 96.73528344671224,
+   "start": 89.76666666666613,
+   "end": 98.50195011337814,
    "text": "the irrelevance proposition. The result that says asset purchases cannot work, because the risk never really moves.",
    "voice": "n"
   },
   {
-   "start": 101.86666666666676,
-   "end": 107.44770975056699,
+   "start": 103.59999999999934,
+   "end": 109.18104308389957,
    "text": "For that to work, a household has to see through to the government's own books.",
    "voice": "n"
   },
   {
-   "start": 107.8666666666667,
-   "end": 111.54126984126988,
+   "start": 109.59999999999928,
+   "end": 113.27460317460246,
    "text": "Work out what its future tax bill will be.",
    "voice": "n"
   },
   {
-   "start": 111.93333333333332,
-   "end": 115.20866213151926,
+   "start": 113.69999999999924,
+   "end": 116.97532879818517,
    "text": "And adjust what it does today, accordingly.",
    "voice": "n"
   },
   {
-   "start": 116.39999999999993,
-   "end": 121.30970521541944,
+   "start": 118.19999999999918,
+   "end": 123.10970521541869,
    "text": "And the authors say it plainly. Those assumptions are very strong.",
    "voice": "n"
   },
   {
-   "start": 123.59999999999982,
-   "end": 134.48439909297034,
+   "start": 125.3333333333324,
+   "end": 136.21773242630292,
    "text": "When the rate is already at zero, the only way left to make borrowing cheaper in real terms is to raise what people expect prices to do.",
    "voice": "n"
   },
   {
-   "start": 134.9333333333331,
-   "end": 141.60331065759615,
+   "start": 136.6666666666657,
+   "end": 143.33664399092874,
    "text": "So the central bank promises to run policy looser than it otherwise would, for longer.",
    "voice": "n"
   },
   {
-   "start": 141.99999999999974,
-   "end": 147.7723809523807,
+   "start": 143.76666666666566,
+   "end": 149.5390476190466,
    "text": "Which means promising to let inflation overshoot its target later.",
    "voice": "n"
   },
   {
-   "start": 148.1999999999997,
-   "end": 152.00231292516978,
+   "start": 149.96666666666562,
+   "end": 153.7689795918357,
    "text": "In order to avoid a much bigger undershoot now.",
    "voice": "n"
   },
   {
-   "start": 154.53333333333293,
-   "end": 160.97392290249394,
+   "start": 156.29999999999885,
+   "end": 162.74058956915985,
    "text": "And here is the catch, which the authors are careful about. The promise has to be believed.",
    "voice": "n"
   },
   {
-   "start": 161.39999999999955,
-   "end": 171.4260317460313,
+   "start": 163.16666666666546,
+   "end": 173.1926984126972,
    "text": "But once the economy has recovered \u2014 precisely because everyone believed the promise \u2014 the central bank has no reason left to keep it.",
    "voice": "n"
   },
   {
-   "start": 172.66666666666612,
-   "end": 189.89401360544161,
+   "start": 174.43333333333203,
+   "end": 191.66068027210753,
    "text": "A promise nobody has to keep is a promise nobody believes. Which is why one reading of quantitative easing is that its real job was the signalling all along \u2014 an action, rather than a promise, and actions are harder to take back.",
    "voice": "n"
   },
   {
-   "start": 192.19999999999933,
-   "end": 197.46517006802654,
+   "start": 193.89999999999858,
+   "end": 199.1651700680258,
    "text": "one well-known result says asset purchases cannot work at all",
    "voice": "n"
   },
   {
-   "start": 197.5999999999993,
-   "end": 202.88839002267505,
+   "start": 199.29999999999853,
+   "end": 204.58839002267428,
    "text": "because the risk only moves to the government, and back through taxes",
    "voice": "n"
   },
   {
-   "start": 202.9999999999993,
-   "end": 207.39414965986325,
+   "start": 204.7333333333318,
+   "end": 209.12748299319577,
    "text": "its assumptions are very strong, and the authors say so",
    "voice": "n"
   },
   {
-   "start": 207.5333333333326,
-   "end": 213.17002267573622,
+   "start": 209.2666666666651,
+   "end": 214.90335600906872,
    "text": "on that view, what matters is a promise about the future \u2014 which is hard to believe",
    "voice": "n"
   }
@@ -176,7 +176,6 @@
   "Theresultthatsaysassetpurchasescannotwork,becausetheriskneverreallymoves.",
   "Theresultthatsaysnoneofitworks",
   "Whatwejustestablished",
-  "Willthey,though?",
   "alonggilt",
   "andadjuststoday",
   "atzero,theonlywaytomakeborrowingcheaperinrealtermsistoraisewhatpeopleexpectpricestodo",

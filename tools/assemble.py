@@ -45,6 +45,49 @@ def duration(p):
     return float(run(f'ffprobe -v error -show_entries format=duration -of csv=p=0 "{p}"').strip())
 
 
+SUB_LINE = 46          # characters per subtitle line
+SUB_MAX_LINES = 2
+
+
+def split_cue(text, start, end):
+    """One narrated line becomes as many two-line captions as it needs, timed
+    in proportion to their length. A caption never runs to three lines."""
+    words = text.split()
+    limit = SUB_LINE * SUB_MAX_LINES
+    chunks, cur = [], ""
+    for w in words:
+        if cur and len(cur) + 1 + len(w) > limit:
+            chunks.append(cur)
+            cur = w
+        else:
+            cur = (cur + " " + w).strip()
+    if cur:
+        chunks.append(cur)
+    total = sum(len(c) for c in chunks) or 1
+    out, t = [], start
+    span = max(end - start, 0.4)
+    for c in chunks:
+        d = span * len(c) / total
+        out.append((t, min(t + d, end), wrap_sub(c)))
+        t += d
+    return out
+
+
+def wrap_sub(text):
+    """Wrap one caption to at most two lines."""
+    words, lines, cur = text.split(), [], ""
+    for w in words:
+        if cur and len(cur) + 1 + len(w) > SUB_LINE:
+            lines.append(cur)
+            cur = w
+        else:
+            cur = (cur + " " + w).strip()
+    if cur:
+        lines.append(cur)
+    return "\n".join(lines[:SUB_MAX_LINES]) if len(lines) <= SUB_MAX_LINES \
+        else "\n".join([lines[0], " ".join(lines[1:])])
+
+
 def ts(sec):
     h = int(sec // 3600); m = int(sec % 3600 // 60); s = sec % 60
     return f"{h:02d}:{m:02d}:{s:06.3f}".replace(".", ",")
@@ -78,9 +121,10 @@ def build_part(name):
         if cue_file.exists():
             data = json.loads(cue_file.read_text())
             for c in data["cues"]:
-                lines.append(f"{idx}\n{ts(offset + c['start'])} --> "
-                             f"{ts(offset + c['end'])}\n{c['text']}\n")
-                idx += 1
+                for a, b, txt in split_cue(c["text"], offset + c["start"],
+                                           offset + c["end"]):
+                    lines.append(f"{idx}\n{ts(a)} --> {ts(b)}\n{txt}\n")
+                    idx += 1
         offset += duration(f)
     srt = FINAL / f"{name}.srt"
     srt.write_text("\n".join(lines))
@@ -123,11 +167,19 @@ def build_part(name):
         f'-map 0:v -map "[out]" -c:v copy -c:a aac -b:a 192k "{out}"')
 
     # ---- burned-in subtitle cut
+    # The picture keeps all 1080 of its lines. A 200-pixel band is added
+    # underneath it and the captions are drawn into that band, so a caption
+    # can never sit on top of a diagram, a label or a figure.
     sub_out = FINAL / f"{name}-subtitled.mp4"
+    band = 200
+    style = ("FontName=CMU Serif,FontSize=30,PrimaryColour=&H00FFFFFF,"
+             "OutlineColour=&H00000000,BackColour=&H00000000,BorderStyle=1,"
+             "Outline=0,Shadow=0,Alignment=2,MarginV=34,MarginL=90,MarginR=90")
     run(f'ffmpeg -y -v error -i "{out}" -vf '
-        f'"subtitles={srt}:force_style=\'FontName=DejaVu Sans,FontSize=18,'
-        f'OutlineColour=&H90000000,BorderStyle=3,MarginV=26\'" '
-        f'-c:a copy "{sub_out}"')
+        f'"pad=iw:ih+{band}:0:0:color=black,'
+        f'subtitles={srt}:force_style=\'{style}\'" '
+        f'-c:a copy -c:v libx264 -crf 18 -preset medium -pix_fmt yuv420p '
+        f'"{sub_out}"')
     return total
 
 

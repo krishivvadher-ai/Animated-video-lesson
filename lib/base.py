@@ -56,9 +56,15 @@ class Chapter(ThreeDScene):
     TITLE = ""
     PART = "PART ONE — THE PAPER"
 
+    # Nothing is drawn inside this band at the foot of the frame: the burned-in
+    # captions live below the picture, and this keeps a margin above them.
+    CAPTION_GUARD = -3.55
+
     def setup(self):
         self.cues = []
         self.screen_text = []
+        self.collisions = []
+        self.low_content = []
         self._progress = None
 
     def _record(self, *mobs):
@@ -112,7 +118,60 @@ class Chapter(ThreeDScene):
                 continue
             out.append(a)
         self._record(*[getattr(a, "mobject", None) for a in out])
-        return super().play(*out, **kw)
+        result = super().play(*out, **kw)
+        self._check_layout()
+        return result
+
+    # ------------------------------------------------------------ layout audit
+    def _boxes(self):
+        """Every visible thing on screen, as (label, box, is_text)."""
+        items = []
+        for m in self.mobjects:
+            if self._progress is not None and m is self._progress:
+                continue
+            for sub in ([m] if not isinstance(m, VGroup) else list(m)):
+                try:
+                    if sub.get_num_points() == 0 and not sub.submobjects:
+                        continue
+                    w, h = sub.width, sub.height
+                    if w <= 0.01 or h <= 0.01:
+                        continue
+                    c = sub.get_center()
+                except Exception:
+                    continue
+                txt = getattr(sub, "text", None)
+                if txt is None and isinstance(sub, VGroup):
+                    parts = [getattr(x, "text", None) for x in sub]
+                    parts = [q for q in parts if isinstance(q, str)]
+                    txt = " ".join(parts) if parts else None
+                items.append((txt, (c[0] - w / 2, c[1] - h / 2,
+                                    c[0] + w / 2, c[1] + h / 2),
+                              isinstance(txt, str)))
+        return items
+
+    def _check_layout(self):
+        """Record anything that overlaps, and anything drawn under the caption
+        band. Reviewed after the render; nothing is changed here."""
+        items = self._boxes()
+        t = round(self.renderer.time, 2)
+        for label, b, is_text in items:
+            if is_text and b[1] < self.CAPTION_GUARD:
+                self.low_content.append({"t": t, "text": (label or "")[:60],
+                                         "bottom": round(b[1], 2)})
+        texts = [(l, b) for l, b, is_text in items if is_text]
+        for i, (l1, b1) in enumerate(texts):
+            for l2, b2 in texts[i + 1:]:
+                ox = min(b1[2], b2[2]) - max(b1[0], b2[0])
+                oy = min(b1[3], b2[3]) - max(b1[1], b2[1])
+                if ox <= 0 or oy <= 0:
+                    continue
+                inter = ox * oy
+                a1 = (b1[2] - b1[0]) * (b1[3] - b1[1])
+                a2 = (b2[2] - b2[0]) * (b2[3] - b2[1])
+                if inter > 0.30 * min(a1, a2):
+                    self.collisions.append(
+                        {"t": t, "a": (l1 or "")[:44], "b": (l2 or "")[:44],
+                         "overlap": round(inter / max(min(a1, a2), 1e-6), 2)})
 
     def add(self, *mobs):
         self._record(*mobs)
@@ -262,4 +321,6 @@ class Chapter(ThreeDScene):
         out.write_text(json.dumps(
             {"chapter": self.CH, "title": self.TITLE,
              "duration": self.renderer.time, "cues": self.cues,
-             "screen_text": sorted(set(self.screen_text))}, indent=1))
+             "screen_text": sorted(set(self.screen_text)),
+             "collisions": self.collisions[:200],
+             "low_content": self.low_content[:200]}, indent=1))

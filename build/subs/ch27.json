@@ -1,85 +1,138 @@
 {
  "chapter": 27,
- "title": "And the ones that did not come back",
- "duration": 131.6666666666675,
+ "title": "Channels two and three: saying so, and oiling the wheels",
+ "duration": 161.79999999999905,
  "cues": [
   {
-   "start": 3.0000000000000018,
-   "end": 14.52294784580499,
-   "text": "You will recognise this picture instantly, because it is the one from chapter twelve. Same scale, same lines. Only the direction is different.",
+   "start": 5.899999999999993,
+   "end": 14.70621315192743,
+   "text": "The second channel does not need the money to go anywhere at all. It works purely through what the action tells everybody.",
    "voice": "n"
   },
   {
-   "start": 17.46666666666666,
-   "end": 23.509705215419494,
-   "text": "A firm that is already running. The crisis arrives, and its takings fall.",
+   "start": 15.133333333333326,
+   "end": 22.917868480725616,
+   "text": "By loosening policy this much, the Bank is saying it expects to keep rates low for a long time yet.",
    "voice": "n"
   },
   {
-   "start": 23.99999999999997,
-   "end": 34.12594104308387,
-   "text": "Down past the level where the textbook would have closed it. And still it holds on, because holding on keeps the chance of recovery alive.",
+   "start": 23.366666666666656,
+   "end": 27.981678004535137,
+   "text": "It is revealing its own reading of how bad things are.",
    "voice": "n"
   },
   {
-   "start": 34.60000000000007,
-   "end": 38.19156462585041,
-   "text": "And then through the quit line. It closes.",
+   "start": 28.400000000000034,
+   "end": 38.42417233560094,
+   "text": "And by acting at all, it is showing that it is still committed to its target, and still confident it can hit it \u2014 even down at the floor.",
    "voice": "n"
   },
   {
-   "start": 40.00000000000034,
-   "end": 47.34707482993231,
-   "text": "Now the policy works. Conditions come back up to normal. All the way back to where they started.",
+   "start": 39.66666666666674,
+   "end": 51.79333333333341,
+   "text": "Which helps keep people's expectations of future inflation anchored. And expectations, as chapter twenty-five will show, are themselves a lever.",
    "voice": "n"
   },
   {
-   "start": 48.60000000000077,
-   "end": 55.735827664399864,
-   "text": "The firm does not come back. Because coming back means paying the whole set-up cost over again.",
+   "start": 54.633333333333255,
+   "end": 58.1150113378684,
+   "text": "liquidity. How easily you can sell it.",
    "voice": "n"
   },
   {
-   "start": 57.53333333333455,
-   "end": 70.17083900226879,
-   "text": "State it plainly. What the policy stops from happening does not need explaining. What needs explaining is why, for the firms it did not reach in time, nothing came back.",
+   "start": 61.033333333333225,
+   "end": 71.39528344671191,
+   "text": "When markets seize up, you may not be able to find a buyer at all. So investors demand a higher return to compensate them for that risk.",
    "voice": "n"
   },
   {
-   "start": 73.0000000000012,
-   "end": 89.48544217687194,
-   "text": "This limb rests on Dixit's assumption that a stopped business is ruined instantly, which he flags himself as a simplification. Where a firm really can mothball a factory and restart it cheaply, this argument gets weaker.",
+   "start": 72.4333333333331,
+   "end": 78.15129251700657,
+   "text": "liquidity premium. The extra return for maybe not being able to sell.",
    "voice": "n"
   },
   {
-   "start": 89.93333333333447,
-   "end": 104.73319727891271,
-   "text": "And chapter twenty-five's concession means the policy plausibly held some firms above the quit line who would otherwise have crossed it. So the group this applies to is smaller than Kit first supposed.",
+   "start": 81.29999999999974,
+   "end": 93.12358276643965,
+   "text": "A central bank buying on a very large scale is, among other things, a buyer. It puts trading back into the market, and that premium comes down.",
    "voice": "n"
   },
   {
-   "start": 107.00000000000104,
-   "end": 112.10643990929809,
-   "text": "Push a firm's takings through the quit line and it closes for good.",
+   "start": 94.36666666666635,
+   "end": 108.17573696145092,
+   "text": "But the authors are careful about this one. The effect probably lasts only while the purchases are going on. And in gilt markets, which are normally very liquid anyway, it may be small.",
    "voice": "n"
   },
   {
-   "start": 112.200000000001,
-   "end": 116.73374149659963,
-   "text": "Restore conditions to normal, and it does not come back.",
+   "start": 111.3999999999995,
+   "end": 121.80362811791332,
+   "text": "Here is what the research can see. Government bond yields fell after the purchases. Company bond yields fell. Share prices rose.",
    "voice": "n"
   },
   {
-   "start": 116.86666666666763,
-   "end": 123.00258503401457,
-   "text": "What needs explaining is not what the policy prevented, but what never returned.",
+   "start": 122.23333333333278,
+   "end": 131.8858503401355,
+   "text": "And here is what it cannot see. Which of those three channels did it. They are very hard to tell apart, and the authors say so.",
    "voice": "n"
   },
   {
-   "start": 123.13333333333426,
-   "end": 129.27959183673562,
-   "text": "Two caveats: the rusting assumption, and the firms the policy did keep alive.",
+   "start": 133.13333333333276,
+   "end": 145.83455782312868,
+   "text": "There is also disagreement about how big those effects were and how long they lasted. And the effects on wider classes of assets are less marked than on company bonds.",
+   "voice": "n"
+  },
+  {
+   "start": 148.06666666666598,
+   "end": 150.7544217687068,
+   "text": "signalling: the act is the message",
+   "voice": "n"
+  },
+  {
+   "start": 150.89999999999927,
+   "end": 153.73501133786775,
+   "text": "liquidity: a very large buyer",
+   "voice": "n"
+  },
+  {
+   "start": 153.86666666666588,
+   "end": 156.82145124716473,
+   "text": "yields fell \u00b7 share prices rose",
+   "voice": "n"
+  },
+  {
+   "start": 156.96666666666582,
+   "end": 159.42222222222136,
+   "text": "which channel? hard to tell",
    "voice": "n"
   }
+ ],
+ "screen_text": [
+  "27/43",
+  "CHAPTER27",
+  "Channelstwoandthree:sayingso,andoilingthewheels",
+  "Channelthree\u2014liquidity",
+  "Channeltwo\u2014signalling",
+  "Howeasilyyoucansellit.",
+  "PARTTWO\u2014THEPOLICY",
+  "Sowhichofthethreeactuallydidthework?",
+  "Theextrareturnformaybenotbeingabletosell.",
+  "Whatwejustestablished",
+  "expectationsstayanchored",
+  "liquidity",
+  "liquidity:averylargebuyer",
+  "liquiditypremium",
+  "nobuyers",
+  "portfoliorebalancing",
+  "probablyonlywhilethebuyinglasts",
+  "seen:yieldsfell,sharepricesrose",
+  "signalling",
+  "signalling:theactisthemessage",
+  "sizeandpersistence:disputed",
+  "unseen:whichchanneldidit",
+  "whichchannel?hardtotell",
+  "yieldsfell\u00b7sharepricesrose",
+  "\u201cAndwearecommittedtohittingourtarget,evendownhere.\u201d",
+  "\u201cHereisourreadingofhowbadthingsare.\u201d",
+  "\u201cWeexpecttokeeprateslowforalongtimeyet.\u201d"
  ]
 }

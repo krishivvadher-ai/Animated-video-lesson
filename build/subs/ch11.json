@@ -1,95 +1,95 @@
 {
  "chapter": 11,
  "title": "How the future is modelled",
- "duration": 150.533333333333,
+ "duration": 150.43333333333217,
  "cues": [
   {
-   "start": 4.866666666666667,
-   "end": 16.041315192743767,
+   "start": 4.799999999999997,
+   "end": 15.974648526077095,
    "text": "Every number in the next two chapters rests on one assumption about how revenue moves. So we build that first, and we build it with coins.",
    "voice": "n"
   },
   {
-   "start": 17.0,
-   "end": 24.567891156462586,
+   "start": 16.900000000000023,
+   "end": 24.46789115646261,
    "text": "Each year, revenue does one of two things. It goes up by a fixed percentage, or down by one.",
    "voice": "n"
   },
   {
-   "start": 25.799999999999994,
-   "end": 36.89700680272108,
+   "start": 25.700000000000134,
+   "end": 36.79700680272122,
    "text": "Percentages rather than pounds, because a big firm swings by big amounts and a small one by small amounts. That is the only realistic way to do it.",
    "voice": "n"
   },
   {
-   "start": 39.20000000000004,
-   "end": 47.07065759637192,
+   "start": 39.03333333333345,
+   "end": 46.90399092970534,
    "text": "Do that again the next year, and the next. Every point splits in two, and the possibilities fan out.",
    "voice": "n"
   },
   {
-   "start": 48.26666666666687,
-   "end": 54.530294784580704,
+   "start": 48.133333333333255,
+   "end": 54.39696145124709,
    "text": "Watch one possible path through it. That is one future \u2014 one thing that might happen.",
    "voice": "n"
   },
   {
-   "start": 55.73333333333365,
-   "end": 64.10448979591868,
+   "start": 55.63333333333313,
+   "end": 64.00448979591816,
    "text": "And here are a dozen more. Nobody knows which one happens. All anybody knows is the shape of the fan.",
    "voice": "n"
   },
   {
-   "start": 65.93333333333376,
-   "end": 73.12916099773285,
+   "start": 65.83333333333292,
+   "end": 73.029160997732,
    "text": "a random walk. Each step is up or down by a fixed percentage, and you cannot tell which.",
    "voice": "n"
   },
   {
-   "start": 78.13333333333362,
-   "end": 86.9467573696148,
+   "start": 77.96666666666611,
+   "end": 86.78009070294729,
    "text": "Take a typical year and ask: how far did revenue move? In a calm trade, not far. The outcomes bunch up.",
    "voice": "n"
   },
   {
-   "start": 87.33333333333354,
-   "end": 92.30158730158752,
+   "start": 87.19999999999936,
+   "end": 92.16825396825334,
    "text": "In a rough trade \u2014 oil, metals \u2014 they spread right out.",
    "voice": "n"
   },
   {
-   "start": 93.53333333333346,
-   "end": 115.60789115646271,
+   "start": 93.39999999999928,
+   "end": 115.47455782312854,
    "text": "The width of that spread is the number the paper calls the choppiness. It is the size of a typical yearly swing, written as a percentage. Ten per cent for revenue that moves with exchange rates. Twenty-five to forty for an oil well or a copper mine. And the paper's base case sits between, at twenty.",
    "voice": "n"
   },
   {
-   "start": 116.80000000000005,
-   "end": 125.00321995464859,
+   "start": 116.6999999999992,
+   "end": 124.90321995464774,
    "text": "The paper writes it as a Greek letter. This film never will. It is the choppiness, and it is a percentage.",
    "voice": "n"
   },
   {
-   "start": 127.26666666666661,
-   "end": 132.1603174603174,
+   "start": 127.13333333333243,
+   "end": 132.02698412698322,
    "text": "each year revenue goes up or down by a fixed percentage",
    "voice": "n"
   },
   {
-   "start": 132.26666666666657,
-   "end": 136.0805895691609,
+   "start": 132.16666666666572,
+   "end": 135.98058956916006,
    "text": "run that forward and the possibilities fan out",
    "voice": "n"
   },
   {
-   "start": 136.19999999999985,
-   "end": 140.3301587301586,
+   "start": 136.099999999999,
+   "end": 140.23015873015774,
    "text": "nobody knows the path \u2014 only the shape of the fan",
    "voice": "n"
   },
   {
-   "start": 140.46666666666644,
-   "end": 148.18154195011314,
+   "start": 140.3666666666656,
+   "end": 148.0815419501123,
    "text": "the width of the fan is the choppiness: 10% calm, 40% rough, 20% base case",
    "voice": "n"
   }
