@@ -146,7 +146,7 @@ class Chapter42(Chapter):
 
         # ---------------------------------------------------- the three holes
         self.clear_stage()
-        kit = stick.kit(scale=0.75).to_corner(DOWN + LEFT, buff=0.5)
+        kit = stick.kit(scale=0.75).to_corner(DOWN + LEFT, buff=0.62)
         self.play(FadeIn(kit), kit.mood("thinking"), run_time=0.5)
         head3 = Text("And now the holes — Kit points at them himself",
                      font=FONT, font_size=T_SUB, color=SRC_KIT).to_edge(UP, buff=0.6)

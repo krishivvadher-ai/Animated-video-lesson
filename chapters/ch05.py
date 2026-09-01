@@ -113,7 +113,7 @@ class Chapter05(Chapter):
 
         key = cards.body("She gains nothing — but she loses nothing.",
                          size=T_SUB, color=CHALK, width=30)
-        key.to_edge(DOWN, buff=0.55)
+        key.to_edge(DOWN, buff=0.62)
         with self.narrate("But look at that again, because everything turns on it. She "
                           "gains nothing — and she loses nothing."):
             self.play(FadeIn(key), run_time=0.8)

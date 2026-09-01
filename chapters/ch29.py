@@ -88,7 +88,7 @@ class Chapter29(Chapter):
         self.beat()
         notfail = cards.body("under one is what the theory predicts",
                              size=T_BODY, color=SRC_BR, width=44)
-        notfail.to_edge(DOWN, buff=0.6)
+        notfail.to_edge(DOWN, buff=0.62)
         with self.narrate("And the authors say plainly that this is not evidence the "
                           "policy failed. On their own account, the right thing to "
                           "expect was about one, not fifteen. The failure of broad "
@@ -97,7 +97,7 @@ class Chapter29(Chapter):
         self.beat()
         leak = cards.body("broad money grew < £200bn — the leaks",
                           size=T_BODY, color=CHALK, width=46)
-        leak.to_edge(DOWN, buff=0.5)
+        leak.to_edge(DOWN, buff=0.62)
         with self.narrate("They also explain where it leaked away. Broad money grew by "
                           "less than two hundred billion pounds during the first round. "
                           "Banks swapped short-term deposits for long-term debt. And "
@@ -148,7 +148,7 @@ class Chapter29(Chapter):
         self.beat()
         only = cards.body("only via the incentive to lend",
                           size=T_BODY, color=MONEY, width=46)
-        only.to_edge(DOWN, buff=0.6)
+        only.to_edge(DOWN, buff=0.62)
         with self.narrate("The only way more reserves can lead to more lending is if "
                           "they change a bank's incentive to lend — for instance by "
                           "making the bank's own funding cheaper. Which is a completely "

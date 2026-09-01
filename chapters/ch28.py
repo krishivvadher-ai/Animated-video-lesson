@@ -73,7 +73,7 @@ class Chapter28(Chapter):
         self.beat()
         remember = cards.note("Part Three begins here",
                               width=50)
-        remember.to_edge(DOWN, buff=0.6)
+        remember.to_edge(DOWN, buff=0.62)
         self.play(FadeIn(remember), run_time=0.6)
         self.wait(1.4)
         self.clear_stage()
@@ -159,7 +159,7 @@ class Chapter28(Chapter):
         self.beat()
         keep = cards.note("Part Three spends a chapter on this",
                           width=52)
-        keep.to_edge(DOWN, buff=0.6)
+        keep.to_edge(DOWN, buff=0.62)
         self.play(FadeIn(keep), run_time=0.6)
         self.wait(1.4)
         self.clear_stage()
@@ -208,7 +208,7 @@ class Chapter28(Chapter):
                 self.play(FadeIn(dist[i], shift=RIGHT * 0.2), run_time=0.8)
         self.beat()
         fairness = cards.body("winners and losers", size=T_SUB, color=SRC_BR, width=40)
-        fairness.to_edge(DOWN, buff=0.6)
+        fairness.to_edge(DOWN, buff=0.62)
         with self.narrate("As with all monetary policy, they say, there are winners and "
                           "losers."):
             self.play(FadeIn(fairness), run_time=0.9)

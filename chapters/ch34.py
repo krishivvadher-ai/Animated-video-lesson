@@ -136,7 +136,7 @@ class Chapter34(Chapter):
         self.beat()
         note = cards.note("the standard for everything that follows",
                           width=56)
-        note.to_edge(DOWN, buff=0.5)
+        note.to_edge(DOWN, buff=0.62)
         with self.narrate("That sentence is the intellectual standard the rest of the "
                           "film is held to. Everything Kit says from here has to meet it."):
             self.play(FadeIn(note), run_time=0.9)

@@ -106,7 +106,7 @@ class Chapter23(Chapter):
 
         note = cards.body("0.5%, not zero",
                           size=T_BODY, color=MUTED, width=44)
-        note.to_edge(DOWN, buff=0.4)
+        note.to_edge(DOWN, buff=0.62)
         with self.narrate("And note that they stopped just above zero, not at it. "
                           "Because of worries about what extremely low rates would do "
                           "to banks' own profits, and to the working of the money "
@@ -145,7 +145,7 @@ class Chapter23(Chapter):
         self.beat()
         name = cards.body("unconventional monetary policy",
                           size=T_SUB, color=CHALK, width=44)
-        name.to_edge(DOWN, buff=0.6)
+        name.to_edge(DOWN, buff=0.62)
         with self.narrate("All of that together goes by one name. Unconventional "
                           "monetary policy."):
             self.play(FadeIn(name), run_time=0.9)

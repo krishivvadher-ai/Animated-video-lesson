@@ -136,7 +136,7 @@ class Chapter17(Chapter):
         self.beat()
         care = cards.note("sunk costs alone: some\nuncertainty: far more",
                           width=60)
-        care.to_edge(DOWN, buff=0.5)
+        care.to_edge(DOWN, buff=0.62)
         with self.narrate("And the paper's own careful point. Sunk costs alone can "
                           "produce some of this. Adding uncertainty magnifies it "
                           "dramatically."):
@@ -174,7 +174,7 @@ class Chapter17(Chapter):
             self.play(Indicate(imports, color=MONEY, scale_factor=1.0), run_time=1.6)
         self.beat()
         final = cards.body("Cause reversed. Effect stayed.", size=T_SUB, color=CHALK, width=40)
-        final.to_edge(DOWN, buff=0.5)
+        final.to_edge(DOWN, buff=0.62)
         with self.narrate("The cause reversed. The effect stayed. That is all "
                           "hysteresis is — and now you have watched it happen twice."):
             self.play(FadeIn(final), run_time=0.9)

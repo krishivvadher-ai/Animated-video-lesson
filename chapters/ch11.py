@@ -156,7 +156,7 @@ class Chapter11(Chapter):
         note = cards.note("The paper writes it as a Greek letter. This film never does "
                           "— it is just “the choppiness”, and it is a percentage.",
                           width=62)
-        note.to_edge(DOWN, buff=0.5)
+        note.to_edge(DOWN, buff=0.62)
         with self.narrate("The paper writes it as a Greek letter. This film never will. "
                           "It is the choppiness, and it is a percentage."):
             self.play(FadeIn(note), run_time=0.9)

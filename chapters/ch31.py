@@ -77,7 +77,7 @@ class Chapter31(Chapter):
                             "the cuts in. And none of it was quite the promise to be "
                             "irresponsible that the theory calls for.",
                             size=T_BODY, color=SRC_BR, width=44)
-        honest.to_edge(DOWN, buff=0.5)
+        honest.to_edge(DOWN, buff=0.62)
         with self.narrate("And the authors are careful about how well it worked. It did "
                           "move expectations. But markets never fully priced in the cuts "
                           "the announcements implied. And none of it was quite the "
@@ -126,7 +126,7 @@ class Chapter31(Chapter):
                         "— aimed, their central bank argued, at repairing the "
                         "transmission mechanism itself.",
                         size=T_BODY, color=SRC_BR, width=44)
-        eu.to_edge(DOWN, buff=0.5)
+        eu.to_edge(DOWN, buff=0.62)
         with self.narrate("And in the euro area, two operations in late twenty-eleven "
                           "and early twenty-twelve lent over a trillion euros for three "
                           "years — aimed, their central bank argued, at repairing the "
@@ -168,7 +168,7 @@ class Chapter31(Chapter):
         small = cards.note("But £20bn is only about 8 per cent of a year's gross "
                            "lending to small firms by the largest banks — so the scheme "
                            "is limited in scale, and the authors say so.", width=54)
-        small.to_edge(DOWN, buff=0.6)
+        small.to_edge(DOWN, buff=0.62)
         with self.narrate("Though twenty billion is only about eight per cent of a "
                           "year's lending to small firms by the largest banks. Limited "
                           "in scale, as the authors put it."):

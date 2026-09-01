@@ -94,7 +94,7 @@ class Chapter16(Chapter):
         pts.move_to(DOWN * 2.0)
         if pts.height > 2.4:
             pts.scale(2.4 / pts.height)
-        pts.to_edge(DOWN, buff=0.4)
+        pts.to_edge(DOWN, buff=0.62)
         says = ["Employers hoard labour in downturns.",
                 "And they are slow to hire in upturns.",
                 "above the wage, no hiring · below it, no firing"]

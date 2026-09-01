@@ -79,7 +79,7 @@ class Chapter38(Chapter):
         self.beat()
 
         why = cards.body("his own source says it", size=T_SUB, color=SRC_KIT, width=40)
-        why.to_edge(DOWN, buff=0.6)
+        why.to_edge(DOWN, buff=0.62)
         with self.narrate("Why include something that damages you? Because it is what "
                           "his own source says. The discomfort is the point."):
             self.play(FadeIn(why), run_time=1.0)

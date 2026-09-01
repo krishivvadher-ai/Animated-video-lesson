@@ -134,5 +134,7 @@
   "emptyground",
   "loss",
   "\u00a3"
- ]
+ ],
+ "collisions": [],
+ "low_content": []
 }

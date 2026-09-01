@@ -149,7 +149,7 @@ class Chapter35(Chapter):
             self.play(Write(line), run_time=3.0)
         self.beat()
         who = cards.note("the bar: Dixit  ·  the pairing: Kit", width=56)
-        who.to_edge(DOWN, buff=0.6)
+        who.to_edge(DOWN, buff=0.62)
         with self.narrate("And be clear about whose is whose. The bar, and the fact "
                           "that it rises with uncertainty, is Dixit's. Putting it next "
                           "to this policy is Kit's."):

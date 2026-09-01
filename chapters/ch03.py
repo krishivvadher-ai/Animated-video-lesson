@@ -166,7 +166,7 @@ class Chapter03(Chapter):
 
         amb = cards.note("p. 108: “1978 level”   ·   p. 122: “1980 level”",
                          width=68)
-        amb.to_edge(DOWN, buff=0.35)
+        amb.to_edge(DOWN, buff=0.62)
         self.play(FadeIn(amb), run_time=0.6)
         self.wait(1.4)
         self.play(FadeOut(amb), run_time=0.4)

@@ -85,7 +85,7 @@ class Chapter39(Chapter):
 
         unc = cards.body("uncomfortable with himself",
                          size=T_BODY, color=SRC_KIT, width=40)
-        unc.to_edge(DOWN, buff=0.5)
+        unc.to_edge(DOWN, buff=0.62)
         with self.narrate("And he is uncomfortable. Not with the article — with "
                           "himself, for having read that sentence once already and "
                           "never asked whether there was a reason behind it."):

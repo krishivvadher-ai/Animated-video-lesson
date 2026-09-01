@@ -34,7 +34,7 @@ class Chapter15(Chapter):
             self.play(FadeIn(rust), run_time=1.0)
         self.beat()
         caveat = cards.note("the paper flags this as a simplification", width=62)
-        caveat.to_edge(DOWN, buff=0.5)
+        caveat.to_edge(DOWN, buff=0.62)
         with self.narrate("And the paper flags that itself, as a deliberate "
                           "simplification. Where a firm really can mothball a factory "
                           "and restart it cheaply, this half of the argument gets "

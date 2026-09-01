@@ -35,7 +35,7 @@ class Chapter41(Chapter):
         self.play(FadeOut(VGroup(d, num, head, rows, left_open)), run_time=0.6)
 
     def body(self):
-        kit = stick.kit(scale=0.7).to_corner(DOWN + RIGHT, buff=0.5)
+        kit = stick.kit(scale=0.7).to_corner(DOWN + RIGHT, buff=0.62)
         self.play(FadeIn(kit), run_time=0.5)
         with self.narrate("Four doors. Kit opens each one, and cannot close it again. "
                           "This is the chapter where the film earns its credibility, so "
@@ -101,7 +101,7 @@ class Chapter41(Chapter):
         self.beat()
         unsettled = cards.body("unsettled",
                                size=T_SUB, color=SRC_KIT, width=40)
-        unsettled.to_edge(DOWN, buff=0.6)
+        unsettled.to_edge(DOWN, buff=0.62)
         with self.narrate("Which of the two does more of the work is a question this "
                           "argument does not settle."):
             self.play(FadeIn(unsettled), run_time=0.9)
@@ -158,7 +158,7 @@ class Chapter41(Chapter):
             self.play(rival.walk_to(RIGHT * 1.0 + DOWN * 0.6, run_time=1.8))
         scope = cards.body("not a race",
                            size=T_SUB, color=CHALK, width=40)
-        scope.to_edge(DOWN, buff=0.6)
+        scope.to_edge(DOWN, buff=0.62)
         with self.narrate("The argument applies to investment a company can take its "
                           "time over. Not to a race."):
             self.play(FadeIn(scope), run_time=0.9)

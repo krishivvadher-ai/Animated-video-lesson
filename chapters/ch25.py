@@ -131,7 +131,7 @@ class Chapter25(Chapter):
 
         what = cards.body("short debt ≈ money   ·   long gilts ≠ money",
                           size=T_BODY, color=CHALK, width=48)
-        what.to_edge(DOWN, buff=0.6)
+        what.to_edge(DOWN, buff=0.62)
         with self.narrate("And one more difference, which matters enormously in the "
                           "next chapter. What is bought. Short-dated government debt is "
                           "very nearly the same thing as money. Long-dated gilts, "

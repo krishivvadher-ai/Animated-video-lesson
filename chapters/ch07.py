@@ -105,7 +105,7 @@ class Chapter07(Chapter):
 
         foot = cards.note("the mathematics is in the paper's appendix",
                           width=60)
-        foot.to_edge(DOWN, buff=0.5)
+        foot.to_edge(DOWN, buff=0.62)
         self.play(FadeIn(foot), run_time=0.5)
         self.wait(1.6)
 

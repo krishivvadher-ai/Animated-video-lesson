@@ -13,7 +13,7 @@ class Chapter13(Chapter):
     RECAP_ICONS = ["scale", "money", "fog", "clock"]
 
     def body(self):
-        ava = stick.ava(scale=0.7).to_corner(DOWN + LEFT, buff=0.45)
+        ava = stick.ava(scale=0.7).to_corner(DOWN + LEFT, buff=0.62)
         self.play(FadeIn(ava), run_time=0.5)
         with self.narrate("Here is the formula that finds the touching point. It looks "
                           "worse than it is. There is a square root, a division, and "
@@ -157,7 +157,7 @@ class Chapter13(Chapter):
 
         why = cards.body("smaller steepness ⇒ bigger multiplier", size=T_SUB,
                          color=TRIGGER, width=30)
-        why.to_edge(DOWN, buff=0.6)
+        why.to_edge(DOWN, buff=0.62)
         with self.narrate("And now you can see why both dials push the same way. More "
                           "choppiness, or cheaper money, both make the number inside "
                           "the square root smaller. That makes the steepness smaller. "

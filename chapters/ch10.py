@@ -14,7 +14,7 @@ class Chapter10(Chapter):
     RECAP_ICONS = ["scale", "money", "slab", "flow"]
 
     def body(self):
-        nell = stick.nell(scale=0.8).to_corner(DOWN + LEFT, buff=0.5)
+        nell = stick.nell(scale=0.8).to_corner(DOWN + LEFT, buff=0.62)
         self.play(FadeIn(nell), run_time=0.5)
 
         # ------------------------------------------------ the two sides
@@ -56,7 +56,7 @@ class Chapter10(Chapter):
 
         note = cards.note("R = revenue a year   ·   K = the sunk cost   ·   "
                           "ρ = the cost of capital", width=62)
-        note.to_edge(DOWN, buff=0.55)
+        note.to_edge(DOWN, buff=0.62)
         self.play(FadeIn(note), run_time=0.7)
         self.wait(1.2)
 

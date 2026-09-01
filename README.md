@@ -49,6 +49,21 @@ final/film-complete-subtitled.mp4   the whole film, burned-in
 build/media/videos/chNN/1080p30/    every chapter as its own file
 ```
 
+### Captions never cover the picture
+
+The burned-in cuts do not lay captions over the frame. A 200-pixel band is
+added *beneath* the 1920×1080 picture and the captions are drawn into that
+band, so a caption can never land on a diagram, a label or a figure. The clean
+`.srt` files are unchanged, so a player can place captions wherever the viewer
+prefers.
+
+Captions are cut properly rather than dumped: each narrated line becomes as
+many captions as it needs, timed in proportion to their length and wrapped to
+at most two lines of 46 characters.
+
+Inside the frame, nothing is drawn below y = −3.55 in Manim units, which is the
+guard the `Chapter` base class checks against on every animation.
+
 ## How to re-render
 
 ```bash
@@ -66,6 +81,10 @@ bash tools/render_all.sh          # every chapter and title card at 1080p30
 .venv/bin/python tools/make_music.py   # regenerate the six score cues
 .venv/bin/python tools/assemble.py     # concat, subtitle, score, mix, join
 .venv/bin/python tools/verify.py       # the audits in section 9 of the brief
+.venv/bin/python tools/frame_audit.py  # five frames per chapter, checked for
+                                       # ink in the margin and empty screens
+.venv/bin/python tools/layout_report.py  # overlapping captions, recorded live
+                                         # by the Chapter base as it rendered
 .venv/bin/python tools/make_docs.py    # regenerate glossary.md and narration.md
 ```
 

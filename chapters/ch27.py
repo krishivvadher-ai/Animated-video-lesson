@@ -123,7 +123,7 @@ class Chapter27(Chapter):
                 self.play(FadeIn(seen[i], shift=RIGHT * 0.2), run_time=0.8)
         self.beat()
         dis = cards.note("size and persistence: disputed", width=58)
-        dis.to_edge(DOWN, buff=0.4)
+        dis.to_edge(DOWN, buff=0.62)
         with self.narrate("There is also disagreement about how big those effects were "
                           "and how long they lasted. And the effects on wider classes "
                           "of assets are less marked than on company bonds."):

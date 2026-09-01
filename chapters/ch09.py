@@ -13,7 +13,7 @@ class Chapter09(Chapter):
     RECAP_ICONS = ["clock", "money", "scale", "flow"]
 
     def body(self):
-        ava = stick.ava(scale=0.8).to_corner(DOWN + LEFT, buff=0.5)
+        ava = stick.ava(scale=0.8).to_corner(DOWN + LEFT, buff=0.62)
         self.play(FadeIn(ava), run_time=0.5)
         with self.narrate("The next five chapters do the mathematics. Properly, and "
                           "from the beginning. Nothing beyond square roots, fractions "
